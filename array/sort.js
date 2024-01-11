@@ -1,40 +1,40 @@
 /*************************** Array For Sort method ***************************/
 Array.prototype.customSort = function (compareFunction) {
-    const arrayLength = this.length;
-    if (arrayLength <= 1) {
-      return this;
-    }
-  
-    // Use a default comparison function if none is provided
-    const compare =
-      compareFunction ||
-      function (a, b) {
-        return String(a) - String(b);
-      };
-  
-    let swapped;
-    do {
-      swapped = false;
-      for (let i = 0; i < arrayLength - 1; i++) {
-        if (compare(this[i], this[i + 1]) > 0) {
-          // Swap elements if they are in the wrong order
-          // const temp = this[i];
-          // this[i] = this[i + 1];
-          // this[i + 1] = temp;
-          [this[i], this[i + 1]] = [this[i + 1], this[i]];
-          swapped = true;
-        }
-      }
-    } while (swapped);
+  const arrayLength = this.length;
+  if (arrayLength <= 1) {
     return this;
-  };
+  }
 
-  // Example usage:
+  // Use a default comparison function if none is provided
+  const compare =
+    compareFunction ||
+    function (a, b) {
+      return String(a) - String(b);
+    };
+
+  let swapped;
+  do {
+    swapped = false;
+    for (let i = 0; i < arrayLength - 1; i++) {
+      if (compare(this[i], this[i + 1]) > 0) {
+        // Swap elements if they are in the wrong order
+        // const temp = this[i];
+        // this[i] = this[i + 1];
+        // this[i + 1] = temp;
+        [this[i], this[i + 1]] = [this[i + 1], this[i]];
+        swapped = true;
+      }
+    }
+  } while (swapped);
+  return this;
+};
+
+// Example usage:
 const numbers = [4, 2, 7, 1, 9, 5];
 numbers.customSort();
 console.log(numbers); // Output: [1, 2, 4, 5, 7, 9]
 
-  /**
+/**
  *
   sort() method returns a sorted array from it's calling array.
 
@@ -72,63 +72,61 @@ console.log(numbers); // Output: [1, 2, 4, 5, 7, 9]
 */
 
 Array.prototype.sort = function sort(comparator) {
-    if (comparator == null) {
-      comparator = function(a, b) {
-        if (a < b) {
-          return -1;
+  if (comparator == null) {
+    comparator = function (a, b) {
+      if (a < b) {
+        return -1;
+      }
+
+      if (a > b) {
+        return 1;
+      }
+
+      return 0;
+    };
+  }
+
+  let sortedArray = [...this];
+
+  function recursiveSort(start, end) {
+    if (end - start < 1) {
+      return;
+    }
+
+    const pivot = sortedArray[end];
+    let split = start;
+
+    for (let i = start; i < end; i++) {
+      const compareVaule = comparator(sortedArray[i], pivot);
+
+      if (compareVaule < 0) {
+        if (split != i) {
+          const temp = sortedArray[split];
+          sortedArray[split] = sortedArray[i];
+          sortedArray[i] = temp;
         }
-  
-        if (a > b) {
-          return 1;
-        }
-  
-        return 0;
+
+        split++;
       }
     }
-  
-    let sortedArray = [...this];
-  
-    function recursiveSort(start, end) {
-      if (end - start < 1) {
-        return;
-      }
-  
-      const pivot = sortedArray[end];
-      let split = start;
-  
-      for (let i = start; i < end; i++) {
-        const compareVaule = comparator(sortedArray[i], pivot);
-  
-        if (compareVaule < 0) {
-          if (split != i) {
-            const temp = sortedArray[split];
-            sortedArray[split] = sortedArray[i];
-            sortedArray[i] = temp;
-          }
-  
-          split++;
-        }
-      }
-  
-      sortedArray[end] = sortedArray[split];
-      sortedArray[split] = pivot;
-  
-      recursiveSort(start, split - 1);
-      recursiveSort(split + 1, end);
-    }
-  
-    recursiveSort(0, this.length - 1);
-  
-    return sortedArray;
-  };
 
+    sortedArray[end] = sortedArray[split];
+    sortedArray[split] = pivot;
 
+    recursiveSort(start, split - 1);
+    recursiveSort(split + 1, end);
+  }
 
-  /**************************How to Sort an Array of Objects by Property Values************************ */
+  recursiveSort(0, this.length - 1);
+
+  return sortedArray;
+};
+
+/**************************How to Sort an Array of Objects by Property Values************************ */
 const arrayOfObjects = [
-  { name: 'John', age: 30 },
-  { name: 'Alice', age: 25 },
-  { name: 'Bob', age: 35 }
+  { name: "John", age: 30 },
+  { name: "Alice", age: 25 },
+  { name: "Bob", age: 35 },
 ];
 
 // Sort by the 'age' property in ascending order
@@ -142,93 +140,120 @@ console.log(arrayOfObjects);
 // ]
 /***************************default ****************************************************** */
 let vals = [-3, 3, 0, 1, 5, -1, -2, 8, 7, 6];
-let words = ['sky', 'blue', 'nord', 'cup', 'lemon', 'new'];
+let words = ["sky", "blue", "nord", "cup", "lemon", "new"];
 
 vals.sort();
-console.log(vals.join(' '));
+console.log(vals.join(" "));
 
 words.sort();
-console.log(words.join(' '));
+console.log(words.join(" "));
 
 /****************************descending *************************************************** */
 let vals = [-3, 3, 0, 1, 5, -1, -2, 8, 7, 6];
-let words = ['sky', 'blue', 'nord', 'cup', 'lemon', 'new'];
+let words = ["sky", "blue", "nord", "cup", "lemon", "new"];
 
 vals.sort((a, b) => b - a);
-console.log(vals.join(' '));
+console.log(vals.join(" "));
 
 words.sort((a, b) => {
+  if (a === b) {
+    return 0;
+  }
 
-    if (a === b) {
-        return 0;
-    }
-
-    return b < a ? -1 : 1;
+  return b < a ? -1 : 1;
 });
 
-console.log(words.join(' '));
+console.log(words.join(" "));
 
 /******************************case insensitive*************************** */
 
-let words = ["world", "War", "abbot", "Caesar", "castle", "sky", "den",
-    "forest", "ocean", "water", "falcon", "owl", "rain", "Earth"];
+let words = [
+  "world",
+  "War",
+  "abbot",
+  "Caesar",
+  "castle",
+  "sky",
+  "den",
+  "forest",
+  "ocean",
+  "water",
+  "falcon",
+  "owl",
+  "rain",
+  "Earth",
+];
 
 function icase(e1, e2) {
+  if (e1.toLowerCase() === e2.toLowerCase()) return 0;
 
-    if (e1.toLowerCase() === e2.toLowerCase()) return 0;
-
-    return e1.toLowerCase() < e2.toLowerCase() ? -1 : 1;
+  return e1.toLowerCase() < e2.toLowerCase() ? -1 : 1;
 }
 
 words.sort(icase);
-console.log(words.join(' '));
+console.log(words.join(" "));
 /****************************string length***************************** */
-let words = ['brown', 'war', 'a', 'falcon', 'tradition',
-    'no', 'boot', 'ellipse', 'strength'];
+let words = [
+  "brown",
+  "war",
+  "a",
+  "falcon",
+  "tradition",
+  "no",
+  "boot",
+  "ellipse",
+  "strength",
+];
 
 let bylen = (e1, e2) => e1.length - e2.length;
 let bylendesc = (e1, e2) => e2.length - e1.length;
 
 words.sort(bylen);
-console.log(words.join('\n'));
+console.log(words.join("\n"));
 
 words.sort(bylendesc);
-console.log(words.join('\n'));
-
+console.log(words.join("\n"));
 
 /**************************sort names by surname*************************************** */
-let users = ['John Doe', 'Lucy Smith', 'Benjamin Young', 'Robert Brown', 
-    'Thomas Moore', 'Linda Black', 'Adam Smith', 'Jane Smith'];
+let users = [
+  "John Doe",
+  "Lucy Smith",
+  "Benjamin Young",
+  "Robert Brown",
+  "Thomas Moore",
+  "Linda Black",
+  "Adam Smith",
+  "Jane Smith",
+];
 
 function bysur(n1, n2) {
+  let sname1 = n1.split(" ")[1];
+  let sname2 = n2.split(" ")[1];
 
-    let sname1 = n1.split(' ')[1];
-    let sname2 = n2.split(' ')[1];
-
-    if (sname1 > sname2) return 1;
-    if (sname1 < sname2) return -1;
-    return 0;
+  if (sname1 > sname2) return 1;
+  if (sname1 < sname2) return -1;
+  return 0;
 }
 
 users.sort(bysur);
 console.log(users);
 /***********************sort array of objects*************************** */
 let users = [
-  { fname: 'John', lname: 'Doe', salary: 1230 },
-  { fname: 'Roger', lname: 'Roe', salary: 3130 },
-  { fname: 'Lucy', lname: 'Novak', salary: 670 },
-  { fname: 'Ben', lname: 'Walter', salary: 2050 },
-  { fname: 'Robin', lname: 'Brown', salary: 2300 },
-  { fname: 'Joe', lname: 'Draker', salary: 1190 },
-  { fname: 'Janet', lname: 'Doe', salary: 980 }
+  { fname: "John", lname: "Doe", salary: 1230 },
+  { fname: "Roger", lname: "Roe", salary: 3130 },
+  { fname: "Lucy", lname: "Novak", salary: 670 },
+  { fname: "Ben", lname: "Walter", salary: 2050 },
+  { fname: "Robin", lname: "Brown", salary: 2300 },
+  { fname: "Joe", lname: "Draker", salary: 1190 },
+  { fname: "Janet", lname: "Doe", salary: 980 },
 ];
 
-users.sort((e1, e2) => e1.salary - e2.salary)
+users.sort((e1, e2) => e1.salary - e2.salary);
 console.log(users);
 
-console.log('---------------------');
+console.log("---------------------");
 
-users.sort((e1, e2) => e2.salary - e1.salary)
+users.sort((e1, e2) => e2.salary - e1.salary);
 console.log(users);
 
 /********************** sort by multiple fields********************** */
@@ -240,18 +265,72 @@ let users = [
   { fname: "Amy", lname: "Doe", salary: 1250 },
   { fname: "Joe", lname: "Draker", salary: 1190 },
   { fname: "Janet", lname: "Doe", salary: 980 },
-  { fname: "Albert", lname: "Novak", salary: 1930 }
+  { fname: "Albert", lname: "Novak", salary: 1930 },
 ];
 
 users.sort((e1, e2) => {
-  return e1.lname.localeCompare(e2.lname) || e2.salary - e1.salary
+  return e1.lname.localeCompare(e2.lname) || e2.salary - e1.salary;
 });
 
 console.log(users);
 
 /*********************sort by accented strings************************ */
-const words = ['čaj', 'auto', 'drevo', 'cibuľa', 'čučoriedka', 'banán', 
-    'čerešňa', 'ďateľ', 'červený', 'čierny', 'cesnak'];
+const words = [
+  "čaj",
+  "auto",
+  "drevo",
+  "cibuľa",
+  "čučoriedka",
+  "banán",
+  "čerešňa",
+  "ďateľ",
+  "červený",
+  "čierny",
+  "cesnak",
+];
 
-words.sort(new Intl.Collator('sk').compare);
-console.log(words.join(' '));
+words.sort(new Intl.Collator("sk").compare);
+console.log(words.join(" "));
+
+/*********************************************** */
+interface Student {
+  name: string;
+  id: number;
+}
+
+const students: Student[] = [
+  { name: "Ram", id: 102 },
+  { name: "Shyam", id: 105 },
+  { name: "Aman", id: 103 },
+  { name: "Shri", id: 101 },
+];
+
+// Sort by name in ascending order
+const studentsByNameAscending = students
+  .slice()
+  .sort((a, b) => a.name.localeCompare(b.name));
+
+// Sort by name in descending order
+const studentsByNameDescending = students
+  .slice()
+  .sort((a, b) => b.name.localeCompare(a.name));
+
+// Sort by ID in ascending order
+const studentsByIdAscending = students.slice().sort((a, b) => a.id - b.id);
+
+// Sort by ID in descending order
+const studentsByIdDescending = students.slice().sort((a, b) => b.id - a.id);
+
+console.log("Students sorted by name (ascending):", studentsByNameAscending);
+console.log("Students sorted by name (descending):", studentsByNameDescending);
+console.log("Students sorted by ID (ascending):", studentsByIdAscending);
+console.log("Students sorted by ID (descending):", studentsByIdDescending);
+
+/************************************************** */
+// This is a JavaScript Quiz from BFE.dev
+
+const a = [999, 1111, 111, 2, 0];
+const b = a.sort();
+
+console.log(a);
+console.log(b);

@@ -1,4 +1,3 @@
-
 /*************************** Array For Some method ***************************/
 /**
  *
@@ -22,20 +21,42 @@
 */
 
 Array.prototype.customSome = function (callback, thisArg) {
-    for (let i = 0; i < this.length; i++) {
-      if (callback.call(thisArg, this[i], i, this)) {
-        return true;
-      }
+  for (let i = 0; i < this.length; i++) {
+    if (callback.call(thisArg, this[i], i, this)) {
+      return true;
     }
-    return false;
-  };
-  
-  // Example usage:
-  const numbers = [1, 2, 3, 4, 5];
-  
-  // Check if at least one element is greater than 3
-  const anyGreaterThanThree = numbers.customSome(function (element) {
-    return element > 3;
-  });
-  
-  console.log(anyGreaterThanThree); // Output: true
+  }
+  return false;
+};
+
+// Example usage:
+const numbers = [1, 2, 3, 4, 5];
+
+// Check if at least one element is greater than 3
+const anyGreaterThanThree = numbers.customSome(function (element) {
+  return element > 3;
+});
+
+console.log(anyGreaterThanThree); // Output: true
+
+/****************************** */
+const array = [2, 4, 8, 10];
+let found = false;
+
+array.some(function (element) {
+  if (element === 6 {
+    found = true;
+    return true; // Short-circuits the loop
+  }
+});
+
+console.log("Output: ", found); // false
+
+
+/********************************* */
+const arr = [25, 33, 22, 45, 67, 1, 32, 223];
+
+console.log(arr.some((element) => element > 50));
+console.log(arr.some((element) => element < 40));
+console.log(arr.some((element) => element > 70));
+

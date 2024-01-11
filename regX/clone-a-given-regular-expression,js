@@ -1,0 +1,13 @@
+function cloneRegex(input, outputflag) {
+  var pattern = input.source;
+  const flags = [...new Set(input.flags + outputflag)].join("");
+  // Using RegExp constructor to  for cloning regular expressions,
+  // optionally while modifying flag also.
+  return new RegExp(pattern, flags);
+}
+
+
+d = https://facebook.com
+var regex = new RegExp(d, "i");
+//Passing user data to cloneRegex function with g set as flag.
+var clonedregex = cloneRegex(regex, "g");

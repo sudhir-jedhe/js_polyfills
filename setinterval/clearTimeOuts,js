@@ -1,0 +1,24 @@
+const timers = new Set();
+window.nativeSetTimeout = window.setTimeout;
+window.nativeClearTimeout = window.clearTimeout;
+
+window.clearAllTimeouts = () => {
+  for (const id of timers) {
+    clearTimeout(id);
+  }
+};
+
+window.setTimeout = (cb, time, ...args) => {
+  const cbWrapper = () => {
+    cb(...args);
+    timers.delete(id);
+  };
+  const id = nativeSetTimeout(cbWrapper, time);
+  timers.add(id);
+  return id;
+};
+
+window.clearTimeout = (id) => {
+  nativeClearTimeout(id);
+  timers.delete(id);
+};
