@@ -74,3 +74,61 @@ if (isValidPermutation) {
     "Something went wrong! The shuffled array does not match any of the valid permutations."
   );
 }
+
+/********************************* */
+const random = (max, min = 0) =>
+  Math.floor(Math.random() * (max - min + 1) + min);
+
+// /**
+//  * @param {any[]} arr
+//  * @returns {void}
+//  */
+function shuffle(arr) {
+  for (let i = arr.length - 1; i >= 0; i--) {
+    const rand = random(i);
+
+    [arr[i], arr[rand]] = [arr[rand], arr[i]];
+  }
+}
+
+/***************************************** */
+
+/**
+ * @param {any[]} arr
+ */
+
+function shuffle(arr) {
+  for (let i = arr.length - 1; i > 0; i--) {
+    const randIdx = Math.floor(Math.random() * (i + 1));
+    const storedItem = arr[i];
+    arr[i] = arr[randIdx];
+    arr[randIdx] = storedItem;
+  }
+
+  return arr;
+}
+
+/************************************** */
+function shuffle(arr) {
+  const op = [...arr];
+
+  while (op.length) {
+    const randomIndex = Math.floor(Math.random() * op.length);
+    [arr[op.length - 1], arr[randomIndex]] = [
+      arr[randomIndex],
+      arr[op.length - 1],
+    ];
+    op.splice(0, 1);
+  }
+
+  return arr;
+}
+
+/************************************** */
+export const shuffleArray = (arr) => {
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+};

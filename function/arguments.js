@@ -12,3 +12,10 @@ log(1, 2, 3);
 
 // 1 2 3 undefined
 // bfe 2 3 undefined
+
+function countArgs() {
+  return arguments.length;
+}
+
+console.log(countArgs(1, 2, 3, 4)); // 4
+console.log(countArgs()); // 0

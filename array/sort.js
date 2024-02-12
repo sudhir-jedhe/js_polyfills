@@ -334,3 +334,60 @@ const b = a.sort();
 
 console.log(a);
 console.log(b);
+
+/************************* */
+
+function customSort(compareFn) {
+  // DO NOT REMOVE
+  "use strict";
+  if (!Array.prototype.sort) {
+    Array.prototype.sort = function (compareFunction) {
+      for (let i = 0; i < this.length - 1; i++) {
+        for (let j = 0; j < this.length - i - 1; j++) {
+          if (
+            compareFunction
+              ? compareFunction(this[j], this[j + 1]) > 0
+              : this[j] > this[j + 1]
+          ) {
+            const temp = this[j];
+            this[j] = this[j + 1];
+            this[j + 1] = temp;
+          }
+        }
+      }
+      return this;
+    };
+  }
+
+  // write your code below
+}
+
+Array.prototype.customSort = customSort;
+
+/*********************************** */
+
+function customSort(compareFn) {
+  // DO NOT REMOVE
+  "use strict";
+
+  let len = this.length;
+  // bubble sort // swap the elements if not in correct order - will take atmost len swaps;
+
+  while (len--) {
+    let i = 0;
+    let j = 1;
+    for (; j <= len; i++, j++) {
+      if (compareFn && compareFn(this[i], this[j]) > 0) {
+        [this[i], this[j]] = [this[j], this[i]];
+      } else if (String(this[i]) > String(this[j])) {
+        [this[i], this[j]] = [this[j], this[i]];
+      }
+    }
+  }
+
+  return this;
+}
+
+Array.prototype.customSort = customSort;
+
+/*************************************************** */

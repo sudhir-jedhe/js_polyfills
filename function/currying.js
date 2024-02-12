@@ -211,3 +211,181 @@ function sum(a) {
   sum.total = (sum.total ?? 0) + a;
   return sum;
 }
+
+/********************** */
+function curry(fn) {
+  // Create a closure that stores the arguments that have been passed in so far.
+  let args = [];
+  return function (...newArgs) {
+    // Add the new arguments to the list of arguments.
+    args = args.concat(newArgs);
+    // If the function has enough arguments, call it with all of the arguments.
+    if (args.length === fn.length) {
+      return fn(...args);
+    }
+    // Otherwise, return a new function that takes the remaining arguments.
+    else {
+      return curry(fn)(...args);
+    }
+  };
+}
+const add = (a, b, c) => a + b + c;
+
+const curriedAdd = curry(add);
+
+const addOne = curriedAdd(1);
+
+const addTwo = addOne(2);
+
+const addThree = addTwo(3);
+
+console.log(addThree); // 6
+
+/******************************************** */
+
+// Implement a js function which transforms a function which takes variadic
+// arguments into a function that can be repeatedly called with any number of
+// arguments
+
+function variadic(fn) {
+  return function (...args) {
+    return fn.apply(this, args);
+  };
+}
+
+// This function takes a function fn as an argument and returns a new function which can be called with any number of arguments. The new function will call the original function with the arguments that were passed to it.
+// For example, the following code shows how to use the variadic function to create a function which can be used to add any number of numbers together:
+
+const add = variadic((...args) => {
+  return args.reduce((sum, num) => sum + num, 0);
+});
+
+console.log(add(1, 2, 3, 4, 5)); // 15
+
+const log = variadic(console.log);
+
+log("Hello", "world!");
+
+// The log function can be called with any number of arguments, and it will log
+// all of the arguments to the console. The variadic function is a useful way to
+// create functions which can be called with any number of arguments. This can
+// be helpful for a variety of tasks, such as adding numbers together, logging
+// messages to the console, and more.
+
+/************************* */
+const join = (a, b, c) => {
+  return `${a}_${b}_${c}`;
+};
+
+const curriedJoin = curry(join);
+
+curriedJoin(1, 2, 3); // '1_2_3'
+
+curriedJoin(1)(2, 3); // '1_2_3'
+
+curriedJoin(1, 2)(3); // '1_2_3'
+
+/************************************ */
+// curry() which also supports placeholder.
+const join = (a, b, c) => {
+  return `${a}_${b}_${c}`;
+};
+
+const curriedJoin = curry(join);
+const _ = curry.placeholder;
+
+curriedJoin(1, 2, 3); // '1_2_3'
+
+curriedJoin(_, 2)(1, 3); // '1_2_3'
+
+curriedJoin(_, _, _)(1)(_, 3)(2); // '1_2_3'
+
+/**
+ * @param { Function } func
+ */
+function curry(func) {
+  return function curried(...args) {
+    const complete =
+      args.length >= func.length &&
+      !args.slice(0, func.length).includes(curry.placeholder);
+    if (complete) return func.apply(this, args);
+    return function (...newArgs) {
+      // replace placeholders in args with values from newArgs
+      const res = args.map((arg) =>
+        arg === curry.placeholder && newArgs.length ? newArgs.shift() : arg
+      );
+      return curried(...res, ...newArgs);
+    };
+  };
+}
+
+curry.placeholder = Symbol();
+
+/************************************************ */
+
+/**
+ * @param { Function } func
+ */
+function curry(func) {
+  return function curried(...args) {
+    // we need to return a function to make it curry-able.
+
+    // 1. If the arguments are extra then eliminate them
+    // we don't want to pass 6 arguments when the expected is 3.
+    // it will interfere with our placeholder logic
+    const sanitizedArgs = args.slice(0, func.length);
+
+    // see if placeholder is available in arguments
+    const hasPlaceholder = sanitizedArgs.some(
+      (arg) => arg == curry.placeholder
+    );
+
+    // if no placeholder and arguements are equal to what expected then it is normal function call
+    if (!hasPlaceholder && sanitizedArgs.length == func.length) {
+      return func.apply(this, sanitizedArgs);
+    }
+
+    // else we need to replace placeholders with actual values
+    // we call helper function `mergeArgs` for this
+    // we pass first and next arguments to helper function
+    return function next(...nextArgs) {
+      return curried.apply(this, mergeArgs(sanitizedArgs, nextArgs));
+    };
+  };
+}
+
+function mergeArgs(args, nextArgs) {
+  let result = [];
+
+  // iterate over args (because we need to replace from it)
+  // in each iteration, if we find element == curry.placeholder
+  // then we replace that placeholder with first element from nextArgs
+  // else we put current element
+  args.forEach((arg, idx) => {
+    if (arg == curry.placeholder) {
+      result.push(nextArgs.shift());
+    } else {
+      result.push(arg);
+    }
+  });
+
+  // we merge both, because there might be chance that args < nextArgs
+  return [...result, ...nextArgs];
+}
+
+curry.placeholder = Symbol();
+
+/***************************************** */
+function curry(fn) {
+  return function curried(...args) {
+    return args.length >= fn.length && !args.includes(curry.placeholder)
+      ? fn(...args)
+      : (...args2) =>
+          curried(
+            ...args.map((a) => (a === curry.placeholder ? args2.shift() : a)),
+            ...args2
+          );
+  };
+}
+
+curry.placeholder = Symbol();

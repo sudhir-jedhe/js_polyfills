@@ -1,0 +1,45 @@
+// Solution 2: Count unresolved promises using Promise.then Here's an
+// alternative version which uses Promise.then() if you prefer not to use
+// async/await
+
+/**
+ * @param {Array} iterable
+ * @return {Promise<Array>}
+ */
+export default function promiseAll(iterable) {
+  return new Promise((resolve, reject) => {
+    const results = new Array(iterable.length);
+    let unresolved = iterable.length;
+
+    if (unresolved === 0) {
+      resolve(results);
+      return;
+    }
+
+    iterable.forEach((item, index) => {
+      Promise.resolve(item).then(
+        (value) => {
+          results[index] = value;
+          unresolved -= 1;
+
+          if (unresolved === 0) {
+            resolve(results);
+          }
+        },
+        (reason) => {
+          reject(reason);
+        }
+      );
+    });
+  });
+}
+
+// Once one of the Promise's resolving functions (resolve or reject) is called,
+// the promise is in the "settled" state, and subsequent calls to either
+// function can neither change the fulfillment value or rejection reason nor
+// change the eventual state from "fulfilled" to "rejected" or vice versa.
+
+// Edge Cases
+// Empty input array. An empty array should be returned.
+// If the array contains non-Promise values, they will still be part of the returned array if all the input values are fulfilled.
+// If the outcome is a rejection, the value of the first rejection should be returned.

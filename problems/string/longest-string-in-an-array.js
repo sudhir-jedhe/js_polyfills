@@ -50,3 +50,45 @@ function gfg_Run() {
 
 // Display output
 console.log(gfg_Run());
+
+export const findLongestWord = (sentence) => {
+  if (!sentence) return null;
+  const words = sentence.split(" ");
+
+  let longestWord = null;
+  let longestWordIndex = null;
+
+  words.forEach((word, index) => {
+    if (!longestWord || word.length > longestWord.length) {
+      longestWord = word;
+      longestWordIndex = index;
+    } else if (word.length === longestWord.length && index < longestWordIndex) {
+      longestWord = word;
+      longestWordIndex = index;
+    }
+  });
+
+  return longestWord;
+};
+
+findLongest(["cat", "dog", "elephant"]); // Output: 'elephant'
+findLongest(["apple", "banana", "pear"]); // Output: 'banana'
+findLongest(["", "a", "aa", "aaa"]); // Output: 'aaa'
+findLongest([]); // Output: null
+
+export const findLongest = (array) => {
+  if (array.length === 0) return "";
+  let longest = null;
+  for (let i = 0; i < array.length; i++) {
+    if (longest === null || array[i].length > longest.length) {
+      longest = array[i];
+    }
+  }
+  return longest;
+};
+
+export const findLongest = (array) => {
+  return array.reduce((longest, current) => {
+    return current.length > longest.length ? current : longest;
+  }, "");
+};

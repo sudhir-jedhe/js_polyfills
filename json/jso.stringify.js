@@ -137,3 +137,30 @@ function stringify(data) {
     return `{${arr.join(",")}}`;
   }
 }
+
+const employee = {
+  id: 1,
+  name: "Sudhir",
+  salary: 5000,
+  address: {
+    city: "badlapur",
+    state: "maharashtra",
+    country: "india",
+  },
+};
+
+const spacer = 2 || "xxxx";
+const format = JSON.stringify(employee, null, spacer); // 2 as spaces of indentation as spacer string or number
+console.log(format);
+
+const filters = ["name", "address", "city", "country"];
+
+const filtered = JSON.stringify(employee, filters);
+console.log(filtered);
+
+const doubleSalary = (key, value) => {
+  return key === "salary" ? value * 2 : value;
+};
+
+const result = JSON.stringify(employee, doubleSalary);
+console.log(result);

@@ -1,0 +1,51 @@
+// Implement the js Promise.allSettled() function that resolves to an array of
+// outcomes when all the input elements are either resolved or rejected
+
+// Promise. allSettled() waits for all input promises to settle and returns
+// their outcomes. Settled means either resolved (fulfilled) or rejected. It
+// returns an array of objects with status and value/reason for each input
+// promise. It allows handling successful promises even when some reject.
+function allSettled(promises) {
+  return new Promise((resolve, reject) => {
+    const results = [];
+    let count = promises.length;
+
+    promises.forEach((promise, index) => {
+      promise
+        .then((value) => {
+          results[index] = { status: "fulfilled", value };
+          if (--count === 0) {
+            resolve(results);
+          }
+        })
+        .catch((reason) => {
+          results[index] = { status: "rejected", reason };
+          if (--count === 0) {
+            resolve(results);
+          }
+        });
+    });
+  });
+}
+
+const promise1 = Promise.resolve(1);
+const promise2 = Promise.reject(new Error("2"));
+const promise3 = new Promise((resolve, reject) => {
+  setTimeout(resolve, 100, 3);
+});
+
+const results = Promise.allSettled([promise1, promise2, promise3]);
+
+results.then((results) => {
+  console.log(results); // [
+  //   { status: "fulfilled", value: 1 },
+  //   { status: "rejected", reason: Error("2") },
+  //   { status: "fulfilled", value: 3 }
+  // ]
+});
+
+// In this example, the Promise.allSettled() function will resolve to an array
+// of three objects, one for each of the input promises. The first object will
+// have a status of "fulfilled" and a value of 1. The second object will have a
+// status of "rejected" and a reason of Error("2"). The third object will have a
+// status of "fulfilled" and a value of 3.

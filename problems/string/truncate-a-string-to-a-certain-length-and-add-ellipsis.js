@@ -34,3 +34,11 @@ function truncateString(str, maxLength) {
 let inputString = "This is a Geeks for geeks article";
 let truncatedString = truncateString(inputString, 30);
 console.log(truncatedString);
+
+export const truncateWithEllipsis = (str, n) => {
+  if (str.length <= n) {
+    return str;
+  }
+
+  return str.substring(0, n) + "...";
+};

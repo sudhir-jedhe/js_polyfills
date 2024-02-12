@@ -52,7 +52,6 @@ array.some(function (element) {
 
 console.log("Output: ", found); // false
 
-
 /********************************* */
 const arr = [25, 33, 22, 45, 67, 1, 32, 223];
 
@@ -60,3 +59,27 @@ console.log(arr.some((element) => element > 50));
 console.log(arr.some((element) => element < 40));
 console.log(arr.some((element) => element > 70));
 
+const assets = [
+  {
+    id: 1,
+    title: "v1",
+    type: "video",
+  },
+  {
+    id: 2,
+    title: "v2",
+    type: "video",
+  },
+  {
+    id: 3,
+    title: "v3",
+    type: "audio",
+  },
+];
+
+const hasVideoAssets = assets.find((asset) => asset.type === "video"); // first video find
+console.log(hasVideoAssets, Boolean(hasVideoAssets));
+
+// check occurrence in array
+const isVideo = assets.some((asset) => asset.type === "video");
+console.log(isVideo);

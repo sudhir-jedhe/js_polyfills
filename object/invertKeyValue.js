@@ -53,3 +53,18 @@ console.log(student);
 student = inverse(student);
 console.log("Object after inversion");
 console.log(student);
+
+export const invertObject = (obj) => {
+  return Object.entries(obj).reduce((acc, [key, value]) => {
+    acc[value] = key;
+    return acc;
+  }, {});
+};
+
+export const invertObject = (obj) => {
+  const inverted = {};
+  for (const key in obj) {
+    inverted[obj[key]] = key;
+  }
+  return inverted;
+};

@@ -22,3 +22,25 @@ window.clearTimeout = (id) => {
   nativeClearTimeout(id);
   timers.delete(id);
 };
+
+/********************************************* */
+
+function clearAllTimeouts() {
+  // Get all timeout IDs
+  const timeoutIds = Object.keys(window).filter((key) =>
+    key.startsWith("timeout")
+  );
+
+  // Clear each timeout
+  timeoutIds.forEach((id) => {
+    clearTimeout(window[id]);
+    delete window[id]; // Remove the timeout ID from the window object
+  });
+}
+
+// Set some timeouts
+const timeout1 = setTimeout(() => console.log("Timeout 1"), 1000);
+const timeout2 = setTimeout(() => console.log("Timeout 2"), 2000);
+
+// Clear all timeouts
+clearAllTimeouts();

@@ -25,11 +25,10 @@ implement the following utility functions to determine the types of primitive va
 
 
 export function isBoolean(value) {
-  throw "Not implemented!";
-}
+  return typeof value === 'boolean'
 
 export function isNumber(value) {
-  throw "Not implemented!";
+  return typeof value === 'number' && isFinite(value);
 }
 
 export function isNull(value) {

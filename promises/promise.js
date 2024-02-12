@@ -130,3 +130,306 @@ console.log(5);
 document.body.click();
 
 console.log(6);
+
+/************************************************ */
+// Promise is widely used nowadays, hard to think how we handled Callback Hell in the old times.
+
+// Can you implement a MyPromise Class by yourself?
+
+// At least it should match following requirements
+
+// new promise: new MyPromise((resolve, reject) => {})
+// chaining : MyPromise.prototype.then() then handlers should be called asynchronously
+// rejection handler: MyPromise.prototype.catch()
+// static methods: MyPromise.resolve(), MyPromise.reject().
+// This is a challenging problem. Recommend you read about Promise thoroughly first.
+
+class MyPromise {
+  status = "pending";
+  value;
+  pendingCallbacks = [];
+
+  constructor(executor) {
+    this.resolve = this.resolve.bind(this);
+    this.reject = this.reject.bind(this);
+    try {
+      executor(this.resolve, this.reject);
+    } catch (err) {
+      this.reject(err);
+    }
+  }
+
+  fulFill(onFulfilled) {
+    if (typeof onFulfilled !== "function") {
+      onFulfilled = () => this.value;
+    }
+    try {
+      const fullfilledRet = onFulfilled(this.value);
+      fullfilledRet instanceof MyPromise
+        ? this.replacePromise(fullfilledRet)
+        : (this.value = fullfilledRet);
+    } catch (err) {
+      this.status = "rejected";
+      this.value = err;
+    }
+  }
+
+  rej(onRejected) {
+    if (typeof onFulfilled === "function" && typeof onRejected !== "function")
+      return this;
+    if (typeof onRejected !== "function") {
+      onRejected = () => this.value;
+    }
+    try {
+      const rejectRet = onRejected(this.value);
+      rejectRet instanceof MyPromise
+        ? this.replacePromise(rejectRet)
+        : (this.value = rejectRet);
+      this.status = "fulfilled";
+    } catch (err) {
+      this.status = "rejected";
+      this.value = err;
+    }
+  }
+
+  then(onFulfilled, onRejected) {
+    queueMicrotask(() => {
+      switch (this.status) {
+        case "fulfilled":
+          this.fulFill(onFulfilled);
+          break;
+        case "rejected":
+          if (typeof onRejected === "function") this.rej(onRejected);
+          break;
+        case "pending":
+          this.pendingCallbacks.push({ type: "then", onFulfilled, onRejected });
+          return this;
+      }
+    });
+    return this;
+  }
+
+  catch(onRejected) {
+    queueMicrotask(() => {
+      if (this.status === "rejected") {
+        this.rej(onRejected);
+      } else if (this.status === "pending") {
+        this.pendingCallbacks.push({ type: "catch", onRejected });
+      }
+    });
+    return this;
+  }
+
+  replacePromise(p) {
+    this.pendingCallbacks = p.pendingCallbacks;
+    this.value = p.value;
+    this.status = p.status;
+    for (const key of Object.keys(MyPromise.prototype)) {
+      if (typeof this[key] === "function") {
+        this[key] = this[key].bind(p);
+      }
+    }
+  }
+
+  resolve(value) {
+    this.resolve = () => null;
+    this.status = "fulfilled";
+    this.value = value;
+    for (const { type, onFulfilled, onRejected } of this.pendingCallbacks) {
+      if (type === "then") {
+        this.fulFill(onFulfilled);
+        if (this.status === "rejected") {
+          return this.reject(this.reason);
+        }
+      }
+    }
+    this.pendingCallbacks.length = 0;
+  }
+
+  reject(reason) {
+    this.reject = () => null;
+    this.status = "rejected";
+    this.value = reason;
+    for (const { type, onFulfilled, onRejected } of this.pendingCallbacks) {
+      if (type === "catch") {
+        this.rej(onRejected);
+        if (this.status === "fulfilled") {
+          return this.resolve(this.value);
+        }
+      }
+    }
+    this.pendingCallbacks.length = 0;
+  }
+
+  static resolve(value) {
+    return new MyPromise((res) => res(value));
+  }
+
+  static reject(value) {
+    return new MyPromise((res, rej) => rej(value));
+  }
+}
+
+/***************************************** */
+
+class MyPromise {
+  constructor(executor) {
+    this.state = "pending";
+    this.handlers = [];
+    try {
+      executor(this._resolve.bind(this), this._reject.bind(this));
+    } catch (err) {
+      this._reject(err);
+    }
+  }
+
+  then(onFulfilled, onRejected) {
+    return new MyPromise((resolve, reject) => {
+      this.handlers.push({
+        fulfilled: (value) => {
+          if (typeof onFulfilled !== "function") {
+            resolve(value);
+            return;
+          }
+          try {
+            resolve(onFulfilled(value));
+          } catch (err) {
+            reject(err);
+          }
+        },
+        rejected: (error) => {
+          if (typeof onRejected !== "function") {
+            reject(error);
+            return;
+          }
+
+          try {
+            resolve(onRejected(error));
+          } catch (err) {
+            reject(err);
+          }
+        },
+      });
+
+      this._executeHandlers();
+    });
+  }
+
+  _executeHandlers() {
+    if (this.state === "pending") return;
+    for (const handler of this.handlers) {
+      queueMicrotask(() => {
+        handler[this.state](this.result);
+      });
+    }
+
+    this.handlers = [];
+  }
+
+  _resolve(value) {
+    if (this.state !== "pending") return;
+    if (value instanceof MyPromise) {
+      value.then(this._resolve.bind(this), this._reject.bind(this));
+      return;
+    }
+
+    this.state = "fulfilled";
+    this.result = value;
+    this._executeHandlers();
+  }
+
+  _reject(error) {
+    if (this.state !== "pending") return;
+    this.state = "rejected";
+    this.result = error;
+    this._executeHandlers();
+  }
+
+  catch(onRejected) {
+    return this.then(undefined, onRejected);
+  }
+
+  static resolve(value) {
+    return new MyPromise((resolve) => {
+      resolve(value);
+    });
+  }
+
+  static reject(value) {
+    return new MyPromise((resolve, reject) => {
+      reject(value);
+    });
+  }
+}
+
+/*************************************************** */
+class MyPromise {
+  constructor(executor) {
+    this._state = "pending";
+    this._callbacks = [];
+    try {
+      executor(this._resolve.bind(this), this._reject.bind(this));
+    } catch (err) {
+      this._reject(err);
+    }
+  }
+
+  _resolve(value) {
+    if (this._state !== "pending") return;
+    this._state = "fulfilled";
+    this._result = value;
+    this._handleSettled("onFulfilled");
+  }
+
+  _reject(err) {
+    if (this._state !== "pending") return;
+    this._state = "rejected";
+    this._result = err;
+    this._handleSettled("onRejected");
+  }
+
+  _handleSettled(onSettled) {
+    queueMicrotask(() => {
+      for (const cb of this._callbacks) {
+        try {
+          const returned = cb[onSettled](this._result);
+          if (returned instanceof MyPromise) {
+            returned.then(cb.resolve, cb.reject);
+          } else {
+            cb.resolve(returned);
+          }
+        } catch (err) {
+          cb.reject(err);
+        }
+      }
+    });
+  }
+
+  then(onFulfilled, onRejected) {
+    return new MyPromise((resolve, reject) => {
+      this._callbacks.push({
+        onFulfilled: onFulfilled ?? ((value) => value),
+        onRejected:
+          onRejected ??
+          ((err) => {
+            throw err;
+          }),
+        resolve,
+        reject,
+      });
+    });
+  }
+
+  catch(onRejected) {
+    return this.then(undefined, onRejected);
+  }
+
+  static resolve(value) {
+    if (value instanceof MyPromise) return value;
+    return new MyPromise((res) => res(value));
+  }
+
+  static reject(err) {
+    return new MyPromise((_, rej) => rej(err));
+  }
+}

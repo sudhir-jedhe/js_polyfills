@@ -137,3 +137,108 @@ function sampler(fn, count, context) {
     counter = 0;
   };
 }
+
+/************************** */
+
+function throttle(fn, delay) {
+  let timer = null;
+
+  return function (...args) {
+    if (timer === null) {
+      timer = setTimeout(() => {
+        fn(...args);
+        timer = null;
+      }, delay);
+    }
+  };
+}
+const handleClick = () => {
+  // Do something
+};
+
+const throttledHandleClick = throttle(handleClick, 1000);
+
+// Call the throttled function
+throttledHandleClick();
+
+// Call the throttled function again, but it will not be executed because it has already been called within the last 1000 milliseconds.
+throttledHandleClick();
+
+/********************** */
+/**
+ * @param {Function} func
+ * @param {number} wait
+ */
+function throttle(func, wait) {
+  let timer = null;
+  // Not that this question is slightly different where you have to save the arguments of the
+  // last throttled call
+  let lastArgs = [];
+
+  return function throttledFunc(...args) {
+    // Initial case timer would be null, so this would get invoked
+    if (timer == null) {
+      // Call the underlying function, then setup the timer
+      func.apply(this, args);
+      timer = setTimeout(() => {
+        // If there were throttled calls, run the function post timer
+        // with the saved arguments
+        if (lastArgs.length) {
+          func.apply(this, lastArgs);
+        }
+        // Back to initial condition
+        timer = null;
+        lastArgs = [];
+      }, wait);
+    } else {
+      // Function is throttled, no call, just save the arguments and do nothing else.
+      lastArgs = args;
+      return;
+    }
+  };
+}
+
+//  implement throttle() with leading & trailing option In this problem, you
+// are asked to implement a enhanced throttle() which accepts third parameter,
+// option: {leading: boolean, trailing: boolean}
+
+// leading: whether to invoke right away trailing: whether to invoke after the
+// delay.
+// 4. implement basic throttle() is the default case with {leading: true,
+//    trailing: true}.
+/*********************** */
+
+/**
+ * @param {Function} func
+ * @param {number} wait
+ * @param {boolean} option.leading
+ * @param {boolean} option.trailing
+ */
+function throttle(func, wait, option = { leading: true, trailing: true }) {
+  if (!option.leading && !option.trailing) return () => null;
+  let waiting = false;
+  let lastArgs;
+  let timeoutId = null;
+  const timeoutFn = (context) => {
+    timeoutId = setTimeout(() => {
+      if (option.trailing && lastArgs) {
+        func.apply(context, lastArgs);
+        lastArgs = null;
+        if (timeoutId) timeoutId = null;
+        timeoutFn(context);
+      } else {
+        waiting = false;
+      }
+    }, wait);
+  };
+
+  return function () {
+    if (!waiting) {
+      waiting = true;
+      if (option.leading) func.apply(this, arguments);
+      timeoutFn(this);
+    } else {
+      lastArgs = [...arguments];
+    }
+  };
+}

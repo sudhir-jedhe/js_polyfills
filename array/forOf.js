@@ -4,6 +4,12 @@ for (let word of words) {
   console.log(word);
 }
 
+let letters = "ABCDEF";
+
+for (const letter of letters) {
+  console.log(letter);
+}
+
 let stones = new Map([
   [1, "garnet"],
   [2, "topaz"],

@@ -35,11 +35,13 @@ function memoize(fn) {
   return function () {
     const key = JSON.stringify(arguments);
 
-    // if the caculations have already been done for inputs, return the value from cache
+    // if the caculations have already been done for inputs, return the value
+    // from cache
     if (cache.has(key)) {
       return cache.get(key);
     } else {
-      // call the function with arguments and store the result in cache before returning
+      // call the function with arguments and store the result in cache before
+      // returning
       cache.set(key, fn(...arguments));
       return cache.get(key);
     }
@@ -53,3 +55,64 @@ let factorial = memoize(function fact(value) {
 
 factorial(5); // 120 (output is calculated by calling the function)
 factorial(5); // 120 (output is returned from the cache which was stored from previous calculations)
+
+/********************************** */
+//Implement a js function that returns a memoized version of a function which
+//accepts a single argument
+function memoize(func) {
+  const cache = {};
+
+  return function (arg) {
+    if (cache[arg] === undefined) {
+      cache[arg] = func(arg);
+    }
+
+    return cache[arg];
+  };
+}
+
+const add = (a, b) => a + b;
+
+const memoizedAdd = memoize(add);
+
+console.log(memoizedAdd(1, 2)); // 3
+console.log(memoizedAdd(1, 2)); // 3 (from cache)
+
+/**************************** */
+// JavaScript function that returns a memoized version of a function which
+// accepts any number of arguments:
+function memoize(fn) {
+  const cache = {};
+
+  return function (...args) {
+    const key = JSON.stringify(args);
+    if (cache[key]) {
+      return cache[key];
+    }
+
+    const result = fn(...args);
+    cache[key] = result;
+    return result;
+  };
+}
+
+const memoizedAdd = memoize(add);
+const result1 = memoizedAdd(1, 2);
+const result2 = memoizedAdd(1, 2);
+
+/****************************** */
+/**
+ * @param {Function} func
+ * @param {(args:[]) => string }  [resolver] - cache key generator
+ */
+function memo(func, resolver) {
+  const cache = {};
+
+  return function (...args) {
+    const key = resolver ? resolver(...args) : args.join("_");
+    if (!cache[key]) {
+      cache[key] = func.apply(this, args);
+    }
+    return cache[key];
+  };
+}

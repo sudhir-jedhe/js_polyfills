@@ -31,3 +31,43 @@ var twoSum = function (nums, target) {
     }
   }
 };
+
+/*********************************** */
+export const twoSum = (nums, target) => {
+  const map = new Map();
+
+  for (let i = 0; i < nums.length; i++) {
+    const complement = target - nums[i];
+
+    if (map.has(complement)) {
+      return [map.get(complement), i];
+    }
+
+    map.set(nums[i], i);
+  }
+
+  return [];
+};
+
+/*************************************** */
+export const twoSum = (nums, target) => {
+  const sortedNums = nums.slice().sort((a, b) => a - b);
+  let left = 0,
+    right = sortedNums.length - 1;
+
+  while (left < right) {
+    const sum = sortedNums[left] + sortedNums[right];
+
+    if (sum === target) {
+      const index1 = nums.indexOf(sortedNums[left]);
+      const index2 = nums.indexOf(sortedNums[right], index1 + 1);
+      return [index1, index2];
+    } else if (sum < target) {
+      left++;
+    } else {
+      right--;
+    }
+  }
+
+  return [];
+};

@@ -6,7 +6,20 @@ let employee = {
   ename: "Jack",
   eaddress: "New York",
   salary: 50000,
+  get getName() {
+    return this.ename;
+  },
+  set setName(name) {
+    this.ename = name;
+  },
 };
+
+Object.defineProperty(employee, "ename", {
+  value: "Sagar",
+  configurable: true,
+  writable: true,
+  enumerable: true,
+});
 
 console.log("Employee=> ", employee);
 let newEmployee = employee; // Shallow copy

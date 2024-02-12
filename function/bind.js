@@ -1,3 +1,14 @@
+Function.prototype.myBind = function (...args) {
+  var callback = this,
+    ctx = args.splice(1);
+  return function (...a) {
+    callback.call(args[0], ...[...ctx, ...a]);
+  };
+};
+
+const result2 = printName.myBind(myName, "Palia");
+result2("India");
+
 /***************************custom Bind***************** */
 Function.prototype.myBind = function (context, ...args1) {
   const originalFunction = this;
@@ -36,3 +47,27 @@ if (!Function.prototype.bind) {
     };
   };
 }
+
+/**************************** */
+const objIntro = {
+  name: "rahul",
+  city: "gwalior",
+};
+
+function sayIntro(company, place) {
+  console.log(
+    `name is ${this.name}, place is ${this.city} and company is ${company} and work place is ${place} `
+  );
+}
+
+Function.prototype.myBind = function (context, args) {
+  if (typeof this !== "function") {
+    throw new Error(this, "invalid call");
+  }
+
+  context.fnc = this;
+  return function (...nextargs) {
+    context.fnc(...args, ...nextargs);
+  };
+};
+sayIntro.myBind(objIntro, ["cognizant", "gurgaon"]);
