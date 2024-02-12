@@ -131,3 +131,78 @@ stones2.set(4, "amethyst");
 let stones = new Map([...stones1, ...stones2])
 
 console.log(stones);
+
+
+
+
+class CustomMap {
+  constructor() {
+      this.items = {};
+  }
+
+  set(key, value) {
+      this.items[key] = value;
+  }
+
+  get(key) {
+      return this.has(key) ? this.items[key] : undefined;
+  }
+
+  has(key) {
+      return this.items.hasOwnProperty(key);
+  }
+
+  delete(key) {
+      if (this.has(key)) {
+          delete this.items[key];
+          return true;
+      }
+      return false;
+  }
+
+  clear() {
+      this.items = {};
+  }
+
+  size() {
+      return Object.keys(this.items).length;
+  }
+
+  keys() {
+      return Object.keys(this.items);
+  }
+
+  values() {
+      return Object.values(this.items);
+  }
+
+  entries() {
+      return Object.entries(this.items);
+  }
+
+  forEach(callback) {
+      Object.entries(this.items).forEach(([key, value]) => {
+          callback(value, key, this);
+      });
+  }
+}
+
+// Example usage:
+let map = new CustomMap();
+
+map.set("name", "John");
+map.set("age", 30);
+
+console.log("Map size:", map.size());
+console.log("Map keys:", map.keys());
+console.log("Map values:", map.values());
+console.log("Map entries:", map.entries());
+
+map.forEach((value, key) => {
+  console.log(`Key: ${key}, Value: ${value}`);
+});
+
+map.delete("age");
+
+console.log("Map size after deleting:", map.size());
+console.log("Map has 'age' key:", map.has("age"));

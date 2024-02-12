@@ -1,0 +1,33 @@
+/**
+ * Read FAQs section on the left for more information on how to use the editor
+ **/
+/**
+ * Read FAQs section on the left for more information on how to use the editor
+ **/
+/**
+ * Do not change function name
+ **/
+
+function all(promises) {
+  // write your code here
+  const resolvedPromises = [];
+  let resolvedCount = 0;
+  return new Promise((resolve, reject) => {
+    for (let idx = 0; idx < promises.length; idx++) {
+      console.log(promises[idx]);
+      promises[idx]
+        .then((res) => {
+          resolvedCount++;
+          resolvedPromises.push(res);
+          if (resolvedCount === promises.length) {
+            resolve(resolvedPromises);
+          }
+        })
+        .catch((err) => {
+          reject(err);
+        });
+    }
+  });
+}
+
+Promise.all = all;

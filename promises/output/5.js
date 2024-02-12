@@ -1,0 +1,8 @@
+function init() {
+  throw new Error("I am an error");
+  return Promise.resolve(1);
+}
+
+init()
+  .then((v) => console.log(v + 1))
+  .catch((err) => console.log("Error caught -- ", err));

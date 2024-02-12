@@ -169,3 +169,38 @@ Function.prototype.mycall = function (thisArg, ...args) {
   delete obj[symbol]; //To handle testcase 'thisArg should not be kept unchanged after the call'
   return res;
 };
+
+/************************************ */
+Function.prototype.callPolyfill = function (obj, ...args) {
+  // Check if the first argument is an object
+  if (typeof obj !== "object" && typeof obj !== "function") {
+    throw new TypeError("First argument must be an object or function");
+  }
+
+  // Store a reference to the function
+  const func = this;
+
+  // Set the obj as the 'this' context for the function
+  obj.__temp__ = func;
+
+  // Call the function with the provided context and arguments
+  const result = obj.__temp__(...args);
+
+  // Remove the temporary property from the object
+  delete obj.__temp__;
+
+  // Return the result of the function call
+  return result;
+};
+
+// Example usage:
+const person = {
+  name: "John",
+};
+
+function sayHello(greeting) {
+  return `${greeting}, ${this.name}!`;
+}
+
+const greeting = sayHello.callPolyfill(person, "Hello");
+console.log(greeting); // Output: Hello, John!

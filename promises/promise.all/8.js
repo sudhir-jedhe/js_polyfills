@@ -1,0 +1,22 @@
+function all(promises) {
+  // write your code here
+  let counter = 0;
+  const ret = [];
+  return new Promise((resolve, reject) => {
+    promises.forEach((promise, index) => {
+      promise
+        .then((resolveData) => {
+          counter++;
+          ret[index] = resolveData;
+          if (counter === promises.length) {
+            resolve(ret);
+          }
+        })
+        .catch((err) => {
+          reject(err);
+        });
+    });
+  });
+}
+
+Promise.all = all;

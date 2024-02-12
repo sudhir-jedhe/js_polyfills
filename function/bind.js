@@ -71,3 +71,41 @@ Function.prototype.myBind = function (context, args) {
   };
 };
 sayIntro.myBind(objIntro, ["cognizant", "gurgaon"]);
+
+/************************************************* */
+function customBind(obj, name) {
+  const fn = this;
+  return function () {
+    obj.fn = fn;
+    obj.fn(name);
+    delete obj.fn;
+    return obj;
+  };
+}
+
+Function.prototype.customBind = customBind;
+
+let obj = {
+  firstName: "Affan",
+  lastName: "Khan",
+};
+function ChangeFirstName(name) {
+  this.firstName = "Saif";
+}
+
+let CallChangeName = ChangeFirstName.customBind(
+  obj,
+  prompt("Enter first name to replace")
+);
+console.log(CallChangeName());
+
+/************************************ */
+
+if (!Function.prototype.myBind) {
+  Function.prototype.myBind = function (context, ...rest) {
+    const self = this;
+    return function () {
+      self.call(context, ...rest);
+    };
+  };
+}

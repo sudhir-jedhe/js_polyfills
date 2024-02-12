@@ -52,3 +52,25 @@ array.every(function (el) {
 });
 
 console.log("Output: ", isOdd); // false
+
+const users1 = [
+  { firstName: "John", lastName: "Doe" },
+  { firstName: "Jane", lastName: "Doe" },
+];
+validateObject(users1); // Output: true
+
+const users2 = [{ firstName: "John", lastName: "Doe" }, { lastName: "Doe" }];
+validateObject(users2); // Output: false
+
+export const validateObject = (users) => {
+  return users.every((user) => user?.firstName);
+};
+
+export const validateObject = (users) => {
+  for (let i = 0; i < users.length; i++) {
+    if (!users[i]?.firstName) {
+      return false;
+    }
+  }
+  return true;
+};

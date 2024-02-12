@@ -1,0 +1,1 @@
+https://github.com/yomeshgupta/minimaljs/blob/master/src/minimal.js

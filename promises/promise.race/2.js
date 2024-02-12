@@ -1,0 +1,16 @@
+function race(arr) {
+  // write your code here
+  return new Promise((resolve, reject) => {
+    arr.forEach((promise) => {
+      promise
+        .then((res) => {
+          resolve(res);
+        })
+        .catch((err) => {
+          reject(err);
+        });
+    });
+  });
+}
+
+Promise.race = race;
