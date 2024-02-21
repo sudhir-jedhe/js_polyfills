@@ -1,0 +1,20 @@
+.btn {
+  color: black;
+  font-size: 1rem;
+}
+
+.counter-value {
+  padding: 1rem;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+input {
+  width: 5rem;
+  height: 2rem;
+  font-size: 1rem;
+}
+
+.change {
+  margin: 1rem 0;
+}

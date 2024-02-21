@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="../../helpers/header.js" type="module"></script>
+    <script src="index.js" type="module"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container text-center">
+      <form id="form" class="input-container">
+        <label for="input">Enter a guess between 0 to 100</label><br /><br />
+        <input
+          type="number"
+          id="input"
+          placeholder="Enter a number"
+          autocomplete="off"
+          min="0"
+          max="100"
+          required
+          autofocus
+        />
+
+        <div>
+          <input type="submit" id="submit" class="btn btn-primary" value="Submit" />
+          <button type="button" id="startGame" class="btn btn-primary" disabled>Start Game</button>
+        </div>
+
+        <div>
+          <p><output id="output"></output></p>
+          <p><output id="guessDisplay"></output></p>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

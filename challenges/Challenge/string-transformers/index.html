@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="../../helpers/header.js" type="module"></script>
+    <script src="index.js" type="module"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container text-center">
+      <form>
+        <input
+          type="text"
+          id="userInput"
+          autocomplete="off"
+          placeholder="enter the sentence with spaces (alphanumeric)"
+          value="this is a normal sentence to transform"
+        />
+      </form>
+
+      <div class="transformers">
+        <div><label>Lower Case</label><span id="lowercase"></span></div>
+        <div><label>Upper Case</label><span id="uppercase"></span></div>
+        <div><label>Camel Case</label><span id="camelcase"></span></div>
+        <div><label>Pascal Case</label><span id="pascalcase"></span></div>
+        <div><label>Snake Case</label><span id="snakecase"></span></div>
+        <div><label>Kebab Case</label><span id="kebabcase"></span></div>
+        <div><label>Trim</label><span id="trim"></span></div>
+      </div>
+    </div>
+  </body>
+</html>

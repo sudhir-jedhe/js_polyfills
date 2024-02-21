@@ -29,3 +29,23 @@ console.log(results); // [2, 4, 6]
 // be used to map any array of items to an array of results, even if the mapping
 // function is asynchronous. This can be useful for tasks such as fetching data
 // from a remote server or performing other asynchronous operations.
+
+async function mapAsync(array, mapper) {
+  // Use Promise.all to asynchronously map each value in the array
+  const mappedValues = await Promise.all(array.map(mapper));
+  return mappedValues;
+}
+// Example async mapping function
+async function asyncMapper(value) {
+  return value * 2; // Perform some async operation
+}
+
+// Example usage of mapAsync
+const array = [1, 2, 3, 4, 5];
+mapAsync(array, asyncMapper)
+  .then((mappedArray) => {
+    console.log(mappedArray); // Output: [2, 4, 6, 8, 10]
+  })
+  .catch((error) => {
+    console.error(error);
+  });
