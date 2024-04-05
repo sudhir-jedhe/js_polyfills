@@ -66,3 +66,48 @@ function is(a, b) {
 
   return a === b;
 }
+
+Object.is = function (x, y) {
+  // If both x and y are the same object, return true.
+  if (x === y) {
+    return true;
+  }
+
+  // If either x or y is null or undefined, return false.
+  if (x == null || y == null) {
+    return false;
+  }
+
+  // If x and y are of different types, return false.
+  if (typeof x !== typeof y) {
+    return false;
+  }
+
+  // If x and y are both NaN, return true.
+  if (isNaN(x) && isNaN(y)) {
+    return true;
+  }
+
+  // If x and y are both objects, compare their properties recursively.
+  if (typeof x === "object") {
+    for (var key in x) {
+      if (!Object.is(x[key], y[key])) {
+        return false;
+      }
+    }
+
+    for (var key in y) {
+      if (!Object.is(x[key], y[key])) {
+        return false;
+      }
+    }
+
+    return true;
+  }
+
+  // Otherwise, return false.
+  return false;
+};
+
+Object.is(NaN, NaN); // true
+Object.is({}, {}); // false

@@ -73,3 +73,38 @@ const subtract = (y) => (x) => x - y;
 const divide = (y) => (x) => x / y;
 
 pipe([times(2), subtract(3), divide(4)]);
+
+/************************** */
+// accept functions as arguments
+// using rest ... operator convert then to array
+const pipe = function (...fns) {
+  // form a closure with inner function
+  return function (val) {
+    // run the value through all the functions
+    for (let f of fns) {
+      val = f(val);
+    }
+
+    // return the value after last processing
+    return val;
+  };
+};
+
+
+Input:
+const getSalary = (person) => person.salary
+const addBonus = (netSalary) => netSalary + 1000;
+const deductTax = (grossSalary) => grossSalary - (grossSalary * .3);
+
+const val = { salary: 10000 };
+
+const result = pipe(
+  getSalary,
+  addBonus,
+  deductTax 
+)({ salary: 10000 });
+
+console.log(result);
+
+Output:
+7700

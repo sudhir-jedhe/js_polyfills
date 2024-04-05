@@ -1,6 +1,19 @@
+// The for-loop is a commonly used iteration syntax in javascript. It has both pros and cons
+
+// #### Pros
+
+// 1. Works on every environment
+// 2. You can use break and continue flow control statements
+
+// #### Cons
+
+// 3. Too verbose
+// 4. Imperative
+// 5. You might face one-by-off errors
+
 let words = ["pen", "pencil", "falcon", "rock", "sky", "earth"];
 
-for (let i = 0; i < words.length; i++) {
+wordArrayloop: for (let i = 0; i < words.length; i++) {
   console.log(words[i]);
 }
 

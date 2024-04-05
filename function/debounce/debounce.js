@@ -124,3 +124,64 @@ function debounce(func, wait, option = { leading: false, trailing: true }) {
     }, wait);
   };
 }
+
+/****************************** */
+
+function debounce(func, delay) {
+  // write your code here
+  let timer;
+  let that = this;
+  return (...ars) => {
+    if (timer) {
+      clearTimeout(timer);
+    }
+    timer = setTimeout(function () {
+      func.apply(that, ars);
+    }, delay);
+  };
+}
+
+/************************************************ */
+
+function debounce(func, delay) {
+  // write your code here
+
+  let isCalled = false;
+
+  const debouncedFunc = () => {
+    console.log("is called is ", isCalled);
+    if (!isCalled) {
+      func();
+      isCalled = true;
+      setTimeout(() => {
+        isCalled = false;
+      }, delay * 1000);
+    }
+  };
+
+  return debouncedFunc;
+}
+
+var callback = function() { ... };
+var throttled = debounce(callback, 3);
+
+for (let i = 0; i < 5; i++) {
+  throttled();
+}
+
+// assert.equal(callback.calledOnce, true);
+// Callback should be called only once. Don
+
+/******************************** */
+
+function debounce(func, delay) {
+  // write your code here
+  let timeout;
+    return (...args) => {
+      const context = this;
+      clearTimeout(timeout);
+      timeout = setTimeout(() => {
+        func.apply(context, args);
+      }, delay);
+    };
+}

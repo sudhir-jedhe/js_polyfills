@@ -17,3 +17,39 @@ export const getFibonacciNth = (n) => {
     return result[result.length - 1];
   }
 };
+
+let fibonacci = (num) => {
+  //initalize
+  let a = 0;
+  let b = 1;
+
+  //to store the sum
+  let c = 0;
+
+  //iterate till the given num
+  for (let i = 2; i <= num; i++) {
+    //sum of last two numbers
+    c = a + b;
+
+    //assign the last value to first
+    a = b;
+
+    //assign the sum to the last
+    b = c;
+  }
+
+  //if the num is 0 then return a else return b;
+  return num ? b : a;
+};
+
+let fibonacci = (num) => {
+  if (num < 2) {
+    return num;
+  }
+
+  return fibonacci(num - 1) + fibonacci(num - 2);
+};
+
+let fibonacci = (num) => {
+  return num < 2 ? num : fibonacci(num - 1) + fibonacci(num - 2);
+};

@@ -1,67 +1,3 @@
-1. Show the different ways of creating an array
-Arrays are the collection of values in javascript. Array is a special type of object in JavaScript
-Arrays values are indexed from 0 and have special property length which stores the count of elements present in array
-// literal form
-const arr = [];
-
-// consturctor form
-const arr = new Array();
-
-// pre defined number of slots
-const arr = new Array(10);
-
-// with values
-const arr = [1, true, "string"];
-
-// constructor form with values
-const arr = new Array(1, true, "string");
-
-References
-
-https://javascript.info/array
-2. Write a program to iterate over an array and print all the values of it
-Arrays can be iterated by using its index to fetch the values
-Arrays also can be iterated with for each style loops
-for (let i = 0; i < arr.length; i++) {
-  console.log(arr[i]);
-}
-
-for (let index in arr) {
-  console.log(arr[index]);
-}
-
-for (let value of arr) {
-  console.log(value);
-}
-
-arr.forEach((val) => console.log(val));
-
-3. Write a program to append and prepend, single or multiple values in to an array
-Values to the array can be appended using push method of array
-Values to the array can be prepended using unshift method of array
-const arr = [2, 3];
-arr.push(4); // [2, 3, 4]
-arr.unshift(1); // [1, 2, 3, 4]
-
-const arr = [3, 4];
-arr.push(5, 6); // [3, 4, 5, 6]
-arr.unshift(1, 2); // [1, 2, 3, 4, 5, 6]
-
-const arr = [1, 2, 3];
-const otherArr = [4, 5, 6];
-arr.push(...otherArr); // [1, 2, 3, 4, 5, 6]
-arr.unshift(...otherArr); // [4, 5, 6, 1, 2, 3, 4, 5, 6]
-
-Notes
-
-To remove the elements from the end of the array pop operation can be used but one element at a time. To remove the elements from the start of the array shift operation can be used but one element at a time
-
-References
-
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift
 4. Show insertion and removal of elements can happen in the array for given index
 Values of the array can be removed from any position using splice method of array
 Values of the array can also be inserted to any position using splice method of array
@@ -123,23 +59,7 @@ Notes
 
 typeof operator cannot be used to check if a value is an array or not because array is an object and typeof arr returns us "object"
 
-References
 
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray
-7. Show how an array in JavaScript can act like a stack and queue
-Stack is a 'Last In First Out' data structure can be achieved using push and pop operations
-Queue is a 'First In First Out' data structure can be achieved using push and shift operations
-// To add the value to the stack
-arr.push(value);
- 
-// To remove the value from the stack
-arr.pop();
-
-// To add the value to the queue
-arr.push(value);
- 
-// To remove the value from the queue
-arr.shift();
 
 8. Create an array by removing all the holes of the array
 Holes are undefined value present inside array
@@ -176,32 +96,8 @@ browserList.includes(browser);
 const browserList = ["chrome", "firefox", "IE", "safari"];
 !browserList.includes(browser);
 
-Notes
 
-Generally this use case can be implemented for if conditions
 
-10. Write a program to iterate over a 2 dimensional array and print all the values of it
-Arrays can be iterated by using its index to fetch the values
-Arrays also can be iterated with for each style loops, with one loop to iterate the rows and inside it for cells
-for (let i = 0; i < arr.length; i++) {
-  for (let j = 0; j < arr[i].length; j++) {
-    console.log(arr[i][j]);
-  }
-}
-
-for (let i = 0; i < arr.length; i++) {
-  for (let j = 0; j < arr[i].length; j++) {
-    console.log(arr[i][j]);
-  }
-}
-
-for (let rowArr of arr) {
-  for (let value of rowArr) {
-    console.log(value);
-  }
-}
-
-arr.forEach((rowArr) => rowArr.forEach((val) => console.log(val)));
 
 11. Write a program to store values in to a set
 Set lets us store unique values of any type
@@ -276,67 +172,3 @@ map.set(() => {}, "Mapped to a function"); // function as key
 Notes
 
 Maps perform better than objects in most of the scenarios involving addition and removal of keys
-
-16. Write a program to polyfill filter functionality of the Array
-filter iterates over the all values of array and passes value, index and array (itself) as the arguments
-Function returns a new array which filtering the values of the original array
-if (!Array.prototype.filter) {
-  Array.prototype.filter = function (callback) {
-    if (typeof callback !== "function")
-      throw new Error("Argument passed has to be a function");
- 
-    let newArray = [];
- 
-    for (let index in this) {
-      if (callback(this[index], index, this)) {
-        newArray.push(this[index]);
-      }
-    }
-    return newArray;
-  };
-}
-
-Notes
-
-The solution is a simple polyfill of filter and not intended to handle all the corner scenarios
-
-17. Write a program to polyfill map functionality of the Array
-map iterates over the all values of array and passes value, index and array (itself) as the arguments
-Function returns a new array which is same as the length of the original array
-if (!Array.prototype.map) {
-  Array.prototype.map = function (callback) {
-    if (typeof callback !== "function")
-      throw new Error("Argument passed has to be a function");
- 
-    let newArray = [];
- 
-    for (let index in this) {
-      newArray.push(callback(this[index], index, this));
-    }
-    return newArray;
-  };
-}
-
-Notes
-
-The solution is a simple polyfill of map and not intended to handle all the corner scenarios
-
-18. Write a program to polyfill reduce functionality of the Array
-reduce iterates over the all values of array and passes value, index and array (itself) as the arguments
-reduce accepts an optional initial value which when not provided can be skipped
-Function returns a single value after all the iteration
-if (!Array.prototype.reduce) {
-  Array.prototype.reduce = function (callback, init) {
-    let startPosition = 0;
-    let accumulator = init ?? this[startPosition++];
- 
-    for (let index = startPosition; index < this.length; index++) {
-      accumulator = callback(accumulator, this[index], index, this);
-    }
-    return accumulator;
-  };
-}
-
-Notes
-
-The solution is a simple polyfill of reduce and not intended to handle all the corner scenarios

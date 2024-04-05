@@ -133,3 +133,39 @@ function parseJSON(input) {
       .map((x) => parse(x));
   }
 }
+
+/************************************ */
+function parseJSON(str) {
+  // Check if the string is empty.
+  if (str === "") {
+    return null;
+  }
+
+  // Check if the string is a valid JSON string.
+  try {
+    JSON.parse(str);
+  } catch (e) {
+    return null;
+  }
+
+  // Create a new object to store the parsed JSON data.
+  const obj = {};
+
+  // Split the string into an array of key-value pairs.
+  const pairs = str.split(",");
+
+  // Iterate over the key-value pairs and add them to the object.
+  for (const pair of pairs) {
+    const [key, value] = pair.split(":");
+
+    // Remove the quotes from the key and value.
+    key = key.replace(/"/g, "");
+    value = value.replace(/"/g, "");
+
+    // Add the key-value pair to the object.
+    obj[key] = value;
+  }
+
+  // Return the parsed JSON object.
+  return obj;
+}

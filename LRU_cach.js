@@ -479,3 +479,161 @@ Here I mostly spoke of typed arrays to implement fixed-capacity pointer system. 
 To do so, you can use dynamic typed arrays like mnemonist’s Vector. They are sometimes more efficient than vanilla JavaScript arrays when handling numbers and will let you implement what you need.
 
 I am unsure whether having a custom dynamic pointer system would yield any performance improvement when implementing some other data structure however.
+
+
+/********************************************* */
+
+class Node {
+  constructor(key, val) {
+      this.key = key;
+      this.val = val;
+      this.prev = null;
+      this.next = null;
+  }
+}
+
+const LRUCache = function(cap) {
+  this.cap = cap;
+  this.count = 0;
+  this.head = null;
+  this.tail = null;
+  this.cache = new Map();
+  
+  //Returns the value of the given key
+  this.get = function(key) {
+      if (!this.cache.has(key)) {
+          return -1;
+      }
+
+      const node = this.cache.get(key);
+      this.use(key);
+      return node.val;
+  };
+  
+  //Adds new item in the list
+  this.put = function(key, val) {
+    if (this.cache.has(key)) {
+        const node = this.cache.get(key);
+        node.val = val;
+        this.use(key);
+        this.cache.set(key, node);
+    } else {
+        if (this.count >= this.cap) {
+            this.evict();
+        }
+
+        this.insert(key, val);
+        this.use(key); // may not be needed
+    }
+};
+
+//Uses the cache with given key and marks it as most recently used
+this.use = function(key) {
+    const node = this.cache.get(key);
+
+    if (node === this.head) {
+        return;
+    } else if (node === this.tail) {
+        node.prev.next = null;
+        this.tail = node.prev;
+        node.prev = null;
+        node.next = this.head;
+        this.head.prev = node;
+        this.head = node;
+    } else {
+        if (node.prev) {
+            node.prev.next = node.next;
+        }
+        if (node.next) {
+            node.next.prev = node.prev;
+        }
+
+        node.next = this.head;
+        node.prev = null;
+        this.head.prev = node;
+        this.head = node;
+    }
+};
+
+//Removes the least recent used cache
+this.evict = function() {
+    const keyToEvict = this.tail ? this.tail.key : null;
+
+    if (!this.tail) {
+        return;
+    } else if (this.head === this.tail) {
+        this.head = null;
+        this.tail = null;
+    } else {
+        this.tail.prev.next = null;
+        this.tail = this.tail.prev;
+    }
+
+    if (keyToEvict) {
+        this.count--;
+        this.cache.delete(keyToEvict);
+    }
+};
+
+//Helper function to add new cache in the queue
+this.insert = function(key, val) {
+    const node = new Node(key, val);
+    this.count++;
+    this.cache.set(key, node);
+
+    if (!this.head) {
+        this.head = node;
+        this.tail = node;
+    } else {
+        this.head.prev = node;
+        node.next = this.head;
+        this.head = node;
+    }
+};
+
+//Display the list
+this.display = function(){
+  let current = this.head;
+  while(current){
+    console.log(current.key, current.val);
+    current = current.next;
+  }
+}
+};
+
+Input:
+const lru = new LRUCache(4);
+lru.put(1, 'a');
+lru.put(2, 'b');
+lru.put(3, 'c');
+lru.put(4, 'd');
+lru.display();
+lru.use(2);
+lru.display();
+
+Output:
+//LRU
+4 "d"
+3 "c"
+2 "b"
+1 "a"
+
+//After using 2
+
+2 "b"
+4 "d"
+3 "c"
+1 "a"
+
+
+We use two data structures to implement an LRU Cache.
+
+Queue: which is implemented using a doubly-linked list. The most recently used items will be near the front end and the least recent pages will be near the rear end.
+HashMap: With item / page number as key and address of the corresponding queue node as value.
+Following is the list of operations that will be formed on the LRU cache.
+
+get: Returns the cache value for the given item / page number.
+put: Adds a new value in the cache.
+use: Uses one of the existing values and re-arranges the cache by marking the used one as most recently one.
+evict: Removes a value from the cache.
+Insert: A helper function to add value in cache while performing put

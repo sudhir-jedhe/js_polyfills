@@ -24,3 +24,15 @@ console.log(sameStrings("Geeks", "Geeks"));
 //   );
 // };
 // console.log(sameString("geeks", "geeks"));
+
+let a = "2";
+let b = 2;
+let c = "2";
+
+console.log(a.localeCompare(b));
+console.log(a.localeCompare(c));
+
+
+0: If both the strings are equal.
+1: If first string is smaller than second string in sorted order.
+-1: It it is greater than second string.

@@ -1,10 +1,16 @@
+// You can use the JavaScript typeof operator to find the type of a JavaScript variable. It returns the type of a variable or an expression.
+
+typeof "John Abraham"; // Returns "string"
+typeof (1 + 2); // Returns "number"
+typeof [1, 2, 3]; // Returns "object" because all arrays are also objects
+
 const a = "BFE.dev";
+
 if (!typeof a === "string") {
   console.log("string");
 } else {
   console.log("not a string");
 }
-
 /************************************************ */
 
 implement the following utility functions to determine the types of primitive values.
@@ -15,6 +21,56 @@ implement the following utility functions to determine the types of primitive va
 // isString(value): Return true if value is a String, else false.
 // isSymbol(value): Return true if value is a Symbol primitive, else false.
 // isUndefined(value): Return true if value is undefined, else false.
+
+
+
+
+function type(value) {
+  if (value === null) {
+    return "null";
+  } else if (typeof value === "undefined") {
+    return "undefined";
+  } else if (Array.isArray(value)) {
+    return "array";
+  } else if (value instanceof Date) {
+    return "date";
+  } else if (value instanceof RegExp) {
+    return "regexp";
+  } else if (typeof value === "function") {
+    return "function";
+  } else if (typeof value === "object") {
+    return "object";
+  } else {
+    return typeof value;
+  }
+}
+
+const a = 1;
+console.log(type(a)); // "number"
+
+const b = "hello";
+console.log(type(b)); // "string"
+
+const c = true;
+console.log(type(c)); // "boolean"
+
+const d = [1, 2, 3];
+console.log(type(d)); // "array"
+
+const e = new Date();
+console.log(type(e)); // "date"
+
+const f = function() {};
+console.log(type(f)); // "function"
+
+const g = {};
+console.log(type(g)); // "object"
+
+const h = null;
+console.log(type(h)); // "null"
+
+const i = undefined;
+console.log(type(i)); // "undefined"
 
 
 
@@ -75,3 +131,11 @@ export function isObject(value) {
 export function isPlainObject(value) {
   throw 'Not implemented!';
 }
+
+/********************** */
+
+function typeOf(obj) {
+  return Object.prototype.toString().call(obj).match(/\s([a-zA-Z])+)/)[1].lowercase()
+}
+
+typeOf('dsfsdf')

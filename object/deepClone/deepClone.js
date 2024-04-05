@@ -1,4 +1,44 @@
 
+function deepCopy(value) {
+  const seen = new WeakMap(); // To track already copied objects
+
+  function _copy(value) {
+    if (typeof value !== 'object' || value === null) {
+      return value; // Primitive types - return directly
+    }
+
+    if (seen.has(value)) {
+      return seen.get(value);  // Circular reference detected
+    }
+
+    const copy = Array.isArray(value) ? [] : {};
+    seen.set(value, copy); // Mark the original as seen
+
+    for (const key in value) {
+      if (value.hasOwnProperty(key)) { 
+        copy[key] = _copy(value[key]); // Recursively copy nested properties 
+      }
+    }
+
+    return copy;
+  }
+
+  return _copy(value);
+}
+
+
+const circularObject = {
+  a: 1,
+  b: {},
+};
+circularObject.b.c = circularObject; // Create a circular reference
+
+const deepCopiedObject = deepCopy(circularObject); 
+
+console.log(deepCopiedObject); 
+console.log(deepCopiedObject === circularObject);  // false 
+console.log(deepCopiedObject.b.c === deepCopiedObject);  // tru
+
 
 /************************************************************** */
 const isObject = (data) => typeof data === "object";
@@ -70,3 +110,30 @@ const clone(input) {
   }), initialValue
 
 }
+
+
+
+/**
+ * @template T
+ * @param {T} value
+ * @return {T}
+ */
+export default function deepClone(value) {
+  if (typeof value !== 'object' || value === null) {
+    return value;
+  }
+
+  if (Array.isArray(value)) {
+    return value.map((item) => deepClone(item));
+  }
+
+  return Object.fromEntries(
+    Object.entries(value).map(([key, value]) => [key, deepClone(value)]),
+  );
+}
+
+
+export default function deepClone(value) {
+  return JSON.parse(JSON.stringify(value));
+}
+

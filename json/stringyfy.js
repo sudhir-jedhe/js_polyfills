@@ -282,3 +282,30 @@ function stringify(data) {
   }
   return `${data}`; // Catch all
 }
+
+/************************************************** */
+
+function stringify(value) {
+  if (typeof value === "string") {
+    return '"' + value + '"';
+  } else if (typeof value === "number") {
+    return value;
+  } else if (typeof value === "boolean") {
+    return value;
+  } else if (Array.isArray(value)) {
+    return "[" + value.map(stringify).join(",") + "]";
+  } else if (typeof value === "object") {
+    var keys = Object.keys(value);
+    var result = "{";
+    for (var i = 0; i < keys.length; i++) {
+      var key = keys[i];
+      var val = value[key];
+      result += '"' + key + '":' + stringify(val) + ",";
+    }
+    result = result.substring(0, result.length - 1);
+    result += "}";
+    return result;
+  } else {
+    return null;
+  }
+}

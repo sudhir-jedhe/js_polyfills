@@ -19,3 +19,23 @@ function countArgs() {
 
 console.log(countArgs(1, 2, 3, 4)); // 4
 console.log(countArgs()); // 0
+
+function getNumArgs() {
+  // The arguments object is a built-in object available within all non-arrow functions.
+  // It contains an array-like collection of arguments passed to the function.
+  // We use its length property to get the number of arguments.
+  return arguments.length;
+}
+
+console.log(getNumArgs(1, 2, 3)); // Output: 3
+console.log(getNumArgs()); // Output: 0
+
+function getNumArgs(...args) {
+  // The rest parameter (...) allows us to capture an indefinite number of arguments
+  // as an array named 'args' in this case.
+  // We can then use the length property of the 'args' array to get the number of arguments.
+  return args.length;
+}
+
+console.log(getNumArgs(1, 2, 3)); // Output: 3
+console.log(getNumArgs()); // Output: 0

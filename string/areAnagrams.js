@@ -1,6 +1,7 @@
 areAnagrams("cinema", "iceman"); // Output: true
 areAnagrams("restful", "fluster"); // Output: true
 areAnagrams("hello", "world"); // Output: false
+areAnagrams("eat", "ate"); // Output: false
 
 export const areAnagrams = (strOne, strTwo) => {
   strOne = strOne.toLowerCase();

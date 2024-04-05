@@ -44,3 +44,61 @@ const flattenObj = (ob) => {
 };
 
 console.log(flattenObj(ob));
+
+/************************* */
+
+function squashObject(inputObject, parentKey = "") {
+  const outputObject = {};
+
+  for (const key in inputObject) {
+    const newKey = parentKey ? `${parentKey}.${key}` : key;
+
+    if (
+      typeof inputObject[key] === "object" &&
+      !Array.isArray(inputObject[key])
+    ) {
+      // If the value is an object, recursively flatten it
+      Object.assign(outputObject, squashObject(inputObject[key], newKey));
+    } else {
+      // Otherwise, directly assign the value
+      outputObject[newKey] = inputObject[key];
+    }
+  }
+
+  return outputObject;
+}
+
+const nestedObject = {
+  a: 1,
+  b: {
+    c: 2,
+    d: {
+      e: 3,
+    },
+  },
+};
+
+const squashedObject = squashObject(nestedObject);
+console.log(squashedObject); // Output: { a: 1, 'b.c': 2, 'b.d.e': 3 }
+
+/****************** */
+
+function squashObject(obj) {
+  return Object.assign(
+    {},
+    ...Object.keys(obj).map((k) =>
+      typeof obj[k] === "object" ? squashObject(obj[k]) : { [k]: obj[k] }
+    )
+  );
+}
+
+/**************************** */
+
+function squashObject(obj) {
+  return Object.keys(obj).reduce((acc, key) => {
+    const value = obj[key];
+    return typeof value === "object"
+      ? { ...acc, ...squashObject(value) }
+      : { ...acc, [key]: value };
+  }, {});
+}

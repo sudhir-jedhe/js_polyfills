@@ -53,3 +53,47 @@ read(collection, "a.b.c.d.e");
 
 // should return undefined
 read(collection, "a.b.c.f");
+
+/******************************* */
+const get = (obj, path) => {
+  // replace the square brackets with the period operator
+  path = path.replaceAll("[", ".");
+  path = path.replaceAll("]", "");
+
+  // split the keys and get it filtered on the truthy values
+  const keys = path.split(".").filter(Boolean);
+
+  // create a reference of the input object
+  let current = obj;
+
+  // traverse the key
+  for (let key of keys) {
+    current = current[key];
+
+    // if an invalid key
+    // return undefined
+    if (current === undefined) {
+      return undefined;
+    }
+  }
+
+  // return the value
+  return current;
+};
+
+Input: console.log(get({ developer: "Software Engineer" }, "developer"));
+console.log(
+  get(
+    { developer: { firstName: "Tom", lastName: "Cruz" } },
+    "developer.lastName"
+  )
+);
+console.log(get([{ developer: "Tom" }, { count: [0, 1] }], "[1].count[0]"));
+console.log(get([{ developer: "Tom" }, [0, null]], "[1][1]"));
+console.log(get([{ developer: "Tom" }, [0, null]], "[1][3]"));
+
+Output: "Software Engineer";
+("Cruz");
+("0");
+null;
+undefined;

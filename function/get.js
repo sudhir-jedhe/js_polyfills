@@ -152,3 +152,22 @@ export const get = (key, object) => {
 
   return undefined;
 };
+
+function get(object, path, defaultValue) {
+  const pathArray = Array.isArray(path)
+    ? path
+    : path.split(".").filter((key) => key);
+  const pathArrayFlat = pathArray.flatMap((part) =>
+    typeof part === "string" ? part.split(".") : part
+  );
+
+  let currentObject = object;
+  for (const part of pathArrayFlat) {
+    if (!currentObject || !currentObject.hasOwnProperty(part)) {
+      return defaultValue;
+    }
+    currentObject = currentObject[part];
+  }
+
+  return currentObject;
+}

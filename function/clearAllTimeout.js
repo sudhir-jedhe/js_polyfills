@@ -67,3 +67,53 @@ window.setTimeout = (callback, delay) => {
 const clearAllTimeout = () => {
   timeoutIds.forEach((id) => window.clearTimeout(id));
 };
+
+/********************************** */
+
+const timers = [];
+
+(() => {
+  const setTimeoutCopy = setTimeout;
+
+  const mySetTimeout = (cb, timer) => {
+    const timeoutID = setTimeoutCopy(() => {
+      cb();
+    }, timer);
+    timers.push(timeoutID);
+    return timeoutID;
+  };
+  setTimeout = mySetTimeout;
+})();
+
+const clearAllTimeout = () => {
+  timers.forEach((timeoutID) => clearTimeout(timeoutID));
+};
+console.log("start");
+setTimeout(() => {
+  console.log("One");
+}, 4000);
+setTimeout(() => {
+  console.log("Two");
+}, 5000);
+setTimeout(() => {
+  console.log("Three");
+}, 6000);
+setTimeout(() => {
+  console.log("Four");
+}, 7000);
+console.log("Finished");
+// removes all the timers set above
+clearAllTimeout();
+console.log("Discarded");
+
+// setTimeout is a commonly used method in frontend development to set a timer that executes a function or specified piece of code once the timer expires.
+
+// The aim of this question is to implement a clearAllTimeout method that clears all the active timers set by setTimeout.
+
+// setTimeout(() => {console.log("One")}, 4000);
+// setTimeout(() => {console.log("Two")}, 5000);
+// setTimeout(() => {console.log("Three")}, 6000);
+// setTimeout(() => {console.log("Four")}, 7000);
+
+// // removes all the timers set above
+// clearAllTimeout();

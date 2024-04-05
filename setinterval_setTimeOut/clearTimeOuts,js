@@ -1,0 +1,63 @@
+// The clearTimeout() function is used in javascript to clear the timeout which has been set by setTimeout()function before that. i.e, The return value of setTimeout() function is stored in a variable and it’s passed into the clearTimeout() function to clear the timer.
+
+// For example, the below setTimeout method is used to display the message after 3 seconds. This timeout can be cleared by the clearTimeout() method.
+
+var msg;
+function greeting() {
+  alert("Good morning");
+}
+function start() {
+  msg = setTimeout(greeting, 3000);
+}
+
+function stop() {
+  clearTimeout(msg);
+}
+
+/********************************************* */
+const timers = new Set();
+window.nativeSetTimeout = window.setTimeout;
+window.nativeClearTimeout = window.clearTimeout;
+
+window.clearAllTimeouts = () => {
+  for (const id of timers) {
+    clearTimeout(id);
+  }
+};
+
+window.setTimeout = (cb, time, ...args) => {
+  const cbWrapper = () => {
+    cb(...args);
+    timers.delete(id);
+  };
+  const id = nativeSetTimeout(cbWrapper, time);
+  timers.add(id);
+  return id;
+};
+
+window.clearTimeout = (id) => {
+  nativeClearTimeout(id);
+  timers.delete(id);
+};
+
+/********************************************* */
+
+function clearAllTimeouts() {
+  // Get all timeout IDs
+  const timeoutIds = Object.keys(window).filter((key) =>
+    key.startsWith("timeout")
+  );
+
+  // Clear each timeout
+  timeoutIds.forEach((id) => {
+    clearTimeout(window[id]);
+    delete window[id]; // Remove the timeout ID from the window object
+  });
+}
+
+// Set some timeouts
+const timeout1 = setTimeout(() => console.log("Timeout 1"), 1000);
+const timeout2 = setTimeout(() => console.log("Timeout 2"), 2000);
+
+// Clear all timeouts
+clearAllTimeouts();

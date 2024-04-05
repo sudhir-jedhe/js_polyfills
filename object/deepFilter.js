@@ -57,3 +57,57 @@ function deepFilter(obj, predicate) {
     hobbies: []
   }
   */
+
+
+
+  Input:
+const obj = {
+  a: 1,
+  b: {
+    c: "Hello World",
+    d: 2,
+    e: {
+     f: {
+       g: -4,
+      },
+    },
+    h: "Good Night Moon",
+  },
+};
+
+const filter = (s) => typeof s === "string";
+
+Output:
+{
+  b: {
+    c: "Hello World",
+    h: "Good Night Moon",
+  }
+};
+
+const deepFilter = (obj, filter) => {
+    //iterate the object
+    for (let key in obj) {
+      const val = obj[key];
+  
+      //if val is also object (nested)
+      if (typeof val === "object") {
+        //recur
+        deepFilter(val, filter);
+      } 
+      // normal value
+      else {
+        //current val fails filter condition
+        //delete it
+        if (filter(val) === false) {
+          delete obj[key];
+        }
+      }
+  
+      //if value is empty obj
+      //delete it
+      if (JSON.stringify(val) === "{}") {
+        delete obj[key];
+      }
+    }
+  };

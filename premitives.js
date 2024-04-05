@@ -337,6 +337,17 @@ function randomNumberGeneratorInRange(rangeStart, rangeEnd) {
  
 randomNumberGeneratorInRange(10, 50); // 12
 
+Math.floor(Math.random() * 10) + 1; // returns a random integer from 1 to 10
+Math.floor(Math.random() * 100) + 1; // returns a random integer from 1 to 100
+
+// **Note:** Math.random() returns a random number between 0 (inclusive), and 1 (exclusive)
+
+function randomInteger(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+randomInteger(1, 100); // returns a random integer from 1 to 100
+randomInteger(1, 1000); // returns a random integer from 1 to 1000
+
 // Notes
 
 // Usage of Math.round depends on the logic used to accomplish the requirement

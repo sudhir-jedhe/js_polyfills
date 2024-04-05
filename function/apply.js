@@ -62,3 +62,35 @@ Function.prototype.myApply = function (context, args) {
   context.fnc(...args);
 };
 sayIntro.myApply(objIntro, ["cognizant", "gurgaon"]);
+
+/********************************* */
+function myOwnApply(context, args) {
+  // Check if the context is an object
+  if (typeof context !== "object") {
+    throw new TypeError("Context must be an object");
+  }
+
+  // Check if the args is an array
+  if (!Array.isArray(args)) {
+    throw new TypeError("Args must be an array");
+  }
+
+  // Set the context of the function to the provided context
+  context.fn = this;
+
+  // Apply the function with the provided arguments
+  context.fn(...args);
+
+  // Delete the fn property from the context
+  delete context.fn;
+}
+
+// Example usage:
+const myFunction = function (a, b) {
+  console.log(this.name, a, b);
+};
+
+const context = { name: "My Context" };
+const args = [1, 2];
+
+myOwnApply(context, args); // Outputs: "My Context 1 2"

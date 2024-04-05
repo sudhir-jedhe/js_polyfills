@@ -1,7 +1,9 @@
 /**
  *
-  forEach() calls a provided callback function once for each element in an array in ascending order.
-  It is not invoked for index properties that have been deleted or are uninitialized
+  forEach() calls a provided callback function once for each element 
+  in an array in ascending order.
+  It is not invoked for index properties that have been deleted 
+  or are uninitialized
   (i.e. on sparse arrays, see example below).
 
   Callback is invoked with three arguments:

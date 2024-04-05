@@ -28,3 +28,9 @@ function toggle(...values) {
     return values[state];
   };
 }
+
+const hello = toggle("1", "2", "3");
+console.log(hello()); // "1"
+console.log(hello()); // "2"
+console.log(hello()); // "3"
+console.log(hello()); // "1"

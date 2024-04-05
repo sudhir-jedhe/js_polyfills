@@ -18,6 +18,55 @@ Function.prototype.myBind = function (context, ...args1) {
   };
 };
 
+Function.prototype.myBind = function (obj) {
+  let func = this;
+  return function () {
+    func.apply(obj, arguments);
+  };
+};
+
+/******************************* */
+let obj = {
+  name: "Jack",
+};
+
+let myFunc = function (id) {
+  console.log(`${this.name}, ${id}`); // id will be undefined
+};
+
+// Accepting any number of arguments passed to myBind
+Function.prototype.myBind = function (obj, ...args) {
+  let func = this;
+  return function () {
+    func.apply(obj, [...args]);
+  };
+};
+
+let newFunc = myFunc.myBind(obj, "a_random_id");
+newFunc(); // Jack, a_random_id
+
+/*************************** */
+
+let obj = {
+  name: "Jack",
+};
+
+let myFunc = function (id, city) {
+  console.log(`${this.name}, ${id}, ${city}`); // id will be undefined
+};
+
+// Accepting any number of arguments passed to myBind
+Function.prototype.myBind = function (obj, ...args) {
+  let func = this;
+  // Accepting arguments passed to newFunc
+  return function (...newArgs) {
+    func.apply(obj, [...args, ...newArgs]);
+  };
+};
+
+let newFunc = myFunc.myBind(obj, "a_random_id");
+newFunc("New York"); // Jack, a_random_id, New York
+
 // Example usage:
 
 // Original function
@@ -109,3 +158,20 @@ if (!Function.prototype.myBind) {
     };
   };
 }
+
+/******************************* */
+Function.prototype.myOwnBind = function (newThis) {
+  if (typeof this !== "function") {
+    throw new Error(this + "cannot be bound as it's not callable");
+  }
+  var boundTargetFunction = this;
+  var boundArguments = Array.prototype.slice.call(arguments, 1);
+  return function boundFunction() {
+    // here the arguments refer to the second time when we call the target function returned from bind
+    var targetArguments = Array.prototype.slice.call(arguments);
+    return boundTargetFunction.apply(
+      newThis,
+      boundArguments.concat(targetArguments)
+    );
+  };
+};
