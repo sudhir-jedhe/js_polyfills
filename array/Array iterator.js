@@ -1,35 +1,30 @@
-let iterator = helper([1, 2, "hello"]);
-console.log(iterator.next()); // 1
-console.log(iterator.next()); // 2
-console.log(iterator.done()); // false
-console.log(iterator.next()); // "hello"
-console.log(iterator.done()); // true
-console.log(iterator.next()); // "null"
 
-const helper = (array) => {
-  // track the index
-  let nextIndex = 0;
 
-  // return two methods
-  return {
-    // return the next value
-    // or null
-    next: function () {
-      return nextIndex < array.length ? array[nextIndex++] : null;
-    },
+function makeRangeIterator(start = 0, end = Infinity, step = 1) {
+  let nextIndex = start;
+  let iterationCount = 0;
 
-    // returns boolean value
-    // if all the values are returned from array
-    done: function () {
-      return nextIndex >= array.length;
+  const rangeIterator = {
+    next() {
+      let result;
+      if (nextIndex < end) {
+        result = { value: nextIndex, done: false };
+        nextIndex += step;
+        iterationCount++;
+        return result;
+      }
+      return { value: iterationCount, done: true };
     },
   };
-};
+  return rangeIterator;
+}
 
-let iterator = helper([1, 2, "hello"]);
-console.log(iterator.next()); // 1
-console.log(iterator.next()); // 2
-console.log(iterator.done()); // false
-console.log(iterator.next()); // "hello"
-console.log(iterator.done()); // true
-console.log(iterator.next()); // "null"
+const iter = makeRangeIterator(1, 10, 2);
+
+let result = iter.next();
+while (!result.done) {
+  console.log(result.value); // 1 3 5 7 9
+  result = iter.next();
+}
+
+console.log("Iterated over sequence of size:", result.value); // [5 numbers returned, that took interval in between: 0 to 10]
