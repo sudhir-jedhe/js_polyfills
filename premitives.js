@@ -7,7 +7,7 @@ typeof undefined; //   "undefined"
 typeof function () {}; //   "function"
 typeof 10n; //   "bigint"
 typeof Symbol(); //   "symbol"
-typeof [1, 2]; //   "object"
+typeof [1, 2]; //   "object" Array.isArray
 typeof {}; //   "object"
  
 typeof NaN; //   "number"        (NaN is Not a Number)
@@ -16,11 +16,7 @@ typeof Infinity; //   "number"        (Infinity, -Infinity, -0 are all valid num
 typeof null; //   "object"        (This stands since the beginning of JavaScript)
 typeof /regex/; //   "object"        (regular expressions start and end with '/' in literal form)
 
-Notes
 
-Arrays and functions are sub type of objects
-
-References
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof
 2. Show the different ways of concatenating numbers and strings

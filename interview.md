@@ -409,4 +409,6 @@ Due to lexical or block scoping let foo = (foo + 55) access the foo of the curre
 
      For example, if you use setTimeout with a delay of 0 milliseconds to defer some code execution, you might miss some events that happen in between.
 
+     
+
 **[⬆ Back to Top](#table-of-contents)**

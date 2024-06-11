@@ -69,3 +69,34 @@ Output:
   }
 ]
 ```
+
+
+```js
+function aggregateSkillEndorsements(endorsements) {
+    const aggregatedEndorsements = {};
+    
+    endorsements.forEach(endorsement => {
+        const { skill, count } = endorsement;
+        if (aggregatedEndorsements[skill]) {
+            aggregatedEndorsements[skill] += count; // If skill exists, add count to existing total
+        } else {
+            aggregatedEndorsements[skill] = count; // If skill doesn't exist, initialize with count
+        }
+    });
+
+    return aggregatedEndorsements;
+}
+
+// Example usage:
+const endorsements = [
+    { skill: 'JavaScript', count: 5 },
+    { skill: 'HTML', count: 3 },
+    { skill: 'CSS', count: 7 },
+    { skill: 'JavaScript', count: 2 },
+    { skill: 'CSS', count: 4 }
+];
+
+const aggregatedSkills = aggregateSkillEndorsements(endorsements);
+console.log(aggregatedSkills);
+
+```

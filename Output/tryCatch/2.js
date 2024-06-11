@@ -10,4 +10,6 @@ function func() {
   console.log(4); // not execute as function exit
 }
 
+
+
 func(); // => 1 3

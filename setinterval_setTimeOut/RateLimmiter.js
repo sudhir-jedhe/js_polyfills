@@ -74,3 +74,55 @@ for (let i = 0; i < 15; i++) {
     `Request ${i + 1}: ${allowed ? "Allowed" : "Rate limit reached"}`
   );
 }
+
+
+
+/****************************************** */
+
+class RateLimiter {
+  constructor(capacity, refillRate, interval) {
+    this.capacity = capacity; // Maximum number of tokens the bucket can hold
+    this.tokens = capacity; // Current number of tokens in the bucket
+    this.refillRate = refillRate; // Rate at which tokens are refilled (tokens per interval)
+    this.interval = interval; // Interval (in milliseconds) for refilling tokens
+    this.lastRefillTime = Date.now(); // Last time the tokens were refilled
+    this.timer = setInterval(() => this.refillTokens(), this.interval); // Timer for refilling tokens
+  }
+
+  allowRequest() {
+    // Refill tokens based on elapsed time since last refill
+    this.refillTokens();
+
+    // Check if tokens are available
+    if (this.tokens > 0) {
+      this.tokens--; // Consume one token
+      return true; // Request allowed
+    } else {
+      return false; // Request not allowed
+    }
+  }
+
+  refillTokens() {
+    const currentTime = Date.now();
+    const elapsedTime = currentTime - this.lastRefillTime;
+    const tokensToAdd = Math.floor(elapsedTime * (this.refillRate / 1000)); // Tokens to add based on refill rate and elapsed time
+
+    this.tokens = Math.min(this.capacity, this.tokens + tokensToAdd); // Refill tokens, ensuring the bucket capacity is not exceeded
+    this.lastRefillTime = currentTime; // Update last refill time
+  }
+
+  stopRefill() {
+    clearInterval(this.timer); // Stop the refill timer
+  }
+}
+
+// Example usage:
+// const rateLimiter = new RateLimiter(10, 1, 1000); // Allow 10 requests per second
+// console.log(rateLimiter.allowRequest()); // Output: true (request allowed)
+// console.log(rateLimiter.allowRequest()); // Output: true (request allowed)
+// console.log(rateLimiter.allowRequest()); // Output: true (request allowed)
+// console.log(rateLimiter.allowRequest()); // Output: true (request allowed)
+// console.log(rateLimiter.allowRequest()); // Output: true (request allowed)
+// console.log(rateLimiter.allowRequest()); // Output: false (request not allowed, bucket empty)
+// After 1 second:
+// console.log(rateLimiter.allowRequest()); // Output: true (request allowed, bucket refilled)

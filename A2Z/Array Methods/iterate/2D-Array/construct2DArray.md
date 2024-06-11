@@ -26,4 +26,8 @@ const m = 2;
 const n = 3;
 console.log(construct2DArray(original, m, n)); // Output: [[1, 2, 3], [4, 5, 6]]
 
+console.log(construct2DArray([1,2,3,4], 2, 2)); // Output: [[1,2],[3,4]]
+console.log(construct2DArray([1,2,3], 1, 3)); // Output: [[1,2,3]]
+console.log(construct2DArray([1,2], 1, 1)); // Output: []
+
 ```

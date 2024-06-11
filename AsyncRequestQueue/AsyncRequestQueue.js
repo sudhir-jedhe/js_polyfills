@@ -28,3 +28,45 @@ class AsyncRequestQueue {
     this.isProcessing = false;
   }
 }
+
+
+
+/*************************************************** */
+
+async function requestQueue(requests) {
+  const results = [];
+
+  for (const request of requests) {
+      try {
+          const result = await request();
+          results.push(result);
+      } catch (error) {
+          // If any request fails, push the error to the results array
+          results.push({ error });
+      }
+  }
+
+  return results;
+}
+
+// Example usage:
+// Define your request functions
+const request1 = async () => {
+  return await fetch('https://api.example.com/endpoint1');
+};
+
+const request2 = async () => {
+  return await fetch('https://api.example.com/endpoint2');
+};
+
+// Create a queue of requests
+const requests = [request1, request2];
+
+// Execute the request queue sequentially
+requestQueue(requests)
+  .then(results => {
+      console.log(results);
+  })
+  .catch(error => {
+      console.error(error);
+  });

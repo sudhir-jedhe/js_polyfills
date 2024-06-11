@@ -166,3 +166,124 @@ function render(myElement) {
   // your code here
   return myElement;
 }
+
+
+
+/************************************************************ */
+
+class VirtualDOM {
+  static virtualize(element) {
+      if (!element) return null; // Return null if element is null or undefined
+
+      const virtualNode = {
+          tag: element.tagName.toLowerCase(), // Get tag name in lowercase
+          attributes: {},
+          children: []
+      };
+
+      // Copy attributes from real DOM element to virtual node
+      for (const { name, value } of element.attributes) {
+          virtualNode.attributes[name] = value;
+      }
+
+      // Recursively virtualize child nodes
+      for (const childNode of element.childNodes) {
+          const childVirtualNode = VirtualDOM.virtualize(childNode);
+          if (childVirtualNode) {
+              virtualNode.children.push(childVirtualNode);
+          }
+      }
+
+      return virtualNode;
+  }
+
+  static render(virtualNode) {
+      if (!virtualNode) return null; // Return null if virtualNode is null or undefined
+
+      const element = document.createElement(virtualNode.tag);
+
+      // Set attributes from virtual node to real DOM element
+      for (const [name, value] of Object.entries(virtualNode.attributes)) {
+          element.setAttribute(name, value);
+      }
+
+      // Recursively render child nodes
+      for (const childVirtualNode of virtualNode.children) {
+          const childElement = VirtualDOM.render(childVirtualNode);
+          if (childElement) {
+              element.appendChild(childElement);
+          }
+      }
+
+      return element;
+  }
+}
+
+// Example usage:
+// Assuming `realElement` is the reference to a real DOM element
+// const virtualNode = VirtualDOM.virtualize(realElement);
+// console.log(virtualNode);
+
+// Assuming `virtualNode` is a virtual node created previously
+// const realElement = VirtualDOM.render(virtualNode);
+// document.body.appendChild(realElement);
+
+
+/*********************************************** */
+
+class VirtualDOM {
+  static virtualize(element) {
+      if (!element) return null; // Return null if element is null or undefined
+
+      const virtualNode = {
+          tag: element.tagName.toLowerCase(), // Get tag name in lowercase
+          attributes: {},
+          children: []
+      };
+
+      // Copy attributes from real DOM element to virtual node
+      for (const { name, value } of element.attributes) {
+          virtualNode.attributes[name] = value;
+      }
+
+      // Recursively virtualize child nodes
+      for (const childNode of element.childNodes) {
+          const childVirtualNode = VirtualDOM.virtualize(childNode);
+          if (childVirtualNode) {
+              virtualNode.children.push(childVirtualNode);
+          }
+      }
+
+      return virtualNode;
+  }
+
+  static render(virtualNode) {
+      if (!virtualNode) return null; // Return null if virtualNode is null or undefined
+
+      const element = document.createElement(virtualNode.tag);
+
+      // Set attributes from virtual node to real DOM element
+      for (const [name, value] of Object.entries(virtualNode.attributes)) {
+          element.setAttribute(name, value);
+      }
+
+      // Recursively render child nodes
+      for (const childVirtualNode of virtualNode.children) {
+          const childElement = VirtualDOM.render(childVirtualNode);
+          if (childElement) {
+              element.appendChild(childElement);
+          }
+      }
+
+      return element;
+  }
+}
+
+// Example usage:
+// Assuming `realElement` is the reference to a real DOM element
+// const virtualNode = VirtualDOM.virtualize(realElement);
+// console.log(virtualNode);
+
+// Assuming `virtualNode` is a virtual node created previously
+// const realElement = VirtualDOM.render(virtualNode);
+// document.body.appendChild(realElement);

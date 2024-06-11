@@ -13,6 +13,8 @@ Function.prototype.myCall = function (context, ...args) {
 printName.myCall(myName, "Palia", "India");
 
 /********************************* */
+
+
 // A simple version
 Function.prototype.mycall = function (obj = {}, ...args) {
   let fn = this; // refers to funtion that bind is used on
@@ -171,6 +173,8 @@ Function.prototype.mycall = function (thisArg, ...args) {
 };
 
 /************************************ */
+
+// The callPolyfill method should accept an object obj as its first parameter and any number of additional arguments. The obj will become the this context for the function, and the additional arguments are passed to the function that the callPolyfill method belongs to
 Function.prototype.callPolyfill = function (obj, ...args) {
   // Check if the first argument is an object
   if (typeof obj !== "object" && typeof obj !== "function") {

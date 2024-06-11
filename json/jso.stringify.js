@@ -164,3 +164,24 @@ const doubleSalary = (key, value) => {
 
 const result = JSON.stringify(employee, doubleSalary);
 console.log(result);
+
+
+/*********************************************** */
+
+function jsonStringify(obj) {
+  if (typeof obj === 'string') {
+      return '"' + obj + '"';
+  } else if (typeof obj === 'number' || typeof obj === 'boolean' || obj === null) {
+      return String(obj);
+  } else if (Array.isArray(obj)) {
+      return '[' + obj.map(jsonStringify).join(',') + ']';
+  } else if (typeof obj === 'object') {
+      const keys = Object.keys(obj);
+      return '{' + keys.map(key => '"' + key + '":' + jsonStringify(obj[key])).join(',') + '}';
+  }
+}
+
+// Test cases
+console.log(jsonStringify({"y": 1, "x": 2})); // Output: '{"y":1,"x":2}'
+console.log(jsonStringify({"a":"str","b":-12,"c":true,"d":null})); // Output: '{"a":"str","b":-12,"c":true,"d":null}'
+console.log(jsonStringify({"key":{"a":1,"b":[{},null,"Hello"]}})); // Output: '{"key":{"a":1,"b":[{},null,"Hello"]}}'

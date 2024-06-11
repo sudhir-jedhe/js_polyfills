@@ -55,3 +55,41 @@ const App = () => {
     </FeatureFlagProvider>
   );
 };
+
+
+/********************************************* */
+
+// To implement a FeatureFlag class for managing feature flags in an application, you can store feature flags as key-value pairs and provide methods to enable, disable, and check the status of features. Here's a basic implementation:
+
+class FeatureFlag {
+  constructor() {
+      this.flags = new Map();
+  }
+
+  enableFeature(feature) {
+      this.flags.set(feature, true);
+  }
+
+  disableFeature(feature) {
+      this.flags.set(feature, false);
+  }
+
+  isFeatureEnabled(feature) {
+      return this.flags.get(feature) || false;
+  }
+}
+
+// Example usage:
+const featureFlag = new FeatureFlag();
+
+// Enable a feature
+featureFlag.enableFeature('newFeature');
+
+// Check if a feature is enabled
+console.log('Is newFeature enabled?', featureFlag.isFeatureEnabled('newFeature')); // Output: true
+
+// Disable a feature
+featureFlag.disableFeature('newFeature');
+
+// Check if a feature is enabled after disabling it
+console.log('Is newFeature enabled?', featureFlag.isFeatureEnabled('newFeature')); // Output: false

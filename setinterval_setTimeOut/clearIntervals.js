@@ -34,3 +34,24 @@ const interval2 = setInterval(() => console.log("Interval 2"), 2000);
 
 // Clear all intervals
 clearAllIntervals();
+
+
+
+/************************************** */
+let intervalIds = [];
+
+function clearAllIntervals() {
+    intervalIds.forEach(id => clearInterval(id));
+    intervalIds = [];
+}
+
+// Override window.setInterval
+window.setInterval = (func, interval) => {
+    const intervalId = setInterval(func, interval);
+    intervalIds.push(intervalId);
+    return intervalId;
+}
+
+// Example usage:
+// Assume some intervals are set using window.setInterval
+clearAllIntervals();

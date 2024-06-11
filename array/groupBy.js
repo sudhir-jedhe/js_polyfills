@@ -67,3 +67,41 @@ console.log(groups);
 //   '30': [{ name: 'Bob', age: 30 }],
 //   '27': [{ name: 'Carol', age: 27 }],
 // }
+
+
+
+/******************************************** */
+
+
+function groupBy(collection, property) {
+  // write your answer here
+  const result = {};
+
+  if (!collection || typeof collection !== 'object') {
+    return result;
+  }
+
+  const isFunc = typeof property === 'function';
+  const isPath = typeof property === 'string';
+
+  for (let value of Object.values(collection)) {
+    let res;
+    if (isFunc) {
+      res = property(value);
+    } else if (isPath) {
+      const paths = property.split('.');
+      res = value;
+      for (let i = 0; i < paths.length; i++) {
+        res = res[paths[i]];
+      }
+    }
+
+    if (!(res in result)) {
+      result[res] = [];
+    }
+
+    result[res].push(value);
+  }
+
+  return result;
+}

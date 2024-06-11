@@ -61,3 +61,23 @@ const timeout2 = setTimeout(() => console.log("Timeout 2"), 2000);
 
 // Clear all timeouts
 clearAllTimeouts();
+
+
+/************************************** */
+
+let timeoutIds = [];
+
+const clearAllTimeout = () => {
+    timeoutIds.forEach(id => clearTimeout(id));
+    timeoutIds = [];
+}
+
+window.setTimeout = (callback, delay) => {
+    const timeoutId = setTimeout(callback, delay);
+    timeoutIds.push(timeoutId);
+    return timeoutId;
+}
+
+// Example usage:
+// Assume some timeouts are set using window.setTimeout
+clearAllTimeout();

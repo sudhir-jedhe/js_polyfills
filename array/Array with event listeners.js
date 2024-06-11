@@ -1,15 +1,16 @@
 Input:
 const arr = [];
-arr.addListener('add', (eventName, items, array) => {
+arr.addListener('add', (eventName, items, Array) => {
   console.log('items were added', items);
 });
 
-arr.addListener('remove', (eventName, item, array) => {
+arr.addListener('remove', (eventName, item, Array) => {
   console.log(item, ' was removed');
 });
 
 arr.pushWithEvent('add', [4, 5]);
 arr.popWithEvent('remove');
+
 
 
 Output:
@@ -21,13 +22,16 @@ Output:
 
 listeners : This will store the list of event listeners associated with the event name.
 addListener(eventName, callback) : This will add a callback to the event.
-pushWithEvent(eventName, items) : Adds all the items in the array and triggers the event with the given name.
-popWithEvent(eventName) : Removes the last items from the array and triggers the event with the given name.
+pushWithEvent(eventName, items) : Adds all the items in the Array and triggers the event with the given name.
+popWithEvent(eventName) : Removes the last items from the Array and triggers the event with the given name.
 triggerEvent(eventName, args) : A helper function that triggers all the callbacks associated with the given event name.
 removeListener(eventName, callback) : Removes the callback attached to the eventName. Note: It won’t work for anonymous functions.
 
+
 // to track the events and their callbacks
+
 Array.prototype.listeners = {};
+
 
 // to add/assign a new event with listener
 Array.prototype.addListener = function(name, callback){
@@ -83,11 +87,11 @@ Array.prototype.removeListener = function(eventName, callback){
 Input:
 const arr = [];
 
-const onAdd = (eventName, items, array) => {
+const onAdd = (eventName, items, Array) => {
   console.log('items were added', items);
 }
 
-const onAddAgain = (eventName, items, array) => {
+const onAddAgain = (eventName, items, Array) => {
   console.log('items were added again', items);
 }
 
@@ -95,7 +99,7 @@ arr.addListener('add', onAdd);
 
 arr.addListener('add', onAddAgain);
 
-arr.addListener('remove', (eventName, item, array) => {
+arr.addListener('remove', (eventName, item, Array) => {
   console.log(item, ' was removed');
 });
 

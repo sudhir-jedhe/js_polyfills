@@ -33,9 +33,11 @@ Promise.resolve(1) // 1 promise fullfilled 1 pass to then
     console.log(val);
     return 10; // finally never return
   })
-  .then((val) => {
-    // it will check value receive before finally
-    console.log(val); // undefined
-  });
+  // .then((val) => {
+  //   // it will check value receive before finally
+  //   console.log(val, "38"); // undefined
+  // });
+
+  console.log('Sudhir')
 
 // 1 2 undefined 3 undefined 4 undefined undefined

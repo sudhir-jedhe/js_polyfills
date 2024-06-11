@@ -378,6 +378,29 @@ const distinctArr = [...set1, ...set2];
 
 ```js copy
 const intersectionArr = arr1.filter((value) => arr2.includes(value));
+const intersection = function (nums) {
+    return Array
+                .from(new Set(nums.flat()))
+                .filter(num => nums.every(arr => arr.includes(num)))
+                .sort((a, b) => a - b)
+}
+const intersection = function (nums) {
+    const obj = {}
+    const result = []
+    nums.flat().map(num => {
+        if (!obj.hasOwnProperty(num)) {
+            obj[num] = 1
+        } else {
+            obj[num] += 1
+        }
+    })
+    for (let key in obj) {
+        if (obj[key] === nums.length) {
+            result.push(parseInt(key))
+        }
+    }
+    return result
+}
 const distinctIntersectionArr = [...new Set(intersectionArr)];
 ```
 

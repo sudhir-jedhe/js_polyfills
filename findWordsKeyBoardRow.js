@@ -21,3 +21,13 @@ import { findWords } from "./findWords.js";
 
 const words = ["Hello", "Alaska", "Dad", "Peace"];
 console.log(findWords(words)); // Output: ["Alaska", "Dad"]
+
+
+// This function takes an array of strings words as input and returns the words that can be typed using letters of the alphabet on only one row of the American keyboard.
+
+// In the American keyboard:
+
+// the first row consists of the characters "qwertyuiop",
+// the second row consists of the characters "asdfghjkl", and
+// the third row consists of the characters "zxcvbnm".
+// Your task is to implement the findWords() function using the provided initial code in index.js and pass the challenges given below. Your code will be evaluated based on these challenges, so make sure to carefully read and understand the requirements of each challenge.

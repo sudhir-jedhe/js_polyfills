@@ -80,3 +80,83 @@ myHashSet.add(2);      // set = [1, 2]
 myHashSet.contains(2); // return True
 myHashSet.remove(2);   // set = [1]
 myHashSet.contains(2); // return False, (already removed)
+
+
+
+/******************************** */
+
+class ListNode {
+  constructor(val, next = null) {
+      this.val = val;
+      this.next = next;
+  }
+}
+
+class MyHashSet {
+  constructor() {
+      this.size = 1000;
+      this.buckets = new Array(this.size).fill(null);
+  }
+
+  _hash(key) {
+      return key % this.size;
+  }
+
+  add(key) {
+      const hashKey = this._hash(key);
+      if (!this.buckets[hashKey]) {
+          this.buckets[hashKey] = new ListNode(key);
+          return;
+      }
+      let curr = this.buckets[hashKey];
+      while (curr.next) {
+          if (curr.val === key) {
+              return;
+          }
+          curr = curr.next;
+      }
+      curr.next = new ListNode(key);
+  }
+
+  remove(key) {
+      const hashKey = this._hash(key);
+      if (!this.buckets[hashKey]) {
+          return;
+      }
+      if (this.buckets[hashKey].val === key) {
+          this.buckets[hashKey] = this.buckets[hashKey].next;
+          return;
+      }
+      let prev = null;
+      let curr = this.buckets[hashKey];
+      while (curr) {
+          if (curr.val === key) {
+              prev.next = curr.next;
+              return;
+          }
+          prev = curr;
+          curr = curr.next;
+      }
+  }
+
+  contains(key) {
+      const hashKey = this._hash(key);
+      let curr = this.buckets[hashKey];
+      while (curr) {
+          if (curr.val === key) {
+              return true;
+          }
+          curr = curr.next;
+      }
+      return false;
+  }
+}
+
+// Test cases
+const myHashSet = new MyHashSet();
+myHashSet.add(1);
+myHashSet.add(2);
+console.log(myHashSet.contains(1)); // Output: true
+console.log(myHashSet.contains(3)); // Output: false
+myHashSet.remove(2);
+console.log(myHashSet.contains(2)); // Output: false
