@@ -252,6 +252,24 @@ console.log(fun2(5));
 console.log(fun3(7));
 console.log(fun4(9));
 
+
+function add2(x) {
+  return x + 2;
+}
+
+function multiply3(x) {
+  return x * 3;
+}
+
+function subtract5(x) {
+  return x - 5;
+}
+
+const chainedFunction = pipe(add2, multiply3, subtract5);
+
+console.log(chainedFunction(10)); // Output: ((10 + 2) * 3) - 5 = 31
+
+
 /********************************************* */
 const words = [
   "sky",

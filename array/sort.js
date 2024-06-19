@@ -391,3 +391,139 @@ function customSort(compareFn) {
 Array.prototype.customSort = customSort;
 
 /*************************************************** */
+Sort an array of objects in JavaScript
+
+Ever wanted to sort an array of objects, but felt like it was too complex? After all, Array.prototype.sort() can be customized to your needs, but comparing multiple properties and orders can be a bit of a hassle. Let's tackle this problem and create a robust, reusable solution.
+
+Sort an array of objects alphabetically based on a property
+The simplest use-case is to sort an array of objects alphabetically based on a given property. This is a common requirement, and it's a good starting point for our solution.
+
+Using Array.prototype.sort(), we can sort the array based on the given property. We use String.prototype.localeCompare() to compare the values for the given property. The order parameter is optional and defaults to 'asc'.
+
+const alphabetical = (arr, getter, order = 'asc') =>
+  arr.sort(
+    order === 'desc'
+      ? (a, b) => getter(b).localeCompare(getter(a))
+      : (a, b) => getter(a).localeCompare(getter(b))
+  );
+
+const people = [ { name: 'John' }, { name: 'Adam' }, { name: 'Mary' } ];
+alphabetical(people, g => g.name);
+// [ { name: 'Adam' }, { name: 'John' }, { name: 'Mary' } ]
+alphabetical(people, g => g.name, 'desc');
+// [ { name: 'Mary' }, { name: 'John' }, { name: 'Adam' } ]
+Sort an array of objects, ordered by properties and orders
+Another classic scenario hints back at SQL queries, where you can order by multiple columns and specify the order for each column. This requirement defines the function signature for us.
+
+The function should accept an array of objects, an array of properties and an array of orders. The latter two should match in length and order of elements. The orders array should be an optional array of integers (positive for ascending order, negative for descending order). If no orders array is supplied, the default order should be ascending.
+
+Having decided on the function signature, we can start implementing the function. The first step is to create a copy of the array using the spread operator (...). This avoids mutating the original array.
+
+After that, we use Array.prototype.sort() to sort the array, which is where we do the heavy lifting. Using Array.prototype.reduce(). we iterate over the properties array and compare the values of the current property.
+
+The default value of the accumulator is 0, which means that the current property is equal for both objects. If the accumulator is 0, we compare the values of the current property. If the accumulator is not equal to 0, we return it, meaning we can skip the rest of the properties as the objects are already sorted.
+
+const orderBy = (arr, props, orders) =>
+  [...arr].sort((a, b) =>
+    props.reduce((acc, prop, i) => {
+      if (acc === 0) {
+        const [p1, p2] =
+          orders && orders[i] <= 0
+            ? [b[prop], a[prop]]
+            : [a[prop], b[prop]];
+        acc = p1 > p2 ? 1 : p1 < p2 ? -1 : 0;
+      }
+      return acc;
+    }, 0)
+  );
+
+const users = [
+  { name: 'fred', age: 48 },
+  { name: 'barney', age: 36 },
+  { name: 'fred', age: 40 },
+];
+
+orderBy(users, ['name', 'age'], [1, -1]);
+/*
+[
+  { name: 'barney', age: 36 },
+  { name: 'fred', age: 48 },
+  { name: 'fred', age: 40 },
+];
+*/
+
+orderBy(users, ['name', 'age']);
+/*
+[
+  { name: 'barney', age: 36 },
+  { name: 'fred', age: 40 },
+  { name: 'fred', age: 48 },
+];
+*/
+💬  Note
+A minor caveat is that the orders array check treats 0 as ascending order. Regardless, you shouldn't be passing 0 as an order anyway.
+
+Sort an array of objects, ordered by a property order
+Another use-case for an object sorting algorithm is to sort an array of objects based on a property order. This could be a priority order, where a value is not lexically or numerically greater, but has a higher priority.
+
+Unlike the previous snippet, the function should expect an array of objects, the name of the property as a string and an array of values, in order. If the latter doesn't contain all possible values, then they will be treated as having the lowest priority.
+
+Before starting to sort the array, we create an object from the order array, where the values are the keys and the indices are the values. This allows us to quickly check the order of a value. After that, we use Array.prototype.sort() and compare the values of the property based on our order object.
+
+const orderWith = (arr, prop, order) => {
+  const orderValues = order.reduce((acc, v, i) => {
+    acc[v] = i;
+    return acc;
+  }, {});
+  return [...arr].sort((a, b) => {
+    if (orderValues[a[prop]] === undefined) return 1;
+    if (orderValues[b[prop]] === undefined) return -1;
+    return orderValues[a[prop]] - orderValues[b[prop]];
+  });
+};
+
+const users = [
+  { name: 'fred', language: 'Javascript' },
+  { name: 'barney', language: 'TypeScript' },
+  { name: 'frannie', language: 'Javascript' },
+  { name: 'anna', language: 'Java' },
+  { name: 'jimmy' },
+  { name: 'nicky', language: 'Python' },
+];
+
+orderWith(users, 'language', ['Javascript', 'TypeScript', 'Java']);
+/*
+[
+  { name: 'fred', language: 'Javascript' },
+  { name: 'frannie', language: 'Javascript' },
+  { name: 'barney', language: 'TypeScript' },
+  { name: 'anna', language: 'Java' },
+  { name: 'jimmy' },
+  { name: 'nicky', language: 'Python' }
+]
+*/
+
+
+When sorting an array of primitive values (e.g. strings or numbers), you'll often see a lot of code that looks like this:
+
+const arr = [8, 2, 1, 4, 5, 0];
+// Sort in ascending order
+arr.sort((a, b) => {
+  if (a > b) return 1;
+  if (b > a) return -1
+  return 0;
+}); // [0, 1, 2, 4, 5, 8]
+While this piece of code does the job, there is also a one-line alternative for it. The trick hinges on Array.prototype.sort() expecting either a positive or a negative value to perform a swap between two elements, thus allowing for more flexible values than 1 and -1. Subtracting the numeric values in an array is sufficient and can also be used to sort the array the other way around:
+
+const arr = [8, 2, 1, 4, 5, 0];
+// Sort in ascending order
+arr.sort((a, b) => a - b); // [0, 1, 2, 4, 5, 8]
+// Sort in descending order
+arr.sort((a, b) => b - a); // [8, 5, 4, 2, 1, 0]
+If you are working with string arrays, you should instead use String.prototype.localeCompare(), as it provides far greater flexibility, by accounting for specific locales and their unique needs:
+
+const s = ['Hi', 'Hola', 'Hello'];
+// Sort in ascending order
+arr.sort((a, b) => a.localeCompare(b)); // ['Hello', 'Hi', 'Hola']
+// Sort in descending order
+arr.sort((a, b) => b.localeCompare(a)); // ['Hola', 'Hi', 'Hello']

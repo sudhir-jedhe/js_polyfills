@@ -45,6 +45,30 @@ It receives a function as an argument, which is used for comparision
 arr.sort((a, b) => a - b); // ascending
 arr.sort((a, b) => b - a); // descending
 
+const objects = [
+  { name: 'Alice', age: 25 },
+  { name: 'Bob', age: 30 },
+  { name: 'Carol', age: 27 },
+];
+
+// Sort the array by the "age" property in ascending order.
+objects.sort((a, b) => a.age - b.age);
+
+// Print the sorted array.
+console.log(objects);
+
+// Output:
+// [ { name: 'Alice', age: 25 }, { name: 'Carol', age: 27 }, { name: 'Bob', age: 30 } ]
+
+function sortByProperty(array, prop) {
+  // Use slice() to create a new array and avoid mutating the original array
+  return array.slice().sort((a, b) => a[prop] - b[prop]);
+}
+
+// Example usage:
+const sortedByPrice = sortByProperty(cars, 'price');
+console.log(sortedByPrice);
+
 Notes
 
 If function is not passed an argument, default sorting will happen

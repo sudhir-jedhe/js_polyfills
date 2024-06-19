@@ -77,3 +77,76 @@ PromiseAny(promises)
 // which is "Promise 1 resolved". If all of the input promises reject, the
 // PromiseAny() function will reject with an AggregateError containing an array
 // of all of the rejection reasons.
+
+
+function demonstratePromiseAny() {
+  // Create an array of promises
+  const promises = [
+    new Promise((resolve, reject) => {
+      setTimeout(resolve, 1000, "Promise 1");
+    }),
+    new Promise((resolve, reject) => {
+      setTimeout(reject, 2000, "Promise 2");
+    }),
+    new Promise((resolve, reject) => {
+      setTimeout(resolve, 3000, "Promise 3");
+    }),
+  ];
+
+  // Use Promise.any() to return the first fulfilled promise
+  Promise.any(promises).then((value) => {
+    console.log(value); // "Promise 1"
+  }).catch((error) => {
+    console.log(error); // "Promise 2"
+  });
+}
+
+// Call the function
+demonstratePromiseAny();
+
+
+
+const promise1 = new Promise((resolve) => setTimeout(resolve, 100, 'one'));
+const promise2 = new Promise((resolve, reject) => setTimeout(reject, 200, 'two'));
+const promise3 = new Promise((resolve) => setTimeout(resolve, 300, 'three'));
+
+promiseAny([promise1, promise2, promise3])
+    .then((value) => console.log('Resolved:', value)) // Outputs: Resolved: one
+    .catch((error) => console.error('All promises were rejected:', error));
+
+
+    /************************** */
+
+    function promiseAny(promises) {
+      return new Promise((resolve, reject) => {
+          let settled = false;
+          let errors = [];
+  
+          if (!Array.isArray(promises)) {
+              reject(new TypeError('Expected an array of promises'));
+              return;
+          }
+  
+          if (promises.length === 0) {
+              reject(new Error('No promises passed in'));
+              return;
+          }
+  
+          promises.forEach((promise) => {
+              Promise.resolve(promise)
+                  .then((value) => {
+                      if (!settled) {
+                          settled = true;
+                          resolve(value);
+                      }
+                  })
+                  .catch((error) => {
+                      errors.push(error);
+                      if (errors.length === promises.length) {
+                          reject(new AggregateError('All promises were rejected', errors));
+                      }
+                  });
+          });
+      });
+  }
+  

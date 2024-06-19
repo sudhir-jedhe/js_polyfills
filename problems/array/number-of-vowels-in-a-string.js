@@ -44,3 +44,22 @@ function countVowelsReduce(str) {
 }
 const result = countVowelsReduce("Hello, World!");
 console.log(result); // Output: 3
+
+/****************************************** */
+function findVowels(str) {
+  const vowels = 'aeiouAEIOU';
+  let vowelsFound = '';
+
+  for (let char of str) {
+    if (vowels.includes(char)) {
+      vowelsFound += char;
+    }
+  }
+
+  return vowelsFound;
+}
+
+// Example usage:
+const inputString = 'Hello World';
+const result = findVowels(inputString);
+console.log("Vowels found:", result); // Output: eoO

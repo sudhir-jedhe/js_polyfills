@@ -105,3 +105,43 @@ function groupBy(collection, property) {
 
   return result;
 }
+
+
+/************************** */
+const array = [
+  { name: 'Alice', age: 25 },
+  { name: 'Bob', age: 30 },
+  { name: 'Carol', age: 27 },
+];
+
+const groupedArray = array.reduce((acc, obj) => {
+  const key = obj.age;
+  if (!acc[key]) {
+    acc[key] = [];
+  }
+  acc[key].push(obj);
+  return acc;
+}, {});
+
+console.log(groupedArray);
+
+
+// {
+//   25: [ { name: 'Alice', age: 25 } ],
+//   30: [ { name: 'Bob', age: 30 } ],
+//   27: [ { name: 'Carol', age: 27 } ],
+// }
+
+
+/**************************************** */
+
+const groupBy = (arr, fn) =>
+  arr
+    .map(typeof fn === 'function' ? fn : val => val[fn])
+    .reduce((acc, val, i) => {
+      acc[val] = (acc[val] || []).concat(arr[i]);
+      return acc;
+    }, {});
+
+groupBy([6.1, 4.2, 6.3], Math.floor); // {4: [4.2], 6: [6.1, 6.3]}
+groupBy(['one', 'two', 'three'], 'length'); // {3: ['one', 'two'], 5: ['three']}

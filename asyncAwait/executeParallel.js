@@ -170,3 +170,45 @@ function createAsyncTask() {
   https://medium.com/@omar.hsouna/how-to-run-async-await-in-parallel-with-javascript-19b91adfc45d
 
   https://maximorlov.com/parallel-tasks-with-pure-javascript/
+
+
+  // N async tasks concurrently
+
+
+  // Example async function (simulated with setTimeout)
+function asyncTask(taskName, duration) {
+  return new Promise(resolve => {
+    setTimeout(() => {
+      console.log(`${taskName} finished after ${duration}ms`);
+      resolve(`${taskName} result`); // Resolve with a result
+    }, duration);
+  });
+}
+
+async function executeConcurrentTasks(tasks) {
+  try {
+    const results = await Promise.all(tasks.map(task => asyncTask(task.name, task.duration)));
+    console.log("All tasks completed.");
+    console.log("Results:", results);
+    return results; // Optionally return results
+  } catch (error) {
+    console.error("Error executing tasks:", error);
+    throw error; // Rethrow the error if needed
+  }
+}
+
+// Example tasks array
+const tasks = [
+  { name: 'Task 1', duration: 2000 },
+  { name: 'Task 2', duration: 1000 },
+  { name: 'Task 3', duration: 1500 }
+];
+
+// Execute tasks concurrently
+executeConcurrentTasks(tasks)
+  .then(results => {
+    // Handle results if needed
+  })
+  .catch(error => {
+    // Handle errors if needed
+  });

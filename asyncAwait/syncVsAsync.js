@@ -15,3 +15,21 @@
 // For instance, if you need to ensure that a task is completed before moving on to the next one, Sync operations can be helpful. But in general, Async operations are preferred for most tasks because they make your code faster and more efficient, taking full advantage of JavaScript's strengths as a language.
 
 // So, next time you're writing JavaScript code and you have tasks that could take some time to complete, consider using Async operations. It's a simple way to make your code faster and more efficient, and it takes advantage of JavaScript's event-driven nature. 
+
+
+
+// What is the difference between synchronous and asynchronous code in JavaScript?
+
+// Synchronous code runs in sequence. This means that each operation must wait for the previous one to complete before executing.
+
+// console.log('One');
+// console.log('Two');
+// console.log('Three');
+// // LOGS: 'One', 'Two', 'Three'
+// Asynchronous code runs in parallel. This means that an operation can occur while another one is still being processed.
+
+// console.log('One');
+// setTimeout(() => console.log('Two'), 100);
+// console.log('Three');
+// // LOGS: 'One', 'Three', 'Two'
+// Asynchronous code execution is often preferable in situations where execution can be blocked indefinitely. Some examples of this are network requests, long-running calculations, file system operations etc. Using asynchronous code in the browser ensures the page remains responsive and the user experience is mostly unaffected.

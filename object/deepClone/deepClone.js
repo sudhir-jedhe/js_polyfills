@@ -137,3 +137,61 @@ export default function deepClone(value) {
   return JSON.parse(JSON.stringify(value));
 }
 
+
+// deepCloneWithCircular
+
+function deepCloneWithCircular(obj, cloneMap = new WeakMap()) {
+  // Handle non-object types and null
+  if (typeof obj !== 'object' || obj === null) {
+      return obj;
+  }
+
+  // Check if we've already cloned this object
+  if (cloneMap.has(obj)) {
+      return cloneMap.get(obj);
+  }
+
+  // Create a new object or array for the clone
+  let clone = Array.isArray(obj) ? [] : {};
+
+  // Record this object in the clone map
+  cloneMap.set(obj, clone);
+
+  // Clone all properties recursively
+  for (let key in obj) {
+      if (Object.prototype.hasOwnProperty.call(obj, key)) {
+          clone[key] = deepCloneWithCircular(obj[key], cloneMap);
+      }
+  }
+
+  return clone;
+}
+
+
+/*********************** */
+
+function deepClone(obj) {
+  if (typeof obj !== "object" || obj === null) {
+    return obj;
+  }
+
+  const seen = new Map();
+
+  function clone(obj) {
+    if (seen.has(obj)) {
+      return seen.get(obj);
+    }
+
+    const newObj = Array.isArray(obj) ? [] : {};
+    seen.set(obj, newObj);
+
+    for (const key in obj) {
+      const value = obj[key];
+      newObj[key] = clone(value);
+    }
+
+    return newObj;
+  }
+
+  return clone(obj);
+}

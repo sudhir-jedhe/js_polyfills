@@ -172,3 +172,37 @@ const asyncInSeries = () => {
        }
     })
 }
+
+
+/********************************* */
+async function runTasksInSeries(tasks) {
+  for (let task of tasks) {
+      await task();
+  }
+}
+
+// Example async tasks (promisified for simplicity)
+function asyncTask(name, duration) {
+  return new Promise(resolve => {
+      setTimeout(() => {
+          console.log(`Task ${name} finished after ${duration}ms`);
+          resolve();
+      }, duration);
+  });
+}
+
+// Define an array of async tasks
+const tasks = [
+  async () => await asyncTask("Task 1", 2000),
+  async () => await asyncTask("Task 2", 1000),
+  async () => await asyncTask("Task 3", 1500)
+];
+
+// Run tasks in series
+runTasksInSeries(tasks)
+  .then(() => {
+      console.log('All tasks completed.');
+  })
+  .catch(err => {
+      console.error('Error running tasks:', err);
+  });

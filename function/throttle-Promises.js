@@ -117,3 +117,107 @@ async function throttlePromises(arr, max) {
   }
   return data;
 }
+
+
+/****************************** */
+// js  Implement a throttle function with a cancel method.
+
+function throttle(func, delay) {
+  let timer;
+
+  function throttledFunction() {
+    if (timer) {
+      clearTimeout(timer);
+    }
+
+    timer = setTimeout(func, delay);
+  }
+
+  throttledFunction.cancel = function() {
+    clearTimeout(timer);
+  };
+
+  return throttledFunction;
+}
+
+// Example usage:
+
+const throttledFunction = throttle(() => {
+  console.log('Function throttled!');
+}, 1000);
+
+throttledFunction(); // Logs 'Function throttled!'
+throttledFunction(); // Does not log anything, because the function is throttled
+
+// Cancel the throttled function:
+
+throttledFunction.cancel();
+
+// Now the function can be called again:
+
+throttledFunction(); // Logs 'Function throttled!'
+
+
+
+
+
+function throttle(func, interval) {
+  let timeoutId;
+  let lastArgs;
+  let lastTime = 0;
+  let shouldCallNow = false;
+
+  function throttled(...args) {
+      const now = Date.now();
+
+      if (!timeoutId && !shouldCallNow) {
+          shouldCallNow = true;
+          func.apply(this, args);
+          lastTime = now;
+      } else {
+          lastArgs = args;
+          const remaining = lastTime + interval - now;
+          if (remaining <= 0) {
+              clearTimeout(timeoutId);
+              timeoutId = null;
+              lastTime = now;
+              func.apply(this, lastArgs);
+          } else if (!timeoutId) {
+              timeoutId = setTimeout(() => {
+                  timeoutId = null;
+                  lastTime = Date.now();
+                  func.apply(this, lastArgs);
+              }, remaining);
+          }
+      }
+  }
+
+  // Method to cancel the throttle
+  throttled.cancel = function() {
+      clearTimeout(timeoutId);
+      timeoutId = null;
+      shouldCallNow = false;
+  };
+
+  return throttled;
+}
+
+
+// Example usage
+function sayHello(name) {
+  console.log(`Hello, ${name}!`);
+}
+
+const throttledHello = throttle(sayHello, 1000);
+
+throttledHello('Alice'); // This will execute immediately
+throttledHello('Bob');   // This will be ignored (throttled)
+throttledHello('Charlie'); // This will be ignored (throttled)
+
+setTimeout(() => throttledHello('Dave'), 500); // This will be ignored (throttled)
+
+// Cancel the pending execution
+throttledHello.cancel();
+
+// No function will be executed after cancellation
+throttledHello('Eve'); // This will execute immediately

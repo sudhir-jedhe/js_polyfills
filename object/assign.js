@@ -87,3 +87,33 @@ const target = Object.defineProperty({}, "foo", {
   value: 1,
   writable: false,
 });
+
+
+
+
+/**************************************** */
+if (typeof Object.assign !== 'function') {
+  Object.defineProperty(Object, 'assign', {
+      value: function(target, ...sources) {
+          if (target == null) {
+              throw new TypeError('Cannot convert undefined or null to object');
+          }
+
+          const to = Object(target);
+
+          for (let source of sources) {
+              if (source != null) {
+                  for (let key in source) {
+                      if (Object.prototype.hasOwnProperty.call(source, key)) {
+                          to[key] = source[key];
+                      }
+                  }
+              }
+          }
+
+          return to;
+      },
+      writable: true,
+      configurable: true
+  });
+}

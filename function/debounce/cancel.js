@@ -35,3 +35,8 @@ debouncedFn(); // Will cancel the previous invocation and reschedule it for 1000
 debouncedFn.cancel(); // Will cancel the delayed invocation
 
 debouncedFn.flush(); // Will immediately invoke the function and reset the timer for future calls
+
+
+/************************** */
+
+cancelDebounce

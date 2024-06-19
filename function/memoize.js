@@ -116,3 +116,20 @@ function memo(func, resolver) {
     return cache[key];
   };
 }
+
+
+
+/********************************* */
+
+function memoize(func) {
+  const cache = new Map();
+  return function(arg) {
+      if (cache.has(arg)) {
+          return cache.get(arg);
+      } else {
+          const result = func(arg);
+          cache.set(arg, result);
+          return result;
+      }
+  };
+}

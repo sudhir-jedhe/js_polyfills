@@ -140,3 +140,30 @@ function getAge(dt) {
 let res = users.filter((user) => getAge(user.born) > 40);
 
 console.log(res);
+
+
+Find a single value
+If you are looking for a single result in an array, you can use Array.prototype.find() instead. This will return the first element that satisfies the condition, or undefined if no such element exists. It's much faster than Array.prototype.filter(), as it will stop iterating as soon as it finds the first matching element.
+
+const arr = [1, 2, 3, 4, 5];
+
+arr.find(x => x > 3); // 4
+Additionally, if the condition is a simple equality check, you can also use Array.prototype.indexOf(). While not as pretty as the other two, it can be significantly faster, as there's no overhead from using a comparator function.
+
+const arr = [1, 2, 3, 4, 5];
+
+arr.indexOf(3); // 2
+Remove a single value
+Similarly, if you want to remove a single value from an array, you can use Array.prototype.findIndex() to find the index of the element you want to remove. Then, use Array.prototype.slice() to remove it. While this is a little more verbose and seems to perform more operations, it can actually be faster than using Array.prototype.filter() in many cases.
+
+const arr = [1, 2, 3, 4, 5];
+
+const index = arr.findIndex(x => x === 3);
+const newArr = [...arr.slice(0, index), ...arr.slice(index + 1)];
+// [1, 2, 4, 5]
+Similarly, if you don't mind mutating the original array, you can use Array.prototype.splice() to remove the element at the index you found. As this method doesn't have to create a new array, it can be significantly faster than the previous one.
+
+const arr = [1, 2, 3, 4, 5];
+
+const index = arr.findIndex(x => x === 3);
+arr.splice(index, 1); // [1, 2, 4, 5]
