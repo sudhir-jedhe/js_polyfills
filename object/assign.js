@@ -117,3 +117,35 @@ if (typeof Object.assign !== 'function') {
       configurable: true
   });
 }
+
+
+
+/*************************** */
+
+function customAssign(target, ...sources) {
+  if (target == null) {
+      throw new TypeError('Cannot convert undefined or null to object');
+  }
+
+  // Convert target to an object
+  const to = Object(target);
+
+  for (const source of sources) {
+      if (source != null) { // Check if the source is not null or undefined
+          for (const key of Object.keys(source)) {
+              // Copy the property to the target object
+              to[key] = source[key];
+          }
+      }
+  }
+
+  return to;
+}
+
+// Example usage:
+const target = { a: 1 };
+const source1 = { b: 2 };
+const source2 = { c: 3 };
+
+const result = customAssign(target, source1, source2);
+console.log(result); // Output: { a: 1, b: 2, c: 3 }

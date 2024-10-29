@@ -87,3 +87,40 @@ function isIsomorphic(str1, str2) {
 str1 = "ABCA";
 str2 = "XYZX";
 console.log(isIsomorphic(str1, str2));
+
+
+/************************* */
+
+function areIsomorphic(str1, str2) {
+  if (str1.length !== str2.length) return false;
+
+  const map1 = new Map();
+  const map2 = new Map();
+
+  for (let i = 0; i < str1.length; i++) {
+      const char1 = str1[i];
+      const char2 = str2[i];
+
+      // Check mapping from str1 to str2
+      if (!map1.has(char1)) {
+          map1.set(char1, char2);
+      } else if (map1.get(char1) !== char2) {
+          return false; // Mismatch in mapping
+      }
+
+      // Check mapping from str2 to str1
+      if (!map2.has(char2)) {
+          map2.set(char2, char1);
+      } else if (map2.get(char2) !== char1) {
+          return false; // Mismatch in mapping
+      }
+  }
+
+  return true; // All characters match
+}
+
+// Example usage:
+console.log(areIsomorphic("egg", "add")); // true
+console.log(areIsomorphic("foo", "bar")); // false
+console.log(areIsomorphic("paper", "title")); // true
+console.log(areIsomorphic("abcd", "efgh")); // true

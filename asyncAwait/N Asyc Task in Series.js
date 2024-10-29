@@ -206,3 +206,42 @@ runTasksInSeries(tasks)
   .catch(err => {
       console.error('Error running tasks:', err);
   });
+
+
+
+  
+
+  async function fetchUrlsInSerial(urls) {
+    // Ensure urls is an array of strings
+    if (!Array.isArray(urls) || !urls.every(url => typeof url === 'string')) {
+        throw new TypeError('URLs should be an array of strings.');
+    }
+
+    const results = [];
+
+    for (const url of urls) {
+        const response = await fetch(url);
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        const data = await response.json(); // Parse JSON
+        results.push(data); // Store the result
+    }
+
+    return results;
+}
+
+// Example usage
+const apiUrls = [
+    'https://jsonplaceholder.typicode.com/posts/1',
+    'https://jsonplaceholder.typicode.com/posts/2',
+    'https://jsonplaceholder.typicode.com/posts/3'
+];
+
+fetchUrlsInSerial(apiUrls)
+    .then(results => {
+        console.log('All API calls completed:', results);
+    })
+    .catch(error => {
+        console.error('Error in fetching data:', error);
+    });

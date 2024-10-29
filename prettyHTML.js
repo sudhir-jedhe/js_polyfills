@@ -1,3 +1,4 @@
+// parser-for-rich-text-editor
 function prettyHTML(string, styles) {
     // Create a temporary div element to parse the HTML string
     const tempDiv = document.createElement('div');

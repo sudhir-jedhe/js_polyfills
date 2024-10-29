@@ -117,3 +117,49 @@ function set(obj, path, value) {
     obj = obj[p];
   }
 }
+
+
+
+function customSet(object, path, value) {
+  if (!object || typeof object !== 'object') {
+      throw new TypeError('First argument must be an object');
+  }
+
+  const pathArray = Array.isArray(path) ? path : path.split('.'); // Convert path to array if it's a string
+  let current = object;
+
+  // Iterate through the path array
+  for (let i = 0; i < pathArray.length; i++) {
+      const key = pathArray[i];
+
+      // If we are at the last key, set the value
+      if (i === pathArray.length - 1) {
+          current[key] = value; // Set the value
+      } else {
+          // Create nested objects if they do not exist
+          if (!current[key] || typeof current[key] !== 'object') {
+              current[key] = {}; // Initialize as an empty object
+          }
+          current = current[key]; // Move deeper into the object
+      }
+  }
+}
+
+// Example usage
+const data = {
+  user: {
+      info: {
+          name: 'Alice',
+          age: 30,
+      },
+  },
+};
+
+customSet(data, 'user.info.address.city', 'Wonderland');
+console.log(data.user.info.address.city); // Output: 'Wonderland'
+
+customSet(data, 'user.hobbies', ['reading', 'traveling']);
+console.log(data.user.hobbies); // Output: ['reading', 'traveling']
+
+customSet(data, ['user', 'info', 'age'], 31);
+console.log(data.user.info.age); // Output: 31

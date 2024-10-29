@@ -1,0 +1,88 @@
+<!-- Why Use Design Patterns in JavaScript?
+
+JavaScript design patterns aren't just theory—they’re practical solutions to common coding challenges. 
+Whether you’re building web apps or managing complex state in React, design patterns are simple ways to solve common coding problems, making your code cleaner and easier to work with
+
+Here’s why they’re useful:
+
+1. Easier to Understand: Patterns keep your code organized, so it’s simpler to read and maintain.
+2. More Efficient: They help avoid reinventing the wheel by using proven solutions.
+3. Scales with Your Project: When your app grows, patterns make it easier to expand without a headache.
+
+Some popular JavaScript patterns: 
+
+1. Creational Design Patterns (Red Column)
+These patterns help you create objects in a way that’s optimized for your project’s needs. They focus on the best ways to instantiate objects, so you don't have to manually create each one.
+
+Examples:
+◾️ Constructor: Directly creates an instance of a class.
+◾️ Factory: Decides which class to instantiate based on conditions.
+◾️ Singleton: Ensures only one instance of a class exists.
+◾️ Builder: Builds complex objects step-by-step.
+
+These are useful when you have to create a lot of similar objects or manage a single instance of something, like app configuration.
+
+2. Structural Design Patterns (Blue Column)
+These patterns are about organizing code and creating relationships between objects. They help make your code structure simpler and more efficient.
+
+Examples:
+◾️ Adapter: Allows incompatible interfaces to work together.
+◾️ Decorator: Adds new functionality to objects without modifying their structure.
+◾️ Proxy: Acts as a substitute or placeholder for another object.
+
+Structural patterns make it easier to manage code that relies on multiple objects working together.
+
+3. Behavioral Design Patterns (Green Column)
+These patterns are focused on how objects interact and communicate with each other. They make sure the right actions happen at the right time.
+
+Examples:
+◾️ Observer: Allows an object to notify other objects of changes.
+◾️ Strategy: Chooses an algorithm based on the situation.
+◾️ Command: Encapsulates commands or operations as objects.
+
+Behavioral patterns help manage complex flows, making interactions between objects more organized and predictable.
+
+In short, Creational patterns help you create objects, Structural patterns help you organize them, and Behavioral patterns help them communicate effectively! -->
+
+
+<!-- 
+1. Design facebook.com
+ProductDesign
+2. Design an instagram
+ProductDesign
+3. Design an Infinite Scroller
+SystemDesign
+4. Design a messenger web app
+ProductDesign
+5. Design an API progress bar
+SystemDesign
+6. Design a Typeahead Widget
+SystemDesign
+7. Design a perfect TODO app
+ProductDesign
+8. Create a Star Widget
+SystemDesign
+9. Design a Poll Widget
+SystemDesign
+10. Design a Carousel Widget
+SystemDesign
+11. Design Twitter Web App
+ProductDesign
+12. design a QR code based login system
+SystemDesign
+13. design BFE.dev
+ProductDesign
+14. design youtube.com
+ProductDesign
+15. create a WYSIWYG editor
+SystemDesign
+16. design CodeSandbox
+ProductDesign
+17. Design a slider component
+SystemDesign
+18. How would you create google analytics script.
+SystemDesign
+19. Design a Tic-Tac-Toe game
+SystemDesign
+20. Implement nested checkboxes
+SystemDesign -->

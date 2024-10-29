@@ -165,3 +165,48 @@ export default function flatten(value: Array<ArrayValue>): Array<any> {
 }
 
 
+
+
+/******************************* */
+
+async function getValueList(fromIndex, toIndex) {
+  // Input JSON structure
+  const input = [
+      { "value": "value0", "children": [] },
+      { "value": "value1", "children": [
+          { "value": "value2", "children": [
+              { "value": "value3", "children": [] }
+          ]},
+          { "value": "value4", "children": [] }
+      ]},
+      { "value": "value5", "children": [] },
+      { "value": "value6", "children": [] }
+  ];
+
+  // Function to flatten the input structure
+  const flatten = (arr) => {
+      let result = [];
+      arr.forEach(item => {
+          result.push(item.value); // Add the current value
+          if (item.children.length > 0) {
+              result = result.concat(flatten(item.children)); // Recursively flatten children
+          }
+      });
+      return result;
+  };
+
+  // Flatten the input
+  const flatValues = flatten(input);
+
+  // Return the sliced array based on the indices
+  return flatValues.slice(fromIndex, toIndex);
+}
+
+// Example usage (uncomment to test)
+// (async () => {
+//     console.log(await getValueList(0, 3)); // Output: ['value0', 'value1', 'value2']
+//     console.log(await getValueList(2, 5)); // Output: ['value2', 'value3', 'value4']
+// })();
+
+// Do not edit below this line
+export default getValueList;
