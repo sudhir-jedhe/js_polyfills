@@ -113,3 +113,70 @@ var maxArea = function(H) {
 
 
 // Given n non-negative integers a1, a2, ..., an , where each represents a point at coordinate (i, ai). n vertical lines are drawn such that the two endpoints of the line i is at (i, ai) and (i, 0). Find two lines, which, together with the x-axis forms a container, such that the container contains the most water.
+
+// Container With Most Water
+// Medium
+// Topics
+// Companies
+// Hint
+// You are given an integer array height of length n. There are n vertical lines drawn such that the two endpoints of the ith line are (i, 0) and (i, height[i]).
+
+// Find two lines that together with the x-axis form a container, such that the container contains the most water.
+
+// Return the maximum amount of water a container can store.
+
+
+function maxArea(height) {
+    let maxArea = 0;
+    let left = 0;
+    let right = height.length - 1;
+    
+    while (left < right) {
+        let width = right - left;
+        let minHeight = Math.min(height[left], height[right]);
+        let area = width * minHeight;
+        maxArea = Math.max(maxArea, area);
+        
+        // Move the pointer pointing to the shorter line inward
+        if (height[left] < height[right]) {
+            left++;
+        } else {
+            right--;
+        }
+    }
+    
+    return maxArea;
+}
+
+// Test case
+console.log(maxArea([1,8,6,2,5,4,8,3,7])); // Output: 49
+
+
+/********************************************* */
+
+function maxArea(height) {
+	let maxWater = 0;
+	let left = 0;
+	let right = height.length - 1;
+  
+	while (left < right) {
+	  const width = right - left;
+	  const currentArea = Math.min(height[left], height[right]) * width;
+	  maxWater = Math.max(maxWater, currentArea);
+  
+	  // Move the shorter wall towards the center to potentially enclose a larger area
+	  if (height[left] < height[right]) {
+		left++;
+	  } else {
+		right--;
+	  }
+	}
+  
+	return maxWater;
+  }
+  
+  // Examples
+  console.log(maxArea([1, 8, 6, 2, 5, 4, 8, 3, 7])); // Output: 49
+  console.log(maxArea([1])); // Output: 0
+  console.log(maxArea([1, 2])); // Output: 1
+  

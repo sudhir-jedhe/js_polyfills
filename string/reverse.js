@@ -54,6 +54,16 @@ function reverseString(str) {
   console.log(strRev);
 }
 
+  
+
+function reverseString(str) {
+  // Base case: if the string is empty or has only one character, return the string
+  if (str.length <= 1) {
+    return str;
+  }
+  // Recursive case: return the last character + reverseString of all characters except the last
+  return str.charAt(str.length - 1) + reverseString(str.substring(0, str.length - 1));
+}
 // Function call
 reverseString("GeeksforGeeks");
 reverseString("JavaScript");

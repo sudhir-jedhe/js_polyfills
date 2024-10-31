@@ -1,5 +1,6 @@
 /**
- * Problem: Three Number Sum: Given an array of integers, find three integers in the array that sum to a specific target number.
+ * Problem: Three Number Sum: Given an array of integers, 
+ * find three integers in the array that sum to a specific target number.
  */
 // Time: O(n^2) | Space: O(1)
 const threeNumberSum = (array, targetSum) => {
@@ -31,6 +32,6 @@ const threeNumberSum = (array, targetSum) => {
   let target = 0;
   console.log(threeNumberSum(arr, target));
 
-  Input = [12, 3, 1, 2, -6, 5, -8, 6];
-Target = 0
-Output: [ [ -8, 2, 6 ], [ -8, 3, 5 ], [ -6, 1, 5 ] ]
+//   Input = [12, 3, 1, 2, -6, 5, -8, 6];
+// Target = 0
+// Output: [ [ -8, 2, 6 ], [ -8, 3, 5 ], [ -6, 1, 5 ] ]

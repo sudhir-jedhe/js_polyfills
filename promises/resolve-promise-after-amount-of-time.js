@@ -9,3 +9,4 @@ const resolveAfter = (value, delay) =>
 
 resolveAfter('Hello', 1000);
 // Returns a promise that resolves to 'Hello' after 1s
+ 

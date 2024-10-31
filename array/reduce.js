@@ -391,30 +391,3 @@ myGeeks();
   console.log(a, b);
 }, 0);
 
-
-/****************************** */
-
-InputArray = [1,2,3,5,8,13,21,34]
-Output = 87 --> 15 -->6
-
-function sumArrayDigits(arr) {
-  // Step 1: Calculate sum of the array
-  const sum = arr.reduce((acc, curr) => acc + curr, 0);
-  
-  // Step 2: Helper function to sum digits until we get a single digit
-  function sumDigits(num) {
-      let sum = num;
-      while (sum >= 10) {
-          sum = sum.toString().split('').reduce((acc, digit) => acc + parseInt(digit), 0);
-      }
-      return sum;
-  }
-  
-  // Step 3: Return the single digit sum
-  return sumDigits(sum);
-}
-
-// Example usage:
-const arr = [1, 2, 3, 4, 5];
-const singleDigitSum = sumArrayDigits(arr);
-console.log(singleDigitSum); // Output: 1

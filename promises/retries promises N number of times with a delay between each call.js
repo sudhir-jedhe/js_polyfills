@@ -1,11 +1,11 @@
-Input:
-retry(asyncFn, retries = 3, delay = 50, finalError = 'Failed');
+// Input:
+// retry(asyncFn, retries = 3, delay = 50, finalError = 'Failed');
 
-Output:
-... attempt 1 -> failed
-... attempt 2 -> retry after 50ms -> failed
-... attempt 3 -> retry after 50ms -> failed
-... Failed.
+// Output:
+// ... attempt 1 -> failed
+// ... attempt 2 -> retry after 50ms -> failed
+// ... attempt 3 -> retry after 50ms -> failed
+// ... Failed.
 
 
 //delay func

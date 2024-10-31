@@ -44,3 +44,65 @@ console.log(isValid(string1));
 
 // Time Complexity = O(n)
 // Space Complexity = O(n)
+
+
+/********************************* */
+
+function isValid(s) {
+  const stack = [];
+  const pairs = {
+      ')': '(',
+      '}': '{',
+      ']': '['
+  };
+  
+  for (let char of s) {
+      if (char === '(' || char === '{' || char === '[') {
+          stack.push(char);
+      } else if (char === ')' || char === '}' || char === ']') {
+          let top = stack.pop();
+          if (pairs[char] !== top) {
+              return false;
+          }
+      }
+  }
+  
+  return stack.length === 0;
+}
+
+// Test cases
+console.log(isValid("()")); // Output: true
+console.log(isValid("()[]{}")); // Output: true
+console.log(isValid("(]")); // Output: false
+console.log(isValid("([)]")); // Output: false
+console.log(isValid("{[]}")); // Output: true
+
+
+/**************************************** */
+
+function isValidParentheses(str) {
+  const stack = [];
+  const opening = { '(': ')', '{': '}', '[': ']' };
+  const closing = ')', '}', ']';
+
+  for (let char of str) {
+    if (opening[char]) {
+      // Push opening brackets onto the stack
+      stack.push(opening[char]);
+    } else if (closing.includes(char)) {
+      // Check if the closing bracket matches the top element on the stack
+      const expectedClosing = stack.pop();
+      if (char !== expectedClosing) {
+        return false;
+      }
+    }
+  }
+
+  // Ensure all opening brackets have a matching closing bracket
+  return stack.length === 0;
+}
+
+// Examples
+console.log(isValidParentheses("()")); // Output: true
+console.log(isValidParentheses("([)]")); // Output: false
+console.log(isValidParentheses("{[]}()")); // Output: true

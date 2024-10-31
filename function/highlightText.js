@@ -20,3 +20,21 @@ function highlightText(searchTerm) {
     }
   });
 }
+
+/******************************************* */
+
+const TextHighlighter = ({ text = "", highlight = "" }) => {
+  if (!highlight.trim()) return <span>{text}</span>;
+
+  const parts = text.split(highlight);
+  return (
+    <span>
+      {parts.map((text, index) => (
+        <>
+          <span>{text}</span>
+          {index !== parts.length - 1 && <b>{highlight}</b>}
+        </>
+      ))}
+    </span>
+  );
+};

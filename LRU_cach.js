@@ -637,3 +637,177 @@ put: Adds a new value in the cache.
 use: Uses one of the existing values and re-arranges the cache by marking the used one as most recently one.
 evict: Removes a value from the cache.
 Insert: A helper function to add value in cache while performing put
+
+
+/************************************************************** */
+
+class Node {
+  constructor(key, value) {
+      this.key = key;
+      this.value = value;
+      this.prev = null;
+      this.next = null;
+  }
+}
+
+class LRUCache {
+  constructor(capacity) {
+      this.capacity = capacity;
+      this.size = 0;
+      this.cache = new Map();
+      this.head = new Node(null, null);
+      this.tail = new Node(null, null);
+      this.head.next = this.tail;
+      this.tail.prev = this.head;
+  }
+  
+  addToFront(node) {
+      node.prev = this.head;
+      node.next = this.head.next;
+      this.head.next.prev = node;
+      this.head.next = node;
+  }
+  
+  removeFromList(node) {
+      let prevNode = node.prev;
+      let nextNode = node.next;
+      prevNode.next = nextNode;
+      nextNode.prev = prevNode;
+  }
+  
+  get(key) {
+      if (!this.cache.has(key)) {
+          return -1;
+      }
+      
+      let node = this.cache.get(key);
+      this.removeFromList(node);
+      this.addToFront(node);
+      
+      return node.value;
+  }
+  
+  put(key, value) {
+      if (this.cache.has(key)) {
+          let node = this.cache.get(key);
+          node.value = value;
+          this.removeFromList(node);
+          this.addToFront(node);
+      } else {
+          let newNode = new Node(key, value);
+          this.cache.set(key, newNode);
+          this.addToFront(newNode);
+          this.size++;
+          
+          if (this.size > this.capacity) {
+              let tailNode = this.tail.prev;
+              this.removeFromList(tailNode);
+              this.cache.delete(tailNode.key);
+              this.size--;
+          }
+      }
+  }
+}
+
+// Example usage:
+let lRUCache = new LRUCache(2);
+lRUCache.put(1, 1);
+lRUCache.put(2, 2);
+console.log(lRUCache.get(1)); // Output: 1
+lRUCache.put(3, 3);
+console.log(lRUCache.get(2)); // Output: -1
+lRUCache.put(4, 4);
+console.log(lRUCache.get(1)); // Output: -1
+console.log(lRUCache.get(3)); // Output: 3
+console.log(lRUCache.get(4)); // Output: 4
+
+
+/***************************************** */
+
+class Node {
+  constructor(key, value) {
+    this.key = key;
+    this.value = value;
+    this.prev = null;
+    this.next = null;
+  }
+}
+
+class LRUCache {
+  constructor(capacity) {
+    this.capacity = capacity;
+    this.size = 0;
+    this.head = new Node(null, null);
+    this.tail = new Node(null, null);
+    this.head.next = this.tail;
+    this.tail.prev = this.head;
+    this.cache = new Map(); // Hash table for faster key lookups
+  }
+
+  // Move a node to the front of the doubly linked list
+  moveToFront(node) {
+    this.removeNode(node);
+    this.insertAtHead(node);
+  }
+
+  // Insert a node at the head of the doubly linked list
+  insertAtHead(node) {
+    node.prev = this.head;
+    node.next = this.head.next;
+    this.head.next.prev = node;
+    this.head.next = node;
+  }
+
+  // Remove a node from the doubly linked list
+  removeNode(node) {
+    node.prev.next = node.next;
+    node.next.prev = node.prev;
+  }
+
+  // Get the value of a key
+  get(key) {
+    const node = this.cache.get(key);
+    if (node) {
+      this.moveToFront(node); // Update recently used status
+      return node.value;
+    }
+    return -1;
+  }
+
+  // Put a key-value pair into the cache
+  put(key, value) {
+    const node = this.cache.get(key);
+    if (node) {
+      node.value = value; // Update value if key exists
+      this.moveToFront(node); // Update recently used status
+    } else {
+      const newNode = new Node(key, value);
+      this.cache.set(key, newNode);
+      this.insertAtHead(newNode);
+      this.size++;
+      if (this.size > this.capacity) {
+        this.removeLeastRecentlyUsed(); // Evict least recently used
+      }
+    }
+  }
+
+  // Remove the least recently used node from the cache
+  removeLeastRecentlyUsed() {
+    const removedNode = this.tail.prev;
+    this.removeNode(removedNode);
+    this.cache.delete(removedNode.key);
+    this.size--;
+  }
+}
+
+// Example usage
+const cache = new LRUCache(2);
+cache.put(1, 1);
+cache.put(2, 2);
+console.log(cache.get(1)); // Output: 1
+cache.put(3, 3);
+console.log(cache.get(2)); // Output: -1 (evicted)
+cache.put(4, 4);
+console.log(cache.get(1)); // Output: -1 (evicted)
+console.log(cache.get(3)); // Output: 3
+console.log(cache.get(4)); // Output: 4
