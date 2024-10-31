@@ -1,0 +1,17 @@
+/* src/PhoneInput.css */
+.phone-input-container {
+    margin: 20px;
+}
+
+.phone-input-container input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px; /* Adjust width as needed */
+}
+
+.phone-input-container input:focus {
+    border-color: #007BFF; /* Focused border color */
+    outline: none; /* Remove default outline */
+}

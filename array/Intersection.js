@@ -75,3 +75,45 @@ let second_array = [2, 3, 4, 5, 6, 9];
 
 console.log("Array obtained is: ");
 console.log(res_arr(first_array, second_array));
+
+
+/******************************* */
+// intersection of unsorted arraye
+function getIntersection(arr1, arr2) {
+  let a = new Set(arr1);
+  let b = new Set(arr2);
+  return [...a].filter(a => b.has(a));
+}
+
+let arr1 = [1, 3, 5, 7, 9]; 
+let arr2 = [2, 3, 4, 5, 6, 9];
+
+console.log(getIntersection(arr1, arr2));
+
+/*************************** */
+function getIntersection(arr1, arr2) {
+  const op = new Set();
+  const map = {};
+  for(let i of arr1) map[i] = true;
+  for(let i of arr2) if(map[i]) op.add(i)
+  return [...op]
+}
+
+
+function getIntersection(arr1, arr2) {
+  return arr1.reduce((res, elem) => {
+    if(arr2.includes(elem) && !res.includes(elem)) res.push(elem);
+    return res;
+  }, []);
+}
+
+function getIntersection(arr1, arr2) {
+  // your code here
+  let finalRes = [];
+  for (let x of arr1) {
+    if (arr2.includes(x)) {
+      !finalRes.includes(x) && finalRes.push(x)
+    }
+  }
+  return finalRes;
+}

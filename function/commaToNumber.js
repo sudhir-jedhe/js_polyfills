@@ -113,3 +113,53 @@ function addComma(num) {
   }
   return `${integer}${fraction}`;
 }
+
+/***********************************  
+ * 
+ */
+
+function addComma(num) {
+  let str = String(num);
+  let arr = str.split(".");
+   let str1 = arr[0];
+   let str2 =arr[1];
+   let s = '';
+   let count = 0;
+   for (let i = str1.length - 1; i >= 0; i--) {
+     s = str1[i] + s
+     count++
+     if (count % 3 == 0 && i != 0) {
+       s = ',' + s
+     }
+   }
+   return str2 == undefined ? s : (s + "." +str2);
+}
+
+
+
+function addComma(num) {
+  const str = num.toString()
+  let [integer, fraction] = str.split('.')
+  
+  integer = integer.replace(/(\d)(?=(\d{3})+$)/g, '$1,')
+  
+  if (fraction === undefined) return integer 
+  return integer + '.' + fraction
+}
+
+
+/* solution 1:  use toLocaleString*/
+function addComma(num) {
+  let [integer, float] = String(num).split('.');
+  const fraction = float ? `.${float}` : '';
+  return Number(integer).toLocaleString() + fraction;
+}
+/* solution 2:  for loop + slice*/
+function addComma(num) {
+  let [integer, float] = String(num).split('.');
+  const fraction = float ? `.${float}`: '';
+  for(let i=integer.length-3; i>0; i-=3){
+    integer = integer.slice(0, i) + ',' + integer.slice(i)
+  }
+  return `${integer}${fraction}`
+}

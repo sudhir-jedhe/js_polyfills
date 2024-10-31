@@ -58,3 +58,21 @@ let isPrime = (n) => {
     //call the same function with incremented value of i  
     return primeNumberRecursive(n, i+1);
   }
+
+
+  function isPrime(num) {
+   if(num === 1) return false;
+   const max = Math.round(Math.sqrt(num));
+   
+   for(let i=2; i<=max; i++){
+     if(num % i === 0) return false;
+   }
+   return true;
+ }
+
+ 
+ function isPrime(num) {
+   // your code here
+   for(let index = 2; index <= Math.sqrt(num); index++) if(num%index === 0) return false;
+   return num === 1 ? false : true;
+ }

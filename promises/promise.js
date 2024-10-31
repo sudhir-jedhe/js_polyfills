@@ -433,3 +433,96 @@ class MyPromise {
     return new MyPromise((_, rej) => rej(err));
   }
 }
+
+/**************************************** */
+
+class CustomPromise {
+  constructor(executor) {
+      this.state = 'pending'; // initial state
+      this.value = undefined; // resolved value
+      this.reason = undefined; // rejection reason
+      this.onFulfilledCallbacks = []; // array for success callbacks
+      this.onRejectedCallbacks = []; // array for failure callbacks
+
+      const resolve = (value) => {
+          if (this.state === 'pending') {
+              this.state = 'fulfilled';
+              this.value = value;
+              this.onFulfilledCallbacks.forEach(callback => callback(value));
+          }
+      };
+
+      const reject = (reason) => {
+          if (this.state === 'pending') {
+              this.state = 'rejected';
+              this.reason = reason;
+              this.onRejectedCallbacks.forEach(callback => callback(reason));
+          }
+      };
+
+      try {
+          executor(resolve, reject);
+      } catch (error) {
+          reject(error); // handle synchronous errors
+      }
+  }
+
+  then(onFulfilled, onRejected) {
+      return new CustomPromise((resolve, reject) => {
+          const handleFulfilled = () => {
+              try {
+                  const result = onFulfilled ? onFulfilled(this.value) : this.value;
+                  resolve(result);
+              } catch (error) {
+                  reject(error);
+              }
+          };
+
+          const handleRejected = () => {
+              try {
+                  const result = onRejected ? onRejected(this.reason) : this.reason;
+                  resolve(result);
+              } catch (error) {
+                  reject(error);
+              }
+          };
+
+          if (this.state === 'fulfilled') {
+              handleFulfilled();
+          } else if (this.state === 'rejected') {
+              handleRejected();
+          } else {
+              this.onFulfilledCallbacks.push(handleFulfilled);
+              this.onRejectedCallbacks.push(handleRejected);
+          }
+      });
+  }
+
+  catch(onRejected) {
+      return this.then(null, onRejected);
+  }
+}
+
+// Example usage
+const promise = new CustomPromise((resolve, reject) => {
+  setTimeout(() => {
+      const success = true; // Change to false to simulate rejection
+      if (success) {
+          resolve('Promise resolved successfully!');
+      } else {
+          reject('Promise rejected.');
+      }
+  }, 1000);
+});
+
+promise
+  .then(result => {
+      console.log(result); // Output on success
+      return 'Chained success!';
+  })
+  .then(chainedResult => {
+      console.log(chainedResult); // Output from the chained promise
+  })
+  .catch(error => {
+      console.error(error); // Output on error
+  });

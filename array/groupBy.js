@@ -145,3 +145,41 @@ const groupBy = (arr, fn) =>
 
 groupBy([6.1, 4.2, 6.3], Math.floor); // {4: [4.2], 6: [6.1, 6.3]}
 groupBy(['one', 'two', 'three'], 'length'); // {3: ['one', 'two'], 5: ['three']}
+
+
+
+
+const items = [
+  {
+    id: 1,
+    kind: 'a',
+  },
+  {
+    id: 2,
+    kind: 'b',
+  },
+  {
+    id: 3,
+    kind: 'a',
+  }
+]
+const groups = Object.groupBy(items, ({kind}) => kind)
+// {
+//   a: [
+//     {
+//       id: 1,
+//       kind: 'a'
+//     },
+//     {
+//       id: 3,
+//       kind: 'a'
+//     }
+//   ],
+//   b: [
+//     {
+//       id: 2,
+//       kind: 'b'
+//     }
+//   ]
+// }
+prev

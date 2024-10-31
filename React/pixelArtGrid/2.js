@@ -1,0 +1,81 @@
+import "./style.css";
+
+const grid = document.querySelector(".grid");
+
+for (let i = 0; i < 100; i++) {
+  const square = document.createElement("div");
+  square.className = "square";
+  square.setAttribute('draggable', 'true');
+  square.setAttribute('droppable', 'true');
+  grid.appendChild(square);
+}
+
+let squareBoxes = document.querySelectorAll(".square");
+squareBoxes.forEach(cell => {
+  cell.addEventListener('click', (e) => {
+    cell.style.backgroundColor = 'black';
+  });
+});
+let dragged;
+squareBoxes.forEach(cell => {
+  cell.addEventListener("dragstart", (e) => {
+    dragged = e.target.style.backgroundColor;
+    console.log("dragging.................");
+  });
+  cell.addEventListener("dragover", (event) => {
+    cell.style.backgroundColor = dragged;
+    event.preventDefault();
+  });
+  cell.addEventListener("drop", (e) => {
+    e.preventDefault();
+    cell.style.backgroundColor = dragged;
+  });
+});
+
+let btn = document.querySelector(".btn");
+btn.addEventListener('click', (e) => {
+  squareBoxes.forEach(cell => {
+    cell.style.backgroundColor = '';
+  });
+})
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  html {
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  body {
+    background-color: white;
+    height: 100%;
+    padding: 15px;
+  }
+  
+  .grid {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(10, 60px);
+    grid-template-rows: repeat(10, 60px);
+  }
+  
+  .grid .square {
+    background-color: white(217, 213, 213);
+    border: 1px solid black;
+  }
+  
+  .btn {
+    background-color: rgb(166, 177, 166);
+    margin: 30px;
+    width: 30%;
+    height: 45px;
+  }
+
+
+  <div class="grid"></div>
+  <center><button class="btn">Clear</button></center>

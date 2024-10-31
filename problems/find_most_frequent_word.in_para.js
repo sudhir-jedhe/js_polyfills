@@ -23,6 +23,8 @@ function mostUsedWord(text, bannedWords) {
   }
 
 
+
+
   /******************************** */
   In this question, from a given paragraph return the most frequent word.
 
@@ -84,3 +86,64 @@ function mostUsedWord(text, bannedWords) {
   
     return mostUsedWord;
   }
+
+  /**************************** */
+
+  function mostUsedWord(text, bannedWords) {
+    const validCharactersforWordRegex = /^[a-zA-Z]+$/;
+  
+    if(!text) {
+      throw new TypeError();
+    }
+    const record = {};
+      let currentWord = "";
+      for(let i = 0; i < text.length; i++) {
+        if(validCharactersforWordRegex.test(text[i])) {
+            currentWord += text[i].toLowerCase();
+        }else if(bannedWords?.includes(currentWord)) {
+          currentWord = ""
+        } else if(currentWord) {
+           record[currentWord] ? (record[currentWord] += 1) : (record[currentWord] = 1);
+           currentWord = ""
+        } 
+      }
+      let max = 0;
+      let mostUsedWord = "";
+  
+      Object.keys(record).forEach(item => {
+        if(record[item] > max){
+          max = record[item];
+          mostUsedWord = item;
+        }
+      });
+     return mostUsedWord;
+  }
+
+  /******************************  */
+
+  
+function mostUsedWord(text, bannedWords) {
+
+  if(!text || text.trim() === "") throw TypeError("Invalid");
+  // write your code below
+  let count={}
+  
+  text.split(" ").forEach((item)=>{
+    let pureItem = item.replace(/[^a-zA-Z0-9]/g,'').trim().toLowerCase();
+    if(!bannedWords || bannedWords.indexOf(pureItem) == -1){
+      let pre = count[pureItem] ?? 0;
+      count = {
+        ...count,
+        [pureItem]:pre+1
+      }
+    }
+  })
+
+  let ans = '';
+  Object.entries(count).forEach(([key,value])=>{
+    if(ans == '' || count[ans] < value)
+      ans = key;
+  })
+  return ans;
+  
+}

@@ -99,3 +99,67 @@ function compress(str) {
     return result;
   }
   
+
+
+  /****************************** */
+
+  uncompress('3(ab)') // 'ababab'
+uncompress('3(ab2(c))') // 'abccabccabcc'
+
+
+const isNumeric = (str: string) => !isNaN(parseFloat(str)) && isFinite(Number(str))
+function uncompress(str: string): string {
+ const stack: string[] = []
+  for (const char of str) {
+    if (char !== ')') {
+      stack.push(char)
+    } else {
+      let word = ''
+      let count = ''
+      // !1. 找字符串
+      while (stack.length && stack[stack.length - 1] !== '(') word = stack.pop() + word
+      stack.pop() 
+      // !2.找重复次数
+      while (stack.length && isNumeric(stack[stack.length - 1])) count = stack.pop() + count
+      stack.push(word.repeat(Number(count)))
+    }
+  }
+  return stack.join('')
+}
+
+/**************************** */
+
+function uncompress(str) {
+  const result = str.replace(/(\d+)\(([\D]*?)\)/gi, (_, multiplier, subString) => subString.repeat(multiplier))
+  return result.includes("(") ? uncompress(result) : result;
+}
+
+
+/************************************ */
+
+
+function uncompress(str) {
+  const stack = [''];
+  const count = [];
+  let n = '';
+  for (let i = 0; i < str.length; i++) {
+    const char = str[i];
+    if (/\d/.test(char)) {
+      n += char;
+    } else if (char === '(') {
+      stack.push('');
+      count.push(Number(n));
+      n = '';
+    } else if (char === ')') {
+      const sequence = stack.pop();
+      const times = count.pop();
+      stack.push(stack.pop() + sequence.repeat(times));
+    } else {
+      stack.push(stack.pop() + char);
+    }
+  }
+  return stack.pop();
+}
+ 6
+ m
+ /********************************** */

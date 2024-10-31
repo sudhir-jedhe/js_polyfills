@@ -1,0 +1,129 @@
+import "/style.css";
+
+/*
+ * Creates chess board
+ * @param el DOM Element
+ */
+let chessBoard = document.getElementById("chess-board");
+   
+function cellEventListenerAddition(cell,rowId,columnId){
+   
+   cell.addEventListener('click', () => {
+     let i = rowId;
+     let j = columnId;
+     
+     while(i<8 && j<8){
+      let c = document.querySelector(`.cell[rowId="${i}"][columnId="${j}"]`);
+      console.log(c)
+       c.classList.add('red')
+       i++;
+       j++;
+     }
+     
+     i = rowId;
+     j = columnId;
+     
+     while(i>=0 && j>=0){
+      let c = document.querySelector(`.cell[rowId="${i}"][columnId="${j}"]`);
+      console.log(c)
+       c.classList.add('red')
+       i--;
+       j--;
+     }
+
+     i = rowId;
+     j = columnId;
+     
+     while(i<8 && j>=0){
+      let c = document.querySelector(`.cell[rowId="${i}"][columnId="${j}"]`);
+      console.log(c)
+       c.classList.add('red')
+       i++;
+       j--;
+     }
+     
+     i = rowId;
+     j = columnId;
+     
+     while(i>=0 && j<8){
+      let c = document.querySelector(`.cell[rowId="${i}"][columnId="${j}"]`);
+      console.log(c)
+       c.classList.add('red')
+       i--;
+       j++;
+     }
+     
+   })
+   
+   
+}
+ 
+function createChessBoard() {
+    // write logic to create the chess board
+    let rows = 8;
+    let columns = 8;
+    
+    for(let i=0;i<rows;i++){
+        let row = document.createElement('div');
+        row.setAttribute('class','row')
+     
+      for(let j =0; j<columns;j++){
+        let cell = document.createElement('div');
+        cell.setAttribute('rowId',i)
+        cell.setAttribute('columnId', j)
+        cell.setAttribute('class','cell')
+        
+        if((i+j)%2!==0){
+          cell.classList.add('black')
+        }else{
+          cell.classList.add('white')
+        }
+        cellEventListenerAddition(cell,i,j)
+       row.appendChild(cell)
+      }
+      
+      chessBoard.appendChild(row)
+    }
+    
+    
+}
+
+createChessBoard();
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+  margin: 0;
+  padding: 0;
+  }
+  
+  .chess-board{
+    height: 80vh;
+    width: 80vh;
+  }
+  
+  .row{
+    height: 10vh;
+    width: 80vh;
+    display: flex;
+    border: 1px solid black;
+  }
+  
+  .cell{
+    height: 10vh;
+    width: 10vh;
+    background-color: white;
+    border: 1px solid black;
+  }
+  
+  .red{
+    background-color:red !important;
+  }
+  
+  .black{
+    background-color: black;
+  }

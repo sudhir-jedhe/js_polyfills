@@ -110,3 +110,32 @@ console.log(trim(s));
       content.innerHTML += "The trimmed string using trim() method is :-" + str + "<br>";
    </script>
 </body>
+
+
+
+
+/************/
+
+
+const WHITESPACES = [" ", "", "\s", "\t", "\n", "\u3000"];
+/**
+ * @param {string} str
+ * @return {string}
+ */
+function trim(str) {
+  let wordStart = 0;
+  let wordEnd = str.length;
+  for (let i = 0; i < str.length; i++) {
+    if (WHITESPACES.indexOf(str[i]) === -1) {
+      wordStart = i;
+      break;
+    }
+  }
+  for(let j = str.length - 1; j >= 0; j--) {
+    if (WHITESPACES.indexOf(str[j]) === -1) {
+      wordEnd = j;
+      break;
+    }
+  }
+  return str.slice(wordStart, wordEnd + 1);
+}

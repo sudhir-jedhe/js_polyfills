@@ -72,6 +72,42 @@ class NodeStore {
 }
 ```
 
+```
+class NodeStore {
+    constructor() {
+        // Initialize the store structure using a Map
+        this.store = new Map();
+    }
+
+    set(node, value) {
+        // Associate the node with the value
+        this.store.set(node, value);
+    }
+
+    get(node) {
+        // Retrieve the value associated with the node
+        return this.store.get(node);
+    }
+
+    has(node) {
+        // Determine if the node exists in the store
+        return this.store.has(node);
+    }
+}
+
+// Example usage (uncomment to test)
+// const nodeStore = new NodeStore();
+// const myNode = document.createElement('div');
+// nodeStore.set(myNode, 'Some value');
+// console.log(nodeStore.get(myNode)); // Output: 'Some value'
+// console.log(nodeStore.has(myNode)); // Output: true
+// console.log(nodeStore.has({})); // Output: false (different object)
+
+// Do not edit below this line
+export default NodeStore;
+
+```
+
 **References**
 
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map

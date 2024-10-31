@@ -144,3 +144,93 @@ class BrowserHistory {
     this.currentPage = Math.min(this.history.length - 1, this.currentPage + 1);
   }
 }
+
+
+
+/**************** */
+
+class CustomHistory {
+  constructor() {
+      this.historyStack = [];
+      this.currentIndex = -1; // No history at the start
+  }
+
+  // Push a new state to the history stack
+  pushState(state, title, url) {
+      // If we're not at the end of the stack, slice off any forward history
+      if (this.currentIndex < this.historyStack.length - 1) {
+          this.historyStack = this.historyStack.slice(0, this.currentIndex + 1);
+      }
+
+      this.historyStack.push({ state, title, url });
+      this.currentIndex++;
+      console.log(`Pushed: ${url}`);
+  }
+
+  // Replace the current state in the history stack
+  replaceState(state, title, url) {
+      if (this.currentIndex >= 0) {
+          this.historyStack[this.currentIndex] = { state, title, url };
+          console.log(`Replaced: ${url}`);
+      } else {
+          console.error('No history to replace');
+      }
+  }
+
+  // Go back in history
+  back() {
+      if (this.currentIndex > 0) {
+          this.currentIndex--;
+          const { state, title, url } = this.historyStack[this.currentIndex];
+          console.log(`Back to: ${url}`);
+          return { state, title, url };
+      } else {
+          console.error('No more history to go back');
+          return null;
+      }
+  }
+
+  // Go forward in history
+  forward() {
+      if (this.currentIndex < this.historyStack.length - 1) {
+          this.currentIndex++;
+          const { state, title, url } = this.historyStack[this.currentIndex];
+          console.log(`Forward to: ${url}`);
+          return { state, title, url };
+      } else {
+          console.error('No more history to go forward');
+          return null;
+      }
+  }
+
+  // Get current state
+  getCurrentState() {
+      if (this.currentIndex >= 0) {
+          return this.historyStack[this.currentIndex];
+      }
+      return null;
+  }
+}
+
+// Example usage
+const customHistory = new CustomHistory();
+
+// Simulating user navigation
+customHistory.pushState({ page: 1 }, 'Page 1', '/page1');
+customHistory.pushState({ page: 2 }, 'Page 2', '/page2');
+customHistory.pushState({ page: 3 }, 'Page 3', '/page3');
+
+// Current state
+console.log(customHistory.getCurrentState()); // { page: 3, title: 'Page 3', url: '/page3' }
+
+// Go back
+customHistory.back(); // Back to: /page2
+console.log(customHistory.getCurrentState()); // { page: 2, title: 'Page 2', url: '/page2' }
+
+// Replace current state
+customHistory.replaceState({ page: 2, modified: true }, 'Modified Page 2', '/modified-page2');
+console.log(customHistory.getCurrentState()); // { page: 2, modified: true, title: 'Modified Page 2', url: '/modified-page2' }
+
+// Go forward
+customHistory.forward(); // Forward to: /page3
+console.log(customHistory.getCurrentState()); // { page: 3, title: 'Page 3', url: '/page3' }
