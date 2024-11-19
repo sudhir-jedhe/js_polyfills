@@ -1,3 +1,11 @@
+let obj = {
+  i: 0
+};
+
+console.log(obj.i); // 1
+console.log(obj.i); // 2
+console.log(obj.i); // 3
+
 obj = new Proxy(obj, {
   get: (target, property) => {
     if (property === "i") {
@@ -6,6 +14,13 @@ obj = new Proxy(obj, {
     }
   },
 });
+
+
+I thought of solving this by creating a constructor using getter and setter, but the problem was object was already provided and we could just modify it.
+
+The one solution that came to my mind was using Proxy, it is a powerful concept but not often used during development.
+
+Proxy allows us to extend the existing object and return a proxy object with the getter and setters in which we can achieve the modification of property values.
 
 console.log(obj.i); // 1
 console.log(obj.i); // 2

@@ -43,3 +43,17 @@ console.log(twoSum([2, 7, 11, 15], 26));
 //     "11": 2,  // 26-11 = 15
 //     "15":     // 26 - 15 = 11 => [obj[11],3] => [2, 3]
 // }
+
+
+
+var twoSum = function (nums, target) {
+  const m = new Map();
+  for (let i = 0; ; ++i) {
+      const x = nums[i];
+      const y = target - x;
+      if (m.has(y)) {
+          return [m.get(y), i];
+      }
+      m.set(x, i);
+  }
+};

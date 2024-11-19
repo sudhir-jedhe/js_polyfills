@@ -44,3 +44,96 @@ try {
 } catch (err) {
   console.log(err); // 'An error occurred!'
 }
+
+
+
+/**************************** */
+
+// The Promise.all() accepts an array of promises and returns a promise that resolves when all of the promises in the array are fulfilled or when the iterable contains no promises. It rejects with the reason of the first promise that rejects.
+
+// The Promise.all() accepts an array of promises and returns a promise that resolves when all of the promises in the array are fulfilled or when the iterable contains no promises. It rejects with the reason of the first promise that rejects.
+
+// It will return a promise.
+// The promise will resolve with result of all the passed promises or reject with the error message of first failed promise.
+// The results are returned in the same order as the promises are in the given array.
+
+function myPromiseAll(taskList) {
+  //to store results 
+  const results = [];
+  
+  //to track how many promises have completed
+  let promisesCompleted = 0;
+
+  // return new promise
+  return new Promise((resolve, reject) => {
+
+    taskList.forEach((promise, index) => {
+     //if promise passes
+      promise.then((val) => {
+        //store its outcome and increment the count 
+        results[index] = val;
+        promisesCompleted += 1;
+        
+        //if all the promises are completed, 
+        //resolve and return the result
+        if (promisesCompleted === taskList.length) {
+          resolve(results)
+        }
+      })
+         //if any promise fails, reject.
+        .catch(error => {
+          reject(error)
+        })
+    })
+  });
+}
+
+
+Input:
+function task(time) {
+  return new Promise(function (resolve, reject) {
+    setTimeout(function () {
+      resolve(time);
+    }, time);
+  });
+}
+
+const taskList = [task(1000), task(5000), task(3000)];
+
+//run promise.all
+myPromiseAll(taskList)
+  .then(results => {
+    console.log("got results", results)
+  })
+  .catch(console.error);
+
+Output:
+//"got results" [1000,5000,3000]
+
+
+
+
+Input:
+function task(time) {
+  return new Promise(function (resolve, reject) {
+    setTimeout(function () {
+      if(time < 3000){
+        reject("Rejected");
+      }else{
+        resolve(time);
+      }
+    }, time);
+  });
+}
+
+const taskList = [task(1000), task(5000), task(3000)];
+
+//run promise.all
+myPromiseAll(taskList)
+  .then(results => {
+    console.log("got results", results)
+  })
+  .catch(console.error);
+
+Output:
+"Rejected"

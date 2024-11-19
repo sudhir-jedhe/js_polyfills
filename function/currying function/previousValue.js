@@ -1,3 +1,6 @@
+// We will see how to create a javascript function that will remember its previously passed values and return the sum of the current and previous value.
+
+
 const curry = () => {
   //To store the previous values
   let sum = 0;

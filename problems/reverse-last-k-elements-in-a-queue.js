@@ -110,3 +110,43 @@ const reverseQueueUsingLinkedList = (queue, k) => {
  
     return next;
  };
+
+
+ /*************************************** */
+
+ let reverseQueue = (queue) => {
+  
+  //Use a stack to reverse the queue
+  let stack = new Stack();
+  
+  //Push all the items of the queue to the stack
+  while(!queue.isEmpty()){
+    stack.push(queue.dequeue());
+  }
+  
+  //Again push all the items from the stack into the queue
+  while(!stack.isEmpty()){
+    queue.enqueue(stack.pop());
+  }
+  
+  return queue;
+}
+
+
+Input:
+let queue = new Queue();
+queue.enqueue(1);
+queue.enqueue(2);
+queue.enqueue(3);
+queue.enqueue(4);
+queue.enqueue(5);
+queue.enqueue(6);
+queue.enqueue(7);
+queue.enqueue(8);
+queue.enqueue(9);
+queue.enqueue(10);
+let reversed = reverseQueue(queue);
+reversed.print();
+
+Output:
+"10,9,8,7,6,5,4,3,2,1"

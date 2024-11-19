@@ -9,3 +9,24 @@
 // Should we return a new array or we mutate the existing array?
 // Can we assume valid input, i.e. an array. Normally the answer is "yes", so you don't have to waste your time doing defensive programming.
 // Does the environment the code runs on has ES6+ support? The environment determines what methods/native APIs you have access to
+
+
+
+const flatten = (arr) => {
+    return arr.reduce((flat, toFlatten) => {
+      return flat.concat(Array.isArray(toFlatten) ? flatten(toFlatten) : toFlatten);
+    }, []);
+  }
+
+
+  const flatten = function(arr, result = []) {
+    for (let i = 0, length = arr.length; i < length; i++) {
+      const value = arr[i];
+      if (Array.isArray(value)) {
+        flatten(value, result);
+      } else {
+        result.push(value);
+      }
+    }
+    return result;
+  };

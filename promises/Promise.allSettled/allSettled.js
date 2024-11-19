@@ -181,3 +181,77 @@ Promise.allSettled([promise1, promise2, promise3])
     
     // Call the function
     promiseAllSettledExample();
+
+
+    /**************************************** */
+
+
+//     The Promise.allSettled() method returns a promise that fulfills after all of the given promises have either fulfilled or rejected, with an array of objects that each describes the outcome of each promise.
+
+//     Map the array of promises to return an object with status and value/error depending upon the promised settlement.
+// Pass this map to the Promise.all to run them at once and return the result.
+
+
+const allSettled = (promises) => {
+  // map the promises to return custom response.
+  const mappedPromises = promises.map(
+    p => Promise.resolve(p)
+    .then(
+      val => ({ status: 'fulfilled', value: val }),
+      err => ({ status: 'rejected', reason: err })
+    )
+  );
+
+  // run all the promises once with .all 
+  return Promise.all(mappedPromises);
+}
+
+Input:
+const a = new Promise((resolve) => setTimeout(() => { resolve(3) },200));
+const b = new Promise((resolve,reject) => reject(9));
+const c = new Promise((resolve) => resolve(5));
+
+allSettled([a, b, c]).then((val)=> {console.log(val)});
+
+Output:
+[
+  {
+    "status": "fulfilled",
+    "value": 3
+  },
+  {
+    "status": "rejected",
+    "reason": 9
+  },
+  {
+    "status": "fulfilled",
+    "value": 5
+  }
+]
+
+
+/*************************************** */
+promiseAllSettled
+
+/**
+ * @param {Array<Function>} functions
+ * @return {Promise}
+ */
+var promiseAllSettled = function (functions) {
+  return new Promise(resolve => {
+      const res = [];
+      let count = 0;
+      for (let i in functions) {
+          functions[i]()
+              .then(value => ({ status: 'fulfilled', value }))
+              .catch(reason => ({ status: 'rejected', reason }))
+              .then(obj => {
+                  res[i] = obj;
+                  if (++count === functions.length) {
+                      resolve(res);
+                  }
+              });
+      }
+  });
+};
+

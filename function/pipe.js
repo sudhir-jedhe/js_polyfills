@@ -77,6 +77,9 @@ pipe([times(2), subtract(3), divide(4)]);
 /************************** */
 // accept functions as arguments
 // using rest ... operator convert then to array
+
+
+// Create a function that accepts multiple functions as an argument and a value and run this value through each function and return the final output.
 const pipe = function (...fns) {
   // form a closure with inner function
   return function (val) {
@@ -108,3 +111,58 @@ console.log(result);
 
 Output:
 7700
+
+
+/************************** */
+
+const pipe = (obj) => {
+  // return another function that will accept all the args
+  return function(...args){
+    // iterate the keys of the object
+    for (let key in obj) {
+        // get the value
+        let val = obj[key];
+      
+        // if the value is a function
+        if (typeof val === 'function') {
+            // pass the args to the function
+            // store the result on the same key
+            obj[key] = val(...args);
+        }
+        else {
+            // else recursively call the same function
+            // if it is nested object it will be further processed
+            obj[key] = pipe(val)(...args);
+        }
+    }
+    
+    // return the input after processing
+    return obj;
+  }
+};
+
+
+
+Input:
+let test = {
+    a: {
+        b: (a, b, c) => a + b + c,
+        c: (a, b, c) => a + b - c,
+    },
+    d: (a, b, c) => a - b - c,
+    e: 1,
+    f: true
+};
+
+console.log(pipe(test)(1, 1, 1));
+
+Output:
+{
+  "a": {
+    "b": 3,
+    "c": 1
+  },
+  "d": -1,
+  "e": 1,
+  "f": true
+}

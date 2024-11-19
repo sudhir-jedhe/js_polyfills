@@ -77,6 +77,15 @@ const abc = {
   }
 };
 
+// If it is string then filter all the special characters like [, ] and split the string on . to get all the path keys in an array.
+
+// Then using a helper function we can assign the value to the provided path.
+
+// Get only the first key from the path array and aggregate the rest of the keys.
+// If there are no more keys left to update, assign the value to the current key.
+// Else recursively call the same function with the current value for the next path.
+// While moving to the next path, check the type of key, if it is numeric the value should be an array thus pass array, else if it is a string pass the object.
+
 const instance1 = JSON.parse(JSON.stringify(abc));
 set(instance1, 'a.b.c', 'learnersbucket');
 console.log(instance1.a.b.c);

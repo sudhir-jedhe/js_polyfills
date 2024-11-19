@@ -1,3 +1,16 @@
+Given a nested array and a callback function, count all the elements that pass the test in the callback and return the count.
+
+```js
+
+Input:
+const arr = [[1, [2, [3, 4, "foo", { a: 1, b: 2 }]], "bar"]];
+const count = countInArray(arr, (e) => typeof e === "number");
+console.log(count);
+
+Output:
+4
+```
+
 ```js
 let countInArray = function (inputArr, test) {
   //track the count

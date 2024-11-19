@@ -16,3 +16,23 @@ let chessboard = (row, column) => {
     console.log(str);
   }
 };
+
+
+
+Input:
+chessboard(3, 5);
+chessboard(8, 8);
+
+Output:
+" # # "
+"# # #"
+" # # "
+
+" # # # #"
+"# # # # "
+" # # # #"
+"# # # # "
+" # # # #"
+"# # # # "
+" # # # #"
+"# # # # "

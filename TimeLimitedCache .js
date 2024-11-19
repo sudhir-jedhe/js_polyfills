@@ -104,3 +104,93 @@ setTimeout(() => {
 }, 700);
 
 /********************************** */
+
+
+class TimeLimitedCache {
+  constructor() {
+    this.cache = new Map(); // To store key-value pairs with expiration times
+  }
+
+  // Set a key-value pair with expiration duration
+  set(key, value, duration) {
+    const currentTime = Date.now();  // Get current time in milliseconds
+    const expirationTime = currentTime + duration;  // Calculate expiration time
+    
+    let existed = false;
+    
+    if (this.cache.has(key)) {
+      // If the key exists, check if the old value is expired
+      const [oldValue, oldExpirationTime] = this.cache.get(key);
+      if (oldExpirationTime > currentTime) {
+        // If the old value is unexpired, we overwrite it and return true
+        existed = true;
+      }
+    }
+
+    // Store the new key, value, and expiration time
+    this.cache.set(key, [value, expirationTime]);
+    
+    return existed;  // Return whether the key was overwritten with an unexpired value
+  }
+
+  // Get the value of a key if it is not expired
+  get(key) {
+    const currentTime = Date.now();  // Get current time
+    
+    if (this.cache.has(key)) {
+      const [value, expirationTime] = this.cache.get(key);
+      if (expirationTime > currentTime) {
+        // If the key hasn't expired, return the value
+        return value;
+      }
+      // If the key is expired, delete it from the cache
+      this.cache.delete(key);
+    }
+    
+    return -1;  // Return -1 if the key doesn't exist or is expired
+  }
+
+  // Count how many keys are unexpired
+  count() {
+    const currentTime = Date.now();  // Get current time
+    let count = 0;
+    
+    // Iterate through all keys to count unexpired ones
+    for (let [key, [value, expirationTime]] of this.cache.entries()) {
+      if (expirationTime > currentTime) {
+        count++;
+      } else {
+        // If expired, remove the key
+        this.cache.delete(key);
+      }
+    }
+    
+    return count;
+  }
+}
+
+
+
+const actions2 = ["TimeLimitedCache", "set", "set", "get", "get", "get", "count"];
+const values2 = [[], [1, 42, 50], [1, 50, 100], [1], [1], [1], []];
+const timeDelays2 = [0, 0, 40, 50, 120, 200, 250];
+
+const cache2 = new TimeLimitedCache();
+
+const results2 = [];
+let currentTime2 = 0;
+
+actions2.forEach((action, index) => {
+  currentTime2 = timeDelays2[index];
+  if (action === "set") {
+    const [key, value, duration] = values2[index];
+    results2.push(cache2.set(key, value, duration));
+  } else if (action === "get") {
+    const [key] = values2[index];
+    results2.push(cache2.get(key));
+  } else if (action === "count") {
+    results2.push(cache2.count());
+  }
+});
+
+console.log(results2);  // Output: [null, false, true, 50, 50, -1, 0]

@@ -4070,6 +4070,91 @@
      new Myfunc(); // called with new
      Myfunc(); // not called with new
      Myfunc.call({}); // not called with new
+
+
+     function A(B) {
+    if( new.target ) {
+        console.log('OK, new');
+    } else {
+        console.log('OK, function');
+    }
+}
+
+Input:
+A(); // Ok, function
+new A(); // OK, new
+new A(); // Ok, new
+
+A(4);             // OK, function
+var X = new A(4); // OK, new
+
+var Z = new A();  // OK, new
+Z.lolol = A; 
+Z.lolol();        // OK, function
+
+var Y = A;
+Y();              // OK, function
+var y = new Y();  // OK, new
+y.lolol = Y;
+y.lolol();        // OK, function
+
+Output:
+"OK, function"
+"OK, new"
+"OK, new"
+"OK, function"
+"OK, new"
+"OK, new"
+"OK, function"
+"OK, function"
+"OK, new"
+"OK, function"
+
+
+Without new.target
+
+
+
+function A(B) {
+    // You could use arguments.callee instead of x here,
+    // except in EcmaScript 5 strict mode.
+    if( this instanceof A && !this._constructed ) {
+        this._constructed = true;
+        console.log('OK, new');
+    } else {
+        console.log('OK, function');
+    }
+}
+
+Input:
+A(); // Ok, function
+new A(); // OK, new
+new A(); // Ok, new
+
+A(4);             // OK, function
+var X = new A(4); // OK, new
+
+var Z = new A();  // OK, new
+Z.lolol = A; 
+Z.lolol();        // OK, function
+
+var Y = A;
+Y();              // OK, function
+var y = new Y();  // OK, new
+y.lolol = Y;
+y.lolol();        // OK, function
+
+Output:
+"OK, function"
+"OK, new"
+"OK, new"
+"OK, function"
+"OK, new"
+"OK, new"
+"OK, function"
+"OK, function"
+"OK, new"
+"OK, function"
      ```
 
      **[⬆ Back to Top](#table-of-contents)**

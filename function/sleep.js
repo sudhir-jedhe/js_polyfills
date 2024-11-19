@@ -13,3 +13,8 @@ const performAction = async () => {
 };
 
 performAction();
+
+
+// Learn how to make functions sleep or pause for a given duration in javascript.
+
+

@@ -49,10 +49,47 @@ function deepCopy(obj) {
  
 deepCopy(obj);
 
+
+
 // Notes
 
 // 3rd solution provided does deep copy of a nested object also but this technique results in loss of data
 
+
+let deepCopy = (aObject) => {
+  //If not a object then return
+  if (!aObject) {
+    return aObject;
+  }
+  
+  let v;
+
+  //Check the type of the input
+  let bObject = Array.isArray(aObject) ? [] : {};
+
+  //Copy each element
+  for (const k in aObject) {
+    v = aObject[k];
+
+    //If type of element is object 
+    //Then recursively call the same function and create  a copy
+    bObject[k] = (typeof v === "object") ? deepCopy(v) : v;
+  }
+
+  return bObject;
+}
+
+
+let arr = [{a: 1}, {b: 2}, [1, 2]];
+
+//Create a deep copy
+let arr2 = deepCopy(arr);
+
+//Update the original array
+arr[2][0] = 10;
+
+console.log(arr2);
+//[{a: 1}, {b: 2}, [1, 2]]
 // References
 
 // https://www.digitalocean.com/community/tutorials/copying-objects-in-javascript
@@ -442,6 +479,25 @@ function groupBy(values, iteratee) {
  
   return obj;
 }
+
+const groupBy = (values, keyFinder) => {
+  // using reduce to aggregate values
+  return values.reduce((a, b) => {
+    // depending upon the type of keyFinder
+    // if it is function, pass the value to it
+    // if it is a property, access the property
+    const key = typeof keyFinder === 'function' ? keyFinder(b) : b[keyFinder];
+    
+    // aggregate values based on the keys
+    if(!a[key]){
+      a[key] = [b];
+    }else{
+      a[key] = [...a[key], b];
+    }
+    
+    return a;
+  }, {});
+};
 
 // References
 

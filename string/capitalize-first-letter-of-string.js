@@ -18,3 +18,29 @@ const decapitalize = ([first, ...rest], lowerRest = false) =>
 
 decapitalize('FooBar'); // 'fooBar'
 decapitalize('FooBar', true); // 'foobar'
+
+
+
+let capitalized = (str) => {
+  //If not string then return empty string
+  if (typeof str !== 'string') {
+     return '';
+  }
+  
+  //Return the capitalized string
+  return str.charAt(0).toUpperCase() + str.slice(1);
+}
+
+or
+
+let capitalized = (str) => {
+  //If not string then return empty string
+  if (typeof str !== 'string') {
+     return '';
+  }
+  
+  //Return the capitalized string
+  let arr = str.split('');
+  arr[0] = arr[0].toUpperCase();
+  return arr.join('');
+}

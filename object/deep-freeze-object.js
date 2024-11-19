@@ -139,3 +139,179 @@ frozenMap([['a', 1], ['b', 2]]);
   'a' => 1, 'b' => 2,
   set: undefined, delete: undefined, clear: undefined
 } */
+
+
+  /***************************************** */
+
+
+  Create an immutability helper like Immer produce() that allows modifications of the restricted objects in JavaScript.
+
+  const obj = {
+    a: {
+      b: {
+        c: 2
+      }
+    }
+  };
+  
+  // object is frozen
+  // its properties cannot be updated
+  deepFreeze(obj);
+  
+  // obj can only be updated through the produce function
+  const newState = produce(obj, draft => {
+    draft.a.b.c = 3;
+    draft.a.b.d = 4;
+  });
+  
+  console.log(newState);
+  /*
+  {
+    "a": {
+      "b": {
+        "c": 3,
+        "d": 4
+      }
+    }
+  }
+  */
+  
+  // newState will also be frozen
+  // it cannot be updated
+  delete newState.a.b.c;
+  console.log(newState);
+  
+  /*
+  {
+    "a": {
+      "b": {
+        "c": 3,
+        "d": 4
+      }
+    }
+  }
+  */
+
+
+
+  // function to deep freeze object
+function deepFreeze(object) {
+  // Retrieve the property names defined on object
+  var propNames = Object.getOwnPropertyNames(object);
+
+  // Freeze properties before freezing self
+  for (let name of propNames) {
+    let value = object[name];
+
+    object[name] = value && typeof value === "object" ? 
+      deepFreeze(value) : value;
+  }
+
+  return Object.freeze(object);
+};
+
+// function to deep check two objects
+const deepEqual = (object1, object2) => {
+  // get object keys
+  const keys1 = Object.keys(object1);
+  const keys2 = Object.keys(object2);
+  
+  // if mismatched keys
+  if (keys1.length !== keys2.length) {
+    return false;
+  }
+
+  for (const key of keys1) {
+    // get the values
+    const val1 = object1[key];
+    const val2 = object2[key];
+    
+    // if both values are objects
+    const areObjects = val1 && typeof val1 === "object" && val2 && typeof val2 === "object";
+    
+    // if are objects
+    if(areObjects){
+      // deep check again
+      if(!deepEqual(val1, val2)){
+        return false;
+      }
+    }
+    // if are not objects
+    // compare the values
+    else if(!areObjects && val1 !== val2){
+       return false;
+    }
+  }
+
+  return true;
+};
+
+// main function to update the value
+function produce(base, recipe) {
+  // clone the frozen object
+  let clone = JSON.parse(JSON.stringify(base));
+  
+  // pass the clone to the recipe
+  // get the updated value
+  recipe(clone);
+  
+  // if both are different
+  // update the value 
+  if(deepEqual(base, clone)) {
+    clone = base;
+  }
+  
+  // deep freeze
+  deepFreeze(clone);
+  
+  // return the clone
+  return clone;
+};
+
+
+
+const obj = {
+  a: {
+    b: {
+      c: 2
+    }
+  }
+};
+
+// object is frozen
+// its properties cannot be updated
+deepFreeze(obj);
+
+// obj can only be updated through the produce function
+const newState = produce(obj, draft => {
+  draft.a.b.c = 3;
+  draft.a.b.d = 4;
+});
+
+console.log(newState);
+/*
+{
+  "a": {
+    "b": {
+      "c": 3,
+      "d": 4
+    }
+  }
+}
+*/
+
+// newState will also be frozen
+// it cannot be updated
+delete newState.a.b.c;
+console.log(newState);
+
+/*
+{
+  "a": {
+    "b": {
+      "c": 3,
+      "d": 4
+    }
+  }
+}
+*/

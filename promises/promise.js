@@ -1,3 +1,46 @@
+// Promises in JavaScript allow you to execute non-blocking (asynchronous) code and produces a value if the operation is successful or throws an error when the process fails.
+
+// In short, the eventual success (or failure) of an asynchronous operation and its associated value are represented by the Promise object.
+
+const promise = new Promise((resolve, reject) => {
+  // time-consuming async operation
+  // initial state will be pending
+  
+  // any one of the below operations can occur at any given time
+  
+  // this will resolve or fulfill the promise
+  resolve(value);
+  
+  // this will reject the promise
+  reject(reason);
+});
+
+// this will be invoked when a promise is resolved
+promise.then((value) => {
+  
+});
+
+// this will be invoked when a promise is rejected
+promise.catch((value) => {
+  
+});
+
+// this will always be invoked after any of the above operation 
+promise.then((value) => {
+  
+});
+
+const promise = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    resolve("hello");
+  }, 1000);
+});
+
+promise.then((value) => {
+  console.log(value);
+});
+
+
 /*******************************Implement Promise Polyfill  *****************************************/
 function MyPromise(executor) {
   if (typeof executor !== "function") {
@@ -526,3 +569,393 @@ promise
   .catch(error => {
       console.error(error); // Output on error
   });
+
+
+
+  /***************************** */
+
+//   We have to implement a custom function MyPromise that will be similar to the original promise.
+
+// To implement this we will use the observer pattern.
+
+// Use two handlers onSuccess and onError and assign this whenever .then, .catch, .finally methods are called.
+
+// Whenever the resolve or reject methods are invoked, run all the handlers in sequence and pass down the values to the next.
+
+
+
+// enum of states
+const states = {
+  PENDING: 0,
+  FULFILLED: 1,
+  REJECTED: 2
+}
+
+class MyPromise {
+  // initialize the promise
+  constructor(callback) {
+      this.state = states.PENDING;
+      this.value = undefined;
+      this.handlers = [];
+
+      try {
+          callback(this._resolve, this._reject);
+      } catch (error) {
+          this._reject(error);
+      }
+  }
+  
+  // helper function for resolve
+  _resolve = (value) => {
+      this._handleUpdate(states.FULFILLED, value);
+  }
+ 
+  // helper function for reject
+  _reject = (value) => {
+      this._handleUpdate(states.REJECTED, value);
+  }
+  
+  // handle the state change
+  _handleUpdate = (state, value) => {
+      if (state === states.PENDING) {
+          return;
+      }
+
+      setTimeout(() => {
+          if (value instanceof MyPromise) {
+              value.then(this._resolve, this._reject);
+          }
+
+          this.state = state;
+          this.value = value;
+
+          this._executeHandlers();
+      }, 0)
+  }
+  
+  // excute all the handlers
+  // depending on the current state
+  _executeHandlers = () => {
+      if (this.state === states.PENDING) {
+          return;
+      }
+
+      this.handlers.forEach((handler) => {
+          if (this.state === states.FULFILLED) {
+              return handler.onSuccess(this.value);
+          }
+          return handler.onFailure(this.value);
+      })
+
+      this.handlers = [];
+  }
+ 
+  // add handlers
+  // execute all if any new handler is added
+  _addHandler = (handler) => {
+      this.handlers.push(handler);
+      this._executeHandlers();
+  }
+  
+  // then handler
+  // creates a new promise
+  // assisgnes the handler
+  then = (onSuccess, onFailure) => {
+      // invoke the constructore 
+      // and new handler
+      return new MyPromise((resolve, reject) => {
+          this._addHandler({
+              onSuccess: (value) => {
+                  if (!onSuccess) {
+                      return resolve(value);
+                  }
+
+                  try {
+                      return resolve(onSuccess(value));
+                  } catch (error) {
+                      reject(error);
+                  }
+              },
+              onFailure: (value) => {
+                  if (!onFailure) {
+                      return reject(value);
+                  } 
+
+                  try {
+                      return reject(onFailure(value));
+                  } catch (error) {
+                      return reject(error);
+                  }
+              }
+          })
+      })
+  };
+  
+  // add catch handler
+  catch = (onFailure) => {
+      return this.then(null, onFailure);
+  };
+  
+  // add the finally handler
+  finally = (callback) => {
+      // create a new constructor
+      // listen the then and catch method
+      // finally perform the action
+      return new MyPromise((resolve, reject) => {
+          let wasResolved;
+          let value;
+
+          this.then((val) => {
+              value = val;
+              wasResolved = true;
+              return callback();
+          }).catch((err) => {
+              value = err;
+              wasResolved = false;
+              return callback();
+          })
+
+          if (wasResolved) {
+              resolve(value);
+          } else {
+              reject(value);
+          }
+      })
+  };
+};
+
+
+Input:
+const promise = new MyPromise((resolve, reject) => {
+  setTimeout(() => {
+    resolve("hello");
+  }, 1000);
+});
+
+promise.then((value) => {
+  console.log(value);
+});
+
+Output:
+"hello"
+
+
+/**************************** */
+
+
+promises
+
+
+// JavaScript is one of the most misunderstood programming languages thanks to its early-stage implementations.
+
+// Everyone has their own claims about whether it is a synchronous programming language or asynchronous, blocking, or non-blocking code, but not everyone is sure about it (even I am not 🤭).
+
+// Let us try to get this thing clear and understand promises and how it works.
+
+// JavaScript is a synchronous programming language. However, callback functions enable us to transform it into an asynchronous programming language.
+
+// And promises are to help to get out of “callback hell” while dealing with the asynchronous code and do much more.
+
+// In simple terms, JavaScript promises are similar to the promises made in human life.
+
+// The dictionary definition of promises is –
+
+// “Assurance that one will do something or that a particular thing will happen.”
+
+// JavaScript promises also work in the same way.
+
+// When a promise is created, there are only two outcomes to that promise.
+// Either it will be fulfilled (resolved) or it will be rejected.
+// By the time promises are not fulfilled or rejected, they will be in a pending state.
+// Promises are fulfilled with a certain value, that value can be further processed (if the value also is a promise) or given back raw.
+// Promises are rejected with the reason that caused them to reject.
+// After either of the result, we can also perform the next set of operations.
+
+
+const promise = new Promise((resolve, reject) => {
+  // resolve or reject
+});
+
+// Promise has three methods available (then, catch, finally) that can be used once it is settled (resolved or rejected). Each method accepts a callback function that is invoked depending on the state of the promise.
+
+// then(onResolvedFn, onRejectedFn) – This will be called either when the promise is rejected or resolved. Depending upon the state, appropriate callback functions will be invoked with the value.
+// catch(onRejectFn) – This will be called when the promise is rejected with the reason.
+// finally(onFinallyFn) – This will be called everytime after then and catch.
+
+Promise.prototype.then(onResolvedFn, onRejectedFn)
+
+Promise.prototype.catch(onRejectedFn)
+
+Promise.prototype.finally(onFinallyFn)
+
+
+
+const promise = new Promise((resolve, reject) => {
+  // a promise that will resolve after
+  // 5 second
+  setTimeout(() => {
+     resolve("Hello World!");
+  }, 5000);
+});
+
+
+console.log(promise);
+
+/*
+Promise { : "pending" }
+: "pending"
+​: Promise.prototype { … }
+*/
+
+
+
+setTimeout(() => {
+  console.log(promise);
+ }, 6000);
+ 
+ /*
+ Promise { : "fulfilled", : "Hello World!" }
+ : "fulfilled"
+ : "Hello World!"
+ : Promise.prototype { … }
+ */
+
+
+ promise.then((val) => {
+  console.log(val);
+});
+
+// "Hello World!" // after the promise is resolved that is after 5 seconds
+
+
+
+promise.then((val) => { return "ABC "+ val; }).then((val) => {
+  console.log(val);
+});
+
+// "ABC Hello World!"
+
+
+promise.then((val) => {
+  return "ABC "+ val;
+}).then((val) => {
+  console.log(val);
+}).finally(() => {
+  console.log("task done");
+});
+
+// "ABC Hello World!"
+// "task done"
+
+
+
+const promise = new Promise((resolve, reject) => {
+  // a promise that will reject after
+  // 5 second
+  setTimeout(() => {
+     reject("Error 404");
+  }, 5000);
+});
+
+promise.then(null, (error) => {
+console.error("Called from then method", error);
+});
+
+// "Called from then method" "Error 404"
+
+
+promise.catch((error) => {
+console.error("Called from catch method", error);
+});
+
+// "Called from catch method" "Error 404"
+
+
+promise.then(null, (error) => {
+  return error;
+}).then((val) => {
+  console.log("I am chained from then", val);
+});
+// "I am chained from then" "Error 404"
+
+promise.catch((error) => {
+  return error;
+}).then((val) => {
+  console.log("I am chained from catch", val);
+});
+// "I am chained from catch" "Error 404"
+
+
+
+promise.then(null, (error) => {
+  return error;
+}).then((val) => {
+  console.log("I am chained from then", val);
+}).finally(() => {
+  console.log(" Then block finally done");
+});
+
+promise.catch((error) => {
+  return error;
+}).then((val) => {
+  console.log("I am chained from catch", val);
+}).finally(() => {
+  console.log(" Catch block finally done");
+});
+
+"I am chained from then" "Error 404"
+"I am chained from catch" "Error 404"
+" Then block finally done"
+" Catch block finally done"
+
+
+
+const promise = Promise.resolve("I am resolved");
+
+async function example(){
+  // promise is wrapped in a try-catch block
+  // to handle it better
+  try{
+    const resp = await promise;
+    console.log(resp);
+  }catch(e){
+    console.error(e);
+  }finally{
+    console.log("Task done");
+  }
+}
+
+example();
+
+// "I am resolved"
+// "Task done"
+
+
+
+
+const promise = Promise.resolve("I am resolved");
+
+// fat arrow
+const example = async () => {
+  // promise is wrapped in a try-catch block
+  // to handle it better
+  try{
+    const resp = await promise;
+    return resp;
+  }catch(e){
+    console.error(e);
+  }finally{
+    console.log("Task done");
+  }
+};
+
+console.log(example());
+// Promise { : "fulfilled", : "I am resolved" }
+// "Task done"
+
+example().then((val) => {
+  console.log(val);
+});
+
+//"Task done"
+//"I am resolved"

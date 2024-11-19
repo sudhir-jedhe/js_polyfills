@@ -132,3 +132,58 @@ export const shuffleArray = (arr) => {
   }
   return arr;
 };
+
+
+/*************************** */
+
+const cardTypes = ["Spades", "Diamonds", "Club", "Heart"];
+
+const cardValues = [
+  "Ace",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9",
+  "10",
+  "Jack",
+  "Queen",
+  "King",
+];
+
+// cards deck array
+let deck = [];
+
+// create a deck of cards
+// total 4 (cardTypes) * 13 (cardValues) = 52 cards
+for (let i = 0; i < cardTypes.length; i++) {
+    for (let x = 0; x < cardValues.length; x++) {
+        let card = { value: cardValues[x], type: cardTypes[i] };
+        deck.push(card);
+    }
+}
+
+
+// shuffle the cards
+// iterate all the cards of the deck
+for (let i = deck.length - 1; i > 0; i--) {
+  // randomly pick a card from the deck
+  // swap it with the current card index
+  let j = Math.floor(Math.random() * i);
+  let temp = deck[i];
+  deck[i] = deck[j];
+  deck[j] = temp;
+}
+
+
+// display 3 random cards from the shuffled deck
+for (let i = 0; i < 3; i++) {
+  console.log(`${deck[i].value} of ${deck[i].type}`)
+}
+
+"Jack of Spades"
+"3 of Diamonds"
+"4 of Spades"

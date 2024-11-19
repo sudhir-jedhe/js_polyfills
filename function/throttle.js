@@ -391,3 +391,58 @@ Output:
 
 // [object Array] (2)
 [1,2] // 6th call after 2 seconds
+
+
+/*********************************** */
+
+
+// Learn what is throttling in javascript.
+
+// Excessive function invocations in javascript applications hamper the performance drastically. To optimize an app we need to handle this correctly.
+
+// There are scenarios where we may invoke functions when it isn’t necessary. For example, consider a scenario where we want to make an API call to the server on a button click.
+
+// If the user spam’s the click then this will make API call on each click. This is not what we want, we want to restrict the no of API calls that can be made. The other call will be made only after a specified interval of time.
+
+// Debouncing and Throttling help us to gain control over the rate at which function is called or executes.
+
+// What exactly is throttling in javascript?
+// Throttling is a way/technique to restrict the number of function execution/call. For example, consider a lucky draw number generator, we want to get a number only after a particular time.
+
+// With throttling, we can achieve this.
+
+// Here is the code for throttling in javascript.
+
+
+
+const throttle = (func, limit) => {
+  let lastFunc;
+  let lastRan;
+  return function() {
+    const context = this;
+    const args = arguments;
+    if (!lastRan) {
+      func.apply(context, args);
+      lastRan = Date.now();
+    } else {
+      clearTimeout(lastFunc);
+      lastFunc = setTimeout(function() {
+        if ((Date.now() - lastRan) >= limit) {
+          func.apply(context, args)
+          lastRan = Date.now()
+        }
+      }, limit - (Date.now() - lastRan));
+    }
+  }
+}
+
+
+btn.addEventListener('click', throttle(function() {
+  return console.log('HOLA! oppo', new Date().toUTCString());
+}, 1000));
+
+
+// Then what is the difference between debouncing and throttling?
+// Debouncing:- It is used to invoke/call/execute function only when things have stopped happening for a given specific time. For example, Call a search function to fetch the result when the user has stopped typing in the search box. If the user keeps on typing then reset the function.
+
+// Throttling:- It is used to restrict the no of times a function can be called/invoked/executed. For example, making an API call to the server on the user’s click. If the user spam the click then also there will be specific calls only. Like, make each call after 10 seconds.

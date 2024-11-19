@@ -85,3 +85,33 @@ console.log(strReverse("TypeScript"));
 function reverseString(str) {
   return [...str].reduceRight((accumulator, current) => accumulator + current);
 }
+
+
+var reverseString = function (s) {
+  for (let i = 0, j = s.length - 1; i < j; ++i, --j) {
+      [s[i], s[j]] = [s[j], s[i]];
+  }
+};
+
+// Given a string s and an integer k, reverse the first k characters for every 2k characters counting from the start of the string.
+
+
+// Input: s = "abcdefg", k = 2
+// Output: "bacdfeg"
+// Example 2:
+
+// Input: s = "abcd", k = 2
+// Output: "bacd"
+ 
+
+
+function reverseStr(s: string, k: number): string {
+  const n = s.length;
+  const cs = s.split('');
+  for (let i = 0; i < n; i += 2 * k) {
+      for (let l = i, r = Math.min(i + k - 1, n - 1); l < r; l++, r--) {
+          [cs[l], cs[r]] = [cs[r], cs[l]];
+      }
+  }
+  return cs.join('');
+}

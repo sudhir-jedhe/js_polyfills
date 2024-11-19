@@ -55,3 +55,43 @@ window.setInterval = (func, interval) => {
 // Example usage:
 // Assume some intervals are set using window.setInterval
 clearAllIntervals();
+
+
+
+/***************************** */
+
+
+const MY_TIMERS = {
+  intervalIds : [],//global interval id's arrays
+  //create a MY_TIMERS's interval
+  setInterval : function(fn,delay){
+      let id = setInterval(fn,delay);
+      this.intervalIds.push(id);
+      return id;
+  },
+  //MY_TIMERS's clearAllTimeout
+  clearAllInterval : function(){
+      while(this.intervalIds.length){
+        clearTimeout(this.intervalIds.pop());
+      }
+  }
+};
+
+
+Input:
+MY_TIMERS.setInterval(() => {
+  console.log("Hello");
+}, 2000);
+
+MY_TIMERS.setInterval(() => {
+  console.log("Hello2");
+}, 500);
+
+MY_TIMERS.clearAllInterval();
+
+MY_TIMERS.setInterval(() => {
+  console.log("Hello3");
+}, 1000);
+
+Output:
+"Hello3" // after every ~1 sec

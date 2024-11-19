@@ -17,6 +17,8 @@ function helper(arr) {
 const input = [2, 4, 7, 8];
 let iterator = helper(input);
 
+// Create an iterator method that accepts an array and returns a new method, that will return the next array value on each invocation.
+
 console.log(iterator.next()); // 1
 console.log(iterator.next()); // 2
 console.log(iterator.done()); // false
