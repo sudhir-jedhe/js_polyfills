@@ -1,0 +1,14 @@
+{
+  "slug": "explain-event-delegation",
+  "languages": [],
+  "companies": ["linkedin"],
+  "access": "free",
+  "duration": 5,
+  "published": true,
+  "level": "basic",
+  "featured": true,
+  "topics": ["web-api", "javascript"],
+  "importance": "high",
+  "ranking": 50,
+  "difficulty": "medium"
+}

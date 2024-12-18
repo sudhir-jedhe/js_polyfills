@@ -1,0 +1,74 @@
+---
+title: Explain how JSONP works (and how it's not really Ajax)
+---
+
+## TL;DR
+
+JSONP (JSON with Padding) is a technique used to overcome the same-origin policy in web browsers, allowing you to request data from a server in a different domain. It works by dynamically creating a `<script>` tag and setting its `src` attribute to the URL of the data source. The server responds with a script that calls a predefined callback function with the data as its argument. Unlike Ajax, JSONP does not use the XMLHttpRequest object and is limited to GET requests.
+
+---
+
+## How JSONP works (and how it's not really Ajax)
+
+### What is JSONP?
+
+JSONP stands for JSON with Padding. It is a technique used to bypass the same-origin policy in web browsers, which restricts web pages from making requests to a different domain than the one that served the web page.
+
+### How JSONP works
+
+1. **Dynamic script tag creation**: A `<script>` tag is dynamically created and its `src` attribute is set to the URL of the data source, including a callback function name as a query parameter.
+2. **Server response**: The server responds with a script that calls the callback function, passing the data as an argument.
+3. **Callback execution**: The browser executes the script, invoking the callback function with the data.
+
+Here is a simple example:
+
+```html
+<!doctype html>
+<html>
+  <head>
+    <title>JSONP Example</title>
+    <script>
+      function handleResponse(data) {
+        console.log(data);
+      }
+
+      function fetchData() {
+        var script = document.createElement('script');
+        script.src = 'https://example.com/data?callback=handleResponse';
+        document.body.appendChild(script);
+      }
+    </script>
+  </head>
+  <body>
+    <button onclick="fetchData()">Fetch Data</button>
+  </body>
+</html>
+```
+
+In this example, when the button is clicked, a `<script>` tag is created with the `src` attribute set to `https://example.com/data?callback=handleResponse`. The server at `example.com` responds with a script like this:
+
+```javascript
+handleResponse({
+  name: 'John',
+  age: 30,
+});
+```
+
+### How JSONP is different from Ajax
+
+- **Transport mechanism**: JSONP uses the `<script>` tag to fetch data, whereas Ajax uses the XMLHttpRequest object.
+- **Request type**: JSONP is limited to GET requests, while Ajax can use various HTTP methods like GET, POST, PUT, DELETE, etc.
+- **Same-origin policy**: JSONP can bypass the same-origin policy, while Ajax requests are subject to it unless CORS (Cross-Origin Resource Sharing) is used.
+- **Error handling**: JSONP has limited error handling capabilities compared to Ajax.
+
+### Limitations of JSONP
+
+- **Security risks**: JSONP can expose your application to cross-site scripting (XSS) attacks if the external server is compromised or malicious.
+- **Limited to GET requests**: JSONP cannot be used for POST requests or other HTTP methods.
+- **Error handling**: JSONP lacks robust error handling mechanisms compared to Ajax.
+
+## Further reading
+
+- [MDN Web Docs: JSONP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/JSONP)
+- [Same-origin policy](https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy)
+- [Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)

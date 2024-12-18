@@ -1,0 +1,15 @@
+{
+  "slug": "how-can-you-avoid-problems-related-to-hoisting",
+  "languages": [],
+  "companies": [],
+  "access": "free",
+  "duration": 5,
+  "published": true,
+  "featured": false,
+  "level": "basic",
+  "topics": ["javascript"],
+  "importance": "low",
+  "ranking": 999,
+  "difficulty": "easy",
+  "section": "Hoisting"
+}

@@ -1,0 +1,14 @@
+{
+  "slug": "what-is-a-closure-and-how-why-would-you-use-one",
+  "languages": [],
+  "companies": ["amazon", "linkedin", "microsoft", "salesforce"],
+  "access": "free",
+  "duration": 5,
+  "published": true,
+  "level": "intermediate",
+  "featured": true,
+  "topics": ["closure", "javascript"],
+  "importance": "high",
+  "ranking": 180,
+  "difficulty": "medium"
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "explain-the-concept-of-the-web-socket-api",
+  "languages": [],
+  "companies": [],
+  "access": "free",
+  "duration": 5,
+  "published": true,
+  "featured": false,
+  "level": "intermediate",
+  "topics": ["javascript", "networking"],
+  "importance": "low",
+  "ranking": 999,
+  "difficulty": "easy",
+  "section": "Web APIs & Browser APIs"
+}

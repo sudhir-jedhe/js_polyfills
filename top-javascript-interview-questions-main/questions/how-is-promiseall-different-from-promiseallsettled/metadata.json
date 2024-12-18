@@ -1,0 +1,15 @@
+{
+  "slug": "how-is-promiseall-different-from-promiseallsettled",
+  "languages": [],
+  "companies": [],
+  "access": "free",
+  "duration": 5,
+  "published": true,
+  "featured": false,
+  "level": "intermediate",
+  "topics": ["async", "javascript"],
+  "importance": "low",
+  "ranking": 999,
+  "difficulty": "easy",
+  "section": "Asynchronous JavaScript"
+}

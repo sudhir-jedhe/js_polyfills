@@ -1,0 +1,15 @@
+{
+  "slug": "provide-some-examples-of-how-currying-and-partial-application-can-be-used",
+  "languages": [],
+  "companies": [],
+  "access": "free",
+  "duration": 5,
+  "published": true,
+  "featured": false,
+  "level": "basic",
+  "topics": ["closure", "javascript"],
+  "importance": "low",
+  "ranking": 999,
+  "difficulty": "easy",
+  "section": "Currying & Partial Application"
+}

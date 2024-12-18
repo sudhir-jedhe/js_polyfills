@@ -1,4 +1,5 @@
-// implementing a function to check if a given square matrix is an X-Matrix. An X-Matrix has the following conditions:
+// implementing a function to check if a given square matrix is an X-Matrix. 
+// An X-Matrix has the following conditions:
 
 // All the elements in the diagonals of the matrix are non-zero.
 // All other elements are 0. javascript

@@ -1,0 +1,15 @@
+{
+  "slug": "explain-the-event-phases-in-a-browser",
+  "languages": [],
+  "companies": [],
+  "access": "free",
+  "duration": 5,
+  "published": true,
+  "featured": false,
+  "level": "intermediate",
+  "topics": ["browser", "javascript"],
+  "importance": "low",
+  "ranking": 999,
+  "difficulty": "easy",
+  "section": "DOM Manipulation & Events"
+}

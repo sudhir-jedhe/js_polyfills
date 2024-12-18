@@ -1,0 +1,15 @@
+{
+  "slug": "what-is-the-use-of-promiseall",
+  "languages": [],
+  "companies": [],
+  "access": "free",
+  "duration": 5,
+  "published": true,
+  "featured": false,
+  "level": "basic",
+  "topics": ["async", "javascript"],
+  "importance": "low",
+  "ranking": 999,
+  "difficulty": "easy",
+  "section": "Asynchronous JavaScript"
+}

@@ -1,0 +1,14 @@
+{
+  "slug": "describe-the-difference-between-a-cookie-sessionstorage-and-localstorage",
+  "languages": [],
+  "companies": ["amazon", "bytedance"],
+  "access": "free",
+  "duration": 5,
+  "published": true,
+  "level": "basic",
+  "featured": true,
+  "topics": ["web-api", "javascript"],
+  "importance": "high",
+  "ranking": 70,
+  "difficulty": "medium"
+}

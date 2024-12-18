@@ -1,0 +1,15 @@
+{
+  "slug": "how-do-you-add-remove-and-modify-html-elements-using-javascript",
+  "languages": [],
+  "companies": [],
+  "access": "free",
+  "duration": 5,
+  "published": true,
+  "featured": false,
+  "level": "basic",
+  "topics": ["web-api", "javascript", "html"],
+  "importance": "low",
+  "ranking": 999,
+  "difficulty": "easy",
+  "section": "DOM Manipulation & Events"
+}

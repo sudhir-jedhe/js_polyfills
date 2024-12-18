@@ -1,0 +1,15 @@
+{
+  "slug": "what-are-web-workers-and-how-can-they-be-used-to-improve-performance",
+  "languages": [],
+  "companies": [],
+  "access": "free",
+  "duration": 5,
+  "published": true,
+  "featured": false,
+  "level": "advanced",
+  "topics": ["web-api", "javascript", "performance"],
+  "importance": "low",
+  "ranking": 999,
+  "difficulty": "easy",
+  "section": "Performance Optimization"
+}

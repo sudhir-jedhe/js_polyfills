@@ -990,6 +990,212 @@
       console.log(User.isAdmin); //false
      ```
 
+     ### **Decorators in JavaScript**
+
+A **decorator** is a special kind of function or pattern that can be used to modify or enhance the behavior of functions, methods, or classes without directly altering their source code. It provides a way to add functionality to objects or methods in a flexible and reusable manner. 
+
+Decorators are often used in **object-oriented programming** and are frequently seen in frameworks like **Angular** (for marking methods, properties, etc.), **TypeScript**, and in various libraries.
+
+In JavaScript, decorators are primarily associated with **classes and methods**, and they are part of a **proposed ECMAScript feature** (currently in stage 2, meaning it's not yet part of the JavaScript standard but is widely used in TypeScript and other transpilers).
+
+### **Key Features of Decorators:**
+- Decorators are **functions** that modify or extend the functionality of other functions, methods, or classes.
+- They are typically used to **add behaviors** or **apply metadata** without changing the original code.
+- In JavaScript, decorators can be applied to **classes**, **methods**, **accessor properties**, **parameters**, and **getters/setters**.
+
+### **How Decorators Work (in Theory)**
+
+While decorators are not officially part of JavaScript yet (except in TypeScript or Babel), they can still be used in JavaScript with transpilers like **Babel** or **TypeScript**. Here's a basic overview of how decorators work:
+
+1. A decorator is a function that wraps another function or method.
+2. It can modify the original method, function, or class behavior.
+3. It is applied by prepending the `@` symbol to the target (class, method, etc.).
+
+### **Decorator Syntax**
+
+The syntax for decorators in JavaScript looks like this:
+
+```javascript
+@decorator
+class MyClass {
+  // class implementation
+}
+
+@decorator
+method() {
+  // method implementation
+}
+```
+
+### **Examples of Decorators**
+
+#### 1. **Class Decorators**
+
+Class decorators are applied to a class and can modify the class or attach additional properties to it.
+
+##### Example:
+
+```javascript
+function greet(target) {
+  target.prototype.greeting = function() {
+    console.log('Hello, world!');
+  };
+}
+
+@greet
+class Person {}
+
+const person = new Person();
+person.greeting(); // Output: "Hello, world!"
+```
+
+In this example, the `greet` decorator modifies the `Person` class by adding a `greeting` method.
+
+#### 2. **Method Decorators**
+
+Method decorators can be used to modify the behavior of methods within a class. The decorator function takes three arguments:
+- The target (the class prototype).
+- The name of the method.
+- The method descriptor (an object that contains information about the method).
+
+##### Example:
+
+```javascript
+function log(target, name, descriptor) {
+  const originalMethod = descriptor.value;
+  
+  descriptor.value = function(...args) {
+    console.log(`Calling ${name} with arguments: ${args}`);
+    return originalMethod.apply(this, args);
+  };
+
+  return descriptor;
+}
+
+class Calculator {
+  @log
+  add(a, b) {
+    return a + b;
+  }
+}
+
+const calc = new Calculator();
+calc.add(2, 3); // Output: "Calling add with arguments: 2,3"
+```
+
+In this example, the `log` decorator wraps the `add` method and logs the arguments passed to it before executing the original method.
+
+#### 3. **Property Decorators**
+
+Property decorators can modify the properties of the class.
+
+##### Example:
+
+```javascript
+function nonWritable(target, key) {
+  Object.defineProperty(target, key, {
+    writable: false
+  });
+}
+
+class Person {
+  @nonWritable
+  name = 'John';
+}
+
+const person = new Person();
+person.name = 'Jane'; // This will fail silently (in non-strict mode) or throw an error in strict mode
+```
+
+The `nonWritable` decorator makes the `name` property non-writable, meaning you cannot change it after the initial assignment.
+
+#### 4. **Accessors Decorators (Getters/Setters)**
+
+Accessors, such as getters and setters, can also be decorated. This is useful for adding additional logic to property access.
+
+##### Example:
+
+```javascript
+function logAccess(target, name, descriptor) {
+  const getter = descriptor.get;
+  descriptor.get = function() {
+    console.log(`Accessing ${name}`);
+    return getter.call(this);
+  };
+  return descriptor;
+}
+
+class Person {
+  constructor(name) {
+    this._name = name;
+  }
+
+  @logAccess
+  get name() {
+    return this._name;
+  }
+}
+
+const person = new Person('John');
+console.log(person.name); // Output: "Accessing name", "John"
+```
+
+In this example, the `logAccess` decorator is applied to the getter for the `name` property. When the property is accessed, it logs a message.
+
+### **Decorator Parameters**
+
+You can also use parameters in decorators to make them more flexible. For example, you could pass additional arguments into a decorator to configure its behavior.
+
+##### Example:
+
+```javascript
+function validate(min, max) {
+  return function(target, name, descriptor) {
+    const originalMethod = descriptor.value;
+    
+    descriptor.value = function(...args) {
+      if (args[0] < min || args[0] > max) {
+        console.log(`Argument must be between ${min} and ${max}`);
+      } else {
+        return originalMethod.apply(this, args);
+      }
+    };
+    
+    return descriptor;
+  };
+}
+
+class Calculator {
+  @validate(1, 10)
+  squareRoot(x) {
+    return Math.sqrt(x);
+  }
+}
+
+const calc = new Calculator();
+calc.squareRoot(20); // Output: Argument must be between 1 and 10
+```
+
+In this example, the `validate` decorator accepts parameters (`min` and `max`) and validates the input before executing the method.
+
+### **How Decorators Affect Code Execution**
+
+- **Method decorators** modify the method behavior or add additional functionality.
+- **Class decorators** modify the class itself, like adding methods or properties to it.
+- **Property and accessor decorators** can manage property behavior (such as making properties read-only or adding logic around property access).
+
+### **Limitations and Considerations**
+
+1. **Experimental Feature**: As of now, decorators are a proposed feature for ECMAScript and are available in JavaScript only through transpilers like **Babel** or in **TypeScript**. The syntax and behavior might change in future versions of JavaScript.
+   
+2. **Performance**: Using decorators can add an additional layer of abstraction and complexity, potentially impacting performance. Use them carefully, especially for frequent operations.
+
+3. **Compatibility**: Since decorators are not yet part of the official JavaScript specification, you need a transpiler like **Babel** or **TypeScript** to use them in current JavaScript environments.
+
+### **Conclusion**
+
+Decorators in JavaScript provide a powerful way to modify the behavior of classes, methods, and properties in a declarative manner. They allow for cleaner and more modular code by separating concerns, making it easier to add features like logging, validation, or security checks without changing the core logic. However, they are an experimental feature and are primarily used with tools like Babel and TypeScript until they are fully standardized in JavaScript.
+
      **[⬆ Back to Top](#table-of-contents)**
 
 102. ### What are the properties of Intl object

@@ -1,0 +1,15 @@
+{
+  "slug": "how-do-you-prevent-the-default-behavior-of-an-event",
+  "languages": [],
+  "companies": [],
+  "access": "free",
+  "duration": 5,
+  "published": true,
+  "featured": false,
+  "level": "basic",
+  "topics": ["web-api", "javascript"],
+  "importance": "low",
+  "ranking": 999,
+  "difficulty": "easy",
+  "section": "DOM Manipulation & Events"
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "explain-the-different-ways-the-this-keyword-can-be-bound",
+  "languages": [],
+  "companies": [],
+  "access": "free",
+  "duration": 5,
+  "published": true,
+  "featured": false,
+  "level": "intermediate",
+  "topics": ["closure", "javascript"],
+  "importance": "low",
+  "ranking": 999,
+  "difficulty": "easy",
+  "section": "This Keyword"
+}

@@ -1,0 +1,14 @@
+{
+  "slug": "what-is-event-loop-what-is-the-difference-between-call-stack-and-task-queue",
+  "languages": [],
+  "companies": ["amazon", "salesforce"],
+  "access": "free",
+  "duration": 5,
+  "published": true,
+  "level": "basic",
+  "featured": true,
+  "topics": ["javascript"],
+  "importance": "high",
+  "ranking": 40,
+  "difficulty": "hard"
+}

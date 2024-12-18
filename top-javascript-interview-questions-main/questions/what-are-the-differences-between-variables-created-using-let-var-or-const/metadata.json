@@ -1,0 +1,14 @@
+{
+  "slug": "what-are-the-differences-between-variables-created-using-let-var-or-const",
+  "languages": [],
+  "companies": ["microsoft"],
+  "access": "free",
+  "duration": 5,
+  "published": true,
+  "level": "basic",
+  "featured": true,
+  "topics": ["javascript"],
+  "importance": "high",
+  "ranking": 20,
+  "difficulty": "medium"
+}

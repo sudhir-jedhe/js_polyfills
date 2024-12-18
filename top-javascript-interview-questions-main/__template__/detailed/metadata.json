@@ -1,0 +1,13 @@
+{
+  "slug": "todo-change-me",
+  "languages": [],
+  "companies": [],
+  "premium": false,
+  "duration": 5,
+  "published": false,
+  "featured": true,
+  "topics": ["javascript"],
+  "importance": "low",
+  "ranking": 999,
+  "difficulty": "easy"
+}

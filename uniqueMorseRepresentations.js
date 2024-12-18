@@ -1,5 +1,5 @@
 const codes = [
-    '.-',
+    '.-',       
     '-...',
     '-.-.',
     '-..',
@@ -26,6 +26,8 @@ const codes = [
     '-.--',
     '--..',
 ];
+
+
 
 function uniqueMorseRepresentations(words: string[]): number {
     return new Set(

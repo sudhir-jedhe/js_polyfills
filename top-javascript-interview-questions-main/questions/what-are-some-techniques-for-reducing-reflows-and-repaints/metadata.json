@@ -1,0 +1,15 @@
+{
+  "slug": "what-are-some-techniques-for-reducing-reflows-and-repaints",
+  "languages": [],
+  "companies": [],
+  "access": "free",
+  "duration": 5,
+  "published": true,
+  "featured": false,
+  "level": "advanced",
+  "topics": ["browser", "javascript", "performance"],
+  "importance": "low",
+  "ranking": 999,
+  "difficulty": "easy",
+  "section": "Performance Optimization"
+}
