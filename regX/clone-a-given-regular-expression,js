@@ -1,13 +1,81 @@
+### Explanation of the `cloneRegex` Function
+
+The `cloneRegex` function is designed to clone an existing regular expression while optionally modifying its flags.
+
+#### Parameters:
+
+- **`input`**: This is the original regular expression object that you want to clone.
+- **`outputflag`**: This is an additional flag or set of flags that you want to append or modify in the cloned regular expression.
+
+#### Code Breakdown:
+
+```js
 function cloneRegex(input, outputflag) {
+  // Get the pattern from the input regex.
   var pattern = input.source;
+
+  // Combine the flags of the input regex and the new output flag.
+  // The Set ensures uniqueness, meaning if the same flag is present in both input and outputflag, it will only appear once.
   const flags = [...new Set(input.flags + outputflag)].join("");
-  // Using RegExp constructor to  for cloning regular expressions,
-  // optionally while modifying flag also.
+
+  // Return a new RegExp object with the same pattern and modified flags.
   return new RegExp(pattern, flags);
 }
+```
 
+#### Key Parts:
+1. **`input.source`**: 
+   - `source` gives the string representation of the regular expression pattern.
+   
+2. **`input.flags`**: 
+   - `flags` is a string containing all the flags set for the `input` regex, such as `'g'`, `'i'`, `'m'`, etc. These flags dictate how the regular expression behaves (e.g., global matching, case-insensitive, multiline matching).
 
-d = https://facebook.com
+3. **Combining Flags**:
+   - The flags from `input` and `outputflag` are concatenated together (`input.flags + outputflag`), and then `new Set` is used to remove any duplicates. 
+   - The result is converted back to a string using `.join("")` to get the final set of flags for the cloned regex.
+
+4. **Cloning**:
+   - A new `RegExp` object is created using the pattern from the `input` regex and the newly combined flags. This effectively clones the regular expression but with modified flags.
+
+#### Example Usage:
+
+```js
+// Original URL (Facebook in this case)
+var d = "https://facebook.com";
+
+// Create a RegExp to match this string, with case insensitivity ('i')
 var regex = new RegExp(d, "i");
-//Passing user data to cloneRegex function with g set as flag.
+
+// Clone the regex with an additional 'g' flag (global search) without changing the pattern.
 var clonedregex = cloneRegex(regex, "g");
+
+// Test with the cloned regex:
+console.log(clonedregex.flags);  // Output: "ig"
+```
+
+### Detailed Flow:
+1. **Creating the Original Regex**:
+   - `var regex = new RegExp(d, "i");`
+     - The `RegExp` object is created with the pattern `"https://facebook.com"` and the `"i"` flag for case insensitivity.
+   
+2. **Cloning the Regex**:
+   - `var clonedregex = cloneRegex(regex, "g");`
+     - The `cloneRegex` function clones `regex` but adds the `"g"` flag for global matching, resulting in a new regular expression with the pattern `"https://facebook.com"` and flags `"ig"`.
+   
+3. **Testing the Cloned Regex**:
+   - The `clonedregex` now matches the same pattern but with global and case-insensitive flags, and the combined flags can be accessed via `clonedregex.flags`.
+
+### Result:
+```js
+console.log(clonedregex.flags);  // Output: "ig"
+```
+
+This shows that the cloned regular expression has the combined flags `"i"` (case-insensitive) and `"g"` (global matching).
+
+### Why Use This Approach?
+
+This approach is useful in situations where you need to:
+- Clone an existing regular expression.
+- Optionally modify the flags (like adding or removing flags).
+- Reuse the same pattern but with different behaviors (such as case-insensitive vs. global matching).
+

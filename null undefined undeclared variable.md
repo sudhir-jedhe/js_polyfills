@@ -70,3 +70,34 @@ Practice implementing [type utilities that check for `null` and `undefined`](htt
 - [MDN Web Docs: null](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/null)
 - [MDN Web Docs: undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)
 - [MDN Web Docs: ReferenceError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError)
+
+They belong to JavaScript's 7 primitive types.
+```js
+ let primitiveTypes = ['string','number','null','undefined','boolean','symbol', 'bigint'];
+ ```
+They are falsy values. Values that evaluated to false when converting it to boolean using Boolean(value) or !!value.
+```js
+   console.log(!!null); //logs false
+   console.log(!!undefined); //logs false
+
+   console.log(Boolean(null)); //logs false
+   console.log(Boolean(undefined)); //logs false
+```
+Ok, let's talk about the differences.
+
+undefined is the default value of a variable that has not been assigned a specific value. Or a function that has no explicit return value ex. console.log(1). Or a property that does not exist in an object. The JavaScript engine does this for us the assigning of undefined value.
+```js
+  let _thisIsUndefined;
+  const doNothing = () => {};
+  const someObj = {
+    a : "ay",
+    b : "bee",
+    c : "si"
+  };
+
+  console.log(_thisIsUndefined); //logs undefined
+  console.log(doNothing()); //logs undefined
+  console.log(someObj["d"]); //logs undefined
+
+```
+null is "a value that represents no value". null is value that has been explicitly defined to a variable. In this example we get a value of null when the fs.readFile method does not throw an error.

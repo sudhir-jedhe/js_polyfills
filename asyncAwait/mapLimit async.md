@@ -1,128 +1,67 @@
-Implement a mapLimit function that is similar to the Array.map() which returns a promise that resolves on the list of output by mapping each input through an asynchronous iteratee function or rejects it if any error occurs. It also accepts a limit to decide how many operations can occur at a time.
+The problem you're trying to solve involves creating a function `mapLimit` that processes an array with an asynchronous iteratee function while respecting a concurrency limit. This function should process multiple items in parallel, but with a constraint on how many can be processed at once. If any task fails, the entire operation should fail.
 
-The asynchronous iteratee function will accept a input and a callback. The callback function will be called when the input is finished processing, the first argument of the callback will be the error flag and the second will be the result.
+To solve this, we break the task into several steps:
+1. **Chunk the Input Array**: Split the array into chunks where each chunk's size corresponds to the concurrency limit.
+2. **Process Each Chunk Sequentially**: We use `reduce` to process each chunk in series, ensuring that one chunk is fully processed before the next starts.
+3. **Process Each Item in Parallel**: Inside each chunk, we process the items in parallel using `Promise.all`.
+4. **Handle Errors**: If any task fails, reject the entire promise.
 
-This question is a polyfill of the mapLimit method from the async util
+The solution you're aiming for is closely related to `async.parallel` (for parallel processing within a chunk) and `async.series` (to process chunks sequentially).
 
-```javascript
-
-Input:
-let numPromise = mapLimit([1, 2, 3, 4, 5], 3, function (num, callback) {
-  setTimeout(function () {
-    num = num * 2;
-    console.log(num);
-    callback(null, num);
-  }, 2000);
-});
-
-numPromise
-  .then((result) => console.log("success:" + result))
-  .catch(() => console.log("no success"));
-
-Output:
-/// first batch
-2
-4
-6
-/// second batch
-8
-10
-/// final result
-"success: [2, 4, 6, 8, 10]
-
-```
-
-To implement this function we will have to use the combination of both Async.parallel and Async.series.
-
-First chop the input array into the subarrays of the given limit. This will return us an array of arrays like [[1, 2, 3], [4, 5]].
-The parent array will run in series that is the next subarray will execute only after the current subarray is done.
-All the elements of each sub-array will run in parallel.
-Accumulate all the results of each sub-array element and resolve the promise with this.
-If there is any error, reject.
+### Here's how to implement the `mapLimit` function:
 
 ```javascript
-// helper function to chop array in chunks of given size
+// Helper function to chop array into chunks of a given size
 Array.prototype.chop = function (size) {
-  //temp array
   const temp = [...this];
-
-  //if the size is not defined
-  if (!size) {
-    return temp;
-  }
-
-  //output
   const output = [];
   let i = 0;
-
-  //iterate the array
   while (i < temp.length) {
-    //slice the sub-array of a given size
-    //and push them in output array
     output.push(temp.slice(i, i + size));
-    i = i + size;
+    i += size;
   }
-
   return output;
 };
 
+// mapLimit function implementation
 const mapLimit = (arr, limit, fn) => {
-  // return a new promise
   return new Promise((resolve, reject) => {
-    // chop the input array into the subarray of limit
-    // [[1, 2, 3], [1, 2, 3]]
-    let chopped = arr.chop(limit);
+    // Chop the input array into chunks of size 'limit'
+    let chunks = arr.chop(limit);
     
-    // for all the subarrays of chopped
-    // run it in series
-    // that is one after another
-    // initially it will take an empty array to resolve
-    // merge the output of the subarray and pass it on to the next
-    const final = chopped.reduce((a, b) => {
-      return a.then((val) => {
-        // run the sub-array values in parallel
-        // pass each input to the iteratee function
-        // and store their outputs
-        // after all the tasks are executed
-        // merge the output with the previous one and resolve
+    // Use reduce to process each chunk in series
+    const final = chunks.reduce((promiseChain, chunk) => {
+      return promiseChain.then((result) => {
+        // Process the chunk in parallel using Promise.all
         return new Promise((resolve, reject) => {
-
           const results = [];
           let tasksCompleted = 0;
-          b.forEach((e) => {
-            fn(e, (error, value) => {
-              if(error){
-                reject(error);
-              }else{
-                results.push(value);
+
+          // Process each item in the current chunk
+          chunk.forEach((item, index) => {
+            fn(item, (err, value) => {
+              if (err) {
+                reject("Error in processing item"); // Reject on any error
+              } else {
+                results[index] = value;
                 tasksCompleted++;
-                if (tasksCompleted >= b.length) {
-                  resolve([...val, ...results]);
+                // Once all tasks in the chunk are processed, resolve this chunk's promise
+                if (tasksCompleted === chunk.length) {
+                  resolve([...result, ...results]); // Combine the results with the previous ones
                 }
               }
             });
           });
         });
-
       });
     }, Promise.resolve([]));
 
-    // based on final promise state 
-    // invoke the final promise.
-    final
-      .then((result) => {
-        resolve(result);
-      })
-      .catch((e) => {
-        reject(e);
-      });
+    // After processing all chunks, return the final result
+    final.then(resolve).catch(reject);
   });
 };
 
-```
-Test Case 1: All the inputs resolve.
-```javascript
-Input:
+// Test Case 1: All inputs resolve
 let numPromise = mapLimit([1, 2, 3, 4, 5], 3, function (num, callback) {
   setTimeout(function () {
     num = num * 2;
@@ -132,48 +71,90 @@ let numPromise = mapLimit([1, 2, 3, 4, 5], 3, function (num, callback) {
 });
 
 numPromise
-  .then((result) => console.log("success:" + result))
+  .then((result) => console.log("success:", result))
   .catch(() => console.log("no success"));
 
-Output:
-// first batch
-2
-4
-6
-// second batch
-8
-10
-"success:2,4,6,8,10"
-```
-
-Test Case 2: Rejects.
-
-```javascript
-
-Input:
-let numPromise = mapLimit([1, 2, 3, 4, 5], 3, function (num, callback) {
+// Test Case 2: One of the tasks rejects
+let numPromise2 = mapLimit([1, 2, 3, 4, 5], 3, function (num, callback) {
   setTimeout(function () {
     num = num * 2;
     console.log(num);
-    
-    // throw error
-    if(num === 6){
-      callback(true);
-    }else{
+
+    // Reject if num equals 6
+    if (num === 6) {
+      callback(true); // Simulate an error
+    } else {
       callback(null, num);
     }
-    
   }, 2000);
 });
 
-numPromise
-  .then((result) => console.log("success:" + result))
+numPromise2
+  .then((result) => console.log("success:", result))
   .catch(() => console.log("no success"));
+```
 
-Output:
-// first batch
+### **Detailed Explanation:**
+
+1. **Chopping the Array:**
+   - We use the `chop` method to break the input array (`arr`) into chunks of size `limit`. This ensures that we don't exceed the maximum concurrency at any given time.
+
+2. **Processing Chunks Sequentially (`reduce`):**
+   - The `reduce` function is used to ensure that chunks are processed in series. We use `Promise.resolve([])` as the initial value, which will accumulate results from each chunk as it's processed.
+
+3. **Parallel Processing of Items in a Chunk (`Promise.all`):**
+   - For each chunk, we process the items in parallel using the `fn` function (the async iteratee). Each item in the chunk is processed using the provided callback. If any item fails (i.e., if `err` is truthy), we immediately reject the promise.
+
+4. **Combining Results:**
+   - After each chunk is processed in parallel, we combine its results with the previous chunk's results (using `resolve([...result, ...results])`).
+
+5. **Handling Errors:**
+   - If any error occurs, the entire process is rejected, and the promise will catch it in the `.catch()` block.
+
+---
+
+### **Test Case 1 (All inputs resolve):**
+
+**Expected Output:**
+
+```
 2
 4
 6
-"no success"
+8
+10
+success: [2, 4, 6, 8, 10]
 ```
+
+- The numbers are doubled, and the process occurs in batches of 3, as specified by the limit.
+- The first three items (`1, 2, 3`) are processed in parallel, then the next two items (`4, 5`) are processed after the first batch finishes.
+
+---
+
+### **Test Case 2 (One of the tasks rejects):**
+
+**Expected Output:**
+
+```
+2
+4
+6
+no success
+```
+
+- The first two items (`1` and `2`) are processed successfully, but when the number `3` is doubled to `6`, the callback is called with an error (`callback(true)`), which causes the entire operation to reject.
+  
+---
+
+### **Edge Cases to Consider:**
+1. **Empty Input Array**: If the input array is empty, the function should resolve immediately with an empty array.
+2. **All Items Fail**: If all items fail (e.g., if every number is `6`), the function should reject after the first failure.
+3. **Limit Larger than Array Length**: If the limit is greater than the array length, the entire array should be processed in parallel.
+
+---
+
+### **Conclusion:**
+This implementation ensures that:
+- The tasks are processed with the specified concurrency limit.
+- The overall operation is rejected if any task fails.
+- The tasks are processed in series for each chunk, but each chunk's items are processed in parallel.

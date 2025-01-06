@@ -205,3 +205,222 @@ Here’s a table summarizing the key differences between **`React.memo()`**, **`
 - **`React.memo()`**: Primarily used for optimizing re-renders of function components based on props.
 - **`useMemo()`**: Memoizes a **value** (or result of a computation), useful for expensive operations.
 - **`useCallback()`**: Memoizes a **function**, especially useful when passing functions as props to child components or in cases where the function’s identity matters.
+
+
+### **Error Boundaries in React**
+
+An **Error Boundary** is a React component that catches JavaScript errors in its child components and prevents them from crashing the entire application. Error boundaries provide a way to gracefully handle runtime errors by rendering a fallback UI instead of the component tree that caused the error.
+
+React only supports error boundaries in **class components** directly. However, you can create an equivalent functionality using **Error Boundary Hooks** in functional components by using `ErrorBoundary` from a third-party library like **React Error Boundary** or by using a combination of `componentDidCatch` in class components and `useState`/`useEffect` in functional components.
+
+---
+
+### **1. Error Boundary in Class Component**
+
+In a **class component**, you can create an error boundary by implementing the `componentDidCatch` lifecycle method.
+
+#### **Example: Error Boundary in Class Component**
+
+```javascript
+import React from 'react';
+
+// Error Boundary Component in Class
+class ErrorBoundary extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { hasError: false, errorInfo: null };
+  }
+
+  // This lifecycle method is called when an error is thrown
+  static getDerivedStateFromError(error) {
+    // Update state to display fallback UI
+    return { hasError: true };
+  }
+
+  // This method is called after an error has been caught
+  componentDidCatch(error, errorInfo) {
+    // Log the error or send it to an external service
+    console.error("Error caught in boundary:", error);
+    console.error("Error Info:", errorInfo);
+    this.setState({ errorInfo });
+  }
+
+  render() {
+    if (this.state.hasError) {
+      // You can render any custom fallback UI
+      return (
+        <div>
+          <h1>Something went wrong!</h1>
+          <details style={{ whiteSpace: 'pre-wrap' }}>
+            {this.state.errorInfo && this.state.errorInfo.componentStack}
+          </details>
+        </div>
+      );
+    }
+
+    return this.props.children; // Render the children if no error
+  }
+}
+
+// A component that throws an error for demonstration
+const BrokenComponent = () => {
+  throw new Error("This is a deliberate error!");
+  return <div>This will never be rendered.</div>;
+};
+
+const App = () => {
+  return (
+    <ErrorBoundary>
+      <BrokenComponent />
+    </ErrorBoundary>
+  );
+};
+
+export default App;
+```
+
+**Explanation**:
+- The `ErrorBoundary` class component has two main methods: `getDerivedStateFromError` (which sets the state to indicate an error has occurred) and `componentDidCatch` (which logs the error or sends it to an external service).
+- In case of an error, the fallback UI is rendered with the error message and component stack trace.
+- If there is no error, the child components (like `BrokenComponent`) are rendered as usual.
+
+---
+
+### **2. Error Boundary in Functional Component (using Hooks)**
+
+React does not support error boundaries directly in functional components, but you can implement them by using hooks. One popular way is to use a third-party library like **React Error Boundary**.
+
+Alternatively, you can combine **`useState`**, **`useEffect`**, and **`try-catch`** blocks to achieve a similar effect.
+
+#### **Example: Error Boundary in Functional Component (using `useState` and `useEffect`)**
+
+```javascript
+import React, { useState, useEffect } from 'react';
+
+// Error Boundary using React Hooks
+const useErrorBoundary = () => {
+  const [hasError, setHasError] = useState(false);
+  const [errorInfo, setErrorInfo] = useState(null);
+
+  const resetErrorBoundary = () => {
+    setHasError(false);
+    setErrorInfo(null);
+  };
+
+  const catchError = (error, errorInfo) => {
+    setHasError(true);
+    setErrorInfo(errorInfo);
+    console.error("Error caught in boundary:", error);
+  };
+
+  return {
+    hasError,
+    errorInfo,
+    catchError,
+    resetErrorBoundary
+  };
+};
+
+// Functional component to demonstrate error boundary
+const ErrorBoundaryFunctional = ({ children }) => {
+  const { hasError, errorInfo, catchError, resetErrorBoundary } = useErrorBoundary();
+
+  if (hasError) {
+    return (
+      <div>
+        <h1>Something went wrong!</h1>
+        <details style={{ whiteSpace: 'pre-wrap' }}>
+          {errorInfo && errorInfo.componentStack}
+        </details>
+        <button onClick={resetErrorBoundary}>Try Again</button>
+      </div>
+    );
+  }
+
+  return children;
+};
+
+// A component that throws an error for demonstration
+const BrokenComponent = () => {
+  throw new Error("This is a deliberate error!");
+  return <div>Nothing to see here.</div>;
+};
+
+const App = () => {
+  return (
+    <ErrorBoundaryFunctional>
+      <BrokenComponent />
+    </ErrorBoundaryFunctional>
+  );
+};
+
+export default App;
+```
+
+**Explanation**:
+- We use `useState` and `useEffect` hooks inside a custom hook (`useErrorBoundary`) to manage the error state and provide a method to catch errors.
+- The `ErrorBoundaryFunctional` component is a wrapper that checks for errors and renders fallback UI if an error occurs.
+- If an error happens, the `catchError` function is invoked, and a fallback UI is shown with an option to "Try Again" (which resets the error state).
+
+---
+
+### **3. Using Third-Party Libraries for Error Boundaries in Functional Components**
+
+Another approach is to use third-party libraries like **`react-error-boundary`** to simplify error handling in functional components. This library provides a more declarative and reusable API for error boundaries.
+
+#### **Example: Using `react-error-boundary` Library**
+
+1. First, install the library:
+
+```bash
+npm install react-error-boundary
+```
+
+2. Use the library in your components:
+
+```javascript
+import React from 'react';
+import { ErrorBoundary } from 'react-error-boundary';
+
+// A component that throws an error for demonstration
+const BrokenComponent = () => {
+  throw new Error("This is a deliberate error!");
+  return <div>Nothing to see here.</div>;
+};
+
+// Error Fallback UI
+const ErrorFallback = ({ error, resetErrorBoundary }) => (
+  <div>
+    <h1>Something went wrong: {error.message}</h1>
+    <button onClick={resetErrorBoundary}>Try Again</button>
+  </div>
+);
+
+const App = () => (
+  <ErrorBoundary FallbackComponent={ErrorFallback}>
+    <BrokenComponent />
+  </ErrorBoundary>
+);
+
+export default App;
+```
+
+**Explanation**:
+- The `react-error-boundary` library provides a declarative way to handle errors in functional components.
+- The `ErrorBoundary` component accepts a `FallbackComponent` prop that defines how to render fallback UI when an error occurs.
+- If an error is caught, the fallback UI is rendered, and you can use the `resetErrorBoundary` function to reset the error state.
+
+---
+
+### **When to Use Error Boundaries?**
+
+- **Class Components**: Use class-based error boundaries when working with legacy codebases or when you need to catch errors in the component tree.
+- **Functional Components**: While React does not support native error boundaries in functional components, you can use **third-party libraries** or create your own error boundary using `useState` and `useEffect` hooks for a more flexible solution.
+- **Error Handling in UI**: They are useful when you need to prevent the entire application from crashing due to an error in a child component and display a fallback UI instead.
+
+---
+
+### **Conclusion**
+
+- **Class Components**: React provides native error boundary support via `componentDidCatch` and `getDerivedStateFromError` lifecycle methods in class components.
+- **Functional Components**: While React does not natively support error boundaries for functional components, you can use third-party libraries like **`react-error-boundary`** or create custom solutions using hooks (`useState`, `useEffect`, etc.).

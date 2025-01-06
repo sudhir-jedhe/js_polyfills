@@ -75,6 +75,55 @@ Here, `this` inside the `greet` method refers to the `person` object.
 ### 4. **In an Arrow Function**
 Arrow functions in JavaScript behave differently when it comes to the `this` keyword. They do not have their own `this`. Instead, they **lexically bind `this`**, meaning that the value of `this` inside an arrow function is inherited from the surrounding (enclosing) context in which the arrow function was defined.
 
+Arrow Functions are a new way of making functions in JavaScript. Arrow Functions takes a little time in making functions and has a cleaner syntax than a function expression because we omit the function keyword in making them.
+```js
+//ES5 Version
+var getCurrentDate = function (){
+  return new Date();
+}
+
+//ES6 Version
+const getCurrentDate = () => new Date();
+
+```
+In this example, in the ES5 Version have function(){} declaration and return keyword needed to make a function and return a value respectively. In the Arrow Function version we only need the () parentheses and we don't need a return statement because Arrow Functions have a implicit return if we have only one expression or value to return.
+```js
+//ES5 Version
+function greet(name) {
+  return 'Hello ' + name + '!';
+}
+
+//ES6 Version
+const greet = (name) => `Hello ${name}`;
+const greet2 = name => `Hello ${name}`;
+```
+We can also parameters in Arrow functions the same as the function expressions and function declarations. If we have one parameter in an Arrow Function we can omit the parentheses it is also valid.
+```js
+const getArgs = () => arguments
+
+const getArgs2 = (...rest) => rest
+
+```
+Arrow functions don't have access to the arguments object. So calling the first getArgs func will throw an Error. Instead we can use the rest parameters to get all the arguments passed in an arrow function.
+```js
+const data = {
+  result: 0,
+  nums: [1, 2, 3, 4, 5],
+  computeResult() {
+    // "this" here refers to the "data" object
+    const addAll = () => {
+      // arrow functions "copies" the "this" value of 
+      // the lexical enclosing function
+      return this.nums.reduce((total, cur) => total + cur, 0)
+    };
+    this.result = addAll();
+  }
+};
+
+```
+
+Arrow functions don't have their own this value. It captures or gets the this value of lexically enclosing function or in this example, the addAll function copies the this value of the computeResult method and if we declare an arrow function in the global scope the value of this would be the window object.
+
 #### Example 5: Arrow Function (Lexical `this`)
 
 ```javascript
