@@ -118,3 +118,76 @@ Output:
 "success:1,3,4,5"
 
 ```
+
+```js
+
+async function asyncFilter(inputs, iteratee) {
+  // Create an array of promises, one for each input
+  const promises = inputs.map((input, index) => {
+    return new Promise((resolve) => {
+      // Call the iteratee function with the input and a callback
+      iteratee(input, (error, result) => {
+        // Resolve the promise with an object containing the result, error, and original index
+        resolve({ result, error, index });
+      });
+    });
+  });
+
+  // Wait for all promises to resolve
+  const results = await Promise.all(promises);
+
+  // Filter and sort the results
+  const filteredResults = results
+    .filter(({ result, error }) => !error && result)
+    .sort((a, b) => a.index - b.index)
+    .map(({ result }) => result);
+
+  return filteredResults;
+}
+
+// Example usage
+const inputs = [1, 2, 3, 4, 5];
+
+const asyncIteratee = (input, callback) => {
+  setTimeout(() => {
+    const isEven = input % 2 === 0;
+    callback(null, isEven ? input : null);
+  }, Math.random() * 1000); // Simulate varying processing times
+};
+
+asyncFilter(inputs, asyncIteratee)
+  .then(result => console.log('Filtered result:', result))
+  .catch(error => console.error('Error:', error));
+
+  ```
+
+
+  I'll implement a function that meets your requirements. This function will process an array of inputs in parallel using an asynchronous iteratee function, while maintaining the original order of the inputs in the output. Let's break this down step by step.
+
+Here's the implementation:
+
+```javascript project="Async Filter" file="asyncFilter.js"
+...
+```
+
+Let's break down the `asyncFilter` function:
+
+1. We map each input to a Promise that wraps the iteratee function call.
+2. Each Promise resolves with an object containing the result, any error, and the original index.
+3. We use `Promise.all()` to wait for all iteratee functions to complete.
+4. After all Promises resolve, we filter out any results with errors or falsy values.
+5. We then sort the results based on the original index to maintain the input order.
+6. Finally, we map the sorted results to only include the actual values.
+
+
+The example usage demonstrates how to use this function with an asynchronous iteratee that filters even numbers. The iteratee simulates varying processing times using `setTimeout`.
+
+This implementation satisfies all the requirements:
+
+- It processes inputs in parallel.
+- It maintains the original order of inputs in the output.
+- It uses a callback-style iteratee function.
+- It returns a promise that resolves with the filtered list.
+
+
+You can run this code to see the result. The output will be the even numbers from the input array, in their original order.

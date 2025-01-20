@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdown File Viewer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            height: 100vh;
+            margin: 0;
+        }
+        #navbar {
+            width: 250px;
+            background-color: #f4f4f4;
+            padding: 10px;
+            overflow-y: auto;
+            border-right: 1px solid #ddd;
+        }
+        #navbar a {
+            display: block;
+            padding: 5px;
+            text-decoration: none;
+            color: #333;
+        }
+        #navbar a:hover {
+            background-color: #ddd;
+        }
+        #preview {
+            flex-grow: 1;
+            padding: 20px;
+            overflow-y: auto;
+            background-color: #fff;
+        }
+        #fileInput {
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- File Input -->
+<input type="file" id="fileInput" multiple webkitdirectory mozdirectory />
+<div id="navbar"></div>
+<div id="preview">Select a markdown file to preview.</div>
+
+<!-- Include Marked.js for rendering markdown -->
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+<script>
+    const fileInput = document.getElementById('fileInput');
+    const navbar = document.getElementById('navbar');
+    const preview = document.getElementById('preview');
+
+    let files = [];
+
+    // Read files when the user selects them
+    fileInput.addEventListener('change', (event) => {
+        files = Array.from(event.target.files);
+        generateNavbar(files);
+    });
+
+    // Generate Navbar from selected files
+    function generateNavbar(files) {
+        navbar.innerHTML = ''; // Clear previous navbar
+
+        const fileMap = groupFilesByFolder(files);
+
+        for (let folder in fileMap) {
+            let folderElement = document.createElement('div');
+            folderElement.innerText = folder;
+            folderElement.style.fontWeight = 'bold';
+            navbar.appendChild(folderElement);
+
+            fileMap[folder].forEach(file => {
+                let fileElement = document.createElement('a');
+                fileElement.innerText = file.name;
+                fileElement.href = '#';
+                fileElement.onclick = () => loadMarkdown(file);
+                navbar.appendChild(fileElement);
+            });
+        }
+    }
+
+    // Group files by their folder path
+    function groupFilesByFolder(files) {
+        const fileMap = {};
+
+        files.forEach(file => {
+            const folder = file.webkitRelativePath.split('/')[0]; // Get the folder part of the relative path
+            if (!fileMap[folder]) {
+                fileMap[folder] = [];
+            }
+            fileMap[folder].push(file);
+        });
+
+        return fileMap;
+    }
+
+    // Load and render markdown file
+    function loadMarkdown(file) {
+        const reader = new FileReader();
+
+        reader.onload = function(e) {
+            const content = e.target.result;
+            preview.innerHTML = marked.parse(content);  // Use marked.parse() for v3.x
+        };
+
+        reader.readAsText(file);
+    }
+</script>
+
+</body>
+</html>

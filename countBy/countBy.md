@@ -115,3 +115,107 @@ console.log(countBy(['one', 'two', 'three'], 'length'));
 ### Conclusion:
 
 Both implementations are correct and functionally equivalent in terms of the output. The second implementation, however, is more modern and avoids potential pitfalls with inherited properties, making it the safer choice in many cases.
+
+
+
+```js
+
+type CountByResult<T> = { [key: string]: number };
+
+function countBy<T>(
+  array: T[],
+  iteratee: ((item: T) => string) | keyof T,
+  customEquals?: (a: T, b: T) => boolean
+): CountByResult<T> {
+  const result: CountByResult<T> = {};
+  const map = new Map<T, number>();
+
+  for (const item of array) {
+    const key = typeof iteratee === 'function' ? iteratee(item) : String(item[iteratee]);
+    
+    if (customEquals) {
+      let found = false;
+      for (const [mapKey, count] of map.entries()) {
+        if (customEquals(mapKey, item)) {
+          map.set(mapKey, count + 1);
+          found = true;
+          break;
+        }
+      }
+      if (!found) {
+        map.set(item, 1);
+      }
+    } else {
+      map.set(item, (map.get(item) || 0) + 1);
+    }
+    
+    result[key] = (result[key] || 0) + 1;
+  }
+
+  return result;
+}
+
+```
+
+```js
+
+type="nodejs" file="countBy.js"
+// Implementation of countBy function (as shown above)
+function countBy(array, iteratee, customEquals) {
+  const result = {};
+  const map = new Map();
+
+  for (const item of array) {
+    const key = typeof iteratee === 'function' ? iteratee(item) : String(item[iteratee]);
+    
+    if (customEquals) {
+      let found = false;
+      for (const [mapKey, count] of map.entries()) {
+        if (customEquals(mapKey, item)) {
+          map.set(mapKey, count + 1);
+          found = true;
+          break;
+        }
+      }
+      if (!found) {
+        map.set(item, 1);
+      }
+    } else {
+      map.set(item, (map.get(item) || 0) + 1);
+    }
+    
+    result[key] = (result[key] || 0) + 1;
+  }
+
+  return result;
+}
+
+// Example usage
+const numbers = [1, 2, 3, 4, 5, 1, 2, 3, 1, 2, 1];
+console.log("Counting numbers:", countBy(numbers, x => x));
+
+const words = ['one', 'two', 'three', 'one', 'two', 'one'];
+console.log("Counting words:", countBy(words, x => x));
+
+const objects = [
+  { id: 1, category: 'A' },
+  { id: 2, category: 'B' },
+  { id: 3, category: 'A' },
+  { id: 4, category: 'C' },
+  { id: 5, category: 'B' }
+];
+console.log("Counting by category:", countBy(objects, 'category'));
+
+// Using custom equality
+const complexObjects = [
+  { id: 1, data: { value: 10 } },
+  { id: 2, data: { value: 20 } },
+  { id: 3, data: { value: 10 } },
+  { id: 4, data: { value: 20 } },
+  { id: 5, data: { value: 30 } }
+];
+
+const customEquals = (a, b) => a.data.value === b.data.value;
+console.log("Counting complex objects:", countBy(complexObjects, obj => String(obj.data.value), customEquals));
+
+```

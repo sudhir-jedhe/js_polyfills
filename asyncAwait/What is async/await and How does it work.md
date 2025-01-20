@@ -1,5 +1,7 @@
-**async/await** is the new way of writing asynchronous or non-blocking code in JavaScript's. It is built on top of Promises. It makes writing asynchronous code more readable and cleaner than
-Promises and Callbacks. But you must learn the basics of Promises before using this feature because as I said earlier it is built on top of Promises which means is still uses Promises under the hood.
+**async/await** is the new way of writing asynchronous or non-blocking code in JavaScript's. 
+It is built on top of Promises. 
+It makes writing asynchronous code more readable and cleaner than Promises and Callbacks. 
+But you must learn the basics of Promises before using this feature because as I said earlier it is built on top of Promises which means is still uses Promises under the hood.
 
 **Using Promises**.
 ```js

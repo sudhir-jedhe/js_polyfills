@@ -1,4 +1,8 @@
 Here is the code you provided, formatted in Markdown along with an explanation:
+Question: "What is an iterator in JavaScript, and how does the iterator protocol work?"
+Question: "Can you explain how you would use a custom iterator to generate a sequence of numbers in a React app?"
+
+
 
 ```javascript
 // Function to create a custom range iterator
