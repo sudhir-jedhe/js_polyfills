@@ -121,3 +121,81 @@ Let's look at the output sequence.
 - `requestAnimationFrame()` callbacks are part of the **Macrotask Queue** but run **before** `setTimeout()` or other macrotasks.
 
 This breakdown helps clarify how JavaScript schedules and executes different types of tasks in a non-blocking, asynchronous manner using the Event Loop, **Microtask Queue**, and **Macrotask Queue**.
+
+
+
+In JavaScript, the event loop and task queue mechanism determine the order in which different asynchronous tasks are executed, including `Promises` and `setTimeout`. The priority of `Promises` over `setTimeout` arises due to how the JavaScript runtime handles the event loop and task queues, specifically **microtasks** and **macrotasks**. Let's break down the reasons why Promises get higher priority than `setTimeout`:
+
+### 1. **Microtasks and Macrotasks:**
+
+   - **Microtasks** are tasks that are scheduled to be executed after the currently executing script completes and before the next event loop iteration begins. Promises (via `Promise.then()` or `Promise.catch()`) are handled in the **microtask queue**.
+   - **Macrotasks** are tasks like `setTimeout`, `setInterval`, and I/O tasks (e.g., network requests, DOM rendering). These tasks are handled in the **macrotask queue**.
+
+### 2. **Event Loop Execution Order:**
+
+   JavaScript uses an event loop that processes the call stack and then looks for tasks to execute. Here's how it works in general:
+
+   1. **Execute any code in the call stack.**
+   2. **Execute all the microtasks** that were scheduled (e.g., from resolved Promises).
+   3. **Execute one macrotask** (e.g., `setTimeout`, `setInterval`).
+   4. Repeat.
+
+   Since microtasks (Promises) are processed **before** macrotasks (e.g., `setTimeout`), Promises get higher priority.
+
+### 3. **Why Do Promises Get Higher Priority?**
+
+   The priority of Promises over `setTimeout` can be attributed to the following points:
+
+   - **Microtasks (Promises) are processed first**: When a Promise is resolved or rejected, the callback (e.g., `then()`, `catch()`) is queued in the microtask queue. The event loop ensures that all microtasks are processed before moving on to the next macrotask.
+   
+   - **Event loop design**: The event loop is designed to execute all microtasks before returning to macrotasks. This is done to avoid the potential for indefinite delay in processing Promise resolutions and to ensure that tasks such as UI updates (often triggered by Promises) are handled as soon as possible.
+
+### 4. **Order of Execution Example:**
+
+   Consider the following example:
+
+   ```javascript
+   console.log('Start');
+
+   setTimeout(() => {
+     console.log('setTimeout');
+   }, 0);
+
+   Promise.resolve().then(() => {
+     console.log('Promise');
+   });
+
+   console.log('End');
+   ```
+
+   **Execution order:**
+   1. `'Start'` is logged from the initial code execution.
+   2. The `setTimeout` callback is added to the macrotask queue, but it doesn't run yet.
+   3. The Promise is resolved immediately, and its `then()` callback is added to the microtask queue.
+   4. `'End'` is logged from the initial code execution.
+   5. All **microtasks** are executed now, so the `Promise` callback runs and `'Promise'` is logged.
+   6. Finally, the event loop moves to the **macrotask queue** and executes the `setTimeout` callback, logging `'setTimeout'`.
+
+   **Output:**
+   ```
+   Start
+   End
+   Promise
+   setTimeout
+   ```
+
+### 5. **Why Does This Matter?**
+
+   The higher priority of Promises ensures that:
+   
+   - Promises are executed as soon as possible after the synchronous code has finished running, making the code more responsive.
+   - Using Promises allows asynchronous logic (such as fetching data, handling user input, etc.) to be processed before other macrotasks like `setTimeout`, which may be used to delay certain actions.
+   - This design ensures that promise resolutions do not get blocked or delayed by longer-running tasks, allowing for more efficient, predictable asynchronous behavior.
+
+### 6. **SetTimeout and Delays:**
+
+   Even if `setTimeout` is given a delay of `0ms`, it still has to wait for the current call stack to clear and for all microtasks (like Promises) to finish executing before it is executed.
+
+### Conclusion:
+
+To summarize, **Promises** get higher priority than **`setTimeout`** in JavaScript because Promises are handled in the **microtask queue**, which is processed before the **macrotask queue** (which handles tasks like `setTimeout`). This ensures that Promises are resolved as soon as possible after the synchronous code execution, without being delayed by macrotasks.

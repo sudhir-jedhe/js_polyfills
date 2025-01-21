@@ -1,0 +1,120 @@
+.advanced-table {
+  font-family: Arial, sans-serif;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+
+  .table-header {
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ccc;
+
+    .header-row {
+      display: flex;
+    }
+
+    .header-cell {
+      padding: 10px;
+      font-weight: bold;
+      border-right: 1px solid #ccc;
+      display: flex;
+      align-items: center;
+      position: relative;
+
+      &:last-child {
+        border-right: none;
+      }
+
+      .cell-content {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .sort-indicator {
+        margin-left: 5px;
+      }
+
+      input {
+        margin-top: 5px;
+        padding: 2px 5px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+      }
+
+      .resize-handle {
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 5px;
+        background-color: #ccc;
+        cursor: col-resize;
+      }
+    }
+  }
+
+  .table-row {
+    display: flex;
+    border-bottom: 1px solid #eee;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    &.selected {
+      background-color: #e6f3ff;
+    }
+
+    &.dragging {
+      background-color: #f0f0f0;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    }
+
+    .row-cell {
+      padding: 10px;
+      border-right: 1px solid #eee;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+
+      &:last-child {
+        border-right: none;
+      }
+    }
+  }
+
+  .checkbox {
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-top: 1px solid #ccc;
+
+    button {
+      padding: 5px 10px;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      cursor: pointer;
+
+      &:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+      }
+    }
+
+    select {
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+  }
+}
+

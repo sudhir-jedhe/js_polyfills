@@ -1,0 +1,38 @@
+{
+  "server": {
+    "port": 5000,
+    "env": "development"
+  },
+  "database": {
+    "url": "mongodb://localhost:27017/rbac_db"
+  },
+  "jwt": {
+    "secret": "your_jwt_secret",
+    "expiresIn": "1h"
+  },
+  "refreshToken": {
+    "secret": "your_refresh_token_secret",
+    "expiresIn": "7d"
+  },
+  "twoFactor": {
+    "enabled": true,
+    "issuer": "MERN RBAC App"
+  },
+  "logging": {
+    "level": "info"
+  },
+  "rateLimit": {
+    "windowMs": 900000,
+    "max": 100
+  },
+  "email": {
+    "host": "smtp.example.com",
+    "port": 587,
+    "user": "your_email@example.com",
+    "password": "your_email_password",
+    "fromName": "MERN RBAC App",
+    "fromEmail": "noreply@example.com"
+  },
+  "frontendUrl": "http://localhost:3000"
+}
+

@@ -262,3 +262,179 @@ var a = {};
 console.log(a);
 ```
 <!-- prettier-ignore-end -->
+
+
+
+### Primitive vs Non-Primitive Data Types in JavaScript
+
+#### 1. **Primitive Data Types**:
+Primitive data types are simple data types that are immutable (cannot be changed) and are directly assigned to variables. They are copied by value.
+
+**Examples of Primitive Data Types**:
+- **String**: Represents text data.
+  ```javascript
+  let name = 'John';
+  let greeting = 'Hello';
+  ```
+
+- **Number**: Represents both integer and floating-point numbers.
+  ```javascript
+  let age = 30;
+  let price = 99.99;
+  ```
+
+- **Boolean**: Represents a value of either `true` or `false`.
+  ```javascript
+  let isActive = true;
+  let isAvailable = false;
+  ```
+
+- **Undefined**: A variable that is declared but not assigned a value is of type `undefined`.
+  ```javascript
+  let result;
+  console.log(result);  // undefined
+  ```
+
+- **Null**: Represents the intentional absence of any value or object.
+  ```javascript
+  let car = null;
+  ```
+
+- **Symbol**: A unique and immutable primitive value used as a key for object properties (added in ES6).
+  ```javascript
+  const uniqueId = Symbol('id');
+  ```
+
+- **BigInt**: A new primitive type that can represent integers larger than `Number.MAX_SAFE_INTEGER` (added in ES2020).
+  ```javascript
+  const bigNumber = 1234567890123456789012345678901234567890n;
+  ```
+
+#### 2. **Non-Primitive (Reference) Data Types**:
+Non-primitive data types are more complex and can store collections of data. They are mutable (their contents can be modified) and are passed by reference.
+
+**Examples of Non-Primitive Data Types**:
+- **Object**: Represents a collection of key-value pairs.
+  ```javascript
+  let person = { name: 'John', age: 30 };
+  ```
+
+- **Array**: A collection of elements indexed by numbers.
+  ```javascript
+  let fruits = ['Apple', 'Banana', 'Cherry'];
+  ```
+
+- **Function**: Functions are also objects in JavaScript and hence are passed by reference.
+  ```javascript
+  function greet() {
+    console.log('Hello!');
+  }
+  ```
+
+- **Date**: Represents date and time.
+  ```javascript
+  let today = new Date();
+  ```
+
+### **Pass by Value vs Pass by Reference**
+
+- **Pass by Value**:
+  In JavaScript, primitive types are passed by value. This means that when you assign or pass a primitive data type to another variable, a copy of the value is made.
+
+  **Example**:
+  ```javascript
+  let a = 10;
+  let b = a;  // b gets a copy of the value of a
+
+  b = 20;  // Changing b doesn't affect a
+
+  console.log(a); // 10
+  console.log(b); // 20
+  ```
+
+- **Pass by Reference**:
+  Non-primitive data types (objects, arrays, functions, etc.) are passed by reference. This means that when you assign or pass a non-primitive type to another variable, both variables point to the same memory location, and changes to one will affect the other.
+
+  **Example with Objects**:
+  ```javascript
+  let person1 = { name: 'John', age: 30 };
+  let person2 = person1;  // person2 references the same object as person1
+
+  person2.age = 35;  // Modifying person2 will also modify person1 because they reference the same object
+
+  console.log(person1.age);  // 35
+  console.log(person2.age);  // 35
+  ```
+
+  **Example with Arrays**:
+  ```javascript
+  let arr1 = [1, 2, 3];
+  let arr2 = arr1;  // arr2 references the same array as arr1
+
+  arr2.push(4);  // Modifying arr2 will also modify arr1
+
+  console.log(arr1);  // [1, 2, 3, 4]
+  console.log(arr2);  // [1, 2, 3, 4]
+  ```
+
+### **Multiple Examples of Pass-by-Value and Pass-by-Reference**
+
+#### **Pass by Value Example**:
+```javascript
+let num1 = 100;
+let num2 = num1;  // Copy of num1 is assigned to num2
+
+num2 = 200;  // Changing num2 does not affect num1
+
+console.log(num1);  // 100
+console.log(num2);  // 200
+```
+
+#### **Pass by Reference Example (Object)**:
+```javascript
+let obj1 = { name: 'Alice', age: 25 };
+let obj2 = obj1;  // obj2 references the same object as obj1
+
+obj2.age = 30;  // Modifying obj2 will also modify obj1
+
+console.log(obj1.age);  // 30
+console.log(obj2.age);  // 30
+```
+
+#### **Pass by Reference Example (Array)**:
+```javascript
+let arr1 = [1, 2, 3];
+let arr2 = arr1;  // arr2 references the same array as arr1
+
+arr2.push(4);  // Modifying arr2 will also modify arr1
+
+console.log(arr1);  // [1, 2, 3, 4]
+console.log(arr2);  // [1, 2, 3, 4]
+```
+
+#### **Pass by Value Example (Primitive Type)**:
+```javascript
+let x = 50;
+let y = x;  // y gets a copy of x
+
+y = 60;  // Changing y does not affect x
+
+console.log(x);  // 50
+console.log(y);  // 60
+```
+
+### **Key Differences**:
+- **Primitive Data Types**: 
+  - Stored directly in the variable.
+  - Passed by value, so changes do not affect the original.
+  - Immutable (cannot be changed directly).
+
+- **Non-Primitive Data Types**:
+  - Stored as references to the actual data.
+  - Passed by reference, so changes in one variable will affect the original.
+  - Mutable (can be changed directly).
+
+### Summary:
+
+- **Primitive types** (like `string`, `number`, `boolean`, etc.) are passed **by value**, meaning that when you assign them to another variable, the new variable gets a copy of the original value.
+- **Non-primitive types** (like `objects`, `arrays`, and `functions`) are passed **by reference**, meaning that they reference the same memory location, so changes to one will affect the other.

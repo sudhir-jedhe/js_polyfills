@@ -1,0 +1,29 @@
+{
+  "server": {
+    "port": 5000,
+    "env": "development"
+  },
+  "database": {
+    "url": "mongodb://localhost:27017/rbac_db"
+  },
+  "jwt": {
+    "secret": "your_jwt_secret",
+    "expiresIn": "1h"
+  },
+  "refreshToken": {
+    "secret": "your_refresh_token_secret",
+    "expiresIn": "7d"
+  },
+  "twoFactor": {
+    "enabled": true,
+    "issuer": "MERN RBAC App"
+  },
+  "logging": {
+    "level": "info"
+  },
+  "rateLimit": {
+    "windowMs": 15 * 60 * 1000,
+    "max": 100
+  }
+}
+
