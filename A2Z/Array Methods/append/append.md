@@ -30,7 +30,8 @@ Array.prototype.customAppendAtStart = function(valueToBeAppend) {
     }
     return this;
 }
-```
+
+
 
 - **First Issue**: The code within the `else` block attempts to spread the array `[valueToBeAppend, ...this]`, but then it destructures it into `[first, ...rest]` and does nothing with `rest`. 
     - This means the array isn't actually being modified, and the method will have no effect on the array. 
