@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Sudhir A. Jedhe – ATS Resume</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Arial', sans-serif; font-size: 12.5px; color: #1a1a1a; background: #eee; line-height: 1.6; }
+  .page { width: 210mm; min-height: 297mm; margin: 20px auto; background: #fff; padding: 12mm 14mm; box-shadow: 0 2px 12px rgba(0,0,0,0.12); }
+
+  /* HEADER */
+  .header { text-align: center; margin-bottom: 10px; border-bottom: 2px solid #1a3a5c; padding-bottom: 8px; }
+  .header h1 { font-size: 22px; font-weight: 700; color: #1a3a5c; letter-spacing: 2px; text-transform: uppercase; }
+  .header .title { font-size: 12.5px; color: #444; margin: 3px 0 5px; }
+  .header .contact { font-size: 11.5px; color: #333; }
+  .header .contact a { color: #0a66c2; text-decoration: none; }
+
+  /* SECTION */
+  .section { margin-bottom: 10px; }
+  .section-title { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: #1a3a5c; border-bottom: 1.5px solid #1a3a5c; padding-bottom: 2px; margin-bottom: 6px; }
+
+  /* SUMMARY */
+  .summary { font-size: 12px; line-height: 1.7; color: #333; }
+
+  /* SKILLS */
+  .skills-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 3px 20px; }
+  .skill-row { font-size: 11.5px; color: #333; }
+  .skill-row strong { color: #1a3a5c; }
+
+  /* EXPERIENCE */
+  .job { margin-bottom: 10px; padding-bottom: 8px; border-bottom: 1px dashed #ddd; }
+  .job:last-child { border-bottom: none; margin-bottom: 0; }
+  .job-top { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1px; }
+  .company { font-size: 13px; font-weight: 700; color: #1a3a5c; }
+  .position { font-size: 12px; font-weight: 600; color: #333; }
+  .duration { font-size: 11px; color: #666; white-space: nowrap; background: #f0f4f8; padding: 1px 6px; border-radius: 3px; }
+  .client-tag { font-size: 11.5px; font-weight: 700; color: #fff; background: #1a3a5c; display: inline-block; padding: 1px 7px; border-radius: 3px; margin: 4px 0 2px; }
+  .desc { font-size: 11.5px; color: #555; font-style: italic; margin-bottom: 3px; }
+  ul { margin: 3px 0 3px 15px; }
+  ul li { font-size: 11.5px; line-height: 1.65; color: #333; margin-bottom: 1px; }
+  .skills-used { font-size: 11px; color: #555; margin-top: 3px; }
+  .skills-used strong { color: #1a3a5c; }
+  .award { color: #c8a000; font-weight: 600; }
+
+  @media print {
+    body { background: #fff; }
+    .page { box-shadow: none; margin: 0; padding: 8mm 12mm; }
+    .print-btn { display: none; }
+  }
+  .print-btn { display: block; width: 180px; margin: 14px auto; padding: 9px 0; background: #1a3a5c; color: #fff; border: none; border-radius: 4px; font-size: 13px; cursor: pointer; text-align: center; }
+  .print-btn:hover { background: #16304e; }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- HEADER -->
+  <div class="header">
+    <h1>Sudhir A. Jedhe</h1>
+    <div class="title">Senior React JS Developer &nbsp;|&nbsp; Project Lead &nbsp;|&nbsp; MERN Stack &nbsp;|&nbsp; Playwright Automation &nbsp;|&nbsp; BE Computer Engineer</div>
+    <div class="contact">
+      📞 8551873835 &nbsp;|&nbsp; 📧 jedhesudhir@gmail.com &nbsp;|&nbsp;
+      🔗 <a href="https://www.linkedin.com/in/sudhirjedhe/" target="_blank">linkedin.com/in/sudhirjedhe</a>
+    </div>
+  </div>
+
+  <!-- PROFILE SUMMARY -->
+  <div class="section">
+    <div class="section-title">Profile Summary</div>
+    <p class="summary">
+      Senior React JS Developer and Project Lead with <strong>10+ years of experience</strong> building scalable, high-performance web applications across fintech, banking, insurance, government, and e-learning domains. Proficient in <strong>React JS, Redux, TypeScript, Node.js, and MERN Stack</strong>. Hands-on expertise in <strong>Playwright end-to-end test automation</strong>, Page Object Models (POM), and reusable <strong>snapshot testing framework libraries</strong> for visual regression testing. Experienced in leveraging <strong>AI tools (Cursor, Claude)</strong> to accelerate development and improve productivity. Delivered WCAG-compliant, production-ready UIs for global clients including <strong>Intuit, Microsoft, HSBC, Prudential, Credit Suisse, and Woolworths</strong>.
+    </p>
+  </div>
+
+  <!-- TECHNICAL SKILLS -->
+  <div class="section">
+    <div class="section-title">Technical Skills</div>
+    <div class="skills-grid">
+      <div class="skill-row"><strong>Frontend:</strong> HTML5, CSS3, JavaScript, ES6, TypeScript, SASS, LESS</div>
+      <div class="skill-row"><strong>Frameworks:</strong> React JS, Next JS, Redux, Redux-Toolkit, Redux-Saga</div>
+      <div class="skill-row"><strong>State Management:</strong> Context API, Redux-Thunk, React Hooks</div>
+      <div class="skill-row"><strong>Automation Testing:</strong> Playwright, Selenium, Puppeteer, Cypress</div>
+      <div class="skill-row"><strong>Unit Testing:</strong> Jest, Enzyme, React Testing Library</div>
+      <div class="skill-row"><strong>Snapshot Testing:</strong> Visual Regression, Snapshot Framework Library</div>
+      <div class="skill-row"><strong>Backend:</strong> Node JS, Express JS, MongoDB, REST APIs</div>
+      <div class="skill-row"><strong>UI Libraries:</strong> Material UI, Bootstrap, Styled Components</div>
+      <div class="skill-row"><strong>AI Tools:</strong> Cursor, Claude (Anthropic), GitHub Copilot</div>
+      <div class="skill-row"><strong>Tools:</strong> Figma, Postman, Git, GitHub, Bitbucket, GitLab</div>
+      <div class="skill-row"><strong>Bundlers:</strong> Webpack, Vite, Babel, Grunt, Gulp</div>
+      <div class="skill-row"><strong>CI/CD & Auth:</strong> Pipeline Integration, JWT Token</div>
+    </div>
+  </div>
+
+  <!-- EXPERIENCE -->
+  <div class="section">
+    <div class="section-title">Professional Experience</div>
+
+    <!-- Persistent -->
+    <div class="job">
+      <div class="job-top">
+        <div>
+          <div class="company">Persistent Systems</div>
+          <div class="position">Project Lead</div>
+        </div>
+        <div class="duration">Jan 2025 – Till Date</div>
+      </div>
+
+      <div class="client-tag">Project Lead Responsibilities</div>
+      <ul>
+        <li>Led and mentored a cross-functional team of front-end and full-stack developers, ensuring code quality through regular code reviews and best practice enforcement.</li>
+        <li>Collaborated with product managers, designers, and stakeholders to define technical requirements, sprint goals, and delivery timelines in an Agile/Scrum environment.</li>
+        <li>Conducted sprint planning, mid-sprint reviews, and end-of-sprint retrospectives and demo sessions to ensure on-time delivery.</li>
+        <li>Prepared and presented weekly status reports to stakeholders covering progress, risks, blockers, and upcoming milestones.</li>
+        <li>Responsible for technical decision-making, architecture design, and technology selection for project modules.</li>
+        <li>Coordinated with QA, DevOps, and backend teams to ensure seamless integration and deployment across environments.</li>
+        <li>Managed task allocation, tracked progress, and resolved blockers to maintain smooth project execution.</li>
+        <li>Leveraged AI-powered development tools including <strong>Cursor</strong> and <strong>Claude (Anthropic)</strong> to accelerate code generation, debugging, code reviews, and documentation, improving overall team productivity.</li>
+      </ul>
+
+      <div class="client-tag" style="background:#2e6da4;">Client 1: Microsoft — NYC OTI My City</div>
+      <div class="desc">Public-facing government application — mono repo containing back-end, front-end, configuration, pipelines, Dataverse, and documentation assets.</div>
+      <ul>
+        <li>Developed and managed UI web pages and internal layouts using ReactJS, Context API, Redux, and React Hooks.</li>
+        <li>Created responsive front-end UI design standards including wireframes, UI mockups, detailed visual designs, and site maps using Figma, Material UI, and styled components.</li>
+        <li>Delivered a fully WCAG-compliant product adhering to Accessibility standards.</li>
+      </ul>
+      <div class="skills-used"><strong>Skills:</strong> HTML5, CSS3, TypeScript, React JS, Jest, React Testing Library, Material UI, Figma</div>
+
+      <div class="client-tag" style="background:#2e6da4; margin-top:6px;">Client 2: Intuit — TurboTax & QBO ICC Credit Card</div>
+      <ul>
+        <li>Designed and implemented <strong>Playwright end-to-end automation test scenarios</strong> for TurboTax web pages covering login, income entry, deductions, and tax review/submission flows.</li>
+        <li>Developed reusable <strong>Page Object Models (POM)</strong> to maintain a clean, scalable, and maintainable test architecture.</li>
+        <li>Automated end-to-end flows for ICC Credit Card — Onboarding (registration, KYC, card activation), Transactions (view, filter, search, export), Profile Management, and Teams (roles & permissions).</li>
+        <li>Built a reusable <strong>snapshot testing framework library</strong> for visual regression testing across TurboTax and QBO products.</li>
+        <li>Implemented baseline snapshot management, pixel diff thresholds, and automated snapshot update strategies.</li>
+        <li>Integrated snapshot library into the <strong>CI/CD pipeline</strong> to detect unintended UI changes early.</li>
+      </ul>
+      <div class="skills-used"><strong>Skills:</strong> Playwright, JavaScript, TypeScript, React JS, POM, Snapshot Testing, Visual Regression, CI/CD</div>
+    </div>
+
+    <!-- Tachyon -->
+    <div class="job">
+      <div class="job-top">
+        <div>
+          <div class="company">Tachyon Tech</div>
+          <div class="position">Senior Software Engineer</div>
+        </div>
+        <div class="duration">Jul 2024 – Nov 2024</div>
+      </div>
+      <div class="client-tag" style="background:#2e6da4;">Client: Woolworths — Woolies</div>
+      <div class="desc">Developed a product detail web page for a glossary website.</div>
+      <ul>
+        <li>Created React components for product details, cart, pricing, and promotions.</li>
+        <li>Implemented unit tests using Jest and React Testing Library.</li>
+        <li>Applied Sass and media queries to ensure responsive design across all devices.</li>
+      </ul>
+      <div class="skills-used"><strong>Skills:</strong> HTML5, CSS3, TypeScript, React JS, Jest, Storybook, Sass, Node JS, Next JS</div>
+    </div>
+
+    <!-- HSBC -->
+    <div class="job">
+      <div class="job-top">
+        <div>
+          <div class="company">HSBC Technology India</div>
+          <div class="position">Consultant Specialist</div>
+        </div>
+        <div class="duration">Feb 2023 – Dec 2023</div>
+      </div>
+      <div class="client-tag" style="background:#2e6da4;">Project: CCAT (Client Custody Asset) – HSBC</div>
+      <div class="desc">Core custody services in investment operations for mutual fund client solutions.</div>
+      <ul>
+        <li>Designed components for user authentication and Meta Manager; built a global UI library with search, sort, and filter functionalities.</li>
+        <li>Integrated React with Redux for efficient state management and CRUD operations.</li>
+        <li>Created MongoDB schemas and designed RESTful API endpoints using Node.js and Express.</li>
+      </ul>
+      <div class="skills-used"><strong>Skills:</strong> TypeScript, React JS, Redux, Node JS, Express, MongoDB, Jest, Next JS</div>
+    </div>
+
+    <!-- Capgemini -->
+    <div class="job">
+      <div class="job-top">
+        <div>
+          <div class="company">Capgemini</div>
+          <div class="position">Consultant Specialist</div>
+        </div>
+        <div class="duration">Oct 2021 – Jan 2023</div>
+      </div>
+      <div class="client-tag" style="background:#2e6da4;">Project: OPOE – Prudential Insurance</div>
+      <div class="desc">Online portal for financial consultants to accelerate the policy sales process.</div>
+      <ul>
+        <li>Developed a global UI library with form-based elements and table components with search, sort, and filter.</li>
+        <li>Integrated React with Redux for state management and designed RESTful APIs using Node.js and Express.</li>
+      </ul>
+      <div class="skills-used"><strong>Skills:</strong> JavaScript, React JS, Redux, Node JS, Express, MongoDB, AWS, ZoomSDK</div>
+    </div>
+
+    <!-- IDC -->
+    <div class="job">
+      <div class="job-top">
+        <div>
+          <div class="company">IDC Technology</div>
+          <div class="position">Senior Software Engineer</div>
+        </div>
+        <div class="duration">Oct 2020 – Oct 2021</div>
+      </div>
+      <div class="client-tag" style="background:#2e6da4;">Project: Goals Driven Wealth Management – Credit Suisse</div>
+      <div class="desc">Portal to analyze customer goals and maximize wealth through insurance, cash flow, and retirement planning.</div>
+      <ul>
+        <li>Built modular React components including forms, dropdowns, tabs, accordions, and tables with search/sort/filter.</li>
+        <li>Integrated React with Redux store for seamless data flow and CRUD operations.</li>
+      </ul>
+      <div class="skills-used"><strong>Skills:</strong> JavaScript, React JS, Redux, Node JS, Express, MongoDB, Jest, Azure</div>
+    </div>
+
+    <!-- MITR -->
+    <div class="job">
+      <div class="job-top">
+        <div>
+          <div class="company">MITR Learning Media</div>
+          <div class="position">Senior Software Engineer</div>
+        </div>
+        <div class="duration">Jan 2017 – Jun 2020</div>
+      </div>
+      <div class="client-tag" style="background:#2e6da4;">Project: I-Fabric, I-Ready – Curriculum Associates &nbsp;<span class="award">🏆 2x Spot Award</span></div>
+      <div class="desc">eLearning solutions for Grade K-5 covering Math, Bio, and Reading subjects.</div>
+      <ul>
+        <li>Led development of React components for product modules, renderers, widgets, and utilities; conducted code reviews and refactoring.</li>
+        <li>Implemented end-to-end testing using Selenium, BrowserStack, and Nightwatch.</li>
+        <li>Contributed to open-source createjs-accessibility repository for accessibility management.</li>
+      </ul>
+      <div class="skills-used"><strong>Skills:</strong> JavaScript, React JS, Redux, Node JS, Selenium, CreateJS, TimelineMax JS, PWA</div>
+    </div>
+
+    <!-- Hurix -->
+    <div class="job">
+      <div class="job-top">
+        <div>
+          <div class="company">Hurix Digital</div>
+          <div class="position">HTML5 Programmer</div>
+        </div>
+        <div class="duration">Dec 2015 – Dec 2016</div>
+      </div>
+      <div class="client-tag" style="background:#2e6da4;">Project: GEMS, HMH NGSS CDLO &nbsp;<span class="award">🏆 Team of the Month</span></div>
+      <div class="desc">eLearning solutions for Grade K-5 covering Math, Physics, and Chemistry.</div>
+      <ul>
+        <li>Implemented animations using TweenMax and built D3.js chart components (bar, pie, line).</li>
+        <li>Designed interactive quiz templates including drag-and-drop, fill-in-the-blank, and matching pair activities.</li>
+      </ul>
+      <div class="skills-used"><strong>Skills:</strong> HTML5, CSS3, JavaScript, D3.js, CreateJS, TweenMax</div>
+    </div>
+
+    <!-- Tata -->
+    <div class="job">
+      <div class="job-top">
+        <div>
+          <div class="company">Tata Interactive System</div>
+          <div class="position">Software Engineer</div>
+        </div>
+        <div class="duration">Oct 2012 – Jan 2014</div>
+      </div>
+      <div class="client-tag" style="background:#2e6da4;">Project: WBT Courses – Excelsior & Western New York University</div>
+      <div class="desc">eLearning for Criminal Justice Law and Network Security courses.</div>
+      <ul>
+        <li>Converted Flash/PSD designs to HTML5 for improved compatibility and performance.</li>
+        <li>Created interactive templates including MCQs, drag-and-drop, timelines, and audio/video integration.</li>
+      </ul>
+      <div class="skills-used"><strong>Skills:</strong> HTML5, CSS3, JavaScript</div>
+    </div>
+
+  </div>
+</div>
+<button class="print-btn" onclick="window.print()">🖨️ Print / Save as PDF</button>
+</body>
+</html>
