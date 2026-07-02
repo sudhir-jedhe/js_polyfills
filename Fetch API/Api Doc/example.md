@@ -1,3 +1,5 @@
+# API Design Best Practices Example
+
 I'll implement these 10 best practices for API design using React for the frontend and Node.js with Express for the backend. We'll create a comprehensive example that demonstrates all these practices.
 
 Let's start with the backend implementation:
@@ -27,7 +29,6 @@ To run this project:
 1. Run `npm install` to install dependencies
 2. Create a `.env` file and add `JWT_SECRET=your_secret_key_here`
 3. Run `npm start` to start the server
-
 
 
 2. In the frontend directory:

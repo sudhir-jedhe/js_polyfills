@@ -40,18 +40,18 @@ Accordion.propTypes = {
   isOpen: PropTypes.bool.isRequired,
   onChange: PropTypes.func,
   children: PropTypes.node,
-  label: PropTypes.string.isRequired
+  label: PropTypes.string.isRequired,
 };
 
 Accordion.defaultProps = {
   isOpen: false,
   children: null,
-  label: "Accordion"
+  label: "Accordion",
 };
 
 export default Accordion;
-
 ```
+
 ```css
 
 //index.module.css
@@ -69,7 +69,7 @@ export default Accordion;
     transition: 0.4s;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   }
-  
+
   .toggler:after {
     content: "\02795";
     position: absolute;
@@ -78,11 +78,11 @@ export default Accordion;
     top: 48%;
     transform: translateY(-50%);
   }
-  
+
   .toggler.active:after {
     content: "\2796";
   }
-  
+
   .panel {
     transition: 0.4s;
     background-color: #90a4ae;
@@ -90,15 +90,15 @@ export default Accordion;
     overflow: hidden;
     max-height: 0;  //Keep the panel hidden
   }
-  
+
   .panel > .contentWrapper {
     padding: 10px;
   }
-  
+
   .wrapper {
     padding: 5px 10px;
   }
-  
+
   //Shows the panel and adjusts the height accordingly
   .panel.active {
     max-height: 100vh;
@@ -107,18 +107,17 @@ export default Accordion;
 ```
 
 ```js
-
-  import React, { Component } from "react";
+import React, { Component } from "react";
 import Accordion from "./index";
 
 class AccordionTest extends Component {
   state = {
-    isOpen: true
+    isOpen: true,
   };
 
-  onChange = isOpen => {
+  onChange = (isOpen) => {
     this.setState({
-      isOpen
+      isOpen,
     });
   };
 
@@ -141,5 +140,4 @@ class AccordionTest extends Component {
 }
 
 export default AccordionTest;
-
-````
+```

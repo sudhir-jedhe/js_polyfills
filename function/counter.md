@@ -119,3 +119,346 @@ console.log(counter.decrement()); // 4
 - **Counter with Increment, Decrement, and Reset**: This implementation includes all three actions — `increment`, `decrement`, and `reset`.
 
 These are all valid approaches depending on how you want the counter to behave and whether you need to maintain encapsulation, control access, or expose the counter directly.
+
+
+/******************/
+# Function Call Counter (JavaScript Interview)
+
+A **Function Call Counter** is a common interview problem that tests:
+
+* Closures
+* Higher-Order Functions
+* Function Wrappers (Decorators)
+* Proxies
+* JavaScript Function Objects
+
+Common approaches include using a counter variable, wrapper functions, closures, or ES6 Proxy objects. [\[geeksforgeeks.org\]](https://www.geeksforgeeks.org/javascript/how-to-find-out-how-many-times-a-function-is-called-with-javascript/), [\[xjavascript.com\]](https://www.xjavascript.com/blog/how-do-i-find-out-how-many-times-a-function-is-called-with-javascript-jquery/)
+
+***
+
+# Problem Statement
+
+Implement:
+
+```js
+const fn = createCounter(myFunction);
+
+fn();
+fn();
+fn();
+
+console.log(fn.getCount());
+```
+
+Output:
+
+```text
+3
+```
+
+***
+
+# Solution 1: Closure-Based Counter (Most Common)
+
+```js
+function createCounter(fn) {
+  let count = 0;
+
+  function wrapper(...args) {
+    count++;
+
+    return fn(...args);
+  }
+
+  wrapper.getCount = () => count;
+
+  return wrapper;
+}
+```
+
+### Usage
+
+```js
+function greet(name) {
+  console.log(
+    `Hello ${name}`
+  );
+}
+
+const countedGreet =
+  createCounter(greet);
+
+countedGreet("Sudhir");
+countedGreet("John");
+countedGreet("Mike");
+
+console.log(
+  countedGreet.getCount()
+);
+```
+
+Output:
+
+```text
+Hello Sudhir
+Hello John
+Hello Mike
+
+3
+```
+
+This uses a closure to keep a private counter while forwarding calls to the original function. [\[stackoverflow.com\]](https://stackoverflow.com/questions/7243101/function-count-calls), [\[github.com\]](https://github.com/javascript-tutorial/en.javascript.info/blob/master/1-js/06-advanced-functions/09-call-apply-decorators/article.md)
+
+***
+
+# Solution 2: Return Call Count Every Time
+
+```js
+function createCounter() {
+  let count = 0;
+
+  return function () {
+    return ++count;
+  };
+}
+```
+
+Usage:
+
+```js
+const counter =
+  createCounter();
+
+console.log(counter());
+console.log(counter());
+console.log(counter());
+```
+
+Output:
+
+```js
+1
+2
+3
+```
+
+***
+
+# Solution 3: Function Property
+
+JavaScript functions are objects, so they can store state.
+
+```js
+function greet() {
+  greet.count =
+    (greet.count || 0) + 1;
+
+  console.log("Hello");
+}
+```
+
+Usage:
+
+```js
+greet();
+greet();
+greet();
+
+console.log(
+  greet.count
+);
+```
+
+Output:
+
+```text
+3
+```
+
+Function-object counters are another frequently used technique. [\[stackoverflow.com\]](https://stackoverflow.com/questions/31740692/count-functions-calls-with-javascript), [\[stackoverflow.com\]](https://stackoverflow.com/questions/7243101/function-count-calls)
+
+***
+
+# Solution 4: Proxy Based (Senior Level)
+
+```js
+function greet(name) {
+  console.log(
+    `Hello ${name}`
+  );
+}
+
+let count = 0;
+
+const trackedGreet =
+  new Proxy(greet, {
+    apply(
+      target,
+      thisArg,
+      args
+    ) {
+      count++;
+
+      console.log(
+        "Call:",
+        count
+      );
+
+      return Reflect.apply(
+        target,
+        thisArg,
+        args
+      );
+    },
+  });
+```
+
+Usage:
+
+```js
+trackedGreet("Sudhir");
+trackedGreet("John");
+trackedGreet("Mike");
+```
+
+Output:
+
+```text
+Call: 1
+Hello Sudhir
+
+Call: 2
+Hello John
+
+Call: 3
+Hello Mike
+```
+
+Using a Proxy allows interception of function calls without modifying the original function. [\[geeksforgeeks.org\]](https://www.geeksforgeeks.org/javascript/how-to-find-out-how-many-times-a-function-is-called-with-javascript/), [\[xjavascript.com\]](https://www.xjavascript.com/blog/how-do-i-find-out-how-many-times-a-function-is-called-with-javascript-jquery/)
+
+***
+
+# React Hook Version
+
+```tsx
+import { useRef } from "react";
+
+function useCallCounter() {
+  const countRef =
+    useRef(0);
+
+  const increment =
+    () => {
+      countRef.current++;
+    };
+
+  return {
+    increment,
+    getCount: () =>
+      countRef.current,
+  };
+}
+```
+
+Usage:
+
+```tsx
+const {
+  increment,
+  getCount,
+} = useCallCounter();
+
+increment();
+increment();
+
+console.log(
+  getCount()
+);
+```
+
+***
+
+# TypeScript Version
+
+```ts
+function createCounter<T>(
+  fn: (...args: any[]) => T
+) {
+  let count = 0;
+
+  const wrapper = (
+    ...args: any[]
+  ): T => {
+    count++;
+
+    return fn(...args);
+  };
+
+  wrapper.getCount =
+    (): number => count;
+
+  return wrapper;
+}
+```
+
+***
+
+# Follow-Up Interview Question
+
+### Count Calls Per Argument
+
+```js
+counter("A");
+counter("A");
+counter("B");
+```
+
+Output:
+
+```js
+{
+  A: 2,
+  B: 1
+}
+```
+
+```js
+function trackCalls(fn) {
+  const calls =
+    new Map();
+
+  return function (
+    arg
+  ) {
+    calls.set(
+      arg,
+      (calls.get(arg) ||
+        0) + 1
+    );
+
+    console.log(
+      calls
+    );
+
+    return fn(arg);
+  };
+}
+```
+
+***
+
+# Complexity
+
+### Per Function Call
+
+```text
+Time:  O(1)
+
+Space: O(1)
+```
+
+***
+
+# Senior Interview Answer
+
+> The cleanest solution is to create a higher-order function that wraps the original function and stores a private counter inside a closure. Every invocation increments the counter before forwarding the call. This keeps counting logic separate from business logic and follows the decorator pattern. [\[github.com\]](https://github.com/javascript-tutorial/en.javascript.info/blob/master/1-js/06-advanced-functions/09-call-apply-decorators/article.md), [\[geeksforgeeks.org\]](https://www.geeksforgeeks.org/javascript/how-to-find-out-how-many-times-a-function-is-called-with-javascript/)

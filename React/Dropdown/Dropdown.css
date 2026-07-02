@@ -1,0 +1,132 @@
+.dropdown {
+  position: relative;
+  width: 260px;
+  font-family: Arial, sans-serif;
+}
+
+.dropdown[data-disabled="true"] {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.dropdown__trigger {
+  width: 100%;
+  min-height: 42px;
+  padding: 10px 12px;
+  border: 1px solid #c8c8c8;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #222222;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.dropdown__trigger:focus {
+  outline: 2px solid #2563eb;
+  outline-offset: 2px;
+}
+
+.dropdown__trigger:disabled {
+  cursor: not-allowed;
+  background: #f4f4f4;
+}
+
+.dropdown__selected {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: left;
+}
+
+.dropdown__placeholder {
+  color: #777777;
+}
+
+.dropdown__icon {
+  font-size: 11px;
+  flex-shrink: 0;
+}
+
+.dropdown__menu {
+  position: absolute;
+  z-index: 1000;
+  width: 100%;
+  max-height: 220px;
+  overflow-y: auto;
+  margin: 6px 0 0;
+  padding: 6px;
+  list-style: none;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.dropdown--top .dropdown__menu {
+  bottom: 100%;
+  margin-bottom: 6px;
+}
+
+.dropdown--bottom .dropdown__menu {
+  top: 100%;
+}
+
+.dropdown--left .dropdown__menu {
+  right: 100%;
+  top: 0;
+  margin-right: 6px;
+}
+
+.dropdown--right .dropdown__menu {
+  left: 100%;
+  top: 0;
+  margin-left: 6px;
+}
+
+.dropdown__item {
+  min-height: 36px;
+  padding: 8px 10px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #222222;
+}
+
+.dropdown__item:hover,
+.dropdown__item--active {
+  background: #eef4ff;
+}
+
+.dropdown__item--selected {
+  background: #dbeafe;
+  font-weight: 600;
+}
+
+.dropdown__item--disabled {
+  color: #999999;
+  cursor: not-allowed;
+  background: transparent;
+}
+
+.dropdown__item-label {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.dropdown__state {
+  padding: 10px;
+  color: #666666;
+  font-size: 14px;
+}
+
+.dropdown__state--error {
+  color: #b91c1c;
+}

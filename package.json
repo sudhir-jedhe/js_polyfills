@@ -14,5 +14,8 @@
     "fs": "^0.0.1-security",
     "marked": "^15.0.6",
     "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.17"
   }
 }
