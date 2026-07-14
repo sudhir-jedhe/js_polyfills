@@ -176,3 +176,730 @@ obj.method(); // 10
 | **Method Definitions**  | Not ideal for methods in objects                 | Ideal for methods in objects                            |
 | **Return Behavior**     | Implicit return for single expressions          | Requires explicit `return`                              |
 | **Hoisting**            | Not hoisted                                      | Hoisted                                                 |
+
+
+
+`super`, `new`, and `new.target` are important **ES6 OOP concepts** and are frequently asked in JavaScript/React interviews along with classes and inheritance. The internal training material also notes that **`super` should be used in subclasses** and discusses ES6 class inheritance. [\[persistent...epoint.com\]](https://persistentsystems.sharepoint.com/sites/RBT-Javascript-Training-19th-21stApril/Shared%20Documents/General/Daywise%20session%20demo/Day2.zip?web=1)
+
+# 1. `new` Keyword
+
+The `new` keyword creates an object from a constructor function or class.
+
+```javascript
+class Employee {
+  constructor(name) {
+    this.name = name;
+  }
+}
+
+const emp = new Employee("Sudhir");
+
+console.log(emp.name);
+```
+
+Output:
+
+```text
+Sudhir
+```
+
+### What `new` Does Internally
+
+```javascript
+const user = new User();
+```
+
+JavaScript performs:
+
+```text
+1. Creates empty object {}
+2. Sets prototype
+3. Binds this to object
+4. Executes constructor
+5. Returns object
+```
+
+***
+
+# 2. `super`
+
+`super` is used in inheritance.
+
+It refers to:
+
+```text
+Parent Class Constructor
+Parent Class Methods
+```
+
+***
+
+## Calling Parent Constructor
+
+```javascript
+class Person {
+
+  constructor(name) {
+    this.name = name;
+  }
+}
+
+class Employee extends Person {
+
+  constructor(name, role) {
+
+    super(name);
+
+    this.role = role;
+  }
+}
+
+const emp =
+  new Employee(
+    "Sudhir",
+    "Project Lead"
+  );
+
+console.log(emp);
+```
+
+Output:
+
+```javascript
+{
+  name: "Sudhir",
+  role: "Project Lead"
+}
+```
+
+***
+
+## Why `super()`?
+
+Without it:
+
+```javascript
+class Employee extends Person {
+
+  constructor(name) {
+
+    this.name = name;
+  }
+}
+```
+
+Error:
+
+```text
+Must call super constructor
+before accessing 'this'
+```
+
+***
+
+## Calling Parent Method
+
+```javascript
+class Person {
+
+  greet() {
+    return "Hello";
+  }
+}
+
+class Employee extends Person {
+
+  greet() {
+
+    return (
+      super.greet() +
+      " Sudhir"
+    );
+  }
+}
+
+const emp =
+  new Employee();
+
+console.log(
+  emp.greet()
+);
+```
+
+Output:
+
+```text
+Hello Sudhir
+```
+
+***
+
+# 3. `new.target`
+
+One of the most asked senior JavaScript interview questions.
+
+`new.target` tells you:
+
+```text
+Which constructor
+was called with new
+```
+
+***
+
+## Example
+
+```javascript
+function Person() {
+
+  console.log(
+    new.target
+  );
+}
+
+new Person();
+```
+
+Output:
+
+```text
+[Function: Person]
+```
+
+***
+
+## Called Without `new`
+
+```javascript
+function Person() {
+
+  console.log(
+    new.target
+  );
+}
+
+Person();
+```
+
+Output:
+
+```text
+undefined
+```
+
+***
+
+# Enforce Object Creation
+
+```javascript
+function User(name) {
+
+  if (!new.target) {
+
+    throw new Error(
+      "Use new keyword"
+    );
+  }
+
+  this.name = name;
+}
+```
+
+***
+
+### Correct
+
+```javascript
+new User("Sudhir");
+```
+
+Output:
+
+```text
+Success
+```
+
+***
+
+### Incorrect
+
+```javascript
+User("Sudhir");
+```
+
+Output:
+
+```text
+Error: Use new keyword
+```
+
+***
+
+# `new.target` with Inheritance
+
+```javascript
+class Person {
+
+  constructor() {
+
+    console.log(
+      new.target.name
+    );
+  }
+}
+
+class Employee
+  extends Person {}
+
+new Employee();
+```
+
+Output:
+
+```text
+Employee
+```
+
+Even though the parent constructor runs.
+
+Reason:
+
+```text
+new.target refers
+to the actual class
+being instantiated
+```
+
+***
+
+# Real Interview Example
+
+### Abstract Class Simulation
+
+JavaScript doesn't have true abstract classes.
+
+Use:
+
+```javascript
+class Shape {
+
+  constructor() {
+
+    if (
+      new.target === Shape
+    ) {
+
+      throw new Error(
+        "Cannot instantiate Shape"
+      );
+    }
+  }
+}
+
+class Circle
+  extends Shape {}
+
+new Circle(); // ✅
+
+new Shape();  // ❌
+```
+
+***
+
+# React Connection
+
+In modern React:
+
+```jsx
+function App() {}
+```
+
+you usually don't use:
+
+```text
+new
+super
+new.target
+```
+
+because React primarily uses:
+
+```text
+Functional Components
+Hooks
+```
+
+But these concepts are still important for:
+
+```text
+JavaScript Interviews
+Class Components
+Inheritance
+OOP Design
+```
+
+***
+
+# Interview Comparison
+
+| Concept          | Purpose                                        |
+| ---------------- | ---------------------------------------------- |
+| `new`            | Create object instance                         |
+| `super()`        | Call parent constructor                        |
+| `super.method()` | Call parent method                             |
+| `new.target`     | Detect constructor actually invoked with `new` |
+
+***
+
+# Senior Interview Answer
+
+```javascript
+class Employee extends Person {
+
+  constructor(name) {
+
+    super(name);
+  }
+}
+```
+
+* `new` creates an object instance and binds `this`.
+* `super()` invokes the parent constructor and must be called before using `this` in derived classes.
+* `super.method()` allows access to parent methods.
+* `new.target` returns the constructor that was directly instantiated and is commonly used to enforce constructor invocation rules or simulate abstract classes.
+
+
+Arrow functions are a very common React interview topic, especially when discussing `this`, event handlers, and array methods. They are also explicitly referenced in the JavaScript and React interview preparation material found in your environment.
+
+# Arrow Function vs Normal Function in React
+
+## 1. Syntax
+
+### Normal Function
+
+```javascript
+function add(a, b) {
+  return a + b;
+}
+```
+
+### Arrow Function
+
+```javascript
+const add = (a, b) => {
+  return a + b;
+};
+```
+
+### Short Form
+
+```javascript
+const add = (a, b) => a + b;
+```
+
+***
+
+# 2. `this` Binding (Most Important Difference)
+
+## Normal Function
+
+Normal functions create their own `this`.
+
+```javascript
+const user = {
+  name: "Sudhir",
+
+  greet: function () {
+    console.log(this.name);
+  }
+};
+
+user.greet();
+```
+
+Output:
+
+```text
+Sudhir
+```
+
+***
+
+## Arrow Function
+
+Arrow functions do **not** create their own `this`.
+
+They inherit `this` from their surrounding scope.
+
+```javascript
+const user = {
+  name: "Sudhir",
+
+  greet: () => {
+    console.log(this.name);
+  }
+};
+
+user.greet();
+```
+
+Output:
+
+```text
+undefined
+```
+
+***
+
+# 3. React Class Components
+
+Before arrow functions, React developers often used `bind(this)`. React training materials in your environment discuss class components and component methods.
+
+### Normal Function
+
+```jsx
+class App extends React.Component {
+
+  constructor(props) {
+    super(props);
+
+    this.handleClick =
+      this.handleClick.bind(this);
+  }
+
+  handleClick() {
+    console.log(this);
+  }
+
+  render() {
+    return (
+      <button
+        onClick={this.handleClick}
+      >
+        Click
+      </button>
+    );
+  }
+}
+```
+
+***
+
+### Arrow Function
+
+```jsx
+class App extends React.Component {
+
+  handleClick = () => {
+    console.log(this);
+  };
+
+  render() {
+    return (
+      <button
+        onClick={this.handleClick}
+      >
+        Click
+      </button>
+    );
+  }
+}
+```
+
+Benefit:
+
+```text
+✅ No bind(this)
+✅ Cleaner code
+✅ Lexical this
+```
+
+***
+
+# 4. Constructor Support
+
+### Normal Function
+
+```javascript
+function Person(name) {
+  this.name = name;
+}
+
+const p =
+  new Person("Sudhir");
+```
+
+Works ✅
+
+***
+
+### Arrow Function
+
+```javascript
+const Person = (name) => {
+  this.name = name;
+};
+
+new Person("Sudhir");
+```
+
+Error ❌
+
+```text
+TypeError: Person is not a constructor
+```
+
+***
+
+# 5. Arguments Object
+
+### Normal Function
+
+```javascript
+function test() {
+  console.log(arguments);
+}
+
+test(1, 2, 3);
+```
+
+Output:
+
+```text
+[1,2,3]
+```
+
+***
+
+### Arrow Function
+
+```javascript
+const test = () => {
+  console.log(arguments);
+};
+```
+
+Error ❌
+
+Use rest operator:
+
+```javascript
+const test = (...args) => {
+  console.log(args);
+};
+```
+
+***
+
+# 6. Arrow Functions in Array Methods
+
+React applications heavily use array methods such as `map()` and `filter()` for rendering data and transforming state.
+
+## `map()`
+
+```javascript
+const nums =
+  [1, 2, 3];
+
+const doubled =
+  nums.map(
+    num => num * 2
+  );
+
+console.log(doubled);
+```
+
+Output:
+
+```javascript
+[2,4,6]
+```
+
+***
+
+## React List Rendering
+
+```jsx
+const users = [
+  "Sudhir",
+  "John",
+  "Apoorva"
+];
+
+function Users() {
+
+  return (
+    <ul>
+      {users.map(user => (
+        <li key={user}>
+          {user}
+        </li>
+      ))}
+    </ul>
+  );
+}
+```
+
+***
+
+## `filter()`
+
+```javascript
+const numbers =
+  [1,2,3,4,5];
+
+const even =
+  numbers.filter(
+    num => num % 2 === 0
+  );
+
+console.log(even);
+```
+
+Output:
+
+```javascript
+[2,4]
+```
+
+***
+
+## `reduce()`
+
+```javascript
+const nums =
+  [1,2,3,4];
+
+const sum =
+  nums.reduce(
+    (acc, curr) =>
+      acc + curr,
+    0
+  );
+
+console.log(sum);
+```
+
+Output:
+
+```text
+10
+```
+
+***
+
+# Interview Comparison Table
+
+| Feature                       | Arrow Function | Normal Function |
+| ----------------------------- | -------------- | --------------- |
+| Short Syntax                  | ✅              | ❌               |
+| Own `this`                    | ❌              | ✅               |
+| Needs `bind(this)`            | ❌              | ✅               |
+| Constructor (`new`)           | ❌              | ✅               |
+| `arguments` Object            | ❌              | ✅               |
+| Great for `map/filter/reduce` | ✅              | ✅               |
+| Most Common in Modern React   | ✅              | ❌               |
+
+# Senior React Interview Answer
+
+> Arrow functions use **lexical `this`**, meaning they inherit `this` from the surrounding scope instead of creating their own. This makes them ideal for React event handlers because they eliminate the need for manual `bind(this)` calls in class components. They are also widely used with array methods such as `map()`, `filter()`, and `reduce()` to render lists, transform data, and perform immutable state updates in React applications.

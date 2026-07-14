@@ -177,3 +177,571 @@ JWTs typically expire after a set period. To maintain a session, you can impleme
 - **Authorization**: Checking if the user has permission to access certain resources (based on claims like role).
 - It is **stateless** and **secure**, reducing the need for server-side session management.
 
+
+
+# 1. JWT Refresh Token Rotation (Advanced Interview Scenario)
+
+This is one of the most asked **Senior React / System Design / Security** questions.
+
+## Problem Without Rotation
+
+### Login Flow
+
+```text
+User Login
+    ↓
+Access Token (15 mins)
+Refresh Token (30 days)
+```
+
+Stored:
+
+```text
+Access Token → Browser
+
+Refresh Token → Cookie
+```
+
+***
+
+### Attack Scenario
+
+Attacker steals:
+
+```text
+RefreshToken_123
+```
+
+Even if:
+
+```text
+Access token expires
+```
+
+Attacker can continuously generate:
+
+```text
+New Access Tokens
+```
+
+for 30 days.
+
+***
+
+# Refresh Token Rotation Solution
+
+Instead of reusing the same refresh token:
+
+### Login
+
+```text
+AccessToken_A
+RefreshToken_1
+```
+
+Database:
+
+```text
+RefreshToken_1
+Active = true
+```
+
+***
+
+### First Refresh
+
+Client sends:
+
+```text
+RefreshToken_1
+```
+
+Server:
+
+```text
+Validate token
+```
+
+Generate:
+
+```text
+AccessToken_B
+
+RefreshToken_2
+```
+
+Database:
+
+```text
+RefreshToken_1
+Active = false
+
+RefreshToken_2
+Active = true
+```
+
+***
+
+### Second Refresh
+
+Client sends:
+
+```text
+RefreshToken_2
+```
+
+Server returns:
+
+```text
+AccessToken_C
+
+RefreshToken_3
+```
+
+Database:
+
+```text
+RefreshToken_2 → Disabled
+
+RefreshToken_3 → Active
+```
+
+***
+
+# Security Benefit
+
+Suppose:
+
+```text
+Attacker stole
+RefreshToken_1
+```
+
+After user refreshes:
+
+```text
+RefreshToken_1
+becomes invalid
+```
+
+If attacker later uses:
+
+```text
+RefreshToken_1
+```
+
+Server detects:
+
+```text
+Token Reuse
+```
+
+Action:
+
+```text
+Force Logout
+
+Invalidate Session
+
+Security Alert
+```
+
+***
+
+# Senior Interview Answer
+
+> Refresh Token Rotation means issuing a brand-new refresh token whenever the old refresh token is used. The previous token is immediately invalidated. This prevents long-term abuse if a refresh token is stolen and allows detection of token reuse attacks.
+
+***
+
+# 2. JWT Role-Based Authorization (RBAC)
+
+## Scenario
+
+E-commerce Application
+
+Users:
+
+```text
+Customer
+
+Admin
+
+Super Admin
+```
+
+***
+
+# JWT Payload
+
+Customer
+
+```json
+{
+  "userId": "101",
+  "role": "CUSTOMER"
+}
+```
+
+***
+
+Admin
+
+```json
+{
+  "userId": "1",
+  "role": "ADMIN"
+}
+```
+
+***
+
+# Flow
+
+```text
+Login
+   ↓
+JWT Generated
+   ↓
+Role Added
+   ↓
+JWT Sent To Client
+```
+
+***
+
+# React Frontend Example
+
+```javascript
+const token = jwtDecode(jwt);
+
+if (
+  token.role === "ADMIN"
+) {
+
+  showAdminMenu();
+
+}
+```
+
+***
+
+## Backend Validation
+
+```javascript
+function checkAdmin(
+  req,
+  res,
+  next
+) {
+
+  const role =
+    req.user.role;
+
+  if (
+    role !== "ADMIN"
+  ) {
+
+    return res
+      .status(403)
+      .send("Forbidden");
+  }
+
+  next();
+}
+```
+
+***
+
+# Access Control Example
+
+| API            | Customer | Admin |
+| -------------- | -------- | ----- |
+| View Products  | ✅        | ✅     |
+| Create Product | ❌        | ✅     |
+| Delete Product | ❌        | ✅     |
+| Manage Users   | ❌        | ✅     |
+
+***
+
+# Real Banking Example
+
+Roles:
+
+```text
+Customer
+
+Relationship Manager
+
+Branch Manager
+
+System Admin
+```
+
+JWT:
+
+```json
+{
+  "role": "BRANCH_MANAGER"
+}
+```
+
+Authorization:
+
+```text
+Approve Loan
+✅
+
+Delete User
+❌
+```
+
+***
+
+# Permission-Based JWT (Advanced)
+
+Instead of role:
+
+```json
+{
+  "permissions": [
+    "create_order",
+    "view_reports",
+    "manage_users"
+  ]
+}
+```
+
+Check:
+
+```javascript
+if (
+  permissions.includes(
+    "manage_users"
+  )
+) {
+  allow();
+}
+```
+
+Used in:
+
+```text
+Enterprise SaaS
+
+Azure
+
+AWS IAM
+
+Large Banking Apps
+```
+
+***
+
+# 3. Securely Storing JWT in Web Applications
+
+This is a favourite interview question.
+
+***
+
+# Option 1: localStorage ❌
+
+```javascript
+localStorage.setItem(
+  "token",
+  jwt
+);
+```
+
+Problem:
+
+```text
+XSS Attack
+```
+
+Example:
+
+```javascript
+localStorage.getItem(
+  "token"
+);
+```
+
+Malicious script can steal it.
+
+***
+
+# Option 2: sessionStorage ⚠️
+
+```javascript
+sessionStorage.setItem(
+  "token",
+  jwt
+);
+```
+
+Better than localStorage.
+
+But still vulnerable to:
+
+```text
+XSS
+```
+
+***
+
+# Option 3: HttpOnly Secure Cookie ✅
+
+Best practice.
+
+Server:
+
+```http
+Set-Cookie:
+
+refreshToken=abc123
+
+HttpOnly
+Secure
+SameSite=Strict
+```
+
+***
+
+# Why HttpOnly?
+
+JavaScript cannot read:
+
+```javascript
+document.cookie
+```
+
+for HttpOnly cookies.
+
+Attacker cannot easily steal token through XSS.
+
+***
+
+# Modern Enterprise Architecture
+
+```text
+Access Token
+   ↓
+Memory (React State)
+
+Refresh Token
+   ↓
+HttpOnly Cookie
+```
+
+Flow:
+
+```text
+Login
+ ↓
+Access Token
+
+Refresh Token Cookie
+ ↓
+Token Expired
+ ↓
+Cookie Sent Automatically
+ ↓
+New Access Token
+```
+
+***
+
+# Additional Security Measures
+
+## HTTPS
+
+```text
+Prevent MITM attacks
+```
+
+***
+
+## Short-Lived Access Tokens
+
+```text
+5–15 minutes
+```
+
+***
+
+## SameSite Cookies
+
+```text
+SameSite=Strict
+```
+
+Protects against:
+
+```text
+CSRF attacks
+```
+
+***
+
+## Token Expiry
+
+```json
+{
+  "exp": 1719980000
+}
+```
+
+***
+
+## Key Rotation
+
+```text
+Rotate signing keys
+```
+
+***
+
+# Complete Enterprise Architecture
+
+```text
+React App
+     ↓
+Login
+
+     ↓
+
+Access Token
+(5 mins)
+
+     ↓
+
+Memory
+
+     ↓
+
+Refresh Token
+(7 Days)
+
+     ↓
+
+HttpOnly Secure Cookie
+
+
+Access Expired
+      ↓
+
+Refresh Endpoint
+      ↓
+
+New Access Token
+
+New Refresh Token
+(Token Rotation)
+```
+
+***
+
+# Senior-Level Interview Answer (2 Minutes)
+
+> In production applications I avoid storing JWTs in localStorage because they are vulnerable to XSS attacks. I prefer storing refresh tokens in HttpOnly Secure SameSite cookies and keeping short-lived access tokens in memory. I implement refresh-token rotation so that every token refresh generates a new refresh token and invalidates the previous one. For authorization, I use role-based or permission-based JWT claims and always enforce access control on the backend rather than relying solely on frontend checks. This approach provides strong protection against token theft, replay attacks, session hijacking, and privilege escalation.

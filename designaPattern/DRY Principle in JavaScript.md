@@ -177,3 +177,949 @@ The DRY principle helps to:
 - Reduce redundancy in your codebase.
 - Improve maintainability and readability.
 - Minimize the chances of introducing bugs and errors.
+
+# DRY Principle (Don't Repeat Yourself) in React.js
+
+The **DRY Principle** means:
+
+> **Every piece of knowledge or logic should have a single, authoritative representation within a system.**
+
+In simple terms:
+
+```text
+❌ Don't Repeat Yourself
+✅ Reuse Yourself
+```
+
+***
+
+# Example Without DRY
+
+Imagine you're building forms.
+
+```jsx
+function LoginForm() {
+  return (
+    <>
+      <input type="text" />
+      <input type="password" />
+    </>
+  );
+}
+```
+
+```jsx
+function SignupForm() {
+  return (
+    <>
+      <input type="text" />
+      <input type="email" />
+      <input type="password" />
+    </>
+  );
+}
+```
+
+Problems:
+
+```text
+Repeated Input Logic
+Repeated Validation
+Hard to Maintain
+```
+
+***
+
+# DRY Solution: Reusable Input Component
+
+```jsx
+function Input({
+  label,
+  type,
+  value,
+  onChange
+}) {
+  return (
+    <div>
+      <label>{label}</label>
+
+      <input
+        type={type}
+        value={value}
+        onChange={onChange}
+      />
+    </div>
+  );
+}
+```
+
+Usage:
+
+```jsx
+<Input
+  label="Username"
+  type="text"
+/>
+
+<Input
+  label="Email"
+  type="email"
+/>
+```
+
+***
+
+# DRY for API Calls
+
+## ❌ Bad
+
+```javascript
+async function getUsers() {
+  return fetch("/users");
+}
+
+async function getProducts() {
+  return fetch("/products");
+}
+
+async function getOrders() {
+  return fetch("/orders");
+}
+```
+
+***
+
+## ✅ Better
+
+```javascript
+class ApiClient {
+  get(url) {
+    return fetch(url);
+  }
+}
+
+const apiClient =
+  new ApiClient();
+
+apiClient.get("/users");
+
+apiClient.get("/products");
+```
+
+***
+
+# DRY with Custom Hooks
+
+## ❌ Repeated Loading State
+
+```jsx
+const [loading,
+       setLoading] =
+  useState(false);
+
+const [error,
+       setError] =
+  useState(null);
+```
+
+every component.
+
+***
+
+## ✅ Custom Hook
+
+```jsx
+function useApi(apiCall) {
+
+  const [data, setData] =
+    useState(null);
+
+  const [loading,
+         setLoading] =
+    useState(false);
+
+  const [error,
+         setError] =
+    useState(null);
+
+  const execute =
+    async () => {
+
+      try {
+
+        setLoading(true);
+
+        const result =
+          await apiCall();
+
+        setData(result);
+
+      } catch (error) {
+
+        setError(error);
+
+      } finally {
+
+        setLoading(false);
+      }
+    };
+
+  return {
+    data,
+    loading,
+    error,
+    execute
+  };
+}
+```
+
+***
+
+# DRY with Table Components
+
+## ❌ Repeated Tables
+
+```jsx
+<UserTable />
+
+<ProductTable />
+
+<OrderTable />
+```
+
+Same markup repeatedly.
+
+***
+
+## ✅ Generic Table
+
+```jsx
+function Table({
+  columns,
+  data
+}) {
+
+  return (
+    <table>
+
+      <thead>
+        <tr>
+          {columns.map(col => (
+            <th
+              key={col.key}
+            >
+              {col.title}
+            </th>
+          ))}
+        </tr>
+      </thead>
+
+      <tbody>
+        {data.map(row => (
+          <tr key={row.id}>
+            {columns.map(col => (
+              <td
+                key={col.key}
+              >
+                {
+                  row[col.key]
+                }
+              </td>
+            ))}
+          </tr>
+        ))}
+      </tbody>
+
+    </table>
+  );
+}
+```
+
+***
+
+# DRY with Form Validation
+
+## ❌ Repeat Validation
+
+```javascript
+if (!email) {
+  errors.email =
+    "Required";
+}
+
+if (!password) {
+  errors.password =
+    "Required";
+}
+```
+
+every form.
+
+***
+
+## ✅ Shared Validator
+
+```javascript
+export function validateEmail(
+  email
+) {
+
+  return /\S+@\S+\.\S+/
+    .test(email);
+}
+```
+
+Usage:
+
+```javascript
+if (
+  !validateEmail(email)
+) {
+  errors.email =
+    "Invalid";
+}
+```
+
+***
+
+# DRY with Provider Pattern
+
+Instead of:
+
+```jsx
+<ComponentA
+  theme={theme}
+/>
+
+<ComponentB
+  theme={theme}
+/>
+```
+
+Use:
+
+```jsx
+<ThemeProvider>
+```
+
+and consume:
+
+```jsx
+const { theme } =
+  useTheme();
+```
+
+***
+
+# Enterprise React Example
+
+```text
+Components
+    ↓
+Custom Hooks
+    ↓
+Providers
+    ↓
+Services
+    ↓
+API Client
+```
+
+Reusable layers eliminate duplication.
+
+***
+
+# Benefits of DRY
+
+### ✅ Easier Maintenance
+
+Change once.
+
+```javascript
+ApiClient
+```
+
+updates all APIs.
+
+***
+
+### ✅ Less Code
+
+```text
+Smaller Codebase
+```
+
+***
+
+### ✅ Fewer Bugs
+
+One implementation.
+
+```text
+One Fix
+```
+
+***
+
+### ✅ Better Reusability
+
+```text
+Hooks
+Components
+Services
+Providers
+```
+
+***
+
+# Common React DRY Candidates
+
+```text
+✅ API Calls
+✅ Forms
+✅ Validation
+✅ Tables
+✅ Modals
+✅ Pagination
+✅ Loading States
+✅ Error Handling
+✅ Theme Logic
+✅ Authentication
+✅ Notification Logic
+```
+
+***
+
+# When NOT to Over-Apply DRY
+
+A common mistake:
+
+```text
+Over-Abstracting
+```
+
+Example:
+
+```javascript
+createUltraGenericComponent()
+```
+
+that nobody understands.
+
+Rule:
+
+```text
+DRY ≠ Everything Generic
+```
+
+Sometimes a little duplication is more readable.
+
+***
+
+# Interview Questions
+
+### Q1. What is DRY?
+
+**Don't Repeat Yourself** — avoid duplicating logic, code, or knowledge.
+
+***
+
+### Q2. How is DRY applied in React?
+
+```text
+Reusable Components
+Custom Hooks
+Providers
+Services
+Utility Functions
+```
+
+***
+
+### Q3. DRY vs KISS?
+
+**DRY**
+
+```text
+Avoid Duplication
+```
+
+**KISS**
+
+```text
+Keep It Simple
+```
+
+***
+
+### Q4. What are common DRY opportunities?
+
+```text
+Forms
+Validation
+API Calls
+Tables
+Authentication
+Theme Management
+```
+
+***
+
+# Senior React Interview Answer
+
+> DRY (Don't Repeat Yourself) is a fundamental software engineering principle that encourages keeping logic, configuration, and business rules in a single place. In React applications, DRY is achieved through reusable components, custom hooks, context providers, service layers, utility functions, and shared API clients. Proper application of DRY improves maintainability, reduces bugs, and promotes consistency across the codebase. However, DRY should be balanced with readability and simplicity to avoid excessive abstraction.
+
+
+# DRY Principle in React – Practical Example
+
+As a Senior React Developer, you'll often be asked:
+
+> **"How do you apply DRY (Don't Repeat Yourself) in React?"**
+
+***
+
+# ❌ Without DRY
+
+Imagine you have three forms.
+
+## Login Form
+
+```jsx
+function LoginForm() {
+  const [email, setEmail] = useState("");
+
+  return (
+    <input
+      value={email}
+      onChange={(e) =>
+        setEmail(e.target.value)
+      }
+    />
+  );
+}
+```
+
+***
+
+## Signup Form
+
+```jsx
+function SignupForm() {
+  const [email, setEmail] = useState("");
+
+  return (
+    <input
+      value={email}
+      onChange={(e) =>
+        setEmail(e.target.value)
+      }
+    />
+  );
+}
+```
+
+***
+
+## Profile Form
+
+```jsx
+function ProfileForm() {
+  const [email, setEmail] = useState("");
+
+  return (
+    <input
+      value={email}
+      onChange={(e) =>
+        setEmail(e.target.value)
+      }
+    />
+  );
+}
+```
+
+### Problem
+
+```text
+Repeated Code
+Repeated Validation
+Repeated Styling
+```
+
+***
+
+# ✅ DRY Solution – Reusable Input Component
+
+## Input.jsx
+
+```jsx
+function Input({
+  label,
+  type = "text",
+  value,
+  onChange,
+  error
+}) {
+  return (
+    <div>
+      <label>{label}</label>
+
+      <input
+        type={type}
+        value={value}
+        onChange={onChange}
+      />
+
+      {error && (
+        <p style={{ color: "red" }}>
+          {error}
+        </p>
+      )}
+    </div>
+  );
+}
+
+export default Input;
+```
+
+***
+
+## Usage
+
+```jsx
+<Input
+  label="Email"
+  type="email"
+  value={email}
+  onChange={(e) =>
+    setEmail(e.target.value)
+  }
+/>
+```
+
+Now one component is reused everywhere.
+
+***
+
+# DRY with Custom Hook
+
+## ❌ Repeated API Logic
+
+```jsx
+const [loading, setLoading] =
+  useState(false);
+
+const [error, setError] =
+  useState(null);
+
+const [data, setData] =
+  useState(null);
+```
+
+Repeated in:
+
+```text
+Users Page
+Products Page
+Orders Page
+```
+
+***
+
+# ✅ Custom Hook
+
+```jsx
+import {
+  useState
+} from "react";
+
+function useApi(apiFunc) {
+
+  const [data, setData] =
+    useState(null);
+
+  const [loading,
+         setLoading] =
+    useState(false);
+
+  const [error,
+         setError] =
+    useState(null);
+
+  const execute =
+    async () => {
+
+      try {
+
+        setLoading(true);
+
+        const result =
+          await apiFunc();
+
+        setData(result);
+
+      } catch (err) {
+
+        setError(err);
+
+      } finally {
+
+        setLoading(false);
+      }
+    };
+
+  return {
+    data,
+    loading,
+    error,
+    execute
+  };
+}
+```
+
+***
+
+## Usage
+
+```jsx
+const {
+  data,
+  loading,
+  error,
+  execute
+} = useApi(
+  UserService.getUsers
+);
+```
+
+***
+
+# DRY with Table Component
+
+Instead of:
+
+```jsx
+<UserTable />
+<ProductTable />
+<OrderTable />
+```
+
+Create one table.
+
+***
+
+## Reusable Table
+
+```jsx
+function Table({
+  columns,
+  data
+}) {
+
+  return (
+    <table>
+
+      <thead>
+        <tr>
+          {columns.map(col => (
+            <th key={col.key}>
+              {col.title}
+            </th>
+          ))}
+        </tr>
+      </thead>
+
+      <tbody>
+
+        {data.map(row => (
+          <tr key={row.id}>
+
+            {columns.map(col => (
+              <td key={col.key}>
+                {row[col.key]}
+              </td>
+            ))}
+
+          </tr>
+        ))}
+
+      </tbody>
+
+    </table>
+  );
+}
+```
+
+***
+
+## Users Table
+
+```jsx
+<Table
+  columns={[
+    {
+      key: "name",
+      title: "Name"
+    },
+    {
+      key: "email",
+      title: "Email"
+    }
+  ]}
+  data={users}
+/>
+```
+
+***
+
+# DRY with Form Validation
+
+## validation.js
+
+```javascript
+export const validators = {
+
+  required(value) {
+    return !!value;
+  },
+
+  email(value) {
+
+    return /\S+@\S+\.\S+/
+      .test(value);
+  }
+};
+```
+
+***
+
+## Usage
+
+```javascript
+if (
+  !validators.email(
+    email
+  )
+) {
+
+  errors.email =
+    "Invalid Email";
+}
+```
+
+No duplicate regex everywhere.
+
+***
+
+# DRY with Services
+
+Instead of:
+
+```javascript
+fetch("/users");
+
+fetch("/products");
+
+fetch("/orders");
+```
+
+***
+
+## ApiClient
+
+```javascript
+class ApiClient {
+
+  async get(url) {
+
+    const response =
+      await fetch(url);
+
+    return response.json();
+  }
+}
+
+export default new ApiClient();
+```
+
+***
+
+## Usage
+
+```javascript
+apiClient.get("/users");
+
+apiClient.get("/products");
+
+apiClient.get("/orders");
+```
+
+***
+
+# DRY in Enterprise React Architecture
+
+```text
+Components
+     ↓
+Reusable Components
+     ↓
+Custom Hooks
+     ↓
+Providers
+     ↓
+Services
+     ↓
+Api Client
+```
+
+Examples:
+
+```text
+✅ Input Component
+✅ Table Component
+✅ Modal Component
+✅ useApi Hook
+✅ usePagination Hook
+✅ UserService
+✅ ApiClient
+✅ Validation Utilities
+```
+
+***
+
+# Interview Example
+
+### Question
+
+How do you apply DRY in React?
+
+### Answer
+
+> I apply DRY by extracting common functionality into reusable components, custom hooks, utility functions, context providers, and service layers. For example, instead of duplicating API loading/error handling logic across pages, I create a `useApi` custom hook. Instead of creating multiple tables or forms, I use configurable reusable components. This improves maintainability, consistency, and reduces bugs across large React applications.
+
+***
+
+# Quick DRY Checklist for React
+
+```text
+✅ Reusable Components
+
+✅ Custom Hooks
+
+✅ Utility Functions
+
+✅ Common Validators
+
+✅ Shared API Client
+
+✅ Context Providers
+
+✅ Reusable Tables
+
+✅ Reusable Forms
+
+✅ Reusable Modals
+
+✅ Shared Theme System
+```
+
+These are exactly the patterns commonly used in enterprise React projects and Senior React interviews.

@@ -219,3 +219,347 @@ const customEquals = (a, b) => a.data.value === b.data.value;
 console.log("Counting complex objects:", countBy(complexObjects, obj => String(obj.data.value), customEquals));
 
 ```
+
+
+# `countBy()` in JavaScript
+
+`countBy()` is a very common interview question and is available in **Lodash**. It groups items and returns the count for each group.
+
+***
+
+## Implementing `countBy()`
+
+### Input
+
+```javascript
+const numbers = [1, 2, 3, 4, 5, 6];
+```
+
+### Count Even/Odd
+
+```javascript
+function countBy(arr, callback) {
+  return arr.reduce((acc, item) => {
+    const key = callback(item);
+
+    acc[key] = (acc[key] || 0) + 1;
+
+    return acc;
+  }, {});
+}
+
+const result = countBy(
+  numbers,
+  num => num % 2 === 0 ? "even" : "odd"
+);
+
+console.log(result);
+```
+
+### Output
+
+```javascript
+{
+  odd: 3,
+  even: 3
+}
+```
+
+***
+
+# Count By String Length
+
+```javascript
+const skills = [
+  "React",
+  "Node",
+  "Angular",
+  "Vue",
+  "JavaScript"
+];
+
+const result = countBy(
+  skills,
+  item => item.length
+);
+
+console.log(result);
+```
+
+### Output
+
+```javascript
+{
+  3: 1,
+  4: 1,
+  5: 1,
+  7: 1,
+  10: 1
+}
+```
+
+***
+
+# Count By First Letter
+
+```javascript
+const names = [
+  "Sudhir",
+  "Sam",
+  "John",
+  "Jack",
+  "Steve"
+];
+
+const result = countBy(
+  names,
+  name => name[0]
+);
+
+console.log(result);
+```
+
+### Output
+
+```javascript
+{
+  S: 3,
+  J: 2
+}
+```
+
+***
+
+# Count Objects by Property
+
+### Input
+
+```javascript
+const employees = [
+  {
+    name: "Sudhir",
+    department: "Frontend"
+  },
+  {
+    name: "John",
+    department: "Backend"
+  },
+  {
+    name: "Sam",
+    department: "Frontend"
+  }
+];
+```
+
+### Solution
+
+```javascript
+const result = countBy(
+  employees,
+  employee => employee.department
+);
+
+console.log(result);
+```
+
+### Output
+
+```javascript
+{
+  Frontend: 2,
+  Backend: 1
+}
+```
+
+***
+
+# Generic Reusable `countBy`
+
+```javascript
+function countBy(array, iteratee) {
+  return array.reduce(
+    (acc, item) => {
+      const key = iteratee(item);
+
+      acc[key] =
+        (acc[key] || 0) + 1;
+
+      return acc;
+    },
+    {}
+  );
+}
+```
+
+***
+
+# React Example
+
+```jsx
+import { useMemo } from "react";
+
+function App() {
+  const users = [
+    {
+      name: "Sudhir",
+      role: "Admin"
+    },
+    {
+      name: "John",
+      role: "User"
+    },
+    {
+      name: "Mike",
+      role: "Admin"
+    }
+  ];
+
+  const roleCounts =
+    useMemo(() => {
+      return users.reduce(
+        (acc, user) => {
+          acc[user.role] =
+            (acc[user.role] || 0) + 1;
+
+          return acc;
+        },
+        {}
+      );
+    }, [users]);
+
+  return (
+    <div>
+      <h3>Role Counts</h3>
+
+      <pre>
+        {JSON.stringify(
+          roleCounts,
+          null,
+          2
+        )}
+      </pre>
+    </div>
+  );
+}
+```
+
+### Output
+
+```javascript
+{
+  Admin: 2,
+  User: 1
+}
+```
+
+***
+
+# Lodash Version
+
+```javascript
+_.countBy(
+  [1, 2, 3, 4, 5, 6],
+  num =>
+    num % 2 === 0
+      ? "even"
+      : "odd"
+);
+```
+
+Output:
+
+```javascript
+{
+  odd: 3,
+  even: 3
+}
+```
+
+***
+
+# Interview Variations
+
+### Count Frequency of Characters
+
+```javascript
+const str = "javascript";
+
+const result =
+  [...str].reduce(
+    (acc, char) => {
+      acc[char] =
+        (acc[char] || 0) + 1;
+
+      return acc;
+    },
+    {}
+  );
+
+console.log(result);
+```
+
+Output:
+
+```javascript
+{
+  j: 1,
+  a: 2,
+  v: 1,
+  s: 1,
+  c: 1,
+  r: 1,
+  i: 1,
+  p: 1,
+  t: 1
+}
+```
+
+***
+
+### Count Users by Age Group
+
+```javascript
+const users = [
+  { age: 22 },
+  { age: 35 },
+  { age: 27 },
+  { age: 45 }
+];
+
+const result = countBy(
+  users,
+  user =>
+    user.age < 30
+      ? "Young"
+      : "Adult"
+);
+
+console.log(result);
+```
+
+Output:
+
+```javascript
+{
+  Young: 2,
+  Adult: 2
+}
+```
+
+***
+
+## Time Complexity
+
+```text
+Time: O(n)
+Space: O(k)
+```
+
+Where:
+
+* `n` = number of items
+* `k` = number of unique groups
+
+### Interview Answer
+
+> `countBy()` traverses a collection and counts items based on a grouping key returned by a callback function. It is commonly implemented using `Array.prototype.reduce()` and has a time complexity of **O(n)** because it processes each element once.

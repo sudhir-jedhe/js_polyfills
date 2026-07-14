@@ -11,7 +11,8 @@ Array.prototype.customAppendAtEnd = function(valueToBeAppend) {
     return this;
 }
 ```
-- This method adds a new element to the end of the array by using the `length` property. 
+
+- This method adds a new element to the end of the array by using the `length` property.
 - `this[length] = valueToBeAppend;` essentially sets the new element at the end of the array because the `length` property reflects the next available index.
 - Finally, it returns `this` to allow for method chaining.
 
@@ -31,26 +32,63 @@ Array.prototype.customAppendAtStart = function(valueToBeAppend) {
     return this;
 }
 
+```
 
-
-- **First Issue**: The code within the `else` block attempts to spread the array `[valueToBeAppend, ...this]`, but then it destructures it into `[first, ...rest]` and does nothing with `rest`. 
-    - This means the array isn't actually being modified, and the method will have no effect on the array. 
-    - You need to add the new value at the start of the array, and then reassign the array itself.
+- **First Issue**: The code within the `else` block attempts to spread the array `[valueToBeAppend, ...this]`, but then it destructures it into `[first, ...rest]` and does nothing with `rest`.
+  - This means the array isn't actually being modified, and the method will have no effect on the array.
+  - You need to add the new value at the start of the array, and then reassign the array itself.
 
 - **Fixing the Method**: To append the element to the start, you can use `unshift()`, or modify the array directly by shifting elements.
 
 Here’s an updated and corrected version of `customAppendAtStart`:
 
-```javascript
-Array.prototype.customAppendAtStart = function(valueToBeAppend) {
-    this.unshift(valueToBeAppend); // Adds the element to the start of the array
-    return this;
-}
+- Adds an element to the start of an array using the spread operator (immutable).
+  
+```js
+    * 
+    * @param {Array} arr - The original array.
+    * @param {*} element - The element to add.
+    * @returns {Array} - A new array with the element at the beginning.
+    */
+const addElementToStart = (arr, element) => [element, ...arr];
+
+// Example usage within Chrome DevTools:
+const originalArray = [1, 2, 3, 4];
+const newElement = 0;
+
+const updatedArray = addElementToStart(originalArray, newElement);
+
+console.log('Original:', originalArray); // [1, 2, 3, 4]
+console.log('Updated:', updatedArray);   // [0, 1, 2, 3, 4]
+
+/**
+ * Alternative: Mutating the original array using Array.prototype.unshift()
+    * 
+    * @param {Array} arr - The array to modify.
+    * @param {*} element - The element to add.
+    * @returns {number} - The new length of the array.
+    */
+const unshiftElement = (arr, element) => arr.unshift(element);
 ```
 
 This implementation uses the native `unshift()` method to insert the value at the start of the array. It modifies the array directly and returns it to allow method chaining.
 
-### Full Working Example
+```js
+// Add an element to the beginning of the array
+Array.prototype.customAppendAtStart = function (value) {
+    // Shift all existing elements one position to the right
+    for (let i = this.length; i > 0; i--) {
+        this[i] = this[i - 1];
+    }
+
+    // Insert the new value at index 0
+    this[0] = value;
+
+    return this;
+};
+```
+
+### Fll Working Example
 
 Here's the full, corrected code:
 
@@ -93,7 +131,8 @@ customArr.customAppendAtStart(0);
 console.log(customArr); // [0, 1, 2, 3, 4]
 ```
 
-### Summary of Changes:
+### Summary of Changes
+
 1. **`customAppendAtEnd`**: The original method is correct.
 2. **`customAppendAtStart`**: I simplified the logic by directly using `unshift()` to add the element to the start of the array.
 

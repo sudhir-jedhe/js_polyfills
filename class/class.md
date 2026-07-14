@@ -203,3 +203,985 @@ console.log(Example.value === 42); // true
 2. **Public Instance Fields:** These are accessible from any instance of the class, and each instance can have its own separate value.
 3. **Static Fields:** Static fields are shared across all instances of the class. They belong to the class itself, not to any instance.
 4. **Constructors:** The constructor should typically initialize the instance and assign values. Methods like `Person` should ideally be separate from constructors to avoid confusion.
+
+# JavaScript Classes (Modern ES2022+ Features)
+
+A JavaScript class is syntactic sugar over **prototype-based inheritance**. Modern JavaScript (ES6 → ES2022+) introduced several powerful class features that are commonly asked in senior frontend interviews.
+
+***
+
+# 1. Basic Class
+
+```javascript
+class Employee {
+  constructor(name, role) {
+    this.name = name;
+    this.role = role;
+  }
+
+  getDetails() {
+    return `${this.name} - ${this.role}`;
+  }
+}
+
+const emp = new Employee(
+  "Sudhir",
+  "Project Lead"
+);
+
+console.log(emp.getDetails());
+```
+
+Output:
+
+```javascript
+Sudhir - Project Lead
+```
+
+***
+
+# 2. Class Fields (ES2022)
+
+Before:
+
+```javascript
+class User {
+  constructor() {
+    this.name = "Sudhir";
+  }
+}
+```
+
+Modern:
+
+```javascript
+class User {
+  name = "Sudhir";
+  role = "Project Lead";
+}
+
+const user = new User();
+
+console.log(user.name);
+```
+
+***
+
+# 3. Private Fields (`#`)
+
+ES2022 added true private properties.
+
+```javascript
+class BankAccount {
+  #balance = 1000;
+
+  getBalance() {
+    return this.#balance;
+  }
+}
+
+const account =
+  new BankAccount();
+
+console.log(
+  account.getBalance()
+);
+```
+
+Output:
+
+```javascript
+1000
+```
+
+***
+
+## Private Field Access
+
+```javascript
+console.log(account.#balance);
+```
+
+Output:
+
+```javascript
+SyntaxError
+```
+
+Cannot be accessed outside class.
+
+***
+
+# 4. Private Methods
+
+```javascript
+class BankAccount {
+  #calculateTax() {
+    return 100;
+  }
+
+  getTax() {
+    return this.#calculateTax();
+  }
+}
+
+const account =
+  new BankAccount();
+
+console.log(
+  account.getTax()
+);
+```
+
+***
+
+# 5. Getters and Setters
+
+```javascript
+class Employee {
+  #salary = 0;
+
+  get salary() {
+    return this.#salary;
+  }
+
+  set salary(amount) {
+    if (amount < 0) {
+      throw new Error(
+        "Invalid Salary"
+      );
+    }
+
+    this.#salary = amount;
+  }
+}
+
+const emp = new Employee();
+
+emp.salary = 50000;
+
+console.log(emp.salary);
+```
+
+Output:
+
+```javascript
+50000
+```
+
+***
+
+# 6. Static Properties
+
+Belong to the class, not instances.
+
+```javascript
+class User {
+  static company =
+    "Persistent";
+
+  static getCompany() {
+    return User.company;
+  }
+}
+
+console.log(
+  User.getCompany()
+);
+```
+
+Output:
+
+```javascript
+Persistent
+```
+
+***
+
+# 7. Static Initialization Block
+
+ES2022 feature.
+
+```javascript
+class Config {
+  static appName;
+
+  static {
+    Config.appName =
+      "Employee Portal";
+
+    console.log(
+      "Static Block Executed"
+    );
+  }
+}
+
+console.log(
+  Config.appName
+);
+```
+
+Output:
+
+```javascript
+Static Block Executed
+Employee Portal
+```
+
+***
+
+# 8. Inheritance
+
+```javascript
+class Employee {
+  constructor(name) {
+    this.name = name;
+  }
+
+  greet() {
+    return `Hello ${this.name}`;
+  }
+}
+
+class Manager extends Employee {
+  approveLeave() {
+    return "Leave Approved";
+  }
+}
+
+const manager =
+  new Manager("Sudhir");
+
+console.log(
+  manager.greet()
+);
+
+console.log(
+  manager.approveLeave()
+);
+```
+
+***
+
+# 9. Method Overriding
+
+```javascript
+class Animal {
+  speak() {
+    return "Animal Sound";
+  }
+}
+
+class Dog extends Animal {
+  speak() {
+    return "Bark";
+  }
+}
+
+const dog = new Dog();
+
+console.log(
+  dog.speak()
+);
+```
+
+Output:
+
+```javascript
+Bark
+```
+
+***
+
+# 10. Super Keyword
+
+```javascript
+class Employee {
+  constructor(name) {
+    this.name = name;
+  }
+}
+
+class Manager extends Employee {
+  constructor(name, team) {
+    super(name);
+
+    this.team = team;
+  }
+}
+
+const m =
+  new Manager(
+    "Sudhir",
+    "Frontend"
+  );
+```
+
+***
+
+# 11. Modern Class with Private Fields
+
+```javascript
+class Employee {
+  #salary;
+
+  constructor(
+    name,
+    salary
+  ) {
+    this.name = name;
+    this.#salary = salary;
+  }
+
+  getSalary() {
+    return this.#salary;
+  }
+}
+
+const emp =
+  new Employee(
+    "Sudhir",
+    50000
+  );
+
+console.log(
+  emp.getSalary()
+);
+```
+
+***
+
+# 12. Class Expression
+
+```javascript
+const Employee =
+  class {
+    constructor(name) {
+      this.name = name;
+    }
+  };
+
+const emp =
+  new Employee("Sudhir");
+```
+
+***
+
+# 13. Abstract Class Pattern
+
+JavaScript doesn't have true abstract classes.
+
+```javascript
+class Shape {
+  constructor() {
+    if (
+      this.constructor === Shape
+    ) {
+      throw new Error(
+        "Cannot instantiate"
+      );
+    }
+  }
+
+  draw() {
+    throw new Error(
+      "Must implement"
+    );
+  }
+}
+
+class Circle extends Shape {
+  draw() {
+    return "Circle";
+  }
+}
+```
+
+***
+
+# React Example with Classes
+
+Although functional components with hooks are preferred, class syntax still appears in:
+
+## Error Boundaries
+
+```jsx
+import React from "react";
+
+class ErrorBoundary
+  extends React.Component {
+
+  state = {
+    hasError: false
+  };
+
+  static getDerivedStateFromError() {
+    return {
+      hasError: true
+    };
+  }
+
+  render() {
+    if (
+      this.state.hasError
+    ) {
+      return (
+        <h2>
+          Something went wrong
+        </h2>
+      );
+    }
+
+    return this.props.children;
+  }
+}
+```
+
+***
+
+# Interview Comparison
+
+| Feature            | ES6 | ES2022 |
+| ------------------ | --- | ------ |
+| Constructor        | ✅   | ✅      |
+| Inheritance        | ✅   | ✅      |
+| Static Methods     | ✅   | ✅      |
+| Getters/Setters    | ✅   | ✅      |
+| Class Fields       | ❌   | ✅      |
+| Private Fields (#) | ❌   | ✅      |
+| Private Methods    | ❌   | ✅      |
+| Static Blocks      | ❌   | ✅      |
+
+***
+
+# Senior Frontend Interview Example
+
+```javascript
+class Employee {
+  static company =
+    "Persistent";
+
+  #salary;
+
+  constructor(
+    name,
+    salary
+  ) {
+    this.name = name;
+    this.#salary = salary;
+  }
+
+  get salary() {
+    return this.#salary;
+  }
+
+  set salary(value) {
+    if (value < 0) {
+      throw new Error(
+        "Invalid Salary"
+      );
+    }
+
+    this.#salary = value;
+  }
+
+  static getCompany() {
+    return Employee.company;
+  }
+}
+
+const emp =
+  new Employee(
+    "Sudhir",
+    100000
+  );
+
+console.log(emp.salary);
+console.log(
+  Employee.getCompany()
+);
+```
+
+### Senior Interview One-Liner
+
+> Modern JavaScript classes support public fields, private fields (`#`), private methods, static properties, static initialization blocks, inheritance, getters/setters, and encapsulation. Under the hood, classes are built on JavaScript’s prototype system, but they provide a cleaner and more object-oriented syntax for building large-scale applications.
+
+
+# 1. Private Class Fields (`#`) in JavaScript
+
+Private fields were introduced in modern JavaScript (ES2022) to provide **true encapsulation**.
+
+Before private fields:
+
+```javascript
+class BankAccount {
+  constructor(balance) {
+    this.balance = balance;
+  }
+}
+
+const account = new BankAccount(5000);
+
+console.log(account.balance);
+```
+
+Output:
+
+```javascript
+5000
+```
+
+Anyone can modify it:
+
+```javascript
+account.balance = -1000;
+```
+
+***
+
+## Using Private Fields
+
+```javascript
+class BankAccount {
+  #balance;
+
+  constructor(balance) {
+    this.#balance = balance;
+  }
+
+  getBalance() {
+    return this.#balance;
+  }
+
+  deposit(amount) {
+    this.#balance += amount;
+  }
+}
+
+const account =
+  new BankAccount(5000);
+
+console.log(
+  account.getBalance()
+);
+```
+
+Output:
+
+```javascript
+5000
+```
+
+***
+
+## Accessing Private Field Directly
+
+```javascript
+console.log(
+  account.#balance
+);
+```
+
+Output:
+
+```javascript
+SyntaxError
+```
+
+Private fields can only be accessed inside the class.
+
+***
+
+## Private Methods
+
+```javascript
+class User {
+  #validate(name) {
+    return name.length > 3;
+  }
+
+  save(name) {
+    if (
+      this.#validate(name)
+    ) {
+      console.log("Saved");
+    }
+  }
+}
+```
+
+***
+
+# 2. Class Inheritance with Modern Features
+
+## Parent Class
+
+```javascript
+class Employee {
+  #salary;
+
+  constructor(name, salary) {
+    this.name = name;
+    this.#salary = salary;
+  }
+
+  getSalary() {
+    return this.#salary;
+  }
+
+  getDetails() {
+    return `${this.name}`;
+  }
+}
+```
+
+***
+
+## Child Class
+
+```javascript
+class Manager extends Employee {
+  department;
+
+  constructor(
+    name,
+    salary,
+    department
+  ) {
+    super(name, salary);
+
+    this.department =
+      department;
+  }
+
+  getDepartment() {
+    return this.department;
+  }
+}
+```
+
+***
+
+## Usage
+
+```javascript
+const manager =
+  new Manager(
+    "Sudhir",
+    100000,
+    "Frontend"
+  );
+
+console.log(
+  manager.getDetails()
+);
+
+console.log(
+  manager.getDepartment()
+);
+
+console.log(
+  manager.getSalary()
+);
+```
+
+Output:
+
+```javascript
+Sudhir
+
+Frontend
+
+100000
+```
+
+***
+
+## Method Overriding
+
+```javascript
+class Employee {
+  greet() {
+    return "Employee";
+  }
+}
+
+class Manager
+  extends Employee {
+
+  greet() {
+    return "Manager";
+  }
+}
+
+const manager =
+  new Manager();
+
+console.log(
+  manager.greet()
+);
+```
+
+Output:
+
+```javascript
+Manager
+```
+
+***
+
+## Using `super`
+
+```javascript
+class Employee {
+  greet() {
+    return "Hello Employee";
+  }
+}
+
+class Manager
+  extends Employee {
+
+  greet() {
+    return (
+      super.greet() +
+      " and Manager"
+    );
+  }
+}
+
+const manager =
+  new Manager();
+
+console.log(
+  manager.greet()
+);
+```
+
+Output:
+
+```javascript
+Hello Employee and Manager
+```
+
+***
+
+# Static Fields + Private Fields
+
+```javascript
+class Employee {
+  static company =
+    "Persistent";
+
+  #salary;
+
+  constructor(name, salary) {
+    this.name = name;
+    this.#salary = salary;
+  }
+
+  getSalary() {
+    return this.#salary;
+  }
+
+  static getCompany() {
+    return Employee.company;
+  }
+}
+
+console.log(
+  Employee.getCompany()
+);
+```
+
+Output:
+
+```javascript
+Persistent
+```
+
+***
+
+# 3. React Class Component Using Private Fields
+
+Private fields work in modern React class components as well.
+
+## Counter Example
+
+```jsx
+import React from "react";
+
+class Counter extends React.Component {
+  #incrementValue = 1;
+
+  state = {
+    count: 0
+  };
+
+  increment = () => {
+    this.setState(prev => ({
+      count:
+        prev.count +
+        this.#incrementValue
+    }));
+  };
+
+  render() {
+    return (
+      <div>
+        <h2>
+          Count:
+          {this.state.count}
+        </h2>
+
+        <button
+          onClick={
+            this.increment
+          }
+        >
+          Increment
+        </button>
+      </div>
+    );
+  }
+}
+
+export default Counter;
+```
+
+***
+
+## Private Configuration Example
+
+```jsx
+import React from "react";
+
+class EmployeeCard
+  extends React.Component {
+
+  #company =
+    "Persistent";
+
+  render() {
+    return (
+      <div>
+        <h2>
+          {this.props.name}
+        </h2>
+
+        <p>
+          Company:
+          {this.#company}
+        </p>
+      </div>
+    );
+  }
+}
+```
+
+Usage:
+
+```jsx
+<EmployeeCard
+  name="Sudhir"
+/>
+```
+
+Output:
+
+```text
+Sudhir
+Company: Persistent
+```
+
+***
+
+# Advanced Example: Private Field + Getter/Setter
+
+```javascript
+class Employee {
+  #salary = 0;
+
+  get salary() {
+    return this.#salary;
+  }
+
+  set salary(value) {
+    if (value < 0) {
+      throw new Error(
+        "Salary cannot be negative"
+      );
+    }
+
+    this.#salary = value;
+  }
+}
+
+const emp =
+  new Employee();
+
+emp.salary = 50000;
+
+console.log(emp.salary);
+```
+
+Output:
+
+```javascript
+50000
+```
+
+***
+
+# Interview Questions
+
+### Q1: Are private fields inherited?
+
+```javascript
+class Parent {
+  #value = 10;
+}
+```
+
+```javascript
+class Child
+  extends Parent {}
+```
+
+The child **cannot directly access** `#value`.
+
+Private fields belong only to the class where they are declared.
+
+***
+
+### Q2: Difference Between `_salary` and `#salary`
+
+```javascript
+_salary
+```
+
+Convention only.
+
+Can still be accessed.
+
+```javascript
+employee._salary
+```
+
+Works.
+
+***
+
+```javascript
+#salary
+```
+
+True private field.
+
+Cannot be accessed outside the class.
+
+***
+
+# Senior Frontend Interview Answer
+
+> Private class fields (`#field`) provide true encapsulation and can only be accessed within the class that declares them. Modern JavaScript classes support private fields, private methods, static fields, static blocks, inheritance, getters/setters, and method overriding. Although React primarily uses functional components today, private fields can still be useful inside React class components for storing internal implementation details that should not be exposed outside the component.

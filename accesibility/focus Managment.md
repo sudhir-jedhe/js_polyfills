@@ -136,3 +136,512 @@ There are libraries available that help simplify focus management in SPAs:
 ### **Conclusion**
 
 Proper **focus management** in SPAs is essential to ensure a smooth, accessible, and usable experience for all users. By using methods like `focus()`, managing focus during navigation or modals, and utilizing ARIA attributes, you can ensure that your SPA is not only visually functional but also accessible for keyboard and screen reader users. Focus management is key to ensuring accessibility compliance and providing a positive experience for all users, especially those with disabilities.
+
+
+# Focus Management in React Accessibility (A11Y)
+
+**Focus Management** means controlling where keyboard focus goes before, during, and after UI interactions so keyboard-only users and screen-reader users don't get lost.
+
+This is one of the most important WCAG accessibility topics and is frequently asked in React interviews.
+
+***
+
+# Why Focus Management Matters
+
+Imagine:
+
+```text
+User Opens Modal
+↓
+Modal Appears
+↓
+Focus stays behind modal
+```
+
+The user now has no idea where they are.
+
+Good accessibility requires:
+
+✅ Predictable focus
+
+✅ Visible focus indicators
+
+✅ Focus trapped where appropriate
+
+✅ Focus restored when UI closes
+
+***
+
+# 1. Auto-Focus After Component Renders
+
+### Scenario
+
+Focus first input when form opens.
+
+```jsx
+import { useEffect, useRef } from "react";
+
+function LoginForm() {
+  const emailRef = useRef(null);
+
+  useEffect(() => {
+    emailRef.current?.focus();
+  }, []);
+
+  return (
+    <>
+      <input
+        ref={emailRef}
+        placeholder="Email"
+      />
+
+      <input
+        placeholder="Password"
+      />
+    </>
+  );
+}
+```
+
+***
+
+# 2. Focus After Modal Opens
+
+### Problem
+
+```text
+Open Modal
+↓
+Focus remains on background button
+```
+
+### Solution
+
+Move focus inside modal.
+
+```jsx
+function Modal({ open }) {
+  const closeButtonRef =
+    useRef(null);
+
+  useEffect(() => {
+    if (open) {
+      closeButtonRef.current?.focus();
+    }
+  }, [open]);
+
+  if (!open) return null;
+
+  return (
+    <div
+      role="dialog"
+      aria-modal="true"
+    >
+      <h2>
+        Delete User
+      </h2>
+
+      <button
+        ref={closeButtonRef}
+      >
+        Close
+      </button>
+    </div>
+  );
+}
+```
+
+***
+
+# 3. Restore Focus After Modal Closes
+
+### Expected Behavior
+
+```text
+Open Modal
+↓
+Focus goes inside Modal
+↓
+Close Modal
+↓
+Focus returns to Open Button
+```
+
+### Example
+
+```jsx
+function App() {
+  const [open, setOpen] =
+    React.useState(false);
+
+  const openButtonRef =
+    React.useRef(null);
+
+  return (
+    <>
+      <button
+        ref={openButtonRef}
+        onClick={() =>
+          setOpen(true)
+        }
+      >
+        Open Modal
+      </button>
+
+      {open && (
+        <Modal
+          onClose={() => {
+            setOpen(false);
+
+            openButtonRef.current?.focus();
+          }}
+        />
+      )}
+    </>
+  );
+}
+```
+
+***
+
+# 4. Focus Trap in Modal
+
+Users should not tab outside the modal.
+
+### Bad
+
+```text
+TAB
+↓
+Button Inside Modal
+
+TAB
+↓
+Background Navigation
+```
+
+### Good
+
+```text
+TAB
+↓
+Modal Controls Only
+```
+
+Production libraries:
+
+```bash
+focus-trap-react
+react-focus-lock
+```
+
+Example:
+
+```jsx
+import FocusLock from "react-focus-lock";
+
+<FocusLock>
+  <Modal />
+</FocusLock>
+```
+
+***
+
+# 5. Focus After Pagination
+
+When table data changes:
+
+```text
+Page 1
+↓
+Click Next
+↓
+Page 2
+↓
+Focus Lost
+```
+
+### Solution
+
+```jsx
+const firstRowRef =
+  useRef(null);
+
+useEffect(() => {
+  firstRowRef.current?.focus();
+}, [page]);
+```
+
+```jsx
+<td
+  ref={
+    index === 0
+      ? firstRowRef
+      : null
+  }
+  tabIndex={0}
+>
+  {employee.name}
+</td>
+```
+
+***
+
+# 6. Focus After Form Validation Error
+
+### Move Focus to First Error
+
+```jsx
+const emailRef = useRef();
+
+const handleSubmit = () => {
+  if (!email) {
+    emailRef.current.focus();
+
+    return;
+  }
+};
+```
+
+```jsx
+<input
+  ref={emailRef}
+  aria-invalid={true}
+/>
+```
+
+***
+
+# 7. Skip Navigation Link
+
+Useful for screen-reader and keyboard users.
+
+```jsx
+#main-content
+  Skip to Content
+</a>
+
+<main id="main-content">
+  ...
+</main>
+```
+
+### Keyboard Flow
+
+```text
+TAB
+↓
+Skip To Content
+↓
+ENTER
+↓
+Main Content
+```
+
+***
+
+# 8. Focus Management in Tabs
+
+### Move Focus to Active Tab
+
+```jsx
+<button
+  role="tab"
+  aria-selected={true}
+  tabIndex={0}
+>
+  Profile
+</button>
+
+<button
+  role="tab"
+  aria-selected={false}
+  tabIndex={-1}
+>
+  Settings
+</button>
+```
+
+Only current tab:
+
+```jsx
+tabIndex={0}
+```
+
+receives keyboard focus.
+
+***
+
+# 9. Roving Tab Index Pattern
+
+Used in:
+
+* Tabs
+* Menus
+* Tree Views
+* Grids
+
+### Example
+
+```jsx
+const activeIndex = 0;
+
+items.map((item, index) => (
+  <button
+    tabIndex={
+      index === activeIndex
+        ? 0
+        : -1
+    }
+  >
+    {item}
+  </button>
+));
+```
+
+Only one item is in tab order.
+
+***
+
+# 10. Focus with Tree View
+
+```jsx
+<ul role="tree">
+  <li
+    role="treeitem"
+    tabIndex={0}
+  >
+    Frontend
+  </li>
+
+  <li
+    role="treeitem"
+    tabIndex={-1}
+  >
+    Backend
+  </li>
+</ul>
+```
+
+Arrow keys move focus.
+
+***
+
+# 11. Live Region + Focus
+
+After saving:
+
+```jsx
+<div role="status">
+  Saved Successfully
+</div>
+```
+
+Screen readers hear the update without moving focus.
+
+***
+
+# Common Focus Management Mistakes
+
+## ❌ Using Divs Without Focusability
+
+```jsx
+<div onClick={handleClick}>
+```
+
+Not keyboard accessible.
+
+### ✅
+
+```jsx
+<button
+  onClick={handleClick}
+>
+```
+
+***
+
+## ❌ Losing Focus After Render
+
+```text
+Sort Table
+↓
+Focus Disappears
+```
+
+### ✅
+
+Move focus back:
+
+```jsx
+sortButtonRef.current.focus();
+```
+
+***
+
+## ❌ Hiding Focus Indicators
+
+```css
+*:focus {
+  outline: none;
+}
+```
+
+Avoid this.
+
+### ✅
+
+```css
+:focus {
+  outline: 3px solid blue;
+}
+```
+
+***
+
+# React Hooks Commonly Used
+
+```jsx
+useRef()
+useEffect()
+```
+
+Example:
+
+```jsx
+const inputRef = useRef();
+
+useEffect(() => {
+  inputRef.current?.focus();
+}, []);
+```
+
+***
+
+# Interview Cheat Sheet
+
+### When to Manage Focus
+
+✅ Modal opens
+
+✅ Modal closes
+
+✅ Form validation fails
+
+✅ Pagination changes
+
+✅ Sorting changes
+
+✅ Tab switch
+
+✅ Tree view navigation
+
+✅ Dynamic content loads
+
+✅ Error message appears
+
+***
+
+### Senior React Interview Answer
+
+> Focus management ensures keyboard and screen-reader users always know where they are in the UI. In React, it is typically implemented using `useRef()` and `useEffect()` to programmatically move focus after UI changes such as opening dialogs, changing pages, switching tabs, or displaying validation errors. Good focus management includes restoring focus when dialogs close, trapping focus inside modals, maintaining visible focus indicators, and ensuring focus moves predictably after dynamic updates to meet WCAG accessibility requirements.

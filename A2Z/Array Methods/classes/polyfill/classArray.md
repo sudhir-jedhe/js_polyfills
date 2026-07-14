@@ -1,3 +1,5 @@
+# Array class
+
 ```js
 class Array {
   // Array constructor

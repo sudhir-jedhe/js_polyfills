@@ -1,3 +1,5 @@
+# Custom Array Class
+
 ```js
 // JavaScript code for concat() method
 class CustomArray extends Array {

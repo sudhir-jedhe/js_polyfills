@@ -115,3 +115,351 @@ loadScript("/script1.js", function (script) {
 - **Async/Await**: The `async`/`await` syntax makes asynchronous code look synchronous, which improves readability and reduces nested callbacks.
 
 By understanding and using callbacks effectively, you can handle asynchronous operations in JavaScript. However, for more complex asynchronous workflows, consider using **Promises** or **Async/Await** to avoid callback hell.
+
+
+
+A **callback function** is a function that is passed as an argument to another function and is executed later when a specific task is completed.
+
+This is one of the most common JavaScript interview topics and appears in the interview preparation material found in your environment alongside promises, async/await, callback hell, and higher-order functions.
+
+# Basic Example
+
+```javascript
+function greet(name) {
+  console.log(`Hello ${name}`);
+}
+
+function processUser(callback) {
+  const name = "Sudhir";
+
+  callback(name);
+}
+
+processUser(greet);
+```
+
+Output:
+
+```text
+Hello Sudhir
+```
+
+Here:
+
+```javascript
+greet
+```
+
+is the callback function.
+
+***
+
+# Anonymous Callback
+
+```javascript
+function processUser(callback) {
+  callback("Sudhir");
+}
+
+processUser(function(name) {
+  console.log(name);
+});
+```
+
+Output:
+
+```text
+Sudhir
+```
+
+***
+
+# Arrow Function Callback
+
+```javascript
+function processUser(callback) {
+  callback("Sudhir");
+}
+
+processUser(
+  name => console.log(name)
+);
+```
+
+Output:
+
+```text
+Sudhir
+```
+
+***
+
+# Callback with Array Methods
+
+## `forEach()`
+
+```javascript
+const nums = [1, 2, 3];
+
+nums.forEach(num => {
+  console.log(num);
+});
+```
+
+Output:
+
+```text
+1
+2
+3
+```
+
+The function passed to `forEach()` is a callback.
+
+***
+
+## `map()`
+
+```javascript
+const nums = [1, 2, 3];
+
+const doubled =
+  nums.map(
+    num => num * 2
+  );
+
+console.log(doubled);
+```
+
+Output:
+
+```javascript
+[2, 4, 6]
+```
+
+***
+
+# Asynchronous Callback
+
+Callbacks are commonly used when a task finishes later.
+
+```javascript
+console.log("Start");
+
+setTimeout(() => {
+  console.log("API Response");
+}, 2000);
+
+console.log("End");
+```
+
+Output:
+
+```text
+Start
+End
+API Response
+```
+
+The function passed to:
+
+```javascript
+setTimeout()
+```
+
+is a callback.
+
+***
+
+# Real API Style Example
+
+```javascript
+function fetchData(callback) {
+
+  setTimeout(() => {
+
+    const data = {
+      id: 1,
+      name: "Sudhir"
+    };
+
+    callback(data);
+
+  }, 1000);
+}
+
+fetchData(user => {
+  console.log(user);
+});
+```
+
+Output:
+
+```javascript
+{
+  id: 1,
+  name: "Sudhir"
+}
+```
+
+***
+
+# Callback Hell
+
+When callbacks become deeply nested.
+
+```javascript
+getUser(user => {
+
+  getOrders(user.id, orders => {
+
+    getPayment(
+      orders[0].id,
+      payment => {
+
+        console.log(payment);
+
+      }
+    );
+
+  });
+
+});
+```
+
+Problem:
+
+```text
+❌ Difficult to read
+❌ Difficult to maintain
+❌ Error handling becomes complex
+```
+
+This is known as:
+
+```text
+Callback Hell
+Pyramid of Doom
+```
+
+and is one reason Promises and async/await became popular.
+
+***
+
+# Modern Alternative: Promise
+
+### Callback
+
+```javascript
+fetchUser(callback);
+```
+
+### Promise
+
+```javascript
+fetchUser()
+  .then(user => {
+    console.log(user);
+  });
+```
+
+***
+
+# Modern Alternative: Async/Await
+
+```javascript
+async function loadUser() {
+
+  const user =
+    await fetchUser();
+
+  console.log(user);
+}
+```
+
+***
+
+# Callback vs Higher-Order Function
+
+```javascript
+function calculate(
+  a,
+  b,
+  operation
+) {
+
+  return operation(a, b);
+}
+```
+
+Callback:
+
+```javascript
+const add =
+  (a, b) => a + b;
+
+calculate(10, 20, add);
+```
+
+Output:
+
+```text
+30
+```
+
+***
+
+# React Example
+
+```jsx
+function Child({
+  onClick
+}) {
+
+  return (
+    <button
+      onClick={onClick}
+    >
+      Click
+    </button>
+  );
+}
+
+function Parent() {
+
+  const handleClick =
+    () => {
+      console.log(
+        "Clicked"
+      );
+    };
+
+  return (
+    <Child
+      onClick={
+        handleClick
+      }
+    />
+  );
+}
+```
+
+`handleClick` is passed as a callback prop.
+
+***
+
+# Interview Answer
+
+```text
+A callback function is a function passed as an argument to another function and executed later. Callbacks are commonly used for event handling, asynchronous programming, array methods (map, filter, forEach), and React event handlers. Excessive nested callbacks can lead to callback hell, which is typically solved using Promises and async/await.
+```
+
+### One-Line Definition
+
+```javascript
+function execute(callback) {
+  callback();
+}
+```
+
+Here, `callback` is simply a function that another function executes later.

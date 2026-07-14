@@ -1,3 +1,4 @@
+# CustomArray
 
 ```js
 class CustomArray extends Array {
