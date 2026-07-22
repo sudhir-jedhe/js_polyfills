@@ -1,0 +1,58 @@
+What is virtual DOM in React?
+Importance
+High
+Difficulty
+Hard
+Topics
+React
+
+Edit on GitHub
+TL;DR
+The "virtual DOM" in React is a tree of plain JavaScript objects (React elements) that describes what the UI should look like — it is not a copy of the actual DOM. When state or props change, React builds a new tree, compares it with the previous one (a process called reconciliation, performed by the Fiber reconciler since React 16), and applies only the necessary changes to the real DOM. The React team now prefers the terms "React elements" and "Fiber tree." The main benefit is the declarative programming model, not raw speed over hand-written DOM updates.
+
+What is virtual DOM in React?
+Introduction
+"Virtual DOM" is the term React originally used to describe how it models your UI: instead of you writing imperative DOM instructions, you return a tree of plain JavaScript objects (React elements) that describe what the UI should look like. React reads that tree, compares it with the previous one, and applies the minimal set of changes to the real DOM.
+
+Note that the React team has moved away from the "virtual DOM" label in recent years. Current documentation prefers talking about React elements (the descriptions you return from components) and the Fiber tree (React's internal work-in-progress representation). The mental model is largely the same, but the newer terminology is more accurate: these structures are not a copy of the DOM — they are a separate tree of element descriptions that React uses to decide what to commit to the DOM.
+
+How it works
+Initial rendering: When a React component renders for the first time, it returns a tree of React elements — plain JavaScript objects describing the UI (not a copy of the DOM).
+Updating state: When state or props change, the affected components re-render and produce a new element tree.
+Reconciliation: React's reconciler (known internally as Fiber since React 16) walks the new tree and compares it against the previous one. Fiber breaks the work into small units so rendering can be paused, resumed, or abandoned — this is what enables concurrent features such as startTransition, Suspense, and time-slicing.
+Commit: After diffing, React applies only the changes that actually differ to the real DOM in a single commit phase. Effects (useEffect, useLayoutEffect) run at well-defined points around this commit.
+Benefits
+Declarative model: You describe what the UI should look like for a given state, and React figures out how to get the DOM there. This is the real selling point — not raw speed.
+Abstraction: Developers can write code without manually orchestrating DOM mutations, event wiring, or ordering of updates.
+Predictability: A single source of truth (state) maps deterministically to the UI, which makes the app easier to reason about and test.
+Enables concurrent rendering: Because the element/Fiber tree is just data, React can work on an update off to the side, discard it, or prioritize a more urgent one — something that is hard to do when mutating the DOM directly.
+A common claim you will see is "the virtual DOM is faster than the real DOM." This is mostly a myth. Doing extra JavaScript work to diff trees and then update the DOM cannot be faster than a hand-optimized direct DOM update. What React actually gives you is a good-enough, predictable way to produce correct DOM updates from a declarative description, without having to write that orchestration yourself. Speed relative to hand-written imperative code is a side effect, not the goal.
+
+Example
+Here is a simple example to illustrate how the model works:
+
+import React, { useState } from 'react';
+
+function Counter() {
+const [count, setCount] = useState(0);
+
+return (
+<div>
+<p>You clicked {count} times</p>
+<button onClick={() => setCount(count + 1)}>Click me</button>
+</div>
+);
+}
+
+export default Counter;
+When the button is clicked, count updates and Counter re-renders, producing a new tree of React elements. React's reconciler diffs it against the previous tree, sees that only the text content inside <p> changed, and updates just that text node in the real DOM.
+
+Further reading
+React documentation on reconciliation
+React Fiber Architecture (acdlite)
+Dan Abramov — "React as a UI Runtime"
+
+Report an issue
+Edit on GitHub
+
+All practice questions

@@ -1,0 +1,109 @@
+**React Suspense** is a feature that allows you to handle asynchronous operations in your React components more gracefully. It enables you to show fallback content while waiting for something to load, such as data fetching or code splitting. You can use it with React.lazy for code splitting and with libraries like react-query for data fetching.
+
+```js
+const LazyComponent = React.lazy(() => import("./LazyComponent"));
+
+function MyComponent() {
+  return (
+    <React.Suspense fallback={<div>Loading...</div>}>
+      <LazyComponent />
+    </React.Suspense>
+  );
+}
+```
+
+**What is React Suspense and what does it enable?**
+Introduction to React Suspense
+React Suspense is a feature introduced by the React team to help manage asynchronous operations in a more declarative way. It allows you to specify a loading state (fallback) while waiting for some asynchronous operation to complete, such as data fetching or code splitting.
+
+**Code splitting with React.lazy**
+One of the primary use cases for React Suspense is code splitting. Code splitting allows you to load parts of your application on demand, which can significantly improve the initial load time of your application.
+
+```js
+import React, { Suspense } from "react";
+
+const LazyComponent = React.lazy(() => import("./LazyComponent"));
+
+function MyComponent() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <LazyComponent />
+    </Suspense>
+  );
+}
+```
+
+In this example, React.lazy is used to dynamically import the LazyComponent. The Suspense component wraps the lazy-loaded component and provides a fallback UI (<div>Loading...</div>) to display while the component is being loaded.
+
+**Data fetching with Suspense**
+Suspense for data fetching is stable as of React 19 (December 2024). The supported ways to suspend on data are React Server Components, the use() hook for unwrapping promises and context in client components, and integrations in data libraries like TanStack Query and Relay. Plain useQuery does not trigger Suspense — you have to opt in with a Suspense-aware API.
+
+```js
+import { Suspense } from "react";
+import { useSuspenseQuery } from "@tanstack/react-query";
+
+function fetchData() {
+  return fetch("https://api.example.com/data").then((response) =>
+    response.json(),
+  );
+}
+
+function DataComponent() {
+  // useSuspenseQuery throws a promise while loading,
+  // which Suspense catches and shows the fallback for.
+  const { data } = useSuspenseQuery({
+    queryKey: ["data"],
+    queryFn: fetchData,
+  });
+  return <div>{data}</div>;
+}
+
+function MyComponent() {
+  return (
+    <Suspense fallback={<div>Loading data...</div>}>
+      <DataComponent />
+    </Suspense>
+  );
+}
+```
+
+**The use() hook (React 19)**
+In React 19, you can read a promise directly from a client component with the use() hook. While the promise is pending, React suspends the nearest Suspense boundary; when it resolves, the component re-renders with the value.
+
+```js
+import { Suspense, use } from "react";
+
+function Profile({ userPromise }) {
+  const user = use(userPromise);
+  return <h1>{user.name}</h1>;
+}
+
+function Page({ userPromise }) {
+  return (
+    <Suspense fallback={<p>Loading profile…</p>}>
+      <Profile userPromise={userPromise} />
+    </Suspense>
+  );
+}
+```
+
+use() also unwraps context, and unlike other hooks it can be called inside conditionals and loops.
+
+**Server Components and streaming SSR**
+React Server Components can suspend on the server while data loads, and the framework streams HTML to the browser as each Suspense boundary resolves. This means users see content progressively instead of waiting for the entire page to be ready, with the same <Suspense fallback={...}> semantics on both server and client.
+
+**Pairing Suspense with error boundaries**
+Suspense handles the pending state of an async operation, but it doesn't handle the error state. To cover both, wrap your suspending tree in an error boundary as well:
+
+```js
+<ErrorBoundary fallback={<p>Something went wrong.</p>}>
+  <Suspense fallback={<p>Loading…</p>}>
+    <DataComponent />
+  </Suspense>
+</ErrorBoundary>
+```
+
+**Benefits of React Suspense**
+**Improved user experience:** By showing fallback content, you can keep the user engaged while waiting for asynchronous operations to complete.
+**Simplified code:** Suspense lets you handle loading states declaratively at the boundary level, instead of threading isLoading flags through every component.
+**Better performance:** Code splitting with React.lazy reduces initial bundle size, and streaming SSR with Suspense lets the browser render content as it becomes available.

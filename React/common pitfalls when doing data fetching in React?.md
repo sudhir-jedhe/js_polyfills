@@ -1,0 +1,175 @@
+Common pitfalls when doing data fetching in React include not handling loading and error states, leaking requests by not aborting them on unmount, ignoring race conditions when props or query params change, fetching during render (which loops), and triggering request waterfalls. In modern React (18+), use AbortController for cleanup, account for StrictMode's intentional double-invoke in development, and prefer purpose-built libraries like TanStack Query, SWR, or RTK Query for caching and deduplication. React 19's use() hook plus Suspense, and Server Components, are now the recommended way to read promises in components.
+
+**Common pitfalls when doing data fetching in React**
+**Not handling loading and error states**
+When fetching data, it's crucial to manage the different states of the request: loading, success, and error. Failing to do so can lead to a poor user experience.
+
+```js
+import { useEffect, useState } from "react";
+
+function MyComponent() {
+  const [data, setData] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    fetch("https://api.example.com/data")
+      .then((response) => response.json())
+      .then((data) => {
+        setData(data);
+        setLoading(false);
+      })
+      .catch((error) => {
+        setError(error);
+        setLoading(false);
+      });
+  }, []);
+
+  if (loading) return <div>Loading...</div>;
+  if (error) return <div>Error: {error.message}</div>;
+  return <div>{JSON.stringify(data)}</div>;
+}
+```
+
+**Not aborting in-flight requests on unmount**
+If a component unmounts (or its effect re-runs) before a fetch resolves, calling setState afterwards is wasted work and previously triggered React's "state update on unmounted component" warning. Since React 18, the recommended fix is AbortController — it both stops the network request and prevents the resolve handler from running.
+
+```js
+import { useEffect, useState } from "react";
+
+function MyComponent() {
+  const [data, setData] = useState(null);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    const controller = new AbortController();
+
+    fetch("https://api.example.com/data", { signal: controller.signal })
+      .then((response) => response.json())
+      .then((data) => setData(data))
+      .catch((error) => {
+        if (error.name !== "AbortError") setError(error);
+      });
+
+    return () => controller.abort();
+  }, []);
+
+  // ...
+}
+```
+
+The older let isMounted = true flag pattern still works, but it doesn't cancel the network request and doesn't help with race conditions — prefer AbortController.
+**Race conditions when props or query params change**
+If a fetch depends on a prop (such as a user ID) and the prop changes before the previous request resolves, responses can arrive out of order and the stale one can overwrite the fresh one. Aborting the previous request on cleanup handles this for free:
+
+```js
+import { useEffect, useState } from "react";
+
+function UserProfile({ userId }) {
+  const [user, setUser] = useState(null);
+
+  useEffect(() => {
+    const controller = new AbortController();
+
+    fetch(`/api/users/${userId}`, { signal: controller.signal })
+      .then((response) => response.json())
+      .then((data) => setUser(data))
+      .catch((error) => {
+        if (error.name !== "AbortError") console.error(error);
+      });
+
+    return () => controller.abort();
+  }, [userId]);
+
+  // ...
+}
+```
+
+**Forgetting StrictMode's intentional double-invoke**
+In development with <StrictMode>, React intentionally mounts, unmounts, and remounts every component, which fires effects twice. If your fetch has visible side effects (logging, analytics, POSTs) you may notice duplicates in dev — this is a hint that the effect needs proper cleanup, not a bug to suppress.
+
+**Fetching data during render**
+Calling fetch directly in the render body kicks off a new request on every render. If the response then triggers setState, you get an infinite re-render loop. Note that fetch().then() returns a Promise, not the resolved value — JSON.stringify(promise) will not give you what you expect.
+
+```js
+// Incorrect — fetch runs every render
+function MyComponent() {
+  const [data, setData] = useState(null);
+
+  // This fires a request on every render. If `setData` is called inside,
+  // each render schedules another render → infinite loop.
+  fetch("https://api.example.com/data")
+    .then((response) => response.json())
+    .then((data) => setData(data));
+
+  return <div>{JSON.stringify(data)}</div>;
+}
+
+// Correct — run the side effect inside useEffect
+function MyComponent() {
+  const [data, setData] = useState(null);
+
+  useEffect(() => {
+    const controller = new AbortController();
+    fetch("https://api.example.com/data", { signal: controller.signal })
+      .then((response) => response.json())
+      .then((data) => setData(data));
+    return () => controller.abort();
+  }, []);
+
+  return <div>{JSON.stringify(data)}</div>;
+}
+```
+
+**Missing or incorrect dependencies in useEffect**
+The dependency array tells React when to re-run an effect. Omitting a value the effect actually reads (such as userId) leaves you with stale data. Including a value that changes on every render (such as a freshly created object or function) will re-fire the effect on every render, which usually means a fetch loop.
+
+// Incorrect — uses `userId` but doesn't list it; data goes stale.
+
+```js
+useEffect(() => {
+  fetch(`/api/users/${userId}`)
+    .then((r) => r.json())
+    .then(setUser);
+}, []);
+
+// Correct
+useEffect(() => {
+  fetch(`/api/users/${userId}`)
+    .then((r) => r.json())
+    .then(setUser);
+}, [userId]);
+```
+
+Let eslint-plugin-react-hooks (exhaustive-deps) catch these for you.
+
+**Request waterfalls**
+Fetching one resource, waiting for it, then fetching the next from a child component creates a serial waterfall. If the requests don't depend on each other, kick them off in parallel with Promise.all, or hoist them to a parent / loader / Server Component so they start at the same time.
+**Skipping caching, deduplication, and retries**
+Hand-rolled useEffect + fetch has no cache, no deduping, no retries, no background refetching, no stale-while-revalidate. For anything beyond a one-off request, reach for a dedicated library:
+
+TanStack Query (@tanstack/react-query) — caching, dedup, retries, background refresh.
+SWR — small, focused on stale-while-revalidate.
+RTK Query — built on Redux Toolkit, good fit if you already use Redux
+
+Not using React 19's use() and Suspense
+In React 19, you can read a promise directly with use() and let Suspense handle the loading state. Combined with Server Components or a framework that passes promises down, this removes most of the manual useState/useEffect/loading-flag boilerplate:
+
+```js
+import { use, Suspense } from "react";
+
+function User({ userPromise }) {
+  const user = use(userPromise); // suspends until the promise resolves
+  return <div>{user.name}</div>;
+}
+
+function App({ userPromise }) {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <User userPromise={userPromise} />
+    </Suspense>
+  );
+}
+```
+
+For most apps, the right place to fetch is a React Server Component (in a framework like Next.js) or a route loader — the data lives close to where it's rendered, and the client never has to coordinate the request itself.

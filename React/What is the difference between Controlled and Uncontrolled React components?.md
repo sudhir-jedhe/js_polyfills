@@ -1,0 +1,84 @@
+A controlled component drives a form input from React state — you pass value/checked plus an onChange handler, and React state is the single source of truth. An uncontrolled component lets the DOM keep the value; you read it via a ref (or on submit) and seed the initial value with defaultValue/defaultChecked. Controlled inputs are the right default when you need validation, conditional UI, or to derive other state from the value. Uncontrolled inputs are simpler for write-once forms and for <input type="file">, which is always uncontrolled. React 19 also added first-class form support via the form action prop, useFormStatus, and useActionState, which often removes the need for per-field controlled state.
+
+What is the difference between controlled and uncontrolled React components?
+Controlled components
+A controlled input passes both value (or checked) and onChange to the element. React state holds the truth; every keystroke flows through a setter.
+
+```js
+import { useState } from "react";
+
+function ControlledForm() {
+  const [name, setName] = useState("");
+
+  function handleSubmit(event) {
+    event.preventDefault();
+    alert("A name was submitted: " + name);
+  }
+
+  return (
+    <form onSubmit={handleSubmit}>
+      <label>
+        Name:
+        <input
+          type="text"
+          value={name}
+          onChange={(event) => setName(event.target.value)}
+        />
+      </label>
+      <input type="submit" value="Submit" />
+    </form>
+  );
+}
+```
+
+Uncontrolled components
+An uncontrolled input keeps its value in the DOM. Seed the initial value with defaultValue (or defaultChecked for checkboxes/radios), and read the current value through a ref when you need it.
+
+```js
+import { useRef } from "react";
+
+function UncontrolledForm() {
+  const inputRef = useRef(null);
+
+  function handleSubmit(event) {
+    event.preventDefault();
+    alert("A name was submitted: " + inputRef.current.value);
+  }
+
+  return (
+    <form onSubmit={handleSubmit}>
+      <label>
+        Name:
+        <input type="text" defaultValue="" ref={inputRef} />
+      </label>
+      <input type="submit" value="Submit" />
+    </form>
+  );
+}
+```
+
+defaultValue is only consulted on the initial render — changing it later does not update the DOM. Pairing value with no onChange (or vice versa) makes the input read-only or warns in development; pick one mode per field.
+
+<input type="file"> is always uncontrolled
+File inputs cannot be controlled — their value is read-only for security reasons (a page must not be able to set the user's chosen file). Always read files via a ref or from the change/submit event, even in an otherwise controlled form.
+
+````js
+function FileForm() {
+  const fileRef = useRef(null);
+
+  function handleSubmit(event) {
+    event.preventDefault();
+    const file = fileRef.current.files[0];
+    // upload file...
+  }
+
+  return (
+    <form onSubmit={handleSubmit}>
+      <input type="file" ref={fileRef} />
+      <button type="submit">Upload</button>
+    </form>
+  );
+}```
+React 19 form actions
+React 19 made <for
+````
