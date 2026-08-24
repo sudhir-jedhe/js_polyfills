@@ -122,3 +122,105 @@ CLS measures visual stability by tracking unexpected layout shifts during the pa
 | **LCP** | $\le 2.5\text{s}$  | Late discovery of client-rendered hero images / heavy SSR TTFB              | SSR/SSG pre-rendering, `fetchpriority="high"`, image preloading, HTML streaming                    |
 | **INP** | $\le 200\text{ms}$ | Synchronous re-render loops & main-thread blocking during events            | `useTransition`, `scheduler.yield()`, list virtualization, moving tasks to Web Workers             |
 | **CLS** | $\le 0.1$          | Dynamic injection of banners, images without dimensions, font metric shifts | Explicit `aspect-ratio`, reserved slot dimensions, CSS `transform` animations, `size-adjust` fonts |
+
+Optimizing Core Web Vitals in a React application requires addressing the critical rendering path, main-thread blocking tasks, and visual layout stability.
+
+---
+
+### 1. Largest Contentful Paint (LCP $\le$ 2.5s)
+
+LCP measures how quickly the main content (hero image, banner, or main heading) becomes visible.
+
+* **Preload the LCP Resource:** If the LCP element is an image or font, preload it in the `<head>` with `fetchpriority="high"` so the browser discovers it before parsing JavaScript.
+
+```html
+<link rel="preload" fetchpriority="high" as="image" href="/hero.webp" type="image/webp" />
+
+```
+
+* **Optimize Image Assets:**
+* Serve modern formats (`.webp`, `.avif`).
+* Use responsive `srcset` and `sizes` to avoid sending desktop-sized images to mobile screens.
+* **Never lazy-load the LCP image** (remove `loading="lazy"` on above-the-fold heroes).
+
+* **SSR / Streaming Server Components:**
+* Adopt SSR or React Server Components (RSC) with `renderToPipeableStream` so the browser receives complete HTML immediately instead of waiting for a client-side JavaScript bundle to boot.
+
+* **Eliminate Render-Blocking Scripts:**
+* Defer non-critical third-party scripts (`async` or `defer`).
+* In Next.js / Remix, use component-level code-splitting (`React.lazy` or `dynamic()`) to reduce initial JS payload.
+
+---
+
+### 2. Interaction to Next Paint (INP $\le$ 200ms)
+
+INP measures responsiveness to user interactions (clicks, taps, typing) by tracking the latency from input to the next visual paint.
+
+* **Yield to the Main Thread via `startTransition`:**
+* Wrap heavy computation or large DOM re-renders inside `useTransition` so React splits work into interruptible chunks and lets user inputs jump ahead in priority.
+
+```tsx
+const [isPending, startTransition] = useTransition();
+
+function onFilterChange(e: React.ChangeEvent<HTMLInputElement>) {
+  setInputValue(e.target.value); // Urgent: immediate visual feedback
+  startTransition(() => {
+    setFilteredResults(e.target.value); // Non-urgent: yields to subsequent clicks/keys
+  });
+}
+
+```
+
+* **Break Up Long Tasks ($> 50\text{ms}$):**
+* Use `scheduler.yield()` (or a `setTimeout(..., 0)` / `MessageChannel` fallback) inside heavy loops to periodically return control to the browser.
+
+* **Offload CPU-Intensive Work to Web Workers:**
+* Move complex sorting, data manipulation, syntax highlighting, or image transformations to a dedicated worker thread using libraries like `Comlink`.
+
+* **Avoid Layout Thrashing:**
+* Group DOM reads (`getBoundingClientRect()`, `offsetHeight`) and DOM writes separately to prevent multiple forced reflows inside click handlers.
+
+---
+
+### 3. Cumulative Layout Shift (CLS $\le$ 0.1)
+
+CLS measures unexpected visual shifts during the page lifecycle.
+
+* **Reserve Space for Dynamic Elements:**
+* **Images & Videos:** Always specify explicit `width` and `height` attributes or modern CSS `aspect-ratio` to reserve layout boxes before assets download.
+
+```css
+.hero-img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
+
+```
+
+* **Ads, Banners & Embeds:** Wrap dynamic containers in fixed min-height placeholders:
+
+```tsx
+<div style={{ minHeight: '250px' }}>
+  <AdBanner />
+</div>
+
+```
+
+* **Use Skeleton Loaders Instead of Collapsed Empty States:**
+* When fetching data, render fixed-dimension skeleton loaders that occupy the exact dimensions of the incoming content rather than letting content snap into place.
+
+* **Prevent Font-Induced Layout Shifts (FOUT):**
+* Use CSS `font-display: swap` combined with `size-adjust`, `ascent-override`, and `descent-override` in `@font-face` so fallback fonts match the exact layout dimensions of custom web fonts.
+* In Next.js, use `next/font` which automates fallback font metrics zero-shift alignment.
+
+* **Animations:** Only animate composited properties (`transform` and `opacity`) instead of box-model properties (`top`, `left`, `margin`, `height`).
+
+---
+
+### Metric Targets & Quick Reference
+
+| Metric  | Good Threshold       | Primary Culprits                                                             | High-Impact Solution                                                                     |
+| ------- | -------------------- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| **LCP** | $\le \mathbf{2.5s}$  | Slow server TTFB, render-blocking JS, unoptimized hero images                | Preload hero image (`fetchpriority="high"`), SSR/Streaming, inline critical CSS          |
+| **INP** | $\le \mathbf{200ms}$ | Long JS tasks, heavy synchronous component renders, CPU-heavy event handlers | `useTransition`, `scheduler.yield()`, Web Workers, list virtualization                   |
+| **CLS** | $\le \mathbf{0.1}$   | Images/ads without dimensions, late-injected banners, custom font shifts     | Explicit `aspect-ratio`, reserved placeholder heights, CSS `size-adjust` on `@font-face` |

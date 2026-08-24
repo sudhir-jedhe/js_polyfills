@@ -1,0 +1,37 @@
+{
+  "name": "multi-tenant-admin-portal",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Multi-Tenant Admin Portal — micro-frontend architecture demo (route/domain composition on Vercel)",
+  "packageManager": "yarn@1.22.22",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "eslint .",
+    "typecheck": "turbo run typecheck",
+    "start": "turbo run start",
+    "clean": "turbo run clean",
+    "test": "turbo run test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@next/eslint-plugin-next": "^16.3.1",
+    "@types/node": "^26.2.0",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
+    "eslint": "^10.8.1",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "globals": "^17.11.0",
+    "turbo": "^2.10.10",
+    "typescript": "^6",
+    "typescript-eslint": "^8.67.0",
+    "vitest": "^4.1.10"
+  }
+}
