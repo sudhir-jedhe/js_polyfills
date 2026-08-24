@@ -1,0 +1,13 @@
+# Interview Q&A: Tradeoffs and Practical Judgment
+
+**Q: A junior engineer says "I'll just mark everything `use client` to avoid dealing with the Server/Client split." What do you tell them?**
+A: That approach works functionally but gives up most of what makes the App Router architecture valuable: every component's code (and its dependencies, potentially large libraries like markdown parsers or charting tools) ships to the browser regardless of whether it's interactive, bundle size and Time to Interactive suffer, and any data access has to go through an API layer instead of direct server-side calls. The better default is Server Components everywhere, with `"use client"` applied narrowly to the specific leaf components that actually need browser APIs, hooks, or event handlers.
+
+**Q: How would you refactor a page where a single interactive dropdown forced the entire page to be a Client Component?**
+A: Extract the dropdown (and only the dropdown) into its own small component file with `"use client"`, and let the parent page revert to a Server Component that imports and renders that dropdown alongside its other, now-server-rendered content. If the dropdown's change needs to affect data displayed elsewhere on the page, prefer driving that through the URL (`searchParams` + `router.push`) so the Server Component page can re-render server-side with fresh data, rather than duplicating the data-fetching logic client-side.
+
+**Q: What's a practical way to audit an existing codebase for over-use of `"use client"`?**
+A: Search for `"use client"` directives at the top of large page-level or layout-level files rather than small leaf components — those are the highest-value refactor targets, since they typically drag their entire subtree (and its imports) into the client bundle. Cross-reference with bundle analysis output (e.g., `next build`'s bundle size report, or `@next/bundle-analyzer`) to find pages with unexpectedly large client JS relative to how much of their UI is actually interactive.
+
+**Q: Is there a performance cost to having many small `"use client"` boundaries versus one large one?**
+A: Generally no meaningful cost, and often a benefit — smaller, more numerous client boundaries mean each one's bundle is scoped tightly to what it actually needs, which plays well with code-splitting and means unrelated pages don't pay for interactivity they don't use. The goal isn't "minimize the number of `use client` directives," it's "minimize the amount of code that ends up client-bundled that didn't need to be" — many small, well-scoped boundaries usually achieve that better than one broad one.

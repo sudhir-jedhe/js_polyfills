@@ -1,0 +1,7 @@
+# Output: Who Sees the Old Content, Who Sees the New?
+
+A page has `export const revalidate = 100`. The page was first generated at `t=0`. The content source (e.g., a CMS) is updated at `t=50`, but nobody visits the page between `t=0` and `t=150`. At `t=150`, User A visits. Ten seconds later, at `t=160`, User B visits.
+
+**Answer:** User A (at `t=150`) sees the **old** content generated at `t=0`, not the update made at `t=50`. Regeneration is triggered by User A's request in the background. User B (at `t=160`), assuming regeneration completed in that 10-second window, sees the **new** content.
+
+**Why:** ISR only checks whether the cache is stale (has the `revalidate` window elapsed) *when a request actually arrives* — nothing happens proactively at `t=100` if there's no traffic. So the cache sits stale-but-unrefreshed from `t=100` to `t=150` simply because nobody hit it. When User A's request lands at `t=150`, Next.js recognizes the cache is stale, but rather than making User A wait for a fresh render, it serves the existing (stale, `t=0`) cached HTML immediately and kicks off regeneration in the background using the current data (which now reflects the `t=50` CMS update). Once that regeneration finishes — well before `t=160` for a typical fetch — the cache is updated, so User B's request gets the newly regenerated content. The key exam-style insight: ISR's staleness window isn't purely time-based in isolation — it's "at least `revalidate` seconds, plus however long until the next actual request arrives to trigger the background regeneration."

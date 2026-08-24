@@ -5,6 +5,7 @@
 Yes, in JavaScript, functions are first-class objects, meaning they can be treated like any other variable. Here's a detailed breakdown of what this entails:
 
 ### 1. **Assigning Functions to Variables**
+
    You can assign a function to a variable, just like you assign a value to a variable.
 
    ```javascript
@@ -15,6 +16,7 @@ Yes, in JavaScript, functions are first-class objects, meaning they can be treat
    ```
 
 ### 2. **Passing Functions as Arguments**
+
    Functions can be passed as arguments to other functions. This is a common pattern, especially in callback-based programming.
 
    ```javascript
@@ -24,6 +26,7 @@ Yes, in JavaScript, functions are first-class objects, meaning they can be treat
    ```
 
 ### 3. **Returning Functions from Functions**
+
    Functions can also return other functions. This is the basis of closures.
 
    ```javascript
@@ -36,6 +39,7 @@ Yes, in JavaScript, functions are first-class objects, meaning they can be treat
    ```
 
 ### 4. **Storing Functions in Data Structures**
+
    Since functions are treated as objects, they can be stored in arrays or objects.
 
    ```javascript
@@ -59,6 +63,7 @@ Yes, in JavaScript, functions are first-class objects, meaning they can be treat
    ```
 
 ### 5. **Attaching Functions to Event Listeners**
+
    The example you provided demonstrates attaching a function to an event listener. This is a cornerstone of event-driven programming in JavaScript.
 
    ```javascript
@@ -69,6 +74,7 @@ Yes, in JavaScript, functions are first-class objects, meaning they can be treat
    Here, `handler` is passed as an argument to `addEventListener`. When the click event occurs, the browser executes the `handler` function.
 
 ### 6. **Functions Have Properties and Methods**
+
    Since functions are objects, they have properties and methods. For example, you can add properties to functions or use their built-in methods like `bind`.
 
    ```javascript
@@ -81,8 +87,8 @@ Yes, in JavaScript, functions are first-class objects, meaning they can be treat
    ```
 
 ### Summary
-Treating functions as first-class objects is a powerful feature of JavaScript. It enables functional programming patterns, event-driven architecture, and greater flexibility in writing code.
 
+Treating functions as first-class objects is a powerful feature of JavaScript. It enables functional programming patterns, event-driven architecture, and greater flexibility in writing code.
 
 # First-Class Functions in JavaScript
 

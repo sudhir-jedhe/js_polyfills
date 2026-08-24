@@ -6,7 +6,8 @@ You've provided a detailed explanation of the `Object.freeze()` method and how i
 
 The `Object.freeze()` method in JavaScript is used to freeze an object. This means that you cannot add new properties, remove existing ones, or modify the attributes of the existing properties such as their configurability, enumerability, or writability.
 
-#### Key Characteristics of `Object.freeze()`:
+#### Key Characteristics of `Object.freeze()`
+
 - **Prevents Adding New Properties**: You cannot add new properties to a frozen object.
 - **Prevents Deleting Existing Properties**: You cannot delete existing properties from a frozen object.
 - **Prevents Modifying Property Attributes**: It makes all the existing properties non-configurable (i.e., you cannot change their descriptors such as `writable`, `enumerable`, or `configurable`).
@@ -38,6 +39,7 @@ console.log(user.employment.department); // "HR"
 ### 3. **Why Use `Object.freeze()`?**
 
 You might want to use `Object.freeze()` when:
+
 - You want to ensure that the structure of an object does not change, either accidentally or intentionally. This is useful in situations where an object is shared among different parts of a program, and you want to maintain its integrity (e.g., configuration objects or settings).
 - When you're following the principles of immutability in functional programming, where data should not be mutated after it is created.
 
@@ -49,7 +51,7 @@ In some ways, `Object.freeze()` acts similarly to the `final` keyword in other p
 
 As noted, `Object.freeze()` only applies a **shallow freeze**. It doesn't freeze nested objects within the frozen object. This means that while the properties of the top-level object become immutable, any nested objects inside it remain mutable.
 
-#### Example of Shallow Freezing:
+#### Example of Shallow Freezing
 
 ```javascript
 const obj = {
@@ -111,7 +113,7 @@ Both `Object.freeze()` and `Object.seal()` prevent modifications to objects, but
   - Prevents adding and deleting properties.
   - Allows modification of existing properties as long as they are writable. However, it prevents changing the descriptors of existing properties (e.g., making them non-writable).
 
-#### Example:
+#### Example
 
 ```javascript
 const frozenObj = Object.freeze({ username: 'johnsmith' });
@@ -123,12 +125,12 @@ console.log(frozenObj.username); // 'johnsmith'
 console.log(sealedObj.username); // 'jsmith'
 ```
 
-#### Summary of Key Differences:
+#### Summary of Key Differences
 
 | Method            | Add Property | Delete Property | Modify Property | Modify Descriptor |
-|-------------------|--------------|-----------------|-----------------|-------------------|
-| `Object.freeze()`  | No           | No              | No              | No                |
-| `Object.seal()`    | No           | No              | Yes             | No                |
+| ----------------- | ------------ | --------------- | --------------- | ----------------- |
+| `Object.freeze()` | No           | No              | No              | No                |
+| `Object.seal()`   | No           | No              | Yes             | No                |
 
 ---
 
@@ -153,7 +155,7 @@ console.log(Object.isSealed(obj)); // true
 
 You can also freeze `Set` and `Map` objects to prevent changes to their structure. However, you cannot modify the internal values, even though `Set` and `Map` objects are designed to be mutable.
 
-#### Example with a Frozen `Set`:
+#### Example with a Frozen `Set`
 
 ```javascript
 const frozenSet = iterable => {
@@ -169,7 +171,7 @@ mySet.add(4); // Does nothing, because the `add` method is undefined
 console.log(mySet); // Set { 1, 2, 3 }
 ```
 
-#### Example with a Frozen `Map`:
+#### Example with a Frozen `Map`
 
 ```javascript
 const frozenMap = iterable => {
@@ -195,3 +197,103 @@ console.log(myMap); // Map { 'a' => 1, 'b' => 2 }
 - **Checking immutability** can be done using `Object.isFrozen()` and `Object.isSealed()`.
 
 Using `Object.freeze()` or `Object.seal()` can be an important tool in managing the mutability of your data, especially in large applications where immutability helps avoid bugs and makes the codebase more predictable and maintainable.
+
+`Object.freeze()` is a built-in JavaScript method that makes an object **shallowly immutable**. Once frozen, no modifications can be made to the object's direct properties.
+
+---
+
+**What `Object.freeze()` Prevents**
+
+- ❌ **Adding** new properties
+- ❌ **Removing** existing properties (`delete obj.prop`)
+- ❌ **Changing** values of existing properties
+- ❌ **Changing** property descriptors (`writable`, `enumerable`, `configurable`)
+- ❌ **Changing** the object's prototype
+
+```javascript
+const user = Object.freeze({
+  name: "Alice",
+  age: 25
+});
+
+user.age = 26;       // Fails (ignored in sloppy mode, TypeError in strict mode)
+user.role = "admin"; // Fails
+delete user.name;    // Fails
+
+console.log(user);   // { name: "Alice", age: 25 }
+
+```
+
+---
+
+**Under the Hood: Property Descriptors**
+
+Calling `Object.freeze(obj)` automatically updates the descriptor of every existing property:
+
+- Sets `writable: false` (values cannot change).
+- Sets `configurable: false` (properties cannot be deleted or reconfigured).
+- Marks the object as non-extensible (no new properties can be added).
+
+---
+
+**The "Shallow" Limitation**
+
+`Object.freeze()` only locks the top-level keys. Nested objects or arrays remain fully mutable because their reference pointers don't change:
+
+```javascript
+const company = Object.freeze({
+  name: "Tech Corp",
+  address: {
+    city: "New York"
+  }
+});
+
+company.name = "New Corp";       // Blocked!
+company.address.city = "Boston"; // Works! (nested object is not frozen)
+
+console.log(company.address.city); // "Boston"
+
+```
+
+---
+
+**Workaround: Recursive Deep Freeze**
+
+To freeze nested structures completely, run a recursive freeze utility:
+
+```javascript
+function deepFreeze(obj) {
+  Object.keys(obj).forEach((key) => {
+    const val = obj[key];
+    if (val !== null && (typeof val === "object" || typeof val === "function")) {
+      deepFreeze(val);
+    }
+  });
+  return Object.freeze(obj);
+}
+
+const secureConfig = deepFreeze({
+  api: { url: "https://api.example.com", port: 443 }
+});
+
+secureConfig.api.port = 80; // Blocked!
+
+```
+
+---
+
+**Checking if an Object is Frozen**
+
+```javascript
+const data = { x: 10 };
+console.log(Object.isFrozen(data)); // false
+
+Object.freeze(data);
+console.log(Object.isFrozen(data)); // true
+```<ElicitationsGroup message="To explore JavaScript object protection mechanisms further:">
+
+  <Elicitation label="Compare Object.freeze vs Object.seal vs Object.preventExtensions" query="Compare Object.freeze, Object.seal, and Object.preventExtensions with differences and examples."/>
+  <Elicitation label="How to make immutable state using JavaScript Proxy" query="How can I create an immutable or read-only object using a JavaScript Proxy?"/>
+</ElicitationsGroup>
+
+```

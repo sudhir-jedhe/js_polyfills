@@ -1,0 +1,256 @@
+A fully accessible Cinema Hall Seat Booking UI in React supporting tier-based pricing (Regular vs. Premium), multi-seat selection, booked seat disabling, total price calculations, and keyboard navigation.
+
+---
+
+### Component Implementation
+
+```tsx
+import React, { useState, useMemo } from 'react';
+
+type SeatStatus = 'available' | 'booked' | 'selected';
+type SeatTier = 'Silver' | 'Platinum';
+
+interface Seat {
+  id: string;
+  row: string;
+  number: number;
+  tier: SeatTier;
+  price: number;
+  isBooked: boolean;
+}
+
+const TIER_PRICES: Record<SeatTier, number> = {
+  Silver: 200,
+  Platinum: 350,
+};
+
+// Generate a 5x8 theater layout
+const ROWS = ['A', 'B', 'C', 'D', 'E'];
+const COLS = 8;
+const PRE_BOOKED_SEATS = new Set(['A3', 'A4', 'C5', 'C6', 'D2']);
+
+const INITIAL_SEATS: Seat[] = ROWS.flatMap((row) =>
+  Array.from({ length: COLS }, (_, index) => {
+    const seatNumber = index + 1;
+    const id = `${row}${seatNumber}`;
+    const tier: SeatTier = row === 'A' || row === 'B' ? 'Platinum' : 'Silver';
+
+    return {
+      id,
+      row,
+      number: seatNumber,
+      tier,
+      price: TIER_PRICES[tier],
+      isBooked: PRE_BOOKED_SEATS.has(id),
+    };
+  })
+);
+
+export const CinemaSeatBooking: React.FC = () => {
+  const [selectedSeatIds, setSelectedSeatIds] = useState<string[]>([]);
+  const [isConfirmed, setIsConfirmed] = useState<boolean>(false);
+
+  const toggleSeatSelection = (seat: Seat) => {
+    if (seat.isBooked || isConfirmed) return;
+
+    setSelectedSeatIds((prev) =>
+      prev.includes(seat.id)
+        ? prev.filter((id) => id !== seat.id)
+        : [...prev, seat.id]
+    );
+  };
+
+  const { totalPrice, selectedSeatsList } = useMemo(() => {
+    const selected = INITIAL_SEATS.filter((s) => selectedSeatIds.includes(s.id));
+    const total = selected.reduce((sum, s) => sum + s.price, 0);
+    return { totalPrice: total, selectedSeatsList: selected };
+  }, [selectedSeatIds]);
+
+  const getSeatColor = (seat: Seat, isSelected: boolean) => {
+    if (seat.isBooked) return '#94a3b8'; // gray
+    if (isSelected) return '#22c55e'; // green
+    if (seat.tier === 'Platinum') return '#818cf8'; // purple
+    return '#e2e8f0'; // slate
+  };
+
+  return (
+    <div
+      style={{
+        maxWidth: '540px',
+        margin: '24px auto',
+        padding: '24px',
+        backgroundColor: '#0f172a',
+        borderRadius: '16px',
+        color: '#f8fafc',
+        fontFamily: 'sans-serif',
+        boxShadow: '0 10px 30px rgba(0,0,0,0.4)',
+      }}
+    >
+      <h2 style={{ textAlign: 'center', margin: '0 0 16px 0', fontSize: '22px' }}>
+        Select Your Seats
+      </h2>
+
+      {/* Screen Curved Indicator */}
+      <div style={{ margin: '20px 0 32px 0', textAlign: 'center' }}>
+        <div
+          style={{
+            height: '6px',
+            width: '80%',
+            margin: '0 auto 8px auto',
+            backgroundColor: '#38bdf8',
+            borderRadius: '50%',
+            boxShadow: '0 4px 16px rgba(56, 189, 248, 0.6)',
+          }}
+          aria-hidden="true"
+        />
+        <span style={{ fontSize: '12px', color: '#64748b', letterSpacing: '2px' }}>
+          ALL EYES THIS WAY (SCREEN)
+        </span>
+      </div>
+
+      {/* Seat Matrix */}
+      <div
+        role="group"
+        aria-label="Cinema Hall Seating Plan"
+        style={{
+          display: 'flex',
+          flexDirection: 'column',
+          gap: '10px',
+          alignItems: 'center',
+          marginBottom: '24px',
+        }}
+      >
+        {ROWS.map((row) => (
+          <div key={row} style={{ display: 'flex', gap: '8px', alignItems: 'center' }}>
+            <span style={{ width: '20px', fontSize: '13px', color: '#94a3b8', fontWeight: 'bold' }}>
+              {row}
+            </span>
+
+            {INITIAL_SEATS.filter((s) => s.row === row).map((seat, idx) => {
+              const isSelected = selectedSeatIds.includes(seat.id);
+
+              return (
+                <React.Fragment key={seat.id}>
+                  {/* Walkway gap between seat 4 and 5 */}
+                  {idx === 4 && <div style={{ width: '16px' }} aria-hidden="true" />}
+
+                  <button
+                    type="button"
+                    role="checkbox"
+                    aria-checked={isSelected}
+                    aria-disabled={seat.isBooked}
+                    disabled={seat.isBooked}
+                    aria-label={`Seat ${seat.id}, ${seat.tier} Tier, ₹${seat.price}${
+                      seat.isBooked ? ', Already Booked' : ''
+                    }`}
+                    onClick={() => toggleSeatSelection(seat)}
+                    style={{
+                      width: '34px',
+                      height: '34px',
+                      borderRadius: '8px 8px 3px 3px',
+                      border: 'none',
+                      backgroundColor: getSeatColor(seat, isSelected),
+                      color: isSelected || seat.isBooked ? '#fff' : '#0f172a',
+                      fontWeight: 600,
+                      fontSize: '11px',
+                      cursor: seat.isBooked ? 'not-allowed' : 'pointer',
+                      transition: 'transform 0.15s ease, background-color 0.15s ease',
+                      transform: isSelected ? 'scale(1.1)' : 'scale(1)',
+                    }}
+                  >
+                    {seat.number}
+                  </button>
+                </React.Fragment>
+              );
+            })}
+          </div>
+        ))}
+      </div>
+
+      {/* Legend Indicator */}
+      <div
+        style={{
+          display: 'flex',
+          justifyContent: 'center',
+          gap: '16px',
+          padding: '12px',
+          backgroundColor: '#1e293b',
+          borderRadius: '8px',
+          fontSize: '12px',
+          marginBottom: '20px',
+          color: '#cbd5e1',
+        }}
+      >
+        <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+          <div style={{ width: '14px', height: '14px', backgroundColor: '#e2e8f0', borderRadius: '3px' }} />
+          <span>Silver (₹200)</span>
+        </div>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+          <div style={{ width: '14px', height: '14px', backgroundColor: '#818cf8', borderRadius: '3px' }} />
+          <span>Platinum (₹350)</span>
+        </div>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+          <div style={{ width: '14px', height: '14px', backgroundColor: '#22c55e', borderRadius: '3px' }} />
+          <span>Selected</span>
+        </div>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+          <div style={{ width: '14px', height: '14px', backgroundColor: '#94a3b8', borderRadius: '3px' }} />
+          <span>Booked</span>
+        </div>
+      </div>
+
+      {/* Checkout Summary Footer */}
+      <div
+        style={{
+          display: 'flex',
+          justifyContent: 'space-between',
+          alignItems: 'center',
+          paddingTop: '16px',
+          borderTop: '1px solid #334155',
+        }}
+      >
+        <div>
+          <div style={{ fontSize: '12px', color: '#94a3b8' }}>
+            {selectedSeatsList.length > 0
+              ? `Selected: ${selectedSeatsList.map((s) => s.id).join(', ')}`
+              : 'No seats selected'}
+          </div>
+          <div style={{ fontSize: '20px', fontWeight: 'bold', color: '#38bdf8' }}>
+            ₹{totalPrice}
+          </div>
+        </div>
+
+        <button
+          type="button"
+          disabled={selectedSeatIds.length === 0 || isConfirmed}
+          onClick={() => setIsConfirmed(true)}
+          style={{
+            padding: '10px 20px',
+            backgroundColor: isConfirmed ? '#16a34a' : '#38bdf8',
+            color: isConfirmed ? '#fff' : '#0f172a',
+            border: 'none',
+            borderRadius: '8px',
+            fontWeight: 'bold',
+            fontSize: '14px',
+            cursor: selectedSeatIds.length === 0 ? 'not-allowed' : 'pointer',
+            opacity: selectedSeatIds.length === 0 ? 0.5 : 1,
+            transition: 'background-color 0.2s ease',
+          }}
+        >
+          {isConfirmed ? 'Booking Confirmed! 🎉' : `Pay ₹${totalPrice}`}
+        </button>
+      </div>
+    </div>
+  );
+};
+
+```
+
+---
+
+### Key Features & Accessibility Details
+
+* **`role="checkbox"` + `aria-checked**`: Informs assistive technologies whether each individual seat toggle is currently selected.
+* **`aria-disabled` & `disabled**`: Disables booked seats from mouse clicks and prevents keyboard focus traversal onto unavailable elements.
+* **Dynamic `aria-label**`: Screen readers announce full descriptive context per seat (e.g., *"Seat A2, Platinum Tier, ₹350, Already Booked"*).
+* **Walkway Layout**: Uses index-based spacer elements to separate left and right seating aisles cleanly.

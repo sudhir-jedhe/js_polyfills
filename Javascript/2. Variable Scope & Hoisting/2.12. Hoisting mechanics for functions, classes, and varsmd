@@ -1,0 +1,164 @@
+Hoisting is JavaScript's compile-time process where the engine registers identifier declarations in their respective **Environment Record** before executing any code line-by-line.
+
+While the declarations themselves are hoisted to the top of their enclosing scope, **how they are initialized** varies significantly across `function`, `var`, `let`/`const`, and `class`.
+
+---
+
+### Core Comparison Matrix
+
+| Construct                                      | Hoisted?                     | Initial Value at Scope Entry         | Access Before Declaration Line                         |
+| ---------------------------------------------- | ---------------------------- | ------------------------------------ | ------------------------------------------------------ |
+| **`function` (Declaration)**                   | **Yes**                      | Fully initialized with function body | **Works** (Callable immediately)                       |
+| **`var`**                                      | **Yes**                      | `undefined`                          | **Returns `undefined**`                                |
+| **`let` / `const**`                            | **Yes**                      | *Uninitialized* (Temporal Dead Zone) | Throws `ReferenceError`                                |
+| **`class` (Declaration)**                      | **Yes**                      | *Uninitialized* (Temporal Dead Zone) | Throws `ReferenceError`                                |
+| **Function Expressions (`var`/`let` / arrow)** | **Follows variable keyword** | Depends on `var` vs `let`/`const`    | Throws `TypeError` (`var`) or `ReferenceError` (`let`) |
+
+---
+
+### 1. Function Declarations (Full Hoisting)
+
+Function declarations are hoisted with their **entire implementation attached**. The identifier is bound and fully defined during the creation phase of the execution context.
+
+```javascript
+greet(); // ✅ Logs: "Hello!"
+
+function greet() {
+  console.log("Hello!");
+}
+
+```
+
+#### Function Declaration vs. Function Overwriting
+
+If a function declaration and a `var` share the exact same identifier, the function declaration takes precedence during hoisting:
+
+```javascript
+console.log(typeof item); // "function"
+
+var item = "text";
+function item() {}
+
+console.log(typeof item); // "string" (reassigned during execution phase)
+
+```
+
+---
+
+### 2. `var` Declarations (Declaration Hoisted, Initialization Kept in Place)
+
+With `var`, the declaration is hoisted to the enclosing function or global scope and immediately initialized to **`undefined`**. The actual assignment happens when the thread reaches that line during the execution phase.
+
+```javascript
+console.log(user); // undefined (declaration hoisted & initialized to undefined)
+
+var user = "Alex";
+
+console.log(user); // "Alex"
+
+```
+
+#### Function Expressions Assigned to `var`
+
+Because only the variable binding is hoisted to `undefined`, calling a `var`-assigned function expression before its assignment results in a `TypeError`, not a `ReferenceError`:
+
+```javascript
+calculateTotal(); // ❌ TypeError: calculateTotal is not a function
+
+var calculateTotal = function () {
+  return 100;
+};
+
+```
+
+---
+
+### 3. `let` and `const` (Hoisted into Temporal Dead Zone)
+
+`let` and `const` are hoisted to the top of their enclosing block (`{ ... }`), but they remain **uninitialized** in the declarative environment record.
+
+The space between the start of the block and the declaration line is the **Temporal Dead Zone (TDZ)**:
+
+```javascript
+{
+  // TDZ for `count` starts here
+  // console.log(count); // ❌ ReferenceError: Cannot access 'count' before initialization
+
+  let count = 42; // TDZ ends here
+  console.log(count); // 42
+}
+
+```
+
+* **Proof that `let` is hoisted:** If `let` were not hoisted, the following code would read the outer `x = "global"`. Instead, the inner `let x` is hoisted, shadows the outer variable, and throws a `ReferenceError`:
+
+```javascript
+let x = "global";
+{
+  console.log(x); // ❌ ReferenceError (inner x is hoisted and in TDZ)
+  let x = "local";
+}
+
+```
+
+---
+
+### 4. Class Declarations (Hoisted into Temporal Dead Zone)
+
+Like `let` and `const`, **classes are hoisted but remain in the TDZ** until evaluated. Instantiating or referencing a class before its declaration line throws a `ReferenceError`.
+
+```javascript
+// ❌ ReferenceError: Cannot access 'User' before initialization
+const admin = new User("admin"); 
+
+class User {
+  constructor(role) {
+    this.role = role;
+  }
+}
+
+const regular = new User("member"); // ✅ Works
+
+```
+
+#### Why Classes Are Not Initialized Immediately
+
+TC39 designed classes this way to avoid major runtime bugs with inheritance (`extends`):
+
+* If a class declaration were fully hoisted like a function declaration, a subclass could be instantiated before its parent class expression or superclass constructor had been evaluated.
+* Keeping classes in the TDZ guarantees that the entire inheritance hierarchy is evaluated in strict declaration order.
+
+---
+
+### 5. Block-Level Function Declarations (ES6+ Web Invariant)
+
+Inside a block scope in **Strict Mode**, function declarations behave like `let` (block-scoped):
+
+```javascript
+"use strict";
+{
+  console.log(typeof getSecret); // "function" (hoisted to top of this block)
+  function getSecret() { return 42; }
+}
+
+console.log(typeof getSecret); // "undefined" (not accessible outside block)
+
+```
+
+*(In legacy Non-Strict Mode, browsers implement legacy compatibility semantics where block-scoped function declarations hoist their binding to the enclosing function scope while retaining block-local assignments).*
+
+---
+
+### Engine Summary Checklist
+
+```
+[ Execution Context Creation Phase ]
+  │
+  ├── 1. Function Declarations: Stored with entire function body in memory.
+  ├── 2. `var` Bindings: Stored and initialized to `undefined`.
+  ├── 3. `let` / `const` / `class`: Stored as uninitialized slots (marked with engine sentinel, e.g. V8's `TheHole`).
+  │
+[ Execution Context Run Phase ]
+  └── Evaluates expressions top-to-bottom; clears TDZ sentinel as declarations execute.
+
+```

@@ -230,3 +230,79 @@ console.log({} + []); // 0 (in some browser consoles) or "[object Object]"
 ### The Golden Rule to Avoid Coercion Bugs
 
 Always use **Strict Equality (`===`)** instead of Abstract Equality (`==`). Strict equality skips type coercion entirely and checks whether the types and values are identical, eliminating these edge cases.
+
+**`==` (Loose Equality)** compares values **after** converting them to a common type (implicit type coercion), while **`===` (Strict Equality)** compares both **value and data type** without converting types.
+
+---
+
+**Key Differences at a Glance**
+
+| Feature            | `==` (Loose Equality)                       | `===` (Strict Equality)              |
+| ------------------ | ------------------------------------------- | ------------------------------------ |
+| **Type Coercion**  | Yes (converts types if different)           | No (returns `false` if types differ) |
+| **Performance**    | Slightly slower due to conversion steps     | Faster (direct comparison)           |
+| **Predictability** | Low (can produce counter-intuitive results) | High (deterministic behavior)        |
+| **Default Choice** | Avoid (except `val == null` checks)         | **Standard best practice**           |
+
+---
+
+**Side-by-Side Comparison Examples**
+
+```javascript
+// Number vs String
+5 == "5";   // true  (string "5" is coerced to number 5)
+5 === "5";  // false (Number !== String)
+
+// Boolean vs Number
+true == 1;   // true  (true is coerced to 1)
+true === 1;  // false (Boolean !== Number)
+
+// null vs undefined
+null == undefined;   // true  (special rule in JS spec)
+null === undefined;  // false (Null !== Undefined)
+
+// Falsy value quirks
+0 == false;  // true  (both coerce to 0)
+0 === false; // false (Number !== Boolean)
+
+"" == 0;     // true  (empty string coerces to 0)
+"" === 0;    // false (String !== Number)
+
+```
+
+---
+
+**Objects and Arrays (Reference Comparison)**
+
+For non-primitive types (objects, arrays, functions), both `==` and `===` check for **reference equality** (memory address), not structural contents:
+
+```javascript
+const a = [1, 2];
+const b = [1, 2];
+const c = a;
+
+a == b;  // false (distinct memory references)
+a === b; // false (distinct memory references)
+
+a === c; // true  (both point to the exact same object in memory)
+
+```
+
+---
+
+**The One Valid Use Case for `==**`
+
+Checking for both `null` and `undefined` in a single statement:
+
+```javascript
+// This single check:
+if (value == null) {
+  // Runs if value is EITHER null OR undefined
+}
+
+// Is equivalent to:
+if (value === null || value === undefined) {
+  // ...
+}
+
+```

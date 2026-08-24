@@ -1,0 +1,13 @@
+# Interview Q&A: Inheritance, Open Graph, and Sitemaps
+
+**Q: How does metadata merging work across nested layouts — deep merge or shallow merge?**
+A: Shallow merge at the top level: a child segment's metadata object is merged field-by-field over its parent's, so a page setting only `title` still inherits everything else (like `icons`) from the root layout untouched. But specific nested object fields — most notably `openGraph` and `twitter` — are fully replaced, not deep-merged, when a child redefines them; overriding `openGraph` at a page level means you must re-specify every OG field you still want, not just the one you're changing.
+
+**Q: What's the difference between `title: 'Careers'` and `title: { absolute: 'Careers' }` when the parent layout defines a `title.template`?**
+A: A plain string title gets wrapped by the parent's template (e.g., becoming `'Careers | Acme Inc'`); `title.absolute` explicitly bypasses the template, rendering exactly `'Careers'` with no suffix. `absolute` exists for cases like a login page that intentionally wants an untemplated title, but it's easy to misuse by habit/copy-paste on a page that actually wanted the templated version.
+
+**Q: Why would you tag a fetch inside `sitemap.js` with `next: { tags: [...] }` instead of just letting it use a default `revalidate` window?**
+A: A time-based `revalidate` window means new content (a newly published post) won't appear in the sitemap until that window elapses, which could be minutes to hours depending on the setting. Tagging the fetch and calling `revalidateTag(...)` from the actual publish action/webhook makes the sitemap update immediately on publish, rather than on a fixed timer — the right choice whenever "how fresh does the sitemap need to be" is "as fresh as possible," which is usually true for content sites that care about fast indexing of new pages.
+
+**Q: A page correctly shows a product name and image in the browser, but its social share preview shows the site's generic homepage data. What's the most likely root cause, in order of likelihood?**
+A: First, check whether the page uses a static `metadata` export instead of `generateMetadata()` — a static export can't reflect per-product data at all. Second, if `generateMetadata()` exists, check whether it actually sets an `openGraph` object — `title`/`description` alone don't populate `og:title`/`og:image`. Third, check whether the page's `openGraph` override accidentally dropped inherited fields (like `images`) by not re-specifying them. Fourth, rule out the sharing platform simply caching a stale preview from before the fix, requiring a forced re-scrape via that platform's debugger tool.

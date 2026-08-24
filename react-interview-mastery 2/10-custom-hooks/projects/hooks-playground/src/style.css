@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  background: #0f172a;
+  color: #e2e8f0;
+}
+
+.app {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 32px 16px 64px;
+}
+
+h1 {
+  margin-bottom: 8px;
+}
+
+.intro {
+  color: #94a3b8;
+  margin-bottom: 24px;
+}
+
+.card {
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+button {
+  background: #6366f1;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 14px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background: #4f46e5;
+}
+
+input {
+  width: 100%;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #334155;
+  background: #0f172a;
+  color: #e2e8f0;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.count {
+  font-size: 20px;
+  font-weight: 600;
+  min-width: 32px;
+  text-align: center;
+}
+
+.meta {
+  color: #94a3b8;
+  font-size: 13px;
+}
+
+.results {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0 0;
+  max-height: 160px;
+  overflow-y: auto;
+}
+
+.results li {
+  padding: 6px 10px;
+  border-bottom: 1px solid #334155;
+}
+
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background: #1e293b;
+  border-radius: 12px;
+  padding: 24px;
+  max-width: 320px;
+  border: 1px solid #334155;
+}

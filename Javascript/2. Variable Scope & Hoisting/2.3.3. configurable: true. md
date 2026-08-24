@@ -1,0 +1,71 @@
+`configurable: true` means the property can be **deleted** and its descriptor attributes (`writable`, `enumerable`, `configurable`) can be **redefined** later.
+
+When you create a standard property using normal assignment (e.g., `obj.a = 1`), `configurable` defaults to `true`. When using `Object.defineProperty()`, it defaults to `false` unless explicitly set to `true`.
+
+---
+
+**What `configurable: true` Allows**
+
+**1. Deleting the property:**
+
+```javascript
+const user = {};
+
+Object.defineProperty(user, "role", {
+  value: "admin",
+  configurable: true // Allows deletion
+});
+
+delete user.role; // Returns true
+console.log(user.role); // undefined
+
+```
+
+**2. Changing descriptor settings later:**
+
+```javascript
+const config = {};
+
+// Initially defined as read-only (writable: false)
+Object.defineProperty(config, "apiKey", {
+  value: "SECRET_123",
+  writable: false,
+  configurable: true // Allows future descriptor changes
+});
+
+// Since configurable is true, we can toggle writable back to true
+Object.defineProperty(config, "apiKey", {
+  writable: true
+});
+
+config.apiKey = "NEW_KEY"; // Works!
+console.log(config.apiKey); // "NEW_KEY"
+
+```
+
+**3. Switching between data and accessor descriptors:**
+
+```javascript
+const item = {};
+
+Object.defineProperty(item, "price", {
+  value: 100,
+  configurable: true
+});
+
+// Convert standard value into getter/setter
+Object.defineProperty(item, "price", {
+  get() { return "$100"; }
+});
+
+console.log(item.price); // "$100"
+
+```
+
+---
+
+**What Happens If `configurable: false`?**
+
+* `delete obj.prop` fails (returns `false` or throws a `TypeError` in strict mode).
+* Calling `Object.defineProperty()` to change `enumerable`, `configurable`, or to switch between getters/values throws a `TypeError`.
+* **One Exception:** If `configurable: false` but `writable: true`, you can still flip `writable` from `true` to `false` (a one-way lock), but not back to `true`.

@@ -1,0 +1,13 @@
+# Interview Q&A: Choosing the Right Strategy
+
+**Q: You're building a page that's 90% identical for all visitors and 10% personalized. What's the recommended approach — pick one strategy for the whole page, or something else?**
+A: Isolate the personalized 10% into its own component and keep the rest of the page static/ISR. Render the personalized piece via a Client Component that fetches after mount (or, with Partial Prerendering, a Suspense-wrapped dynamic component), rather than letting one small dynamic dependency force `force-dynamic` on the entire route. This avoids paying full per-request server cost for content that's mostly cacheable.
+
+**Q: A junior engineer wants to use SSR for a blog because "it guarantees the content is always fresh." How would you push back?**
+A: Blog posts, once published, typically don't change on every request — SSR here means re-rendering identical output on every single visit, wasting server compute and adding latency for zero freshness benefit. ISR (or SSG plus on-demand `revalidatePath` triggered by the publish action) achieves the same practical freshness — content updates appear without a redeploy — while serving nearly every request from cache. SSR should be reserved for content that's genuinely request-specific or too volatile to safely cache at all, not used as a blanket "just in case" freshness guarantee.
+
+**Q: How do you decide between polling (short-interval `fetch` in `useEffect`) and a persistent connection (WebSocket/SSE) for "live" CSR content?**
+A: It comes down to how frequently updates occur and how important low latency is. Infrequent updates (say, every 30+ seconds) or non-critical freshness are fine with polling — it's simpler to implement and debug, and works over plain HTTP through any proxy. High-frequency updates (sub-second, like a stock ticker) or cases where server-push latency genuinely matters (chat, live collaboration cursors) justify the added complexity of WebSockets or Server-Sent Events, which avoid the overhead and latency of repeated request/response cycles.
+
+**Q: If SEO doesn't matter at all for a given page (e.g., an authenticated internal tool), does that mean CSR is always the right choice?**
+A: Not automatically — SEO is only one factor. Even for non-SEO pages, server-rendering the initial HTML (via SSR or ISR) still improves perceived performance (no blank-screen-then-populate flash) and lets you fetch data closer to your database/backend without a client round-trip. CSR remains the right call specifically when the content is genuinely interactive/live/client-state-driven, not simply whenever SEO is irrelevant.
