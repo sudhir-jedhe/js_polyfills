@@ -1,3 +1,5 @@
+*** copy How do I implement automatic JWT silent refresh with an Axios response interceptor and request queuing?.md ***
+
 Implementing silent JWT refresh with Axios requires solving the **thundering herd** problem: when multiple concurrent requests receive a `401 Unauthorized` because an access token expired, the client must trigger **only one** refresh network call while queuing all other failed requests until the new token is acquired.
 
 ---

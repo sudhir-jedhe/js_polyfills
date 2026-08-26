@@ -1,3 +1,5 @@
+*** copy zip-unzip-array.md ***
+
 You've provided a clear explanation and implementation of both **zipping** and **unzipping** arrays, as well as zipping and unzipping objects. I'll walk through your code and provide some insights and improvements where applicable. These operations are extremely useful in scenarios where you need to pair elements or split combined data into individual components.
 
 ### **Zipping Arrays:**

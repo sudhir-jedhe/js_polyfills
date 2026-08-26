@@ -1,3 +1,5 @@
+*** copy How do I configure custom keyframe animations and easing curves in @theme for Radix UI transitions in Tailwind CSS v4?.md ***
+
 In Tailwind CSS v4, custom keyframe animations and easing curves are declared directly in your CSS using standard `@keyframes` combined with the `--animate-*` and `--ease-*` namespaces in the `@theme` block.
 
 ---

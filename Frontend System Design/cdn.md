@@ -1,3 +1,5 @@
+*** copy cdn.md ***
+
 # Image CDNs and Delivery Infrastructure
 
 For modern frontend applications, image optimisation is no longer just about compression. At scale, you need a **delivery infrastructure** that can:

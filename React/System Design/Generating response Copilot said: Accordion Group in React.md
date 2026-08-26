@@ -1,3 +1,5 @@
+*** copy Generating response Copilot said: Accordion Group in React.md ***
+
 # Accordion Group in React
 
 ### Frontend System Design + Complete Interview-Ready Code

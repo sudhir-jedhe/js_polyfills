@@ -1,3 +1,5 @@
+*** copy interview.md ***
+
 ### 20. Explain how promises can be chained in JavaScript
 
 Promises can be chained by using the `then()` method, which returns a new promise.

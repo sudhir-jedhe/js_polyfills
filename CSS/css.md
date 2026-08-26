@@ -1,3 +1,5 @@
+*** copy css.md ***
+
 CSS Interview Questions and Answers
 CSS interviews test more than vocabulary. They test how the language behaves in production: how layout, specificity, the cascade, responsive design, and animations interact when a page has many components, multiple breakpoints, and elements that have to stay sticky on scroll.
 

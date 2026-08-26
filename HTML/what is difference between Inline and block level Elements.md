@@ -1,3 +1,5 @@
+*** copy what is difference between Inline and block level Elements.md ***
+
 **Inline vs Block Elements in HTML**
 In HTML, elements are categorized into two types based on their layout behavior: inline elements and block-level elements. These two categories behave differently when placed inside a page, affecting their size, placement, and how they interact with other elements.
 

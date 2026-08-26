@@ -1,3 +1,5 @@
+*** copy cheetSheet.md ***
+
 ### **Asynchronous JavaScript Cheat Sheet**
 
 Asynchronous JavaScript allows you to handle tasks like API calls, timers, and other operations that take time without blocking the main thread. This cheat sheet covers core concepts and usage of promises, `async/await`, and other related functions.

@@ -1,3 +1,5 @@
+*** copy How do you handle bidirectional infinite scrolling with prepending and virtualized windowing?.md ***
+
 **Bidirectional infinite scrolling** (common in chat apps like Slack or timeline apps like Twitter) introduces two core engineering challenges:
 
 1. **The Prepending Scroll-Jump Problem:** When older items are prepended to the top of the DOM, the scroll height increases, causing the viewport to visibly jump unless the `scrollTop` offset is adjusted synchronously.

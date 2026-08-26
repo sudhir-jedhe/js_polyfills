@@ -1,3 +1,5 @@
+*** copy Show how to prevent unnecessary re-renders in React Context using the separate State and Dispatch pattern.md ***
+
 When state and updater functions are bundled into a single Context object, **any state change creates a new object reference**, forcing every consuming component to re-render—even components that only use the dispatch function and never read the state.
 
 The **Separate State and Dispatch Pattern** splits data flow into two distinct contexts:

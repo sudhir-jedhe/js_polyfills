@@ -1,3 +1,5 @@
+*** copy index.md ***
+
 const increment = document.getElementById('increment');
 const decrement = document.getElementById('decrement');
 const changeBy = document.getElementById('changeBy');

@@ -1,3 +1,5 @@
+*** copy delete-first-occurrence-of-given-key-from-a-linked-lis.md ***
+
 // Input: list = 1->2->3->5->2->10, key = 2
 // Output: 1->3->5->2->10
 // Explanation: There are two instances of 2. But as per the question we need to delete the first occurrence only.

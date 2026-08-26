@@ -1,3 +1,5 @@
+*** copy InnerRecursiveHelper1.md ***
+
 The approach you're using here is a variation of the `classNames` function where the `classNamesImpl` helper function processes each argument recursively and modifies the top-level `classes` array. This design ensures that the helper function doesn't return anything but directly updates the `classes` array with valid class names.
 
 Here's an explanation of how the function works:

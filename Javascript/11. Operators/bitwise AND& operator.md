@@ -1,3 +1,5 @@
+*** copy bitwise AND& operator.md ***
+
 **How to check if a number is even without using the % or modulo operator?**
 ↑ We can use the bitwise AND& operator for this problem. The & operates on its operand and treats them as binary values and performs the AND operation.
 

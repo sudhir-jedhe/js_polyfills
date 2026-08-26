@@ -1,3 +1,5 @@
+*** copy Why DocType  is important.md ***
+
 **Why Do We Use <!DOCTYPE> in HTML?**
 The <!DOCTYPE> declaration is an essential part of every HTML document. It is not an HTML tag itself, but a declaration that informs the web browser about the version of HTML the page is written in. This helps the browser render the page correctly according to the rules and specifications of that version.
 

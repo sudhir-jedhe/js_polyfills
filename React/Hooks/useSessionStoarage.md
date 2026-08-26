@@ -1,3 +1,5 @@
+*** copy useSessionStoarage.md ***
+
 Here is a production-ready `useSessionStorage` React hook. It mirrors the design of `useLocalStorage`, with initial SSR safety, function updater support, error handling, and same-tab synchronization across multiple components.
 
 ```jsx

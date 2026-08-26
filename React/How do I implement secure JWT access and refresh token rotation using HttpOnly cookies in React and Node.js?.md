@@ -1,3 +1,5 @@
+*** copy How do I implement secure JWT access and refresh token rotation using HttpOnly cookies in React and Node.js?.md ***
+
 Implementing secure JWT authentication with **Refresh Token Rotation (RTR)** requires a split-token architecture:
 
 * **Access Token (Short-lived, ~10–15 min):** Kept exclusively in JavaScript memory (React state/closure) to prevent Cross-Site Scripting (XSS) extraction.

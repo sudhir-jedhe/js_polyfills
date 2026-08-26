@@ -1,3 +1,5 @@
+*** copy prototype.md ***
+
 ### Question 1: `console.log(f.prototype);`
 
 In JavaScript, every function has a `prototype` property, but when you call a function using `new`, you create an instance and the `prototype` of the function is set as the `[[Prototype]]` (i.e., the `__proto__`) of the created instance.

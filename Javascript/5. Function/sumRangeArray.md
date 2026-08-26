@@ -1,3 +1,5 @@
+*** copy sumRangeArray.md ***
+
 ### Understanding the `NumArray` class implementation
 
 The code you provided defines a `NumArray` class that computes the sum of elements in a given range using a **prefix sum** technique. This approach significantly reduces the time complexity of repeated sum calculations by preprocessing the input array.

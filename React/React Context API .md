@@ -1,3 +1,5 @@
+*** copy React Context API .md ***
+
 The primary performance issue with React Context is that **whenever a Context Provider's value changes, *every* component that calls `useContext(MyContext)` will re-render**, even if it only uses a property that didn't change.
 
 Here are the 4 essential patterns to optimize React Context and eliminate wasteful re-renders.

@@ -1,3 +1,5 @@
+*** copy instanceOf.md ***
+
 ### JavaScript Quiz and Explanation
 
 Let's break down the questions and code you've shared to explain what is happening in each case.

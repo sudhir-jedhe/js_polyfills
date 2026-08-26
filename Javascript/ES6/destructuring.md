@@ -1,3 +1,5 @@
+*** copy destructuring.md ***
+
 The destructuring assignment syntax in JavaScript is indeed a powerful feature that allows you to easily unpack values from arrays and objects. You’ve provided an excellent breakdown with several examples, but let’s further clarify and add more advanced scenarios to make the concept even more approachable. I’ll expand on the examples and explain each part in detail.
 
 ### 1. **Array Destructuring**

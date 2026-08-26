@@ -1,3 +1,5 @@
+*** copy binarySearch.md ***
+
 function bsearch(arr, l, r, x) {
     if (r >= l) {
         let mid = l + Math.floor((r - l) / 2);

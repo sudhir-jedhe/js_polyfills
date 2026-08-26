@@ -1,3 +1,5 @@
+*** copy output.md ***
+
 ### Output for the provided code snippets:
 
 ---

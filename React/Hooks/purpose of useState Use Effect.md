@@ -1,3 +1,5 @@
+*** copy purpose of useState Use Effect.md ***
+
 In React, **`useState`** and **`useEffect`** are two of the most commonly used **Hooks** that enable you to manage state and side effects in functional components. Prior to React 16.8, managing state and side effects required class components. However, with the introduction of Hooks, functional components became more powerful and flexible, enabling them to handle state and side effects without the need for class components.
 
 ### **1. `useState` Hook:**

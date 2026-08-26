@@ -1,3 +1,5 @@
+*** copy array-rotation.md ***
+
 ```js
 // array left rotation by d positions.
 /*

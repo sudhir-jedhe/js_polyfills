@@ -1,3 +1,5 @@
+*** copy utils.md ***
+
 ```js
 const isFunction = (func: any) => typeof func === "function";
 ```

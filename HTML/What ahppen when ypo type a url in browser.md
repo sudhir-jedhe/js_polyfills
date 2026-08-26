@@ -1,3 +1,5 @@
+*** copy What ahppen when ypo type a url in browser.md ***
+
 **When you type a URL into a browser**, a series of steps occur behind the scenes to retrieve and display the web page. Here is a breakdown of the process:
 
 **1. Browser Parsing the URL**

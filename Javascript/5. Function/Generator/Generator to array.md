@@ -1,3 +1,5 @@
+*** copy Generator to array.md ***
+
 The provided code uses the `generatorToArray` utility function to convert an iterable (such as a generator or other iterables like a `Set` or `Map`) into an array using the spread syntax (`...`).
 
 However, there is an issue with the provided example: `s.entries()` returns an iterator, but the iterator's structure for a `Set` might not match the expected behavior. For a `Set`, `.entries()` returns an iterator where each element is `[value, value]` (since `Set` values are unique and do not have keys like an object or `Map`).

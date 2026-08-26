@@ -1,3 +1,5 @@
+*** copy jsinterviewQuestion.md ***
+
 // 𝗕𝗮𝘀𝗶𝗰 𝗖𝗼𝗻𝗰𝗲𝗽𝘁𝘀:
 // 1. What is JavaScript?
 // 2. What are the different data types in JavaScript?

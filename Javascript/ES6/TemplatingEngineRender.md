@@ -1,3 +1,5 @@
+*** copy TemplatingEngineRender.md ***
+
 The function you have written is a simple templating engine that allows you to replace variables and handle conditionals in templates. It works by:
 
 1. **Replacing variables** in the template with values from a `context` object.

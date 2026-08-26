@@ -1,3 +1,5 @@
+*** copy How do I build a TypeScript build script to calculate linear clamp() formulas from pixel inputs for Tailwind v4 @theme?.md ***
+
 To calculate linear CSS `clamp()` formulas automatically, use the slope-intercept equation ($y = mx + b$) to interpolate between minimum and maximum viewport bounds.
 
 ---

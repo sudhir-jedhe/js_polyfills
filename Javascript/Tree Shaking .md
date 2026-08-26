@@ -1,3 +1,5 @@
+*** copy Tree Shaking .md ***
+
 **Tree Shaking** is a dead-code elimination technique used by modern JavaScript bundlers (like Vite, Rollup, Webpack, and Esbuild) to remove unused exports from your final production bundle.
 
 The term comes from the metaphor of shaking a physical tree: dead leaves (unused functions, classes, or variables) fall off, leaving only the living code behind.

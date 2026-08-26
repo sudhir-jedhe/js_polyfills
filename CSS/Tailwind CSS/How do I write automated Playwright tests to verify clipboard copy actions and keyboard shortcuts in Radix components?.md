@@ -1,3 +1,5 @@
+*** copy How do I write automated Playwright tests to verify clipboard copy actions and keyboard shortcuts in Radix components?.md ***
+
 Testing clipboard copy actions and keyboard interactions in Playwright requires two key steps:
 
 1. **Granting Browser Clipboard Permissions:** Enabling `clipboard-read` and `clipboard-write` on the browser context.

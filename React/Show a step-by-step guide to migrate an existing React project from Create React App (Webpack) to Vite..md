@@ -1,3 +1,5 @@
+*** copy Show a step-by-step guide to migrate an existing React project from Create React App (Webpack) to Vite..md ***
+
 Migrating from **Create React App (CRA)** to **Vite** significantly reduces cold server startup times and provides instantaneous Hot Module Replacement (HMR).
 
 Here is a step-by-step guide to migrating your React project.

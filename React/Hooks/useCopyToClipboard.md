@@ -1,3 +1,5 @@
+*** copy useCopyToClipboard.md ***
+
 Here is a production-ready `useCopyToClipboard` React hook. It uses the modern `navigator.clipboard` API, provides an automatic temporary success state (perfect for "Copied!" tooltips), and ensures safe timer cleanup if the component unmounts.
 
 ```jsx

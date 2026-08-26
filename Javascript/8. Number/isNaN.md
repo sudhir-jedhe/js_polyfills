@@ -1,3 +1,5 @@
+*** copy isNaN.md ***
+
 Here’s a breakdown of the code and what it outputs:
 
 ### Code Analysis and Outputs

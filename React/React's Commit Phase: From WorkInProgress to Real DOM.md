@@ -1,3 +1,5 @@
+*** copy React's Commit Phase: From WorkInProgress to Real DOM.md ***
+
 Here is a clean, structured technical reference guide detailing the **Commit Phase**, its fundamental architectural guarantees, and its 4 sequential sub-phases.
 
 ---

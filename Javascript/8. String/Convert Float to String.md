@@ -1,3 +1,5 @@
+*** copy Convert Float to String.md ***
+
 ```js
 const floatValue = 1000.25;
 const strValue = floatValue.toLocaleString();

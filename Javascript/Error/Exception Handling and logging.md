@@ -1,3 +1,5 @@
+*** copy Exception Handling and logging.md ***
+
 ## **Exception Handling and Logging in JavaScript**
 
 In JavaScript, exception handling and logging are essential for managing errors and debugging code. Proper exception handling allows your code to gracefully handle runtime errors without crashing, while logging provides insights into the flow of the application and helps in diagnosing issues.

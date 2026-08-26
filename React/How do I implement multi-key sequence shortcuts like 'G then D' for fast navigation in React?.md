@@ -1,3 +1,5 @@
+*** copy How do I implement multi-key sequence shortcuts like 'G then D' for fast navigation in React?.md ***
+
 Multi-key sequences (like GitHub or Gmail’s `g` then `d` to go to dashboard) require a **timed buffer state machine**.
 
 The implementation needs to:

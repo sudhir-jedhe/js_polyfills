@@ -1,3 +1,5 @@
+*** copy Server Functions.md ***
+
 **Server Functions** (often referred to as Server Actions) are asynchronous functions defined in React that execute securely on the server. They allow client-side components to seamlessly invoke server-side logic (such as database mutations, authentication, or file uploads) without needing to manually write, wire up, or maintain separate REST/GraphQL API endpoints.
 
 ---

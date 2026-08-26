@@ -1,3 +1,5 @@
+*** copy multiple API calls concurrently.md ***
+
 To make multiple API calls concurrently in React and improve performance, you can use JavaScript’s built-in `Promise.all()` or `Promise.allSettled()` to run the API calls in parallel. This way, the requests are fired at the same time, and the component waits for all of them to finish before rendering the results.
 
 Here's how to implement this in a React component:

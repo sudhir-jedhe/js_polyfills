@@ -1,3 +1,5 @@
+*** copy forIn.md ***
+
 ### 1. **Using `for...in` with Arrays:**
 
 In this example, you're using the `for...in` loop to iterate over the `words` array. Let's break it down:

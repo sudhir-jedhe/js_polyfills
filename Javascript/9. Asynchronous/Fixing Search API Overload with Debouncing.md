@@ -1,3 +1,5 @@
+*** copy Fixing Search API Overload with Debouncing.md ***
+
 ## Fixing Search API Overload with Debouncing
 
 When a search API is triggered on every single keystroke, it creates a flood of redundant network requests, wastes server resources, and causes noticeable UI lag.

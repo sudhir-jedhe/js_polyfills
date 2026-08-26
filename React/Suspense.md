@@ -1,3 +1,5 @@
+*** copy Suspense.md ***
+
 **`<Suspense>`** is a built-in React component that lets you display a fallback UI (like a loading spinner or skeleton) while its child component tree is waiting for something to load.
 
 It is the cornerstone of React's concurrent architecture, seamlessly handling asynchronous data loading (such as Server Components, lazy-loaded components, or data-fetching libraries like Relay/TanStack Query).

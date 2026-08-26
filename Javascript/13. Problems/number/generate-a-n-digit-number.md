@@ -1,3 +1,5 @@
+*** copy generate-a-n-digit-number.md ***
+
 ```js
 function gfg() {
   // 5digit

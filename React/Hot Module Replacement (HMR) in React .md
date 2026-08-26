@@ -1,3 +1,5 @@
+*** copy Hot Module Replacement (HMR) in React .md ***
+
 Ever wondered how developers make instant updates to their React apps? It’s all thanks to Hot Module Replacement (HMR)! 🔥
 
 🔧 HMR lets you see changes in your code immediately in the browser, without refreshing the whole page. It’s like editing your app live! 🌟

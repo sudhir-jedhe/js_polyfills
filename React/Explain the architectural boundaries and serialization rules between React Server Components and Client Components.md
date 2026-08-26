@@ -1,3 +1,5 @@
+*** copy Explain the architectural boundaries and serialization rules between React Server Components and Client Components.md ***
+
 **React Server Components (RSC)** introduce a hybrid execution model where components run in two fundamentally distinct environments: the **Server** (Node.js, Edge runtimes) and the **Client** (Browser DOM).
 
 Understanding the **Architectural Boundaries** and **Serialization Rules** between these environments is essential for building scalable, secure React applications (e.g., in Next.js App Router).

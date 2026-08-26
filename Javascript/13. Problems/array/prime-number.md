@@ -1,3 +1,5 @@
+*** copy prime-number.md ***
+
 ```js
 Prime Number: A number that is divisble by only 1 and itself.
 

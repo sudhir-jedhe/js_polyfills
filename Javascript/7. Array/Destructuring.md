@@ -1,3 +1,5 @@
+*** copy Destructuring.md ***
+
 In JavaScript, **array destructuring** allows you to unpack values from arrays into individual variables. This can make your code more concise and readable when working with arrays. Here’s a guide to destructuring arrays in JavaScript:
 
 ### 1. **Basic Array Destructuring**

@@ -1,3 +1,5 @@
+*** copy How does the ownKeys trap work alongside getOwnPropertyDescriptor during Object.keys() and object spreading?.md ***
+
 When performing operations like `Object.keys(proxy)`, `Object.values(proxy)`, `Object.entries(proxy)`, `Object.assign({}, proxy)`, or object spreading (`{ ...proxy }`), the JavaScript engine does **not** rely on a single trap.
 
 Instead, it executes a standardized **two-phase protocol** combining `ownKeys` and `getOwnPropertyDescriptor`.

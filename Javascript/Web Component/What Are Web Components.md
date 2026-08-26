@@ -1,3 +1,5 @@
+*** copy What Are Web Components.md ***
+
 ## **What Are Web Components?**
 
 Web Components are a set of web platform APIs that allow you to create reusable, encapsulated custom elements (components) that can be used across web applications or websites. They enable developers to build modular, maintainable, and reusable pieces of UI with their own custom behavior, style, and structure, while avoiding the interference of global styles or scripts.

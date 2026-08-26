@@ -1,3 +1,5 @@
+*** copy indexOf.md ***
+
 ### 1. **Custom `indexOf` Implementation**
 
 You’ve implemented a custom `indexOf` method on the `Array.prototype` that mimics the behavior of the native `indexOf`. Let's break it down:

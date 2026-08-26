@@ -1,3 +1,5 @@
+*** copy promise.reject.md ***
+
 ```js
 //Promise.reject
 let promise = new Promise((resolve, reject) => {

@@ -1,3 +1,5 @@
+*** copy How to evaluate multiple expressions in one line.md ***
+
 **How to evaluate multiple expressions in one line?**
 
 ↑We can use the , or comma operator to evaluate multiple expressions in one line. It evaluates from left-to-right and returns the value of the last item on the right or the last operand.

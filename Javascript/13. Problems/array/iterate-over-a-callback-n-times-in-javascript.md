@@ -1,3 +1,5 @@
+*** copy iterate-over-a-callback-n-times-in-javascript.md ***
+
 ```js
 // callback function that print pattern
 function factor(n) {

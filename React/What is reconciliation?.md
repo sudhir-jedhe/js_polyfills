@@ -1,3 +1,5 @@
+*** copy What is reconciliation?.md ***
+
 **Reconciliation** is the core algorithm React uses to determine **what parts of the UI need to change** when a component’s state or props update, and how to update them efficiently.
 
 When you trigger a re-render, React doesn't blindly wipe out the entire Document Object Model (DOM) and redraw the page from scratch (which would be extremely slow). Instead, it uses reconciliation to compare the old UI tree with the new UI tree and apply only the surgical changes required.

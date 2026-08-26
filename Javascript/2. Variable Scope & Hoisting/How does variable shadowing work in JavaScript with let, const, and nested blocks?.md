@@ -1,3 +1,5 @@
+*** copy How does variable shadowing work in JavaScript with let, const, and nested blocks?.md ***
+
 **Variable Shadowing** occurs when a variable declared within an inner scope (such as a block or function) shares the exact same name as a variable declared in an outer scope.
 
 The inner variable **"shadows" (hides)** the outer variable within that block. While executing inside the inner block, the JavaScript engine resolves the identifier to the local variable, leaving the outer variable untouched.

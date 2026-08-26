@@ -1,3 +1,5 @@
+*** copy Implement a Web Worker thread pool in React.md ***
+
 Building a **Web Worker Thread Pool** in React allows you to run multiple heavy tasks in parallel across CPU cores using `navigator.hardwareConcurrency`, while queuing tasks when all workers are saturated.
 
 ---

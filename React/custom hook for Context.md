@@ -1,3 +1,5 @@
+*** copy custom hook for Context.md ***
+
 Here is a complete, production-ready pattern for creating a React Context. It includes the Provider, the `useMemo` optimization to prevent render thrashing, and a custom hook with strict error handling.
 
 ```jsx

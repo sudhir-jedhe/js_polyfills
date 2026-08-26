@@ -1,3 +1,5 @@
+*** copy How do you implement the Stale-While-Revalidate (SWR) caching strategy in JavaScript?.md ***
+
 The **Stale-While-Revalidate (SWR)** caching strategy follows a specific contract:
 
 1. **Cache Hit (Fresh):** If data is fresh, return it immediately without background work.

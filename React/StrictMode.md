@@ -1,3 +1,5 @@
+*** copy StrictMode.md ***
+
 **`<StrictMode>`** is a development-only tool designed to help you catch subtle bugs, impure functions, and deprecated APIs in your component tree before they make it to production.
 
 It does **not** render any visible UI of its own, and it has **zero impact on production builds**—all checks and double-invocations are automatically stripped out when you build your app for production.

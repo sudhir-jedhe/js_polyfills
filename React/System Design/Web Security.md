@@ -1,3 +1,5 @@
+*** copy Web Security.md ***
+
 # Web Security — Complete Senior Frontend / Full-Stack Interview Deep Dive
 
 Web security is one of the most important topics for **Senior Frontend / Full-Stack / Architect** interviews.

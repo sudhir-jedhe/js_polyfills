@@ -1,3 +1,5 @@
+*** copy How does the new ref prop mechanism simplify your code compared to React 18?.md ***
+
 In **React 18 and earlier**, passing a `ref` from a parent component down to a DOM element inside a functional child component required wrapping the child component in the **`forwardRef`** higher-order component (HOC).
 
 In **React 19**, `ref` is now treated as a **standard prop**. You can pass it directly to any functional component just like `className`, `onClick`, or `value`.

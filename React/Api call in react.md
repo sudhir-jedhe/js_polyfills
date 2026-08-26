@@ -1,3 +1,5 @@
+*** copy Api call in react.md ***
+
 In React, you typically call an API to fetch or send data using the **`fetch`** API, **`axios`**, or other HTTP libraries. The most common approach is to make these API calls in **lifecycle methods** (class components) or **hooks** (functional components).
 
 Here are the most common methods to call an API in React, along with the appropriate usage in both class-based and functional components:

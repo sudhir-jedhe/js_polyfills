@@ -1,3 +1,5 @@
+*** copy remove-last-character-from-the-string.md ***
+
 ```js
 function removeCharacter(str) {
   let n = str.length;

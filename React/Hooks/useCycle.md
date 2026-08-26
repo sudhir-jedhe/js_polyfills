@@ -1,3 +1,5 @@
+*** copy useCycle.md ***
+
 # `useCycle` Custom Hook (React)
 
 `useCycle` is popular in **Framer Motion** and cycles through a predefined set of values. Under the hood, it can be implemented using `useState` and an index that wraps back to the beginning when it reaches the end. [\[learnreact.design\]](https://learnreact.design/course-posts/prototyping-react-framer/module6-react-state/6.8-understanding-usecycle)

@@ -1,3 +1,5 @@
+*** copy index.md ***
+
 const getRandomColors = function () {
   var ratio = 0.618033988749895;
 

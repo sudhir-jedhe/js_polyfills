@@ -1,3 +1,5 @@
+*** copy Count_Distinct_Occurrences_as_a_Subsequence.md ***
+
 ```js
 /*
 Counting the distinct occurrences is the most common problem in string manipulation. Subsequences are the 

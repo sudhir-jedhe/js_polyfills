@@ -1,3 +1,5 @@
+*** copy elementIsVisibleInViewport.md ***
+
 Sure! Below is an enhanced version of the `elementIsVisibleInViewport` function with a slight improvement to handle edge cases, as well as examples of throttling the visibility checks to optimize performance.
 
 ### **Enhanced Visibility Check:**

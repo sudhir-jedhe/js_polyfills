@@ -1,3 +1,5 @@
+*** copy The component is re-rendering every time state changes. How do you and define and why?.md ***
+
 When a component re-renders every time its state changes, **this is actually the default and intended behavior of React**.
 
 By design, a state change signals to React that the data driving the user interface has changed. To ensure the UI stays synchronized with the underlying data, React executes the component function again to compute the new Virtual DOM tree.

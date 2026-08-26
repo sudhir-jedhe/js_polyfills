@@ -1,3 +1,5 @@
+*** copy findElementsByStyle.md ***
+
 ```js
 function findElementsByStyle(property, value) {
     const allElements = document.querySelectorAll('*'); // Select all elements

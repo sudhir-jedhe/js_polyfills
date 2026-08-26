@@ -1,3 +1,5 @@
+*** copy BinaryTree.md ***
+
 JavaScript Data Structures - Binary Tree
 
 Definition

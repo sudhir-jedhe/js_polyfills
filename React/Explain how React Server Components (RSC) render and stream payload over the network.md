@@ -1,3 +1,5 @@
+*** copy Explain how React Server Components (RSC) render and stream payload over the network.md ***
+
 ### 1. The Core Architecture: RSC vs. Traditional SSR
 
 To understand how React Server Components (RSC) work, it is critical to distinguish between **SSR** (HTML string generation) and **RSC** (React Virtual DOM tree serialization):

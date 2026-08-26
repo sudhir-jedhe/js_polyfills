@@ -1,3 +1,5 @@
+*** copy toLowerCase.md ***
+
 /\*
 
 The toLowerCase() method returns the value of the string converted to lower case.

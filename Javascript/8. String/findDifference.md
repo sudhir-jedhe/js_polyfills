@@ -1,3 +1,5 @@
+*** copy findDifference.md ***
+
 ```js
 function findTheDifference(s: string, t: string): string {
     const cnt: number[] = Array(26).fill(0);

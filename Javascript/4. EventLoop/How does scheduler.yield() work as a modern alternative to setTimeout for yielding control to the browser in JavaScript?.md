@@ -1,3 +1,5 @@
+*** copy How does scheduler.yield() work as a modern alternative to setTimeout for yielding control to the browser in JavaScript?.md ***
+
 `scheduler.yield()` is part of the modern **Prioritized Task Scheduling API**. It provides an async, promise-based way to yield the main thread back to the browser—allowing user inputs and frame rendering to execute—without the downsides and latency penalties of `setTimeout(fn, 0)`.
 
 ---

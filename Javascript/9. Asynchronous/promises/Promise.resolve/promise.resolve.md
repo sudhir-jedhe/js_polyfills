@@ -1,3 +1,5 @@
+*** copy promise.resolve.md ***
+
 // The Promise.resolve method returns a Promise object that is resolved with a given value.
 
 ```js

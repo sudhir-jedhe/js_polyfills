@@ -1,3 +1,5 @@
+*** copy  Dialog component (Low-Level Design) with Focus Trapping in React?.md ***
+
 Designing an **Accessible Modal / Dialog** (WAI-ARIA Dialog Pattern) requires strictly managing keyboard focus, background interaction, screen reader announcements, and scroll locking.
 
 Without proper Low-Level Design (LLD), modals create severe accessibility gaps—such as "keyboard traps" in reverse, where screen readers or `Tab` keys leak focus into hidden background DOM nodes behind the overlay.

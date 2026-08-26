@@ -1,3 +1,5 @@
+*** copy AirbnbCard.md ***
+
 # Airbnb Card Compound Component (React Context Pattern)
 
 This challenge is a classic **Compound Components + Context API** interview problem where the `Card` component acts as a provider and subcomponents consume only the data they need from Context. This pattern enables flexible composition, implicit state sharing, and allows subcomponents to be rearranged or omitted. [\[dev.to\]](https://dev.to/muhammadazfaraslam/react-design-patterns-compound-component-pattern-2p0a), [\[patterns.dev\]](https://www.patterns.dev/react/compound-pattern/), [\[namastedev.com\]](https://namastedev.com/guides/namaste-react/how-to-implement-the-compound-component-pattern-in-react)

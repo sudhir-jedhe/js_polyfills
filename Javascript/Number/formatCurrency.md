@@ -1,3 +1,5 @@
+*** copy formatCurrency.md ***
+
 The code you've provided is an excellent way to format currency values using the `Intl.NumberFormat` API, which is built into JavaScript for handling internationalization. Let's walk through your code and explain it step by step.
 
 ### Function: `formatCurrency`

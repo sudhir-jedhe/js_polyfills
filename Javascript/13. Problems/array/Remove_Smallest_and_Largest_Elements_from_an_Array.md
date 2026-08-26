@@ -1,3 +1,5 @@
+*** copy Remove_Smallest_and_Largest_Elements_from_an_Array.md ***
+
 ```js
 // Using reduce() method  
 let inputArray = [3, 1, 7, 9, 2, 8, 4, 6, 5]; 

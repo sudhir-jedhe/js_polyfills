@@ -1,3 +1,5 @@
+*** copy quiz.md ***
+
 Here's a collection of JavaScript functions implementing each of the tasks:
 
 ### 1. Extract Keys and Values from an Object

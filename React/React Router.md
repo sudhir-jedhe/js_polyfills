@@ -1,3 +1,5 @@
+*** copy React Router.md ***
+
 Certainly! Here is an **in-depth guide** with **100 React Router interview questions**, each with a detailed explanation, use case, and scenarios. This covers a wide range of concepts, from basic to advanced, helping you prepare for an interview with a solid understanding of React Router.
 
 ---

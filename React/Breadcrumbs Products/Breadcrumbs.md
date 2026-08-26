@@ -1,3 +1,5 @@
+*** copy Breadcrumbs.md ***
+
 Here is how you can update the **Breadcrumbs component** to dynamically resolve titles from an API or cache for dynamic routes like `/users/:id` or `/products/:id`.
 
 We'll introduce an **async label resolver system** that matches route parameters, checks a local cache (to eliminate redundant network requests), and falls back to a skeleton/loading state while fetching.

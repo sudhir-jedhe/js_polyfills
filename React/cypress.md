@@ -1,3 +1,5 @@
+*** copy cypress.md ***
+
 When preparing for an interview on **Cypress** and **React component end-to-end testing automation**, here are some common interview questions that could be asked. Along with each question, I'll provide an answer outline and reasoning for it:
 
 ---

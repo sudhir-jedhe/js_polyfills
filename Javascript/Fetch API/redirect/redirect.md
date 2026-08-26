@@ -1,3 +1,5 @@
+*** copy redirect.md ***
+
 To redirect a webpage from HTTP to HTTPS using JavaScript, you can use the `location.protocol` property to check the current protocol. If the protocol is not `https:`, you can construct the HTTPS version of the URL using `location.href` and perform a redirect using `location.replace()`. 
 
 Here’s the code explained and implemented:

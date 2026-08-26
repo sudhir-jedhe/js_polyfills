@@ -1,3 +1,5 @@
+*** copy check-if-a-number-is-float-or-integer.md ***
+
 ### Code Explanation
 
 The examples demonstrate various techniques for determining whether a number is an integer or a float using JavaScript. Here's a breakdown:

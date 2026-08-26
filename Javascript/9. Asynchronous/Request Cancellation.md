@@ -1,3 +1,5 @@
+*** copy Request Cancellation.md ***
+
 A user searches React and immediately searches Angular. The first API response arrives after the second. How would you show the correct result?
 
 When a user rapid-fires searches—such as searching for "React" first and then immediately searching for "Angular"—network latency can cause the slower first request ("React") to resolve **after** the faster second request ("Angular").

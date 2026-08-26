@@ -1,3 +1,5 @@
+*** copy property-enumerability.md ***
+
 ### Explanation of Non-Enumerable Properties
 
 In JavaScript, properties of objects are **enumerable** by default unless explicitly marked as **non-enumerable**. This affects how you interact with the object through various methods like `for...in`, `Object.keys()`, `Object.getOwnPropertyNames()`, and the spread operator (`...`).

@@ -1,3 +1,5 @@
+*** copy How ro handle data if promice rejected.md ***
+
 When a **Promise** is rejected, you typically handle it by using `.catch()` or `try-catch` within an `async` function. If you want to handle the data when the promise is rejected, you can capture the error (or rejection reason) and handle it gracefully.
 
 Here are some methods for handling **rejected promises** and managing the associated data:

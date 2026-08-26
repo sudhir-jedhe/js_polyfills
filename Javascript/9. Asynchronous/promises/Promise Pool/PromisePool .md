@@ -1,3 +1,5 @@
+*** copy PromisePool .md ***
+
 ```js
 class PromisePool {
   constructor(concurrency) {

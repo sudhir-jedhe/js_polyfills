@@ -1,3 +1,5 @@
+*** copy reorder-array-with-new-indexes.md ***
+
 Your goal is to reorder the array `A` based on the indices provided by array `B`. Here’s a breakdown of the three approaches you presented:
 
 ### **1. Approach with swapping elements until the array is sorted**

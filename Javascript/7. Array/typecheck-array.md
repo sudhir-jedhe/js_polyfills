@@ -1,3 +1,5 @@
+*** copy typecheck-array.md ***
+
 The code you've provided demonstrates how to use `Array.isArray()` and the `instanceof` operator to check if a given object is an array, and it highlights a key difference when dealing with arrays created in different contexts, such as within an iframe.
 
 ### **Key Concepts:**

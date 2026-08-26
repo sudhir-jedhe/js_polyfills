@@ -1,3 +1,5 @@
+*** copy interviewMistakes.md ***
+
 ![alt text](image-14.png)
 
 They lose because small mistakes quietly weaken an otherwise strong profile.

@@ -1,3 +1,5 @@
+*** copy Left vs Right Join.md ***
+
 The difference between a **LEFT JOIN** and a **RIGHT JOIN** comes down to which table retains all of its rows in the output.
 
 | Feature            | LEFT JOIN (`LEFT OUTER JOIN`)                                    | RIGHT JOIN (`RIGHT OUTER JOIN`)                                  |

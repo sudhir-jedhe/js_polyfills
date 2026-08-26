@@ -1,3 +1,5 @@
+*** copy haveSameContents .md ***
+
 ```js
 Check if two JavaScript arrays have same contents
 

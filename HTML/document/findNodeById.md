@@ -1,3 +1,5 @@
+*** copy findNodeById.md ***
+
 ```js
 function findNodeById(node, id) {
     if (node.id === id) {

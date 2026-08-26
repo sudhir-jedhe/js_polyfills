@@ -1,3 +1,5 @@
+*** copy customReduce.md ***
+
 ```js
 export function customReduce(nums, fn, init) {
   let result = init;

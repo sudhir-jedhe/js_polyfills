@@ -1,3 +1,5 @@
+*** copy How does the Prioritized Task Scheduling API (scheduler.postTask) handle user-blocking, user-visible, and background task priorities?.md ***
+
 The **Prioritized Task Scheduling API** (`scheduler.postTask()`) provides a native browser mechanism to schedule tasks with explicit priority levels, dynamic cancellation, and priority reassignment via `TaskController`.
 
 ---

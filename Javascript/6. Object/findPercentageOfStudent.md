@@ -1,3 +1,5 @@
+*** copy findPercentageOfStudent.md ***
+
 ```js
 const students = [
     { name: 'sudhir', subject: 'English', marks: 50 },

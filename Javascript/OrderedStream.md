@@ -1,3 +1,5 @@
+*** copy OrderedStream.md ***
+
 ```js
 class OrderedStream {
   constructor(n) {

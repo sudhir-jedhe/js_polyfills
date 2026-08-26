@@ -1,3 +1,5 @@
+*** copy every.md ***
+
 ### **Understanding the `every()` Method and Different Techniques**
 
 The `every()` method in JavaScript checks whether all elements in an array pass a test defined by a predicate function. It stops checking as soon as it finds an element that doesn't satisfy the predicate and returns `false`. If all elements pass, it returns `true`. Here's a deeper look at the different ways `every()` and related methods can be used:

@@ -1,3 +1,5 @@
+*** copy React Route.md ***
+
 Switching between different components for displaying different pages in a React application is a common requirement for building multi-page applications (MPAs) or single-page applications (SPAs). In React, this is usually done with the help of **routing**. The most popular library for handling routing in React applications is **React Router**.
 
 React Router allows you to define multiple routes and associate each route with a specific component (or "page"). Based on the URL in the browser, React Router will render the corresponding component. This enables seamless navigation between different pages without reloading the entire application.

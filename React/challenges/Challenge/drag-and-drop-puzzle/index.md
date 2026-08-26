@@ -1,3 +1,5 @@
+*** copy index.md ***
+
 const pieces = document.querySelectorAll('.piece');
 
 let draggingPiece = null;

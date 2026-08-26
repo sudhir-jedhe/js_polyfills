@@ -1,3 +1,5 @@
+*** copy JavaScript Window Location.md ***
+
 Yes, that is a concise summary of the core properties and methods of the **`window.location`** object!
 
 Here is a breakdown of how each property translates on a concrete URL, along with a few extra useful methods:

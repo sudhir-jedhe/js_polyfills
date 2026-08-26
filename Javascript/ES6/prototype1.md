@@ -1,3 +1,5 @@
+*** copy prototype1.md ***
+
 ### **What is `prototype` in JavaScript?**
 
 In JavaScript, **`prototype`** is an object that is attached to every JavaScript function (and classes) by default. Every function or class has a `prototype` property, and that property is used to define methods and properties that are shared among all instances of that function (or class).

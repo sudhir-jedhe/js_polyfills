@@ -1,3 +1,5 @@
+*** copy find-second-most-repeated-word-in-a-sequence.md ***
+
 ```js
 function findSecondMostFrequentElement(arr) {
   let frequencyMap = new Map();

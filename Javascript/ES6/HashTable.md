@@ -1,3 +1,5 @@
+*** copy HashTable.md ***
+
 It looks like you are trying to implement a basic hash table with the ability to insert, search, and hash keys. I'll complete your `HashTable` class with the missing `insert` and `hash` methods.
 
 Here's the updated code for the `HashTable` class:

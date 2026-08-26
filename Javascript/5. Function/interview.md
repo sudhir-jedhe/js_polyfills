@@ -1,3 +1,5 @@
+*** copy interview.md ***
+
 # How does `this` behave in different JavaScript contexts?
 
 - **Global context**: `this` refers to the global object (`window` in browsers).

@@ -1,3 +1,5 @@
+*** copy NextDay.md ***
+
 Your code extends the `Date` prototype with a `nextDay` method, which adds 1 day to the current date and returns it in the `"YYYY-MM-DD"` format. Here's a breakdown of the code and how it works:
 
 ### Explanation of the `nextDay` method:

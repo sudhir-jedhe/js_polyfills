@@ -1,3 +1,5 @@
+*** copy readByPath.md ***
+
 ```js
 
 function read(collection, property) {

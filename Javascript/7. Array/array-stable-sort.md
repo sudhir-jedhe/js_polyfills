@@ -1,3 +1,5 @@
+*** copy array-stable-sort.md ***
+
 ### Stable Sorting in JavaScript
 
 The concept of **stable sorting** refers to sorting an array in such a way that equal elements retain their original relative order. For example, if you have a list of objects with the same value, their order should remain the same after sorting. This can be particularly important when sorting multiple times based on different criteria, where you want the previous sort order to be preserved when sorting by the new criterion.

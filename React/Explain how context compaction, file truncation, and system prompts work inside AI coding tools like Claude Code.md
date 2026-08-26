@@ -1,3 +1,5 @@
+*** copy Explain how context compaction, file truncation, and system prompts work inside AI coding tools like Claude Code.md ***
+
 AI coding CLI agents—such as Claude Code, Aider, Cursor, and Windsurf—operate inside a fundamental constraint: **the finite, non-extendable context window of Large Language Models (LLMs)**.
 
 Every tool call, terminal output, file read, system prompt, and user message consumes tokens. If the context window fills up, model latency spikes, reasoning quality degrades ("context rot"), and eventually the API call fails.

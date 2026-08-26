@@ -1,3 +1,5 @@
+*** copy repeat.md ***
+
 ```js
 /****************************How to implement String.prototype.repeat********************* */
 String.prototype.myRepeat = function (count) {

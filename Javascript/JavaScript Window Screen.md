@@ -1,3 +1,5 @@
+*** copy JavaScript Window Screen.md ***
+
 The **`window.screen`** object (a child property of the global `window` object) provides metrics and details about the user's physical display monitor rather than the browser window itself.
 
 It is particularly useful for optimizing multi-monitor setups, placing popup windows relative to screen dimensions, or determining high-DPI scaling.

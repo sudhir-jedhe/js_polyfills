@@ -1,3 +1,5 @@
+*** copy Explain React Fiber architecture and how it enables concurrent rendering?.md ***
+
 React Fiber is a complete rewrite of React’s core reconciliation engine, designed to enable **incremental rendering** and **concurrency** by breaking rendering work into interruptible units of execution.
 
 ---

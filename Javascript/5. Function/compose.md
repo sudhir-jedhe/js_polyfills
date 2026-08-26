@@ -1,3 +1,5 @@
+*** copy compose.md ***
+
 The function `compose` you've provided is a great implementation of function composition, which allows you to combine multiple functions into a single function. Let's break it down and clarify the logic behind it, as well as review the example you've given.
 
 ### How `compose` Works

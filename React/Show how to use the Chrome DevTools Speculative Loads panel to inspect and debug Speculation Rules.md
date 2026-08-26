@@ -1,3 +1,5 @@
+*** copy Show how to use the Chrome DevTools Speculative Loads panel to inspect and debug Speculation Rules.md ***
+
 Chrome DevTools includes a dedicated **Speculative loads** panel in the **Application** tab designed to inspect, debug, and trace speculation rules (both prefetch and prerender).
 
 ---

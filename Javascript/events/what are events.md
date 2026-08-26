@@ -1,3 +1,5 @@
+*** copy what are events.md ***
+
 This code snippet provides an overview of important concepts related to JavaScript event handling. Here's a detailed breakdown:
 
 ---

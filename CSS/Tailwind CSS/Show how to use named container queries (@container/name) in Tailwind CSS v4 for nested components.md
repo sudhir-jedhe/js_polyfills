@@ -1,3 +1,5 @@
+*** copy name) in Tailwind CSS v4 for nested components.md ***
+
 Named container queries solve the **context collision problem**: when you nest multiple containers inside each other, child elements naturally evaluate against the *nearest* ancestor container.
 
 By labeling containers with `@container/<name>`, child elements can selectively query either the outer layout section (e.g., the sidebar) or the immediate inner component (e.g., an individual card) regardless of DOM depth.

@@ -1,3 +1,5 @@
+*** copy package json interview question.md ***
+
 ### **Package.json and Lock Files in a React/Node.js Interview Context**
 
 #### **1. What is `package.json`?**

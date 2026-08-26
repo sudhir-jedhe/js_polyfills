@@ -1,3 +1,5 @@
+*** copy trie.md ***
+
 export class Trie {
   constructor(arr = []) {
     this.trie = {};

@@ -1,3 +1,5 @@
+*** copy ComposeAsync.md ***
+
 # ComposeAsync (Async Function Composition)
 
 A common **Senior JavaScript / React interview** question is implementing a `composeAsync()` utility that composes multiple async (or sync) functions from **right to left**. Async composition is a recognised pattern in JavaScript functional programming. [\[30secondsofcode.org\]](https://www.30secondsofcode.org/js/s/async-function-composition/), [\[stackoverflow.com\]](https://stackoverflow.com/questions/70050001/javascript-how-to-compose-asynchronous-functions)

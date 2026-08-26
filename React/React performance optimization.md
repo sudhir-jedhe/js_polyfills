@@ -1,3 +1,5 @@
+*** copy React performance optimization.md ***
+
 React performance optimization centers on one core objective: **preventing unnecessary re-renders and avoiding costly computations during the render phase.**
 
 By default, when a parent component re-renders, **all of its child components re-render recursively**, regardless of whether their props have changed. React provides three primary memoization primitives—`React.memo`, `useMemo`, and `useCallback`—to control this behavior.

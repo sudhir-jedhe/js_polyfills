@@ -1,3 +1,5 @@
+*** copy what is differenc between sync and asyn script in js.md ***
+
 In JavaScript, the way scripts are loaded and executed can significantly affect the performance and behavior of a webpage. The two main ways to load and execute JavaScript are synchronous and asynchronous. Here's a breakdown of the key differences between them:
 
 **1. Synchronous Scripts**

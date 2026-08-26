@@ -1,3 +1,5 @@
+*** copy Explain how to integrate automated testing, pre-commit hooks, and CI checks to safely evaluate AI agent code output.md ***
+
 While AI coding agents increase raw coding throughput, they can also introduce hallucinations, silent regressions, security vulnerabilities, or formatting inconsistencies.
 
 Building an **Automated Guardrail Pipeline** using pre-commit hooks, strict testing suites, and CI/CD checks ensures that AI-generated code is evaluated and validated before reaching production.

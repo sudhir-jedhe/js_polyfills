@@ -1,3 +1,5 @@
+*** copy NetworkOptimazation.md ***
+
 # Network Performance & Rendering Performance (Senior Frontend Interview)
 
 These are two of the most frequently asked performance topics for **Senior React / Frontend Engineer** interviews.

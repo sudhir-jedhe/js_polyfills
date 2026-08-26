@@ -1,3 +1,5 @@
+*** copy prevent multiple API calls.md ***
+
 To prevent multiple API calls when a user rapidly clicks a login button, you can use a combination of **UI state management** (disabling the button) and **functional techniques** like **debouncing** or **throttling**.
 
 Here is a breakdown of how to implement these concepts, particularly within asynchronous event handling in Java (such as in JavaFX, Android, or backend reactive streams).

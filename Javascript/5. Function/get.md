@@ -1,3 +1,5 @@
+*** copy get.md ***
+
 It looks like you’ve provided multiple solutions for implementing a `get()` function that retrieves a value from an object based on a path. The path can be provided in dot notation or an array format, and the function should return a default value if the path doesn’t exist.
 
 Let's walk through these different implementations and explain their behavior. I’ll then combine the best parts of each solution to create a final version of the `get()` function.

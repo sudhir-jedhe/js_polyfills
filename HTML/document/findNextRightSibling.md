@@ -1,3 +1,5 @@
+*** copy findNextRightSibling.md ***
+
 ```js
 function findNextRightSibling(root, target) {
     if (!root || !target) return null; // Return null if root or target is null or undefined

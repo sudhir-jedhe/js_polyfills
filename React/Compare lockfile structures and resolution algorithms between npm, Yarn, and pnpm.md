@@ -1,3 +1,5 @@
+*** copy Compare lockfile structures and resolution algorithms between npm, Yarn, and pnpm.md ***
+
 While all Node.js package managers strive for reproducible builds across environments, **npm**, **Yarn** (Berry/v2+), and **pnpm** implement fundamentally different lockfile formats, dependency resolution algorithms, and `node_modules` file system structures.
 
 ---

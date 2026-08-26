@@ -1,3 +1,5 @@
+*** copy percentageFormatter.md ***
+
 Here’s a summary and implementation of each percentage formatting approach for various scenarios:
 
 ---

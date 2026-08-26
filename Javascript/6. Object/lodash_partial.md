@@ -1,3 +1,5 @@
+*** copy lodash_partial.md ***
+
 Your implementation of `customPartial` is a clever way to create a partially applied function, where certain arguments are preset, and the remaining ones can be supplied later. Let’s break down how it works and provide a bit of clarification:
 
 ### **How `customPartial` Works:**

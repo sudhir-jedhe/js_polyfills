@@ -1,3 +1,5 @@
+*** copy reverse.md ***
+
 ```js
 function reverseString(str) {
   const reversedString = str.split("").reduce((acc, char) => char + acc, "");

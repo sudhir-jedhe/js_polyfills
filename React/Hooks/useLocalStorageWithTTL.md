@@ -1,3 +1,5 @@
+*** copy useLocalStorageWithTTL.md ***
+
 Here is a production-ready `useLocalStorageWithTTL` React hook. It wraps values in a metadata structure containing an expiration timestamp (`expiry`), automatically clears and ignores expired items on read, syncs changes across browser tabs/components, and provides manual expiry controls.
 
 ```jsx

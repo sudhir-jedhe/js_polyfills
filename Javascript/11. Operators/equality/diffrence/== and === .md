@@ -1,3 +1,5 @@
+*** copy == and === .md ***
+
 // JavaScript provides both strict(===, !==) and type-converting(==, !=) equality comparison. The strict operators take type of variable in consideration, while non-strict operators make type correction/conversion based upon values of variables. The strict operators follow the below conditions for different types,
 
 //    1. Two strings are strictly equal when they have the same sequence of characters, same length, and same characters in corresponding positions.

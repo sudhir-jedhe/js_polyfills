@@ -1,3 +1,5 @@
+*** copy Browser Local Storage Techniques.md ***
+
 In Front-End System Design, **Browser Local Storage Techniques** enable applications to persist state, cache API responses, and run offline without relying on a continuous server connection.
 
 When building React applications, selecting the right browser storage mechanism and combining it with **Service Workers** allows you to transform standard web applications into resilient, offline-first **Progressive Web Apps (PWAs)**.

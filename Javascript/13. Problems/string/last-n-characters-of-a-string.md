@@ -1,3 +1,5 @@
+*** copy last-n-characters-of-a-string.md ***
+
 ```js
 function getCharacter(str, n) {
   let newString = str.slice(-n);

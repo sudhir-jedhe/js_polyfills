@@ -1,3 +1,5 @@
+*** copy When and Why Do We Use super.md ***
+
 In JavaScript, the `super` keyword is used in class-based inheritance to call methods or access properties from a parent class. When working with **class-based components** in **React** (or in general JavaScript classes), `super` plays a crucial role in ensuring proper initialization of the object and access to the parent class's methods.
 
 ### When and Why Do We Use `super`?

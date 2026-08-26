@@ -1,3 +1,5 @@
+*** copy React Fiber Traversal: Depth-First Search & Fiber Architecture.md ***
+
 Here is a clean, technical breakdown of **React Fiber’s Depth-First Traversal**, comparing how reconciliation was executed in the legacy Stack Reconciler versus how Fiber transformed it into an iterative, interruptible system.
 
 ---

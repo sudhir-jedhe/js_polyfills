@@ -1,3 +1,5 @@
+*** copy isNumberInteger.md ***
+
 The provided function `isNumberInteger` checks if a given number is an integer by determining whether the remainder of the number when divided by `1` is zero. Here's how it works:
 
 ### Explanation

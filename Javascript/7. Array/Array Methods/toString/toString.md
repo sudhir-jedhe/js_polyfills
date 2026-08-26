@@ -1,3 +1,5 @@
+*** copy toString.md ***
+
 ## `arr.toString()` in JavaScript
 
 The `toString()` method converts an array into a **comma-separated string**.

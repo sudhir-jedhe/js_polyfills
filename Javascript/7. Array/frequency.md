@@ -1,3 +1,5 @@
+*** copy frequency.md ***
+
 ### Explanation of Frequency Counter Solutions
 
 #### 1. **Using a `for...of` Loop:**

@@ -1,3 +1,5 @@
+*** copy Web Vital.md ***
+
 Optimizing for **Core Web Vitals** (LCP, INP, and CLS) in a React application requires addressing the specific friction points created by single-page application (SPA) architectures: client-side rendering bottlenecks, heavy JavaScript main-thread execution, and dynamic DOM updates causing layout shifts.
 
 ---

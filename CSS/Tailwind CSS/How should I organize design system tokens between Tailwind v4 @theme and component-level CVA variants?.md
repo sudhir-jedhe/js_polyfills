@@ -1,3 +1,5 @@
+*** copy How should I organize design system tokens between Tailwind v4 @theme and component-level CVA variants?.md ***
+
 A scalable design system maintains a strict **three-tier boundary**: Global tokens and Semantic tokens live in Tailwind v4's CSS `@theme`, while Component-specific permutations, structural logic, and state interactions belong exclusively inside component-level **CVA** definitions.
 
 ```

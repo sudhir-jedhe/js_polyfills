@@ -1,3 +1,5 @@
+*** copy In-memory filesystem library.md ***
+
 To achieve the desired functionality as described in your prompt, the `FileSystem` class needs to handle the operations related to directories, files, and paths efficiently. You've provided most of the logic correctly, but there are some improvements to be made. Specifically:
 
 1. **Handling `createDirectory` correctly**: The `createDirectory` method should handle directory creation inside the current directory, which is already being done well in your code.

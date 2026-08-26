@@ -1,3 +1,5 @@
+*** copy useNetworkState.md ***
+
 Here is a production-ready `useNetworkState` React hook that tracks detailed browser connection metrics using the Network Information API (`navigator.connection`) and `useSyncExternalStore` (React 18+).
 
 It tracks metrics like effective connection type (`4g`, `3g`), round-trip time (`rtt`), downlink speed (`downlink`), and data-saver mode (`saveData`), while falling back gracefully on unsupported browsers.

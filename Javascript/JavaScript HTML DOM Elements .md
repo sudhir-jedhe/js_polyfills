@@ -1,3 +1,5 @@
+*** copy JavaScript HTML DOM Elements .md ***
+
 In JavaScript, **HTML DOM Elements** represent every tag on a web page (such as `<div>`, `<p>`, or `<h1>`). The DOM (Document Object Model) structures these elements as objects in a tree, allowing JavaScript to select, create, modify, or remove them dynamically.
 
 ---

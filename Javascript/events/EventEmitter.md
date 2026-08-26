@@ -1,3 +1,5 @@
+*** copy EventEmitter.md ***
+
 Here is the complete guide and solution for LeetCode #2694: **Event Emitter** (designing a custom subscribe/emit event handler class in JavaScript).
 
 ---

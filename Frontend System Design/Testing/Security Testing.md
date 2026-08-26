@@ -1,3 +1,5 @@
+*** copy Security Testing.md ***
+
 In Front-End System Design, **Security Testing** is the systematic process of validating that client-side applications—running in untrusted user environments—are resilient against exploitation, unauthorized access, state tampering, and data leakage.
 
 Because JavaScript, DOM trees, local storage, and client-side state are fully exposed inside the user's browser, front-end security operates on a core architectural rule: **Never trust the client**. Security testing verifies that defense-in-depth controls are enforced at both the application layer and the browser security policy layer.

@@ -1,3 +1,5 @@
+*** copy ES6 Features.md ***
+
 ### ES6+ Features with Examples
 
 ES6 (ECMAScript 2015) introduced many new features to JavaScript that made the language more powerful and developer-friendly. Additionally, newer versions of ECMAScript (ES7, ES8, ES9, ES10, ES11, ES12) introduced even more features, further enhancing JavaScript’s capabilities. Here's a comprehensive list of the most important features from ES6 and beyond, with detailed examples.

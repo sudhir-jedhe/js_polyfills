@@ -1,3 +1,5 @@
+*** copy scenario.md ***
+
 # 1. Your frontend app serves millions of users worldwide. What is the best way to deliver content faster across regions?
 
 The author can see how you vote. Learn more

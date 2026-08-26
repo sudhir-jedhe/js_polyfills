@@ -1,3 +1,5 @@
+*** copy useOnScreen.md ***
+
 // Lazy loading can drastically boost the performance as we will be loading things as and when required rather than pulling everything in bulk.
 
 // For example, for a component that is not visible yet on the viewport, it makes no sense to load the media files like images, video, audio, or any large data.

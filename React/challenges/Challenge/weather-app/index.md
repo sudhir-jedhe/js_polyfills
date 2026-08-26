@@ -1,3 +1,5 @@
+*** copy index.md ***
+
 import clear from './images/clear.png';
 import clouds from './images/clouds.png';
 import drizzle from './images/drizzle.png';

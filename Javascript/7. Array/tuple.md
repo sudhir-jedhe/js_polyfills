@@ -1,3 +1,5 @@
+*** copy tuple.md ***
+
 The problem you've provided requires implementing a function `tuple` that parses a string input representing tuples and returns an array of arrays. Additionally, the resulting array should have a `multiply` method that calculates the product of the values in a specific position across all nested arrays (tuples).
 
 ### **Explanation and Key Steps:**

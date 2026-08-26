@@ -1,3 +1,5 @@
+*** copy spreadOperator.md ***
+
 ### Code Walkthrough:
 
 The code demonstrates the use of **spread syntax** (`...`) in various scenarios. Let’s go through each section to explain what’s happening and fix any issues:

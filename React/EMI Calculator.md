@@ -1,3 +1,5 @@
+*** copy EMI Calculator.md ***
+
 A React Password Generator with customizable character sets (uppercase, lowercase, numbers, symbols), length controls, strength estimation, and one-click copy to clipboard.
 
 ---

@@ -1,3 +1,5 @@
+*** copy queue.md ***
+
 // Queues should be implemented with linked lists which are essentially a chain of connected nodes. To simplify handling of linked list manipulation of empty queues, we make use of doubly-linked lists (nodes have both prev and next pointers) and dummy/sentinel head/tail nodes. With the usage of dummy nodes, the linked list will never be "empty" and we don't have to separately handle the case of enqueuing into empty queues and dequeuing a queue with only one item.
 
 // Empty Queue

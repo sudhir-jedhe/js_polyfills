@@ -1,3 +1,5 @@
+*** copy class.md ***
+
 Let's break down the classes and code you provided. I'll explain each part and then point out a few issues or improvements:
 
 ### 1. **IncrementCounter (Private Field)**

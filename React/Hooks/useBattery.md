@@ -1,3 +1,5 @@
+*** copy useBattery.md ***
+
 Here is a production-ready `useBattery` React hook using the Battery Status API (`navigator.getBattery`).
 
 It tracks battery level, charging state, charging time, and discharging time in real time, handles vendor event listeners cleanly, and includes SSR guards and browser compatibility detection.

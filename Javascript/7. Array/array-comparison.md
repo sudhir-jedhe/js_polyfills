@@ -1,3 +1,5 @@
+*** copy array-comparison.md ***
+
 Here’s a structured breakdown of how you can compare arrays in JavaScript, covering various methods and their limitations.
 
 ### Problem: Comparing Arrays in JavaScript

@@ -1,3 +1,5 @@
+*** copy FormatedTime.md ***
+
 Your logic for calculating the time difference between the current time and the provided date is almost correct. However, there are a few small issues with your code that need to be addressed to ensure it works as expected:
 
 1. **The `switch` statement**: You have a `switch` statement that uses `case` with comparisons like `case diff < 10:`, which isn't valid JavaScript syntax. In JavaScript, `switch` statements are for matching values directly, not conditions. Instead, you can use `if` or `else if` statements for these comparisons.

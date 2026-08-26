@@ -1,3 +1,5 @@
+*** copy Server Components.md ***
+
 **React Server Components (RSC)** represent a architectural paradigm in React that allows you to render components entirely on the server *before* any JavaScript is bundled or sent to the client.
 
 Unlike traditional Server-Side Rendering (SSR)—which generates HTML on the server per request and then hydrates the exact same components on the client—Server Components **never run on the client at all**. Their code stays entirely on the server, leaving zero bundle footprint.

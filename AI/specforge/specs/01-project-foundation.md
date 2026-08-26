@@ -1,3 +1,5 @@
+*** copy 01-project-foundation.md ***
+
 # Spec 01 — Project Foundation
 
 ## Goal

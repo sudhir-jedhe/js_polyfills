@@ -1,3 +1,5 @@
+*** copy What happen if the keys are same and we have to concate an object.md ***
+
 When you try to concatenate or merge two JavaScript objects that share the **same keys**, standard JavaScript object rules dictate that **the value from the second (later) object will overwrite the value from the first object**.
 
 Unlike arrays (which append elements), JavaScript objects must have **unique keys**.

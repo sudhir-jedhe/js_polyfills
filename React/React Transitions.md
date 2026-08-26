@@ -1,3 +1,5 @@
+*** copy React Transitions.md ***
+
 In React, **Transitions** provide a mechanism to distinguish between **urgent updates** (e.g., typing into an input, clicking a button, dragging a slider) and **non-urgent transition updates** (e.g., filtering a list, switching tabs, rendering a heavy chart).
 
 By marking an update as a transition, you tell React: *"Keep the UI responsive to user input—if a new update comes in while processing this transition, interrupt it."*

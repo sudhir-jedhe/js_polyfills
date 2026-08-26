@@ -1,3 +1,5 @@
+*** copy How do I install and configure the typography and container queries plugins in Tailwind CSS?.md ***
+
 In modern Tailwind CSS (v4), **container queries are built into core** (no plugin needed), while the **typography plugin** (`@tailwindcss/typography`) is imported directly in your CSS using standard `@plugin` directives.
 
 ---

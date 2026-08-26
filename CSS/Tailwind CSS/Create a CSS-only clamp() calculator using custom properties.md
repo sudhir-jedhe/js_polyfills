@@ -1,3 +1,5 @@
+*** copy Create a CSS-only clamp() calculator using custom properties.md ***
+
 You can build a purely dynamic, **CSS-only linear interpolation engine** using CSS custom properties (`var()`) and `calc()`.
 
 By defining your viewport boundaries and target pixel values as unitless variables in `:root`, the mathematical formula calculates the exact slope and $y$-intercept entirely inside standard CSS—no build steps or preprocessors required.

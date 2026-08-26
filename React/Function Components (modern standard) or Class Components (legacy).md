@@ -1,3 +1,5 @@
+*** copy Function Components (modern standard) or Class Components (legacy).md ***
+
 In React, components can be written using either **Function Components** (modern standard) or **Class Components** (legacy).
 
 Since React 16.8 (2019), **Function Components with Hooks are the industry standard** and recommended for all new React codebases.

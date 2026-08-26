@@ -1,3 +1,5 @@
+*** copy What are the performance and capability differences between Proxy handlers and Object.defineProperty accessors?.md ***
+
 ***What are the performance and capability differences between Proxy handlers and Object.defineProperty accessors?***
 
 The choice between **`Proxy` handlers** and **`Object.defineProperty` accessors** was the architectural pivot between Vue 2 and Vue 3 / MobX 4 and MobX 5.

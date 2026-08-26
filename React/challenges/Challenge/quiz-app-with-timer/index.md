@@ -1,3 +1,5 @@
+*** copy index.md ***
+
 import questions from './questions.json';
 
 // References to HTML elements

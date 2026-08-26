@@ -1,3 +1,5 @@
+*** copy gerneratorFunction.md ***
+
 ```js
 
 function* filter(collection, predicate) {

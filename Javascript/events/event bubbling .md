@@ -1,3 +1,5 @@
+*** copy event bubbling .md ***
+
 ### 8. What is event bubbling in JavaScript?
 
 **Event bubbling** is a type of event propagation in the DOM. When an event occurs on an element, it bubbles up from the target element to the root of the DOM tree, triggering any listeners attached to the ancestors of the target element.

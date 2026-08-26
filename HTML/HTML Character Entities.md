@@ -1,3 +1,5 @@
+*** copy HTML Character Entities.md ***
+
 HTML character entities are special codes used to display characters that the browser might otherwise misinterpret, or characters that don't exist on a standard keyboard.
 
 They always follow the same structure: they begin with an ampersand (`&`) and end with a semicolon (`;`).

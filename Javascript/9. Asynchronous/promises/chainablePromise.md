@@ -1,3 +1,5 @@
+*** copy chainablePromise.md ***
+
 # How can you combine method chaining with Promise.all to run steps concurrently in JavaScript?
 
 To run method-chained sequences concurrently using `Promise.all`, map an array of items into chained Promise pipelines and pass that mapped array directly into `Promise.all`.

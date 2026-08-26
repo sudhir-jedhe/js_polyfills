@@ -1,3 +1,5 @@
+*** copy MediaPlayer.md ***
+
 Here is the updated implementation adding a custom volume slider, a mute toggle that remembers the previous volume level, and `localStorage` persistence.
 
 ### Updated Component (`MediaPlayer.jsx`)

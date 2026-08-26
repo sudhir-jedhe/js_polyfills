@@ -1,3 +1,5 @@
+*** copy iframe-related security.md ***
+
 In Front-End System Design, protecting against iframe-related security risks revolves around defending against two main vectors:
 
 1. **Clickjacking (UI Redressing):** Preventing malicious third-party websites from embedding *your* application inside an `<iframe>` to trick users into performing unintended actions.

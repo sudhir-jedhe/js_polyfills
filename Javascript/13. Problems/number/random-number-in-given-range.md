@@ -1,3 +1,5 @@
+*** copy random-number-in-given-range.md ***
+
 ```js
 // Function to generate random number
 function randomNumber(min, max) {

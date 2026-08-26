@@ -1,3 +1,5 @@
+*** copy observable-proxy.md ***
+
 The code you've shared creates an **Observable** class using JavaScript's **Proxy** and **EventTarget** to dispatch events whenever a property on the object is set.
 
 ### **Explanation of the Code**

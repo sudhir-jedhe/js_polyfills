@@ -1,3 +1,5 @@
+*** copy ArrayIterator.md ***
+
 ### JavaScript Iterators
 
 **What is an Iterator?**

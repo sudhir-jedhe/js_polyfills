@@ -1,3 +1,5 @@
+*** copy colorGuess.md ***
+
 # Color Game (React) – Complete Solution
 
 This challenge uses an **8×8 grid (64 squares)** where one square has a slightly different colour. The goal is to find it and advance levels. The React Challenges description explicitly mentions identifying the slightly different square in an 8×8 grid and levelling up. [\[reactchallenges.com\]](https://www.reactchallenges.com/challenges/color-game), [\[dev.to\]](https://dev.to/reactchallenges/new-challenge-color-game-394b)

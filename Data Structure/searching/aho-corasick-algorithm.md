@@ -1,3 +1,5 @@
+*** copy aho-corasick-algorithm.md ***
+
 /*
 The Aho-Corasick algorithm is a powerful string-searching algorithm that efficiently identifies 
 the occurrences of multiple patterns within a given text. Developed by Alfred V. Aho and 

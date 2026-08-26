@@ -1,3 +1,5 @@
+*** copy Explain the Commit Phase sub-phases in detail: Before Mutation, Mutation, Layout, and Passive Effects.md ***
+
 Once the **Render Phase** finishes calculating changes and building the `WorkInProgress` Fiber tree, React enters the **Commit Phase**.
 
 Unlike the Render Phase, the Commit Phase actually touches the real DOM and executes side effects. Its core distinguishing characteristic is that it is **synchronous and non-interruptible** (with the exception of Passive Effects, which are deferred). Once the Commit Phase starts, it must run to completion before yielding back to the browser.

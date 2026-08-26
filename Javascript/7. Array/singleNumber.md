@@ -1,3 +1,5 @@
+*** copy singleNumber.md ***
+
 The problem you're trying to solve is finding the **single number** in an array where every other number appears twice, and one number appears only once. You need to find the number that appears once with **linear runtime complexity** (`O(n)`) and **constant extra space** (`O(1)`).
 
 The solution that you've implemented using the **bitwise XOR operator (`^`)** is perfect for this problem. Let's walk through how it works and why it meets the requirements.

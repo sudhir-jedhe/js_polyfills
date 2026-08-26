@@ -1,3 +1,5 @@
+*** copy promiseRace.md ***
+
 /*************************User Implement custom promise.race ************************ */
 ```js
 function myPromiseRace(promises) {

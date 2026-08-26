@@ -1,3 +1,5 @@
+*** copy Generating response Copilot said: Authentication in React.md ***
+
 # Authentication in React
 
 ### Login • Logout • Token Storage • Offline Support • Optimisations

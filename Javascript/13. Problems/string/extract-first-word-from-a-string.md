@@ -1,3 +1,5 @@
+*** copy extract-first-word-from-a-string.md ***
+
 ```js
 let str = "Geeks For Geeks"; 
 let res = str.split(' ')[0]; 

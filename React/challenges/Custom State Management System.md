@@ -1,3 +1,5 @@
+*** copy Custom State Management System.md ***
+
 To build your own **custom state management system** from scratch, we'll go through each step systematically, from creating a state store to implementing middleware support and building a demo application. Here's the complete guide for implementing a basic state management system:
 
 ### **Step Zero: Set Up Your Environment**

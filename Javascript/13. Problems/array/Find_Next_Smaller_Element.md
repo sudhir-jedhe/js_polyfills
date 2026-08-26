@@ -1,3 +1,5 @@
+*** copy Find_Next_Smaller_Element.md ***
+
 ```js
 /*
 Input: inputArray=[ 11, 13, 21, 3 ]

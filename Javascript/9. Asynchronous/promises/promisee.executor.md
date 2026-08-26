@@ -1,3 +1,5 @@
+*** copy promisee.executor.md ***
+
 // This is a JavaScript Quiz from BFE.dev
 
 new Promise((resolve, reject) => {

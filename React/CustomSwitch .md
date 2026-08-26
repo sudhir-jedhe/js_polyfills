@@ -1,3 +1,5 @@
+*** copy CustomSwitch .md ***
+
 import React, { useState, useRef, useEffect, Children } from 'https://esm.sh/react@18.2.0'
 import ReactDOM from 'https://esm.sh/react-dom@18.2.0'
 

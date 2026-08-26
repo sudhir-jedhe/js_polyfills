@@ -1,3 +1,5 @@
+*** copy How do you set up Semantic Release in CI CD to automate versioning and changelog generation using Conventional Commits?.md ***
+
 **Semantic Release** fully automates the release workflow by analyzing commit messages pushed to your default branch. It determines the next **SemVer** bump (`major`, `minor`, `patch`), generates a `CHANGELOG.md`, tags the commit in Git, publishes to package registries (like npm), and creates a GitHub/GitLab release with release notes.
 
 ---

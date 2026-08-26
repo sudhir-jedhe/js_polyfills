@@ -1,3 +1,5 @@
+*** copy IntersectionObserver.md ***
+
 The **`IntersectionObserver` API** provides a way to asynchronously observe changes in the intersection of a target element with an ancestor element or with a top-level document's viewport.
 
 It is the standard, high-performance way to handle tasks like **infinite scrolling**, **lazy-loading images**, **scroll-triggered animations**, and **ad visibility tracking** without polluting the main thread with continuous `scroll` event listeners.

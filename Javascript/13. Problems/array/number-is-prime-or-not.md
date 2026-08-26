@@ -1,3 +1,5 @@
+*** copy number-is-prime-or-not.md ***
+
 ```js
 // Function to check prime number
 function p() {

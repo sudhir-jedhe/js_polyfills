@@ -1,3 +1,5 @@
+*** copy How do I implement multi-row selection checkboxes with indeterminate master state and batch action bars in React and Tailwind?.md ***
+
 To build multi-row selection with an **indeterminate master checkbox** and a floating **batch action bar** in React and Tailwind CSS, you need to manage:
 
 1. **The Indeterminate DOM Property:** The HTML checkbox `indeterminate` state is a DOM property (`input.indeterminate = true`), not an HTML attribute, requiring a `ref` or a dedicated wrapper.

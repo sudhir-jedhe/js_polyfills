@@ -1,3 +1,5 @@
+*** copy How does Suspense change or improve in React 19?.md ***
+
 In **React 19**, **`<Suspense>`** transitions from being a client-side loading indicator into a core driver of **Server Components (RSC)**, **HTTP streaming**, and **asynchronous resource loading**.
 
 While `<Suspense>` was first introduced for client-side code splitting (`React.lazy`), React 19 dramatically expands its capabilities and improves how it handles data fetching, hydration, and error boundaries.

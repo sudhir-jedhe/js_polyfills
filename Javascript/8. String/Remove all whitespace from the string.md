@@ -1,3 +1,5 @@
+*** copy Remove all whitespace from the string.md ***
+
 ```js
 let text = "   Learnersbucket    ";
 text = text.replace(/^\s+|\s+$/g, "");

@@ -1,3 +1,5 @@
+*** copy How do I configure SameSite, Secure, and HttpOnly cookies across different subdomains in Node.js and Spring Boot?.md ***
+
 To share authentication or session cookies across different subdomains (e.g., frontend on `app.example.com` and backend API on `api.example.com`), configure four key attributes:
 
 1. **`Domain=.example.com`**: Tells the browser the cookie is accessible by the parent domain and **all** of its subdomains (`app.example.com`, `api.example.com`, `admin.example.com`).

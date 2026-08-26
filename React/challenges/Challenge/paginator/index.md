@@ -1,3 +1,5 @@
+*** copy index.md ***
+
 const paginationElement = document.getElementById('pagination');
 const pagesElement = document.getElementById('pages');
 const siblingElement = document.getElementById('siblings');

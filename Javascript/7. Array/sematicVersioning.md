@@ -1,3 +1,5 @@
+*** copy sematicVersioning.md ***
+
 # Compare Semantic Versions (JavaScript Interview)
 
 Semantic Versioning uses:

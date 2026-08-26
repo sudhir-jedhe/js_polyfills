@@ -1,3 +1,5 @@
+*** copy check-two-given-strings-are-isomorphic.md ***
+
 ```js
 // str1 = 'ABCA'
 // str2 = 'XYZX'

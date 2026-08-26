@@ -1,3 +1,5 @@
+*** copy NotificationList.md ***
+
 # Notifications List Component (React Machine Coding Interview)
 
 A **Notifications List** is a common frontend interview question that tests:

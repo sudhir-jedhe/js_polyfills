@@ -1,3 +1,5 @@
+*** copy  How would you handle routing in a React single-page application?.md ***
+
 In a React single-page application (SPA), routing is handled client-side by intercepting browser navigation (like clicking links or changing the URL bar) and rendering different component trees without triggering a full page reload from the server.
 
 The industry-standard approach uses **React Router** (v6/v7). Below is a comprehensive guide to implementing client-side routing, including nested routes, dynamic parameters, lazy loading, and protected routes.

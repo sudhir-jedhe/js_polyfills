@@ -1,3 +1,5 @@
+*** copy using thunk.md ***
+
 Here is the complete implementation using **Classic / Old Redux (pre-Toolkit)** with traditional Action Creators, action types, and `redux-thunk` middleware.
 
 ### 1. Old Redux Store & Thunk (`store.js`)

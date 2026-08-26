@@ -1,3 +1,5 @@
+*** copy memo.md ***
+
 **`memo`** is a higher-order component in React that lets you skip re-rendering a component when its props haven't changed.
 
 Normally, when a parent component re-renders, React recursively re-renders all of its child components by default. If a child component performs heavy rendering or receives props that haven't changed, wrapping it in `memo` tells React to check the props and skip re-rendering if they are identical.

@@ -1,3 +1,5 @@
+*** copy null.md ***
+
 In JavaScript, `null` and `undefined` are both distinct primitive values that are often confused. Let me explain the differences and provide an example.
 
 ### Key Differences Between `null` and `undefined`

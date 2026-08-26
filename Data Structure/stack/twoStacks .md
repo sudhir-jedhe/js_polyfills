@@ -1,3 +1,5 @@
+*** copy twoStacks .md ***
+
 An algorithm to implement two stacks with a single array.
 
 We are going to create a data structure called twoStacks which will be using only a single array to store the data but will act as two different stacks.

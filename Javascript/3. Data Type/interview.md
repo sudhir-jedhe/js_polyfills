@@ -1,3 +1,5 @@
+*** copy Interview.md ***
+
 ### 1. Usage of `typeof` Operator on Different Types of Values
 
 The `typeof` operator in JavaScript returns a string indicating the type of the operand.

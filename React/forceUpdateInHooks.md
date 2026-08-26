@@ -1,3 +1,5 @@
+*** copy forceUpdateInHooks.md ***
+
 In React Hooks, there is **no built-in `forceUpdate()`** like class components had. However, you can force a component to re-render by updating state.
 
 ### Method 1: Dummy State Update (Most Common)

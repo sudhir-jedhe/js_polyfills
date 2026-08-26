@@ -1,3 +1,5 @@
+*** copy index.md ***
+
 Here is the problem statement along with the code implementation for the `flatten` function:
 
 ---

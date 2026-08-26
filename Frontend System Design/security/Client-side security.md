@@ -1,3 +1,5 @@
+*** copy Client-side security.md ***
+
 In Front-End System Design, **Client-Side Security** focuses on protecting the application runtime executing inside the user’s browser. Because the client environment is fundamentally untrusted and fully accessible to the end-user (and potential attackers via dev tools or malicious extensions), client-side security is about **reducing attack surface, isolating sensitive data, and building defense-in-depth**.
 
 ---

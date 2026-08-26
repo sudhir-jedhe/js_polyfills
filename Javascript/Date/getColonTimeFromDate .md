@@ -1,3 +1,5 @@
+*** copy getColonTimeFromDate .md ***
+
 Your `getColonTimeFromDate` function is correctly extracting the time in `HH:mm:ss` format from a JavaScript `Date` object.
 
 ### Explanation:

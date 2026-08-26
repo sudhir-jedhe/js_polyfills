@@ -1,3 +1,5 @@
+*** copy useIsMounted.md ***
+
 ```js
 import React, { useEffect, useRef } from "react";
 import React, { useEffect, useRef } from "react";

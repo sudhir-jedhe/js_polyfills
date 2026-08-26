@@ -1,3 +1,5 @@
+*** copy count-the-occurrences-of-a-specific-character-in-a-string.md ***
+
 ```js
 /*
 Input : S = “geeksforgeeks” and c = ‘e’

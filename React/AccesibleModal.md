@@ -1,3 +1,5 @@
+*** copy AccesibleModal.md ***
+
 # Accessible Modal Dialog with Keyboard Interactions (React)
 
 This is one of the most common accessibility-focused React interview questions.

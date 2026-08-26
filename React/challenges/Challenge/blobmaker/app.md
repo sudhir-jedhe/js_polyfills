@@ -1,3 +1,5 @@
+*** copy app.md ***
+
 const outputCode = document.getElementById('css-code');
 
 const sliders = document.querySelectorAll("input[type='range']");

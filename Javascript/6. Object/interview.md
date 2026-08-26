@@ -1,3 +1,5 @@
+*** copy interview.md ***
+
 # What is the difference between `Object.assign()` and the spread operator?
 
 - **`Object.assign()`**: Copies the values of all properties from one or more source objects to a target object.

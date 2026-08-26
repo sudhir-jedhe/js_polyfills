@@ -1,3 +1,5 @@
+*** copy perfectSquare .md ***
+
 ```js
 let perfectSquare = (e) => {
   //sort the array

@@ -1,3 +1,5 @@
+*** copy How do I implement keyboard Shift+Click range selection across checkboxes in a React data table?.md ***
+
 To implement **Shift+Click range selection** across table rows in React, you need to track the index of the **last clicked row** (an "anchor" reference) and capture the native `event.shiftKey` flag on selection events.
 
 When a user clicks a checkbox with the Shift key held down, the handler selects or deselects every row in the index range between the anchor index and the target index.

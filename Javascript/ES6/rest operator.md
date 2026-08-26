@@ -1,3 +1,5 @@
+*** copy rest operator.md ***
+
 ### Rest Operator (`...`)
 
 The **rest operator** (`...`) is a feature introduced in ES6 (ECMAScript 2015) that allows you to collect all the remaining arguments into an array when they are passed to a function or destructured from an object. It's used for gathering multiple values into a single array or object. The rest operator is often confused with the **spread operator**, but they serve opposite purposes.

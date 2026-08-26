@@ -1,3 +1,5 @@
+*** copy useHasFocus.md ***
+
 // Implement a hook in react that helps to determine if the application is in focus or not. This will help stop the background processing when the user is not focused or on the tab.
 
 ```js

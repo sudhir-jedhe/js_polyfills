@@ -1,3 +1,5 @@
+*** copy current date.md ***
+
 The code you provided generates the current date in the format `MM/DD/YYYY`, where:
 
 1. `today.getDate()` gets the day of the month.

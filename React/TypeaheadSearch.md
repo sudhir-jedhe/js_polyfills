@@ -1,3 +1,5 @@
+*** copy TypeaheadSearch.md ***
+
 import "./TypeaheadSearch.css";
 import "./TypeaheadSearch.css";
 import React, { useEffect, useState } from "react";

@@ -1,3 +1,5 @@
+*** copy cors.md ***
+
 **Do you know what CORS is?**
 
 Cross-Origin Resource Sharing (CORS) is a security feature implemented by web browsers to restrict web applications from making requests to domains other than their own. Let's delve into the details of CORS:
@@ -33,7 +35,7 @@ Developers can handle CORS errors by configuring the server to include appropria
 CORS helps mitigate security risks associated with cross-origin requests by providing a mechanism for servers to control access to their resources.
 Properly configuring CORS policies helps prevent unauthorized access to sensitive data and resources, reducing the risk of Cross-Site Scripting (XSS) and Cross-Site Request Forgery (CSRF) attacks.
 
-**1/ What is CORS? **
+**1/ What is CORS?**
 CORS stands for Cross-Origin Resource Sharing—a security feature built into browsers.
 
 It blocks requests made from one origin (domain, protocol, or port) to another origin unless explicitly allowed by the server.
@@ -45,12 +47,12 @@ For example:
 
 The browser treats these as different origins and blocks the request unless it’s explicitly allowed.
 
-** 2/ Why Does It Happen? **
+**2/ Why Does It Happen?**
 CORS errors are triggered by the Same-Origin Policy, which prevents malicious websites from making unauthorized API calls using your credentials.
 
 When the backend server doesn’t include the right CORS headers, the browser refuses to share the response and throws this error:
 
-> _Access to fetch at 'https://api.backend.com' from origin 'https://frontend.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present._
+> _Access to fetch at '<https://api.backend.com>' from origin '<https://frontend.com>' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present._
 
 In short, the browser isn’t blocking the request—it’s blocking the response for security reasons.
 
@@ -64,7 +66,7 @@ Most candidates panic and assume the browser is the problem. It’s not.
 
 CORS is the server’s responsibility to allow or deny requests from other origins.
 
-** 4/ How Do You Fix It? **
+**4/ How Do You Fix It?**
 
 Step 1: Update the Backend.
 The server must send the right headers, like:
@@ -83,14 +85,14 @@ The server must respond to this with:
 Step 3: Use a Proxy for Local Development.
 If the backend isn’t updated yet, set up a proxy to forward requests through the same origin as your frontend.
 
-** 5/ Can We Bypass CORS? **
+**5/ Can We Bypass CORS?**
 Short answer—No.
 
 Any hacky workaround, like disabling CORS in the browser or using extensions, won’t work in production.
 
 Fix it properly by configuring the server. That’s the only scalable solution.
 
-** 6/ Why Is This Important in Interviews? **
+**6/ Why Is This Important in Interviews?**
 Because CORS tests whether you:
 
 - Understand how the web works.
@@ -204,6 +206,7 @@ A request to a server with a custom header might trigger a preflight request.
   ```
 
 - **Response:**
+
   ```http
   HTTP/1.1 200 OK
   Access-Control-Allow-Origin: https://my-website.com
@@ -226,13 +229,14 @@ If the preflight request succeeds, the browser sends the actual request.
   ```
 
 - **Response:**
+
   ```http
   HTTP/1.1 200 OK
   Access-Control-Allow-Origin: https://my-website.com
   Content-Type: application/json
   ```
 
-### Key Takeaways:
+### Key Takeaways
 
 - **CORS** allows servers to control which domains can access their resources.
 - The server specifies CORS permissions using headers like `Access-Control-Allow-Origin`, `Access-Control-Allow-Methods`, and others.

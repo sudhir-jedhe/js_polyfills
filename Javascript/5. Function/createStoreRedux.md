@@ -1,3 +1,5 @@
+*** copy createStoreRedux.md ***
+
 The code you've provided seems to be an implementation of a Redux-like store using a custom implementation, and it also demonstrates how you can manage state and dispatch actions.
 
 I'll break down the key components of your code and explain what's going on, as well as identify areas where there may be confusion or improvements.

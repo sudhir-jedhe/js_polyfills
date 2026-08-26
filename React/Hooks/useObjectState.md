@@ -1,3 +1,5 @@
+*** copy useObjectState.md ***
+
 # `useObjectState` – Custom React Hook
 
 A common React pattern is creating a custom hook that behaves like `setState` from class components by **merging object updates instead of replacing them**. This is often referred to as `useObjectState`. [\[learnhooks.dev\]](https://learnhooks.dev/articles/simplify-complex-state-management), [\[github.com\]](https://github.com/thers/use-object-state)

@@ -1,3 +1,5 @@
+*** copy defaultParameter.md ***
+
 In JavaScript, **default parameters** are a feature introduced in **ES6** (ECMAScript 2015) that allow you to set default values for function parameters. This makes your functions more flexible, especially when some arguments are not passed by the caller. Before ES6, handling missing arguments required manual checks for `undefined` values, leading to longer and less readable code. 
 
 Let's explore the various ways **default parameters** can be used, along with examples.

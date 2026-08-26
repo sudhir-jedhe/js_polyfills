@@ -1,3 +1,5 @@
+*** copy example.md ***
+
 I'll create a React component that demonstrates both the Fetch API and XMLHttpRequest methods for making HTTP requests. This component will allow users to interact with and compare both methods.
 
 ```typescriptreact project="HTTPRequestsDemo"

@@ -1,3 +1,5 @@
+*** copy example.md ***
+
 Thank you for providing this detailed explanation of customizing the `fetch()` API in JavaScript. I'll create a React component that demonstrates these various customization techniques in a practical context. This will help illustrate how to use these concepts in a real-world scenario.
 
 ```typescriptreact project="CustomFetchDemo"

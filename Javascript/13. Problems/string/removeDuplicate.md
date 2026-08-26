@@ -1,3 +1,5 @@
+*** copy removeDuplicate.md ***
+
 ```js
 export const removeDuplicates = (str) => {
   if (str.length === 0) {

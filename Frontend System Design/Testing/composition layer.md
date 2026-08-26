@@ -1,3 +1,5 @@
+*** copy composition layer.md ***
+
 You have hit on critical concepts in browser rendering architecture.
 
 ---

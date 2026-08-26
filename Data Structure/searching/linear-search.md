@@ -1,3 +1,5 @@
+*** copy linear-search.md ***
+
 // Javascript code to linearly search x in arr[].
 
 function search(arr, n, x) {

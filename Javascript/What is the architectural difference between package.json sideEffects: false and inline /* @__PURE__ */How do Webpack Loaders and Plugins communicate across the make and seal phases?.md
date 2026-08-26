@@ -1,3 +1,5 @@
+*** copy How do Webpack Loaders and Plugins communicate across the make and seal phases?.md ***
+
 In Webpack’s architecture, **Loaders** (which transform individual source files into JavaScript modules during the `make` phase) and **Plugins** (which orchestrate the build lifecycle across both `make` and `seal` phases) communicate through specific shared interfaces and lifecycle hooks.
 
 ---

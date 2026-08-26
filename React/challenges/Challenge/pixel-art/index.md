@@ -1,3 +1,5 @@
+*** copy index.md ***
+
 import { Board } from './board.js';
 
 const rows = Math.floor((window.innerHeight - 200) / 30);

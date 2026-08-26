@@ -1,3 +1,5 @@
+*** copy z index.md ***
+
 ### **`z-index` in CSS**
 
 The `z-index` property in CSS controls the stacking order of elements on the page along the **z-axis** (perpendicular to the screen). It determines which elements are in front and which are behind when they overlap. 

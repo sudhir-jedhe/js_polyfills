@@ -1,3 +1,5 @@
+*** copy What is CSS Specificity.md ***
+
 **What is CSS Specificity?**
 CSS specificity is a rule that determines which CSS styles are applied to an element when multiple conflicting rules target the same element. It’s a way of calculating the "weight" of CSS selectors, and it helps the browser decide which style rule to apply when multiple rules could affect the same element.
 

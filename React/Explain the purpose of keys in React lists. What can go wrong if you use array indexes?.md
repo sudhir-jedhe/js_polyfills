@@ -1,3 +1,5 @@
+*** copy Explain the purpose of keys in React lists. What can go wrong if you use array indexes?.md ***
+
 In React, **`key`** is a special string attribute you must include when rendering lists of elements. Keys give elements a stable identity, helping React determine which items have been **added, changed, or removed** across renders.
 
 ---

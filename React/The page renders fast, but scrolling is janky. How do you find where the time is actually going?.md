@@ -1,3 +1,5 @@
+*** copy The page renders fast, but scrolling is janky. How do you find where the time is actually going?.md ***
+
 When a page renders fast initially but stutters during scrolling (dropping frames below 60fps/120fps), the bottleneck is almost always occurring in one of three stages of the **pixel rendering pipeline**:
 
 $$\text{JavaScript (Event Handlers)} \longrightarrow \text{Style \& Layout (Reflow)} \longrightarrow \text{Paint \& Composite}$$

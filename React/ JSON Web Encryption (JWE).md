@@ -1,3 +1,5 @@
+*** copy  JSON Web Encryption (JWE).md ***
+
 
 💡 What is JSON Web Encryption (JWE)?
 JWE is a security standard that encrypts data inside a JSON-based token.

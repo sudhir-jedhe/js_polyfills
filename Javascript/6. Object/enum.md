@@ -1,3 +1,5 @@
+*** copy enum.md ***
+
 This is a great demonstration of how to create an enum-like structure in JavaScript using a class and various ES6 features! Let's break down the approach you're suggesting and understand how everything fits together.
 
 ### The Problem: Creating an Enum in JavaScript

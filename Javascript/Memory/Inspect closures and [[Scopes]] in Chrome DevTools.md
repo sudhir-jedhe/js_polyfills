@@ -1,3 +1,5 @@
+*** copy Inspect closures and [[Scopes]] in Chrome DevTools.md ***
+
 You can inspect closures and their internal `[[Scopes]]` array in Chrome DevTools using two primary approaches: **live breakpoint debugging** in the Sources panel or **logging function instances** directly in the Console.
 
 ---

@@ -1,3 +1,5 @@
+*** copy CSS Modules.md ***
+
 **CSS Modules** is a build-time approach that automatically scopes CSS class names locally by default. Instead of manually inventing unique class naming conventions (like BEM) to prevent global style conflicts, CSS Modules automatically generates unique class names (e.g., `Button_btn__a8f3z`) during compilation.
 
 It is natively supported in **Vite**, **Next.js**, **Create React App**, **Gatsby**, and **Webpack** with zero additional configuration.

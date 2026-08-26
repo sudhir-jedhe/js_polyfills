@@ -1,3 +1,5 @@
+*** copy Service Worker Caching.md ***
+
 What is the service working caching technique for storing static assets and enhancing the offline capability in the frontend application?
 
 In **Front-End System Design**, **Service Worker Caching** is a client-side network proxy technology that allows web applications to intercept network requests, cache static assets and API responses, and serve content even when the user is completely offline or on an unstable connection.

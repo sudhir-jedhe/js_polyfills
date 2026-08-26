@@ -1,3 +1,5 @@
+*** copy Show a practical code example comparing useEffect vs useLayoutEffect to prevent layout flicker in a tooltip or modal..md ***
+
 Here is a practical example of a dynamic **Tooltip** component positioned above a target button.
 
 Because the exact height of the tooltip depends on dynamic text length, we must render it into the DOM, measure its rendered height (`getBoundingClientRect`), and calculate the correct `top` position.

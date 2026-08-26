@@ -1,3 +1,5 @@
+*** copy renameKeys.md ***
+
 ### Renaming Keys in JavaScript Objects
 
 You've provided a series of examples for renaming keys in JavaScript objects. Let's break down and explain each approach used to rename the keys, and then summarize the final behavior.

@@ -1,3 +1,5 @@
+*** copy Bitwise.md ***
+
 Bitwise operators treat their operands as a sequence of 32 binary bits (zeros and ones) rather than decimal numbers, performing evaluations at the bit level.
 
 In JavaScript, all numbers are stored internally as 64-bit double-precision floating-point numbers (`IEEE 754`). However, whenever a bitwise operator (`&`, `|`, `^`, `~`, `<<`, `>>`, `>>>`) is used, JavaScript implicitly converts the operands into **32-bit signed integers**, applies the operation, and converts the result back into a standard JS number.

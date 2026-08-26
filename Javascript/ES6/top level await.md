@@ -1,3 +1,5 @@
+*** copy top level await.md ***
+
 Explain how top-level await works in ES6 modules with practical code examples.
 
 Prior to ES2022, the `await` keyword could only be used inside functions marked with `async`. If you tried to use `await` at the root/top level of a file, JavaScript threw a `SyntaxError`.

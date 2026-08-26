@@ -1,3 +1,5 @@
+*** copy script.md ***
+
 // Get references to HTML elements
 const slider = document.querySelector('.slider');
 const leftButton = document.querySelector('.leftButton');

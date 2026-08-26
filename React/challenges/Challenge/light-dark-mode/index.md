@@ -1,3 +1,5 @@
+*** copy index.md ***
+
 const themeSwitch = document.getElementById('themeSwitch');
 const innnerThemeSwitch = document.getElementById('innnerThemeSwitch');
 

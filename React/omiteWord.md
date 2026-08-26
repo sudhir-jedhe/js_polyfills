@@ -1,3 +1,5 @@
+*** copy omiteWord.md ***
+
 You only need to implement the two TODOs.
 
 ### Solution

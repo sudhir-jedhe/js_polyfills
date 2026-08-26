@@ -1,3 +1,5 @@
+*** copy React.memo does NOT stop every re-render?.md ***
+
 **No, `React.memo` does NOT stop every re-render.**
 
 `React.memo` is a Higher-Order Component (HOC) that optimizes performance by skipping re-renders **only when a component's props have not changed**. However, there are several common scenarios where a component wrapped in `React.memo` will still re-render.

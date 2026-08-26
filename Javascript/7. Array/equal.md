@@ -1,3 +1,5 @@
+*** copy equal.md ***
+
 Both versions of the `areArraysEqual` function that you provided aim to compare two arrays (`arr1` and `arr2`) and determine if they are equal. They follow slightly different approaches to achieve the same result. Let's break down each one:
 
 ---

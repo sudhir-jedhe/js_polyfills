@@ -1,3 +1,5 @@
+*** copy flatternNestedStructure.md ***
+
 ```js 
 function flattenNestedStructure(input) {
     const flatten = (arr) => {

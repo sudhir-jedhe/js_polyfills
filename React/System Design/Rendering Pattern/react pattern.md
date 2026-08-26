@@ -1,3 +1,5 @@
+*** copy react pattern.md ***
+
 # 5 Advanced React Component Patterns
 
 ## Frontend System Design + Senior React Interview Explanation

@@ -1,3 +1,5 @@
+*** copy compare loops.md ***
+
 JavaScript provides several types of loops, each designed for specific data structures and use cases. Choosing the right loop depends on whether you are iterating over **indexed arrays**, **object properties**, **iterable collections**, or repeating code based on a **boolean condition**.
 
 ---

@@ -1,3 +1,5 @@
+*** copy README.md ***
+
 # SpecForge
 
 Turn rough feature ideas into structured technical specs using AI.

@@ -1,3 +1,5 @@
+*** copy cross-framework Web Component.md ***
+
 Here's my take: To build a Web Component library that works seamlessly across **React, Vue, and Angular**, you need to bridge the differences in how each framework handles HTML attributes vs. JavaScript DOM properties, custom events, and form controls.
 
 ---

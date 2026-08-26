@@ -1,3 +1,5 @@
+*** copy sumOfResolvedPromised.md ***
+
 # Sum of All Resolved Promises
 
 This is a very common **JavaScript Promise interview question**.

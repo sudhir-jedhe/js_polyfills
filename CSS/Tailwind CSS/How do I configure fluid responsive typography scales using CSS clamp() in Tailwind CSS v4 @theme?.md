@@ -1,3 +1,5 @@
+*** copy How do I configure fluid responsive typography scales using CSS clamp() in Tailwind CSS v4 @theme?.md ***
+
 In Tailwind CSS v4, you configure fluid responsive typography by defining CSS `clamp()` formulas directly on font size tokens within the **`@theme`** block in your CSS file.
 
 Because `@theme` replaces `tailwind.config.js`, registering `--text-*` variables in CSS automatically generates the corresponding utility classes (e.g., `text-fluid-base`, `text-fluid-hero`) with fluid line heights and tracking.

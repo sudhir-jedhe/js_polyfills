@@ -1,3 +1,5 @@
+*** copy reduce.md ***
+
 You’ve provided a variety of code snippets that demonstrate the implementation and use of the `reduce` method in JavaScript, along with custom implementations of `reduce` for arrays, and various interesting use cases for reducing arrays in different scenarios. Let’s break down some key concepts and examples, clarify any potential issues, and give a more detailed explanation of each scenario.
 
 ### **1. Custom `reduce` Implementation**

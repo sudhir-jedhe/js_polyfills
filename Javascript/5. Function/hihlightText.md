@@ -1,3 +1,5 @@
+*** copy hihlightText.md ***
+
 To implement the `highlight` function that satisfies the requirements you mentioned, we need to ensure that:
 
 1. **Exact Match Highlighting**: If a word in the string matches one of the keywords exactly, it gets highlighted.

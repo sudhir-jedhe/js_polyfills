@@ -1,3 +1,5 @@
+*** copy JavaScript Window - The Browser Object Model.md ***
+
 The **Browser Object Model (BOM)** allows JavaScript to interact with the web browser outside the core HTML DOM.
 
 At the absolute root of the BOM is the **`window` object**. In client-side JavaScript, `window` is the global object—meaning every global variable, global function, and web API (like `document`, `fetch`, or `setTimeout`) automatically becomes a property or method of `window`.

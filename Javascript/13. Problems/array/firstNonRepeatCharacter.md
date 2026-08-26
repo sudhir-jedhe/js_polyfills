@@ -1,3 +1,5 @@
+*** copy firstNonRepeatCharacter.md ***
+
 ```js
 firstCharacter("hello"); // "h"
 firstCharacter("dad"); // "a"

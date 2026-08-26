@@ -1,3 +1,5 @@
+*** copy 00-initial-project-setup.md ***
+
 # Manual Work 00 — Initial Project Setup
 
 ## Already completed manually

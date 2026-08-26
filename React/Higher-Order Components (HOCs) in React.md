@@ -1,3 +1,5 @@
+*** copy Higher-Order Components (HOCs) in React.md ***
+
 ### **Higher-Order Components (HOCs) in React**
 
 A **Higher-Order Component (HOC)** is a pattern in React used to enhance or modify the functionality of a component by **wrapping** it inside another component. The main purpose of HOCs is to share logic between components in a reusable and composable manner.

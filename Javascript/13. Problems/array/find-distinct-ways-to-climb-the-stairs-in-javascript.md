@@ -1,3 +1,5 @@
+*** copy find-distinct-ways-to-climb-the-stairs-in-javascript.md ***
+
 ```js
 There are n stairs and you can climb either 1 or 2 steps at a time.
 

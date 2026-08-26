@@ -1,3 +1,5 @@
+*** copy Virtual DOM in React.md ***
+
 ### **Virtual DOM in React: An Overview**
 
 The **Virtual DOM** is one of the core concepts in React that significantly optimizes rendering performance and improves the user experience. It is a **concept** (not a real, physical DOM) that allows React to efficiently update and render UI changes without having to manipulate the actual DOM directly every time there is a change in the application state.

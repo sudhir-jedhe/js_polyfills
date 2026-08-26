@@ -1,3 +1,5 @@
+*** copy What is AWS - Traditional VS Cloud Computing - Why Cloud Computing.md ***
+
 ## 1. What is Cloud Computing & AWS?
 
 * **Cloud Computing** is the on-demand delivery of IT resources (such as compute power, database storage, networking, and software) over the Internet with a pay-as-you-go pricing model. Instead of buying physical data centers and servers, companies access technology services on an as-needed basis.

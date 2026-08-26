@@ -1,3 +1,5 @@
+*** copy 1-linked-list.md ***
+
 // Linked List in Javascript
 
 class Node {

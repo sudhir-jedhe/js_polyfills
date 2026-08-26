@@ -1,3 +1,5 @@
+*** copy how to lift state up in React.md ***
+
 **Lifting state up** is a fundamental React pattern used when two or more sibling components need to share the same changing data.
 
 Instead of trying to sync state between sibling components directly, you move (lift) the shared state up to their **closest common parent**. The parent then passes the state down to the siblings as **props**, along with callback functions so the siblings can request state updates.

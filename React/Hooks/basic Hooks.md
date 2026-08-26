@@ -1,3 +1,5 @@
+*** copy basic Hooks.md ***
+
 React Hooks are functions that let you “hook into” React state and lifecycle features from function components. They simplify the logic and make it easier to manage state, side effects, context, and more within a component. Below is a list of commonly used React hooks with examples and scenarios for when to use them.
 
 ### **1. `useState`**

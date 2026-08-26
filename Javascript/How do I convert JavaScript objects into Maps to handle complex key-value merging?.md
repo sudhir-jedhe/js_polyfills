@@ -1,3 +1,5 @@
+*** copy How do I convert JavaScript objects into Maps to handle complex key-value merging?.md ***
+
 Converting JavaScript objects into `Map` instances allows you to handle complex merging logic—such as preserving duplicate key histories, merging nested objects, or aggregating numeric metrics—because Maps provide built-in iteration methods (`.entries()`, `.get()`, `.set()`) and allow non-string keys.
 
 ---

@@ -1,3 +1,5 @@
+*** copy ClickawayDropdown Component.md ***
+
 In React, the **Clickaway** pattern refers to detecting a "click outside" event to close a dropdown, modal, or other UI elements when the user clicks outside of them. This is useful for components like dropdowns, popovers, or modals that should close when a user clicks anywhere outside their boundary.
 
 To implement a **Clickaway** handler in React, we typically add an event listener for clicks on the `document`, and if the click occurs outside the target element, we close or hide the element.

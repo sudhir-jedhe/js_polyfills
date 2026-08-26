@@ -1,3 +1,5 @@
+*** copy groupBy.md ***
+
 Here is a complete, production-ready implementation of a custom `groupBy` utility function in JavaScript and TypeScript, supporting both **property keys** and **custom callback functions** (similar to Lodash's `_.groupBy` or `Object.groupBy`).
 
 ---

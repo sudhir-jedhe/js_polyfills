@@ -1,3 +1,5 @@
+*** copy pascalTriangle.md ***
+
 You've provided several variations of generating Pascal's Triangle and getting a specific row from Pascal's Triangle, all of which are excellent implementations. Let me go over each implementation in detail and make sure everything is clear.
 
 ### 1. **`generatePascalsTriangle` function**:

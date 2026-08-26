@@ -1,3 +1,5 @@
+*** copy using redux pretoolkit.md ***
+
 Here is a complete, production-ready implementation of asynchronous API integration using **Classic / Old Redux (pre-Toolkit)** with `legacy_createStore`, `redux-thunk` middleware, and a custom **Axios instance with interceptors** for request/response handling.
 
 ### 1. Axios Instance with Interceptors (`api.js`)

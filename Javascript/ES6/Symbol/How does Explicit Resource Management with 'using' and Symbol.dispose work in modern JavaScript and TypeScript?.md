@@ -1,3 +1,5 @@
+*** copy How does Explicit Resource Management with 'using' and Symbol.dispose work in modern JavaScript and TypeScript?.md ***
+
 **Explicit Resource Management** introduces the `using` and `await using` declarations alongside two well-known symbols—**`Symbol.dispose`** and **`Symbol.asyncDispose`**.
 
 It provides deterministic, block-scoped teardown for resources (file handles, database connections, mutex locks, event subscriptions), eliminating the boilerplate and subtle leak risks of manual `try...finally` blocks.

@@ -1,3 +1,5 @@
+*** copy name.md ***
+
 ### 1. **The `foo` and `bar` Function Example**
 
 ```js

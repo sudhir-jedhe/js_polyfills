@@ -1,3 +1,5 @@
+*** copy replaceEmptyStrings.md ***
+
 ### Explanation of `replaceEmptyStrings` Function
 
 The `replaceEmptyStrings` function iterates over the properties of an object, and for each property, it checks if the value is an **empty string** (or a string containing only whitespace). If so, it replaces that value with `null`. This is useful if you want to clean up an object by turning empty or whitespace-only strings into `null` values.

@@ -1,3 +1,5 @@
+*** copy how does react know what changes? React Concilation.md ***
+
 React knows what changes in your application through a process called **Reconciliation**, which relies on a mechanism called the **Virtual DOM (VDOM)** and a heuristic algorithm called the **Diffing Algorithm**.
 
 Here is the step-by-step breakdown of how React detects changes and updates the screen efficiently.

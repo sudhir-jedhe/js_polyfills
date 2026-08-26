@@ -1,3 +1,5 @@
+*** copy useContext.md ***
+
 It looks like you might have typed a typo for **`useContext`**.
 
 **`useContext`** is a built-in React Hook that lets you read and subscribe to a **React Context** directly inside a functional component without wrapping components in nested `<Context.Consumer>` tags.

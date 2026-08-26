@@ -1,3 +1,5 @@
+*** copy count-occurrences.md ***
+
 ```js
 Count value occurrences in an array
 Array.prototype.reduce() provides the most straightforward way to count the occurrences of a value in an array. Simply increment a counter each time the specific value is encountered inside the array and return the final count.

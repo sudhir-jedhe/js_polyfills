@@ -1,3 +1,5 @@
+*** copy array-sample-shuffle-weighted-selection.md ***
+
 ### Sampling, Shuffling, and Weighted Selection in JavaScript Arrays
 
 When working with arrays in JavaScript, there are common tasks such as randomly selecting elements, shuffling the order of elements, or selecting based on weighted probabilities. These operations are essential for tasks like random sampling, games, simulations, and algorithms that need stochastic behavior. Below are solutions for these tasks using different methods.

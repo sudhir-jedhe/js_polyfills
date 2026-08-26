@@ -1,3 +1,5 @@
+*** copy How do compoundVariants work in class-variance-authority (CVA) for complex component states?.md ***
+
 In **`class-variance-authority` (CVA)**, `compoundVariants` let you apply specific classes only when a **particular combination of multiple variant props** is matched simultaneously.
 
 Without `compoundVariants`, individual variant declarations can conflict or require redundant modifier classes when handling interdependent states (e.g., when a button is both `intent: "danger"` and `appearance: "outline"`).

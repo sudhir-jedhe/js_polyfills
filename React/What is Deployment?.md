@@ -1,3 +1,5 @@
+*** copy What is Deployment?.md ***
+
 ### What is Deployment?
 
 **Deployment** is the process of taking an application from a developer's local environment (your computer) and making it available on a live web server so users can access it over the internet.

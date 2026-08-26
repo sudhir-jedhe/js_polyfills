@@ -1,3 +1,5 @@
+*** copy leadingTrailing.md ***
+
 Debouncing is a useful technique, especially in scenarios where rapid, repetitive actions trigger costly function calls or events (e.g., handling keystrokes in a search box, resizing a window, scrolling, etc.). The goal of debouncing is to limit the frequency of function execution by waiting until the action has stopped for a specific duration.
 
 For this case, we can create a **debounce function with leading and trailing options**.

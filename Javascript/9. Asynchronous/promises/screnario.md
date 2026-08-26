@@ -1,3 +1,5 @@
+*** copy screnario.md ***
+
 Scenario 1:
 You trigger 5 parallel API calls using Promise.all.
 Two of them reject immediately.

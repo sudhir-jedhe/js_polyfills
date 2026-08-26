@@ -1,3 +1,5 @@
+*** copy Chrome DevTools.md ***
+
 ### 1. Performance Panel
 
 Most developers open it only when someone says, "The app feels slow."

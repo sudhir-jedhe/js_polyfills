@@ -1,3 +1,5 @@
+*** copy function-based-array-indexing.md ***
+
 The function `indexBy` you've provided is an excellent example of how to transform an array into an object by using a custom function to map the values to keys. Let's break down how it works:
 
 ### `indexBy` Function Explanation:

@@ -1,3 +1,5 @@
+*** copy How do you use the Chrome DevTools Performance panel to identify long tasks and JavaScript CPU bottlenecks?.md ***
+
 The **Performance** panel in Chrome DevTools allows you to record runtime execution and pinpoint **Long Tasks** (tasks taking over 50 ms that block the browser's main thread) and heavy JavaScript execution bottlenecks.
 
 ---

@@ -1,3 +1,5 @@
+*** copy script.md ***
+
 const form = document.getElementById('bmiForm');
 
 // Adds event listener to the form for the submit event

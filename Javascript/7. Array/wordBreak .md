@@ -1,3 +1,5 @@
+*** copy wordBreak .md ***
+
 ```js
 Input:
 s = "applepenapple";

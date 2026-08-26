@@ -1,3 +1,5 @@
+*** copy Actual DOM vs Virtual DOM vs Shadow DOM.md ***
+
 ### **Actual DOM vs Virtual DOM vs Shadow DOM: How They Work**
 
 The DOM (Document Object Model) is a programming interface for web documents. It represents the structure of the document as a tree of objects, where each object corresponds to a part of the document (like elements, attributes, or text). When we talk about **Actual DOM**, **Virtual DOM**, and **Shadow DOM**, we are referring to different concepts related to how the DOM is managed and updated.

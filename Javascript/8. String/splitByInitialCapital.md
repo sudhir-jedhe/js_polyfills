@@ -1,3 +1,5 @@
+*** copy splitByInitialCapital.md ***
+
 ```js
 function splitByInitialCapital(str) {
   const parts = [];

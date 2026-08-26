@@ -1,3 +1,5 @@
+*** copy JavaScript Meta Programming.md ***
+
 **Metaprogramming** is the practice of writing code that inspects, modifies, intercepts, or generates other code at runtime. Rather than just operating on data, metaprogramming allows JavaScript programs to treat the code itself as data.
 
 Modern JavaScript organizes metaprogramming into three core categories: **Introspection**, **Self-Modification**, and **Intercession**.

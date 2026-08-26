@@ -1,3 +1,5 @@
+*** copy stack-with-max-and-min-function.md ***
+
 ```js
 Input:
 2 5 17 23 88 54 1 22

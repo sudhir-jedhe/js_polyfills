@@ -1,3 +1,5 @@
+*** copy ChessPathVisulizer.md ***
+
 # Chess Path Finder Visualiser (React Machine Coding Interview)
 
 This is an excellent **Frontend + Algorithm** interview problem.

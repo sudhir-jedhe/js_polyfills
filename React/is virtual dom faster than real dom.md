@@ -1,3 +1,5 @@
+*** copy is virtual dom faster than real dom.md ***
+
 No, the **Virtual DOM is not inherently faster than the real DOM**. Modifying the real DOM directly is the fastest operation the browser can execute.
 
 However, the Virtual DOM is faster than **naive real DOM updates** because it minimizes how often expensive browser layout and paint operations occur.

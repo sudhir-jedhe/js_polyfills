@@ -1,3 +1,5 @@
+*** copy Stop Putting Logic in React JSX - Extract to Variables for Cleaner Code!🔥.md ***
+
 ![alt text](image-25.png)
 
 ![alt text](image-26.png)

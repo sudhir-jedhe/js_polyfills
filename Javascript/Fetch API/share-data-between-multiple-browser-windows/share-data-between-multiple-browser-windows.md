@@ -1,3 +1,5 @@
+*** copy share-data-between-multiple-browser-windows.md ***
+
 // Share data between multiple browser windows with JavaScript
 // Posted on February 10, 2023 | by Prashant Yadav
 

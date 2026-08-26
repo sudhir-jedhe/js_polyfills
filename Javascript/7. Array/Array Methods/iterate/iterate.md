@@ -1,3 +1,5 @@
+*** copy iterate.md ***
+
 # Array Iteration Methods in JavaScript
 
 Array iteration means processing each element of an array one by one.

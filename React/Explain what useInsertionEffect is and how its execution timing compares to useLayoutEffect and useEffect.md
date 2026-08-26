@@ -1,3 +1,5 @@
+*** copy Explain what useInsertionEffect is and how its execution timing compares to useLayoutEffect and useEffect.md ***
+
 `useInsertionEffect` is a specialized Hook introduced in React 18 specifically for **CSS-in-JS library authors** (like styled-components and Emotion). It allows injecting dynamic `<style>` tags or CSS rules into the DOM **before** any layout measurements are read.
 
 ---

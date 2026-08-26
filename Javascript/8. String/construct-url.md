@@ -1,3 +1,5 @@
+*** copy construct-url.md ***
+
 
 The code snippet highlights a fundamental problem with building URLs manually using template literals: **accidental newlines/indentation spaces**, manual encoding oversights, and brittle string formatting.
 

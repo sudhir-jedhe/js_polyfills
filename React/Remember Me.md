@@ -1,3 +1,5 @@
+*** copy Remember Me.md ***
+
 A production-grade "Remember Me" login implementation in React requires distinct handling across the client and backend:
 
 * **Client-side**: Remembers non-sensitive identifiers (like the user's email/username) using `localStorage`.

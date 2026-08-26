@@ -1,3 +1,5 @@
+*** copy Memoization in React.md ***
+
 **Memoization** in React is an optimization technique used to improve application performance by caching (remembering) the results of expensive function calculations or rendered components, and reusing them when the inputs (props, state, or dependencies) have not changed.
 
 In React, unnecessary re-renders or heavy recalculations can slow down the user interface. Memoization helps by skipping redundant work.

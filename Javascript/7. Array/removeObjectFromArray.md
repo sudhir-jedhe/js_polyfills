@@ -1,3 +1,5 @@
+*** copy removeObjectFromArray.md ***
+
 You’ve provided examples demonstrating different ways of removing elements from an array in JavaScript, including using `delete`, `splice()`, and a custom filtering function. Let's break down each one and explain the behavior:
 
 ### **1. Using `delete`**

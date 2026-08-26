@@ -1,3 +1,5 @@
+*** copy  difference between `JSON.stringify()` and `JSON.parse()`?.md ***
+
 The difference between `JSON.stringify()` and `JSON.parse()` comes down to **converting JavaScript objects into text strings** versus **converting text strings back into JavaScript objects**.
 
 They are exact inverse operations of each other.

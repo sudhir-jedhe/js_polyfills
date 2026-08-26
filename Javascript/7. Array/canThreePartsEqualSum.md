@@ -1,3 +1,5 @@
+*** copy canThreePartsEqualSum.md ***
+
 ```
 export function canThreePartsEqualSum(arr) {
   const totalSum = arr.reduce((acc, curr) => acc + curr, 0);

@@ -1,3 +1,5 @@
+*** copy 2-binary-search.md ***
+
 // Ques 2: Implement Binary Search in JavaScript
 // Given an array of integers nums which is sorted in ascending order, and an integer target,
 // Write a function to search target in nums. If target exists, then return its index.

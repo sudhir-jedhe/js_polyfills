@@ -1,3 +1,5 @@
+*** copy promise.finally.md ***
+
 // This is a JavaScript Quiz from BFE.dev
 ```js
 Promise.resolve(1)

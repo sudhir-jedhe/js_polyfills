@@ -1,3 +1,5 @@
+*** copy What is the purpose of the key prop in React?.md ***
+
 The **`key`** prop is a special, reserved string attribute that you must pass when rendering lists of elements in React.
 
 Its primary purpose is to help React **identify which items have changed, been added, or been removed** during the reconciliation (re-rendering) process.

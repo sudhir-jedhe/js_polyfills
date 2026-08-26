@@ -1,3 +1,5 @@
+*** copy StrongPassword.md ***
+
 # Strong Password Checker (React)
 
 ### Features

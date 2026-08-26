@@ -1,3 +1,5 @@
+*** copy intreview.md ***
+
 ### 1. What is a closure in JavaScript?
 
 A **closure** is the combination of a function bundled together with references to its surrounding state (the **lexical environment**). In JavaScript, a closure gives an inner function access to an outer function's scope even after the outer function execution context has been popped off the call stack.

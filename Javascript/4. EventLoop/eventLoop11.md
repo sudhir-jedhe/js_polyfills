@@ -1,3 +1,5 @@
+*** copy eventLoop11.md ***
+
 ### The Event Loop and Task Queues in JavaScript
 
 JavaScript is single-threaded, meaning it can only execute one operation at a time. However, JavaScript is also asynchronous, allowing it to handle multiple tasks simultaneously without blocking the main thread. This is where the **Event Loop** and the two types of task queues—**Microtask Queue** and **Macrotask Queue**—come into play.

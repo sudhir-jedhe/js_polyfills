@@ -1,3 +1,5 @@
+*** copy How do you build a hybrid LRU cache with TTL expiration in JavaScript?.md ***
+
 A **Hybrid LRU-TTL Cache** enforces both **temporal expiration (TTL)** and **spatial capacity limits (LRU)**.
 
 When capacity is exceeded, it evicts the least recently used item. When items are queried or updated, it checks for expiration before returning or updating LRU order.

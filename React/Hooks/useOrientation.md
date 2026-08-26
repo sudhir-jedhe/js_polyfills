@@ -1,3 +1,5 @@
+*** copy useOrientation.md ***
+
 Here is a production-ready `useOrientation` React hook that tracks device screen orientation (portrait vs. landscape, exact angle) using `screen.orientation` and `useSyncExternalStore` (React 18+) for concurrent safety and zero layout tearing.
 
 ```jsx

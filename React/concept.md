@@ -1,3 +1,5 @@
+*** copy concept.md ***
+
 # Life cycle methods of components:
 
 3 phases and their methods

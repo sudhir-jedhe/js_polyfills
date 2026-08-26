@@ -1,3 +1,5 @@
+*** copy KeyboardRowfindWords.md ***
+
 ```js
 function findWords(words: string[]): string[] {
     const s = '12210111011122000010020202';

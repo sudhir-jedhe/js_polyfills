@@ -1,3 +1,5 @@
+*** copy find-second-largest-element-in-an-array.md ***
+
 ```js
 /*
     Input: arr[] = {12, 35, 1, 10, 34, 1}

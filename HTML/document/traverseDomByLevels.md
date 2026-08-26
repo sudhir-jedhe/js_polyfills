@@ -1,3 +1,5 @@
+*** copy traverseDomByLevels.md ***
+
 ### Problem Description
 
 The goal is to traverse a DOM tree **level by level** (breadth-first search) and return an array where each element is an array of nodes at that particular level. This means the first array in the result should contain all the nodes at the root level, the second array should contain the nodes at the next level, and so on.

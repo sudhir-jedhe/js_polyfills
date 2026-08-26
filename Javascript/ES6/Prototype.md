@@ -1,3 +1,5 @@
+*** copy Prototype.md ***
+
 In JavaScript, **everything except primitives is an object** (or can behave like one), and every object has an internal link to another object called its **Prototype**.
 
 JavaScript does not use traditional class-based inheritance like Java or C++. Instead, it uses **Prototypal Inheritance**: objects inherit properties and methods directly from other objects through a chain of references called the **Prototype Chain**.

@@ -1,3 +1,5 @@
+*** copy doctinary.md ***
+
 **Create a Dictionary of Dates** is a popular DevTools/Frontend interview problem where you typically group dates or create a lookup table for fast access. [\[devtools.tech\]](https://devtools.tech/questions/s/create-a-dictionary-of-dates-or-frontend-interview-questions-or-problem-solving-practice---qid---Vp3l0UdgJIxFtSyF8nBh)
 
 ---

@@ -1,3 +1,5 @@
+*** copy immutable data to avoid  side effects.md ***
+
 ### **Using Immutable Data to Avoid Side Effects in JavaScript**
 
 In JavaScript, **immutable data** refers to objects or arrays whose state cannot be changed after they are created. When working with mutable data, changes to the data structure can lead to **side effects**—unexpected changes that affect other parts of the application. Immutable data structures help avoid such issues by ensuring that the original data is never modified. Instead, any modification results in the creation of a new version of the data, which ensures that previous data remains unchanged and no unintended side effects occur.

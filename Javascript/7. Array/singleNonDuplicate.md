@@ -1,3 +1,5 @@
+*** copy singleNonDuplicate.md ***
+
 The function `singleNonDuplicate` is designed to solve the problem where you are given a sorted array where every element appears exactly twice except for one element that appears once. The goal is to find that single element.
 
 The approach uses **binary search**, which significantly improves the time complexity to **O(log n)**, compared to a brute-force solution that would take **O(n)** time.

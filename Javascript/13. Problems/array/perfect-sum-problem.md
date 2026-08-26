@@ -1,3 +1,5 @@
+*** copy perfect-sum-problem.md ***
+
 ```js
 // Input: arr[] = {5, 10, 12, 13, 15, 18}, K = 30
 // Output: {12, 18}, {5, 12, 13}, {5, 10, 15}

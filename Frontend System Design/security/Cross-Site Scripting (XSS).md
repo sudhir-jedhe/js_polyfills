@@ -1,3 +1,5 @@
+*** copy Cross-Site Scripting (XSS).md ***
+
 In Front-End System Design, preventing Cross-Site Scripting (XSS) requires an architectural approach known as **Defense-in-Depth**. Rather than relying on a single mechanism, you build security layers across the **Architecture Layer, Network/Infrastructure Layer, Client Runtime, Data Persistence, and Application Code**.
 
 ---

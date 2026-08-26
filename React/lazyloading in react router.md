@@ -1,3 +1,5 @@
+*** copy lazyloading in react router.md ***
+
 Lazy loading in React Router 6.4 is a way to load components only when they are needed (i.e., when the user navigates to a specific route). This can significantly improve the initial loading time of your application by reducing the amount of JavaScript needed at the start.
 
 In React Router 6.4, you can implement lazy loading using the `React.lazy()` function in combination with `Suspense` for handling the loading state.

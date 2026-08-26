@@ -1,3 +1,5 @@
+*** copy index.md ***
+
 const horizontalPositionEl = document.getElementById('horizontal-position');
 const verticalPositionEl = document.getElementById('vertical-position');
 const toastTypeEl = document.getElementById('type');

@@ -1,3 +1,5 @@
+*** copy Loader.md ***
+
 const Loader = ({ numberOfDots }) => {
     const renderDots = (dots) => {
       const arrayOfDots = new Array(dots).fill(' ');

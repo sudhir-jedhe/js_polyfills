@@ -1,3 +1,5 @@
+*** copy remove-punctuation-from-text.md ***
+
 ```js
 // Input : %welcome' to @geeksforgeek<s
 // Output : welcome to geeksforgeeks

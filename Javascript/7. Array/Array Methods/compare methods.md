@@ -1,3 +1,5 @@
+*** copy compare methods.md ***
+
 In JavaScript, there are several looping methods that you can use to iterate over collections like arrays or objects. Below, I will compare various looping methods in terms of syntax, performance, and use cases.
 
 ### 1. **`for` loop**

@@ -1,3 +1,5 @@
+*** copy generate-values-repeatedly.md ***
+
 You've created two excellent examples of generators in JavaScript, demonstrating how to repeat a value indefinitely and how to cycle through an array of values. Let's break down these concepts a little more thoroughly to clarify what's going on and to make sure everything is clear.
 
 ### **1. Repeating a Single Value**

@@ -1,3 +1,5 @@
+*** copy inheritance.md ***
+
 ### Object-Oriented Programming (OOP) - Classical vs Prototypal Inheritance
 
 Object-Oriented Programming (OOP) allows us to model real-world entities and their behaviors as objects. Objects encapsulate properties (attributes) and methods (functions). These objects can be structured in hierarchies through **inheritance**, where an object can inherit properties and methods from another object. There are two main paradigms of inheritance in OOP: **classical inheritance** and **prototypal inheritance**.

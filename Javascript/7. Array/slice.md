@@ -1,3 +1,5 @@
+*** copy slice.md ***
+
 The `slice()` method in JavaScript is used to create a new array from an existing one, containing the elements between a specified range of indices. It does not modify the original array but instead returns a new array that includes the elements between the start and end indices.
 
 ### Key Points:

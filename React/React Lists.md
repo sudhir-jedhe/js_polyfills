@@ -1,3 +1,5 @@
+*** copy React Lists.md ***
+
 In React, **lists** are rendered by iterating over arrays using standard JavaScript methods—most commonly **`.map()`**—and returning JSX elements for each item.
 
 To help React identify which items have changed, been added, or been removed, every list item **must have a unique `key` prop**.

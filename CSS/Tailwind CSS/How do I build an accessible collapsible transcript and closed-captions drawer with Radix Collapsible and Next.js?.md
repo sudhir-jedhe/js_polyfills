@@ -1,3 +1,5 @@
+*** copy How do I build an accessible collapsible transcript and closed-captions drawer with Radix Collapsible and Next.js?.md ***
+
 An accessible video transcript and closed-captions drawer fulfills **WCAG 2.2 Success Criterion 1.2.2 (Captions - Prerecorded)** and **1.2.3 (Audio Description or Media Alternative)**.
 
 Using **Radix UI (`@radix-ui/react-collapsible`)**, you can build a synchronized transcript where each phrase is interactive: clicking a timestamp seeks the video to that exact point, the active cue highlights automatically during playback, and keyboard focus/ARIA controls remain fully accessible.

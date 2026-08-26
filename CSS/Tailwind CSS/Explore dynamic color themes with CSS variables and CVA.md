@@ -1,3 +1,5 @@
+*** copy Explore dynamic color themes with CSS variables and CVA.md ***
+
 Dynamic color themes work best when you decouple **color values** (managed at runtime via CSS custom properties) from **component structure and variants** (managed via `class-variance-authority`).
 
 By mapping semantic CSS variables into Tailwind CSS v4's `@theme` layer, your CVA components can reference abstract semantic utilities (`bg-primary`, `text-surface-foreground`, `border-border`) rather than hardcoded palette names (`bg-blue-600`, `dark:bg-slate-900`).

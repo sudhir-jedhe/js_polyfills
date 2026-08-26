@@ -1,3 +1,5 @@
+*** copy arrayIntialization.md ***
+
 ### Summary of Array Initialization Techniques in JavaScript
 
 In JavaScript, initializing arrays can be done in various ways depending on the requirements. You can use built-in methods like `Array.from()`, `Array.fill()`, and `map()`, or implement custom logic using loops or generators. Below is an overview of the techniques mentioned, along with some use cases and examples.

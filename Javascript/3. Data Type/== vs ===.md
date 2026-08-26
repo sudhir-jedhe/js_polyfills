@@ -1,3 +1,5 @@
+*** copy == vs ===.md ***
+
 Here is a clean, structured guide breaking down **Event Delegation** and the inner workings of **Abstract Equality (`==`) vs. Strict Equality (`===`)** in JavaScript according to the official ECMAScript Specification (Abstract Equality Comparison Algorithm).
 
 ---

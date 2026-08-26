@@ -1,3 +1,5 @@
+*** copy freeze.md ***
+
 You've provided a detailed explanation of the `Object.freeze()` method and how it works in JavaScript. Below, I'll summarize the key points and add some extra context to help you further understand its behavior and how it differs from similar methods like `Object.seal()`.
 
 ---

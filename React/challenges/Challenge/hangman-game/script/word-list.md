@@ -1,3 +1,5 @@
+*** copy word-list.md ***
+
 export const wordList = [
   {
     word: 'guitar',

@@ -1,3 +1,5 @@
+*** copy React Fiber Core Architecture: End-to-End Reference Manual.md ***
+
 Here is a comprehensive reference architecture document synthesizing the entire end-to-end React Fiber rendering engine, mapping its complete lifecycle from initial state trigger down to post-paint passive execution.
 
 ---

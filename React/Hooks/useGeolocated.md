@@ -1,3 +1,5 @@
+*** copy useGeolocated.md ***
+
 Here is a production-ready `useGeolocated` React hook for tracking user location via the native `navigator.geolocation` API.
 
 It supports both one-time position requests and continuous position watching, custom positioning options (`enableHighAccuracy`, `timeout`, `maximumAge`), explicit state management, and permission handling.

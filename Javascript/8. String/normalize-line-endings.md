@@ -1,3 +1,5 @@
+*** copy normalize-line-endings.md ***
+
 Historically, different operating systems have used different characters to represent line endings in text files. For example, Windows uses '\r\n' (carriage return + line feed), Unix-like systems use '\n' (line feed), and older Mac systems used '\r' (carriage return). All of these differences can cause issues when working with text files or strings.
 
 Normalization is the process of converting all line endings in a string to a consistent format. Often, you'll want to convert all line endings to a specific format, such as '\r\n' or '\n'.

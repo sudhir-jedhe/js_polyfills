@@ -1,3 +1,5 @@
+*** copy chaining.md ***
+
 ### Explanation
 
 In both examples, you are implementing a **calculator object** that supports method chaining. This allows you to call multiple methods on the same object sequentially, where each method modifies the internal state of the object (`total`) and then returns the object itself (`this`) for further method calls.

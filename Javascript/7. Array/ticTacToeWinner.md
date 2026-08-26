@@ -1,3 +1,5 @@
+*** copy ticTacToeWinner.md ***
+
 Your implementation of the `ticTacToeWinner` function looks great! This function checks for a winner, handles the draw scenario, and checks if the game is still pending. Here's a quick breakdown of how the function works and a few improvements you could make for clarity or optimization, though it's already quite good.
 
 ### Breakdown of the Function

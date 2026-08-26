@@ -1,3 +1,5 @@
+*** copy example.md ***
+
 
 To demonstrate the concepts explained in the attachment, I'll create a React component that allows users to run different implementations of series task execution and compare their results.
 

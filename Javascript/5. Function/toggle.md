@@ -1,3 +1,5 @@
+*** copy toggle.md ***
+
 The code you've provided is an implementation of a toggle function where it cyclically returns values from a given list. It works by maintaining an internal state (via closure) and updating it on each call. This state keeps track of the last value returned, and after each function call, it cycles to the next value.
 
 ### Breakdown of the Toggle Function:

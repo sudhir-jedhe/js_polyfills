@@ -1,3 +1,5 @@
+*** copy sum.md ***
+
 The task you've outlined involves creating a JavaScript function that can handle **cumulative summation** through repeated calls, allowing for continuous addition until no argument is passed. This is often achieved with the use of **closures** in JavaScript, which allow inner functions to remember their outer function's state.
 
 I'll explain how each of the solutions works, and I'll also highlight some ways to optimize or enhance the implementation.

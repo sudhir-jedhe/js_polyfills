@@ -1,3 +1,5 @@
+*** copy truncate.md ***
+
 How can I truncate a string to a specified length using JavaScript?
 
 Breaking a string into words is not the easiest, neither is finding a good place to truncate a string. Part of the problem is recognizing word boundaries and words themselves. An even more advanced use-case might even need to account for locale. Let's build up from the simplest case to the most advanced.

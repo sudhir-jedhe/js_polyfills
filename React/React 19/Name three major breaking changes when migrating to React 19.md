@@ -1,3 +1,5 @@
+*** copy Name three major breaking changes when migrating to React 19.md ***
+
 When migrating an application to **React 19**, several legacy APIs, patterns, and type definitions that were previously deprecated in React 18 (or earlier) have been officially removed or changed.
 
 Here are the major breaking changes you need to address during migration:

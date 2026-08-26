@@ -1,3 +1,5 @@
+*** copy What are Actions in React 19?.md ***
+
 **Actions** in React 19 are a standardized design pattern for handling asynchronous operations—such as submitting a form, updating a database, or making an API request—directly integrated into React's core lifecycle.
 
 Before React 19, handling a simple form submission required a lot of repetitive boilerplate: writing an `onSubmit` handler, calling `e.preventDefault()`, manually extracting data from a `FormData` object, setting up a `try/finally` block to manage loading spinners, and storing error messages in separate state variables.

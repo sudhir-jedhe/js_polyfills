@@ -1,3 +1,5 @@
+*** copy canMakeSquare.md ***
+
 function canMakeSquare(grid: string[][]): boolean {
     const dirs: number[] = [0, 0, 1, 1, 0];
     for (let i = 0; i < 2; ++i) {

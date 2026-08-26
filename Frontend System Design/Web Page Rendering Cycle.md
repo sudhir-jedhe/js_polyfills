@@ -1,3 +1,5 @@
+*** copy Web Page Rendering Cycle.md ***
+
 Here is the English translation of the Web Page Rendering Cycle explanation:
 
 ---

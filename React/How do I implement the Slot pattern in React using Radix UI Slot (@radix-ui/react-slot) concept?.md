@@ -1,3 +1,5 @@
+*** copy react-slot) concept?.md ***
+
 The **Slot pattern** (popularized by `@radix-ui/react-slot`) solves a common problem in component design: **how to build flexible, reusable UI components that can render as a custom element or child component while preserving their original styles and behaviors.**
 
 Instead of forcing consumers to accept a fixed HTML tag (e.g., hardcoding a `<button>` tag) or adding extra DOM wrapper nodes, the `Slot` component merges its props onto its immediate child.

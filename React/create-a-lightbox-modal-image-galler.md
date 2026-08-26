@@ -1,3 +1,5 @@
+*** copy create-a-lightbox-modal-image-galler.md ***
+
 ```js
 import { useState } from "react";
 import Modal from "./Modal";

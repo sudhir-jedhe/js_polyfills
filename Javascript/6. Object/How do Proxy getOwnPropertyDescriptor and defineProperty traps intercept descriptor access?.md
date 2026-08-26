@@ -1,3 +1,5 @@
+*** copy How do Proxy getOwnPropertyDescriptor and defineProperty traps intercept descriptor access?.md ***
+
 JavaScript `Proxy` objects allow you to intercept and customize low-level engine operations using handler traps. The **`getOwnPropertyDescriptor`** and **`defineProperty`** traps specifically intercept the internal ECMAScript methods `[[GetOwnProperty]]` and `[[DefineOwnProperty]]`.
 
 ---

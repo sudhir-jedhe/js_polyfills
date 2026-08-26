@@ -1,3 +1,5 @@
+*** copy xHR.md ***
+
 Here's how you can make an asynchronous `XMLHttpRequest` (XHR) to get data from the server and handle both success and failure using callbacks:
 
 ```javascript

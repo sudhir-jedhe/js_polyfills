@@ -1,3 +1,5 @@
+*** copy React Form 1.md ***
+
 Here is a **production-ready, highly performant React Form architecture** that ticks all 6 requirements.
 
 It combines **React Hook Form** (uncontrolled performance & scalable state) with **Zod** (type-safe validation schema), **TypeScript**, and **Tailwind CSS**. It includes a **reusable field architecture** that handles standard inputs, selects, and checkboxes with built-in accessibility (A11y).

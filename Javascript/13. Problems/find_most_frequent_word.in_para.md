@@ -1,3 +1,5 @@
+*** copy find_most_frequent_word.in_para.md ***
+
 ```js
 function mostUsedWord(text, bannedWords) {
     const wordCounts = {};

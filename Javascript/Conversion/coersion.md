@@ -1,3 +1,5 @@
+*** copy coersion.md ***
+
 You're correct in noting the various conversions that happen in JavaScript when comparing `false == [[0]]`, and I'd like to clarify the steps involved to explain why the result is actually **`true`**. 
 
 Let's walk through the comparison step-by-step:

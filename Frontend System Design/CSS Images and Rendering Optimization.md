@@ -1,3 +1,5 @@
+*** copy CSS Images and Rendering Optimization.md ***
+
 Here is the complete English translation of the explanation on CSS Images and Rendering Optimization Techniques:
 
 ---

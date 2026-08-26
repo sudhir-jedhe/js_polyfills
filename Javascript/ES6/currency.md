@@ -1,3 +1,5 @@
+*** copy currency.md ***
+
 Sure! Below is the code you can use to work with currencies, exchange rates, and perform various operations with the `Currency`, `Bank`, and `Money` classes:
 
 ### Full Implementation with Code:

@@ -1,3 +1,5 @@
+*** copy output.md ***
+
 This is one of the most critical sections for your repository. Interviewers use Event Loop questions to ruthlessly filter out candidates who rely on memorization rather than truly understanding how JavaScript executes under the hood.
 
 > **Repo Organization Tip:** Save this entire block inside `04-Asynchronous-JS/output-problems.md`.

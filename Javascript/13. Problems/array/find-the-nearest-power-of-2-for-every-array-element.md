@@ -1,3 +1,5 @@
+*** copy find-the-nearest-power-of-2-for-every-array-element.md ***
+
 ```js
 // Input: arr[] = {5, 2, 7, 12}
 // Output: 4 2 8 16

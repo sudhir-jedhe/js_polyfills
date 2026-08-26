@@ -1,3 +1,5 @@
+*** copy replace-all-occurences-of-string.md ***
+
 ```js
 const str = "Hello World";
 

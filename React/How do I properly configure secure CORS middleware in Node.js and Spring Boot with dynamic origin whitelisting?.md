@@ -1,3 +1,5 @@
+*** copy How do I properly configure secure CORS middleware in Node.js and Spring Boot with dynamic origin whitelisting?.md ***
+
 Configuring secure CORS with dynamic origin whitelisting requires validating the incoming `Origin` header against an approved list or regex (e.g., staging subdomains, production domains, and local development ports), setting credentials appropriately, handling `OPTIONS` preflight caching, and exposing necessary response headers.
 
 Never reflect arbitrary origins (`req.headers.origin`) blindly alongside `credentials: true`.

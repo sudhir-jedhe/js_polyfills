@@ -1,3 +1,5 @@
+*** copy  React Frontend Architecture.md ***
+
 Here's the architecture approach I prefer for scalable React applications.
 
 📁 1. Organize by Features, Not by File Types

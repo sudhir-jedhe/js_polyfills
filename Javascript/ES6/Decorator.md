@@ -1,3 +1,5 @@
+*** copy Decorator.md ***
+
 **Class Decorators** and **Stage 3 Decorator Metadata** provide a standard declarative syntax for metaprogramming in modern JavaScript. They allow you to annotate, inspect, transform, or replace classes, methods, accessors, getters, setters, and fields at declaration time.
 
 The TC33 Stage 3 Decorator specification (supported natively in modern bundlers like Vite, Esbuild, and TypeScript 5.0+) introduces a clean runtime model with a standardized `context` object and a dedicated **`Symbol.metadata`** property.

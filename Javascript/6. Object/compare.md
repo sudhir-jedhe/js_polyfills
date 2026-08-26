@@ -1,3 +1,5 @@
+*** copy compare.md ***
+
 Let's go through the concepts you're working on and refine the functions to handle deep comparison correctly.
 
 ### Issue with JSON.stringify-based equality

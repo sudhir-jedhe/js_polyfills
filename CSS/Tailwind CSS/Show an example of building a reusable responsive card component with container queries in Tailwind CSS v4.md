@@ -1,3 +1,5 @@
+*** copy Show an example of building a reusable responsive card component with container queries in Tailwind CSS v4.md ***
+
 A responsive card built with container queries adapts smoothly whether it is placed inside a narrow `300px` sidebar or a full-width main feed—without relying on the screen or viewport width.
 
 ---

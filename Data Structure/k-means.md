@@ -1,3 +1,5 @@
+*** copy k-means.md ***
+
 Definition
 The K-means clustering algorithm is a popular unsupervised machine learning algorithm used to group a set of data into clusters. It works by iteratively assigning data points to the nearest cluster centroid and then recalculating the centroids based on the new assignments. This process is repeated until the centroids no longer change significantly or a maximum number of iterations is reached.
 

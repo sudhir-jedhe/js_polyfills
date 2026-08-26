@@ -1,3 +1,5 @@
+*** copy await.md ***
+
 Both **Promises** and **async/await** are used in JavaScript to handle asynchronous operations, but they are different in terms of syntax and usage. Here’s a detailed comparison of **Promises** and **async/await**:
 
 ### 1. **Syntax**:

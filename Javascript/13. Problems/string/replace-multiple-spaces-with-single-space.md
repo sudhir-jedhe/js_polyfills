@@ -1,3 +1,5 @@
+*** copy replace-multiple-spaces-with-single-space.md ***
+
 ```js
 // String containing multiple spaces
 let str = " Welcome to Geeks for Geeks ";

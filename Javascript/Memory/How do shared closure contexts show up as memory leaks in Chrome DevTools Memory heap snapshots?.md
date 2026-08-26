@@ -1,3 +1,5 @@
+*** copy How do shared closure contexts show up as memory leaks in Chrome DevTools Memory heap snapshots?.md ***
+
 In V8, all closures created inside the same parent function scope share a single, unified **`system / Context`** object on the Heap.
 
 If one closure retains a large data structure (e.g., a buffer or large array), and a second tiny closure is kept alive (e.g., via `setInterval`, a global event listener, or an exported API), the entire shared `Context`—including the large data—is pinned in memory.

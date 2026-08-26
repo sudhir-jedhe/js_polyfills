@@ -1,3 +1,5 @@
+*** copy count-function.md ***
+
 Please create a function count(), when called it should return how many times it has been called, count.reset() should also implemented.
 
 ```javascript

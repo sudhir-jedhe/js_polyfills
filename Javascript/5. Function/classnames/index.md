@@ -1,3 +1,5 @@
+*** copy index.md ***
+
 To implement the `classNames` function, we'll need to handle different types of inputs such as strings, numbers, arrays, and objects. The function should join these input values conditionally, ensuring that falsy values are ignored and that class names are de-duplicated. Arrays should be recursively flattened to handle nested arrays or objects.
 
 ### Approach

@@ -1,3 +1,5 @@
+*** copy Configure ARIA Live region announcement testing in Playwright.md ***
+
 To configure automated ARIA live region testing in Playwright, you set up a custom test fixture that instruments the browser's DOM with a `MutationObserver` before test execution begins. This captures every dynamic text mutation pushed to `aria-live`, `role="status"`, `role="alert"`, and `role="log"` elements.
 
 ---

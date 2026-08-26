@@ -1,3 +1,5 @@
+*** copy smallestDifference.md ***
+
 The function you provided `smallestDifference` correctly finds the pair of numbers (one from each array) that have the smallest non-negative difference. Here's a breakdown of how it works and an explanation of each step:
 
 ### **Explanation of the Code**

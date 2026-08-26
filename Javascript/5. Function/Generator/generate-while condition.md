@@ -1,3 +1,5 @@
+*** copy generate-while condition.md ***
+
 // Almost every generator function needs a termination condition. Instead of writing the same code over and over again, we can easily create a generator function that takes a predicate function as an argument and keeps producing new values as long as the condition is met.
 
 // Given a condition, we can initialize the current value using a provided seed value. Then, using a while loop we can iterate as long as the predicate function called with the current val returns true.

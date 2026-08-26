@@ -1,3 +1,5 @@
+*** copy useEffect.md ***
+
 ### What is `useEffect` in React?
 
 `useEffect` is a **React Hook** that allows you to perform side effects in your functional components. Side effects are operations that can affect other parts of the application or the outside world, such as:

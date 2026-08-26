@@ -1,3 +1,5 @@
+*** copy  How do you implement global error boundary policies when combining synchronous render exceptions and asynchronous Action rejections?.md ***
+
 Implementing a global error boundary policy that unifiedly catches both **synchronous render exceptions** and **asynchronous Action rejections** requires bridging two different error propagation models in React 19:
 
 1. **Synchronous Render Exceptions:** Naturally caught by standard React `Component` Error Boundaries (`componentDidCatch` / `getDerivedStateFromError`).

@@ -1,3 +1,5 @@
+*** copy can virtual dom reduce performance?.md ***
+
 **Yes, the Virtual DOM can actually reduce performance** in certain scenarios compared to direct, highly targeted real DOM updates or compiled fine-grained reactivity frameworks.
 
 While the Virtual DOM is great at preventing *naive* layout thrashing in large applications, it comes with inherent memory and CPU trade-offs.

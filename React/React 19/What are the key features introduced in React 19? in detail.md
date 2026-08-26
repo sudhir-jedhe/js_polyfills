@@ -1,3 +1,5 @@
+*** copy What are the key features introduced in React 19? in detail.md ***
+
 React 19 marks a major shift in how developers write React applications, focusing on removing boilerplate, simplifying asynchronous workflows, and making performance optimization automatic.
 
 Here is a detailed breakdown of all the key features introduced in React 19.

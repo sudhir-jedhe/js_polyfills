@@ -1,3 +1,5 @@
+*** copy How do you update Helm chart version and appVersion in Git using Semantic Release?.md ***
+
 Updating a Helm chart's `version` (chart package version) and `appVersion` (application/image version) during a Semantic Release workflow ensures your Kubernetes deployment artifacts stay aligned with Git tags and published Docker images.
 
 The most reliable approach is using **`@semantic-release/exec`** with a YAML editor tool like **`yq`** (or `sed`) to mutate `Chart.yaml`, followed by **`@semantic-release/git`** to commit the modified file back to Git.

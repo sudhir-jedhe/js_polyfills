@@ -1,3 +1,5 @@
+*** copy FlipCard.md ***
+
 # Flipping Card Component (React + TypeScript)
 
 A **Flipping Card** is a popular React machine-coding interview question that tests:

@@ -1,3 +1,5 @@
+*** copy formState.md ***
+
 Managing form state efficiently in React—especially for forms with dozens of input fields—comes down to **minimizing unnecessary re-renders**, **avoiding state fragmentation**, and **retaining a clean schema**.
 
 Here are the best ways to manage multi-field form state efficiently using React hooks, ranging from basic native hooks to advanced performance-optimized techniques.

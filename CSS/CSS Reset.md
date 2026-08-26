@@ -1,4 +1,5 @@
-### CSS Reset
+
+# CSS Reset
 
 A **CSS Reset** is a set of rules that is used to reduce or eliminate the default styling that browsers apply to HTML elements. Different browsers apply their own default styles, and a CSS reset helps to ensure that your website’s styling looks consistent across all browsers.
 
@@ -7,7 +8,9 @@ The goal of a CSS reset is to standardize the appearance of elements across diff
 ---
 
 ### 1. **Why Use a CSS Reset?**
+
 Browsers apply default styling to various HTML elements (such as margins, paddings, font sizes, etc.), and this can cause inconsistencies across different browsers. A CSS reset helps to:
+
 - Remove default margins and paddings.
 - Normalize font sizes, line heights, and other styles.
 - Eliminate inconsistencies across browsers.
@@ -54,7 +57,8 @@ th, td {
 }
 ```
 
-#### Explanation:
+#### Explanation
+
 - **`* { margin: 0; padding: 0; }`**: Resets margin and padding for all elements.
 - **`box-sizing: border-box;`**: Ensures padding and borders are included in the element’s total width and height (more predictable box model).
 - **`html, body { font-family: sans-serif; }`**: Sets a consistent font family across browsers.
@@ -71,7 +75,7 @@ This reset is simple and works well for many use cases.
 
 While a CSS Reset completely removes styling, **Normalize.css** is a more modern approach that "normalizes" or standardizes the styles across browsers, rather than resetting them completely. It ensures that elements have consistent styling across all browsers without removing useful browser defaults.
 
-#### Using Normalize.css:
+#### Using Normalize.css
 
 You can download it from [Normalize.css](https://necolas.github.io/normalize.css/) or use a CDN:
 
@@ -79,7 +83,8 @@ You can download it from [Normalize.css](https://necolas.github.io/normalize.css
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css">
 ```
 
-#### Key Features of Normalize.css:
+#### Key Features of Normalize.css
+
 - Provides a consistent baseline across all browsers.
 - Preserves useful defaults (e.g., form controls have a consistent appearance).
 - Handles potential inconsistencies with inline-blocks, tables, and form elements.
@@ -141,7 +146,8 @@ img {
 }
 ```
 
-#### Key Features of This Reset:
+#### Key Features of This Reset
+
 - **`*::before, *::after { box-sizing: inherit; }`**: Inherits `box-sizing` from the global rule to ensure pseudo-elements behave predictably.
 - **`html { font-size: 100%; }`**: Sets a 16px base font size (standard) for better scalability with `rem`.
 - **`ul, ol { list-style: none; }`**: Removes list styles (bullets or numbers).
@@ -153,13 +159,13 @@ img {
 
 ### 6. **CSS Reset vs Normalize**
 
-| **Feature**              | **CSS Reset**                              | **Normalize.css**                        |
-|--------------------------|--------------------------------------------|------------------------------------------|
-| **Purpose**              | Remove all default browser styling.        | Normalize styles across browsers (keeps useful defaults). |
-| **Result**               | A clean slate with no styles at all.       | Standardized styling with improvements to default styles. |
-| **Use Case**             | When you want total control over all styling. | When you want consistency with minimal intervention in default browser styles. |
-| **Example Usage**        | For custom frameworks or specific design needs. | For general projects where cross-browser consistency is essential. |
-| **Default Styles Kept**  | None (everything is reset).                | Some useful default styles are retained (e.g., form inputs, buttons). |
+| **Feature**             | **CSS Reset**                                   | **Normalize.css**                                                              |
+| ----------------------- | ----------------------------------------------- | ------------------------------------------------------------------------------ |
+| **Purpose**             | Remove all default browser styling.             | Normalize styles across browsers (keeps useful defaults).                      |
+| **Result**              | A clean slate with no styles at all.            | Standardized styling with improvements to default styles.                      |
+| **Use Case**            | When you want total control over all styling.   | When you want consistency with minimal intervention in default browser styles. |
+| **Example Usage**       | For custom frameworks or specific design needs. | For general projects where cross-browser consistency is essential.             |
+| **Default Styles Kept** | None (everything is reset).                     | Some useful default styles are retained (e.g., form inputs, buttons).          |
 
 ---
 

@@ -1,3 +1,5 @@
+*** copy How can variable shadowing and closures lead to unexpected memory retention in V8?.md ***
+
 ***How can variable shadowing and closures lead to unexpected memory retention in V8?***
 
 Variable shadowing and closures cause unexpected memory retention in V8 primarily because **V8 allocates closures per lexical scope, sharing a single `Context` heap object across all inner functions in that scope**, and **variable shadowing can trick developers into believing a large outer variable is no longer retained**.

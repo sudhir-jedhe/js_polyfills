@@ -1,3 +1,5 @@
+*** copy Architecture.md ***
+
 ### **Enhancing the React Architecture with CI/CD, Authentication, Deployment Strategies, and Expanded Features**
 
 Below, I will outline detailed setups for **CI/CD**, **Authentication**, and **Deployment**, and provide a refined structure for **Routing**, **State Management**, **Styling**, **Testing**, and **API Calls**.

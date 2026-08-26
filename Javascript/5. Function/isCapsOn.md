@@ -1,3 +1,5 @@
+*** copy isCapsOn.md ***
+
 Both of the JavaScript examples you've provided aim to detect whether the Caps Lock key is on or off while a user is typing in an email input field. Let's break them down and explain the logic in detail.
 
 ### Example 1: Manually Detecting Caps Lock

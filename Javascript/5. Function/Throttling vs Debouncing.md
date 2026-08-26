@@ -1,3 +1,5 @@
+*** copy Throttling vs Debouncing.md ***
+
 **Throttling** and **debouncing** are both techniques used to limit the rate at which a function is executed, typically in response to events like scroll, resize, or keypress. They help optimize performance by reducing the number of function calls, especially when those events are triggered frequently. However, they have distinct behaviors and use cases.
 
 ### **Debouncing**

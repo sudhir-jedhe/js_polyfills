@@ -1,3 +1,5 @@
+*** copy array-head-tail.md ***
+
 In JavaScript, finding the **head** and **tail** of an array is a common operation. Let's break down how to do this with different approaches and handle edge cases like empty arrays.
 
 ### 1. **Using Destructuring Assignment**

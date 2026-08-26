@@ -1,3 +1,5 @@
+*** copy How would you manage state shared across multiple micro-frontends?.md ***
+
 Managing shared state across micro-frontends (MFEs) requires a strict boundary: **micro-frontends should be as autonomous and isolated as possible.** Sharing too much state creates a "distributed frontend monolith" where changes in one app break another.
 
 Only share **truly global state** (e.g., authentication session, user profile, active localization/theme, cross-app notifications, or a shopping cart summary). Keep domain-specific state strictly internal to each MFE.

@@ -1,3 +1,5 @@
+*** copy How do I use nuqs to manage table filters, pagination, and sorting via URL search params in React?.md ***
+
 `nuqs` (Type-safe Search Params for React/Next.js) gives you type-safe URL query state that works like `useState`, but automatically syncs with the browser address bar for shareable, bookmarkable table states.
 
 ---

@@ -1,3 +1,5 @@
+*** copy unique.md ***
+
 Your code provides several useful functions for working with arrays and objects, especially when handling uniqueness, duplicates, and filtering based on specific criteria. Let's break down each function and its purpose, followed by a quick walkthrough of its usage:
 
 ### 1. **`uniqueElements(arr)`**:

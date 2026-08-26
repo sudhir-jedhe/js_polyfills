@@ -1,3 +1,5 @@
+*** copy qwertyKeybord.md ***
+
 Here is a complete, responsive QWERTY Virtual Keyboard component built from scratch in React and plain CSS. It supports dynamic layouts (uppercase, lowercase, numbers, and symbols), backspace, enter, and interactive typing feedback.
 
 ---

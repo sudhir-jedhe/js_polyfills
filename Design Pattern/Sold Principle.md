@@ -1,3 +1,5 @@
+*** copy Sold Principle.md ***
+
 # SOLID Principles in JavaScript
 
 The **SOLID** principles are a set of five design principles that help developers create software that is easy to maintain, understand, and extend. These principles were originally defined for object-oriented programming (OOP), but they can be applied to JavaScript as well.

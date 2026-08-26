@@ -1,3 +1,5 @@
+*** copy user click and a click-through script.md ***
+
 detect whether a button click was performed by a real user and not some automated method (javascript) that a user has loaded onto their browser developer console or other browser developer tool?
 
 

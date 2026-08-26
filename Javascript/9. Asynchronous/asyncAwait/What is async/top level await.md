@@ -1,3 +1,5 @@
+*** copy top level await.md ***
+
 **Top-Level `await` in JavaScript** refers to using the `await` keyword directly at the top level of a module (without wrapping it inside an `async` function). In previous versions of JavaScript, `await` could only be used inside `async` functions. With the introduction of top-level `await` (in ES2022 and supported in modern JavaScript environments), this limitation has been lifted.
 
 ### Advantages of Top-Level `await`:

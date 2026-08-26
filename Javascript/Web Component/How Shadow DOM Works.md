@@ -1,3 +1,5 @@
+*** copy How Shadow DOM Works.md ***
+
 ## **How Shadow DOM Works**
 
 The Shadow DOM is a web standard that allows you to create an isolated DOM subtree that is encapsulated within a host element. This provides a way to build web components with their own structure, styles, and behavior, without affecting or being affected by the global styles and scripts on the main page.

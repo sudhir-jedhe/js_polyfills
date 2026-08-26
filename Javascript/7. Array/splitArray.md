@@ -1,3 +1,5 @@
+*** copy splitArray.md ***
+
 ```js
 function splitArray(nums) {
     const freq = new Map();

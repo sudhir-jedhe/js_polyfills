@@ -1,3 +1,5 @@
+*** copy async-array-loops.md ***
+
 Asynchronous array loops in JavaScript
 
 Asynchronous operations seem to trip up a lot of developers. This is especially true when combined with looping over arrays, as there are some caveats that come with each option available.

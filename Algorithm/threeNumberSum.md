@@ -1,3 +1,5 @@
+*** copy threeNumberSum.md ***
+
 /**
  * Problem: Three Number Sum: Given an array of integers, 
  * find three integers in the array that sum to a specific target number.

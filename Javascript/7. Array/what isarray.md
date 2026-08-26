@@ -1,3 +1,5 @@
+*** copy what isarray.md ***
+
 # what is array
 1. list-like object
 2. resizable

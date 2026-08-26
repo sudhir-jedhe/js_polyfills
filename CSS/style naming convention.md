@@ -1,3 +1,5 @@
+*** copy style naming convention.md ***
+
 When writing CSS, naming conventions are essential for maintaining consistency, clarity, and scalability, especially in larger projects. A well-thought-out CSS naming convention helps developers understand the purpose of classes, and it makes code more maintainable.
 
 There are several popular CSS naming conventions, but the best way largely depends on your project's needs and your team's preferences. Here are some widely used conventions along with tips on how to approach them:

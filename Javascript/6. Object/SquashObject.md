@@ -1,3 +1,5 @@
+*** copy SquashObject.md ***
+
 To flatten a nested JavaScript object into a single level, we need to recursively explore each key and value. When we encounter an object, we need to traverse its keys, append the parent key to create a new key, and recursively flatten it. If the value is a primitive (like a string, number, etc.), we can simply add it to the resulting object.
 
 Here are multiple ways to implement this, all of which "squash" or "flatten" an object into a single level:

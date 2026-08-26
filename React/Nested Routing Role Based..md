@@ -1,3 +1,5 @@
+*** copy Nested Routing Role Based..md ***
+
 ### **Managing Nested Routes in Role-Based Routing**
 
 Role-based routing refers to a strategy where different routes in an application are accessible based on the user's role or permission level. In React, this can be managed by combining nested routes with role-based checks to control access to specific parts of the application based on the user’s role (e.g., Admin, User, Guest).

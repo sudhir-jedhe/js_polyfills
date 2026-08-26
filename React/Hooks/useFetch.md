@@ -1,3 +1,5 @@
+*** copy useFetch.md ***
+
 A **`useFetch`** hook is one of the most common Senior React interview questions. A production-ready implementation should support:
 
 ✅ Loading state  

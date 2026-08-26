@@ -1,3 +1,5 @@
+*** copy Explain Property Descriptors in JavaScript (value, writable, enumerable, configurable) with code examples.md ***
+
 In JavaScript, object properties are not just simple key-value pairs. Under the hood, every property is backed by an internal record called a **Property Descriptor**.
 
 A Property Descriptor is a configuration object that defines the exact behavior of a property—whether it can be overwritten, looped over, or deleted.

@@ -1,3 +1,5 @@
+*** copy What is a React Router?.md ***
+
 React Router is a popular routing library for React applications that enables navigation between different components based on the URL. It provides declarative routing, allowing you to define routes and their corresponding components in a straightforward manner.
 
 **How does React Router work, and how do you implement dynamic routing?**

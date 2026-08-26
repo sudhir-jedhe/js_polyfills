@@ -1,3 +1,5 @@
+*** copy 3-implement-queue-using-stack.md ***
+
 // Ques 3 : Implement Queue using Stacks
 // Implement a first in first out(FIFO) queue using only two stacks.
 // The implemented queue should have all functions of queue(enqueue, front, dequeue, and empty).

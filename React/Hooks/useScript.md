@@ -1,3 +1,5 @@
+*** copy useScript.md ***
+
 // Removing the load from the main processing thread and lazy loading the scripts dynamically is an important way of boosting performance.
 
 // Keeping the initial script as small as possible results in faster processing. Thus all other unimportant scripts can be loaded separately as and when required.

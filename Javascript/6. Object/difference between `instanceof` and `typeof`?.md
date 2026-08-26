@@ -1,3 +1,5 @@
+*** copy difference between `instanceof` and `typeof`?.md ***
+
 Both **`typeof`** and **`instanceof`** are built-in type-checking operators in JavaScript, but they answer fundamentally different questions:
 
 * **`typeof`** checks the **primitive type** or basic type of an uninstantiated value.

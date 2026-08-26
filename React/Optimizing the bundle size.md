@@ -1,3 +1,5 @@
+*** copy Optimizing the bundle size.md ***
+
 Optimizing the bundle size of a React app is crucial for improving load times and overall performance. Here’s how I managed to reduce the bundle size of a React app from 2.5 MB to 1.5 MB using some effective techniques.
 
 **1. Code Splitting 🧩**

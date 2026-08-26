@@ -1,3 +1,5 @@
+*** copy class component vs function component in performance  build.md ***
+
 When comparing class components and function components, performance isn't just about runtime execution speed—it also directly impacts build size, bundle optimization, and tree-shaking efficiency.
 
 Here is a comprehensive breakdown of how class components and function components perform across both runtime and build metrics in modern React (React 18/19).

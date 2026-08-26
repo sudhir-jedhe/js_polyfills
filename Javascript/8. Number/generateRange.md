@@ -1,3 +1,5 @@
+*** copy generateRange.md ***
+
 Here's a complete implementation of the `generateRange` function with enhanced error handling and usage examples:
 
 ### Code

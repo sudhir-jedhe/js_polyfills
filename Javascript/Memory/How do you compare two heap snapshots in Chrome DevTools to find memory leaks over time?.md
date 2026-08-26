@@ -1,3 +1,5 @@
+*** copy How do you compare two heap snapshots in Chrome DevTools to find memory leaks over time?.md ***
+
 Comparing two (or three) heap snapshots using the **Comparison View** in Chrome DevTools allows you to isolate objects that were allocated during an interaction but failed to be garbage collected.
 
 ---

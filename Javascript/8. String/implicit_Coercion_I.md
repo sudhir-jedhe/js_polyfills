@@ -1,3 +1,5 @@
+*** copy implicit_Coercion_I.md ***
+
 Your code contains some interesting examples that test JavaScript's type coercion and various operators. Let’s walk through these examples and explain the expected behavior for each.
 
 ### 1. **Boolean Coercion**

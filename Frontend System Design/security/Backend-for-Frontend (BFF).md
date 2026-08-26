@@ -1,3 +1,5 @@
+*** copy Backend-for-Frontend (BFF).md ***
+
 A **Backend-for-Frontend (BFF)** acts as an intermediate server boundary specifically tailored to the needs of a single front-end client (such as a React Single-Page Application, Next.js SSR app, or Mobile App).
 
 In modern front-end system design, the BFF serves as the **Security Gateway**: it keeps sensitive credentials off the browser, orchestrates API requests, enforces rate limits, and prevents Server-Side Request Forgery (SSRF) when interacting with internal microservices or third-party APIs.

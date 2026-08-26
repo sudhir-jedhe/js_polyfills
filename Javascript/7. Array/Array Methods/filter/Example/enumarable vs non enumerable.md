@@ -1,3 +1,5 @@
+*** copy enumarable vs non enumerable.md ***
+
 ### **Enumerable vs Non-Enumerable Properties**
 
 In JavaScript, properties of objects have an attribute called `enumerable`. This attribute determines whether the property is included during enumeration, such as when using `for...in` loops or `Object.keys()`.

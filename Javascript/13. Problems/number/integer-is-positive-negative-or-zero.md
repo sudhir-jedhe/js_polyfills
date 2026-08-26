@@ -1,3 +1,5 @@
+*** copy integer-is-positive-negative-or-zero.md ***
+
 ```js
 // Function for number checking
 function NumberSignChecker(n) {

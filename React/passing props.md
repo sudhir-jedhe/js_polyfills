@@ -1,3 +1,5 @@
+*** copy passing props.md ***
+
 In React, passing props to components is done by adding attributes to the component when it is used, just like you would with HTML elements. However, there are specific conventions to follow when passing props in JSX.
 
 Let's look at the two examples you provided and clarify which is the correct way to pass props in React.

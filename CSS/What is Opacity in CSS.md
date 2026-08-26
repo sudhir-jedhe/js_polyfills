@@ -1,3 +1,5 @@
+*** copy What is Opacity in CSS.md ***
+
 ### **What is Opacity in CSS?**
 
 In CSS, **opacity** is a property that defines the transparency level of an element. It controls how visible an element is, where `opacity: 0` means fully transparent (invisible), and `opacity: 1` means fully opaque (fully visible). Any value between `0` and `1` makes the element partially transparent.

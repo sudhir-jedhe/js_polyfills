@@ -1,3 +1,5 @@
+*** copy Vercel..md ***
+
 Here are complete, production-ready GitHub Actions workflows for both deployment targets (**Vercel** and **AWS S3/CloudFront**).
 
 Both workflows follow the security rule: **generate sourcemaps $\rightarrow$ upload to Sentry $\rightarrow$ strip `.map` files $\rightarrow$ deploy clean assets**.

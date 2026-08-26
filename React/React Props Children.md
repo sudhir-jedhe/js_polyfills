@@ -1,3 +1,5 @@
+*** copy React Props Children.md ***
+
 In React, **`children`** is a special prop automatically passed to every component. It contains whatever content (text, HTML elements, or other React components) is placed **between a component's opening and closing tags**.
 
 The `children` prop is the foundation of **component composition** in React, allowing you to build flexible wrapper components like layouts, cards, modals, and accordions.

@@ -1,3 +1,5 @@
+*** copy How do I implement accessible multi-row selection and batch action toolbars in TanStack Table?.md ***
+
 Implementing accessible multi-row selection and batch action toolbars in TanStack Table (v8) requires:
 
 1. **Indeterminate Checkbox Component**: Exposes correct native `indeterminate` DOM properties and `aria-checked="mixed"`.

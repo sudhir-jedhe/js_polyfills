@@ -1,3 +1,5 @@
+*** copy Securing a JavaScript application.md ***
+
 Securing a JavaScript application involves implementing best practices across several layers, including the frontend, backend, and infrastructure. Here's a breakdown of strategies to secure your JavaScript application:
 
 ---

@@ -1,3 +1,5 @@
+*** copy interview quiz.md ***
+
 Here are explanations to the DOM-related questions:
 
 ### 1. What is the DOM, and how does it relate to HTML?

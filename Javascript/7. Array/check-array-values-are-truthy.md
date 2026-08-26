@@ -1,3 +1,5 @@
+*** copy check-array-values-are-truthy.md ***
+
 Your article is a great explanation of how to truth-check values in JavaScript arrays using various methods such as `every`, `some`, and a few additional checks to ensure all or any of the values satisfy certain conditions. Let's walk through and expand upon these concepts with more examples and clarifications:
 
 ### 1. **Check if all values in an array are truthy**

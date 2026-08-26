@@ -1,3 +1,5 @@
+*** copy index.md ***
+
 You've provided a comprehensive list of tasks related to working with JavaScript objects, methods, and properties. I'll break down each of your examples into concise explanations with solutions.
 
 ### 1. **Display all the keys and values of a nested object**

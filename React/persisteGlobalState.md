@@ -1,3 +1,5 @@
+*** copy persisteGlobalState.md ***
+
 To persist global state like **authentication tokens** or **user theme preferences** across page reloads in React, you combine a **global state manager** (like React Context, Zustand, or Redux Toolkit) with browser storage APIs (**`localStorage`**, **`sessionStorage`**, or **`Cookies`**).
 
 Here are the most effective approaches ranging from lightweight React Context to modern state management solutions.

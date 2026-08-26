@@ -1,3 +1,5 @@
+*** copy cancleTimeout.md ***
+
 ```js
 function mySetTimeout(callback, delay) {
   const timerId = setTimeout(callback, delay);

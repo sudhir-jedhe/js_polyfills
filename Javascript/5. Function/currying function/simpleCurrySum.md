@@ -1,3 +1,5 @@
+*** copy simpleCurrySum.md ***
+
 ```js
 function sum(a) {
   return function(b) {

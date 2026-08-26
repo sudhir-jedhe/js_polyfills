@@ -1,3 +1,5 @@
+*** copy minimum-operations-for-adjacent-e-and-e1-pairing.md ***
+
 ```js
 // Input: N = 2, arr[] = {3, 0, 2, 1}
 // Output: 1

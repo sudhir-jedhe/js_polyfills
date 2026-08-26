@@ -1,3 +1,5 @@
+*** copy for-each-right.md ***
+
 You're absolutely right! The `Array.prototype.forEach()` method is an elegant way to iterate over arrays, but by default, it iterates from left to right. To iterate over an array from right to left, we can use a combination of the following:
 
 1. **Array.prototype.slice()** – to create a shallow clone of the array (to avoid mutating the original array).

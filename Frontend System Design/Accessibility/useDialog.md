@@ -1,3 +1,5 @@
+*** copy useDialog.md ***
+
 Extracting focus trapping, focus restoration, keydown management, and body-scroll locking into a custom hook decouples accessibility logic from rendering. This allows you to apply accessibility management to modals, slide-over drawers, comboboxes, and mobile navigation menus without repeating logic.
 
 Here is how to design and build a clean `useDialog` hook.

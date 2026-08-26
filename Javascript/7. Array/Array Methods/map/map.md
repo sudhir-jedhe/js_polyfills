@@ -1,3 +1,5 @@
+*** copy map.md ***
+
 ## Custom `map()` Polyfill (Interview Question)
 
 You are correct:

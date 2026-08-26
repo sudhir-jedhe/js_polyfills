@@ -1,3 +1,5 @@
+*** copy Functional Components with Hooks vs. Class Components.md ***
+
 When discussing performance in React, it's important to understand the differences between **functional components with hooks** and **class-based components**. Both approaches have their strengths and weaknesses, and performance can vary based on how React renders and re-renders components. Let’s break down the **performance differences** between hooks and class components in React, and how to optimize both.
 
 ### 1. **Functional Components with Hooks vs. Class Components**

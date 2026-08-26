@@ -1,3 +1,5 @@
+*** copy PRODUCTION PERFORMANCE.md ***
+
 This list captures the reality of modern web engineering: **performance is ultimately an end-to-end network, runtime, and human perception problem**, not just a metric on a Lighthouse report.
 
 Every single point hits on a friction point that engineers run into once an application moves out of the `localhost` bubble and onto real mobile hardware, spotty cellular towers, and edge cases at scale.

@@ -1,3 +1,5 @@
+*** copy lodash_omit.md ***
+
 Your implementation of the `customOmit` function is a great solution for omitting specific keys from an object. It works similarly to the `_.omit` function from Lodash, allowing you to exclude specified keys from an object and return a new object with the remaining properties.
 
 ### **How the `customOmit` function works:**

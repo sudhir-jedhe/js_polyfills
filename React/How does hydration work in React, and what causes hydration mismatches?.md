@@ -1,3 +1,5 @@
+*** copy How does hydration work in React, and what causes hydration mismatches?.md ***
+
 **Hydration** is the process where client-side React converts server-rendered HTML into an interactive, fully functional application.
 
 When you use Server-Side Rendering (SSR) or React Server Components (RSC), the server executes your components and sends static HTML to the browser. Hydration bridges the gap between that static HTML and client-side interactivity.

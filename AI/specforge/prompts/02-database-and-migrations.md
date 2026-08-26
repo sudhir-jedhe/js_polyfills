@@ -1,3 +1,5 @@
+*** copy 02-database-and-migrations.md ***
+
 Use @specs/02-database-and-migrations.md as the source of truth.
 
 Implement only Section 02.

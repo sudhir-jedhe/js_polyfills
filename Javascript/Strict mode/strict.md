@@ -1,3 +1,5 @@
+*** copy strict.md ***
+
 The code you've provided will throw an error. Let's walk through it:
 
 ### Code Breakdown

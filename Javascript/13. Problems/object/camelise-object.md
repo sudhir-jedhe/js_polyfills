@@ -1,3 +1,5 @@
+*** copy camelise-object.md ***
+
 ```js
 export const camelise = (obj) => {
   if (typeof obj !== "object" || obj === null) {

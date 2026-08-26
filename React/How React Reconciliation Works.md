@@ -1,3 +1,5 @@
+*** copy How React Reconciliation Works.md ***
+
 ### How React Reconciliation Works
 
 React’s **reconciliation** process is a key part of how it updates the UI efficiently when the state or props of a component change. The goal of reconciliation is to **minimize the number of changes made to the actual DOM**, improving performance and providing a smooth user experience.

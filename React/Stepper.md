@@ -1,3 +1,5 @@
+*** copy Stepper.md ***
+
 ```js
 // IT will accept a list of components
 // based on the size of the list

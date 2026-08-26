@@ -1,3 +1,5 @@
+*** copy  lazy loading in React.md ***
+
 **Lazy loading** is a performance optimization technique that delays loading non-critical resources (like components, images, or data) until the exact moment they are needed by the user—such as when they scroll into view or when a specific route is visited.
 
 ---

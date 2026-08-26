@@ -1,3 +1,5 @@
+*** copy imageCarousal.md ***
+
 # Image Carousel Variants (React)
 
 Image carousel questions are extremely common in Senior React interviews. Interviewers often ask for **multiple variants**, autoplay, swipe support, lazy loading, accessibility, and different transition effects.

@@ -1,3 +1,5 @@
+*** copy Explain React's render phase and commit phase in detail?.md ***
+
 React executes state updates through a two-phase lifecycle: the **Render Phase** (asynchronous, interruptible reconciliation) and the **Commit Phase** (synchronous, uninterrupted DOM mutations and effect executions).
 
 ```

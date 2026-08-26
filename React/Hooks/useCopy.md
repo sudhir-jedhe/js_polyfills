@@ -1,3 +1,5 @@
+*** copy useCopy.md ***
+
 // mplement an useCopy() hook in React that copies the given text to the clipboard.
 
 // The useCopy() method returns a method copy(text) which accepts the text as input and copies that text and the copied text.

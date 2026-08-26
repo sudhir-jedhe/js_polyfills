@@ -1,3 +1,5 @@
+*** copy Core Web Vitals.md ***
+
 Google’s **Core Web Vitals (CWVs)** are a set of three specific, user-centric metrics that measure the real-world performance, interactivity, and visual stability of a web application.
 
 In a React application, performance optimization often centers around reducing bundle size, minimizing main-thread blocking during render cycles, and preventing layout shifts caused by dynamic components.

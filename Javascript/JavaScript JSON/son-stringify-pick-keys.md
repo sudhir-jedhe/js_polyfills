@@ -1,3 +1,5 @@
+*** copy son-stringify-pick-keys.md ***
+
 ### Key Points About `JSON.stringify` Customization
 
 The second argument to `JSON.stringify()` is used for customization. It can be either:

@@ -1,3 +1,5 @@
+*** copy this.md ***
+
 In JavaScript, the `this` keyword behaves in different ways depending on the context in which it is used. Below is a breakdown of how `this` works in various scenarios, followed by an explanation of the code snippets you've shared.
 
 ### **Key Rules for the `this` Keyword:**

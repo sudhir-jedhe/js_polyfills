@@ -1,3 +1,5 @@
+*** copy Show me how to build a high-performance Infinite Scroll component in React using IntersectionObserver.md ***
+
 Building a high-performance Infinite Scroll component in React using the **IntersectionObserver API** is significantly better than listening to scroll events (`window.addEventListener('scroll')`).
 
 It avoids main-thread layout thrashing, doesn't require scroll event debouncing, and only executes code when the target "sentinel" element physically intersects with the viewport.

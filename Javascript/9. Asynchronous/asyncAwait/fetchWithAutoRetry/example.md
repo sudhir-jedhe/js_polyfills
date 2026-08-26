@@ -1,3 +1,5 @@
+*** copy example.md ***
+
 I'll create a React component that demonstrates the recommended `fetchWithAutoRetry` function, allowing users to interact with it and see how it works in practice.
 
 ```typescriptreact project="fetch-with-auto-retry-demo"

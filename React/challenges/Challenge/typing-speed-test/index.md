@@ -1,3 +1,5 @@
+*** copy index.md ***
+
 import { VirtualKeyboard } from './VirtualKeyboard.js';
 import { sentences } from './sentences.js';
 import { Timer } from './Timer.js';

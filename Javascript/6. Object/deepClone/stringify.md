@@ -1,3 +1,5 @@
+*** copy stringify.md ***
+
 You're absolutely right that using `JSON.stringify` and `JSON.parse` is a simple and fast way to perform a deep clone of a JavaScript object, but it has some important limitations. Let’s break down both the advantages and the disadvantages of this approach, and explore when it's useful, as well as alternatives for situations where `JSON.parse(JSON.stringify(...))` won’t work correctly.
 
 ---

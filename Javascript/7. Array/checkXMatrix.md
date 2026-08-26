@@ -1,3 +1,5 @@
+*** copy checkXMatrix.md ***
+
 The given problem requires us to check if a given square matrix (2D array) is an X-Matrix. An X-Matrix is defined by two conditions:
 
 1. **Non-zero elements on the diagonals**: The main diagonal (from top-left to bottom-right) and the anti-diagonal (from top-right to bottom-left) must contain only non-zero elements.

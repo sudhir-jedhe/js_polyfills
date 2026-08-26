@@ -1,3 +1,5 @@
+*** copy What are Wrapper Objects.md ***
+
 Yes, you’re right! In JavaScript, primitive values like `string`, `number`, and `boolean` behave in a way that might seem a bit counterintuitive at first, because they appear to have properties and methods, even though they are not objects by themselves.
 
 ### **Primitive Values and Wrapper Objects**

@@ -1,3 +1,5 @@
+*** copy using fetch.md ***
+
 Here is a complete, production-ready React component demonstrating how to perform **asynchronous API integration** using **`useState`** and `useEffect`.
 
 This example fetches data from a public API (`JSONPlaceholder`), handles loading states, catches network errors, and displays the data cleanly with Tailwind CSS.

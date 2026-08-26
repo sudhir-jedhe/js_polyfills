@@ -1,3 +1,5 @@
+*** copy prototype.md ***
+
 ### Overview
 
 The code provided demonstrates the use of **prototypal inheritance**, **mixins**, and **polymorphism** in JavaScript. Let's break it down step by step to understand the concepts and how they are implemented.

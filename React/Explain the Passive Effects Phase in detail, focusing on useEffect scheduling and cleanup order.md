@@ -1,3 +1,5 @@
+*** copy Explain the Passive Effects Phase in detail, focusing on useEffect scheduling and cleanup order.md ***
+
 The **Passive Effects Phase** is the fourth and final sub-phase of React's **Commit Phase**.
 
 While the preceding phases (Before Mutation, Mutation, and Layout) execute **synchronously on the main thread** to ensure live DOM consistency before the screen updates, the Passive Effects Phase is explicitly designed to be **asynchronous and non-blocking**.

@@ -1,3 +1,5 @@
+*** copy 04-openai-spec-generation.md ***
+
 Use @specs/04-openai-spec-generation.md as the source of truth.
 
 Manual setup already completed:

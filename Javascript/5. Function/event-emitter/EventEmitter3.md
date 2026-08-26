@@ -1,3 +1,5 @@
+*** copy EventEmitter3.md ***
+
 The provided implementation effectively supports subscribing to events with listeners and emitting events that invoke those listeners. However, there are a few areas for improvement and clarification:
 
 ### Issues and Enhancements

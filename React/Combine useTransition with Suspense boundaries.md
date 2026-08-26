@@ -1,3 +1,5 @@
+*** copy Combine useTransition with Suspense boundaries.md ***
+
 Combining `useTransition` with `<Suspense>` allows you to perform asynchronous state changes (such as tab switches, route changes, or search queries) **without replacing the current UI with a fallback skeleton or spinner**.
 
 Instead, React keeps the existing screen fully interactive while rendering the next suspended component tree in an off-screen, in-memory fiber buffer.

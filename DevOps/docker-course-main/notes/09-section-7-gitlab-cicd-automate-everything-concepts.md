@@ -1,3 +1,5 @@
+*** copy 09-section-7-gitlab-cicd-automate-everything-concepts.md ***
+
 # Section 7 — GitLab CI/CD — Automate Everything — Concepts
 
 ## Introduction

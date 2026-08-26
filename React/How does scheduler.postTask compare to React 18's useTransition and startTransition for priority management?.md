@@ -1,3 +1,5 @@
+*** copy How does scheduler.postTask compare to React 18's useTransition and startTransition for priority management?.md ***
+
 `scheduler.postTask` and React’s `startTransition` / `useTransition` both solve priority-based execution, but they operate at completely different layers of the web stack: **browser-level macrotask scheduling** vs. **framework-level VDOM render scheduling**.
 
 ---

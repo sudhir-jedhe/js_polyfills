@@ -1,3 +1,5 @@
+*** copy Explain all well-known symbols in JavaScript like Symbol.iterator, Symbol.toPrimitive, and Symbol.species with examples..md ***
+
 Explain all well-known symbols in JavaScript like Symbol.iterator, Symbol.toPrimitive, and Symbol.species with examples.
 
 Well-known symbols are built-in `Symbol` constants exposed on the global `Symbol` constructor. JavaScript uses them as internal hooks/protocols to govern fundamental operations like iteration, type coercion, string manipulation, and inheritance.

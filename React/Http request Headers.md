@@ -1,3 +1,5 @@
+*** copy Http request Headers.md ***
+
 ### Request Headers: Overview, Use Cases, Advantages, and Disadvantages
 
 Request headers are key-value pairs sent by the client (browser, app, etc.) to the server in an HTTP request. These headers provide additional context about the request, such as authentication details, the desired response format, and other metadata.

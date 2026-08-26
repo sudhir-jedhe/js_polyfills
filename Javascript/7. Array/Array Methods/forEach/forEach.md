@@ -1,3 +1,5 @@
+*** copy forEach.md ***
+
 ## Custom `forEach()` Polyfill (Interview Question)
 
 The native `forEach()` executes a callback for each element in an array and does **not return a new array**.

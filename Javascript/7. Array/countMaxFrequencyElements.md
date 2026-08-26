@@ -1,3 +1,5 @@
+*** copy countMaxFrequencyElements.md ***
+
 The problem requires you to find the number of elements in the array that have the **maximum frequency**. In simpler terms:
 
 - First, you need to count how often each number appears in the array.

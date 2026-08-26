@@ -1,3 +1,5 @@
+*** copy publish_subscribe_Pattern.md ***
+
 // Create an interface exposing subscribe and publish functionality, which allows publishing data which in turn invokes all the subscribers with the data
 // A simple module with publish and subscribe function can be exposed to achieve such functionality
 // List of subscribers can be maintained in an array and can be invoked in loop on each publish

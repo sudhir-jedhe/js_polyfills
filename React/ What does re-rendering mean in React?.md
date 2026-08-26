@@ -1,3 +1,5 @@
+*** copy  What does re-rendering mean in React?.md ***
+
 **Re-rendering** in React is the process where a component function (or class render method) runs again to calculate the latest UI structure based on current props and state, compares it with the previous output, and updates the browser DOM if anything has changed.
 
 ---

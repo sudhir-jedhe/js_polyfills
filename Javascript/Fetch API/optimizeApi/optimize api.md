@@ -1,3 +1,5 @@
+*** copy optimize api.md ***
+
 Optimizing APIs is critical for improving performance, scalability, and user experience. Here’s a breakdown of key techniques you can use for API optimization, with examples using **React** (for the client-side) and **Node.js** (for the server-side).
 
 ---

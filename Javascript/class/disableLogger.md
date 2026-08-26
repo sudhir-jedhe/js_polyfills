@@ -1,3 +1,5 @@
+*** copy disableLogger.md ***
+
 The code examples you provided illustrate different ways to manage logging behavior in a production environment, including:
 
 1. **Disabling `console.log()` in Production:**

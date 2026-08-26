@@ -1,3 +1,5 @@
+*** copy stackUsingQueue.md ***
+
 function Stack() {
   let queue = new Queue();
 

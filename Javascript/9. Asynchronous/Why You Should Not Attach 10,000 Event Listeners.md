@@ -1,3 +1,5 @@
+*** copy Why You Should Not Attach 10,000 Event Listeners.md ***
+
 ## Why You Should Not Attach 10,000 Event Listeners
 
 **No, absolutely not.** Attaching an individual event listener to each of the 10,000 buttons is a major anti-pattern.

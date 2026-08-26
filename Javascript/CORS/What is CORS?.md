@@ -1,3 +1,5 @@
+*** copy What is CORS?.md ***
+
 Cross-Origin Resource Sharing (CORS) is a security feature that lets a web page from one domain request resources from a different domain:
 
 ➤ What is CORS?

@@ -1,3 +1,5 @@
+*** copy last.md ***
+
 Here is the complete guide and solution for LeetCode #2619: **Array Prototype Last** (extending JavaScript's `Array.prototype` so that calling `.last()` on any array returns its last element, or `-1` if the array is empty).
 
 ---

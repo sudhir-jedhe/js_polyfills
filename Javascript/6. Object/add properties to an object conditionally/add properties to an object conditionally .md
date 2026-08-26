@@ -1,3 +1,5 @@
+*** copy add properties to an object conditionally .md ***
+
 In JavaScript, you can add properties to an object conditionally by using various methods, such as `if` statements, ternary operators, or logical operators. Below are some common ways to add properties to an object conditionally:
 
 ### 1. **Using an `if` statement**

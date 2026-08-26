@@ -1,3 +1,5 @@
+*** copy How do you find Memory Leaks in a Frontend Application?.md ***
+
 ***How do you find Memory Leaks in a Frontend Application?***
 
 One of the most useful tools is Chrome DevTools → Memory → Heap Snapshot.

@@ -1,3 +1,5 @@
+*** copy RangeIterator.md ***
+
 It looks like you're trying to create a custom range iterator function that generates a sequence of numbers starting from `start`, ending at `end`, and incrementing by `step`. You're on the right track with defining the iterator, but there are a couple of adjustments needed.
 
 You should define the iterator properly with a `next()` method that returns the appropriate value and indicates whether the iteration is done or not.

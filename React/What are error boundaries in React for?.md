@@ -1,3 +1,5 @@
+*** copy What are error boundaries in React for?.md ***
+
 **Error boundaries** are React components designed to catch JavaScript errors anywhere in their child component tree, log those errors, and display a fallback UI instead of crashing the entire application.
 
 ---

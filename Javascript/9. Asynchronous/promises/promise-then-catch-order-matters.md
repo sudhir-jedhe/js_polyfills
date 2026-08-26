@@ -1,3 +1,5 @@
+*** copy promise-then-catch-order-matters.md ***
+
 The order of then and catch matters
 
 Many if not most promise-related headaches come from incorrectly ordered Promise.prototype.then() and Promise.prototype.catch() methods. The order in which these methods are chained to a promise can lead to very different behaviors. Let's take a look at a very simple example:

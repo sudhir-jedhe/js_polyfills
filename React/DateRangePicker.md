@@ -1,3 +1,5 @@
+*** copy DateRangePicker.md ***
+
 Here is a complete, production-ready React implementation for a **Date Range Picker with a Dual-Calendar Modal**.
 
 This component supports selecting a start date and an end date across two side-by-side calendars, dynamically highlights all days in between the selected range, and handles single-date clicks and range completions seamlessly.

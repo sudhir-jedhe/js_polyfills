@@ -1,3 +1,5 @@
+*** copy findFinalValue.md ***
+
 The problem you're describing requires a function that will repeatedly double a number (`original`) as long as it is found in the `nums` array. If `original` is not found in the array, the function stops and returns the current value of `original`.
 
 ### Plan:

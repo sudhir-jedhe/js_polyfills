@@ -1,3 +1,5 @@
+*** copy highlightText.md ***
+
 The code you've written seems to be aimed at implementing a search functionality where, when a user enters a search term and clicks the "Search" button, any matching text in the content is highlighted using `<mark>` tags.
 
 There is a small potential issue with your approach: you're using `.textContent` to extract the text from the `contentElement`, which will not include any HTML tags. If the content has already been highlighted with `<mark>` tags, `.textContent` will return plain text, and the highlighting won't be preserved.

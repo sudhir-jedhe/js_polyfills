@@ -1,3 +1,5 @@
+*** copy What does useOptimistic do?.md ***
+
 **`useOptimistic`** is a React 19 hook that lets you implement **Optimistic UI updates** with zero boilerplate.
 
 It allows your user interface to instantly reflect the expected result of an action (like "liking" a post, adding an item to a cart, or updating a profile name) _before_ the server has actually confirmed it. If the server request succeeds, the UI stays updated. If the server fails, React automatically rolls back the change.

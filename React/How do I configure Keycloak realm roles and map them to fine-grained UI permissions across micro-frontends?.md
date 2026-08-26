@@ -1,3 +1,5 @@
+*** copy How do I configure Keycloak realm roles and map them to fine-grained UI permissions across micro-frontends?.md ***
+
 To configure Keycloak realm roles and map them to fine-grained UI permissions across micro-frontends (MFEs), decouple **Identity Roles** (what Keycloak assigns, e.g., `realm-admin`, `support-tier-2`) from **Domain Permissions** (what specific UI buttons or routes need, e.g., `billing:refund`, `user:delete`).
 
 Hardcoding raw Keycloak roles across disparate MFEs creates brittle coupling; when backend roles change, every MFE breaks. Instead, parse Keycloak tokens at the **App Shell**, translate them through a **Permission Matrix / Engine**, and pass unified permissions down to child MFEs.

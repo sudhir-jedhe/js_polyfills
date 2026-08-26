@@ -1,3 +1,5 @@
+*** copy fairCandySwap.md ***
+
 ### Problem Explanation:
 
 In the problem, Alice and Bob both have some candy boxes, and they want to exchange one candy box each such that, after the exchange, they both have the same total number of candies. Given two arrays representing the candy sizes for Alice and Bob, we need to find the candy box that Alice and Bob should exchange.

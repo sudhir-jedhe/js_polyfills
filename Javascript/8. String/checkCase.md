@@ -1,3 +1,5 @@
+*** copy checkCase.md ***
+
 Checking if a string is entirely uppercase or entirely lowercase in JavaScript can be done either by comparing the string to its transformed version or by using regular expressions.
 
 ---

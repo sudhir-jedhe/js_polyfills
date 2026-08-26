@@ -1,3 +1,5 @@
+*** copy Why does React StrictMode render components twice in development, and how should I handle it?.md ***
+
 React **StrictMode** intentionally renders components twice (and invokes certain lifecycles twice) in **development mode only** to help you catch subtle bugs before they reach production.
 
 It does **not** run twice in production builds, nor does it impact production performance.

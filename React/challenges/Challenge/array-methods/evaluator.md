@@ -1,3 +1,5 @@
+*** copy evaluator.md ***
+
 const methods = ['map', 'filter'];
 
 export function Evaluator(dropDownValue, inputValue) {

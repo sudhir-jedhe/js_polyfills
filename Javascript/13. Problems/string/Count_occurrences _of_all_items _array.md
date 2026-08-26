@@ -1,3 +1,5 @@
+*** copy Count_occurrences _of_all_items _array.md ***
+
 ```js
 let arr = [
     'geeks', 2, 'geeks', 2, 'Javascript', 4,

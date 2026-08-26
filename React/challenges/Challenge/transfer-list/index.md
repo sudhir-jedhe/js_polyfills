@@ -1,3 +1,5 @@
+*** copy index.md ***
+
 const leftItems = ['JS', 'HTML', 'CSS', 'TS'];
 const rightItems = ['React', 'Angular', 'Vue', 'Svelte'];
 const leftSectionEl = document.querySelector('.left-section');

@@ -1,3 +1,5 @@
+*** copy React Portal.md ***
+
 ### What is React Portal?
 
 A **React Portal** provides a way to render children into a **DOM node** that exists outside the parent component’s DOM hierarchy. This is especially useful for cases where you need to render components outside the typical flow of your parent component's structure, such as modals, tooltips, or dropdowns.

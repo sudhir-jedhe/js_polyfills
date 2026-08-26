@@ -1,3 +1,5 @@
+*** copy Progress Bar .md ***
+
 # Progress Bar with Controls (React + TypeScript)
 
 A common **React Machine Coding / Frontend Interview** question.

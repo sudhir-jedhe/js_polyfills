@@ -1,3 +1,5 @@
+*** copy React Testing.md ***
+
 ### **React Testing**
 
 #### 1. **What is React Intl?**

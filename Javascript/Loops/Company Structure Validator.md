@@ -1,3 +1,5 @@
+*** copy Company Structure Validator.md ***
+
 # Company Structure Validator (Uber Frontend Interview)
 
 Based on public references, **Company Structure Validator** is an organisational hierarchy validation problem that tests:

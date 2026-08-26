@@ -1,3 +1,5 @@
+*** copy search-in-rotated-sorted-array.md ***
+
 =The code you've provided implements a solution for searching an element (`target`) in a rotated sorted array, and it does so with a time complexity of O(log n), which meets the problem's requirement. Let's break down how the algorithm works and its logic.
 
 ### Problem Recap:

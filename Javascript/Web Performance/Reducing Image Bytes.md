@@ -1,3 +1,5 @@
+*** copy Reducing Image Bytes.md ***
+
 # Reducing Image Bytes (Frontend Performance Fundamentals)
 
 Reducing image bytes means sending **fewer bytes over the network** while maintaining acceptable visual quality. Since images are often the largest assets on a page, reducing image size is usually one of the highest-impact performance optimisations. [\[hostinger.com\]](https://www.hostinger.com/tutorials/how-to-optimize-images), [\[web.dev\]](https://web.dev/learn/performance/image-performance), [\[pagespeedmatters.com\]](https://www.pagespeedmatters.com/resources/glossary/image-optimization)

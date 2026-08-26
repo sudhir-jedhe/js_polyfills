@@ -1,3 +1,5 @@
+*** copy maskEmailNumber.md ***
+
 function maskPII(S) {
     if (S.includes('@')) {
         // Mask email

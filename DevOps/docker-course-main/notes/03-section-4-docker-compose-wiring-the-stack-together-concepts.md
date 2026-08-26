@@ -1,3 +1,5 @@
+*** copy 03-section-4-docker-compose-wiring-the-stack-together-concepts.md ***
+
 # Section 4 — Docker Compose — Wiring the Stack Together — Concepts
 
 ## Introduction

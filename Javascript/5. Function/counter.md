@@ -1,3 +1,5 @@
+*** copy counter.md ***
+
 ### Task Overview
 
 We need to create a `counter` function that behaves differently based on the context:

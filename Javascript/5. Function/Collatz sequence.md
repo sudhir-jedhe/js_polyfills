@@ -1,3 +1,5 @@
+*** copy Collatz sequence.md ***
+
 The Collatz sequence is a fascinating sequence that begins with any positive integer and proceeds by applying the following rules until the number becomes 1:
 
 - If the number is even, divide it by 2.

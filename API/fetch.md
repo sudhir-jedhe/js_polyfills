@@ -1,3 +1,5 @@
+*** copy fetch.md ***
+
 When making HTTP requests using the browser's built-in **`fetch` API**, header options are configured inside the second argument (the `options` configuration object) using the `headers` property.
 
 Here is a comprehensive guide and reference on how to set, format, and use headers with `fetch`.

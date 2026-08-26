@@ -1,3 +1,5 @@
+*** copy Types of objects.md ***
+
 In JavaScript, **almost everything is an object**. However, to understand the different "types" of objects, it helps to categorize them based on how they are created, their underlying runtime type, and their intended purpose.
 
 Here is a comprehensive breakdown of object types in JavaScript, ranging from standard plain objects to specialized built-in and custom class objects.

@@ -1,3 +1,5 @@
+*** copy time-complexity.md ***
+
 // Slow Example
 const funnyNumber = (array) => {
   // 4 Operations

@@ -1,3 +1,5 @@
+*** copy CaseDropdown React Component.md ***
+
 Creating a custom **CaseDropdown** React component can be an excellent way to encapsulate dropdown functionality while maintaining control over the behavior and styling. Below is an implementation of a **CaseDropdown** that handles different case scenarios for the selected item and provides basic accessibility and functionality like opening, closing, and selecting an item.
 
 ### Example: **CaseDropdown** React Component

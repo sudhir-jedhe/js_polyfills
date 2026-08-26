@@ -1,3 +1,5 @@
+*** copy How do you implement instant UI feedback using the useOptimistic hook with React 19 Form Actions?.md ***
+
 **`useOptimistic`** in React 19 lets you update the UI immediately with an assumed successful result while an asynchronous **Action** is in flight.
 
 If the action succeeds, the actual resolved state replaces the optimistic value. If the action fails or throws, React automatically rolls the optimistic UI back to the true base state without manual rollback boilerplate.

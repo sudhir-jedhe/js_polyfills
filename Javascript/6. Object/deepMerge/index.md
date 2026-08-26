@@ -1,3 +1,5 @@
+*** copy index.md ***
+
 The function you've written, `mergeObjects`, merges two JavaScript objects by iterating through both objects and adding properties from `obj1` and `obj2` to a new object, `mergedObj`. If a property exists in both `obj1` and `obj2`, the property from `obj2` will overwrite the one from `obj1`. This is a shallow merge because if either object contains nested objects, those nested objects will not be deeply merged—they will simply be replaced if a conflict occurs.
 
 Here's a brief explanation of how it works:

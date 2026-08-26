@@ -1,3 +1,5 @@
+*** copy How do Compilation and Compiler Tapable hooks operate during Webpack's seal and optimize phases?.md ***
+
 In Webpack's architecture, the entire compilation engine is built on **Tapable**—a micro-library that implements a specialized, strongly-typed Publisher/Subscriber (Hook) system.
 
 While the **`Compiler`** represents the long-lived master instance managing the overall build lifecycle, the **`Compilation`** represents a single build of the dependency graph and assets.

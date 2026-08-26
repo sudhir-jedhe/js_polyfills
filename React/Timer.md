@@ -1,3 +1,5 @@
+*** copy Timer.md ***
+
 To implement a simple timer functionality with `start` and `stop` buttons in React, we can use `useState` to keep track of the timer's state and `useEffect` to handle the timing logic. We can also make use of `setInterval` to update the timer every second.
 
 Here’s the complete implementation:

@@ -1,3 +1,5 @@
+*** copy How do you integrate Semantic Release with Docker build and push to tag container images with dynamic SemVer tags in CI?.md ***
+
 Integrating **Semantic Release** with **Docker** in CI/CD allows you to extract the calculated dynamic SemVer version (e.g., `v2.4.1`, `v2.4`, `v2`, `latest`) during the release step and build/push multi-tagged container images automatically to a registry like GitHub Container Registry (GHCR) or Docker Hub.
 
 There are two primary integration patterns:

@@ -1,3 +1,5 @@
+*** copy Microfront End Webpack.md ***
+
 ### **Microfrontend Architecture in React with Webpack - Interview Questions**
 
 Microfrontend architecture is an approach that extends the concept of microservices to the frontend of web applications. It divides the frontend monolith into smaller, self-contained pieces, enabling teams to work independently on each piece. This results in better scalability, faster deployments, and easier management.

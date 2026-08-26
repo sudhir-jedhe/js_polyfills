@@ -1,3 +1,5 @@
+*** copy How do you split React Context to prevent unnecessary re-renders across the whole component tree?.md ***
+
 When a value inside a React Context Provider changes, **every component that calls `useContext` on that provider will re-render**, even if it only uses a piece of the context that didn't change.
 
 If you put both **frequently changing state** (like user input, active tabs, or mouse coordinates) and **rarely changing state** (like user settings) into a single Context object, any minor update forces the entire consumer component tree to re-render.

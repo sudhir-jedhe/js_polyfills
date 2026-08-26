@@ -1,3 +1,5 @@
+*** copy javascript-program-to-rotate-all-odd-numbers-right-and-all-even-numbers-left-in-an-array-of-1-to-n.md ***
+
 ```js
 // Input: A = {1, 2, 3, 4, 5, 6, 7, 8}
 // Output: {7, 4, 1, 6, 3, 8, 5, 2}

@@ -1,3 +1,5 @@
+*** copy splice.md ***
+
 The `splice()` method in JavaScript is a versatile tool that allows you to modify an array by removing or replacing elements, or by adding new ones. It directly modifies the original array and returns an array of the removed elements.
 
 Here’s a breakdown of your code examples and how they demonstrate various use cases of the `splice()` method:

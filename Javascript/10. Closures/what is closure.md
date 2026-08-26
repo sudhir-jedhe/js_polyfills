@@ -1,3 +1,5 @@
+*** copy what is closure.md ***
+
 
 ### **What is Closure in JavaScript?**
 

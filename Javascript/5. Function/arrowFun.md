@@ -1,3 +1,5 @@
+*** copy arrowFun.md ***
+
 # In this code, you're working with a class `Site` that has a method `getHandle()`, which returns an object containing three methods: `getName1`, `getName2`, and `getName3`. Each of these methods behaves differently due to the way they reference `this`
 
 Let's break down what happens when you run the code:

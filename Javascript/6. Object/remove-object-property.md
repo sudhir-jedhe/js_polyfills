@@ -1,3 +1,5 @@
+*** copy remove-object-property.md ***
+
 ### Explanation of Methods to Remove Properties from an Object
 
 In JavaScript, there are several ways to **remove or set properties** in an object, depending on your needs (e.g., mutating the object, not mutating the object, etc.). Let's go over the three methods you provided: **setting a property to `undefined`**, **using the `delete` operator**, and **using object destructuring with the spread operator**.

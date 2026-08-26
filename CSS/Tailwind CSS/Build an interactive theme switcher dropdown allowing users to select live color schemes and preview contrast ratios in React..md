@@ -1,3 +1,5 @@
+*** copy Build an interactive theme switcher dropdown allowing users to select live color schemes and preview contrast ratios in React..md ***
+
 An interactive theme switcher that calculates real-time WCAG 2.1 contrast ratios uses relative luminance math to evaluate text-to-background contrast, ensuring every selected color scheme meets accessibility standards (AA $\ge 4.5:1$, AAA $\ge 7:1$).
 
 ---

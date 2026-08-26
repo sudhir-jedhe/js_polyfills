@@ -1,3 +1,5 @@
+*** copy 2-implement-stack-using-queue.md ***
+
 // Ques 2 : Implement Stack using Queues
 // Implement a last -in -first - out(LIFO) stack using only two queues.
 // The implemented stack should support all the functions of a stack (push, top, pop, and empty).

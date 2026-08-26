@@ -1,3 +1,5 @@
+*** copy round to 2 decimal.md ***
+
 You are demonstrating several ways to round a number to a fixed number of decimal places in JavaScript. Let's go through each of the methods one by one.
 
 ### 1. **Using `toFixed` Method**

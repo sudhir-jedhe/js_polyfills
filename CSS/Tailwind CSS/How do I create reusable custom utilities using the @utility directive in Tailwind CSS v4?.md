@@ -1,3 +1,5 @@
+*** copy How do I create reusable custom utilities using the @utility directive in Tailwind CSS v4?.md ***
+
 In Tailwind CSS v4, custom utility classes are registered using the **`@utility`** directive directly in your CSS.
 
 Utilities created with `@utility` automatically support all Tailwind modifiers, such as responsive prefixes (`sm:`, `lg:`), state variants (`hover:`, `focus:`), and dark mode (`dark:`).

@@ -1,3 +1,5 @@
+*** copy 07-frontend-api-clients-and-types.md ***
+
 Use @specs/07-frontend-api-clients-and-types.md as the source of truth.
 
 Implement only Section 07.

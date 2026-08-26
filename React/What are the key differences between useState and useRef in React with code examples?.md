@@ -1,3 +1,5 @@
+*** copy What are the key differences between useState and useRef in React with code examples?.md ***
+
 The fundamental difference between `useState` and `useRef` in React comes down to **re-rendering**:
 
 * **`useState`** is for values that are **rendered in the UI**. Changing a state variable notifies React to re-render the component so the screen reflects the new data.

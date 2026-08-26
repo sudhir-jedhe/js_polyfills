@@ -1,3 +1,5 @@
+*** copy isFinite.md ***
+
 // The isFinite() function is used to determine whether a number is a finite, legal number. It returns false if the value is +infinity, -infinity, or NaN (Not-a-Number), otherwise it returns true.
 
 The `isFinite()` function is a global JavaScript function that checks whether a given value is a finite number. Here’s a detailed explanation:

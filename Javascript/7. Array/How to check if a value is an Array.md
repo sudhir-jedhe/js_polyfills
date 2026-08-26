@@ -1,3 +1,5 @@
+*** copy How to check if a value is an Array.md ***
+
 We can check if a value is an Array by using the Array.isArray method available from the Array global object. It returns true when the parameter pass to it is an Array otherwise false.
 
 ```js

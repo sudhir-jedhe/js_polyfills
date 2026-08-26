@@ -1,3 +1,5 @@
+*** copy What is CORS and Same Origin Policy.md ***
+
 ## **What is CORS (Cross-Origin Resource Sharing) and Same-Origin Policy?**
 
 ### **1. Same-Origin Policy (SOP)**
@@ -5,25 +7,25 @@
 The Same-Origin Policy is a security feature implemented by web browsers that restricts web pages from making requests to a domain different from the one that served the web page. This policy is designed to prevent potentially malicious scripts on one page from accessing sensitive data on another page.
 
 **Same-Origin:** Two URLs have the same origin if they share the same protocol (HTTP/HTTPS), domain (e.g., example.com), and port (e.g., 80, 443).
-**Different Origin:** If any of the protocol, domain, or port is different, it is considered a different origin. For example, a request from http://example.com to https://example.com is considered cross-origin because of the difference in the protocol (HTTP vs. HTTPS).
+**Different Origin:** If any of the protocol, domain, or port is different, it is considered a different origin. For example, a request from <http://example.com> to <https://example.com> is considered cross-origin because of the difference in the protocol (HTTP vs. HTTPS).
 
-The Same-Origin Policy is why you cannot directly make AJAX requests from http://example1.com to http://example2.com by default, as the browser will block the request.
+The Same-Origin Policy is why you cannot directly make AJAX requests from <http://example1.com> to <http://example2.com> by default, as the browser will block the request.
 
 ### **2. Cross-Origin Resource Sharing (CORS)**
 
-`CORS (Cross-Origin Resource Sharing) `is a mechanism that allows web applications running at one origin (domain) to make requests for resources from a different origin. CORS is implemented through HTTP headers that enable servers to specify which domains are permitted to access their resources.
+`CORS (Cross-Origin Resource Sharing)`is a mechanism that allows web applications running at one origin (domain) to make requests for resources from a different origin. CORS is implemented through HTTP headers that enable servers to specify which domains are permitted to access their resources.
 
 `CORS headers` are sent by the server to indicate which domains are allowed to access its resources.
 Without proper CORS headers, the browser will block the request.
 The most important CORS header is:
 
-`Access-Control-Allow-Origin: `This header specifies which domains are allowed to access the resource. For example, Access-Control-Allow-Origin: https://example.com allows requests from https://example.com, while Access-Control-Allow-Origin: \* allows requests from any domain.
+`Access-Control-Allow-Origin:`This header specifies which domains are allowed to access the resource. For example, Access-Control-Allow-Origin: <https://example.com> allows requests from <https://example.com>, while Access-Control-Allow-Origin: \* allows requests from any domain.
 
 **How Does CORS Work?**
 When making a cross-origin request (i.e., a request to a different domain), the browser sends a preflight request (for methods like PUT, DELETE, or custom headers) using the OPTIONS HTTP method to check whether the server allows the request. If the server responds with the appropriate CORS headers, the browser allows the actual request to proceed.
 
 **Example:**
-If you make a request from https://frontend.com to https://api.com, the server api.com needs to include CORS headers in the response. The server may return the following headers:
+If you make a request from <https://frontend.com> to <https://api.com>, the server api.com needs to include CORS headers in the response. The server may return the following headers:
 
 ```http
 Access-Control-Allow-Origin: https://frontend.com
@@ -35,7 +37,7 @@ Access-Control-Allow-Credentials: true
 **Types of CORS Requests**
 `Simple Requests`: These requests are simple HTTP methods like GET, POST, or HEAD with standard headers.
 
-Example: GET https://api.com/data
+Example: GET <https://api.com/data>
 No preflight request is required.
 
 `Preflight Requests:` More complex requests, such as those that use methods like PUT or custom headers, require a preflight request (an OPTIONS request) to ask the server if the actual request is allowed.
@@ -72,7 +74,7 @@ app.listen(3000, () => {
 });
 ```
 
-origin: 'https://frontend.com' ensures only https://frontend.com can access the resources.
+origin: '<https://frontend.com>' ensures only <https://frontend.com> can access the resources.
 
 **2. Frontend Workaround (Using Proxy)**
 If you can't modify the server and you're only working with the frontend code, you can use a proxy to bypass the CORS issue. A proxy server makes the request on behalf of the client.
@@ -103,7 +105,7 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.com/data")
 Note: Using third-party proxies in production is not recommended because of security and reliability concerns.
 
 **3. JSONP (Not Recommended for Modern Web)**
-JSONP (JSON with Padding) was an older method to bypass CORS by dynamically injecting a `<script> `tag. However, it has significant security risks and limitations and is only applicable for GET requests. This method is rarely used today and should be avoided.
+JSONP (JSON with Padding) was an older method to bypass CORS by dynamically injecting a `<script>`tag. However, it has significant security risks and limitations and is only applicable for GET requests. This method is rarely used today and should be avoided.
 
 Summary
 

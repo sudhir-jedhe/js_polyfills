@@ -1,3 +1,5 @@
+*** copy detectDataType.md ***
+
 ```js
 function detectType(data) {
   if (data instanceof FileReader) return "object";

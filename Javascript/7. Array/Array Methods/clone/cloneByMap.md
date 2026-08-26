@@ -1,3 +1,5 @@
+*** copy cloneByMap.md ***
+
 If you're referring to **`cloneByMap`**, it usually means using `.map()` to create a new array.
 
 ## 1. Cloning Primitive Arrays with `map()`

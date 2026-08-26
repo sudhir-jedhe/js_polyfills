@@ -1,3 +1,5 @@
+*** copy exmaple.md ***
+
 Thank you for providing this detailed explanation of top-level await in module files versus async/await in functions. I'll create a React component that demonstrates both approaches, allowing users to compare their behavior and usage.
 
 ```typescriptreact project="async-await-demo"

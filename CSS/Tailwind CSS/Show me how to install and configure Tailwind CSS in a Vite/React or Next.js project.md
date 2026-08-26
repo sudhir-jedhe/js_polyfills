@@ -1,3 +1,5 @@
+*** copy React or Next.js project.md ***
+
 Here is how to install and configure Tailwind CSS in both **Vite + React** and **Next.js** projects.
 
 ---

@@ -1,3 +1,5 @@
+*** copy 03b-oauth-callback-jwt-session.md ***
+
 # Spec 03B — OAuth Callback, JWT Cookie, and Session Endpoints
 
 ## Goal

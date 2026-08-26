@@ -1,3 +1,5 @@
+*** copy README.md ***
+
 # MERN RBAC Project
 
 This is a Role-Based Access Control (RBAC) project built with the MERN stack (MongoDB, Express, React, Node.js).

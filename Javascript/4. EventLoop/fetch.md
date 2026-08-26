@@ -1,3 +1,5 @@
+*** copy fetch.md ***
+
 Certainly! The example you've provided demonstrates how you can use `fetch` with different priorities and utilize the **microtask queue** and **macrotask queue** to control the order in which requests are executed.
 
 Below is the full code, incorporating **Request Priority** (which is available in modern browsers) and **microtask vs. macrotask** execution:

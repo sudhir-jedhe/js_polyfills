@@ -1,3 +1,5 @@
+*** copy How do JavaScript closures allocate variables on the heap instead of the stack?.md ***
+
 JavaScript engines (like V8) determine variable allocation using a compile-time process known as **Scope Analysis** and **Escape Analysis**.
 
 When a variable is declared inside a function, the engine does not blindly put it on the stack. If the engine detects that an inner function outlives its parent and references that variable, it lifts the variable from the stack into a **Context object allocated on the Heap**.

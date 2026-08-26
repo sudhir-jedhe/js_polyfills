@@ -1,3 +1,5 @@
+*** copy How do you implement cooperative time-slicing in long loops using scheduler.yield()?.md ***
+
 **Cooperative time-slicing** splits a long-running JavaScript loop into execution blocks bounded by a millisecond budget (typically 5ms–8ms). Instead of yielding on every iteration—which adds unnecessary microtask/macrotask overhead—it yields only when the elapsed time exceeds the allocated frame budget.
 
 ---

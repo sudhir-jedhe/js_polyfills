@@ -1,3 +1,5 @@
+*** copy getElementByClassName.md ***
+
 ```js
 function findByClass(class) {
     // get the root element,

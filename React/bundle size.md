@@ -1,3 +1,5 @@
+*** copy bundle size.md ***
+
 every React app starts facing performance issues. One major reason is the bundle size. It quietly slows down your app, and many teams don’t notice it early.
 
 After doing a proper performance check, I reduced the bundle size from 4.2MB to 1.6MB. At the same time, the page load speed (LCP) improved from 6.8 seconds to 1.9 seconds.

@@ -1,3 +1,5 @@
+*** copy Explain what useSyncExternalStore is, how it prevents tearing in concurrent rendering, and how to use it.md ***
+
 `useSyncExternalStore` is a Hook introduced in React 18 designed specifically for **subscribing to external (non-React) data stores**—such as Redux, Zustand, browser APIs (`window.innerWidth`, `navigator.onLine`), or custom event emitters—while preventing **tearing** during concurrent rendering.
 
 ---

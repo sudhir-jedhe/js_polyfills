@@ -1,3 +1,5 @@
+*** copy flat-iterator.md ***
+
 Your approach to creating a **flat iterator** is correct. You're using a **generator function** and recursion to flatten nested iterables.
 
 ### Explanation:

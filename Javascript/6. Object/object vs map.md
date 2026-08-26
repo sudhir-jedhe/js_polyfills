@@ -1,3 +1,5 @@
+*** copy object vs map.md ***
+
 In JavaScript, both **objects** and **maps** are used to store key-value pairs, but they have several key differences in their behavior, performance, and use cases. Here’s a detailed comparison between **Object** and **Map** in JavaScript:
 
 ### 1. **Key Types**

@@ -1,3 +1,5 @@
+*** copy spred vs rest.md ***
+
 The **spread operator** and the **rest parameter** use the exact same three-dot syntax (`...`) in JavaScript, but they are complete opposites in how they function.
 
 * **Spread** expands ("spreads") an iterable (like an array or object) into individual elements or properties.

@@ -1,3 +1,5 @@
+*** copy indertminateCheckbox.md ***
+
 import FolderTree from "./FolderTree";
 import IndeterminateCheckbox from "./IndeterminateCheckbox";
 import React, { useState } from "react";

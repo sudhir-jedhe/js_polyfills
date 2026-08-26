@@ -1,3 +1,5 @@
+*** copy Logical Errors.md ***
+
 Occur when the code runs completely fine without throwing any explicit JavaScript exception, but produces unexpected or incorrect output due to faulty logic.
 
 ```javascript

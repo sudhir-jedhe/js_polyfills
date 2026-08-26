@@ -1,3 +1,5 @@
+*** copy example.md ***
+
 Thank you for providing this detailed explanation of the `fetchWithTimeout` function. I'll create a React component that demonstrates this function, allowing users to interact with it and see how it works with different URLs and timeout durations.
 
 ```typescriptreact project="fetch-with-auto-retry-demo"

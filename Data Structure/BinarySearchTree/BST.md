@@ -1,3 +1,5 @@
+*** copy BST.md ***
+
 JavaScript Data Structures - Binary Search Tree
 
 Definition

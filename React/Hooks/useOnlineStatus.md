@@ -1,3 +1,5 @@
+*** copy useOnlineStatus.md ***
+
 Here is a production-ready `useOnlineStatus` hook built using `useSyncExternalStore` (React 18+). It provides real-time monitoring of browser online/offline status, zero layout tearing in concurrent mode, and full SSR hydration safety.
 
 ```jsx

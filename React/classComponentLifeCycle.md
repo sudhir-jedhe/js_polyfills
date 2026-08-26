@@ -1,3 +1,5 @@
+*** copy classComponentLifeCycle.md ***
+
 The **component lifecycle** refers to the stages a React class component goes through from birth (mounting) to updates (re-rendering) and finally death (unmounting). React provides built-in lifecycle methods that allow you to run code at specific points during these phases.
 
 ---

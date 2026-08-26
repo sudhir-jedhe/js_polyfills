@@ -1,3 +1,5 @@
+*** copy MathSqrt.md ***
+
 Here’s a breakdown of the two implementations you shared for finding the integer square root of a given number \( x \):
 
 ### Implementation 1: Using Binary Search

@@ -1,3 +1,5 @@
+*** copy CinemaHall.md ***
+
 # Cinema Hall Layout Structure (Machine Coding / React Interview)
 
 A **Cinema Hall Layout** problem is commonly asked in React/JavaScript interviews to test:

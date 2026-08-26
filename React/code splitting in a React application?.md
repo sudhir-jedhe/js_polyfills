@@ -1,3 +1,5 @@
+*** copy code splitting in a React application?.md ***
+
 **Code splitting** is a technique that allows you to split your JavaScript bundle into smaller chunks, which are then loaded on demand (lazily) rather than downloading the entire application all at once when the user first visits.
 
 ---

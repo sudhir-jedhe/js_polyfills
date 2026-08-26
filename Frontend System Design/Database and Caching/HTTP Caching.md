@@ -1,3 +1,5 @@
+*** copy HTTP Caching.md ***
+
 In **Front-End System Design**, **HTTP Caching** is the foundational browser mechanism that instructs the client engine how to store, reuse, and revalidate web server responses (HTML, CSS, JavaScript bundles, images, and JSON API payloads).
 
 By leveraging HTTP headers, you completely eliminate redundant network round-trips to the backend database, drastically reduce server bandwidth costs, and achieve **sub-second initial paints (LCP)** and seamless user experiences.

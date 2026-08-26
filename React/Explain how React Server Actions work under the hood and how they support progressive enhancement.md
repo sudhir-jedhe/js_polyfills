@@ -1,3 +1,5 @@
+*** copy Explain how React Server Actions work under the hood and how they support progressive enhancement.md ***
+
 **React Server Actions** are asynchronous functions that execute strictly on the server but can be invoked directly from both Server and Client Components.
 
 Rather than requiring manual setup of REST/GraphQL API routes, stateful `fetch()` calls, and event handlers, Server Actions turn server-side functions into **type-safe, endpoint-less Remote Procedure Calls (RPCs)**.

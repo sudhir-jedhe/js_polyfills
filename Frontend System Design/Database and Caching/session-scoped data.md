@@ -1,3 +1,5 @@
+*** copy session-scoped data.md ***
+
 When storing **temporary, session-scoped data** in a React application—data that must remain available while a user navigates or works within their current browser session, but should automatically reset or be cleared when the session ends—front-end engineers rely on specific session storage mechanisms and state management strategies.
 
 Unlike persistent storage (like `localStorage` or `IndexedDB`), **session storage strategies** focus on maintaining ephemeral state without polluting the client’s permanent disk space or risking data leakage across multiple browser tabs/users.

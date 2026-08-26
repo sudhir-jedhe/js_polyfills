@@ -1,3 +1,5 @@
+*** copy header.md ***
+
 import { jsChallenges } from '@fmc/data/content';
 import './navbar.ts';
 import '../styles/challenge-navbar.css';

@@ -1,3 +1,5 @@
+*** copy useHook.md ***
+
 The `use` hook is a new API introduced in React 19 that fundamentally changes how you handle asynchronous data inside a component.
 
 In the older `useEffect` pattern, fetching data was treated as an **afterthought** — the component rendered empty, the effect ran, the data fetched, and the component re-rendered. The `use` hook treats asynchronous data as a **blocking requirement** — it pauses the component from rendering until the data is actually ready.

@@ -1,3 +1,5 @@
+*** copy  Image Loading Strategies (Lazy Loading, Preloading Images, CSS Sprite).md ***
+
 Selecting the right image loading strategy comes down to **when** an asset is needed relative to the user's viewport and interaction path.
 
 | Strategy         | When to Use                                                            | Core Benefit                                              | Drawback / Trade-off                                                                     |

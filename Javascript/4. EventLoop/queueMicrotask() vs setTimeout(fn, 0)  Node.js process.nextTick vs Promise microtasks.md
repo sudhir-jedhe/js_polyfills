@@ -1,3 +1,5 @@
+*** copy queueMicrotask() vs setTimeout(fn, 0)  Node.js process.nextTick vs Promise microtasks.md ***
+
 Choosing between `queueMicrotask()` and `setTimeout(fn, 0)` fundamentally changes when your code executes relative to **Microtask draining**, **UI rendering**, and **Main Thread responsiveness**.
 
 ---

@@ -1,3 +1,5 @@
+*** copy next greater element in the array.md ***
+
 You're trying to solve the problem of finding the next greater element for each element in an array. In your solution, you have two approaches: a brute force method and an optimized method using a stack.
 
 ### **1. Brute Force Approach (Original Code)**

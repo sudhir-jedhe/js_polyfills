@@ -1,3 +1,5 @@
+*** copy index.md ***
+
 const clock = document.querySelector('.clock');
 const hoursHand = document.querySelector('.hours-hand');
 const minutesHand = document.querySelector('.minutes-hand');

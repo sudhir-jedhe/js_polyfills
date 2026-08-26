@@ -1,3 +1,5 @@
+*** copy main.md ***
+
 const inputFloor = document.getElementById('input-floor');
 const inputLift = document.getElementById('input-lift');
 const btnSubmit = document.getElementById('btn-submit');

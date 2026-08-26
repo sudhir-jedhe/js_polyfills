@@ -1,3 +1,5 @@
+*** copy What is Hoisting.md ***
+
 1. ### What is Hoisting
 
    Hoisting is a JavaScript mechanism where variables, function declarations are moved to the top of their scope before code execution. Remember that JavaScript only hoists declarations, not initialization.

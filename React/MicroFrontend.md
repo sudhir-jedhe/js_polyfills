@@ -1,3 +1,5 @@
+*** copy MicroFrontend.md ***
+
 Micro-Frontends (MFEs) extend the concepts of backend microservices to the frontend. Instead of building a single, monolithic React Single Page Application (SPA), a large web application is broken down into smaller, independent, semi-autonomous frontend applications that run together seamlessly in the browser.
 
 ---

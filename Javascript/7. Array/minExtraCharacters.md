@@ -1,3 +1,5 @@
+*** copy minExtraCharacters.md ***
+
 Both of the solutions you've provided aim to solve the problem of finding the minimum number of "extra characters" in a string, given a dictionary of words. The goal is to use as many words from the dictionary as possible to cover the string, and the remaining characters that aren't part of any word in the dictionary are counted as "extra characters."
 
 However, there are differences in the approach taken by both solutions. Let's analyze each of them and their behavior.

@@ -1,3 +1,5 @@
+*** copy General Sibling Selector and Adjacent Sibling Selector.md ***
+
 In CSS, **General Sibling Selector** and **Adjacent Sibling Selector** are two types of sibling combinators used to select elements based on their relationship to other elements. Both of them are used to target siblings (elements that share the same parent), but they differ in how they match sibling elements.
 
 ### 1. **Adjacent Sibling Selector (`+`)**

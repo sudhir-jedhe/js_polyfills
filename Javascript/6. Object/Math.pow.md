@@ -1,3 +1,5 @@
+*** copy Math.pow.md ***
+
 ### Analyzing the Power Function Implementations
 
 You provided a few different implementations of the `pow` function, which computes `base^power` (the base raised to the power of the exponent). Let's break down and evaluate each of them:

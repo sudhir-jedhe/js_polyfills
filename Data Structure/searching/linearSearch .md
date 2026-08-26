@@ -1,3 +1,5 @@
+*** copy linearSearch .md ***
+
 Linear search
 
 Finds the first index of a given element in an array using the linear search algorithm.

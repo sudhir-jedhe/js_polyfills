@@ -1,3 +1,5 @@
+*** copy sortedIndex.md ***
+
 ```js
 export const sortedIndex = (arr, value) => {
   let low = 0;

@@ -1,3 +1,5 @@
+*** copy longest-string-in-an-array.md ***
+
 ```js
 // Input array of strings
 let arr = ["A_Copmuter_Science_Portal", "GeeksforGeeks", "GFG", "geeks"];

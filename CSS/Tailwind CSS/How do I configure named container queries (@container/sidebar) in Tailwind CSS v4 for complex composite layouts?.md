@@ -1,3 +1,5 @@
+*** copy sidebar) in Tailwind CSS v4 for complex composite layouts?.md ***
+
 In Tailwind CSS v4, container queries are built-in natively and do not require the legacy `@tailwindcss/container-queries` plugin.
 
 Named containers solve the problem of nested or composite layouts where a deeply nested child component needs to respond specifically to an outer panel or sidebar container rather than its closest parent container.

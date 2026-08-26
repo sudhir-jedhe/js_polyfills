@@ -1,3 +1,5 @@
+*** copy why we use meta tag.md ***
+
 We use `<meta>` tags to provide **metadata** (data about data) to machines reading the website.
 
 While humans look at the content inside the `<body>` of your webpage, browsers, search engines, and social media platforms look at the `<meta>` tags inside the `<head>` to understand how to render, rank, and share your page.

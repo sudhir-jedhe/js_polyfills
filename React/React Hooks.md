@@ -1,3 +1,5 @@
+*** copy React Hooks.md ***
+
 Core React Hooks allow function components to manage state, handle side effects, and process complex state logic without writing class components.
 
 Here is a breakdown of **`useState`**, **`useEffect`**, and **`useReducer`** with practical, real-world examples.

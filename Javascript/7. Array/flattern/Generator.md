@@ -1,3 +1,5 @@
+*** copy Generator.md ***
+
 You provided multiple solutions for flattening nested structures in arrays. Let's break down the different approaches:
 
 ### **Generator-Based Solution**

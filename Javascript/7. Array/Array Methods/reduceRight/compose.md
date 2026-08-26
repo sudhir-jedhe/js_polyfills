@@ -1,3 +1,5 @@
+*** copy compose.md ***
+
 In JavaScript, **`compose()`** is a functional programming utility that combines multiple functions into one.
 
 The functions execute **right to left**.

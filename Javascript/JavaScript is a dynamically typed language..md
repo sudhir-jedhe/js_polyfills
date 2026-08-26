@@ -1,3 +1,5 @@
+*** copy JavaScript is a dynamically typed language..md ***
+
 **JavaScript is a dynamically typed language.**
 
 In JavaScript, types are associated with **values**, not variables. You do not declare variable types explicitly, and a variable can hold different data types over its lifecycle at runtime.

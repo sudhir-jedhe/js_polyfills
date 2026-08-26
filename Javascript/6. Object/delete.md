@@ -1,3 +1,5 @@
+*** copy delete.md ***
+
 ### Explanation of Code and Key Concepts
 
 #### 1. **Using `delete` to Remove Properties from an Object**

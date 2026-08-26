@@ -1,3 +1,5 @@
+*** copy what is  Difference Between Argument and Parameter in JavaScript.md ***
+
 Difference Between Argument and Parameter in JavaScript
 In JavaScript (and many other programming languages), the terms "parameter" and "argument" are often used interchangeably, but they have distinct meanings in the context of functions. Let's clarify the difference:
 

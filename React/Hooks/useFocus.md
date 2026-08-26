@@ -1,3 +1,5 @@
+*** copy useFocus.md ***
+
 ```js
 import React, { Ref, useEffect, useRef, useState } from "react";
 import React, { Ref, useCallback, useRef, useState } from "react";

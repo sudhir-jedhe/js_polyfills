@@ -1,3 +1,5 @@
+*** copy globalThis.md ***
+
 The difference between the **Global Environment Record** and the **Global Object (`window` / `globalThis`)** comes down to specification architecture:
 
 The **Global Object** is a physical JavaScript object with properties, while the **Global Environment Record** is an internal engine structure that dictates how bare identifier lookups (`x`) are resolved at the top level.

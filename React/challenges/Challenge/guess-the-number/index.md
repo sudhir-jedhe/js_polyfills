@@ -1,3 +1,5 @@
+*** copy index.md ***
+
 const form = document.getElementById('form');
 const input = document.getElementById('input');
 const submit = document.getElementById('submit');

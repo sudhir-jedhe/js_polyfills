@@ -1,3 +1,5 @@
+*** copy digitalRoot .md ***
+
 ```js
 let digitalRoot = (n) => {
   //calculate the sum of all the digits

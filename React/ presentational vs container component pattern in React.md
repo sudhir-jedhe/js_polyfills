@@ -1,3 +1,5 @@
+*** copy  presentational vs container component pattern in React.md ***
+
 **The presentational vs container component pattern** (also known as "dumb vs smart components") splits components into two roles: presentational components decide how things look and receive everything via props, while container components decide how things work — they fetch data, hold state, and pass props down. Dan Abramov, who popularized the pattern in 2015, updated his original article in 2019 to say he no longer recommends splitting components this way: hooks (especially custom hooks) cover the same separation of concerns without forcing you to introduce a wrapper component. The vocabulary is still useful for talking about responsibilities, but in modern React the "container" layer is usually a custom hook.
 
 **Presentational vs container component pattern in React**

@@ -1,3 +1,5 @@
+*** copy Backbone.Model.class.md ***
+
 The class you've written is a simple implementation that resembles the behavior of `Backbone.Model`, with the ability to store attributes, listen for changes to those attributes, and trigger events when they change.
 
 However, there are a few improvements and clarifications we can make to ensure the class works properly and aligns with typical event handling patterns in JavaScript.

@@ -1,3 +1,5 @@
+*** copy index.md ***
+
 
 const $movieTitle = document.getElementById('movie-title');
 const $movieGenre = document.getElementById('movie-genre');

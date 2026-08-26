@@ -1,3 +1,5 @@
+*** copy difference between the picture and img.md ***
+
 The difference between the `<picture>` and `<img>` tags in HTML lies in their functionality and use cases. Here’s a detailed comparison:
 
 **1. `<img>` Tag**

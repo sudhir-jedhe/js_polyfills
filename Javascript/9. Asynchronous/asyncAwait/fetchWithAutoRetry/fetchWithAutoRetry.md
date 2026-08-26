@@ -1,3 +1,5 @@
+*** copy fetchWithAutoRetry.md ***
+
 The goal of the `fetchWithAutoRetry` function is to retry a failed asynchronous task (such as a network request) for a certain number of times (`maximumRetryCount`) before giving up and throwing an error. You've provided several implementations of this function using different approaches: recursion, chaining `.catch()` and `.then()`, and using promises.
 
 I'll explain each of your implementations and suggest improvements or clarifications where needed:

@@ -1,3 +1,5 @@
+*** copy example.md ***
+
 
 Thank you for providing this updated `APIBatchRequester` class. I'll create a React component that demonstrates the use of this class in a practical context. We'll implement this as a custom hook and then use it in a component to show how it works with real API calls.
 

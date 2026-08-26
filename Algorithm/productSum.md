@@ -1,3 +1,5 @@
+*** copy productSum.md ***
+
 /**
  * Problem: Product Sum: Given an array (that can have nested arrays) - return the sum of all the numbers in the array.
  * If nested array is encountered, recursively add the numbers in the nested array multiplied by the depth of the nested array.

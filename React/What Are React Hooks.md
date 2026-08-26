@@ -1,3 +1,5 @@
+*** copy What Are React Hooks.md ***
+
 ### What Are React Hooks?
 
 **React Hooks** are functions that allow you to use **state** and **other React features** (like lifecycle methods, context, refs, etc.) in **functional components**. Prior to hooks, only **class components** had access to state, lifecycle methods, and other features in React. Hooks bring these capabilities to **functional components**, making it easier to write and manage React components.

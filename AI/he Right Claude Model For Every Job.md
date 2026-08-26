@@ -1,3 +1,5 @@
+*** copy he Right Claude Model For Every Job.md ***
+
 Based on the provided infographic by Eric Melillo, titled **"The Right Claude Model For Every Job,"** here is a breakdown of how to match the right model to your task to optimize performance and prevent rate-limit burn:
 
 ---

@@ -1,3 +1,5 @@
+*** copy HashSet.md ***
+
 The code you've shared implements three different data structures in JavaScript:
 
 1. **`MyHashSet`**: A custom hash set implementation that uses either an array or linked list to store values. It supports operations like `add`, `remove`, and `contains`.

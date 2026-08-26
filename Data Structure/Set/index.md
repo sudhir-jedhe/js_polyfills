@@ -1,3 +1,5 @@
+*** copy index.md ***
+
 // iterable can use for-of-loop
 // unique data
 // insertion order not stored or memorizes

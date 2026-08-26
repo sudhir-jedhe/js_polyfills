@@ -1,3 +1,5 @@
+*** copy seal.md ***
+
 You're correct in your understanding of `Object.seal` and `Object.freeze`. These are two different methods in JavaScript for managing object immutability, and they each have different effects on the object they are applied to.
 
 ### **Object.seal()**

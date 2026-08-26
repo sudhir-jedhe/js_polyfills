@@ -1,3 +1,5 @@
+*** copy How do I write a Node.js build script to convert JSON transcript cue arrays into standard WebVTT (.vtt) caption files?.md ***
+
 To convert JSON transcript cue arrays into standard **WebVTT (`.vtt`)** files, you need to format timestamps strictly into `HH:MM:SS.mmm` (or `MM:SS.mmm` when hours are zero) and structure cue payloads with optional identifiers, voice tags (`<v Speaker>`), and cue settings.
 
 ---

@@ -1,3 +1,5 @@
+*** copy Concurrent Rendering in React.md ***
+
 ### **Concurrent Rendering in React 18:**
 
 Concurrent rendering is one of the significant new features introduced in **React 18** that allows React to work on multiple tasks at the same time, without blocking the user interface (UI). It improves the responsiveness and performance of React applications by enabling **non-blocking rendering**.

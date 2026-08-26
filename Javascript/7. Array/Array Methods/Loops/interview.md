@@ -1,3 +1,5 @@
+*** copy interview.md ***
+
 In JavaScript, `for...in` and `for...of` serve very different purposes: **`for...in` iterates over object properties (keys)**, whereas **`for...of` iterates over iterable values** (like Array elements, Strings, Maps, and Sets).
 
 ---

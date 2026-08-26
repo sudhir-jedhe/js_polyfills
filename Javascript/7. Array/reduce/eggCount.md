@@ -1,3 +1,5 @@
+*** copy eggCount.md ***
+
 The function `eggCount` counts the number of "eggs" in the coop represented by the binary digits of a decimal number. It converts the decimal number to binary, and counts how many `1`s (eggs) are present in the binary representation.
 
 ### Explanation:

@@ -1,3 +1,5 @@
+*** copy iterators.md ***
+
 This example illustrates the flexibility and power of **iterators** in JavaScript. Let's break it down further:
 
 ### 1. **LinkedList Class Example**:

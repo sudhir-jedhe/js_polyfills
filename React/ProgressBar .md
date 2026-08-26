@@ -1,3 +1,5 @@
+*** copy ProgressBar .md ***
+
 import React, { PureComponent } from "react";
 import cx from "classnames";
 import PropTypes from "prop-types";

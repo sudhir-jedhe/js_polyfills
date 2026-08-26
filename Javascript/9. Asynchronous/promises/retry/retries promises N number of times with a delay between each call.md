@@ -1,3 +1,5 @@
+*** copy retries promises N number of times with a delay between each call.md ***
+
 // Input:
 // retry(asyncFn, retries = 3, delay = 50, finalError = 'Failed');
 

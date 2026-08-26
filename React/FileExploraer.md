@@ -1,3 +1,5 @@
+*** copy FileExploraer.md ***
+
 File explorer
 Overview
 Build a recursive file explorer tree view with expandable and collapsible folders, similar to VS Code's sidebar.

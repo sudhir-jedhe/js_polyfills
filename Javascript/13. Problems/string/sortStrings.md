@@ -1,3 +1,5 @@
+*** copy sortStrings.md ***
+
 ```js
 sortStrings(["apple", "banana", "pear", "banana", "orange", "apple"]); // Output: ['aelpp', 'aaabnn', 'aepr', 'aaabnn', 'aegnor', 'aelpp']
 sortStrings(["Orange", "apple", "Banana", "pear"]); // Output: ['aegnor', 'aelpp', 'aaabnn', 'aepr']

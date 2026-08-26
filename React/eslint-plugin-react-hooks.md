@@ -1,3 +1,5 @@
+*** copy eslint-plugin-react-hooks.md ***
+
 **`eslint-plugin-react-hooks`** is an official ESLint plugin maintained by the React core team. It enforces the Rules of React and prevents common bugs related to incorrect Hook usage and missing dependencies.
 
 ---

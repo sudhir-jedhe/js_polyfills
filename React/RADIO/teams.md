@@ -1,3 +1,5 @@
+*** copy teams.md ***
+
 Since you've asked before for copyable Markdown, here's the response in raw Markdown format so you can paste it directly into your interview notes.
 
 # Frontend System Design: Microsoft Teams / Chat Application Using R.A.D.I.O Framework

@@ -1,3 +1,5 @@
+*** copy checkout.md ***
+
 # Shopping Cart Checkout (React Machine Coding Interview)
 
 A Shopping Cart Checkout flow is one of the most frequently asked React machine-coding problems. Common requirements include:

@@ -1,3 +1,5 @@
+*** copy How would you efficiently handle 5000 records from an API call for a dropdown.md ***
+
 To efficiently handle **5000 records** from an API call for a dropdown in a React application, you need to consider both **performance** and **user experience**. Here are some strategies that can help:
 
 ### 1. **Lazy Loading / Infinite Scroll**

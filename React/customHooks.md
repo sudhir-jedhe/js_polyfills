@@ -1,3 +1,5 @@
+*** copy customHooks.md ***
+
 Here is a complete, production-ready library containing implementations for all **50 custom React hooks** listed.
 
 All hooks include TypeScript types, automatic cleanups, SSR safety checks (`typeof window !== 'undefined'`), and optimized performance patterns (like storing callback refs to avoid re-subscription churn).

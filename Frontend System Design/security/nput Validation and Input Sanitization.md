@@ -1,3 +1,5 @@
+*** copy nput Validation and Input Sanitization.md ***
+
 In Front-End System Design, **Input Validation** and **Input Sanitization** serve two completely different security and operational purposes:
 
 * **Input Validation:** Checks whether the user's input matches expected criteria (data type, length, format, allowed characters). Its primary role on the front end is **UX feedback**, reducing unnecessary network traffic, and enforcing data integrity before sending requests.

@@ -1,3 +1,5 @@
+*** copy How do I build a compound component pattern in React with context?.md ***
+
   The **Compound Component Pattern** allows you to create a set of related components that work together to share implicit state while giving the consumer total flexibility over the DOM structure and layout.
 
 Classic examples include `<select>` and `<option>` in HTML, or `<Accordion>`, `<Tabs>`, and `<Select>` in modern UI libraries like Radix UI or Chakra UI.

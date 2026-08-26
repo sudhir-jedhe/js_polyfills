@@ -1,3 +1,5 @@
+*** copy Optimizing React application performance.md ***
+
 Optimizing React application performance involves reducing unnecessary renders, cutting down initial bundle size, and efficiently managing network and asset loading. Below is a breakdown of how each technique contributes to a faster app:
 
 ---

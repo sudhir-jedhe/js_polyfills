@@ -1,3 +1,5 @@
+*** copy Top Level await vs Asyn await.md ***
+
 ### **Top-level await in Module File vs Async-Await in Functions**
 
 In modern JavaScript, the **`await`** keyword is typically used within **asynchronous functions** (i.e., within functions marked with `async`). However, **top-level await** is a newer feature introduced with ES2020 and is only available in **ES modules**. 

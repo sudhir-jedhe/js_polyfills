@@ -1,3 +1,5 @@
+*** copy index.md ***
+
 const phone = document.getElementById('phone');
 
 const getStringWithNumbersOnly = (str) =>

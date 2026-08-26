@@ -1,3 +1,5 @@
+*** copy integrity in packge.lock.md ***
+
 The `integrity` field in `package-lock.json` (and `yarn.lock` / `pnpm-lock.yaml`) is one of the most effective, automated lines of defense against package tampering.
 
 It implements **Subresource Integrity (SRI)** mechanics for the package registry, enforcing strict cryptographic immutability on every dependency downloaded during a build.

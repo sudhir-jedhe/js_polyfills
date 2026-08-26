@@ -1,3 +1,5 @@
+*** copy implement Implement Critical CSS.md ***
+
 **Critical CSS** refers to the process of inlining or loading only the essential styles (CSS) needed to render the above-the-fold (visible) content of a webpage as quickly as possible. By doing so, you can improve the page load time, enhance performance, and make the page feel faster for users, especially those on slow networks.
 
 Here’s how you can implement **Critical CSS** in your web application:

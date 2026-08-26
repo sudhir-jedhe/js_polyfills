@@ -1,3 +1,5 @@
+*** copy JavaScript Scope.md ***
+
 JavaScript Scope
 
 **Scope** in JavaScript determines the accessibility (visibility) of variables, functions, and objects in different parts of your code during runtime.

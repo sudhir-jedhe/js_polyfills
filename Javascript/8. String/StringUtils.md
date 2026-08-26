@@ -1,3 +1,5 @@
+*** copy StringUtils.md ***
+
 Here is a complete, production-ready **`StringUtils`** library written in TypeScript.
 
 It merges all key case conversion functions (`camelCase`, `pascalCase`, `kebabCase`, `snakeCase`, `constantCase`, and pattern-aware `titleCase`) along with deep object key transformers, featuring full generic type inference, brand preservation, and zero runtime dependencies.

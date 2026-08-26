@@ -1,3 +1,5 @@
+*** copy customArrayClass.md ***
+
 # CustomArray
 
 ```js

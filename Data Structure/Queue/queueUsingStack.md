@@ -1,3 +1,5 @@
+*** copy queueUsingStack.md ***
+
 const arr = [1, 2, 3, 4];
 
 arr.push(5); // now array is [1, 2, 3, 4, 5]

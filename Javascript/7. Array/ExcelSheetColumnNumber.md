@@ -1,3 +1,5 @@
+*** copy ExcelSheetColumnNumber.md ***
+
 ### Explanation of Both `titleToNumber` Functions
 
 The two `titleToNumber` functions you've shared are designed to convert an Excel-style column title (like "A", "AB", "ZY") to its corresponding column number (like 1, 28, 701). They both work based on a **base-26 system**, where the first letter 'A' represents 1, 'B' represents 2, ..., 'Z' represents 26, and then continues into two-letter combinations like 'AA', 'AB', etc.

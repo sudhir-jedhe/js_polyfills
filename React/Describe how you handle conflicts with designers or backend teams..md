@@ -1,3 +1,5 @@
+*** copy Describe how you handle conflicts with designers or backend teams..md ***
+
 Handling cross-functional conflicts—whether with designers on UI/UX trade-offs or backend engineers on API contracts—comes down to **de-personalizing the debate, anchoring on user and system outcomes, and establishing clear engineering contracts early.**
 
 Here is the operational framework for navigating both scenarios effectively:

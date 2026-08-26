@@ -1,3 +1,5 @@
+*** copy seggregation.md ***
+
 The code you provided uses the `reduce` method to group values in the `arr` array based on the floored value (the integer part of the number). This results in a grouped object where the keys represent the floored values, and the values are arrays of numbers that belong to each group.
 
 ### Explanation of the Code:

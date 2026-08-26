@@ -1,3 +1,5 @@
+*** copy Why ref.current is null During Render vs. Populated in useLayoutEffect.md ***
+
 Here is a clean, structured technical reference guide based on your notes explaining why DOM `ref.current` is `null` during render but populated inside `useLayoutEffect` and `useEffect`.
 
 ---

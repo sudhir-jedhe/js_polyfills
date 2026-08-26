@@ -1,3 +1,5 @@
+*** copy IdleStateDetector.md ***
+
 ```js
 import { useEffect, useRef } from "react";
 

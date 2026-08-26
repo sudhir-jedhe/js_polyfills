@@ -1,3 +1,5 @@
+*** copy input.md ***
+
 <https://react.dev/reference/react-dom/components/input>
 
 Here is the recreated and cleanly formatted reference guide for the built-in React `<input>` component, based on the official documentation.

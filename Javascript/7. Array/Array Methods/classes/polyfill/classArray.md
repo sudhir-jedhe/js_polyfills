@@ -1,3 +1,5 @@
+*** copy classArray.md ***
+
 # Array class
 
 ```js

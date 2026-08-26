@@ -1,3 +1,5 @@
+*** copy copyArray.md ***
+
 Yes, JavaScript provides several ways to clone an array, each of which serves slightly different purposes depending on whether you need a shallow or deep clone, and how the array is structured (whether it contains primitive values or objects). Here's a more detailed breakdown of each cloning technique you've mentioned:
 
 ---

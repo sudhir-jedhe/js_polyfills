@@ -1,3 +1,5 @@
+*** copy CD basics, logging, and deployment process.md ***
+
 Here is a complete overview of a production-proven **Git workflow, CI/CD pipeline, logging strategy, and deployment process** for modern web applications.
 
 ---

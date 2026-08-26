@@ -1,3 +1,5 @@
+*** copy detect-undefined-object-property.md ***
+
 ### Understanding the Difference Between `undefined` and Non-Existent Properties in JavaScript
 
 In JavaScript, the way to check if a property exists or if its value is `undefined` can sometimes lead to ambiguity. The issue arises because a property that exists on an object can have a value of `undefined`, but you also have properties that are not defined at all (i.e., they don't exist on the object).

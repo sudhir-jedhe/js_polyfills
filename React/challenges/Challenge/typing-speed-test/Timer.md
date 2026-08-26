@@ -1,3 +1,5 @@
+*** copy Timer.md ***
+
 export class Timer {
   isTimerRunning = false;
 

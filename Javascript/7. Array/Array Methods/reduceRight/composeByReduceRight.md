@@ -1,3 +1,5 @@
+*** copy composeByReduceRight.md ***
+
 ```js
 // compose.js
 

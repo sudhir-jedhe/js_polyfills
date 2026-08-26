@@ -1,3 +1,5 @@
+*** copy How does prop serialization work across the RSC boundary between Server and Client Components?.md ***
+
 When a Server Component renders a Client Component (`'use client'`), it crosses the **Server-Client Component boundary**.
 
 Because Server Components run in Node.js/Edge environments while Client Components hydrate and execute in the browser, props passed across this boundary cannot simply be shared in memory. Instead, React serializes the props into the **React Flight Data stream (RSC Payload)**, transmits them across the network, and deserializes them on the client.

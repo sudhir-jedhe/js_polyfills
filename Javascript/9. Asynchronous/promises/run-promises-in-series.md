@@ -1,3 +1,5 @@
+*** copy run-promises-in-series.md ***
+
 Run JavaScript promises in series
 
 JavaScript promises are asynchronous, meaning that they are executed in parallel. This is great for performance, but sometimes you need to execute promises one after another (sequentially). This can be easily accomplished by chaining promises together, using Array.prototype.reduce(). Each promise in the chain returns the next promise when resolved, using Promise.prototype.then().

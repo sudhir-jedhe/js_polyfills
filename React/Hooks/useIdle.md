@@ -1,3 +1,5 @@
+*** copy useIdle.md ***
+
 // Let us see how to create a useIdle() hook in React that will return the boolean value depending upon the active or inactive state of the user after a defined amount of time.
 
 // In the last article, we had seen how to detect an idle state in React, we will be using the same approach but consolidate the logic in a hook so that it can be resued.

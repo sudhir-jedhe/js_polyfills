@@ -1,3 +1,5 @@
+*** copy In a pure React application, how do you handle state updates and optimistic UI for custom API layouts without Next.js form actions?.md ***
+
 In a pure React 19 application (without Next.js, Server Actions, or framework-specific route handlers), you can handle state updates and optimistic UI for custom API layouts using React 19's native hooks: **`useTransition`**, **`useOptimistic`**, and **`useActionState`**.
 
 Even without Next.js form actions, React 19 Actions work natively with client-side async functions and `fetch` requests.

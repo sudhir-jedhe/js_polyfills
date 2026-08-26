@@ -1,3 +1,5 @@
+*** copy Incremental static re-rendering vs Server-side generated.md ***
+
 # Advanced Provider Pattern Topics
 
 ### Testing Nested Providers • Performance Optimizations • Provider vs Redux vs Zustand

@@ -1,3 +1,5 @@
+*** copy Lexical Scope (Static Scope).md ***
+
 **Lexical Scope** (also known as **Static Scope**) means that variable scope is determined by the **physical placement of functions and blocks in the source code at author time**, not where or how they are called at runtime.
 
 In a lexically scoped language like JavaScript, an inner function always has access to the variables declared in its outer (enclosing) parent scopes, based strictly on where the function is defined in the source file.

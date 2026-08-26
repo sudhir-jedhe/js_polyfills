@@ -1,3 +1,5 @@
+*** copy startsWith.md ***
+
 ```js
 const str = "Hello Geeks!";
 

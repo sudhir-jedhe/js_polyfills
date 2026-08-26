@@ -1,3 +1,5 @@
+*** copy authorization management, and local component.md ***
+
 Here is the complete **English translation and technical guide** for implementing a production-grade centralized API layer with global error handling, authentication/authorization management, and local component overrides in React.
 
 ---

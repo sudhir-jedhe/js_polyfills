@@ -1,3 +1,5 @@
+*** copy Faulty-Keyboard.md ***
+
    1. Faulty Keyboard
       Description
       Your laptop keyboard is faulty, and whenever you type a character 'i' on it, it reverses the string that you have written. Typing other characters works as expected.

@@ -1,3 +1,5 @@
+*** copy proxy.md ***
+
 In JavaScript, **Metaprogramming** refers to writing code that inspects, intercepts, or modifies the behavior of other code at runtime.
 
 ES6 introduced two complementary built-in features that serve as the modern foundation for metaprogramming:

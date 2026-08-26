@@ -1,3 +1,5 @@
+*** copy index.md ***
+
 import { createGridFragment } from '../../helpers/dom.js';
 
 const rows = 4;

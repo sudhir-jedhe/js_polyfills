@@ -1,3 +1,5 @@
+*** copy 10-section-7-gitlab-cicd-automate-everything-practical-implementation.md ***
+
 # Section 7 — GitLab CI/CD — Automate Everything — Practical Implementation
 
 ## Introduction

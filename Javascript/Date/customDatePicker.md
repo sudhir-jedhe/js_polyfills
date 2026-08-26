@@ -1,3 +1,5 @@
+*** copy customDatePicker.md ***
+
 ```js
 
 const date_picker_ele = document.querySelector(".date-picker-wrapper");

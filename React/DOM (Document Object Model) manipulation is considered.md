@@ -1,3 +1,5 @@
+*** copy DOM (Document Object Model) manipulation is considered.md ***
+
 You're asking about how JavaScript functions (like the DOM API) are managed by the browser and how browsers optimize these operations through JavaScript engines written in low-level languages like C++ (and possibly C++-like languages). You've also mentioned that most DOM manipulation is expensive, and you're curious about how it all ties together with hardware-level optimizations.
 
 Let me break this down in a structured way:

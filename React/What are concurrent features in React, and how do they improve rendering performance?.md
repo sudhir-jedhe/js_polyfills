@@ -1,3 +1,5 @@
+*** copy What are concurrent features in React, and how do they improve rendering performance?.md ***
+
 **Concurrent features** in React are a set of capabilities powered by React’s underlying concurrent renderer. Rather than being a single user-facing feature, concurrency is an architectural mechanism that allows React to prepare multiple versions of a UI tree simultaneously.
 
 In traditional synchronous React, rendering is an all-or-nothing, blocking process: once an update starts, React locks the main thread until the entire component tree is fully re-rendered. If an update is heavy (such as filtering a massive list or parsing complex data), the browser freezes, causing dropped frames, sluggish typing, or unresponsive buttons.

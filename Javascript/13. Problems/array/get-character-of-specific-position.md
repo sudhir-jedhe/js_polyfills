@@ -1,3 +1,5 @@
+*** copy get-character-of-specific-position.md ***
+
 ```js
 let str = "Welcome to GeeksforGeeks";
 

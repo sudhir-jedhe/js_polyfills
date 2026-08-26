@@ -1,3 +1,5 @@
+*** copy linked-list-line-segments-remove-middle-point.md ***
+
 // Given a linked list of coordinates where adjacent points either form a vertical line or a horizontal line. Delete points from the linked list which are in the middle of a horizontal or vertical line.
 
 // Examples:

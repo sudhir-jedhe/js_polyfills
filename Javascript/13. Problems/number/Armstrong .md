@@ -1,3 +1,5 @@
+*** copy Armstrong .md ***
+
 ```js
 function isArmstrongNumber(number) {
     // Convert number to string to iterate through digits

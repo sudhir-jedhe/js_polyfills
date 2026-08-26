@@ -1,3 +1,5 @@
+*** copy interview.md ***
+
 CI/CD and Deployment interview trap questions with simple answers 👇
 
 Q1: "What's the difference between Continuous Delivery and Continuous Deployment?"

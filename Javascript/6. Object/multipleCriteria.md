@@ -1,3 +1,5 @@
+*** copy multipleCriteria.md ***
+
 It looks like you want to check if a given color is an RGB color based on a set of criteria (in this case, "red", "green", and "blue"). You've written a basic function using `Array.includes()` to check if the color is in the array `rgbColors`. This is a good approach.
 
 However, you mentioned **multiple criteria**, which might imply that you want to perform more complex checks (e.g., validating that the input is a string and it’s in the list of predefined colors).

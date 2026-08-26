@@ -1,3 +1,5 @@
+*** copy Input Change with Debounce and e.persist().md ***
+
 To improve performance when handling input changes in React, particularly when the input field updates frequently (e.g., typing), **debouncing** is a great technique. Debouncing limits the number of times the state updates, ensuring that the state only updates after a certain delay, typically when the user has stopped typing for a specified period.
 
 Here’s an example of how to implement **debounced input handling** using `e.persist()` and `setState` in React:

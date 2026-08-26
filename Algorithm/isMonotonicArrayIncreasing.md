@@ -1,3 +1,5 @@
+*** copy isMonotonicArrayIncreasing.md ***
+
 function isMonotonic(array) {
     let isNonIncreasing = true;
     let isNonDecreasing = true;

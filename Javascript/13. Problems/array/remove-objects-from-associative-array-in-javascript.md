@@ -1,3 +1,5 @@
+*** copy remove-objects-from-associative-array-in-javascript.md ***
+
 ```js
 function deleteObjects() {
 	// Declaring an associative

@@ -1,3 +1,5 @@
+*** copy Configure compound variants and complex conditionals in CVA.md ***
+
 In **`class-variance-authority` (CVA)**, complex component styling goes beyond basic 1:1 prop mappings. You often need to manage **multi-axis variant intersections**, **array-based multi-matches**, **boolean flags**, and **polymorphic component states**.
 
 Here is how to configure compound variants and complex conditional logic cleanly in CVA with TypeScript and Tailwind CSS.

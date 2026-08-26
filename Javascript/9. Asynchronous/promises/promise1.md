@@ -1,3 +1,5 @@
+*** copy promise1.md ***
+
 To create a Promise that resolves with the value `"done"`, then handle it in the `then` and `catch` blocks, and in the `then` block, you return a value (like `10`), here’s how you can do it:
 
 ### Code Example:

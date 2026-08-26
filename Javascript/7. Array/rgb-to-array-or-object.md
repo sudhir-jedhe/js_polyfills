@@ -1,3 +1,5 @@
+*** copy rgb-to-array-or-object.md ***
+
 Your provided solutions for converting an `rgb()` color string into either an **array** or an **object** are both concise and effective.
 
 ### 1. **Converting `rgb()` to an Array**:

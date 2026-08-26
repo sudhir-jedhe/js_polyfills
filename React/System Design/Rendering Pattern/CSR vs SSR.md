@@ -1,3 +1,5 @@
+*** copy CSR vs SSR.md ***
+
 # Client-Side Rendering (CSR) vs Server-Side Rendering (SSR)
 
 ## Frontend System Design + Complete Interview-Ready Explanation

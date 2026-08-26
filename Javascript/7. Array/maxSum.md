@@ -1,3 +1,5 @@
+*** copy maxSum.md ***
+
 To tackle this problem, the key observation is that we are asked to maximize the sum of the form:
 
 \[

@@ -1,3 +1,5 @@
+*** copy SnakBarNotification.md ***
+
 # Stacked Snack Bar in React
 
 ## System Design + Complete Interview-Ready Code

@@ -1,3 +1,5 @@
+*** copy React design pattern.md ***
+
 React offers several design patterns to structure and organize your application. These patterns improve maintainability, readability, and scalability. Here are the most common React design patterns with explanations and examples:
 
 ---

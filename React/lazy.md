@@ -1,3 +1,5 @@
+*** copy lazy.md ***
+
 **`lazy`** is a React function that lets you defer loading a component’s JavaScript code until it is rendered for the first time.
 
 Combined with `<Suspense>`, `lazy` is the primary mechanism for **code-splitting** in React. Instead of bundling your entire application into one massive JavaScript file that the user has to download upfront, `lazy` splits your code into smaller chunks, downloading them only when the user navigates to that specific part of the app.

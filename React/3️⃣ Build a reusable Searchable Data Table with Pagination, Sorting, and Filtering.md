@@ -1,3 +1,5 @@
+*** copy 3️⃣ Build a reusable Searchable Data Table with Pagination, Sorting, and Filtering.md ***
+
 Here is a complete, production-ready **Searchable Data Table** built with React and TypeScript. It includes client-side searching, column-based sorting, pagination, and status filtering without relying on external UI libraries.
 
 ---

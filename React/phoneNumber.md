@@ -1,3 +1,5 @@
+*** copy phoneNumber.md ***
+
 Phone Number Field
 Overview
 Build a smart Phone Input that auto-detects the country, validates the number, and formats the input as you type.

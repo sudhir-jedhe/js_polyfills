@@ -1,3 +1,5 @@
+*** copy Routing.md ***
+
 In modern front-end system design, **routing** and **protected routes** form the core navigation architecture of single-page applications (SPAs).
 
 Here is how routing works conceptually, followed by the strategies for seamless navigation, and a complete production-grade implementation in React.

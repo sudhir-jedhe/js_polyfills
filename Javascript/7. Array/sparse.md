@@ -1,3 +1,5 @@
+*** copy sparse.md ***
+
 ### Understanding Sparse Arrays in JavaScript
 
 In JavaScript, sparse arrays are arrays that have "holes," meaning some of their elements are unassigned or `undefined`. For example, an array like `[1, , , 2]` has a value of `1` at index `0`, a hole at index `1`, another hole at index `2`, and a value of `2` at index `3`.

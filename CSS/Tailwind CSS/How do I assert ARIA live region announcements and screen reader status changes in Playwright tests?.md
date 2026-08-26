@@ -1,3 +1,5 @@
+*** copy How do I assert ARIA live region announcements and screen reader status changes in Playwright tests?.md ***
+
 To test screen reader announcements in Playwright, you cannot directly capture audio output, but you can assert on the two underlying mechanisms screen readers rely on:
 
 1. **ARIA Live Region Text Ingestion:** Verifying that elements configured with `aria-live="polite"` / `aria-live="assertive"` or standard landmark roles (`role="status"`, `role="alert"`) receive text updates dynamically.

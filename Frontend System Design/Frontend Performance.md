@@ -1,3 +1,5 @@
+*** copy Frontend Performance.md ***
+
 ### Frontend Performance Fundamentals
 
 To truly optimize frontend performance, focusing on core principles rather than chasing buzzwords is crucial. Here's how:

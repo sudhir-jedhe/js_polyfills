@@ -1,3 +1,5 @@
+*** copy string-to-words.md ***
+
 Up until a few years ago, the go-to method for splitting a string into words was String.prototype.split(). While it can still work just fine, it's a bit of a hassle to get right, especially for longer bodies of text. Yet, JavaScript has come up with a simpler way that takes care of all the nuances for us - Intl.Segmenter.
 
 Using the Intl.Segmenter() constructor, we can create a segmenter for a given locale, with a specific granularity. In this case, we want to split a string into words, so we'll use the word granularity. Then, we can use the Intl.Segmenter.prototype.segment() method to split the string into segments.

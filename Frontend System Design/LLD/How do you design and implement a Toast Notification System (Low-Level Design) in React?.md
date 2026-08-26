@@ -1,3 +1,5 @@
+*** copy How do you design and implement a Toast Notification System (Low-Level Design) in React?.md ***
+
 Designing a **Toast Notification System** requires building a global, non-blocking alert queue that can trigger floating messages from anywhere in the application—including outside React components (e.g., inside API interceptors or async utility functions).
 
 ---

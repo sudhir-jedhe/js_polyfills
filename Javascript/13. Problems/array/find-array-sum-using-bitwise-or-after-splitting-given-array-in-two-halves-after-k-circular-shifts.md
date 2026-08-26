@@ -1,3 +1,5 @@
+*** copy find-array-sum-using-bitwise-or-after-splitting-given-array-in-two-halves-after-k-circular-shifts.md ***
+
 ```js
 // Input: A[] = {12, 23, 4, 21, 22, 76}, Q = 1, K = 2
 // Output: 117

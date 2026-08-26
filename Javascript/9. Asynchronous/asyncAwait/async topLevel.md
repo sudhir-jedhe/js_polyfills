@@ -1,3 +1,5 @@
+*** copy async topLevel.md ***
+
 In JavaScript, **top-level `await`** is supported in **ES Modules** (`.mjs` files or modules in browsers). It allows you to use `await` directly at the top level, without needing to wrap it inside an `async` function. This was introduced with **ES2022** (ECMAScript 2022), and it provides a cleaner way to write asynchronous code in modules.
 
 ### Example with top-level `await`:

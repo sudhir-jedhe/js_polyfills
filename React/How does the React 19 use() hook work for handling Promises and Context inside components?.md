@@ -1,3 +1,5 @@
+*** copy How does the React 19 use() hook work for handling Promises and Context inside components?.md ***
+
 In React 19, **`use()`** is a first-class React API that lets you read the value of a resource—specifically a **Promise** or a **Context**—directly within render.
 
 Unlike standard React hooks (`useState`, `useEffect`, `useContext`), **`use()` can be called conditionally** inside `if` statements, loops, and after early returns.

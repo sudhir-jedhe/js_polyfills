@@ -1,3 +1,5 @@
+*** copy get-nested-object-value.md ***
+
 Your code examples provide different ways of working with deeply nested data structures in JavaScript. Let’s break down each of your functions and explain how they work and how you can optimize or fix them if necessary.
 
 ### 1. **`deepGet` Function**

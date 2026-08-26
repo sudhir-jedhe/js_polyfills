@@ -1,3 +1,5 @@
+*** copy what is json and its common  operation.md ***
+
 ### **What is JSON?**
 
 **JSON (JavaScript Object Notation)** is a lightweight data-interchange format that is easy to read and write for humans and simple for machines to parse and generate. It follows JavaScript object syntax and is commonly used for transmitting data across networks, especially between a client (browser) and a server.

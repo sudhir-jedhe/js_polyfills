@@ -1,3 +1,5 @@
+*** copy cancelInterval.md ***
+
 ```js
 
 function myInterval(func, delay) {

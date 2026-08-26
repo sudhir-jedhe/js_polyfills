@@ -1,3 +1,5 @@
+*** copy URI Errors.md ***
+
 A **`URIError`** in JavaScript is thrown when one of the global URI (Uniform Resource Identifier) handling functions is used incorrectly, usually by passing it a malformed string.
 
 In web development, URIs (like URLs) often contain special characters that need to be encoded (converted into a safe format, like replacing a space with `%20`) and later decoded. JavaScript provides built-in functions for this, and passing broken data to them is what triggers this error.

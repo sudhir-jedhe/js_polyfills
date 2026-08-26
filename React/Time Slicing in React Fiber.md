@@ -1,3 +1,5 @@
+*** copy Time Slicing in React Fiber.md ***
+
 Here is a clean, structured technical reference guide explaining **Time Slicing**, how `shouldYield()` operates within the Fiber `workLoop`, and how React maintains main-thread responsiveness during heavy renders.
 
 ---

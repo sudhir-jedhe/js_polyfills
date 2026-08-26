@@ -1,3 +1,5 @@
+*** copy How do you monitor frontend in production?.md ***
+
 Monitoring a frontend application in production requires a multi-layered observability strategy. Unlike backend monitoring (where you control the server environment), frontend applications run on thousands of different user devices, browsers, screen sizes, and network connections.
 
 A complete production frontend monitoring setup covers **five core pillars**:

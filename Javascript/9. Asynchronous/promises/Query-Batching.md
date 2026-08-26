@@ -1,3 +1,5 @@
+*** copy Query-Batching.md ***
+
 // Batching multiple small queries into a single large query can be a useful optimization. Write a class QueryBatcher that implements this functionality.
 
 // The constructor should accept two parameters:

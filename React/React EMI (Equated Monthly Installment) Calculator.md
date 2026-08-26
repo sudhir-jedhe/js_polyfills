@@ -1,3 +1,5 @@
+*** copy React EMI (Equated Monthly Installment) Calculator.md ***
+
 A responsive React EMI (Equated Monthly Installment) Calculator with interactive input sliders, dynamic monthly interest computation, and visual split breakdown.
 
 ---

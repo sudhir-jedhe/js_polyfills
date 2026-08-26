@@ -1,3 +1,5 @@
+*** copy countBy.md ***
+
 Your implementation of `countBy` is correct and effectively solves the problem, using two approaches for iterating over the array and counting occurrences. Here's a deeper explanation of the key parts of your solution:
 
 ### First Implementation

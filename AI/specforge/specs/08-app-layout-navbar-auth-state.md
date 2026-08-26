@@ -1,3 +1,5 @@
+*** copy 08-app-layout-navbar-auth-state.md ***
+
 # Spec 08 — App Layout, Navbar, and Auth State
 
 ## Goal

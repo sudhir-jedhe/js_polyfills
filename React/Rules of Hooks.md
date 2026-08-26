@@ -1,3 +1,5 @@
+*** copy Rules of Hooks.md ***
+
 **No, you must never call React Hooks inside conditions (`if`/`else`), loops (`for`/`while`), or nested functions.**
 
 Hooks must **always be called at the top level** of your React component (or custom Hook), before any early returns.

@@ -1,3 +1,5 @@
+*** copy class vs function.md ***
+
 In JavaScript, **ES6 Classes are syntactic sugar over traditional constructor functions and prototype-based inheritance**.
 
 Under the hood, both systems rely on the exact same prototype mechanism (`Constructor.prototype` and `__proto__`). However, ES6 classes add strict engine-level checks, altered execution rules, and syntactic protections that make them far safer and more structured than raw constructor functions.

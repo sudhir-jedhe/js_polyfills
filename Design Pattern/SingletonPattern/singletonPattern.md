@@ -1,3 +1,5 @@
+*** copy singletonPattern.md ***
+
 # Singleton Pattern in JavaScript & React
 
 The **Singleton Pattern** ensures that:

@@ -1,3 +1,5 @@
+*** copy solution.md ***
+
 ### **Problem Overview:**
 
 The task is to flatten a nested array, turning it into a single-level array. This is a common JavaScript interview question and tests your understanding of recursion, array manipulation, and some basic array methods such as `concat`, `push`, and `Array.isArray`. 

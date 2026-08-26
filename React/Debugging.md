@@ -1,3 +1,5 @@
+*** copy Debugging.md ***
+
 The Debugging Mindset Every Frontend Developer Should Build !
 
 Most frontend bugs don’t need guesswork. They need better visibility. And the two tools that give the clearest visibility, yet are used the least, are the Performance and Memory panels in Chrome DevTools.

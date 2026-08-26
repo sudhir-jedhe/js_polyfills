@@ -1,3 +1,5 @@
+*** copy Lexical Environment vs Variable Environment in V8.md ***
+
 In the ECMAScript specification and V8 engine, **`LexicalEnvironment`** and **`VariableEnvironment`** are two distinct components of an **Execution Context**.
 
 While the ECMAScript specification defines them as conceptual abstract records, **V8 optimizes them heavily into stack frames, registers, and heap-allocated `Context` objects**.

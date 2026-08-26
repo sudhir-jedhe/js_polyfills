@@ -1,3 +1,5 @@
+*** copy toTitleCase.md ***
+
 ```js
 function toTitleCase(str) {
   return str.replace(/\w\S*/g, function (txt) {

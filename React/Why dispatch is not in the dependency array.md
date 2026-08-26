@@ -1,3 +1,5 @@
+*** copy Why dispatch is not in the dependency array.md ***
+
 In React, the `dispatch` function returned by `useDispatch` (when using `redux` or similar state management libraries) is often used in hooks to dispatch actions. It is important to understand how to handle it when using React hooks such as `useEffect` or `useCallback`.
 
 ### Question:

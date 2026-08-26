@@ -1,3 +1,5 @@
+*** copy  What is forwardRef() in React used for?.md ***
+
 ### What is `forwardRef()` and What Was It Used For?
 
 Historically in React (React 18 and earlier), **`forwardRef()`** was a higher-order function used to pass a `ref` from a parent component _through_ a child function component down to a native DOM element (like an `<input>` or `<div>`).

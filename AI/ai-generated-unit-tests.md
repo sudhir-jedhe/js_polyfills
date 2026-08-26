@@ -1,3 +1,5 @@
+*** copy ai-generated-unit-tests.md ***
+
 This is the perfect follow-up. Generating unit tests is arguably the highest-ROI (Return on Investment) use case for AI in frontend development. AI models are excellent at writing boilerplate Jest and React Testing Library (RTL) code, but they often hallucinate bad testing practices if you don't constrain them.
 
 > **Repo Organization Tip:** Save this content inside `10-Modern-Dev-Workflows/scenario-problems/ai-generated-unit-tests.md`.

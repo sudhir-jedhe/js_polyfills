@@ -1,3 +1,5 @@
+*** copy HTML DOM Animation.md ***
+
 HTML DOM Animation in JavaScript allows you to create dynamic visual movements by programmatically updating an element's CSS properties (such as position, opacity, scale, or rotation) over time.
 
 There are **three primary approaches** to animating the HTML DOM with JavaScript:

@@ -1,3 +1,5 @@
+*** copy Generating responseCopilot said: Measuring Image Performance with Core Web Vitals.md ***
+
 # Measuring Image Performance with Core Web Vitals
 
 For frontend interviews and real-world React applications, image performance is primarily measured through **Core Web Vitals**:

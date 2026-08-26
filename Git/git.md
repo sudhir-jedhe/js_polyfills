@@ -1,3 +1,5 @@
+*** copy git.md ***
+
 # Top Git Interview Questions (Senior React / Frontend Developer)
 
 Git branching, pull requests, merge conflicts, and branching strategies are repeatedly emphasised in internal engineering and configuration-management guidance. Feature branches, pull requests, protected branches, code reviews, and merge workflows are commonly expected topics. [\[Configurat...Guidelines \| PDF\]](https://persistentsystems.sharepoint.com/sites/intranet/D&OE/ProcessDocumentsRepository/Configuration%20Management%20Guidelines.pdf?web=1), [\[Guidelines...t Pipeline \| PDF\]](https://persistentsystems.sharepoint.com/sites/intranet/D&OE/ProcessDocumentsRepository/Guidelines%20for%20Deployment%20Pipeline.pdf?web=1), [\[Git_branch...g_strategy \| Word\]](https://persistentsystems.sharepoint.com/sites/CrawfordAWSADOImplementation/_layouts/15/Doc.aspx?sourcedoc=%7B922AE042-5017-45FA-B904-E832118F5C55%7D&file=Git_branching_strategy.docx&action=default&mobileredirect=true&DefaultItemOpen=1)

@@ -1,3 +1,5 @@
+*** copy What is a call stack in JavaScript.md ***
+
 ### 4. What is a call stack in JavaScript?
 
 A **call stack** is a mechanism that keeps track of function calls in JavaScript. It’s a stack data structure where functions are added when they are invoked and removed once they complete.

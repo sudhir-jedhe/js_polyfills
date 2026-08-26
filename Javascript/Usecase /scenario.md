@@ -1,3 +1,5 @@
+*** copy scenario.md ***
+
 A user searches for “React” and then “Redux”, but the slower React response arrives later and replaces the correct results. How would you prevent it?
 
 This is a classic race condition in asynchronous web applications. It occurs because network requests complete out of order: the faster request for "Redux" resolves first, and the slower, earlier request for "React" resolves second, overwriting the state with stale data.

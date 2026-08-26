@@ -1,3 +1,5 @@
+*** copy How does useEffect work, and what common mistakes do developers make with it?.md ***
+
 `useEffect` is a React Hook that lets you synchronize a component with an external system (such as fetching data, subscribing to services, setting up timers, or manually manipulating the DOM).
 
 It serves as a bridge between the **React rendering model** and **external side effects**.

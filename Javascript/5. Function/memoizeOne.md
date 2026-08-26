@@ -1,3 +1,5 @@
+*** copy memoizeOne.md ***
+
 The task is to implement a `memoizeOne` function which ensures that only the latest function call with the same arguments and `this` context will return a cached result. The function will have an optional argument to provide a custom equality check for comparing the current and previous arguments. If no custom equality check is provided, a default shallow comparison is used. 
 
 Here’s a breakdown of the steps and explanations for each version of the solution.

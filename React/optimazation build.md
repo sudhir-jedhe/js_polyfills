@@ -1,3 +1,5 @@
+*** copy optimazation build.md ***
+
 In modern web development, **Bundling**, **Tree Shaking**, and **Code Splitting** are the three core strategies developers use to balance developer experience with frontend performance.
 
 When your application grows, shipping all your source code in a single file slows down page loads. These techniques optimize how your JavaScript is packaged and delivered over the network.

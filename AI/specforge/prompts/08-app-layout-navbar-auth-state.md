@@ -1,3 +1,5 @@
+*** copy 08-app-layout-navbar-auth-state.md ***
+
 Use @specs/08-app-layout-navbar-auth-state.md as the source of truth.
 
 Implement only Section 08.

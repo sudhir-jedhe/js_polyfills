@@ -1,3 +1,5 @@
+*** copy class_turtule.md ***
+
 ```js
 class Turtle {
   constructor(x, y, direction) {

@@ -1,3 +1,5 @@
+*** copy script.md ***
+
 import { wordList } from './word-list.js';
 import hangman0 from '../images/hangman-0.svg';
 import hangman1 from '../images/hangman-1.svg';

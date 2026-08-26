@@ -1,3 +1,5 @@
+*** copy generate-values-repeatedly.md ***
+
 // Repeating a single value
 // To create a generator that repeats a single value indefinitely, you can use a non-terminating while loop, that will yield a value every time Generator.prototype.next() is called. You can also use the return value of the yield statement to update the returned value if the passed value is not undefined.
 

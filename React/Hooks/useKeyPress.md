@@ -1,3 +1,5 @@
+*** copy useKeyPress.md ***
+
 Here is a production-ready `useKeyPress` hook (and `useKeyCombo`) for listening to individual keys, arrays of keys, or modifier key combinations (`Ctrl+S`, `Cmd+K`, `Shift+Enter`).
 
 ---

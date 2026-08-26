@@ -1,3 +1,5 @@
+*** copy testingCustumExpect.md ***
+
 The goal of the `customExpect` function is to mimic the behavior of testing assertions like `expect(actual).toBe(expected)` and `expect(actual).not.toBe(expected)` often used in testing frameworks like Jest. Let's break down the implementation and go through the various approaches you've presented.
 
 ### **Key Features**:

@@ -1,3 +1,5 @@
+*** copy useResponsive.md ***
+
 // DOM parsing and painting is a very expensive operation and should be avoided as much as possible for faster loading of application.
 
 // Generating the DOM and hiding it with the CSS for different screen sizes is still costly, rather than using CSS with React you can dynamically render the components.

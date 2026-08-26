@@ -1,3 +1,5 @@
+*** copy README.md ***
+
 # Personal Finance Tracker
 
 ## Description

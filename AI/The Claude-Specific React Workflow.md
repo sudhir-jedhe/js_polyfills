@@ -1,3 +1,5 @@
+*** copy The Claude-Specific React Workflow.md ***
+
 Adding a specific section on **Claude** is highly relevant right now. While GitHub Copilot is great for line-by-line autocomplete inside your IDE, Claude (specifically the Claude 3.5 Sonnet model) has become the industry favorite for frontend developers due to two major features: its **massive context window** and **Claude Artifacts** (the ability to visually render React components right in the chat).
 
 Here is how you can document a Claude-specific workflow for your repository.

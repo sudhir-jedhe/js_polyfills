@@ -1,3 +1,5 @@
+*** copy nested commnet.md ***
+
 Below is a **complete system design + working React JS code** for an **Infinite Nested Comments System**, useful for React interview/system-design rounds.
 
 The idea is: comments can have replies, replies can have more replies, and depth is not hardcoded.

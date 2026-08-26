@@ -1,3 +1,5 @@
+*** copy Rules of React.md ***
+
 Just as different programming languages have their own idioms, React has core rules and conventions that ensure your application remains predictable, performant, and bug-free.
 
 Here is a breakdown of the foundational **Rules of React**, focusing on component purity and hook constraints.

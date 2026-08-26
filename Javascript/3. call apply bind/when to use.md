@@ -1,3 +1,5 @@
+*** copy when to use.md ***
+
 In JavaScript, `call()`, `apply()`, and `bind()` are methods that allow you to control the context (`this`) in which a function is executed. These methods are very useful in certain scenarios when you need to call or invoke a function with a specific context or pass arguments to a function. Here’s when and how to use each of them.
 
 ### 1. **`call()`**

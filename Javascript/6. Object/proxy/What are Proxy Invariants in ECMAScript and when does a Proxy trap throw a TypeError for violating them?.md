@@ -1,3 +1,5 @@
+*** copy What are Proxy Invariants in ECMAScript and when does a Proxy trap throw a TypeError for violating them?.md ***
+
 In the ECMAScript specification, **Proxy Invariants** are non-negotiable semantic guarantees enforced by the engine. They prevent a `Proxy` from fabricating behaviors that violate fundamental JavaScript object model rules regarding **non-configurable properties** and **non-extensible objects**.
 
 If a trap returns a result that contradicts the actual state of the underlying target object, the engine immediately throws a **`TypeError`**—even if your trap code executed without errors.

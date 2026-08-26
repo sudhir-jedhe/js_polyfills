@@ -1,3 +1,5 @@
+*** copy validateEmailAddress.md ***
+
 ```js
 export const validateEmailAddress = (email) => {
   const emailRegex = /^[^@]+@[^@.]+(\.[^@.]+)+[^@]*$/;

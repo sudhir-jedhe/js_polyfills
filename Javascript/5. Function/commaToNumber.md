@@ -1,3 +1,5 @@
+*** copy commaToNumber.md ***
+
 To implement the `addComma()` function that adds commas as thousand separators for a number, you have various approaches. Let's go through a breakdown of the approaches you've provided and their implementation details.
 
 ### Explanation of Different Approaches:

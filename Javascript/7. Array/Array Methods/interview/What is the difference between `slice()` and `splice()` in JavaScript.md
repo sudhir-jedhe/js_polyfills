@@ -1,3 +1,5 @@
+*** copy What is the difference between `slice()` and `splice()` in JavaScript.md ***
+
 Here are answers to your questions:
 
 ### 1. What is the difference between `slice()` and `splice()` in JavaScript?

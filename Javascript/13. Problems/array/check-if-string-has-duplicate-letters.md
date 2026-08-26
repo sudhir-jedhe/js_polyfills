@@ -1,3 +1,5 @@
+*** copy check-if-string-has-duplicate-letters.md ***
+
 ```js
 let containsDuplicates = (str) => {
   let set = new Set();

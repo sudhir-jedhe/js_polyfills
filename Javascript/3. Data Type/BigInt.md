@@ -1,3 +1,5 @@
+*** copy BigInt.md ***
+
 **`BigInt`** is a built-in numeric primitive in JavaScript (ES2020) that allows you to safely store and perform operations on **integers of arbitrary precision**, breaking past the safe limit of the standard `Number` type.
 
 ---

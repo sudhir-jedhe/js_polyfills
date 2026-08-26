@@ -1,3 +1,5 @@
+*** copy Explain memory fragmentation in Heap allocation.md ***
+
 **Memory fragmentation** occurs in Heap memory when available memory is broken into unusable, non-contiguous pieces over time as objects of varying sizes are dynamically allocated and deallocated.
 
 Even if the total free heap memory is sufficient, an allocation request can still fail with an `OutOfMemory` error because there is no single contiguous block large enough to fulfill it.

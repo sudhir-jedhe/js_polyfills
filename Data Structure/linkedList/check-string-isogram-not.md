@@ -1,3 +1,5 @@
+*** copy check-string-isogram-not.md ***
+
 // Input: Machine
 // Output: True
 // Explanation: “Machine” does not have any character repeating, it is an Isogram

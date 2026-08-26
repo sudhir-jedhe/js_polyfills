@@ -1,3 +1,5 @@
+*** copy customTrim.md ***
+
 ```js
 // trim() method
 function trim(str) {

@@ -1,3 +1,5 @@
+*** copy diamondPattern.md ***
+
 Your function `diamondPattern` generates a diamond shape with a given number of rows in the first half (the top pyramid). It works well, but there's a little unnecessary duplication of logic. You can simplify the code a bit by removing some redundant operations. Specifically:
 
 - You don't need to add spaces to the right in each row for both the top and bottom half, because the spaces on the right are already implied by the pattern when you add spaces on the left.

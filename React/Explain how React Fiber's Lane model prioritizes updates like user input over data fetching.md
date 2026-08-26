@@ -1,3 +1,5 @@
+*** copy Explain how React Fiber's Lane model prioritizes updates like user input over data fetching.md ***
+
 In React 18 and beyond, the Fiber reconciler manages update priorities using a bitmask-based architecture called the **Lane Model**.
 
 Before the Lane Model, React used an exponential expiration time model (`expirationTime`). While expiration times worked for sequential rendering, they struggled with **concurrent rendering**—specifically when React needed to decouple, slice, combine, or pause multiple overlapping updates simultaneously.

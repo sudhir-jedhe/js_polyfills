@@ -1,3 +1,5 @@
+*** copy event.target vs event.currentTarget .md ***
+
 **The difference between event.target vs event.currentTarget is important to know.**
 
 e.target contains a reference to the element that triggered the event, while e. currentTarget contains a reference to the element that the event handler is attached to.

@@ -1,3 +1,5 @@
+*** copy interview.md ***
+
 Here is an in-depth, comprehensive breakdown of the entire REST API masterclass curriculum illustrated in your study notes. This guide spans all core concepts, from foundational architecture and request-response cycles to security, best practices, and automated testing.
 
 ---

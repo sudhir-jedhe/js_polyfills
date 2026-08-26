@@ -1,3 +1,5 @@
+*** copy How do you use the Chrome DevTools Performance Monitor to track real-time DOM Node counts and detect leaks?.md ***
+
 The **Performance Monitor** in Chrome DevTools provides real-time, continuous metrics of CPU usage, JS heap size, event listener counts, and active **DOM Nodes** as you interact with your app.
 
 Unlike static Heap Snapshots (which give point-in-time forensic diffs), the Performance Monitor lets you see trends and memory "sawtooth" patterns live.

@@ -1,3 +1,5 @@
+*** copy The app is fine on office WiFi. It's unusable on real 3G. What do you check, and in what order?.md ***
+
 When an app works on high-speed low-latency office Wi-Fi but degrades on real 3G, the issue is almost always driven by **high round-trip latency (RTT ~200–500ms)**, **low throughput (1–2 Mbps)**, **packet loss/retransmissions**, or **device CPU throttling** on low-end hardware.
 
 Here is the systematic diagnostic checklist, ordered from highest impact to lowest.

@@ -1,3 +1,5 @@
+*** copy composition patterns.md ***
+
 Before reaching for `React.memo`, `useMemo`, or `useCallback`, you can eliminate the vast majority of unnecessary re-renders purely through **component architecture**.
 
 In React, when a component's state changes, **that component and all of its descendants re-render recursively**. By structuring your component tree so that state updates are isolated locally or passed around static children, you prevent parent re-renders from cascading down the tree.

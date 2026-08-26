@@ -1,3 +1,5 @@
+*** copy joinByID.md ***
+
 The function `join` is designed to merge two arrays of objects, where each object has a unique `id`. If two objects from different arrays have the same `id`, the properties of the object from `arr2` will override the properties from `arr1`. If the `id` does not already exist in the destination array, it will simply be added.
 
 ### Function Explanation:

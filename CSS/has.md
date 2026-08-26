@@ -1,3 +1,5 @@
+*** copy has.md ***
+
 # CSS `:has()` Selector (Game Changer 🚀)
 
 The `:has()` selector is often called the **CSS Parent Selector** because it allows you to style a parent element based on its children.

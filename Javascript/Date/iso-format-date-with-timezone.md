@@ -1,3 +1,5 @@
+*** copy iso-format-date-with-timezone.md ***
+
 The code you've provided involves several date utilities in JavaScript, including functions to convert a date to an ISO string, pad numbers to 2 digits, calculate timezone offsets, and validate whether a string is a valid ISO string (with and without timezone).
 
 Let's break down each section of your code:

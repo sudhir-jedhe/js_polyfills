@@ -1,3 +1,5 @@
+*** copy usepooling.md ***
+
 import { useEffect, useState } from "react";
 
 // src/usePolling.js

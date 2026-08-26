@@ -1,3 +1,5 @@
+*** copy flushSync.md ***
+
 ### What is `flushSync` in React?
 
 `flushSync` forces React to **apply state updates immediately and synchronously**, instead of waiting for React's normal batching and rendering cycle.

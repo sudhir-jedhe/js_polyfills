@@ -1,3 +1,5 @@
+*** copy FSD.md ***
+
  Foundation — Browser internals, HTTP/2/3, DNS, CORS, JWT, OAuth, Web Storage
 🟢 Performance — Core Web Vitals, SSR/SSG/ISR, Bundle optimization, Web Workers, Caching
 🟡 Architecture — Micro-frontends, Design Systems, Monorepo, State Management, BFF Pattern

@@ -1,3 +1,5 @@
+*** copy parseQueryString.md ***
+
 Both versions of the `parseQueryString` function you've shared achieve the same goal: parsing a query string into an object of key-value pairs. However, they approach the problem in slightly different ways. Let’s break them down and discuss both implementations:
 
 ### 1. **First Version (Using `URLSearchParams`)**

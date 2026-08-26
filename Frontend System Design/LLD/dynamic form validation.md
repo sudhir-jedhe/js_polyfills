@@ -1,3 +1,5 @@
+*** copy dynamic form validation.md ***
+
 Implementing dynamic form validation using libraries like **Zod** or **Yup** in a Config-Driven UI requires converting serializable **JSON validation rules** into executable validation schemas at runtime.
 
 Since JSON cannot store JavaScript methods (like `.min()`, `.email()`, or `.regex()`), you build a **Schema Builder Factory** that parses validation rules from your JSON config and maps them to chainable Zod/Yup methods.

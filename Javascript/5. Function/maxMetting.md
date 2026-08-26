@@ -1,3 +1,5 @@
+*** copy maxMetting.md ***
+
 ### **Problem Overview:**
 
 The task is to find the maximum number of non-overlapping meetings that can be conducted in a single room, given the start and finish times of the meetings. There are two scenarios:

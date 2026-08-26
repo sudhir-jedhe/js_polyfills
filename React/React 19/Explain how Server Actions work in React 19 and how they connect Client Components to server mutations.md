@@ -1,3 +1,5 @@
+*** copy Explain how Server Actions work in React 19 and how they connect Client Components to server mutations.md ***
+
 **Server Actions** in React 19 are asynchronous functions that run exclusively on the server, but can be imported and invoked directly from Client Components (or HTML forms).
 
 They eliminate the need to manually write API routes (`/api/items`), write fetch calls (`fetch('/api/items', { method: 'POST' })`), or manage HTTP status codes for simple data mutations.

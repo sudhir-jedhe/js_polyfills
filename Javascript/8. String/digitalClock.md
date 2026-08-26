@@ -1,3 +1,5 @@
+*** copy digitalClock.md ***
+
 ```js
 const pad = (inp) => {
     return String(inp).length == 1 ? '0' + inp : inp;

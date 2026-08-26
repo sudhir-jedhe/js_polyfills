@@ -1,3 +1,5 @@
+*** copy distinctDifference.md ***
+
 Both implementations you provided aim to compute the **distinct difference** for each element in the array, where the "distinct difference" for an index `i` is defined as:
 
 - The number of distinct elements in the prefix (left side) of the array up to index `i`.

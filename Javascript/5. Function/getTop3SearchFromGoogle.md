@@ -1,3 +1,5 @@
+*** copy getTop3SearchFromGoogle.md ***
+
 The provided code snippet consists of two functions: `getTop3Links` and `getFeaturedLinks`. These functions are designed to extract links from a webpage, specifically focusing on featured snippets and additional search results.
 
 Here's a detailed explanation and a few potential improvements:

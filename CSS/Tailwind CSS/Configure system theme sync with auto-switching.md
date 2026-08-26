@@ -1,3 +1,5 @@
+*** copy Configure system theme sync with auto-switching.md ***
+
 Configuring system theme synchronization with auto-switching requires a two-layer setup:
 
 1. **OS Media Query Synchronization (`prefers-color-scheme`)** to respond automatically whenever the user changes their operating system appearance.

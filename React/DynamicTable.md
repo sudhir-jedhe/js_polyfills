@@ -1,3 +1,5 @@
+*** copy DynamicTable.md ***
+
 # Dynamic Table Generator (React Machine Coding Interview)
 
 A **Dynamic Table Generator** is a very common Frontend interview problem that tests:

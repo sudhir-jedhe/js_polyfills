@@ -1,3 +1,5 @@
+*** copy HOC vs Hooks vs Custom Hooks in React.md ***
+
 ### **HOC vs Hooks vs Custom Hooks in React**
 
 In React, there are different patterns and mechanisms for handling reusability and sharing logic across components. **Higher-Order Components (HOCs)**, **Hooks**, and **Custom Hooks** are the three most common approaches. Each has its strengths and weaknesses, and they address different use cases in React development.

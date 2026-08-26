@@ -1,3 +1,5 @@
+*** copy print-all-the-unique-2-digit-combinations-of-given-numbers.md ***
+
 ```js
 Input:
 [1, 2, 3]

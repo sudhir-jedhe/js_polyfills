@@ -1,3 +1,5 @@
+*** copy React Component Lifecycle Pipeline.md ***
+
 In React, a component follows a continuous lifecycle and execution pipeline: **Trigger $\rightarrow$ Render $\rightarrow$ Commit $\rightarrow$ Effect $\rightarrow$ Cleanup/Unmount**.
 
 Understanding this workflow clarifies how data flows, when state updates happen, and how React synchronizes with the DOM.

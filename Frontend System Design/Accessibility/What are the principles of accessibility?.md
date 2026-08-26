@@ -1,3 +1,5 @@
+*** copy What are the principles of accessibility?.md ***
+
 In web accessibility and front-end system design, the universal foundation for accessibility is defined by the **W3C Web Content Accessibility Guidelines (WCAG)** under the **POUR** framework.
 
 POUR stands for **Perceivable, Operable, Understandable, and Robust**. These four principles ensure that digital products can be used by everyone, including people with visual, auditory, motor, or cognitive disabilities.

@@ -1,3 +1,5 @@
+*** copy CSR (Client-Side Rendering) vs SSR (Server-Side Rendering).md ***
+
 ### **CSR (Client-Side Rendering) vs SSR (Server-Side Rendering)**
 
 Client-Side Rendering (CSR) and Server-Side Rendering (SSR) are two different strategies for rendering web pages. Each has its advantages, disadvantages, and specific use cases. In this explanation, we'll go through both rendering techniques in depth, comparing their features and use cases, and give practical examples.

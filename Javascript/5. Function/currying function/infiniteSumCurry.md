@@ -1,3 +1,5 @@
+*** copy infiniteSumCurry.md ***
+
 ```js
 function sum(a) {
   let currentSum = a;

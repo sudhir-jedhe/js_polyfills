@@ -1,3 +1,5 @@
+*** copy Why Can't We Pass an Async Function Directly to useEffect.md ***
+
 ### Why Can't We Pass an Async Function Directly to `useEffect`?
 
 In React, the `useEffect` hook expects the function you provide to return either:

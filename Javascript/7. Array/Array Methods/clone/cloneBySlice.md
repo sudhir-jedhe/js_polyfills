@@ -1,3 +1,5 @@
+*** copy cloneBySlice.md ***
+
 # 1. Using `slice()` to Clone Arrays
 
 `slice()` is one of the oldest and most common ways to clone an array.

@@ -1,3 +1,5 @@
+*** copy Tell me about yourself.md ***
+
 Hi, I’m a Senior Front-End Developer with 8 years of experience specializing in React and modern JavaScript ecosystems. Over the years, I have built scalable, high-performance web applications, focus on responsive design, clean architecture, and seamless user experiences.
 
 In my recent roles, I’ve led front-end development, architected reusable component libraries, optimized application performance (like improving Core Web Vitals and load times), and integrated state management solutions like Redux and Context API. I also work closely with cross-functional teams, UI/UX designers, and backend engineers to turn complex business requirements into intuitive applications.

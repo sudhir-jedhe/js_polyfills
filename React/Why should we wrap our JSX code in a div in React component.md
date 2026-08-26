@@ -1,3 +1,5 @@
+*** copy Why should we wrap our JSX code in a div in React component.md ***
+
 In React, wrapping JSX in a `div` or another element is often done for structural reasons, but there are some important considerations and alternatives to understand. Let me explain this in detail:
 
 ### Why React Requires a Single Root Element

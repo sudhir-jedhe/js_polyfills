@@ -1,3 +1,5 @@
+*** copy merge-two-sorted-arrays-into-a-single-sorted-array.md ***
+
 ```js
 // Using concat() and slice() method
 function mergeSortedArrayUsingConcat(array1, array2) {

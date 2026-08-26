@@ -1,3 +1,5 @@
+*** copy arrayInPlace.md ***
+
 **Solution 4: Flatten the array in-place**
 // All the solutions we have seen so far are returning a new flattened array without mutating the original input array. Again, this is normally what you want.
 

@@ -1,3 +1,5 @@
+*** copy what is LRU.md ***
+
 # LRU Cache (Least Recently Used Cache)
 
 An **LRU Cache** is a caching mechanism that removes the **least recently accessed item** when the cache reaches its maximum capacity. This helps keep frequently used data readily available while discarding stale data. [[geeksforgeeks.org]](https://www.geeksforgeeks.org/system-design/lru-cache-implementation/), [[leetcode.com]](https://leetcode.com/problems/lru-cache/)

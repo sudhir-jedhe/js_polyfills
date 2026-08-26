@@ -1,3 +1,5 @@
+*** copy merge_two_arrays_and_remove_duplicate_items_in_JavaScript_.md ***
+
 ```js
 let arr1 = [1, 2, 3, 4, 5, 6]; 
 let arr2 = [3, 4, 5, 7];

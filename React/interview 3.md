@@ -1,3 +1,5 @@
+*** copy interview 3.md ***
+
 ) A React application serves millions of users worldwide. How would you monitor performance and quickly detect production issues?
 
 1) Real-time notifications arrive every second for thousands of users. How would you manage updates without slowing down the UI?

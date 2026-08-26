@@ -1,3 +1,5 @@
+*** copy Performance.md ***
+
 React.js Performance Patterns
 
 🔹 1. Bundling, Compiling, Minifying and Tree-Shaking

@@ -1,3 +1,5 @@
+*** copy counter.md ***
+
 // Create two buttons start and stop.
 // On the start click, start a counter that will increment by 1 every second.
 // On the stop click, pause the counter.

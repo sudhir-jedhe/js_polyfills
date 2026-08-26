@@ -1,3 +1,5 @@
+*** copy Pagination.md ***
+
 // Whenever we show limited no of items on any particular component, we either use pagination or lazy loading to show more items on certain user actions.
 
 // In pagination we divide the total no of items in different pages based on the limit that is provided. If user has to view more items then he needs to navigate to different page.

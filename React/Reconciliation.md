@@ -1,3 +1,5 @@
+*** copy Reconciliation.md ***
+
 ### **Reconciliation in React**
 
 **Reconciliation** is the process by which React updates the DOM (Document Object Model) based on changes in the component's state or props. It’s how React determines which parts of the UI need to be updated when data changes.

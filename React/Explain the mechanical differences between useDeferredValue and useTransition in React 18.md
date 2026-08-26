@@ -1,3 +1,5 @@
+*** copy Explain the mechanical differences between useDeferredValue and useTransition in React 18.md ***
+
 While both `useTransition` and `useDeferredValue` lower rendering priority using React's **Transition Lanes**, they differ fundamentally in **where the concurrency is triggered** (at the state-setter source vs. at the derived value/consumer level) and **how many render passes occur**.
 
 ---

@@ -1,3 +1,5 @@
+*** copy sumFromString.md ***
+
 ```js
 export const sumNumbers = (str) => {
   if (!str) return 0;

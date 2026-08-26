@@ -1,3 +1,5 @@
+*** copy imageOptimaztion.md ***
+
 # Complete Frontend Engineer Roadmap: Image Optimisation & Delivery
 
 This is the complete learning path every Senior Frontend Engineer should understand for image performance.
@@ -280,8 +282,6 @@ The Fetch Priority API allows developers to boost priority of important resource
 ***
 
 ## Preload Critical Images
-
-
 
 Preloading starts discovery earlier than normal page parsing.
 

@@ -1,3 +1,5 @@
+*** copy designATM.md ***
+
 To implement the `ATM` class as described, we need to follow the steps laid out in the problem:
 
 ### Requirements:

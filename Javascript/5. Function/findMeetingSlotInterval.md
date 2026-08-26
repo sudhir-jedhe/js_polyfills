@@ -1,3 +1,5 @@
+*** copy findMeetingSlotInterval.md ***
+
 // [start, end] is a time interval, with all integers from 0 to 24.
 
 // Given schedules for all team members,

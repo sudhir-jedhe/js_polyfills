@@ -1,3 +1,5 @@
+*** copy What is a CDN.md ***
+
 ### **What is a CDN?**
 
 A **Content Delivery Network (CDN)** is a distributed network of servers designed to deliver content to users more efficiently by serving it from a location geographically closer to the user. Instead of serving static assets like images, scripts, and stylesheets from your web server, you serve them from a CDN. This reduces load times and can provide a variety of other benefits.

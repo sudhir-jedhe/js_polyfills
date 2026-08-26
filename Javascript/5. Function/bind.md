@@ -1,3 +1,5 @@
+*** copy bind.md ***
+
 ### Explanation of Custom `bind` Implementations
 
 In JavaScript, `Function.prototype.bind()` is a method that allows you to create a new function with a specific `this` value and a sequence of arguments. In the examples you provided, you're implementing custom versions of `bind` and analyzing various approaches. Below, I'll break down the concepts and implementations.

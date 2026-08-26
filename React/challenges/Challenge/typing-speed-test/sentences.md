@@ -1,3 +1,5 @@
+*** copy sentences.md ***
+
 export const sentences = [
   'he turned in the research paper on friday otherwise he would have not passed the class',
   'plans for this weekend include turning wine into water',

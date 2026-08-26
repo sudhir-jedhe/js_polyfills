@@ -1,3 +1,5 @@
+*** copy Create custom utility classes using @utility directive.md ***
+
 In Tailwind CSS v4, custom utilities are defined using the `@utility` directive. Utilities registered with `@utility` automatically support all Tailwind modifiers, such as responsive prefixes (`md:`, `lg:`), state variants (`hover:`, `focus-visible:`), container queries (`@sm:`), and dark mode (`dark:`).
 
 ---

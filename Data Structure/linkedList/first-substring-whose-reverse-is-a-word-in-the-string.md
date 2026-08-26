@@ -1,3 +1,5 @@
+*** copy first-substring-whose-reverse-is-a-word-in-the-string.md ***
+
 // Input: str = “mango is sweet when nam en tastes it#”
 // Output: man
 // Explanation: Substring “man” is reversed to “nam” and it is a word in the given string

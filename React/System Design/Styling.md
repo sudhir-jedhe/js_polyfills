@@ -1,3 +1,5 @@
+*** copy Styling.md ***
+
 # Styling in React — Complete Senior Frontend Interview Deep Dive
 
 Styling is one of the most important **Senior Frontend / React interview topics** because it directly impacts:

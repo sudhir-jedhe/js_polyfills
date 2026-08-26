@@ -1,3 +1,5 @@
+*** copy Service Worker.md ***
+
 ## 1. What is Offline Support in Frontend System Design?
 
 **Offline Support** refers to a web application's ability to remain functional, fast, and accessible even when the device loses network connectivity, experiences intermittent connections ("lie-fi"), or has high latency.

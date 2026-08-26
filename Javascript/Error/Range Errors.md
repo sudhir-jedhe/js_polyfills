@@ -1,3 +1,5 @@
+*** copy Range Errors.md ***
+
 A **`RangeError`** in JavaScript is thrown when a numeric value or a parameter provided to a function is outside of its valid, allowed boundaries.
 
 While less common than `ReferenceError` or `TypeError`, it usually occurs when you push JavaScript's built-in limits. Here are the most frequent causes and how to resolve them:

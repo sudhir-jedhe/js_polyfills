@@ -1,3 +1,5 @@
+*** copy capitalize-first-letter-of-string.md ***
+
 
 Here is a breakdown of the modern JavaScript patterns for string capitalization and decapitalization, comparing destructuring, traditional methods, and handling edge cases cleanly.
 

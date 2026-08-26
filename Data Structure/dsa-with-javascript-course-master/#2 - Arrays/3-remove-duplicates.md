@@ -1,3 +1,5 @@
+*** copy 3-remove-duplicates.md ***
+
 // Ques 3 - Remove Duplicates from Sorted Array
 // Given an integer array nums sorted in non-decreasing order, remove
 // the duplicates in-place such that each unique element appears

@@ -1,3 +1,5 @@
+*** copy Confessions of an Engineering Manage.md ***
+
 These confessions from an engineering manager with over 12 years of experience in startups and MNCs offer valuable insights for anyone in the software engineering field, whether you're just starting out or you've been in the industry for years. Here's a breakdown of these points, and why they are so important:
 
 ### 1. **The Best Interviews Were Where I Was Rejected**

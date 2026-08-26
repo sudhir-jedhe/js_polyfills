@@ -1,3 +1,5 @@
+*** copy React Lifecycle.md ***
+
 Understanding the **React Lifecycle** is essential for managing side effects, fetching data, handling DOM interactions, and optimizing component performance.
 
 In modern React, components are divided into **Function Components** (using React Hooks) and legacy **Class Components** (using lifecycle methods).

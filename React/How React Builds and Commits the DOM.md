@@ -1,3 +1,5 @@
+*** copy How React Builds and Commits the DOM.md ***
+
 Here is a clean, well-formatted reference guide based on your notes explaining how React's fiber architecture constructs and commits DOM nodes under the hood.
 
 ---

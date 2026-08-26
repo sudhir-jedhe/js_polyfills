@@ -1,3 +1,5 @@
+*** copy TypingEffect.md ***
+
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import styles from "./index.module.css";

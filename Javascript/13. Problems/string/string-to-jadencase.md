@@ -1,3 +1,5 @@
+*** copy string-to-jadencase.md ***
+
 ```js
 Input: "How can mirrors be real if our eyes aren't real";
 

@@ -1,3 +1,5 @@
+*** copy React Events.md ***
+
 In React, event handling is very similar to handling events on HTML DOM elements, but with a few key syntactical and architectural differences.
 
 React handles events using a system called **SyntheticEvents**, which wraps the browser’s native events to ensure consistent cross-browser behavior.

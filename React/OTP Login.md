@@ -1,3 +1,5 @@
+*** copy OTP Login.md ***
+
 An accessible, production-ready React OTP (One-Time Password) Login component supporting auto-focus shifting, backspace navigation, paste handling, countdown timer resend, and phone number validation.
 
 ---

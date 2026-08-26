@@ -1,3 +1,5 @@
+*** copy ImageGalary.md ***
+
 # Image Gallery (React JS) – Machine Coding Interview
 
 An **Image Gallery** is one of the most common React interview questions.

@@ -1,3 +1,5 @@
+*** copy How do you profile class memory allocations and closure leaks using Chrome DevTools Heap Snapshots?.md ***
+
 Profiling memory leaks in Chrome DevTools relies on taking and comparing **V8 Heap Snapshots** across state transitions.
 
 By analyzing the difference between **Shallow Size** and **Retained Size**, inspecting the **Retainers Tree**, and using the **3-Snapshot Technique**, you can isolate whether an object is leaked by an uncleared event listener, a captured closure, or an expanding collection.

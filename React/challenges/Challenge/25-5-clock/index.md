@@ -1,3 +1,5 @@
+*** copy index.md ***
+
 const timeEl = document.querySelector('.time');
 const durationButtons = document.querySelectorAll('.duration-button');
 const breakElConf = document.querySelector('#breaklen');

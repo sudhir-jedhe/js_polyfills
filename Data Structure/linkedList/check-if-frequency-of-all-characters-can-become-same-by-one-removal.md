@@ -1,3 +1,5 @@
+*** copy check-if-frequency-of-all-characters-can-become-same-by-one-removal.md ***
+
 // Input: str = “xyyz”
 // Output: Yes
 // We can remove character ’y’ from above

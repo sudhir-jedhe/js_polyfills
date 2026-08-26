@@ -1,3 +1,5 @@
+*** copy remove-cycle-from-the-object.md ***
+
 # getCircularReplacer
 
 Let's break down both functions you've shared — `getCircularReplacer` and `removeCycle` — as well as their expected behavior, and ensure that they handle circular references properly.

@@ -1,3 +1,5 @@
+*** copy Dynamic import() vs static import evaluation.md ***
+
 The primary difference between static `import` and dynamic `import()` is **when and how the module graph is constructed**: static imports build, link, and evaluate the entire dependency graph ahead of execution, whereas dynamic `import()` initiates the module lifecycle asynchronously on demand at runtime.
 
 ---

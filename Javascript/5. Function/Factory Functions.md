@@ -1,3 +1,5 @@
+*** copy Factory Functions.md ***
+
 **What Are Factory Functions in JavaScript?**
 A function that creates and returns other functions - like a function manufacturer, hence the term factory. These are often closures and have access to values in their parent scope.
 

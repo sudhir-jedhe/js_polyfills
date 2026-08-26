@@ -1,3 +1,5 @@
+*** copy How do I use clsx, tailwind-merge, and class-variance-authority (CVA) to manage complex component variants?.md ***
+
 Combining `clsx`, `tailwind-merge`, and `class-variance-authority` (CVA) is the standard pattern for building accessible, type-safe, and override-friendly component variants in Tailwind CSS (popularized by libraries like shadcn/ui).
 
 Here is how each tool works in the stack:

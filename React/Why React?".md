@@ -1,3 +1,5 @@
+*** copy Why React?".md ***
+
 When interviewers ask **"Why React?"**, mentioning **Component-Based Architecture**, **Virtual DOM**, **Large Ecosystem**, and **Easy Integration** is the standard answer.
 
 To stand out as a **Senior/Lead Developer (8+ years experience)**, you need to explain the **deeper architectural, engineering, and business reasons** behind choosing React.

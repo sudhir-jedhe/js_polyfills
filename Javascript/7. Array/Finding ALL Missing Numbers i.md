@@ -1,3 +1,5 @@
+*** copy Finding ALL Missing Numbers i.md ***
+
 To find the missing numbers from a sequence, we first need to look at the pattern or range.
 
 For the array **[1, 2, 3, 5, 7]**:

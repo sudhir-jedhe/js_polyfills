@@ -1,3 +1,5 @@
+*** copy core architecture.md ***
+
 Component architecture forms the backbone of scaleable front-end systems design. It ensures maintainability, fast feature development, and UI consistency across large engineering teams.
 
 ---

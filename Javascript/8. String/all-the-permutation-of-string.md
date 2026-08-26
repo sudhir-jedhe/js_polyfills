@@ -1,3 +1,5 @@
+*** copy all-the-permutation-of-string.md ***
+
 ```js
 let permute = (str, left = 0, right = str.length - 1) => {
   //If left index is equal to right index

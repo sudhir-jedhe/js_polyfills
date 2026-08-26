@@ -1,3 +1,5 @@
+*** copy remove-a-property-from-javascript-object.md ***
+
 ```js
 const p = {
   name: "person1",

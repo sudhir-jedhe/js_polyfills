@@ -1,3 +1,5 @@
+*** copy How do I integrate Radix UI accessible state primitives with CVA and Tailwind CSS?.md ***
+
 Radix UI primitives expose native data attributes—such as `data-[state=checked]`, `data-[state=open]`, and `data-disabled`—that pair directly with Tailwind's modifier syntax and CVA variant definitions to create fully accessible, unstyled components with zero styling overhead.
 
 ---

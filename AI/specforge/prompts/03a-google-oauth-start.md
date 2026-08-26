@@ -1,3 +1,5 @@
+*** copy 03a-google-oauth-start.md ***
+
 Use @specs/03a-google-oauth-start.md as the source of truth.
 
 Manual setup already completed:

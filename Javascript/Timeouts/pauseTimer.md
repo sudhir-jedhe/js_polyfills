@@ -1,3 +1,5 @@
+*** copy pauseTimer.md ***
+
 Your code is implementing a simple timer function with the ability to start and stop the timer. Here's a breakdown of how the code works:
 
 ### Code Breakdown

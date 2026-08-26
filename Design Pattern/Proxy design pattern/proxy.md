@@ -1,3 +1,5 @@
+*** copy proxy.md ***
+
 # Proxy Design Pattern in JavaScript & React
 
 The **Proxy Pattern** is a structural design pattern that provides a **surrogate or placeholder** for another object to control access to it.

@@ -1,3 +1,5 @@
+*** copy maximum-number-of-subsets-an-array-can-be-split-into-such-that-product-of-their-minimums-with-size-of-subsets-is-at-least-k.md ***
+
 ```js
 // Given an array arr[] consisting of N integers and an integer K, the task is to find the
 // maximum number of disjoint subsets that the given array can be split into such that the

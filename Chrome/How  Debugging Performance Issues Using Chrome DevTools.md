@@ -1,3 +1,5 @@
+*** copy How  Debugging Performance Issues Using Chrome DevTools.md ***
+
 ### **Debugging Performance Issues Using Chrome DevTools**
 
 Chrome DevTools offers powerful tools to help developers diagnose performance bottlenecks and optimize web applications. The Performance Panel in Chrome DevTools is the primary tool for analyzing the performance of your webpage, including issues related to slow loading times, rendering, scripting, and more. Here's how you can use DevTools to debug performance issues:

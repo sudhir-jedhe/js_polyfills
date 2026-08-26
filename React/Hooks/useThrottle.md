@@ -1,3 +1,5 @@
+*** copy useThrottle.md ***
+
 // Throttling is a way/technique to restrict the number of function execution/call. For example, consider a lucky draw number generator, we want to get a number only after a particular time.
 
 // Excessive function invocations in javascript applications hamper the performance drastically. To optimize an app we need to handle this correctly.

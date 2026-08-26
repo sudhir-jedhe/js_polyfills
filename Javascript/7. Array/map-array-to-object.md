@@ -1,3 +1,5 @@
+*** copy map-array-to-object.md ***
+
 The provided solutions for **mapping an array of primitives** and **mapping an array of objects** to an object are clean and efficient. Here's a detailed explanation of how each part works, and additional examples for both cases.
 
 ---

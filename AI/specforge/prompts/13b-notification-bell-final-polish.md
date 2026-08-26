@@ -1,3 +1,5 @@
+*** copy 13b-notification-bell-final-polish.md ***
+
 Use @specs/13b-notification-bell-final-polish.md as the source of truth.
 
 Implement only Section 13B.

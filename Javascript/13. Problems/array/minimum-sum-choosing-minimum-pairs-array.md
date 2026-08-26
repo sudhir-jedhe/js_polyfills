@@ -1,3 +1,5 @@
+*** copy minimum-sum-choosing-minimum-pairs-array.md ***
+
 ```js
 // Input : A[] = {3, 4}
 // Output : 3

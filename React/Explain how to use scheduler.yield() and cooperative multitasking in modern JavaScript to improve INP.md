@@ -1,3 +1,5 @@
+*** copy Explain how to use scheduler.yield() and cooperative multitasking in modern JavaScript to improve INP.md ***
+
 `scheduler.yield()` is a web platform API designed for **cooperative multitasking**. It allows long-running JavaScript execution to pause, yield control of the main thread back to the browser to handle user input and render frames, and then immediately resume where it left off.
 
 ---

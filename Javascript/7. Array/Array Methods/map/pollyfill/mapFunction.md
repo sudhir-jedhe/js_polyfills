@@ -1,3 +1,5 @@
+*** copy mapFunction.md ***
+
 ```javascript
 export function map(arr, callback) {
   const result = [];

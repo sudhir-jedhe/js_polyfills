@@ -1,3 +1,5 @@
+*** copy Quality Checks & Target Coverage Percentages.md ***
+
 Here is the complete English translation of the explanation on Quality Checks and Coverage Percentages across Unit, Component, and End-to-End Testing:
 
 ---

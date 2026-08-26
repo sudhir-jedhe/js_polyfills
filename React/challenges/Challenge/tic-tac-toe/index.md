@@ -1,3 +1,5 @@
+*** copy index.md ***
+
 const gridElement = document.getElementById('grid');
 
 class TicTacToe {

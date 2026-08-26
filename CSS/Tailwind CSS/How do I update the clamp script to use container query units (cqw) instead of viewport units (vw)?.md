@@ -1,3 +1,5 @@
+*** copy How do I update the clamp script to use container query units (cqw) instead of viewport units (vw)?.md ***
+
 To adapt the TypeScript clamp script to use container query width units (`cqw` where $1\text{cqw} = 1\%$ of the container's inline size), the interpolation math is mapped against **container width bounds** ($C_{\min}$ and $C_{\max}$) instead of viewport bounds.
 
 ---

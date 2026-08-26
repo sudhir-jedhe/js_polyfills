@@ -1,3 +1,5 @@
+*** copy creareNewOperator.md ***
+
 To implement `myNew()`, we need to simulate what happens when we use the `new` keyword in JavaScript. Let's break it down step-by-step and then walk through the solution.
 
 ### Steps to Implement `myNew`:

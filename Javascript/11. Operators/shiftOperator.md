@@ -1,3 +1,5 @@
+*** copy shiftOperator.md ***
+
 ### Explanation of Bitwise Operations
 
 Bitwise operations directly manipulate the individual bits of a number, and they work on the binary representation of integers. Let's walk through each operation you've mentioned and the associated code examples.

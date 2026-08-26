@@ -1,3 +1,5 @@
+*** copy find-maximum-number-of-pieces-in-n-cuts.md ***
+
 ```js
 /*
 Input : n = 7

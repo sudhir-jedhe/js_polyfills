@@ -1,3 +1,5 @@
+*** copy Handling Race Conditions in JavaScript.md ***
+
 ### **Handling Race Conditions in JavaScript**
 
 A **race condition** occurs when two or more asynchronous operations attempt to modify shared data or resources at the same time, leading to unpredictable behavior or inconsistent results. This can happen in JavaScript when dealing with asynchronous operations like API calls, timeouts, or handling events.

@@ -1,3 +1,5 @@
+*** copy TransfornNameToUppercase.md ***
+
 If `transformNamesToUppercase` means converting all names in an array to uppercase, you can use `map()`:
 
 ### Example 1: Array of Strings

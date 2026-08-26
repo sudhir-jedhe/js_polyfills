@@ -1,3 +1,5 @@
+*** copy lodash_get.md ***
+
 The `customGet` function you provided is a great implementation of a deep object property lookup. It mimics the behavior of `_.get` from Lodash, allowing you to access nested properties of an object using either dot notation (string) or an array of keys. Additionally, it returns a default value when the path is invalid or the key doesn't exist, which is very useful for handling missing or undefined properties.
 
 Let's break down how the function works:

@@ -1,3 +1,5 @@
+*** copy React Render props.md ***
+
 **Render Props** is a React design pattern where a component receives a function as a prop—usually named `render` or passed as `children`—and calls that function to decide what to render.
 
 This pattern allows you to share stateful behavior or logic between components while giving the caller full control over the rendered output.

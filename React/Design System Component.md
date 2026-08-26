@@ -1,3 +1,5 @@
+*** copy Design System Component.md ***
+
 Design System Component i
 Designing a production-ready **Design System Component** in React requires balancing accessibility, reusability, customizability, and strict TypeScript safety.
 

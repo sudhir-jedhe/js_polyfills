@@ -1,3 +1,5 @@
+*** copy typecheck-proxy.md ***
+
 The provided code implements a **shape-checking Proxy** in JavaScript. This Proxy ensures that an object’s properties adhere to a predefined structure (called a "shape") where each property is validated according to its type.
 
 ### **How it works:**

@@ -1,3 +1,5 @@
+*** copy hashSHA.md ***
+
 The code you've provided shows how to hash data using the `SHA-256` algorithm both in the browser (via `crypto.subtle`) and in Node.js (via the `crypto` module). Let's break them down:
 
 ---

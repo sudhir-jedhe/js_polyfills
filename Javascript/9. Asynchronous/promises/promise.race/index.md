@@ -1,3 +1,5 @@
+*** copy index.md ***
+
 ```js
 function race(promises) {
   return new Promise((resolve, reject) => {

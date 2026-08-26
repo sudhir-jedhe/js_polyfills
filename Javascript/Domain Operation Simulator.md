@@ -1,3 +1,5 @@
+*** copy Domain Operation Simulator.md ***
+
 # Domain Operation Simulator (Mini DNS System)
 
 A **Domain Operation Simulator** is a frequently discussed JavaScript machine-coding problem that simulates how a DNS system stores, updates, and resolves domain-to-IP mappings. Public interview-prep references describe it as a "Mini DNS System" involving storing, updating, and querying domain/IP relationships. [\[youtube.com\]](https://www.youtube.com/watch?v=MB48etDKQmY), [\[linkedin.com\]](https://www.linkedin.com/posts/subham-rohilla-50191096_day-12-domain-operation-simulator-flipkart-activity-7372175146679271424-g2xJ)

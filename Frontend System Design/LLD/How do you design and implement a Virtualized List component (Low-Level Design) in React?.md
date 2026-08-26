@@ -1,3 +1,5 @@
+*** copy How do you design and implement a Virtualized List component (Low-Level Design) in React?.md ***
+
 Designing and implementing a **Virtualized List** (or "Windowing" component) is a classic Frontend Low-Level Design (LLD) problem.
 
 Standard rendering of large datasets (e.g., 10,000+ items) creates thousands of DOM nodes, causing **DOM bloat, high memory consumption, slow initial page renders, and frame drops** during scrolling. Virtualization solves this by rendering **only the items visible inside the viewport** plus a small buffer.

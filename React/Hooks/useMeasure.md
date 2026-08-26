@@ -1,3 +1,5 @@
+*** copy useMeasure.md ***
+
 Here is a production-ready `useMeasure` React hook that tracks element dimensions in real time using `ResizeObserver`.
 
 It uses a **callback ref** pattern so it works reliably with conditionally rendered elements and dynamic nodes, and returns both the standard `DOMRect` bounds and full dimensions.

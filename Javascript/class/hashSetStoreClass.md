@@ -1,3 +1,5 @@
+*** copy hashSetStoreClass.md ***
+
 ```js
 const Store = function () {
   //store the data

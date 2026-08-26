@@ -1,3 +1,5 @@
+*** copy Error Boundaries in React.md ***
+
 ### **Error Boundaries in React**
 
 In React, an **Error Boundary** is a component that allows you to handle JavaScript errors anywhere in a component tree, log those errors, and display a fallback UI instead of crashing the entire application. This feature helps prevent your entire React app from breaking when an error occurs, improving the user experience by providing graceful error handling.

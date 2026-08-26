@@ -1,3 +1,5 @@
+*** copy File Explorer.md ***
+
 ## Accessible File Explorer Component in React
 
 An accessible file explorer must follow the **WAI-ARIA Treeview Pattern** (`role="tree"`, `role="treeitem"`, and `role="group"`), handle roving `tabIndex`, and support standard keyboard interactions (Arrow keys, Home, End, Enter, Space, and typing letters to focus).

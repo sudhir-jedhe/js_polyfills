@@ -1,3 +1,5 @@
+*** copy How to manage global state without redux  or context api.md ***
+
 Managing global state in a React application without using **Redux** or the **Context API** can be achieved through various methods and libraries. Here are some strategies for managing global state:
 
 ### 1. **Custom Hook for Global State Management**

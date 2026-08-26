@@ -1,3 +1,5 @@
+*** copy script.md ***
+
 const amount = document.getElementById('amount');
 const tipButton = document.querySelectorAll('.btn');
 const customTip = document.getElementById('customTip');

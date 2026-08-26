@@ -1,3 +1,5 @@
+*** copy sort-an-object-array-by-dat.md ***
+
 ```js
 let Arr = [
   { id: "1", date: "Mar 11 2012 10:00:00 AM" },

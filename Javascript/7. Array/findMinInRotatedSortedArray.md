@@ -1,3 +1,5 @@
+*** copy findMinInRotatedSortedArray.md ***
+
 ```js
 
 function findMinInRotatedSortedArray(nums) {

@@ -1,3 +1,5 @@
+*** copy restrictCallback.md ***
+
 The implementation you've provided for the `restrictCallback` function looks great! It correctly limits the number of times a callback function can be invoked and provides the desired behavior when the maximum invocation count is reached.
 
 Let's walk through the code and then provide a few potential improvements or variations.

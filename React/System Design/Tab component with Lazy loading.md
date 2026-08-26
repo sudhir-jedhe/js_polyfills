@@ -1,3 +1,5 @@
+*** copy Tab component with Lazy loading.md ***
+
 # Tab Component with Lazy Loading in React
 
 ## Frontend System Design + Complete Interview-Ready Code

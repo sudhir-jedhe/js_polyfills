@@ -1,3 +1,5 @@
+*** copy script.md ***
+
 function createDice(number) {
   const dotPositionMatrix = {
     1: [[50, 50]],

@@ -1,3 +1,5 @@
+*** copy How do you securely configure React and Webpack production sourcemaps for Sentry without leaking source code to the public?.md ***
+
 To debug production errors effectively with full, un-minified stack traces in Sentry without exposing your source code to the public, you need to **generate sourcemaps during build, upload them directly to Sentry, and then delete them before deploying your build artifacts**.
 
 Here is the step-by-step production setup using Webpack and Sentry's official plugin.

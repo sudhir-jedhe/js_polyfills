@@ -1,3 +1,5 @@
+*** copy desin event emmiter.md ***
+
 Frontend Interview Challenge: Can You Design an Event Emitter?
 
 If you're preparing for Frontend interviews, don't focus only on React Hooks or JavaScript syntax.

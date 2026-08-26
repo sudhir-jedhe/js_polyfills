@@ -1,3 +1,5 @@
+*** copy customPop.md ***
+
 ```js
 Array.prototype.customPop = function () {
     // Get the current length of the array

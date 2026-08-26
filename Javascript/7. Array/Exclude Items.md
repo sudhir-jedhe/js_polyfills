@@ -1,3 +1,5 @@
+*** copy Exclude Items.md ***
+
 If you're referring to the common JavaScript interview problem **"Exclude Items"**, the goal is usually:
 
 > Remove items from one array based on another array or a set of exclusion rules.

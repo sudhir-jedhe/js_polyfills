@@ -1,3 +1,5 @@
+*** copy updateCheckboxHierarchy.md ***
+
 ```js
 function updateCheckboxHierarchy(event) {
     const checkbox = event.target;

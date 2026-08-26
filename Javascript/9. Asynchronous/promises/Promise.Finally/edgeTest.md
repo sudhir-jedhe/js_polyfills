@@ -1,3 +1,5 @@
+*** copy edgeTest.md ***
+
 ```js
 //This will be resolved with undefined
 Promise.resolve(2)

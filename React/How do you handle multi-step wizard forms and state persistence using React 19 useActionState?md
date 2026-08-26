@@ -1,0 +1,302 @@
+Handling multi-step wizard forms with React 19’s `useActionState` involves managing accumulated step data, validating inputs per step, and tracking the active step index within the action's returned state.
+
+You can persist the in-progress wizard state either via **Server Action State Accumulation** (passing accumulated fields via hidden inputs) or **Browser Storage Synchronization** (`sessionStorage`/`localStorage`).
+
+---
+
+### 1. Wizard State Schema and Server Action
+
+Define a state type that holds the active step, all accumulated form values, and step-specific validation errors:
+
+```typescript
+// app/actions/wizard.ts
+'use server';
+
+import { z } from 'zod';
+
+export interface WizardState {
+  currentStep: number;
+  data: {
+    // Step 1: Account
+    fullName?: string;
+    email?: string;
+    // Step 2: Shipping
+    address?: string;
+    city?: string;
+    zipCode?: string;
+  };
+  errors?: Record<string, string[]>;
+  isCompleted?: boolean;
+}
+
+const Step1Schema = z.object({
+  fullName: z.string().min(2, 'Name must be at least 2 characters'),
+  email: z.string().email('Invalid email address'),
+});
+
+const Step2Schema = z.object({
+  address: z.string().min(5, 'Address is too short'),
+  city: z.string().min(2, 'City is required'),
+  zipCode: z.string().regex(/^\d{5,6}$/, 'Must be a valid zip code'),
+});
+
+export async function wizardAction(
+  prevState: WizardState,
+  formData: FormData
+): Promise<WizardState> {
+  const intent = formData.get('intent') as 'next' | 'back' | 'submit';
+
+  // Handle navigating backwards without validation
+  if (intent === 'back') {
+    return {
+      ...prevState,
+      currentStep: Math.max(1, prevState.currentStep - 1),
+      errors: undefined,
+    };
+  }
+
+  // Handle Step 1: Account Info
+  if (prevState.currentStep === 1) {
+    const rawData = {
+      fullName: formData.get('fullName') as string,
+      email: formData.get('email') as string,
+    };
+
+    const parsed = Step1Schema.safeParse(rawData);
+    if (!parsed.success) {
+      return {
+        ...prevState,
+        errors: parsed.error.flatten().fieldErrors,
+      };
+    }
+
+    return {
+      currentStep: 2,
+      data: { ...prevState.data, ...parsed.data },
+      errors: undefined,
+    };
+  }
+
+  // Handle Step 2: Shipping & Final Submission
+  if (prevState.currentStep === 2) {
+    const rawData = {
+      address: formData.get('address') as string,
+      city: formData.get('city') as string,
+      zipCode: formData.get('zipCode') as string,
+    };
+
+    const parsed = Step2Schema.safeParse(rawData);
+    if (!parsed.success) {
+      return {
+        ...prevState,
+        errors: parsed.error.flatten().fieldErrors,
+      };
+    }
+
+    const finalPayload = { ...prevState.data, ...parsed.data };
+
+    // Execute final DB / order creation
+    await db.order.create({ data: finalPayload });
+
+    return {
+      currentStep: 3,
+      data: finalPayload,
+      isCompleted: true,
+      errors: undefined,
+    };
+  }
+
+  return prevState;
+}
+
+```
+
+---
+
+### 2. Client Wizard Component with `sessionStorage` Persistence
+
+Use `useActionState` to drive step transitions, and sync the state with `sessionStorage` so refreshing the browser preserves the user's progress.
+
+```tsx
+// app/components/WizardForm.tsx
+'use client';
+
+import { useActionState, useEffect, useState } from 'react';
+import { wizardAction, type WizardState } from '@/app/actions/wizard';
+
+const STORAGE_KEY = 'checkout_wizard_state';
+
+const defaultState: WizardState = {
+  currentStep: 1,
+  data: {},
+};
+
+export function WizardForm() {
+  // 1. Initialize state from storage if available
+  const [initialState, setInitialState] = useState<WizardState>(defaultState);
+  const [hydrated, setHydrated] = useState(false);
+
+  useEffect(() => {
+    const saved = sessionStorage.getItem(STORAGE_KEY);
+    if (saved) {
+      try {
+        setInitialState(JSON.parse(saved));
+      } catch (e) {
+        console.error('Failed to parse wizard storage', e);
+      }
+    }
+    setHydrated(true);
+  }, []);
+
+  if (!hydrated) return <div>Loading form...</div>;
+
+  return <WizardFormInner initialState={initialState} />;
+}
+
+function WizardFormInner({ initialState }: { initialState: WizardState }) {
+  const [state, formAction, isPending] = useActionState(wizardAction, initialState);
+
+  // 2. Persist state on each successful step transition
+  useEffect(() => {
+    if (state.isCompleted) {
+      sessionStorage.removeItem(STORAGE_KEY);
+    } else {
+      sessionStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+    }
+  }, [state]);
+
+  if (state.isCompleted) {
+    return (
+      <div className="p-6 bg-green-50 border rounded text-center">
+        <h2 className="text-xl font-bold text-green-800">Order Completed!</h2>
+        <p className="text-sm text-green-700 mt-2">
+          Thank you, {state.data.fullName}. Confirmation sent to {state.data.email}.
+        </p>
+      </div>
+    );
+  }
+
+  return (
+    <form action={formAction} className="max-w-md mx-auto p-6 border rounded shadow-sm space-y-4">
+      {/* Step Progress Indicator */}
+      <div className="flex justify-between text-xs text-gray-500 font-semibold mb-4">
+        <span className={state.currentStep >= 1 ? 'text-blue-600' : ''}>1. Account</span>
+        <span className={state.currentStep >= 2 ? 'text-blue-600' : ''}>2. Shipping</span>
+        <span className={state.currentStep === 3 ? 'text-blue-600' : ''}>3. Complete</span>
+      </div>
+
+      {/* STEP 1: Account Information */}
+      {state.currentStep === 1 && (
+        <div className="space-y-3">
+          <h3 className="font-semibold">Step 1: Account Details</h3>
+          <div>
+            <label className="block text-sm">Full Name</label>
+            <input
+              name="fullName"
+              defaultValue={state.data.fullName || ''}
+              className="w-full border p-2 rounded"
+            />
+            {state.errors?.fullName && (
+              <p className="text-red-500 text-xs mt-1">{state.errors.fullName[0]}</p>
+            )}
+          </div>
+          <div>
+            <label className="block text-sm">Email</label>
+            <input
+              name="email"
+              type="email"
+              defaultValue={state.data.email || ''}
+              className="w-full border p-2 rounded"
+            />
+            {state.errors?.email && (
+              <p className="text-red-500 text-xs mt-1">{state.errors.email[0]}</p>
+            )}
+          </div>
+        </div>
+      )}
+
+      {/* STEP 2: Shipping Details */}
+      {state.currentStep === 2 && (
+        <div className="space-y-3">
+          <h3 className="font-semibold">Step 2: Shipping Address</h3>
+          <div>
+            <label className="block text-sm">Address</label>
+            <input
+              name="address"
+              defaultValue={state.data.address || ''}
+              className="w-full border p-2 rounded"
+            />
+            {state.errors?.address && (
+              <p className="text-red-500 text-xs mt-1">{state.errors.address[0]}</p>
+            )}
+          </div>
+          <div className="grid grid-cols-2 gap-2">
+            <div>
+              <label className="block text-sm">City</label>
+              <input
+                name="city"
+                defaultValue={state.data.city || ''}
+                className="w-full border p-2 rounded"
+              />
+              {state.errors?.city && (
+                <p className="text-red-500 text-xs mt-1">{state.errors.city[0]}</p>
+              )}
+            </div>
+            <div>
+              <label className="block text-sm">Zip Code</label>
+              <input
+                name="zipCode"
+                defaultValue={state.data.zipCode || ''}
+                className="w-full border p-2 rounded"
+              />
+              {state.errors?.zipCode && (
+                <p className="text-red-500 text-xs mt-1">{state.errors.zipCode[0]}</p>
+              )}
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Navigation Buttons */}
+      <div className="flex justify-between pt-4 border-t">
+        {state.currentStep > 1 ? (
+          <button
+            type="submit"
+            name="intent"
+            value="back"
+            disabled={isPending}
+            className="px-4 py-2 bg-gray-200 text-gray-700 rounded text-sm hover:bg-gray-300"
+          >
+            Back
+          </button>
+        ) : <div />}
+
+        <button
+          type="submit"
+          name="intent"
+          value={state.currentStep === 2 ? 'submit' : 'next'}
+          disabled={isPending}
+          className="px-4 py-2 bg-blue-600 text-white rounded text-sm hover:bg-blue-700 disabled:opacity-50"
+        >
+          {isPending
+            ? 'Processing...'
+            : state.currentStep === 2
+            ? 'Complete Order'
+            : 'Next Step'}
+        </button>
+      </div>
+    </form>
+  );
+}
+
+```
+
+---
+
+### 3. Key Architecture Highlights
+
+* **Intent-Driven Dispatching:** By giving `<button>` elements `name="intent"` and values like `"next"` or `"back"`, the Server Action knows whether to validate forward or retreat backward without client-side JS event handlers.
+* **Server-Validated Steps:** Intermediate steps are validated on the server before incrementing `currentStep`. Users cannot jump ahead by manipulating HTML.
+* **Accumulated State Retained:** Each step merges new valid values into `prevState.data`, ensuring earlier inputs are never lost when moving between steps.
+* **Automatic Storage Cleanup:** On completion (`state.isCompleted === true`), `sessionStorage` is cleared automatically.
+  

@@ -1,3 +1,5 @@
+*** copy lodash-set.md ***
+
 Your implementation of the `set` function is generally well-structured and follows a solid pattern to update deeply nested properties in an object, whether the path is provided as a string or an array. Let's walk through your code and explore the different approaches, focusing on your specific goals.
 
 ### **How `set` Works:**

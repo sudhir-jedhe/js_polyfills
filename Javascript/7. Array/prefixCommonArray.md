@@ -1,3 +1,5 @@
+*** copy prefixCommonArray.md ***
+
 The two functions you provided (`prefixCommonArray` and `findPrefixCommon`) aim to calculate a common array between two arrays `A` and `B` based on specific criteria. Let's break down each implementation and explain the logic and differences between them.
 
 ---

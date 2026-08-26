@@ -1,3 +1,5 @@
+*** copy longestCommonPrefix.md ***
+
 Both implementations of the `longestCommonPrefix` function aim to find the longest common prefix between two arrays of numbers (or strings, once converted). Let’s analyze and compare both approaches:
 
 ---

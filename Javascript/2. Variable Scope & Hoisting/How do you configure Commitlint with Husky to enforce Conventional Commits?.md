@@ -1,3 +1,5 @@
+*** copy How do you configure Commitlint with Husky to enforce Conventional Commits?.md ***
+
 Setting up **Commitlint** with **Husky** validates Git commit messages locally, ensuring they follow the [Conventional Commits](https://www.conventionalcommits.org/) specification (e.g., `feat: add user login`, `fix(api): handle timeout`).
 
 ---

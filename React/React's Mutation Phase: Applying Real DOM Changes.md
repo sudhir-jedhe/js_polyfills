@@ -1,3 +1,5 @@
+*** copy React's Mutation Phase: Applying Real DOM Changes.md ***
+
 Here is a clean, structured reference guide detailing the **Mutation Phase**, its strict execution order, and its traversal algorithm.
 
 ---

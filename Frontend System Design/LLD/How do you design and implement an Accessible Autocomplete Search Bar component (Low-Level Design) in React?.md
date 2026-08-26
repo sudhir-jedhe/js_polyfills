@@ -1,3 +1,5 @@
+*** copy How do you design and implement an Accessible Autocomplete Search Bar component (Low-Level Design) in React?.md ***
+
 Designing an **Accessible Autocomplete Search Bar** (Combobox) requires balancing **performance**, **keyboard navigation**, **asynchronous data fetching**, and **WAI-ARIA compliance** (W3C Combobox Pattern).
 
 Without proper Low-Level Design (LLD), autocomplete widgets often suffer from race conditions, memory leaks, high API call frequencies, and complete unusability for screen-reader users.

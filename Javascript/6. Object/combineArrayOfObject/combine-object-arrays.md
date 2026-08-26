@@ -1,3 +1,5 @@
+*** copy combine-object-arrays.md ***
+
 You're on the right track with your approach to merging objects from two arrays based on a unique identifier (`prop`) using `Object.values()`, the spread operator (`...`), and `Array.prototype.reduce()`. However, there's a small issue in your logic where you're overwriting objects in the accumulator (`acc[v[prop]] = acc[v[prop]] ? { ...acc[v[prop]], ...v } : { ...v };`) instead of properly combining the objects. This leads to the values being lost when a duplicate key is encountered.
 
 Here’s the corrected and optimized solution for merging two arrays of objects based on a unique identifier (`id` in this case):

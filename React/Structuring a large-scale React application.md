@@ -1,3 +1,5 @@
+*** copy Structuring a large-scale React application.md ***
+
 Structuring a large-scale React application requires a architecture that scales cleanly as your team and codebase grow. A **Feature-Based (Vertical Slice) Architecture** is the industry standard for large React applications. It groups code by business domain (e.g., `auth`, `checkout`, `analytics`) rather than technical role (`components`, `containers`, `services`), keeping related code co-located and decoupled.
 
 Here is a comprehensive guide to structuring a production-ready, feature-based React application using **Redux Toolkit**, **RTK Query/Custom Hooks**, and performance best practices.

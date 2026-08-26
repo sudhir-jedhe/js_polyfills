@@ -1,3 +1,5 @@
+*** copy Explain how React Server Actions work alongside Server Components to handle form submissions without extra client JS.md ***
+
 **React Server Actions** are asynchronous functions that run entirely on the server. When paired with **React Server Components (RSC)**, they allow you to handle form submissions, database mutations, and state changes **without writing API routes, client-side event handlers, or adding fetching libraries to your client JavaScript bundle.**
 
 In fact, Server Actions can submit forms even if JavaScript is completely disabled in the user's browser, providing a zero-JS baseline for data mutations.

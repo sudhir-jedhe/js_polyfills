@@ -1,3 +1,5 @@
+*** copy Explain how React reconciliation decides whether to reuse or recreate components.md ***
+
 React’s **reconciliation** algorithm (often called the "Diffing" algorithm) determines how React updates the real DOM when state or props change.
 
 To keep performance fast, React relies on a $O(n)$ heuristic algorithm based on two fundamental assumptions to decide whether to **reuse** an existing component instance or **destroy and recreate** it from scratch.

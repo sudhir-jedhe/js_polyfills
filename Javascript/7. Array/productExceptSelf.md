@@ -1,3 +1,5 @@
+*** copy productExceptSelf.md ***
+
 ### Explanation of the `productExceptSelf` function
 
 The problem asks for an array where each element at index `i` is the product of all elements in the input array except the element at index `i`.

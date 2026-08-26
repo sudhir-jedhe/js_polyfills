@@ -1,3 +1,5 @@
+*** copy Explain Before Mutation Phase and getSnapshotBeforeUpdate in detail with code examples.md ***
+
 The **Before Mutation Phase** is the very first sub-phase of React's **Commit Phase**.
 
 While the Render Phase calculates what changes need to be made offscreen, the Before Mutation Phase happens **immediately before React touches or modifies any live DOM nodes**. It acts as React's final window to read information from the current, un-mutated DOM that would otherwise be lost or altered once structural updates occur.

@@ -1,3 +1,5 @@
+*** copy Addressing Security Concerns such as CSRF and XSRF in React Applications.md ***
+
 ### Addressing Security Concerns such as CSRF and XSRF in React Applications
 
 **Cross-Site Request Forgery (CSRF)** and **Cross-Site Scripting (XSS)** are two common vulnerabilities in web applications, and both can impact the security of React-based applications. React does not inherently protect against these attacks, but you can take steps to secure your application. Let’s break down how to address **CSRF** (also sometimes called **XSRF**) and **XSS** in React applications.

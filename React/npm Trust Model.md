@@ -1,3 +1,5 @@
+*** copy npm Trust Model.md ***
+
 Here is a clean, structured technical breakdown detailing how the **npm Trust Model** operates, why npm shifts trust away from the registry to `package-lock.json` after the initial resolution, and how supply chain attacks exploit this mechanism.
 
 ---

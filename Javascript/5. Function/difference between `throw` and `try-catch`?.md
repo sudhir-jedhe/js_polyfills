@@ -1,3 +1,5 @@
+*** copy difference between `throw` and `try-catch`?.md ***
+
 The difference between `throw` and `try...catch` comes down to **creating errors** versus **handling errors**.
 
 * **`throw`** triggers or raises an error, interrupting the normal flow of execution.

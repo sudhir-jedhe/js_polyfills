@@ -1,3 +1,5 @@
+*** copy React Portals.md ***
+
 **React Portals** provide a way to render a component's children into a DOM node that exists **outside the DOM hierarchy** of the parent component, while still preserving React's component tree behavior (such as context and event bubbling).
 
 They are most commonly used for UI elements that need to break out of their parent container's CSS styling (e.g., `overflow: hidden`, `z-index`, or `position: relative`), such as **modals, dialogs, tooltips, popovers, and dropdown menus**.

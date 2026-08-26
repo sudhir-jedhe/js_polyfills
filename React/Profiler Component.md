@@ -1,3 +1,5 @@
+*** copy Profiler Component.md ***
+
 The `<Profiler>` component in React is a great tool for optimizing performance by measuring the rendering behavior of your components. By using it, you can track the timing of renders and identify any potential performance bottlenecks in your React app. Here's a deeper dive into how you can use it effectively:
 
 ### **How to Use the `<Profiler>` Component**

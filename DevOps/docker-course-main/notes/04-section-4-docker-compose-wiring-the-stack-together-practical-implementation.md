@@ -1,3 +1,5 @@
+*** copy 04-section-4-docker-compose-wiring-the-stack-together-practical-implementation.md ***
+
 # Section 4 — Docker Compose — Wiring the Stack Together — Practical Implementation
 
 ## Introduction

@@ -1,3 +1,5 @@
+*** copy eaxmple.md ***
+
 ### Explanation of `call()`, `apply()`, and `bind()`
 
 In JavaScript, the `call()`, `apply()`, and `bind()` methods are used to set the context (`this`) of a function and control the way arguments are passed. Although they are similar, they differ in how they pass arguments and how they invoke the function.

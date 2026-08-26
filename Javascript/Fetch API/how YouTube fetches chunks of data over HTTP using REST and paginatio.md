@@ -1,3 +1,5 @@
+*** copy how YouTube fetches chunks of data over HTTP using REST and paginatio.md ***
+
 YouTube, like many modern web applications, utilizes a combination of **REST APIs** and **HTTP** to fetch large amounts of data efficiently. When dealing with large datasets (such as video lists, comments, recommendations, or user data), YouTube often retrieves this data in chunks to improve performance, reduce the amount of data being transferred at once, and minimize latency. This method is commonly referred to as **pagination** or **chunking**.
 
 Let's walk through how YouTube fetches chunks of data over HTTP using REST and pagination.

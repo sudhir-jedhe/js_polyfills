@@ -1,3 +1,5 @@
+*** copy output.md ***
+
 ```js
 Input:
 const test1 = new Promise(function (resolve, reject) {

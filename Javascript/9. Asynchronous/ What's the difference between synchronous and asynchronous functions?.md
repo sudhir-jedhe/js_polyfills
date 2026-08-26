@@ -1,3 +1,5 @@
+*** copy  What's the difference between synchronous and asynchronous functions?.md ***
+
 The fundamental difference lies in **how they execute and block code flow**:
 
 ### 1. Synchronous Functions (Blocking)

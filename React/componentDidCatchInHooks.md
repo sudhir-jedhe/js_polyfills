@@ -1,3 +1,5 @@
+*** copy componentDidCatchInHooks.md ***
+
 **No. There is currently no React Hook equivalent to `componentDidCatch()`.**
 
 `componentDidCatch()` is only available in **Class Components** and is used for **Error Boundaries**.

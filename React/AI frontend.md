@@ -1,3 +1,5 @@
+*** copy AI frontend.md ***
+
 Here is a complete, production-ready React application showcasing all 8 AI frontend paradigms. It runs in a modern, dark-themed SaaS workspace called **"OmniAI Workspace"** and features:
 
 1. **AI Chat Interface** (streaming simulation, abort/retry, message history, token-by-token state)

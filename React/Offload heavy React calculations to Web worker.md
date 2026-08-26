@@ -1,3 +1,5 @@
+*** copy Offload heavy React calculations to Web worker.md ***
+
 Offloading heavy calculations from React to a **Web Worker** keeps CPU-intensive tasks (data processing, parsing large CSVs, image manipulation, cryptographic math) completely off the browser's main thread, maintaining 60+ FPS UI responsiveness and low INP.
 
 The cleanest way to do this in modern React is using **[Comlink](https://github.com/GoogleChromeLabs/comlink)**, an RPC library that makes interacting with Web Workers look like standard asynchronous function calls.

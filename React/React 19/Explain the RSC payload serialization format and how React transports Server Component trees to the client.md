@@ -1,3 +1,5 @@
+*** copy Explain the RSC payload serialization format and how React transports Server Component trees to the client.md ***
+
 The **React Server Component (RSC) Payload** (sometimes referred to as the Flight format) is a compact, line-delimited JSON-based streaming protocol used by React to transmit Server Component trees from the server to the browser over an open HTTP response stream.
 
 Rather than sending compiled HTML string snippets or standard JSON, React serializes the virtual DOM tree, server props, client component references, and suspended async boundaries into a structured stream.

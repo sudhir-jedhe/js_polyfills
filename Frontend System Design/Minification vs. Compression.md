@@ -1,3 +1,5 @@
+*** copy Minification vs. Compression.md ***
+
 In front-end system design and performance engineering, **minification** and **compression** are two distinct, complementary techniques used to shrink network payload sizes.
 
 Together, they directly reduce **Network Transfer Time**, decrease **Time to First Byte (TTFB)**, and accelerate **First Contentful Paint (FCP)** and **Largest Contentful Paint (LCP)**.

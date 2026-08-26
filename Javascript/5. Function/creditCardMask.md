@@ -1,3 +1,5 @@
+*** copy creditCardMask.md ***
+
 ```js
 function isNumeric(val) {
   return /^\d+$/.test(val);

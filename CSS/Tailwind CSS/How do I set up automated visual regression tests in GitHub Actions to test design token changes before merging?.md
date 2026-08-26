@@ -1,3 +1,5 @@
+*** copy How do I set up automated visual regression tests in GitHub Actions to test design token changes before merging?.md ***
+
 Automated visual regression testing ensures that updating design tokens (colors, spacing, typography, radii) doesn't introduce unintended layout shifts, broken contrast, or misaligned components.
 
 The industry standard approach combines **Storybook + Playwright Test Runner** (or Chromatic) running inside **GitHub Actions** against your component library.

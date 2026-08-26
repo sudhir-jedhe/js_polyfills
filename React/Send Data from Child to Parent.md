@@ -1,3 +1,5 @@
+*** copy Send Data from Child to Parent.md ***
+
 ### 39️⃣ **Practical: Send Data from Child to Parent using Callback Functions**
 
 To send data from a child component to a parent component in React, you can use a callback function. This approach involves the parent passing a function to the child, which the child then calls to send data back to the parent.

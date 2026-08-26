@@ -1,3 +1,5 @@
+*** copy promise-then-finally.md ***
+
 What is the difference between then and finally in a JavaScript promise?
 
 On the surface, Promise.prototype.then() and Promise.prototype.finally() seem very similar. But there are a few important differences you need to keep in mind.

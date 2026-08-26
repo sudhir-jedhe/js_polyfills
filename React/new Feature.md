@@ -1,3 +1,5 @@
+*** copy new Feature.md ***
+
 As of 2025, React has introduced several new features and updates that improve performance, simplify development, and offer enhanced capabilities for developers. Here are some of the key new features:
 
 ### 1. **Concurrent Rendering**

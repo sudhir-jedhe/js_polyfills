@@ -1,3 +1,5 @@
+*** copy keyExits.md ***
+
 You're right! In JavaScript, there are several methods for checking whether a property (key) exists in an object. Let's go over the three methods you mentioned in detail and discuss their nuances:
 
 ### **1. Using the `in` operator**

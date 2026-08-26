@@ -1,3 +1,5 @@
+*** copy How do refs work in React, and when should you avoid using them?.md ***
+
 In React, a **`ref`** (short for *reference*) provides a way to access and interact directly with a DOM node or to persist a mutable value across renders **without triggering a re-render** when that value changes.
 
 Refs act as an escape hatch from React’s standard declarative data-flow model.

@@ -1,3 +1,5 @@
+*** copy mapString .md ***
+
 Apply a mapping function to each character in a JavaScript string
 
 Ever wished Array.prototype.map() worked on strings? Well, it doesn't, but you can easily replicate its behavior. As strings can easily be turned into arrays and back, you only need to take care of the mapping function and the arguments it receives.

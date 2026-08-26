@@ -1,3 +1,5 @@
+*** copy twoWayBinding.md ***
+
 The three implementations you've shared for binding an input element's value to a state are essentially similar but have some differences in how they handle state synchronization and event handling. Let’s break down each one:
 
 ### **First Implementation:**

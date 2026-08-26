@@ -1,3 +1,5 @@
+*** copy useMediaDevices.md ***
+
 Here is a production-ready `useMediaDevices` React hook for enumerating audio and video input/output devices (`microphones`, `cameras`, `speakers`) using `navigator.mediaDevices.enumerateDevices()`.
 
 It tracks permission changes, handles device attach/detach events (`devicechange`) in real time, and uses `useSyncExternalStore` (React 18+) for concurrent safety and zero layout tearing.

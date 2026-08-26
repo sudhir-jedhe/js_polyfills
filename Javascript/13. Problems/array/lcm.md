@@ -1,3 +1,5 @@
+*** copy lcm.md ***
+
 ```js
 let lcm = (n1, n2) => {
   //Find the gcd first

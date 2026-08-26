@@ -1,3 +1,5 @@
+*** copy toUpperCase.md ***
+
 /\*
 The toUpperCase() method returns the value of the string converted to uppercase.
 This method does not affect the value of the string itself since JavaScript strings are immutable.

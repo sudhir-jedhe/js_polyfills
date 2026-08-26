@@ -1,3 +1,5 @@
+*** copy useVibrate.md ***
+
 Here is a production-ready `useVibrate` React hook that triggers haptic feedback via the browser's `navigator.vibrate` API.
 
 It supports single burst durations, repeating vibration pattern arrays (`[200, 100, 200]`), loop intervals, feature detection, and automatic cancellation on unmount.

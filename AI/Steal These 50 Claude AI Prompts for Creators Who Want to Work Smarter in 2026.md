@@ -1,3 +1,5 @@
+*** copy Steal These 50 Claude AI Prompts for Creators Who Want to Work Smarter in 2026.md ***
+
 This document, **"Steal These 50 Claude AI Prompts for Creators Who Want to Work Smarter in 2026,"** provides a curated toolkit divided into strategic categories designed to help digital creators, entrepreneurs, and developers maximize productivity using AI.
 
 Here is a comprehensive breakdown of the categories, prompts, and pro tips included in the guide:

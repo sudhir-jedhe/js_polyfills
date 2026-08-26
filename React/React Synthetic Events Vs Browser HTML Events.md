@@ -1,3 +1,5 @@
+*** copy React Synthetic Events Vs Browser HTML Events.md ***
+
 In React, events are a key part of how components interact with users. However, React's event system differs from traditional browser HTML events in several ways. Below is a comparison between **React Events** and **Browser HTML Events** to help you understand the differences.
 
 ### **1. Syntax and Naming Convention**

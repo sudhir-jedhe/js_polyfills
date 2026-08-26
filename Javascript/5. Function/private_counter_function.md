@@ -1,3 +1,5 @@
+*** copy private_counter_function.md ***
+
 Your `privateCounter` function is very close to being correct, but there is a small syntax error in the object you're returning. Specifically, you're missing a comma between the two methods (`increment` and `retrieve`).
 
 Here's the corrected version of your code:

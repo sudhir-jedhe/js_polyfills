@@ -1,3 +1,5 @@
+*** copy What are the pros and cons of using React.cloneElement vs React Context when building compound components?.md ***
+
 When building **Compound Components** in React, you need a mechanism to share state and event handlers implicitly between the parent component and its children. The two primary ways to achieve this are using **`React.cloneElement`** (with `React.Children.map`) or **`React Context`**.
 
 Here is a detailed breakdown of the pros, cons, and trade-offs of both approaches.

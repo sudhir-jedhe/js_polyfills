@@ -1,3 +1,5 @@
+*** copy completeAssign.md ***
+
 The `completeAssign()` function you've implemented aims to provide behavior similar to `Object.assign()` but with enhanced functionality: it copies both **data descriptors** and **accessor descriptors** from source objects to the target object.
 
 Let's walk through the code and explain it, then look at the different variations you've provided.

@@ -1,3 +1,5 @@
+*** copy componentCommunication.md ***
+
 In React, data normally flows from Parent → Child using props. To send data from a Child → Parent, you pass a callback function from the parent to the child, and the child calls that function with the data.
 
 A recent React bootcamp discussion in your enterprise content specifically mentions component communication patterns such as parent-to-child and child-to-parent communication.

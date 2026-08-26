@@ -1,3 +1,5 @@
+*** copy asyncSequence.md ***
+
 The goal is to implement a `sequence()` function that chains multiple async functions together. Each function in the chain should receive the data produced by the previous function, and they should be executed in order. If any function fails (i.e., calls its callback with an error), the entire sequence should stop, and the final callback should be invoked with the error.
 
 ### Key Points:

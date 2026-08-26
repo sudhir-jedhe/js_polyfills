@@ -1,3 +1,5 @@
+*** copy cartesian-product-of-arrays.md ***
+
 Cartesian product of two JavaScript arrays
 
 The Cartesian product or cross product of two arrays is a new array that contains every possible pair of elements from the two arrays. This can be useful in many mathematical and programming scenarios.

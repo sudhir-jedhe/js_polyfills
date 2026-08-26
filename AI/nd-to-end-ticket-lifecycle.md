@@ -1,3 +1,5 @@
+*** copy nd-to-end-ticket-lifecycle.md ***
+
 This is the ultimate end-to-end lifecycle of a modern, AI-augmented development task. Explaining this flow in an interview proves you understand how business requirements (Jira) translate into code, how that code is strictly validated (AI + CI/CD), and how it safely reaches production.
 
 > **Repo Organization Tip:** Save this content inside `10-Modern-Dev-Workflows/scenario-problems/end-to-end-ticket-lifecycle.md`.

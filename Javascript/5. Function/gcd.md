@@ -1,3 +1,5 @@
+*** copy gcd.md ***
+
 The provided code contains multiple implementations of the **Greatest Common Divisor (GCD)**, also known as **Euclidean algorithm**. Let's go through each version and explain how they work, along with the correct output.
 
 ### 1. Subtraction-based Euclidean Algorithm (First Implementation)

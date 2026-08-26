@@ -1,3 +1,5 @@
+*** copy index.md ***
+
 import { debounce } from './debounce.js';
 
 const suggestionLength = 5;

@@ -1,3 +1,5 @@
+*** copy Monitoring your Sentry error integration.md ***
+
 Monitoring your Sentry error integration and overall React application health involves setting up **dashboards, alerts, performance tracking, and source maps** so you get notified when critical issues happen—before your users report them.
 
 Here is how to effectively monitor your React app using Sentry.

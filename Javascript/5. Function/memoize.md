@@ -1,3 +1,5 @@
+*** copy memoize.md ***
+
 ### **What is Memoization?**
 
 Memoization is an optimization technique used primarily to speed up applications by storing the results of expensive function calls and returning the cached result when the same inputs occur again. In simpler terms, it allows functions to "remember" the results of previous calls based on their input arguments, so they don't need to repeat the computation for the same inputs.

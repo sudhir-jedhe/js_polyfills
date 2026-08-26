@@ -1,3 +1,5 @@
+*** copy How do I configure custom theme colors, fonts, and breakpoints in Tailwind CSS v4?.md ***
+
 In Tailwind CSS v4, configuration is **CSS-first**. Instead of using a JavaScript `tailwind.config.js` file, you define custom design tokens directly inside your CSS file using the `@theme` directive.
 
 Tailwind uses the variable namespace (e.g., `--color-*`, `--font-*`, `--breakpoint-*`) to automatically generate matching utility classes.

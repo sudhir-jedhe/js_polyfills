@@ -1,3 +1,5 @@
+*** copy composition pattern in React.md ***
+
 **Composition** is a core design pattern in React where you build complex user interfaces by combining smaller, independent, and specialized components.
 
 React famously favors composition over class inheritance for code reuse. Instead of creating massive components that try to do everything, or using rigid inheritance hierarchies, React encourages you to nest and assemble components together.

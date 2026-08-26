@@ -1,3 +1,5 @@
+*** copy NotificationSystem.md ***
+
 // Implementing a notification system for internal users in a web application involves addressing several functional and non-functional requirements (NFRs). In this context, we'll discuss how you can build the notification system in React, ensuring it meets the requirements for scalability, reliability, and availability.
 
 // Functional Requirements

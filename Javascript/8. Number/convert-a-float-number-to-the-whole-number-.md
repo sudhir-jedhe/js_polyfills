@@ -1,3 +1,5 @@
+*** copy convert-a-float-number-to-the-whole-number-.md ***
+
 ### Explanation of Code Examples for Converting Float to Integer:
 
 #### 1. Using `Math.floor()`

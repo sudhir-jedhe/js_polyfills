@@ -1,3 +1,5 @@
+*** copy example.md ***
+
 # API Design Best Practices Example
 
 I'll implement these 10 best practices for API design using React for the frontend and Node.js with Express for the backend. We'll create a comprehensive example that demonstrates all these practices.

@@ -1,3 +1,5 @@
+*** copy generateSelector.md ***
+
 Here's the complete implementation for the `generateSelector` function with the necessary details and a demonstration of its usage.
 
 ### Code Explanation:

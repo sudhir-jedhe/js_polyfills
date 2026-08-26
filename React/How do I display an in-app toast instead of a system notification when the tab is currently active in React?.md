@@ -1,3 +1,5 @@
+*** copy How do I display an in-app toast instead of a system notification when the tab is currently active in React?.md ***
+
 To route incoming push messages conditionally—showing an **in-app toast** when the user is actively viewing your application and falling back to a **system push notification** when the tab is backgrounded or closed—use the Service Worker `clients.matchAll()` API paired with `client.focused` and `client.visibilityState`.
 
 ---

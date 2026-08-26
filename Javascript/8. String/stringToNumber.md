@@ -1,3 +1,5 @@
+*** copy stringToNumber.md ***
+
 6 ways to convert string to a number in javascript
 Posted on April 17, 2019 | by Prashant Yadav
 

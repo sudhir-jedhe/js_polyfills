@@ -1,3 +1,5 @@
+*** copy child props.md ***
+
 ### What are Child Props in React?
 
 In React, **child props** refer to the props that are passed from a parent component to its child component. Props (short for "properties") are how React components communicate with each other, allowing data to be passed down the component tree. When you pass data to a child component, those values are available to the child as **props**.

@@ -1,3 +1,5 @@
+*** copy csrf.md ***
+
 ### **Cross-Site Request Forgery (CSRF) in Detail**
 
 **Cross-Site Request Forgery (CSRF)**, also known as **one-click attack** or **session riding**, is a type of **malicious exploit** where an attacker tricks a user into performing an unwanted action on a web application where they are authenticated. This can lead to **data theft**, **data manipulation**, or even **unauthorized actions** being performed on behalf of the user, without their consent.

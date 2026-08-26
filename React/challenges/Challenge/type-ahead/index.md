@@ -1,3 +1,5 @@
+*** copy index.md ***
+
 import { Trie } from './trie.js';
 import { suggestionsList } from './list.js';
 

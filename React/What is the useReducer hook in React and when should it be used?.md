@@ -1,3 +1,5 @@
+*** copy What is the useReducer hook in React and when should it be used?.md ***
+
 The **`useReducer`** hook is an alternative built-in React hook to `useState` for managing complex state logic. It is heavily inspired by Redux and allows you to centralize all state-transition logic in a single function outside your component.
 
 ---

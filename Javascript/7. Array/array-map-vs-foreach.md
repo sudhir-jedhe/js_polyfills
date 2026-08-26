@@ -1,3 +1,5 @@
+*** copy array-map-vs-foreach.md ***
+
 ### Understanding `Array.prototype.map()` vs. `Array.prototype.forEach()`
 
 `Array.prototype.map()` and `Array.prototype.forEach()` are both very commonly used methods in JavaScript, and while they seem similar at first glance, they serve different purposes and behave differently.

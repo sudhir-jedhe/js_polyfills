@@ -1,3 +1,5 @@
+*** copy How do I implement Periodic Background Sync in a React Progressive Web App (PWA)?.md ***
+
 The **Periodic Background Sync API** enables Progressive Web Apps (PWAs) to periodically fetch fresh data in the background (e.g., daily news, stock updates, dashboard metrics) even when the app is completely closed.
 
 ---

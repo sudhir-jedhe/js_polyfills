@@ -1,3 +1,5 @@
+*** copy Conditional rendering in React.md ***
+
 **Conditional rendering** in React refers to the process of rendering components or elements based on certain conditions. React allows you to use JavaScript expressions to conditionally render different UI elements, making it a powerful feature for creating dynamic interfaces.
 
 In React, conditional rendering can be achieved using different techniques, such as:

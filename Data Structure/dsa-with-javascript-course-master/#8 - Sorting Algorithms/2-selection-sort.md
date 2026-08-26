@@ -1,3 +1,5 @@
+*** copy 2-selection-sort.md ***
+
 // Ques 2: Implement Selection Sort in JavaScript
 // Write a function to sort the given array nums in ascending order.
 

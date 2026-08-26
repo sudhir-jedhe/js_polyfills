@@ -1,3 +1,5 @@
+*** copy What is Object Destructuring?.md ***
+
 ## What is Object Destructuring?
 
 **Object destructuring** is a JavaScript expression introduced in ES6 that allows you to unpack properties from objects into distinct variables. It provides a concise and clean syntax to extract multiple values from an object in a single line of code.

@@ -1,3 +1,5 @@
+*** copy Explain the differences between useLayoutEffect and useEffect in detail with code examples.md ***
+
 While **`useLayoutEffect`** and **`useEffect`** share identical function signatures (`useLayoutEffect(effectFn, deps)`), React executes them at fundamentally different stages of the **Commit Phase**.
 
 The core distinction lies in **when they fire relative to the browser painting pixels to the screen** and whether their execution blocks the main thread.

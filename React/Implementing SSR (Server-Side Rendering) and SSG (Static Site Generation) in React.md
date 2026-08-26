@@ -1,3 +1,5 @@
+*** copy Implementing SSR (Server-Side Rendering) and SSG (Static Site Generation) in React.md ***
+
 ### Implementing **SSR (Server-Side Rendering)** and **SSG (Static Site Generation)** in React
 
 Server-Side Rendering (SSR) and Static Site Generation (SS) are techniques for rendering React applications on the server before sending them to the browser, offering significant SEO and performance benefits. Let’s walk through the implementation of SSR and SSG in React.

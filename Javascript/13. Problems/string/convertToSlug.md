@@ -1,3 +1,5 @@
+*** copy convertToSlug.md ***
+
 ```js
 convertToSlug("This is an example string"); // Output: "this-is-an-example-string"
 convertToSlug("This is another string"); // Output: "this-is-another-string"

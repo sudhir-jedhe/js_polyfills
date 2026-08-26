@@ -1,3 +1,5 @@
+*** copy OptionalChaining.md ***
+
 The code you've provided demonstrates two approaches for safely accessing properties or methods on potentially `undefined` or `null` objects in JavaScript: one **without** optional chaining and one **with** optional chaining.
 
 ### **Without Optional Chaining**

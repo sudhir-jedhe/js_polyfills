@@ -1,3 +1,5 @@
+*** copy 03b-oauth-callback-jwt-session.md ***
+
 Use @specs/03b-oauth-callback-jwt-session.md as the source of truth.
 
 Manual setup already completed:

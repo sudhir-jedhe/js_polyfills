@@ -1,3 +1,5 @@
+*** copy privateCounter.md ***
+
 ### Explanation of the Code
 
 This code demonstrates the **Module Pattern** in JavaScript, where a private variable is encapsulated within an immediately invoked function expression (IIFE), and only specific methods are exposed to interact with it. This approach ensures **data privacy** and prevents direct access to the private variables from outside the module.

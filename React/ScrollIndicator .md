@@ -1,3 +1,5 @@
+*** copy ScrollIndicator .md ***
+
 // Scroll indicator is used to indicate how much of a page has been scrolled, so that user gets a good idea about what is the length of the content.
 
 

@@ -1,3 +1,5 @@
+*** copy Lighthouse.md ***
+
 
 Interviewer: What is Lighthouse and why do you use it?
 Priya: Lighthouse is an automated auditing tool built into Chrome DevTools. I use it to evaluate performance, accessibility, best practices, and SEO. It gives me a clear, measurable view of how a frontend app behaves from a real user’s perspective.

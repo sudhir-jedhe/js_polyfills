@@ -1,3 +1,5 @@
+*** copy difference between shallow mutation of nested object properties vs. direct re-assignment of the props object in React.md ***
+
 difference between shallow mutation of nested object properties vs. direct re-assignment of the props object in Reac
 
 This is a classic **Rippling interview question** testing the difference between **shallow mutation of nested object properties** vs. **direct re-assignment of the `props` object** in React.

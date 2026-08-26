@@ -1,3 +1,5 @@
+*** copy matrix-in-zigzag-format.md ***
+
 ```js
 let zigzagMatrix = (arr) => {
   //loop through the array

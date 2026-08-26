@@ -1,3 +1,5 @@
+*** copy One-Time Password PIN.md ***
+
 An **OTP (One-Time Password) / PIN input component** built for React with TypeScript and Tailwind CSS.
 
 ### Key Features

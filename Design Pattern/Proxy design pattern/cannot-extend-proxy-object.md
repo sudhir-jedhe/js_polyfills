@@ -1,3 +1,5 @@
+*** copy cannot-extend-proxy-object.md ***
+
 You're right: while JavaScript's `Proxy` is a very powerful feature, it cannot be directly extended like other objects or classes because of its atypical semantics. A `Proxy` does not have a prototype chain like typical objects, making it non-extensible in the conventional sense. This is because proxies are considered "exotic objects" that behave differently from regular JavaScript objects.
 
 However, you can certainly create a **class** that returns a `Proxy` object. In this case, you're not extending the `Proxy` object itself, but rather creating a custom class that internally uses the `Proxy` to extend the behavior you want. This is a common pattern when you need the benefits of a proxy (e.g., interception of property access or assignment) but also want to implement some additional functionality via a class.

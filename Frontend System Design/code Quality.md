@@ -1,3 +1,5 @@
+*** copy code Quality.md ***
+
 ### How to Implement Static Code Analysis in Your Project
 
 Static code analysis tools help ensure that your code adheres to best practices, coding standards, and detects potential issues before they become problems. These tools can be integrated at various stages of the development workflow, such as within your IDE, during code commits, in CI/CD pipelines, and more.

@@ -1,3 +1,5 @@
+*** copy fetchpriority and decoding in img Tag.md ***
+
 Both `fetchpriority` and `decoding` are modern HTML attributes used on `<img>` tags to optimize browser resource scheduling, reduce render-blocking, and improve Core Web Vitals (specifically **LCP** and **INP**).
 
 ---

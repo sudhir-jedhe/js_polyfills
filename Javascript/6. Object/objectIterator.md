@@ -1,3 +1,5 @@
+*** copy objectIterator.md ***
+
 The code you've provided demonstrates two examples of **iterable objects** in JavaScript. Let's break down each part of your example.
 
 ### 1. **Creating an Iterable Object using a Generator (`myObject`)**

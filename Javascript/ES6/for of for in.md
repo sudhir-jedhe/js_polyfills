@@ -1,3 +1,5 @@
+*** copy for of for in.md ***
+
 While both `for...in` and `for...of` loops iterate over data in JavaScript, they serve fundamentally different purposes:
 
 * **`for...in`** iterates over the **keys (property names/indexes)** of an object or array.

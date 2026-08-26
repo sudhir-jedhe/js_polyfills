@@ -1,3 +1,5 @@
+*** copy Find the Index of the First Occurrence in a String.md ***
+
 Find the Index of the First Occurrence in a String
 Easy
 Topics

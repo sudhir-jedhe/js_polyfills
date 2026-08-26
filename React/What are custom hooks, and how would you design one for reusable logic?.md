@@ -1,3 +1,5 @@
+*** copy What are custom hooks, and how would you design one for reusable logic?.md ***
+
 A **Custom Hook** is a JavaScript function whose name starts with **`use`** (e.g., `useFetch`, `useLocalStorage`) and that can call other React hooks (`useState`, `useEffect`, `useCallback`, etc.).
 
 Custom hooks allow you to extract component logic into reusable functions. Instead of duplicating state management, side effects, or event handling across multiple components, you encapsulate that logic once inside a custom hook and share it cleanly across your application.

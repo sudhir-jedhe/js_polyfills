@@ -1,3 +1,5 @@
+*** copy helper.md ***
+
 const MONTHS = [
   'January',
   'February',

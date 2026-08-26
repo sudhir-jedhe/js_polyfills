@@ -1,3 +1,5 @@
+*** copy Set up automated keyboard navigation tests in Playwright.md ***
+
 Automating keyboard navigation tests in Playwright involves validating three core requirements:
 
 1. **Focus Sequence (Tab / Shift+Tab)** follows natural visual and DOM order without trapping focus unexpectedly.

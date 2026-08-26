@@ -1,3 +1,5 @@
+*** copy js quiz.md ***
+
 Here are the explanations for the questions you asked:
 
 ### 1. **What is the difference between 'Pass by Value' and 'Pass by Reference'?**

@@ -1,3 +1,5 @@
+*** copy spread-rest-syntax.md ***
+
 ### **Understanding the Spread Syntax (`...`) and Rest Syntax (`...`) in JavaScript**
 
 The spread (`...`) and rest (`...`) syntax may look similar, but they serve distinct purposes and are used in different contexts. Let's break down both concepts with detailed explanations and examples.

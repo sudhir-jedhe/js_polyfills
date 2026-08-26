@@ -1,3 +1,5 @@
+*** copy How do CSS Module Scripts work with document.adoptedStyleSheets in modern browsers?.md ***
+
 **CSS Module Scripts** allow you to import CSS files directly into JavaScript modules using standard ESM syntax and import attributes. Rather than inserting a `<style>` or `<link>` tag into the DOM, the browser compiles the imported stylesheet into a **`CSSStyleSheet` object (Constructable Stylesheet)**, which can be applied to the document or Web Components via **`adoptedStyleSheets`**.
 
 ---

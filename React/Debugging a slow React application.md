@@ -1,3 +1,5 @@
+*** copy Debugging a slow React application.md ***
+
 Debugging a slow React application requires a systematic approach to identify whether the bottleneck is caused by **unnecessary re-renders**, **heavy JavaScript computations**, **DOM bloat**, or **network waterfalls**.
 
 Here is a structured guide to diagnose and fix performance bottlenecks in React.

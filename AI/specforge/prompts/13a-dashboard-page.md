@@ -1,3 +1,5 @@
+*** copy 13a-dashboard-page.md ***
+
 Use @specs/13a-dashboard-page.md as the source of truth.
 
 Implement only Section 13A.

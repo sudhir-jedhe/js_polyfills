@@ -1,3 +1,5 @@
+*** copy Web Storage API.md ***
+
 The **Web Storage API** provides a mechanism for web browsers to securely store key-value pairs locally within the user's browser. It offers a much larger storage capacity (~5 MB) than cookies (~4 KB) and never transmits stored data to the server via automatic HTTP request headers.
 
 The API consists of two mechanisms: **`window.localStorage`** and **`window.sessionStorage`**.

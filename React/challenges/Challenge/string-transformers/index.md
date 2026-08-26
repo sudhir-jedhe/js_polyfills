@@ -1,3 +1,5 @@
+*** copy index.md ***
+
 const userInput = document.getElementById('userInput');
 
 const lowerCaseEl = document.getElementById('lowercase');

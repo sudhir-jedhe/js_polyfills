@@ -1,3 +1,5 @@
+*** copy clearDigits.md ***
+
 The functions you provided are related to removing or handling digits from strings in various ways. Here's an explanation of each function:
 
 ### 1. `clearDigits(s)` — Remove all digits

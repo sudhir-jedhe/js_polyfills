@@ -1,3 +1,5 @@
+*** copy index.md ***
+
 const charRangeEl = document.querySelector('#range');
 const charLengthEl = document.querySelector('.char-length');
 const passwordFormEl = document.querySelector('.password-form');

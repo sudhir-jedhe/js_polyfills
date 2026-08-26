@@ -1,3 +1,5 @@
+*** copy How would you design a scalable React application for a dashboard with 100+ pages?.md ***
+
 Scaling a dashboard with 100+ pages requires optimizing three core pillars: **bundle delivery**, **codebase maintainability**, and **runtime performance**.
 
 ---

@@ -1,3 +1,5 @@
+*** copy CD.md ***
+
 // 1️⃣ Development: This is where the magic begins! We code, create branches, and collaborate on GitHub. It's like building with digital Lego blocks.
 
 // 2️⃣ Peer Review: No developer is an island. We share our code, give feedback, and run automated checks. It's like having a team of friendly editors for your code!

@@ -1,3 +1,5 @@
+*** copy find-missing-alphabets-to-make-a-string-panagram.md ***
+
 ```js
 An algorithm to find the missing alphabets to make a string Panagram.
 

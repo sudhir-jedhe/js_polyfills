@@ -1,3 +1,5 @@
+*** copy provider pattern.md ***
+
 # Provider Data Passing Pattern in React
 
 ## Frontend System Design + Complete Interview-Ready Explanation

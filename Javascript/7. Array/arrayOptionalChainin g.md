@@ -1,3 +1,5 @@
+*** copy arrayOptionalChainin g.md ***
+
 Let's break down the two different versions of your `transform` function and understand their behaviors.
 
 ### First Version: Using Optional Chaining (`?.`)

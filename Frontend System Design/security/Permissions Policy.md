@@ -1,3 +1,5 @@
+*** copy Permissions Policy.md ***
+
 In Front-End System Design, **Permissions Policy** (formerly known as **Feature Policy**) is a browser security standard that gives you granular control over which browser features, hardware APIs, and iframe capabilities your application—and any embedded third-party scripts or iframes—are allowed to access.
 
 By default, modern web browsers grant pages access to powerful APIs like Geolocation, Camera, Microphone, Payment Requests, and Screen Sharing. If an attacker injects a malicious script via XSS or a third-party vendor library gets compromised, they can silently abuse these browser features to spy on users or exfiltrate sensitive data.

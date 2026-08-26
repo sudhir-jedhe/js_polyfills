@@ -1,3 +1,5 @@
+*** copy How do I implement centralized route guards and authentication verification across multiple micro-frontends?.md ***
+
 Implementing centralized route guards and authentication across Micro-Frontends (MFEs) follows a **zero-trust frontend architecture**: the host container (App Shell) acts as the primary gatekeeper for top-level routing, while child MFEs act as autonomous consumers that validate permissions locally and handle token expiration/401s uniformly.
 
 ---

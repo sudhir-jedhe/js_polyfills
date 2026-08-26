@@ -1,3 +1,5 @@
+*** copy compress.md ***
+
 # String Compression and Decompression (JavaScript Interview)
 
 This is a classic interview problem based on **Run-Length Encoding (RLE)**, where consecutive repeated characters are replaced by the character and its count. [\[geeksforgeeks.org\]](https://www.geeksforgeeks.org/dsa/run-length-encoding/), [\[geeksforgeeks.org\]](https://www.geeksforgeeks.org/problems/run-length-encoding/1)

@@ -1,3 +1,5 @@
+*** copy 2-palindrome.md ***
+
 // Ques 2 - Palindrome Number
 // An integer is a palindrome when it reads the same forward and backward.
 

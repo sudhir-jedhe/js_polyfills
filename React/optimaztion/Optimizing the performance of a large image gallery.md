@@ -1,3 +1,5 @@
+*** copy Optimizing the performance of a large image gallery.md ***
+
 Optimizing the performance of a large image gallery is essential to ensure fast page loads, smooth interactions, and an overall better user experience, especially on mobile devices and slower internet connections. Large image galleries can significantly impact the performance due to the size of the images, the number of images, and the need for dynamic loading. Here are several strategies to optimize the performance of a large image gallery:
 
 ### 1. **Lazy Loading Images**

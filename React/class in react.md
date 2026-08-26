@@ -1,3 +1,5 @@
+*** copy class in react.md ***
+
 In React, when working with ES6 classes, you will encounter several key features like `class`, `super()`, `constructor()`, and access modifiers. Let’s break down these concepts, explain how they work in React, and explore additional ES6+ class features.
 
 ### 1. **`class` in ES6**

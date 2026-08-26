@@ -1,3 +1,5 @@
+*** copy noopener.md ***
+
 HTML Tip💡
 
 If you're using target="_blank" to open any link in a new tab, then always add rel="noopener" or rel="noreferrer" or both like this:

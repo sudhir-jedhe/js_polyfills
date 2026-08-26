@@ -1,3 +1,5 @@
+*** copy IIFE pattern to fix var scoping issues.md ***
+
 The **IIFE (Immediately Invoked Function Expression)** pattern was the standard pre-ES6 technique to fix `var` scoping issues by exploiting the fact that `var` is **function-scoped**, even though it ignores block scope (`if`, `for`, `{}`).
 
 Wrapping code in a function creates an isolated execution context and captures variable values by value across iterations and blocks.

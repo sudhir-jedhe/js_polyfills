@@ -1,3 +1,5 @@
+*** copy isSameDate .md ***
+
 Your code defines several useful date comparison functions. Let's walk through each one, explaining the logic and ensuring everything is working as expected.
 
 ### 1. **`isSameDate` function**

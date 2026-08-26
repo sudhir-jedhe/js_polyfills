@@ -1,3 +1,5 @@
+*** copy string-immutability.md ***
+
 Your snippet highlights one of the most fundamental concepts in JavaScript engine design: **Primitives vs. Objects** and **String Immutability**.
 
 While JavaScript strings *feel* like arrays because they have a `.length` property and allow bracket indexing (`x[0]`), they are primitives, and their character contents cannot be mutated in place.

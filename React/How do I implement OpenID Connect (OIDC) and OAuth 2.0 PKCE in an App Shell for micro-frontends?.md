@@ -1,3 +1,5 @@
+*** copy How do I implement OpenID Connect (OIDC) and OAuth 2.0 PKCE in an App Shell for micro-frontends?.md ***
+
 Implementing **OpenID Connect (OIDC)** and **OAuth 2.0 with PKCE (Proof Key for Code Exchange)** in a Micro-Frontend architecture requires establishing the **App Shell as the single Relying Party (RP)**.
 
 Child MFEs must **never** initiate their own OIDC redirects, store duplicate refresh tokens, or talk directly to the Identity Provider (IdP). The App Shell handles the authentication handshake, code exchange, silent token renewal, and broadcasts session state down to child remotes.

@@ -1,3 +1,5 @@
+*** copy reformatNumber.md ***
+
 The task requires us to format a phone number string by removing spaces and dashes, then grouping the digits into blocks of 3, and handling the remaining digits (if any) by the rules specified: 
 
 - If 4 digits remain, they should be split into two blocks of 2 digits each.

@@ -1,3 +1,5 @@
+*** copy How would you handle long-running tasks or expensive computations in React applications without blocking the UI?.md ***
+
 **How would you handle long-running tasks or expensive computations in React applications without blocking the UI?**
 
 To avoid blocking the UI, use Web Workers, setTimeout, or requestIdleCallback for offloading heavy computations. Alternatively, break tasks into smaller parts and use React's Suspense or useMemo to only recompute when necessary.

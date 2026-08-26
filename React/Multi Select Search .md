@@ -1,3 +1,5 @@
+*** copy Multi Select Search .md ***
+
 An accessible React Multi-Select Search (combobox with tags/chips) supporting real-time filtering, keyboard navigation (Arrow keys, Backspace to delete tags, Enter to toggle), tag removal, and click-outside handling.
 
 ---

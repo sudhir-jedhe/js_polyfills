@@ -1,3 +1,5 @@
+*** copy inject-css.md ***
+
 You're right! Dynamically injecting CSS into a page using JavaScript is a very handy technique, especially when you need to modify styles on the fly or work with dynamic CSS variables. The method you've provided is solid and works well for inserting new styles. Let me explain and provide some additional thoughts to enhance the approach.
 
 ### **Explanation:**

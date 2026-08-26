@@ -1,3 +1,5 @@
+*** copy 02-section-3-dockerizing-the-mern-app-practical-implementation.md ***
+
 # Section 3 — Dockerizing the MERN App — Practical Implementation
 
 ## Introduction

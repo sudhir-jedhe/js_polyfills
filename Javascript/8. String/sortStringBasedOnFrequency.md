@@ -1,3 +1,5 @@
+*** copy sortStringBasedOnFrequency.md ***
+
 ```js
 const frequencySort = function (s) {
   const frequency = s.split("").reduce((a, b) => {

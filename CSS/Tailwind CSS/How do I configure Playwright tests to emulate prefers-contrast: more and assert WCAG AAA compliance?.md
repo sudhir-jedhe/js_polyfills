@@ -1,3 +1,5 @@
+*** copy How do I configure Playwright tests to emulate prefers-contrast: more and assert WCAG AAA compliance?.md ***
+
 To emulate `prefers-contrast: more` and assert strict **WCAG AAA** compliance ($\ge 7:1$ for normal text, $\ge 4.5:1$ for large text/UI components) in Playwright, configure `page.emulateMedia({ contrast: 'more' })` and run `@axe-core/playwright` scoped specifically to the `wcag2aaa` and `wcag21aaa` rulesets.
 
 ---

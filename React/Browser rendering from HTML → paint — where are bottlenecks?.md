@@ -1,3 +1,5 @@
+*** copy Browser rendering from HTML → paint — where are bottlenecks?.md ***
+
 Understanding the Critical Rendering Path (CRP)—the sequence of steps browsers take to convert HTML, CSS, and JavaScript into rendered pixels on screen—is essential for frontend performance engineering.
 
 Here is the step-by-step pipeline from HTML to Paint, along with the primary performance bottlenecks at each stage and how to resolve them.

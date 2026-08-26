@@ -1,3 +1,5 @@
+*** copy KISS Principle in JavaScript.md ***
+
 ## **KISS Principle in JavaScript**
 The KISS principle stands for "Keep It Simple, Stupid". It is a software design philosophy that encourages developers to keep their solutions simple and avoid unnecessary complexity. The idea is that simple code is easier to understand, maintain, and extend, and it's often more efficient.
 

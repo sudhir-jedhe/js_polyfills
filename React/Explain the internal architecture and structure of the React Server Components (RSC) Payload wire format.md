@@ -1,3 +1,5 @@
+*** copy Explain the internal architecture and structure of the React Server Components (RSC) Payload wire format.md ***
+
 The **React Server Components (RSC) Payload** is the custom, streamable wire format React uses to transfer server-rendered component trees, props, and metadata over HTTP to the browser.
 
 Rather than sending traditional HTML or standard JSON, React uses a line-delimited format (similar to NDJSON) designed for **incremental streaming**, **parallel execution**, and **reference deduplication**.

@@ -1,3 +1,5 @@
+*** copy index.md ***
+
 import { Evaluator } from './evaluator.js';
 
 const evaluators = [];

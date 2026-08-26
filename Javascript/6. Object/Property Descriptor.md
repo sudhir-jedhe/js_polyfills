@@ -1,3 +1,5 @@
+*** copy Property Descriptor.md ***
+
 To verify why `delete globalThis.x` fails, let us inspect the internal property descriptor created when declaring top-level `var` statements:
 
 ```javascript

@@ -1,3 +1,5 @@
+*** copy For a logged-in user, the absolute best practic.md ***
+
 For a **logged-in user**, the absolute best practice is to store the shopping cart data in a **Backend Database**.
 
 While local storage and session storage have their places in frontend architecture, they fall short for authenticated users. Here is how the three options compare and why the database is the right choice.

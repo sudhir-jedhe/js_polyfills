@@ -1,3 +1,5 @@
+*** copy React Context API.md ***
+
 The **React Context API** provides a way to pass data through the component tree without having to manually pass props down at every level (a problem known as **"prop drilling"**).
 
 It is designed for sharing global or semi-global data across your application—such as user authentication status, global themes, language preferences, or shopping cart contents.

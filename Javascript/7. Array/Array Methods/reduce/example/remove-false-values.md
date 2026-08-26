@@ -1,3 +1,5 @@
+*** copy remove-false-values.md ***
+
 ```js
 
 let arr = [23, 0, "gfg", false, true, NaN, 12, "hi", undefined, [], ""];

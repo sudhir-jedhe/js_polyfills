@@ -1,3 +1,5 @@
+*** copy Explain how React walks the Fiber tree using depth-first traversal, beginWork, and completeWork.md ***
+
 In React's Render Phase, React traverses the Fiber tree using a **Depth-First Search (DFS)** algorithm.
 
 Unlike standard recursive DFS algorithms that run on the native JavaScript call stack (which cannot be paused), React implements this traversal iteratively using a `while` loop known as the **`workLoop`**.

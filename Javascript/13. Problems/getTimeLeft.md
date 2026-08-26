@@ -1,3 +1,5 @@
+*** copy getTimeLeft.md ***
+
 ```js
 export const getTimeLeft = (years, months) => {
   const yearsString = years === 1 ? "year" : "years";

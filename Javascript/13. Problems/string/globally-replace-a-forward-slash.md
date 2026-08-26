@@ -1,3 +1,5 @@
+*** copy globally-replace-a-forward-slash.md ***
+
 ```js
 // Input string
 let origString = "string / with some // slashes /";

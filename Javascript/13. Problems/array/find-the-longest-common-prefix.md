@@ -1,3 +1,5 @@
+*** copy find-the-longest-common-prefix.md ***
+
 ```js
 Given an array of strings we have to find the longest common prefix between them. If there is no prefix then return empty string.
 

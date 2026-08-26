@@ -1,3 +1,5 @@
+*** copy How does Agoric's SES (Secure ECMAScript) use Compartments and Object.freeze for deterministic sandboxing?.md ***
+
 ***How does Agoric's SES (Secure ECMAScript) use Compartments and Object.freeze for deterministic sandboxing?***
 
 Agoric’s **SES (Secure ECMAScript)**—the foundation of **Hardened JavaScript**—creates secure, deterministic sandboxes inside a single JavaScript engine process (like V8 or Moddable XS).

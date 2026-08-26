@@ -1,3 +1,5 @@
+*** copy closure.md ***
+
 If you're asking:
 
 > **"How do we achieve JavaScript class private fields (`#field`) in functions?"**

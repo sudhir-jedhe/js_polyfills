@@ -1,3 +1,5 @@
+*** copy Explain how React processes update queues and batches state updates internally inside Hook.queue.md ***
+
 In React, state updates rarely happen in isolation. When you call a `setState` or `dispatch` function inside an event handler or effect, React does not immediately re-render the component or calculate the final state value.
 
 Instead, React appends the state update to a **circular linked list** attached to the **`Hook.queue`** object. During the next render pass, React processes this update queue sequentially, applying batching, priorities, and state base transitions.

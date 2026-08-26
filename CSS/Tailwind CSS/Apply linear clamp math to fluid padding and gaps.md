@@ -1,3 +1,5 @@
+*** copy Apply linear clamp math to fluid padding and gaps.md ***
+
 Applying linear `clamp()` math to spacing (padding, margin, gap) uses the exact same $y = mx + b$ linear equation as fluid typography, substituted into properties like `padding`, `margin`, or `gap`.
 
 ---

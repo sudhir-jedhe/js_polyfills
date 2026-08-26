@@ -1,3 +1,5 @@
+*** copy useLongPress1.md ***
+
 A complete, production-ready solution includes full **touch support**, **keyboard accessibility** (Enter/Space hold), **initial hold delay**, and **automatic cleanup** to prevent memory leaks.
 
 ---

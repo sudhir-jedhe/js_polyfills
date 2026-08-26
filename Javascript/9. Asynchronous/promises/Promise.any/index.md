@@ -1,3 +1,5 @@
+*** copy index.md ***
+
 // Promise.any() takes an iterable of Promise objects. It returns a single
 // promise that fulfills as soon as any of the promises in the iterable
 // fulfills, with the value of the fulfilled promise. If no promises in the

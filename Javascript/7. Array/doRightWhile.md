@@ -1,3 +1,5 @@
+*** copy doRightWhile.md ***
+
 ```js
 function dropRightWhile(array, predicate) {
   let i = array.length;

@@ -1,3 +1,5 @@
+*** copy css-selector-generator.md ***
+
 The problem you're trying to solve is to generate a CSS selector string that uniquely identifies an HTML element (`target`) in relation to a root element (`root`). The generated selector should reflect the hierarchical structure, utilizing tag names, child positions (using `nth-child`), and IDs where applicable.
 
 You’ve provided several different solutions. I’ll explain each approach and provide feedback, before suggesting the most efficient solution.

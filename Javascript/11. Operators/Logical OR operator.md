@@ -1,3 +1,5 @@
+*** copy Logical OR operator.md ***
+
 The `||` (Logical OR) operator in JavaScript is used to find the first **truthy** value in its operands. If the first operand is truthy, it returns that operand. If it's falsy, it checks the next operand, and so on, until it finds a truthy value. If all operands are falsy, it returns the last operand.
 
 ### Key Features of the `||` Operator

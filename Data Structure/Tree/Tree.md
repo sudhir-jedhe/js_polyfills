@@ -1,3 +1,5 @@
+*** copy Tree.md ***
+
 avaScript Data Structures - Tree
 
 Definition

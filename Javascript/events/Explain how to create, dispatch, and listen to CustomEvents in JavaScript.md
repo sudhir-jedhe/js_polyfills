@@ -1,3 +1,5 @@
+*** copy Explain how to create, dispatch, and listen to CustomEvents in JavaScript.md ***
+
 In JavaScript, the **`CustomEvent`** interface allows you to create and dispatch synthetic events across DOM elements. This pattern is widely used for component communication, building decoupled architectures, and notifying parent elements of custom user interactions or state changes.
 
 ---

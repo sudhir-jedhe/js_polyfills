@@ -1,3 +1,5 @@
+*** copy generateOTP.md ***
+
 ```js
 // Function to generate OTP
 //one-time password (OTP) Only Numeric

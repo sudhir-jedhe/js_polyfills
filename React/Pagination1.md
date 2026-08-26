@@ -1,3 +1,5 @@
+*** copy Pagination1.md ***
+
 An accessible, production-ready React pagination component includes page numbers, dynamic ellipsis handling (`...`), previous/next navigation, and full WAI-ARIA compliance.
 
 ---

@@ -1,3 +1,5 @@
+*** copy benifits of coponent library.md ***
+
 The key benefits of using a component library (like MUI, Shadcn UI, Chakra UI, or Ant Design) boil down to three main pillars: **Development Speed**, **Consistency & Quality**, and **Built-in Accessibility (a11y)**.
 
 ---

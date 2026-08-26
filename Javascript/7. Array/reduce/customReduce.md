@@ -1,3 +1,5 @@
+*** copy customReduce.md ***
+
 This is a simple implementation of the `reduce` function, where you pass an array (`nums`), a reducer function (`fn`), and an initial value (`init`), and it performs the reduction (i.e., accumulates a result).
 
 Here is the explanation and the code you provided:

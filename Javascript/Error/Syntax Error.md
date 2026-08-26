@@ -1,3 +1,5 @@
+*** copy Syntax Error.md ***
+
 A **`SyntaxError`** in JavaScript is thrown when the JavaScript engine tries to read your code but encounters something that violates the strict grammar rules of the language.
 
 Unlike the other errors (which happen *while* the code is running), a `SyntaxError` usually happens during the **parsing phase**. This means that if there is a syntax error in your script, the code will fail to execute entirely.

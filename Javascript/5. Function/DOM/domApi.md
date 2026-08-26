@@ -1,3 +1,5 @@
+*** copy domApi.md ***
+
 Here’s the complete implementation, including an example that demonstrates how dynamic content can be added and rendered:
 
 ```javascript

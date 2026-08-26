@@ -1,3 +1,5 @@
+*** copy runningSum.md ***
+
 The code you provided implements a **running sum** function in two different styles: one using a manual loop and the other using the `map()` method. Both versions compute the cumulative sum of elements in an array.
 
 ### 1. **Version 1: Manual Loop Approach**

@@ -1,3 +1,5 @@
+*** copy dynamicForm.md ***
+
 Here is a complete, lightweight dynamic form engine built in pure React without any third-party dependencies.
 
 It dynamically initializes state based on the JSON configuration, handles field visibility (`dependsOn` / `showIf`), runs validation rules (required, regex patterns, min/max lengths), and handles inputs like text, select dropdowns, textareas, and checkboxes.

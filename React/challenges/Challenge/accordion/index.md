@@ -1,3 +1,5 @@
+*** copy index.md ***
+
 // Get all accordion items
 const accordionItems = document.querySelectorAll('.accordion-item');
 // Get the checkbox element by its ID

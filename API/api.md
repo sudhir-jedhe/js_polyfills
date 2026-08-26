@@ -1,3 +1,5 @@
+*** copy api.md ***
+
 Based on recent React masterclass material in your organisation, API integration topics such as Axios, Fetch API, useEffect, Context API, and state management are common areas of focus. [[React-PPT-v4 2 | PDF]](https://persistentsystems-my.sharepoint.com/personal/bhagyashri_vikhe_persistent_com/Documents/Microsoft%20Teams%20Chat%20Files/React-PPT-v4%202.pdf?web=1), [[Masterclas...: July'26 | Meeting]](https://teams.microsoft.com/l/meeting/details?eventId=AAMkAGMxMjI2OWVkLWU0NzItNGZhMS04MWEyLWU0MTBmNzhiZjM3NAFRAAgI3uBxrrHAAEYAAAAAXK7K1kVmlUyuqsmSw-3huAcA65BX0zds3kuv4N8YqlYGvQAAAAABDQAA65BX0zds3kuv4N8YqlYGvQAChF1zKQAAEA%3d%3d)
 
 # React API Integration Interview Questions (Senior/Architect Level)

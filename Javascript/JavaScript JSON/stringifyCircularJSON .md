@@ -1,3 +1,5 @@
+*** copy stringifyCircularJSON .md ***
+
 ### Handling Circular References in JSON
 
 A **circular reference** occurs when an object contains a reference to itself directly or indirectly. Since `JSON.stringify` cannot handle circular references by default, you'll get a `TypeError`. The solution is to use a custom replacer function to detect and omit circular references during serialization.

@@ -1,3 +1,5 @@
+*** copy deepSeal.md ***
+
 Your code provides examples of how to work with `Object.seal()` and `Object.freeze()` in JavaScript, including creating custom functions like `deepSeal()` and `deepFreeze()` for deeply sealing or freezing an object and its nested properties. Below, I'll walk you through each concept and explain the behavior:
 
 ### 1. **Using `Object.seal()`**

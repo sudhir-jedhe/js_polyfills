@@ -1,3 +1,5 @@
+*** copy defaultFunctionParameter.md ***
+
 
 
 In your code, you're calling the `sum` function with arguments `null` and `20`, and you're using default parameter values in the function definition. However, there's a subtle behavior here related to how JavaScript handles `null` and default parameters.

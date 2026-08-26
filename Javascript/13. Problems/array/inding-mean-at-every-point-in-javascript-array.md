@@ -1,3 +1,5 @@
+*** copy inding-mean-at-every-point-in-javascript-array.md ***
+
 ```js
 /*
 Input: arr = [1, 2, 3, 4, 5]

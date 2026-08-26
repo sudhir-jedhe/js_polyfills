@@ -1,3 +1,5 @@
+*** copy empty.md ***
+
 The code snippets you provided are different ways to **clear** or **empty** an array in JavaScript. Let's go through each of them one by one to understand what they do:
 
 ---

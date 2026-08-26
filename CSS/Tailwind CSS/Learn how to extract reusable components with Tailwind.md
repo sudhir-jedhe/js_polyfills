@@ -1,3 +1,5 @@
+*** copy Learn how to extract reusable components with Tailwind.md ***
+
 In modern frontend development, extracting reusable components with Tailwind CSS is typically handled at the **template/component layer** rather than writing custom CSS classes.
 
 ---

@@ -1,3 +1,5 @@
+*** copy cycle.md ***
+
 You have provided two similar implementations of a function that cycles through one or more values each time it is called. Let's break down each implementation to understand how they work and point out any notable differences.
 
 ### 1. **First Implementation:**

@@ -1,3 +1,5 @@
+*** copy How does JavaScript strict mode allow V8 TurboFan to perform aggressive inline caching and register optimizations?.md ***
+
 In V8’s optimizing compiler pipeline (**TurboFan**), code optimization relies on making static assumptions about variable bindings, scope boundaries, and object shapes.
 
 Non-strict ("sloppy") mode contains dynamic language features that force the compiler to deoptimize and fall back to expensive runtime lookups. By eliminating these edge cases, strict mode enables **TurboFan** to perform aggressive register allocation, unboxing, inline caching (IC), and dead-code elimination.

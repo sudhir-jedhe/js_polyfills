@@ -1,3 +1,5 @@
+*** copy eventLoop.md ***
+
 # JavaScript Event Loop
 
 The **Event Loop** is the mechanism that allows JavaScript to perform asynchronous operations even though JavaScript is **single-threaded**.

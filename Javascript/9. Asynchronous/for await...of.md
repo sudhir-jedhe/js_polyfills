@@ -1,3 +1,5 @@
+*** copy for await...of.md ***
+
 The **`for await...of`** loop (introduced in ES2018) is designed to iterate over **Async Iterables**.
 
 While a standard `for...of` loop synchronously pulls values from data sources like arrays, `for await...of` **implicitly awaits a Promise at every single step of the loop**, pausing execution until the next data chunk becomes available.

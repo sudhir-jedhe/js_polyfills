@@ -1,3 +1,5 @@
+*** copy id and class.md ***
+
 In HTML and CSS, `id` and `class` are both used to identify and style elements, but they serve different purposes and have distinct characteristics. Here’s a breakdown of the differences between `id` and `class`:
 
 ### 1. **Uniqueness**

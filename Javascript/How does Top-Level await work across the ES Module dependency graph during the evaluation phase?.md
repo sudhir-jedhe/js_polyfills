@@ -1,3 +1,5 @@
+*** copy How does Top-Level await work across the ES Module dependency graph during the evaluation phase?.md ***
+
 In ECMAScript Modules (ESM), execution happens across three distinct phases: **Construction / Parsing** (finding and downloading all files), **Instantiation / Linking** (allocating memory slots and linking import/export bindings), and **Evaluation** (running the actual code).
 
 **Top-Level `await` (TLA)** operates strictly during the **Evaluation phase**. It transforms module evaluation from a purely synchronous post-order traversal into an **asynchronous, dependency-driven tree resolution**.

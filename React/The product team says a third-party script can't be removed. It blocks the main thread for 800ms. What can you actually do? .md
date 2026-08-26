@@ -1,3 +1,5 @@
+*** copy The product team says a third-party script can't be removed. It blocks the main thread for 800ms. What can you actually do? .md ***
+
 When a third-party script cannot be removed, you have to transition from treating it as a standard dependency to isolating, deferring, or offloading it.
 
 Here are the practical strategies to neutralize an 800ms main-thread block, ordered from most isolated to least invasive.

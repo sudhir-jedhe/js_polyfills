@@ -1,3 +1,5 @@
+*** copy ISR vs SSR.md ***
+
 # Incremental Static Regeneration (ISR) vs Server-Side Rendering (SSR)
 
 ## Frontend System Design + Complete Interview-Ready Explanation

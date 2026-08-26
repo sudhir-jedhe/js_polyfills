@@ -1,3 +1,5 @@
+*** copy Traverse-DOM-level-by-level.md ***
+
 ### Problem Description
 
 The goal of the `flatten` function is to take a DOM tree (starting from a root node) and return an array of all its nodes, traversed **level by level**, in a **breadth-first search (BFS)** order. This means you should start from the root node, then visit all its direct children, then all its grandchildren, and so on.

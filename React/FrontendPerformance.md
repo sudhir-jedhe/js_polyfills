@@ -1,3 +1,5 @@
+*** copy FrontendPerformance.md ***
+
 # Frontend Performance Deep Dive (Senior React Interview Guide)
 
 These topics are heavily asked in **Senior React / Frontend Engineer** interviews.

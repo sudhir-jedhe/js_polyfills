@@ -1,3 +1,5 @@
+*** copy Why keys Are Needed in React.md ***
+
 ### **Why `keys` Are Needed in React**
 
 In React, **`keys`** are essential when rendering **lists of elements** in the DOM, particularly when **dynamically adding, removing, or updating** items in a list. React uses keys to **identify which items have changed, are added, or are removed**. This helps React efficiently update the UI without having to re-render the entire list, thereby improving **performance**.

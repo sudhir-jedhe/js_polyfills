@@ -1,3 +1,5 @@
+*** copy Optimizing Page Scroll Performance with Throttling.md ***
+
 ## Optimizing Page Scroll Performance with Throttling
 
 When users scroll a webpage, the browser fires the `scroll` event dozens or even hundreds of times per second. If your scroll handler performs heavy DOM manipulations, animations, or data fetching, it will overwhelm the main thread, leading to noticeable UI lag, dropped frames, and a sluggish user experience (known as **jank**).

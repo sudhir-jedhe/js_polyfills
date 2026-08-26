@@ -1,3 +1,5 @@
+*** copy resumableIntervale.md ***
+
 Your implementation of the `createResumableInterval` function looks excellent! It provides a clear and concise way to create intervals that can be paused and resumed. Let me walk through your solution and explain it in more detail, along with a few suggestions for improvements or additional features you might want to consider.
 
 ### **Code Breakdown**

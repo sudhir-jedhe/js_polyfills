@@ -1,3 +1,5 @@
+*** copy How do I modify the TypeScript token generator to export JSON format for Figma Tokens Studio alongside CSS?.md ***
+
 To export tokens for **Figma Tokens Studio** (formerly Figma Tokens / W3C Design Tokens Community Group format) alongside your Tailwind v4 CSS, the generator must output a structured JSON schema containing explicit `$type`, `$value`, and `$description` properties.
 
 Because Figma does not natively calculate runtime `clamp()` equations inside canvas artboards, the standard practice is to export:

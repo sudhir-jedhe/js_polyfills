@@ -1,3 +1,5 @@
+*** copy How a Browser Sends an HTTP Request.md ***
+
 Understanding the underlying mechanics of how the browser communicates with a server separates a junior developer from a senior one. Here is a deep dive into browser request lifecycles, `fetch()` behaviors, HTTP semantics, and UI state architecture.
 
 ---

@@ -1,3 +1,5 @@
+*** copy find-first-or-last-occurrence-of-a-given-number-in-a-sorted-array.md ***
+
 ```js
 Learn how to find the first or last occurrence of a given number in a sorted array.
 

@@ -1,3 +1,5 @@
+*** copy Generate dark mode palette variations automatically with OKLCH.md ***
+
 Generating dark mode palettes using the **OKLCH** color space produces perceptually uniform results because Lightness ($L$), Chroma ($C$), and Hue ($H$) are decoupled.
 
 Unlike HSL or RGB—where changing brightness causes blue to look harsh or yellow to look greenish—OKLCH preserves perceived contrast and color intensity across theme shifts.

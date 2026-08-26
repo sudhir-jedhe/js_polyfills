@@ -1,3 +1,5 @@
+*** copy frequencyTracker.md ***
+
 ### Problem Breakdown
 
 You need to implement a `FrequencyTracker` class that keeps track of numbers added to it and their frequencies, and also supports the following operations:

@@ -1,4 +1,6 @@
-# The `image-set` function in CSS is used to provide multiple image sources for different display conditions, such as varying screen resolutions. It is particularly useful for responsive images, allowing the browser to select the most appropriate image based on the device's resolution or display density (e.g., retina displays).
+# `image-set` function in CSS
+
+The `image-set` function in CSS is used to provide multiple image sources for different display conditions, such as varying screen resolutions. It is particularly useful for responsive images, allowing the browser to select the most appropriate image based on the device's resolution or display density (e.g., retina displays)
 
 ## Syntax of `image-set`
 

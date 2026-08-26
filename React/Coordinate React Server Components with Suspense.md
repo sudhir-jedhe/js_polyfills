@@ -1,3 +1,5 @@
+*** copy Coordinate React Server Components with Suspense.md ***
+
 In React Server Components (RSC), coordinating with `<Suspense>` enables **Progressive HTML Streaming** and **Selective Hydration**.
 
 Instead of waiting for every asynchronous database query or API call to complete before sending anything to the browser, the server streams the static shell immediately, followed by deferred HTML and RSC wire payloads as promises resolve.

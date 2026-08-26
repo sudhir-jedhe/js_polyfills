@@ -1,3 +1,5 @@
+*** copy 06-read-dashboard-notifications-apis.md ***
+
 Use @specs/06-read-dashboard-notifications-apis.md as the source of truth.
 
 Implement only Section 06.

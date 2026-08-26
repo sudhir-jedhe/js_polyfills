@@ -1,3 +1,5 @@
+*** copy some.md ***
+
 The `some()` method is a very useful array method in JavaScript that allows you to check if at least one element in an array satisfies a given condition. Let's break down the implementation and explore various examples and scenarios.
 
 ### Overview of `some()` Method:

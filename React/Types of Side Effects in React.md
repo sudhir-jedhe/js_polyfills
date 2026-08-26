@@ -1,3 +1,5 @@
+*** copy Types of Side Effects in React.md ***
+
 In React, **side effects** are operations that occur as a result of rendering, which may affect the outside world or change the internal state in ways that are not directly related to the component's render process. Side effects are actions that can modify the state of the application, interact with external systems, or cause other changes outside the scope of the current function component.
 
 ### **Types of Side Effects in React**

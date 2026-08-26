@@ -1,3 +1,5 @@
+*** copy aws for developer.md ***
+
 // Leverage and learn AWS as a frontend & Mobile Developer
 
 // As a frontend and mobile developer, you can use AWS to build, deliver, and monitor full-stack, and frontend and mobile apps.

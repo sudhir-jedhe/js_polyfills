@@ -1,3 +1,5 @@
+*** copy What is the arguments object.md ***
+
 ### Understanding the `arguments` Object and Its Limitations
 
 The `arguments` object is a special **array-like object** available within all regular functions in JavaScript. It provides access to the values passed to a function, and allows us to inspect the arguments passed to it. However, there are some important caveats to be aware of.

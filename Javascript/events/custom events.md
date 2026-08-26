@@ -1,3 +1,5 @@
+*** copy custom events.md ***
+
 Creating custom events in JavaScript is a powerful feature that allows you to define your own event types and manage specific application behavior beyond the default browser events. Here's a detailed guide on how to implement custom events and how to use them in different scenarios:
 
 ### How to Create Custom Events

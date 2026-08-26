@@ -1,3 +1,5 @@
+*** copy same-origin policy.md ***
+
 ### What is the Same-Origin Policy?
 
 The **Same-Origin Policy (SOP)** is a critical security feature implemented by web browsers to restrict how documents or scripts loaded from one origin can interact with resources from another origin. This policy is fundamental in protecting users from **cross-site scripting (XSS)** attacks and **data theft**.

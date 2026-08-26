@@ -1,3 +1,5 @@
+*** copy Web Socket.md ***
+
 **WebSocket** is a advanced computer communications protocol that provides a **persistent, full-duplex (bidirectional) communication channel over a single TCP connection** between a client (browser) and a server.
 
 Unlike traditional HTTP requests (which follow a strict request-response lifecycle where the client must always initiate communication), a WebSocket connection remains open continuously. This allows either the client or the server to send data to the other party at any moment without overhead or delay.

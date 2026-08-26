@@ -1,3 +1,5 @@
+*** copy problem.md ***
+
 Here is a complete, production-grade **senior-level scenario interview question** on the `fetch` API that is frequently used in Frontend and Full-Stack JavaScript interviews to evaluate architectural design and error-handling mastery.
 
 ---

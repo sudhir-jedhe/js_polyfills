@@ -1,3 +1,5 @@
+*** copy inline , inline-block, block element.md ***
+
 In HTML and CSS, elements can be categorized into different types based on how they behave in terms of layout. The three main types of display values are:
 
 - **`block`**

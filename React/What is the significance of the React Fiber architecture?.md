@@ -1,3 +1,5 @@
+*** copy What is the significance of the React Fiber architecture?.md ***
+
 This question is asked a lot in Interviews. Let us try to answer it briefly.
 
 Before Fiber, React was like a chef who started an order and refused to stop until it was finished, even if a more important customer walked in. With Fiber, the chef learned how to multitask, pause, and prioritize.

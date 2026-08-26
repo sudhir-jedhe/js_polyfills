@@ -1,3 +1,5 @@
+*** copy object-array-proxy.md ***
+
 Certainly! Below is the code that transforms an object into an array-like structure using a **JavaScript Proxy**. This version incorporates methods like `map`, `reduce`, `forEach`, `filter`, and more, making it behave similarly to an array.
 
 ```javascript

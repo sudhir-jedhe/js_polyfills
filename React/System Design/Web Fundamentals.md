@@ -1,3 +1,5 @@
+*** copy Web Fundamentals.md ***
+
 # Web Fundamentals — Complete Senior Frontend Interview Deep Dive
 
 Web fundamentals are one of the most important **Senior Frontend / React interview topics**.

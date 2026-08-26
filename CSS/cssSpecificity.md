@@ -1,3 +1,5 @@
+*** copy cssSpecificity.md ***
+
 CSS specificity is the algorithm browsers use to decide **which style rule wins** when multiple conflicting CSS rules target the same element.
 
 If you write two rules that try to color the same paragraph text—say, one makes it red and another makes it blue—specificity is the referee that picks the winner.

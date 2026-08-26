@@ -1,3 +1,5 @@
+*** copy mapSeriesAsync.md ***
+
 To implement the `mapSeries` function in JavaScript, we need to iterate over an array and apply an asynchronous function to each element. The operations should happen sequentially—i.e., each operation waits for the previous one to finish before starting the next one.
 
 We will use `Promise` to handle the asynchronous nature of the operations and ensure that the results are accumulated in order, similar to the behavior of `Array.map()`. If any asynchronous task fails (i.e., the callback passes an error), the entire sequence should reject the promise immediately.

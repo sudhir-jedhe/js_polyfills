@@ -1,3 +1,5 @@
+*** copy check-whether-the-product-of-every-subsequence-is-a-perfect-square-or-not.md ***
+
 ```js
 // Input: arr[] = {1, 4, 100}
 // Output: Yes

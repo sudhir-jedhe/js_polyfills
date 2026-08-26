@@ -1,3 +1,5 @@
+*** copy memmoryLeak.md ***
+
 Here is a complete example showing how a closure can cause a memory leak, why it happens, and how to fix it.
 
 ---

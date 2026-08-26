@@ -1,3 +1,5 @@
+*** copy findIndexOf.md ***
+
 ```js
 findIndexOf("hello world", "world"); // Output: 6
 findIndexOf("testing", "ing"); // Output: 4

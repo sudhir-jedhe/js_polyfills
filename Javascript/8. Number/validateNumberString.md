@@ -1,3 +1,5 @@
+*** copy validateNumberString.md ***
+
 To handle various types of number strings (integer, decimal, and scientific notation), you've already built an outline of the regular expressions to match different patterns. Let's break down the approach in your code into clearly defined parts and ensure that we can validate different types of numbers (integers, decimals, and numbers in scientific notation).
 
 ### Steps for Building the Regex:

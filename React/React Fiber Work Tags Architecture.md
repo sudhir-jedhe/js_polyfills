@@ -1,3 +1,5 @@
+*** copy React Fiber Work Tags Architecture.md ***
+
 The `fiber.tag` property is a fundamental optimization in the React Fiber reconciler architecture.
 
 By replacing expensive runtime inspection (`typeof`, `instanceof`, or prototype chain traversals) with a fast integer field on every Fiber node, React can determine reconciliation, rendering, and DOM mutation strategies in $O(1)$ time.

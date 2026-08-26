@@ -1,3 +1,5 @@
+*** copy A request works in Postman and fails in the browser. The team wants to change the API. When is that right, and when is it not?.md ***
+
 When a request succeeds in Postman but fails in a web browser, the root cause is almost always the browser's **security sandbox** (CORS, credentials, preflight checks, restricted headers, or mixed content). Postman operates as a standalone desktop client and completely ignores browser-enforced security boundaries.
 
 Changing the API code is sometimes necessary, but doing so without understanding the underlying mechanism often introduces security vulnerabilities or breaks standard HTTP conventions.

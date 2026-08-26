@@ -1,3 +1,5 @@
+*** copy generate-k-digit-numbers-digits-strictly-increasing-order.md ***
+
 ```js
 // Input : K = 7
 // Output :

@@ -1,3 +1,5 @@
+*** copy getDomain.md ***
+
 ```js
 getDomain("https://www.google.com/"); // Output: 'google.com'
 getDomain("https://www.facebook.com/reacterry/"); // Output: 'facebook.com'

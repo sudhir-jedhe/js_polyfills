@@ -1,3 +1,5 @@
+*** copy jsInteview.md ***
+
 Here are detailed, interview-ready answers for the first core set of **JavaScript Theoretical Questions (Q1 to Q19)** from your screenshots.
 
 ---

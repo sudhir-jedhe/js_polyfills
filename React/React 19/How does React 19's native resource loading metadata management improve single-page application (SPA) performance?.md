@@ -1,3 +1,5 @@
+*** copy How does React 19's native resource loading metadata management improve single-page application (SPA) performance?.md ***
+
 In traditional single-page applications (SPAs), managing document metadata (such as `<title>`, `<meta>`, and `<link>` tags) and preloading critical assets required third-party libraries (e.g., `react-helmet`) or complex custom `useEffect` hooks.
 
 These legacy approaches often degraded performance by causing **render waterfalls**, **layout shifts (CLS)**, and **flashes of unstyled text (FOUT)** because assets were discovered late in the component lifecycle.

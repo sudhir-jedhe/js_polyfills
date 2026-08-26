@@ -1,3 +1,5 @@
+*** copy index.md ***
+
 # **Code Snippet 1: Using `Array.apply()`**
 
 Both code snippets demonstrate different ways of creating an array filled with references to the same `Given_values` array in JavaScript. Here's an explanation of each approach:

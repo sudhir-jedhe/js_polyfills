@@ -1,3 +1,5 @@
+*** copy check-if-a-string-can-be-formed-from-another-string-by-at-most-x-circular-clockwise-shifts.md ***
+
 ```js
 // Input: S1 = “abcd”, S2 = “dddd”, X = 3
 // Output: Yes

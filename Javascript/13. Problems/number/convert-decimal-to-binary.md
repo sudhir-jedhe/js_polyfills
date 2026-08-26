@@ -1,3 +1,5 @@
+*** copy convert-decimal-to-binary.md ***
+
 ```js
 /* 
 Input : 7

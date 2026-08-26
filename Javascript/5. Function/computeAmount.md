@@ -1,3 +1,5 @@
+*** copy computeAmount.md ***
+
 Certainly! Here's the complete code implementing the `computeAmount` function:
 
 ```javascript

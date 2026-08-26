@@ -1,3 +1,5 @@
+*** copy Server-Side Request Forgery (SSRF).md ***
+
 In Front-End System Design, **Server-Side Request Forgery (SSRF)** is an attack where an attacker tricks a server component in your front-end architecture into making unauthorized network requests to internal systems, cloud metadata services, or third-party APIs.
 
 While traditional SSRF targets backend microservices, modern front-end architectures—specifically **Server-Side Rendering (SSR) frameworks (Next.js, Remix, Nuxt, SvelteKit)**, **BFFs (Backend-for-Frontend)**, and **Edge Middleware**—run server-side code (Node.js/V8) that acts as an intermediate server. If these components handle user-supplied URLs without proper validation, they become prime targets for SSRF.

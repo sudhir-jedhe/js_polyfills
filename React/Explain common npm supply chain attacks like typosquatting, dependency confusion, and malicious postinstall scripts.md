@@ -1,3 +1,5 @@
+*** copy Explain common npm supply chain attacks like typosquatting, dependency confusion, and malicious postinstall scripts.md ***
+
 The open-source JavaScript ecosystem relies on mutual trust. When you run `npm install`, you execute code written by hundreds of strangers on your local machine and production servers.
 
 Attackers exploit this trust model by targetting the **supply chain**—corrupting dependencies before they ever reach your application code. Because security tools like `package-lock.json` verify **integrity (has the file changed?)** rather than **safety (is the code malicious?)**, supply chain attacks pass standard hash verification cleanly.

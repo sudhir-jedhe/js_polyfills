@@ -1,3 +1,5 @@
+*** copy implement-a-function-that-accept-array-and-condition-and-returns-boolean-values.md ***
+
 ```js
 function customEveryFunction(arrayElements, conditionFunction) {
   for (let i = 0; i < arrayElements.length; i++) {

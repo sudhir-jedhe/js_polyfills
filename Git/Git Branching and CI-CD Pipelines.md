@@ -1,3 +1,5 @@
+*** copy Git Branching and CI-CD Pipelines.md ***
+
 This is a fantastic addition to your repository. Interviewers for mid-to-senior roles almost always ask about how you manage code once it leaves your local machine. They want to know you can work in a team without breaking production.
 
 > **Repo Organization Tip:** Save this content inside `10-Modern-Dev-Workflows/scenario-problems/ci-cd-git-strategies.md`.

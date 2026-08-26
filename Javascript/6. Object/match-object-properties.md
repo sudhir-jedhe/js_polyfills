@@ -1,3 +1,5 @@
+*** copy match-object-properties.md ***
+
 ### Comparing JavaScript Objects for Equality
 
 As you rightly pointed out, JavaScript objects are reference types, which means comparing two objects by their properties and values requires some careful consideration. Here's a breakdown of how to approach object comparisons, both **one-sided** and **two-sided**, with or without custom value comparison functions.

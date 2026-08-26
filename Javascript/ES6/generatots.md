@@ -1,3 +1,5 @@
+*** copy generatots.md ***
+
 In JavaScript, **Generator functions** (`function*`) are special functions that can be **paused and resumed** during execution.
 
 Unlike standard functions, which execute from top to bottom and return a single value via `return`, a generator function can **yield** multiple values sequentially over time using the **`yield`** keyword.

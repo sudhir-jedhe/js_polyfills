@@ -1,3 +1,5 @@
+*** copy htmlEmoji.md ***
+
 Emojis in HTML are not actually images — they are text characters, just like the letters `A`, `B`, or `C`. Because they are part of the Unicode character set, your browser renders them using the built-in emoji font of the user's operating system (iOS, Windows, Android, etc.).
 
 There are two ways to add them to your HTML.

@@ -1,3 +1,5 @@
+*** copy toggle-array-element.md ***
+
 ### Toggling an Element in an Array
 
 In JavaScript, you can toggle (add or remove) an element from an array by checking if it already exists in the array. If it does, remove it; if it doesn't, add it. Here, I'll explain both how to do this for arrays of **primitives** (like numbers or strings) and **objects**.

@@ -1,3 +1,5 @@
+*** copy getCreditCardProvider.md ***
+
 ```js
 const providers = {
   amex: 3,

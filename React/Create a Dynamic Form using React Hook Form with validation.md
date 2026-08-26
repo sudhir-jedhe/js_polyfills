@@ -1,3 +1,5 @@
+*** copy Create a Dynamic Form using React Hook Form with validation.md ***
+
 Here is a complete, production-ready implementation of a **Dynamic Form** using **React Hook Form** (v7) and **TypeScript**.
 
 This example uses React Hook Form's built-in `useFieldArray` hook to dynamically add, remove, and validate fields (e.g., adding multiple user skill sets or experience entries).

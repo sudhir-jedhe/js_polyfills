@@ -1,3 +1,5 @@
+*** copy How do I build an accessible theme selector menu (Light, Dark, System) using Radix Dropdown and next-themes?.md ***
+
 An accessible theme selector using **Radix UI (`@radix-ui/react-dropdown-menu`)** and **`next-themes`** manages WAI-ARIA radio group semantics (`role="menuitemradio"`), handles keyboard navigation (roving tabindex, arrow navigation, escape dismissal), and prevents SSR hydration layout shifts.
 
 ---

@@ -1,3 +1,5 @@
+*** copy Objects Iterable.md ***
+
 **Making Objects Iterable with Generators in JavaScript**
 
 Can we iterate over objects using a for-of loop without relying on Object.keys(), Object.entries(), or similar methods?

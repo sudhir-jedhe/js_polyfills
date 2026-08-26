@@ -1,3 +1,5 @@
+*** copy React Server Components.md ***
+
 
 ✌ React Server Components are a game-changer in the world of server-rendered React applications.
 ✌ They empower developers to split rendering tasks between the server and the client, offering granular control over component loading.

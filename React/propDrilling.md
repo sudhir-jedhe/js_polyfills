@@ -1,3 +1,5 @@
+*** copy propDrilling.md ***
+
 Prop Drilling is a React problem where data is passed from a parent component to a deeply nested child component through multiple intermediate components that don't actually use the data.
 
 A recent React masterclass internally described prop drilling as happening because React data flows one way (parent → child) and excessive prop passing becomes difficult to manage. It also highlighted Context API and Redux as common solutions.

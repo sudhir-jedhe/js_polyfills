@@ -1,3 +1,5 @@
+*** copy isEmpty.md ***
+
 Your function `isEmpty` is designed to check if a given value is an empty object, array, map, or set. The implementation is robust and handles all the different types you mentioned.
 
 ### Explanation of `isEmpty` function:

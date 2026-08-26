@@ -1,3 +1,5 @@
+*** copy  Drop Shadow in Tailwind CSS.md ***
+
 In Tailwind CSS, drop shadows are applied using the `drop-shadow-*` filter utilities (which use CSS `filter: drop-shadow(...)`).
 
 Unlike `shadow-*` (which uses `box-shadow` and outlines the rectangular bounding box), `drop-shadow-*` conforms to the exact alpha transparency contours of images, SVGs, clipped shapes, and speech bubbles.

@@ -1,3 +1,5 @@
+*** copy AI Agentic Workflow in React.md ***
+
 Building an **AI Agentic Workflow in React** means moving beyond simple request-response chat interfaces to systems where an AI agent can **plan, call tools, inspect state, recover from errors, and manipulate client-side UI components autonomously**.
 
 ---

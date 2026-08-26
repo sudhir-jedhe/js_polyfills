@@ -1,3 +1,5 @@
+*** copy stringInArray.md ***
+
 ```js
 let str = "learnersbucket";
 let strArray = str.split("");

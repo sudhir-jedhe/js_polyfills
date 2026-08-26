@@ -1,3 +1,5 @@
+*** copy How do you combine ES6 Async Generators with cooperative time-slicing to track real-time progress in the UI?.md ***
+
 How do you combine ES6 Async Generators with cooperative time-slicing to track real-time progress in the UI?
 
 Combining **ES6 Async Generators (`async function*`)** with cooperative time-slicing separates computational work from UI updates. The generator executes work within a frame budget, yields to the main thread when the budget expires, and emits progress metrics (percentage, processed count) so the UI can re-render smoothly.

@@ -1,3 +1,5 @@
+*** copy compact an object by removing falsy values.md ***
+
 ```js
 const compactObject = (val) => {
   // Use ternary operator to filter out falsy values for arrays, otherwise use the provided value

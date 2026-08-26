@@ -1,3 +1,5 @@
+*** copy Higher-order component pattern in React.md ***
+
 # Higher-Order Component (HOC) Pattern in React
 
 ## Frontend System Design + Complete Interview-Ready Explanation

@@ -1,3 +1,5 @@
+*** copy form action.md ***
+
 In React 19, the `<form>` element's `action` prop received a massive upgrade. While standard HTML requires the `action` prop to be a URL string, **React 19 allows you to pass a function (including async functions) directly to the `action` prop.**
 
 These functions are referred to as **Actions**. This shift drastically reduces the boilerplate required to handle form submissions, eliminating the need for manual event handlers, `e.preventDefault()`, and custom state tracking just to submit data.

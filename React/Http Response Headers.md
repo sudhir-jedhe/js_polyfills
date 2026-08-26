@@ -1,3 +1,5 @@
+*** copy Http Response Headers.md ***
+
 ### HTTP Response Headers: Overview, Use Cases, Advantages, and Disadvantages
 
 HTTP response headers are key-value pairs sent by the server in the HTTP response to provide additional information about the response or how the client should process the request. These headers control various aspects of the response, including caching, content type, security, and more.

@@ -1,3 +1,5 @@
+*** copy Show how to monitor and log real user Core Web Vitals (RUM) using the web-vitals library in React.md ***
+
 To capture Real User Monitoring (RUM) data for Core Web Vitals (LCP, INP, CLS, FCP, TTFB), use Google's official `web-vitals` library and report metrics to an analytics endpoint or custom backend using `navigator.sendBeacon`.
 
 ---

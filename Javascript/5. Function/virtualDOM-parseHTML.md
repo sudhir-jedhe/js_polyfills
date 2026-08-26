@@ -1,3 +1,5 @@
+*** copy virtualDOM-parseHTML.md ***
+
 Certainly! Below is the complete code for the `parseHTMLCode` function, which converts an HTML string into a virtual DOM representation. I've also added some example usage and a potential improvement for error handling.
 
 ### Complete Code:

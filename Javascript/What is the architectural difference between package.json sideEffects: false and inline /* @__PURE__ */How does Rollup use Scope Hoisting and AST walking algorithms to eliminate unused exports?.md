@@ -1,3 +1,5 @@
+*** copy How does Rollup use Scope Hoisting and AST walking algorithms to eliminate unused exports?.md ***
+
 Rollup was architected from the ground up around **Scope Hoisting** and fine-grained **AST (Abstract Syntax Tree) static analysis**.
 
 Unlike older bundlers (like Webpack v1–v3) that wrapped every file in an isolated closure/function registry (`__webpack_require__`), Rollup flattens all module scopes into a **single, unified top-level scope** and performs full-program symbol tree-shaking before generating bytecode or minifying.

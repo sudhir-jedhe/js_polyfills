@@ -1,3 +1,5 @@
+*** copy factorsOfNumber.md ***
+
 ### Explanation of Each Code Snippet
 
 #### 1. **Using Array with `.filter` to Find Factors**

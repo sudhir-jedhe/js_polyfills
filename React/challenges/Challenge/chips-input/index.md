@@ -1,3 +1,5 @@
+*** copy index.md ***
+
 const userInput = document.getElementById('userInput');
 const chipTemplate = document.getElementById('chipTemplate');
 const chipsDisplay = document.querySelector('.chips-display');

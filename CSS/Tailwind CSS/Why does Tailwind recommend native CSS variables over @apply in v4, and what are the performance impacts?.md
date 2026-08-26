@@ -1,3 +1,5 @@
+*** copy Why does Tailwind recommend native CSS variables over @apply in v4, and what are the performance impacts?.md ***
+
 Tailwind CSS v4 is designed around a **CSS-first, variable-native architecture**. While `@apply` is still supported via `@reference`, the core team explicitly recommends using **standard CSS variables (`var(--...)`)** or component abstractions over `@apply`.
 
 ---

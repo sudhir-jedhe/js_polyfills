@@ -1,3 +1,5 @@
+*** copy script.md ***
+
 const currencyRates = {
   USD: 1, // USD to USD (1:1)
   EUR: 0.85, // USD to EUR (1 USD = 0.85 EUR)

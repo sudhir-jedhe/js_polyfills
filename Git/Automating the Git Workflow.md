@@ -1,3 +1,5 @@
+*** copy Automating the Git Workflow.md ***
+
 Automating your Git workflow is a major green flag in senior-level interviews. It shows you care about **Developer Experience (DX)** and know how to prevent human error before it reaches production.
 
 > **Repo Organization Tip:** Save this content inside `10-Modern-Dev-Workflows/scenario-problems/automating-git-workflows.md`.

@@ -1,3 +1,5 @@
+*** copy Show code examples of when useCallback actually prevents re-renders vs when it adds pure overhead..md ***
+
 **Scenario 1: Pure Overhead (Provides Zero Performance Benefit)**
 
 In this example, wrapping `handleClick` in `useCallback` does not prevent any re-renders because standard HTML elements like `<button>` do not perform prop comparison, and `RegularChild` is not memoized.

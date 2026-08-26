@@ -1,3 +1,5 @@
+*** copy collection.md ***
+
 ### 4. **Insertion and Removal of Elements in Arrays Using `splice()`**
 
 The `splice()` method in JavaScript allows you to remove, replace, and insert elements in an array at a given index. The syntax is:

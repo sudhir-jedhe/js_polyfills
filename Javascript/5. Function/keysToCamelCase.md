@@ -1,3 +1,5 @@
+*** copy keysToCamelCase.md ***
+
 Sure! Here is the **complete set of solutions** to convert all object keys to camelCase, including multiple approaches that handle various scenarios such as nested objects, arrays, and primitive values.
 
 ### **1. Solution 1: Simple and Direct Approach**

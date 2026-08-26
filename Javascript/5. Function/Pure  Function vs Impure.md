@@ -1,3 +1,5 @@
+*** copy Pure  Function vs Impure.md ***
+
 A pure function is a function that always produces the same output for the same input and does not have any side effects.
 
 ---

@@ -1,3 +1,5 @@
+*** copy E2E Playwright.md ***
+
 Here is how to set up and write a production-grade **End-to-End (E2E)** test for the `LoginForm` component using **Playwright**.
 
 Unlike unit or component tests running in a simulated DOM (`jsdom`), Playwright executes tests against **real browser engines** (Chromium, WebKit/Safari, Firefox), validating full user interactions, network requests, and visual accessibility.

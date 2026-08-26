@@ -1,3 +1,5 @@
+*** copy Iterative2.md ***
+
 ### **Solution 2: Iterative Solution with `Array.prototype.some`**
 
 This approach provides a more concise and efficient solution by utilizing `Array.prototype.some` to check if any element of the array is an array. The `some` method checks whether at least one element in the array satisfies a condition (in this case, whether it is an array), and the process continues until there are no more nested arrays.

@@ -1,3 +1,5 @@
+*** copy Agentic DevOps.md ***
+
 Yes, you can fully automate this workflow. This is commonly referred to as an **autonomous AI development workflow** or **Agentic DevOps**.
 
 ---

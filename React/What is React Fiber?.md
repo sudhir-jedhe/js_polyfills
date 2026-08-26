@@ -1,3 +1,5 @@
+*** copy What is React Fiber?.md ***
+
 **React Fiber** is the internal reconciliation engine and core architectural rewrite introduced in React 16. It completely replaced React's old synchronous, stack-based algorithm to make rendering incremental, interruptible, and prioritized.
 
 To understand why it was built and how it works under the hood, let's look at the core mechanics of the Fiber architecture.

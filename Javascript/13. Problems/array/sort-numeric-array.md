@@ -1,3 +1,5 @@
+*** copy sort-numeric-array.md ***
+
 ```js
 // Declare and initialize an Array
 let marks = [12, 25, 31, 23, 75, 81, 100];

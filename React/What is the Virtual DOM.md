@@ -1,3 +1,5 @@
+*** copy What is the Virtual DOM.md ***
+
 ### What is the Virtual DOM?
 
 The **Virtual DOM (VDOM)** is an abstraction of the real DOM (Document Object Model) that exists in memory. It is a lightweight copy of the actual DOM and is primarily used in libraries like React to optimize performance when updating the user interface.

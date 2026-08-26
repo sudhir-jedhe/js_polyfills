@@ -1,3 +1,5 @@
+*** copy BOM.md ***
+
 ### **What is BOM (Browser Object Model)?**
 
 The **Browser Object Model (BOM)** is a collection of objects provided by the browser that allow JavaScript to interact with the browser environment. It enables JavaScript to communicate with various aspects of the browser outside of the webpage content (the DOM — Document Object Model). BOM is not standardized, meaning its functionality can vary across different browsers, but it generally includes a set of objects that offer useful methods for interacting with the browser window, history, screen, and other properties.

@@ -1,3 +1,5 @@
+*** copy -linked-list-given-only-a-pointer-to-a-node-to-be-deleted-in-a-singly-linked-list-how-do-you-delete-i..md ***
+
 // javascript program to del the node in
 // which only a single pointer is
 // known pointing to that node

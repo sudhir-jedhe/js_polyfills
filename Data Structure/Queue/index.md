@@ -1,3 +1,5 @@
+*** copy index.md ***
+
 // Implement a queue data structure in JavaScript that contains the following operations:
 
 // new Queue(): Creates an instance of a Queue class that doesn't contain any items. The constructor does not accept any arguments.

@@ -1,3 +1,5 @@
+*** copy index.md ***
+
 const display = document.getElementById('display');
 const controls = document.getElementById('controls');
 

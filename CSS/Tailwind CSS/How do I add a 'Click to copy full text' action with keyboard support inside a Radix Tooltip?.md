@@ -1,3 +1,5 @@
+*** copy How do I add a 'Click to copy full text' action with keyboard support inside a Radix Tooltip?.md ***
+
 To allow users to click or press a keyboard shortcut to copy full truncated text from inside a Radix Tooltip, the standard `Tooltip` (which closes when hover/focus moves away) must be configured to support **interactive content** (`interactive={true}` behavior via Radix `Tooltip.Content` or focusable child triggers).
 
 ---

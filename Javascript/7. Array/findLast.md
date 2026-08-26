@@ -1,3 +1,5 @@
+*** copy findLast.md ***
+
 The `customFindLast` method you've implemented is a great custom solution for finding the last element in an array that satisfies a given condition. It works similarly to `find`, but it starts from the end of the array and searches backward.
 
 ### Explanation of `customFindLast`:

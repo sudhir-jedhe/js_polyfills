@@ -1,3 +1,5 @@
+*** copy generalQuestion.md ***
+
 What did you learn yesterday/this week?
 What excites or interests you about coding?
 What is a recent technical challenge you experienced and how did you solve it?

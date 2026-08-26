@@ -1,3 +1,5 @@
+*** copy trafic_light.md ***
+
 To implement a traffic light system that switches between red, yellow, and green with the specified intervals, we can use a combination of HTML, CSS, and JavaScript.
 
 ### HTML

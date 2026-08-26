@@ -1,3 +1,5 @@
+*** copy stringReverse.md ***
+
 ```js
 let reverseString = (str) => {
     //Create a new stack

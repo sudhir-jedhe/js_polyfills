@@ -1,3 +1,5 @@
+*** copy not() CSS Selector.md ***
+
 ### `:not()` CSS Selector
 
 The `:not()` selector is a **negation pseudo-class** in CSS that allows you to select elements that **do not** match a given selector. It provides a way to exclude elements from a rule, making your CSS selectors more specific and flexible.

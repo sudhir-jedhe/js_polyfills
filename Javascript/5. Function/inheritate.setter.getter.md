@@ -1,3 +1,5 @@
+*** copy inheritate.setter.getter.md ***
+
 Let's break down the behavior of the JavaScript code you've provided, step by step, to understand how inheritance works with getters and setters in classes.
 
 ### Code Breakdown

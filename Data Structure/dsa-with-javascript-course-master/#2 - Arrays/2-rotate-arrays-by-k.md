@@ -1,3 +1,5 @@
+*** copy 2-rotate-arrays-by-k.md ***
+
 // Ques 2 - Rotate Array by K
 // Given an integer array nums, rotate the array to the right by k steps,
 // where k is non - negative.

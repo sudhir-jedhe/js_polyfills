@@ -1,3 +1,5 @@
+*** copy createRoot.md ***
+
 **`createRoot`** is the entry point for all modern React applications (React 18 and above). It tells React to take control of a specific HTML element and creates a root data structure to manage rendering your components inside it.
 
 Here is a detailed breakdown of its API, practical usage scenarios, and solutions to common troubleshooting errors.

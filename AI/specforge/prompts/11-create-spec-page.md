@@ -1,3 +1,5 @@
+*** copy 11-create-spec-page.md ***
+
 Use @specs/11-create-spec-page.md as the source of truth.
 
 Implement only Section 11.

@@ -1,3 +1,5 @@
+*** copy How do I implement Push Notifications using the Web Push API and a Service Worker in React?.md ***
+
 Implementing Web Push Notifications involves three stages:
 
 1. **Service Worker (`sw.js`):** Listens for incoming `push` events from the push service and displays notifications via `showNotification()`. Handles user clicks via `notificationclick`.

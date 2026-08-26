@@ -1,3 +1,5 @@
+*** copy hasOwnProperty.md ***
+
 You're correct in using the `for...in` loop to iterate over an object's properties in JavaScript. The `for...in` loop iterates over all enumerable properties of an object, including those inherited through the prototype chain, which is why you should use the `hasOwnProperty` method to ensure you're only dealing with the object's own properties and not inherited ones.
 
 Here's a detailed explanation of your example:

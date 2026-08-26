@@ -1,3 +1,5 @@
+*** copy compactObject.md ***
+
 Here is the complete guide and solution for LeetCode #2705: **Compact Object** (recursively removing all falsy values from an object or array).
 
 ---

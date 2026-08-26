@@ -1,3 +1,5 @@
+*** copy throttle-Promises.md ***
+
 ### Throttling Promises
 
 The idea behind throttling API calls is to limit the number of concurrent requests that can be sent to the server at a time, which helps in reducing the load on servers, especially for systems with low specifications.

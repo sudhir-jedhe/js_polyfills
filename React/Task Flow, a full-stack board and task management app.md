@@ -1,3 +1,5 @@
+*** copy Task Flow, a full-stack board and task management app.md ***
+
 Task Flow, a full-stack board and task management app.
 It's a Trello-style board manager with:
 • JWT authentication with route guards on both client and server

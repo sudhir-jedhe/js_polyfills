@@ -1,3 +1,5 @@
+*** copy arrowFunc.md ***
+
 // This is a JavaScript Quiz from BFE.dev
 
 const obj = {

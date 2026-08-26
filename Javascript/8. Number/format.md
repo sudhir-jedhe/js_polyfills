@@ -1,3 +1,5 @@
+*** copy format.md ***
+
 Here's an analysis of each section:
 
 ---

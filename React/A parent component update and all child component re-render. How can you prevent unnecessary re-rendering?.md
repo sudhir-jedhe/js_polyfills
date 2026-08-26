@@ -1,3 +1,5 @@
+*** copy A parent component update and all child component re-render. How can you prevent unnecessary re-rendering?.md ***
+
 When a parent component updates in React, all of its child components automatically re-render by default. To prevent child components from re-rendering unnecessarily—especially when their props haven't changed—you can apply a combination of **memoization**, **proper prop stabilization**, and **architectural refactoring**.
 
 Here is a step-by-step breakdown of how to prevent unnecessary re-renders.

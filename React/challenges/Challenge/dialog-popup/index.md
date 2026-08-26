@@ -1,3 +1,5 @@
+*** copy index.md ***
+
 const showButton = document.getElementById('showDialog');
 const dialogPopup = document.getElementById('dialogPopup');
 const closeButton = document.getElementById('closeDialog')

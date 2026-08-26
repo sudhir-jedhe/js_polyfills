@@ -1,3 +1,5 @@
+*** copy setTimeOut.md ***
+
 Let's break down each of the code snippets and explain how they work:
 
 ### 1. **First Snippet: Changing the Function Inside `setTimeout`**

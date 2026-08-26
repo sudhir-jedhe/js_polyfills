@@ -1,3 +1,5 @@
+*** copy Claude Code Project Structure.md ***
+
 This infographic by Brij Kishore Pandey outlines a complete, production-grade project structure and implementation guide for **Claude Code**.
 
 Here is a detailed breakdown of the **Claude Code Project Structure** and its core components:

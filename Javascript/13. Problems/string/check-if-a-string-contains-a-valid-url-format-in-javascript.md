@@ -1,3 +1,5 @@
+*** copy check-if-a-string-contains-a-valid-url-format-in-javascript.md ***
+
 ```js
 function isValidURL(url) {
   const urlPattern = /^(https?|ftp):\/\/[^\s/$.?#].[^\s]*$/i;

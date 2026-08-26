@@ -1,3 +1,5 @@
+*** copy Binary Search Tree.md ***
+
 /**
  * Problem: Construct a Binary Search Tree and implement `insert`, `search`, `traverse` and `delete`
  */

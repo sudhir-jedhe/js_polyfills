@@ -1,3 +1,5 @@
+*** copy asyncFetch.md ***
+
 An **Async Fetcher with Error Handling** is a common JavaScript/React interview question. The interviewer usually expects:
 
 ✅ Async/Await  

@@ -1,3 +1,5 @@
+*** copy sum-of-all-elements-of-a-given-array.md ***
+
 ```js
 // Creating array
 let arr = [4, 8, 7, 13, 12];

@@ -1,3 +1,5 @@
+*** copy How do I manage z-index stacking and focus traps across multiple nested modals in React?.md ***
+
 Managing nested modals requires solving three distinct challenges:
 
 1. **Dynamic $Z$-Index Hierarchy:** Ensuring each child modal automatically renders above its parent backdrop and content.

@@ -1,3 +1,5 @@
+*** copy What is `setTimeout()` in JavaScript?.md ***
+
 ### 2. What is `setTimeout()` in JavaScript?
 
 `setTimeout()` is a function that executes a specified function or code block after a delay in milliseconds.

@@ -1,3 +1,5 @@
+*** copy index.md ***
+
 import { getDaysFragment, getMonthsFragment, getWeekDaysFragment, getYearsFragment } from './helper.js';
 
 const prevBtn = document.querySelector('.prev');

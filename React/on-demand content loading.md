@@ -1,3 +1,5 @@
+*** copy on-demand content loading.md ***
+
 Using the **Intersection Observer API** in React is one of the most efficient ways to implement **on-demand content loading** (also known as lazy loading, infinite scroll, or deferred rendering).
 
 Unlike traditional scroll event listeners, `IntersectionObserver` offloads visibility checks to the browser's GPU/browser thread, avoiding layout thrashing and main-thread lag.

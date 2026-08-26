@@ -1,3 +1,5 @@
+*** copy lastIndexOf.md ***
+
 ### Custom `lastIndexOf` Method Implementation
 
 The `lastIndexOf` method in JavaScript is used to find the last index of a specific value in an array. If the value is found, it returns the last index of that element, otherwise, it returns `-1`. The custom `lastIndexOf` method is built similarly to the native JavaScript version but offers flexibility, such as allowing a custom starting index.

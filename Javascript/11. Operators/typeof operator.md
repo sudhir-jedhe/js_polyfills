@@ -1,3 +1,5 @@
+*** copy typeof operator.md ***
+
 Here is a comprehensive breakdown of the JavaScript `typeof` operator, primitive vs. complex data types, type checking techniques, special values (`undefined`, `null`, empty values), and related operators (`instanceof`, `constructor`, `void`).
 
 ---

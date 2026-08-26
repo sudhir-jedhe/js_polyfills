@@ -1,3 +1,5 @@
+*** copy intreview.md ***
+
 1) Explain memory allocation in JavaScript
  Sub Que: How to clear closure memory
 2) List down ES6 features used in your project

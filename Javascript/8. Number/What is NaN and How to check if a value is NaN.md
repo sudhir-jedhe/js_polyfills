@@ -1,3 +1,5 @@
+*** copy What is NaN and How to check if a value is NaN.md ***
+
 You’ve highlighted an interesting issue with the JavaScript `isNaN` method and provided a solution for accurately checking if a value is `NaN`. Let's break down the details and explore the concepts.
 
 ### JavaScript's `isNaN` method

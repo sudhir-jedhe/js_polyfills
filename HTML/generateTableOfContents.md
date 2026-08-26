@@ -1,3 +1,5 @@
+*** copy generateTableOfContents.md ***
+
 The function `generateTableOfContents()` dynamically creates a table of contents (TOC) for a webpage based on the headings (`h1`, `h2`, and `h3`) present in the document. Here's how it works:
 
 ### Step-by-step Breakdown:

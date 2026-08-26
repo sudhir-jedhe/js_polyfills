@@ -1,3 +1,5 @@
+*** copy Architect Blogs.md ***
+
 If you want to become a better frontend engineer, start reading these blogs: ↓
 
 1. How did PayPal Checkout scale its frontend app?

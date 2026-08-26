@@ -1,3 +1,5 @@
+*** copy How do React 19 Form Actions, useActionState, and useFormStatus work together?.md ***
+
 React 19 introduces **Actions** as a first-class paradigm for handling asynchronous data mutations, submissions, and state transitions.
 
 By pairing native HTML `<form action={...}>` with **`useActionState`** (to manage server/client responses and pending states) and **`useFormStatus`** (to read parent form state from deep child components), React coordinates pending states, error handling, and form resets automatically.

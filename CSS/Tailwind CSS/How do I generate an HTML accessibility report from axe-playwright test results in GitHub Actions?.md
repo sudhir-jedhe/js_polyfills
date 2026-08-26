@@ -1,3 +1,5 @@
+*** copy How do I generate an HTML accessibility report from axe-playwright test results in GitHub Actions?.md ***
+
 To generate a standalone, visual HTML accessibility report from `@axe-core/playwright` audits in CI, use the **`axe-html-reporter`** package. It compiles axe violation nodes, screenshots, and WCAG tags into a browsable report artifact.
 
 ---

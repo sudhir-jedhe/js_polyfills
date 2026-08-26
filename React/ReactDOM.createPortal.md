@@ -1,3 +1,5 @@
+*** copy ReactDOM.createPortal.md ***
+
 **`ReactDOM.createPortal`** is a built-in React DOM method that allows you to render a component's JSX into a **different DOM node** outside the parent component's DOM hierarchy, while still preserving its position in the React component tree.
 
 It is primarily used to break out of CSS containers that have `overflow: hidden`, `z-index`, or `transform` styles that constrain child elements.

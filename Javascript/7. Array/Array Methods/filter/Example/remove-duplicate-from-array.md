@@ -1,3 +1,5 @@
+*** copy remove-duplicate-from-array.md ***
+
 ```js
 let arr = ["apple", "mango", "apple", "orange", "mango", "mango"];
 

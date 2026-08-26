@@ -1,3 +1,5 @@
+*** copy useClickOutside.md ***
+
 ```js
 import React, { useEffect, useRef } from "react";
 import React, { RefObject, useEffect, useRef } from "react";

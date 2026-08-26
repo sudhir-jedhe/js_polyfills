@@ -1,3 +1,5 @@
+*** copy pick.md ***
+
 Both of the `pick` functions you've written essentially implement a mechanism to create a new object with only the keys that exist in the provided `keys` array, but there are subtle differences in their approaches. Let's break them down:
 
 ### **1. First `pick` Function (Imperative approach)**

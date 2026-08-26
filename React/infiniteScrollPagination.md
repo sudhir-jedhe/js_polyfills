@@ -1,3 +1,5 @@
+*** copy infiniteScrollPagination.md ***
+
 # Infinite Scroll Pagination (React + TypeScript)
 
 This is one of the most common **Senior React / Frontend System Design** interview questions.

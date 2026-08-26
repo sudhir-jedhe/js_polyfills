@@ -1,3 +1,5 @@
+*** copy array-ranking.md ***
+
 ### Calculate the Ranking of a JavaScript Array
 
 The ranking of an array is determined based on how each element compares to the others according to a provided comparator function (`compFn`). This ranking could be useful in scenarios like sorting algorithms, ranking items, or determining positions in a leaderboard.

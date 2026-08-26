@@ -1,3 +1,5 @@
+*** copy balnkValue.md ***
+
 Your code defines a utility function `isBlank` that checks if a value is "blank." It considers various types of falsy or empty values as blank, including:
 
 - **Falsy values** like `null`, `undefined`, `0`, `false`, empty string (`''`), and `NaN`.

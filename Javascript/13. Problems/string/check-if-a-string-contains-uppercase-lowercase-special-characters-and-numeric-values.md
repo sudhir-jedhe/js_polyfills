@@ -1,3 +1,5 @@
+*** copy check-if-a-string-contains-uppercase-lowercase-special-characters-and-numeric-values.md ***
+
 ```js
 // Input : str = "GeeksforGeeks@123"
 // Output : trueput: Yes

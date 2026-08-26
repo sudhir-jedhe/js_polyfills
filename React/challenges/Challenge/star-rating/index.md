@@ -1,3 +1,5 @@
+*** copy index.md ***
+
 import { createElement, createElements } from './helper.js';
 
 const starCount = 5; // Use multiples of 5

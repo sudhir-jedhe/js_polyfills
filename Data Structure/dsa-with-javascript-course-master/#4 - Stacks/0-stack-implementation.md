@@ -1,3 +1,5 @@
+*** copy 0-stack-implementation.md ***
+
 // Basic Stack Implementation
 
 class Stack {

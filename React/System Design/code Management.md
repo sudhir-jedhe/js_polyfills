@@ -1,3 +1,5 @@
+*** copy code Management.md ***
+
 # Code Management — Complete Senior Frontend / Full-Stack Interview Deep Dive
 
 Code management is one of the most important **Senior React / Frontend / Full-Stack interview topics**.

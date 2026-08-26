@@ -1,3 +1,5 @@
+*** copy jsquiz.md ***
+
 https://jsquiz.vercel.app/
 
 ![](coverPage.png)

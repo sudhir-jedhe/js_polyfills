@@ -1,3 +1,5 @@
+*** copy VirtualDomcreateElement.md ***
+
 Sure! Here's the complete code to create a simple virtual DOM system, similar to how React's `createElement` and `render` functions work. This includes the definitions of `createElement` and `render`, as well as an example usage that will generate a virtual DOM and render it into an actual DOM element.
 
 ### Complete Code:

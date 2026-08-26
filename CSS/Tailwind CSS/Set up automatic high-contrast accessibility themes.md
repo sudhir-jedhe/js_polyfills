@@ -1,3 +1,5 @@
+*** copy Set up automatic high-contrast accessibility themes.md ***
+
 An automatic high-contrast theme adapts your design system to meet **WCAG AAA standards** (minimum contrast ratio of **7:1** for normal text and **4.5:1** for UI components/large text) by responding to system preferences via the `@media (prefers-contrast: more)` query, Windows High Contrast Mode (`forced-colors: active`), and manual user overrides.
 
 ---

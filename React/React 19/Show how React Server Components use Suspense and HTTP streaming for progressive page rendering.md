@@ -1,3 +1,5 @@
+*** copy Show how React Server Components use Suspense and HTTP streaming for progressive page rendering.md ***
+
 React Server Components (RSC) integrate natively with **`<Suspense>`** and **HTTP streaming** (specifically using the HTML `Transfer-Encoding: chunked` header) to achieve **progressive page rendering**.
 
 Instead of waiting for every API request or database query on the server to finish before sending HTML to the browser, the server streams shell markup immediately and streams slow UI components down the wire as soon as their data resolves.

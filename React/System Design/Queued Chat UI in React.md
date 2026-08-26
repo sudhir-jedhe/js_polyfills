@@ -1,3 +1,5 @@
+*** copy Queued Chat UI in React.md ***
+
 # Queued Chat UI in React
 
 ### Similar to ChatGPT / Claude / Copilot

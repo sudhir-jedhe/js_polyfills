@@ -1,3 +1,5 @@
+*** copy incrementFunction.md ***
+
 The problem you're trying to solve is to create a function, `makeIncrementer`, which accepts an integer `n` and returns another function that, when called repeatedly, returns an incrementing value starting from `n`. The function should return the next integer each time it is called, based on the starting value `n`.
 
 You've provided two different implementations for the `makeIncrementer` function. Let's go through both of them:

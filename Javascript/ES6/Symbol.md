@@ -1,3 +1,5 @@
+*** copy Symbol.md ***
+
 Explain how Object.getOwnPropertyNames, Object.getOwnPropertySymbols, and Reflect.ownKeys work in JavaScript.
 
 When inspecting properties on a JavaScript object, standard utilities like `Object.keys()` or `for...in` loops only return **enumerable string keys**. They miss non-enumerable properties (like internal flags or hidden methods) and **Symbol keys** (used for unique property identifiers and metadata).

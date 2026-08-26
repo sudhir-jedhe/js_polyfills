@@ -1,3 +1,5 @@
+*** copy truncate-a-string-to-a-certain-length-and-add-ellipsis.md ***
+
 ```js
 // To truncate a string to a specific length and add an ellipsis (…)
 // shortening the string to a predefined character count, indicating that the content continues beyond the truncated portion.

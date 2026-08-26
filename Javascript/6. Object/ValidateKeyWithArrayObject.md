@@ -1,3 +1,5 @@
+*** copy ValidateKeyWithArrayObject.md ***
+
 The code you've provided efficiently validates the keys of JavaScript objects in various ways. I'll walk through each function and explain how it works in detail, as well as how you can use it in different situations.
 
 ### **1. Validate if all keys in the object are present in the specified array**

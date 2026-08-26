@@ -1,3 +1,5 @@
+*** copy HTMLToJSON.md ***
+
 To transform an HTML element into a nested JSON structure, where the HTML attributes and children are recursively mapped into the JSON format, we can use the following approach. The function `HTMLtoJSON` will take an HTML node, extract its attributes, process its children, and then build a JSON object representing the structure of the HTML element.
 
 Let's break down the process:

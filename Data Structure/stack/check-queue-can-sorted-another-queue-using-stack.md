@@ -1,3 +1,5 @@
+*** copy check-queue-can-sorted-another-queue-using-stack.md ***
+
 // Input : Queue[] = { 5, 1, 2, 3, 4 }
 // Output : Yes
 // Pop the first element of the given Queue i.e 5.

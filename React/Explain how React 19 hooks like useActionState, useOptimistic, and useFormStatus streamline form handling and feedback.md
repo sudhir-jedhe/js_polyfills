@@ -1,3 +1,5 @@
+*** copy Explain how React 19 hooks like useActionState, useOptimistic, and useFormStatus streamline form handling and feedback.md ***
+
 React 19 revolutionizes form handling and data mutations by making **Server Actions**, **Pending States**, and **Optimistic UI Updates** first-class primitives in the core library.
 
 Prior to React 19, managing form submissions required extensive boilerplate: manually tracking loading booleans (`isLoading`), managing error states, handling optimistic UI changes via complex state synchronization, and manually passing loading props down component trees.

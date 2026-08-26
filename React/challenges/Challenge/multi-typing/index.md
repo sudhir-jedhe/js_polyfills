@@ -1,3 +1,5 @@
+*** copy index.md ***
+
 const text = document.querySelector('.second-text');
 const values = ['Student', 'Developer', 'Writer'];
 

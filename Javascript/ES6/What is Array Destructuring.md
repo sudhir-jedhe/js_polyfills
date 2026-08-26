@@ -1,3 +1,5 @@
+*** copy What is Array Destructuring.md ***
+
 ## What is Array Destructuring?
 
 **Array destructuring** is a JavaScript expression introduced in ES6 that allows you to unpack values from arrays (or iterable objects) into distinct variables using a syntax that mirrors array creation.

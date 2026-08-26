@@ -1,3 +1,5 @@
+*** copy capitalizeFirstLetter.md ***
+
 The provided `replace(/_/g, " ").split(" ").map(...).join(" ")` approach is clean, readable, and works well for basic `snake_case` inputs.
 
 However, there are a few edge cases and optimization opportunities to consider depending on the input data:

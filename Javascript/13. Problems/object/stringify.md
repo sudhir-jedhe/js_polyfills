@@ -1,3 +1,5 @@
+*** copy stringify.md ***
+
 ```js
 export const stringify = (value) => {
   if (value === null) {

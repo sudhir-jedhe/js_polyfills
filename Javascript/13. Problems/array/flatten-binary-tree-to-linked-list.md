@@ -1,3 +1,5 @@
+*** copy flatten-binary-tree-to-linked-list.md ***
+
 ```js
 Given a binary tree we have to arrange all the elements of it to the right node of the parent node such that the new tree looks like a linked list and do this in place.
 

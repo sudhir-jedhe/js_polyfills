@@ -1,3 +1,5 @@
+*** copy 06-section-5-production-ready-docker-images-practical-implementation.md ***
+
 # Section 5 — Production-Ready Docker Images — Practical Implementation
 
 ## Introduction

@@ -1,3 +1,5 @@
+*** copy 10-specs-list-page-polling.md ***
+
 Use @specs/10-specs-list-page-polling.md as the source of truth.
 
 Implement only Section 10.

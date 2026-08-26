@@ -1,3 +1,5 @@
+*** copy Show how to configure ESLint dependency-cruiser or import-boundaries rules to strictly prevent invalid cross-feature imports.md ***
+
 In a feature-based architecture, enforcing structural boundaries via code reviews alone fails as team size scales. Developers inevitably reach deep into internal feature implementations (`@/features/billing/components/internal/Modal.tsx`) or create circular dependencies.
 
 To strictly enforce boundaries programmatically, you can use **ESLint** with `eslint-plugin-import-access` or `eslint-plugin-boundaries` (the modern standard), or use **`dependency-cruiser`** for deep AST graph validation.

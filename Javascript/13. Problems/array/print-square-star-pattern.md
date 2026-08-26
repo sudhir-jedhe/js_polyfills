@@ -1,3 +1,5 @@
+*** copy print-square-star-pattern.md ***
+
 ```js
 // Function for printing
 // star square pattern

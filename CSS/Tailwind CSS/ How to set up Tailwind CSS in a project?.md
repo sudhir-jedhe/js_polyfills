@@ -1,3 +1,5 @@
+*** copy  How to set up Tailwind CSS in a project?.md ***
+
 Setting up Tailwind CSS depends on your build tool or framework. Here are the step-by-step guides for the most common project environments.
 
 ---

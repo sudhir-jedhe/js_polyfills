@@ -1,3 +1,5 @@
+*** copy dateRangeGenerator.md ***
+
 The provided code demonstrates a generator function that creates a range of dates between a given `start` and `end` date, with an optional `step` to specify the number of days to increment for each step.
 
 ### **Explanation of the Code**

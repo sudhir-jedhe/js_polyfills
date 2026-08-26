@@ -1,3 +1,5 @@
+*** copy boxing.md ***
+
 In JavaScript, **primitive values** like strings, numbers, and booleans do not have methods or properties of their own. However, JavaScript provides a concept called **boxing** to allow primitive values to behave like objects temporarily when accessing their properties or methods.
 
 When you access a property like `length` on a string, JavaScript internally **wraps** the primitive string into a **String object** (this process is known as **boxing**), allowing you to access properties or methods like you would on an object. After the operation is done, the temporary `String` object is discarded (it is **garbage collected**), and the value is treated as a primitive again.

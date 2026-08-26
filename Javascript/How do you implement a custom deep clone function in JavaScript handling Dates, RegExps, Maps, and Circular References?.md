@@ -1,3 +1,5 @@
+*** copy How do you implement a custom deep clone function in JavaScript handling Dates, RegExps, Maps, and Circular References?.md ***
+
 A production-grade custom deep clone must handle primitives, complex object types (`Date`, `RegExp`, `Map`, `Set`), symbol keys, and **circular references** (using a `WeakMap` cache).
 
 ---

@@ -1,3 +1,5 @@
+*** copy infiniteNewsFeed.md ***
+
 class FeedApp {
     constructor() {
         this.feedWrapper = document.querySelector('.feed .wrapper');

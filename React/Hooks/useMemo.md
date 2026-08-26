@@ -1,3 +1,5 @@
+*** copy useMemo.md ***
+
 **`useMemo`** is a built-in React Hook that **caches (memoizes) the calculated result of a function** between component re-renders.
 
 While `useCallback` caches a *function instance*, `useMemo` caches the *return value* of a function calculation.

@@ -1,3 +1,5 @@
+*** copy How do I build accessible animated tabs with a sliding background indicator using Radix UI and Tailwind CSS?.md ***
+
 Building accessible tabs with a sliding background pill indicator requires two key pieces:
 
 1. **Radix UI (`@radix-ui/react-tabs`)** for accessibility, keyboard navigation (`ArrowLeft` / `ArrowRight`), and `aria-*` state synchronization.

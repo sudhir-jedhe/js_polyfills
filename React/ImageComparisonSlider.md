@@ -1,3 +1,6 @@
+*** copy ImageComparisonSlider.md ***
+
+```js
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import styles from "./index.module.css";
@@ -209,3 +212,4 @@ ReactDOM.render(
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
+```

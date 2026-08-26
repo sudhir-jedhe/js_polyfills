@@ -1,3 +1,5 @@
+*** copy viewport.md ***
+
 The **viewport** is simply the visible area of a web page that a user can currently see on their screen.
 
 If a webpage is 5,000 pixels tall, but your phone screen is only 800 pixels tall, your viewport is just that 800-pixel window. If you are on a desktop and you shrink your browser window, the viewport shrinks with it.

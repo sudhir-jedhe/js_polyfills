@@ -1,3 +1,5 @@
+*** copy JavaScript module system.md ***
+
 The **JavaScript module system** allows developers to break up their code into reusable, manageable units (modules). Each module is a separate file that can export certain functions, objects, or values, and other modules can import these exports for use. The module system is essential for maintaining clean, organized codebases, especially in large applications.
 
 There are two primary types of module systems in JavaScript:

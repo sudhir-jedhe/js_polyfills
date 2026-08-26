@@ -1,3 +1,5 @@
+*** copy How would you handle API caching, retries, and background synchronization in a frontend application?.md ***
+
 Handling **API caching, automatic retries, and background synchronization** in a modern frontend application requires a clear division between **Server State** (data owned by the backend) and **Client State** (local UI interactions).
 
 Rather than writing custom, prone-to-race-condition `useEffect` fetching code, enterprise frontend architectures rely on dedicated server-state management engines like **TanStack Query (React Query)**, **Apollo Client (GraphQL)**, or **RTK Query**, combined with browser capabilities like **Service Workers** and the **Background Sync API**.

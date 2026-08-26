@@ -1,3 +1,5 @@
+*** copy Monorepo.md ***
+
 A **Monorepo (Monolithic Repository)** is a single Git repository that contains multiple applications, libraries, services, and shared code. Instead of having separate repositories for frontend, backend, UI components, and utilities, everything lives in one repository. [[18 MM Mono...os 06 Sept | Word]](https://persistentsystems.sharepoint.com/sites/EIS-SE-UserExperience/_layouts/15/Doc.aspx?sourcedoc=%7B95878B35-C329-4061-9527-979A63B7E45E%7D&file=18%20MM%20MonoRepos%2006%20Sept.docx&action=default&mobileredirect=true&DefaultItemOpen=1), [[datacamp.com]](https://www.datacamp.com/tutorial/monorepo)
 
 ### Why do we need a Monorepo?

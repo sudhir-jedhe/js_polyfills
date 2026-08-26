@@ -1,3 +1,5 @@
+*** copy what are promises.md ***
+
 ### What is a Promise in JavaScript?
 
 A **Promise** in JavaScript is an object representing the eventual completion or failure of an asynchronous operation. It acts as a placeholder for a value that will be resolved in the future. Promises allow you to handle asynchronous operations more easily, and they help avoid issues like **callback hell** by providing a more manageable and readable structure.

@@ -1,3 +1,5 @@
+*** copy infiniteScrolling API flood.md ***
+
 When API calls trigger continuously during scrolling (e.g., infinite scrolling, scroll-based analytics, or floating header updates), it creates an **API flood** that blocks the browser main thread, exhausts network bandwidth, and wastes server resources.
 
 Here is a step-by-step strategy to optimize scroll-triggered API calls from basic throttling to advanced production-grade patterns.

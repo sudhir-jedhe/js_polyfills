@@ -1,3 +1,5 @@
+*** copy Cookies.md ***
+
 In Front-End System Design, **Cookie Storage** is a browser mechanism designed to store small key-value string pairs (up to 4 KB per cookie) that are **automatically sent by the browser with every outgoing HTTP request** matching the cookie's domain and path.
 
 Because cookies automatically attach to HTTP requests, they are the primary mechanism for **session management, state identification (e.g., shopping carts or language preferences), and secure authentication.**

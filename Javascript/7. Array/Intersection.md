@@ -1,3 +1,5 @@
+*** copy Intersection.md ***
+
 To solve the problem of finding the **intersection of two arrays** in JavaScript, we have several approaches. Let's review and explain each approach:
 
 ### Approach 1: Nested Loops

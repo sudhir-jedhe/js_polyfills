@@ -1,3 +1,5 @@
+*** copy When do you use Promise.any, Promise.all, Promise.race, and Promise.allSettled?.md ***
+
 The question was simple: “When do you use Promise.any, Promise.all, Promise.race, and Promise.allSettled?”
 But the answer wasn’t about syntax. It was about real-world decisions.
 

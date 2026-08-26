@@ -1,3 +1,5 @@
+*** copy interview.md ***
+
 Q1: "What is the difference between REST and GraphQL?"
 REST gives you fixed endpoints. You call /users and you get whatever the server decides to send back. GraphQL lets you ask for exactly what you need. Nothing more, nothing less.
 REST = server decides the data. GraphQL = client decides the data.

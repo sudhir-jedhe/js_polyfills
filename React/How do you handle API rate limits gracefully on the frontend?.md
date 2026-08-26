@@ -1,3 +1,5 @@
+*** copy How do you handle API rate limits gracefully on the frontend?.md ***
+
 Handling API rate limits gracefully on the frontend requires a combination of **proactive prevention**, **reactive handling**, and **clear user communication**.
 
 Here is the architectural blueprint to handle rate limits effectively:

@@ -1,3 +1,5 @@
+*** copy How do I implement a global command palette with keyboard shortcuts (Cmd+K) in React?.md ***
+
 A global command palette ($\text{Cmd+K}$ / $\text{Ctrl+K}$) requires three key parts:
 
 1. **Global Keyboard Listener:** Listens for `Meta+K` (Mac) or `Ctrl+K` (Windows/Linux) anywhere on the page, preventing browser defaults (like focusing the browser search bar).

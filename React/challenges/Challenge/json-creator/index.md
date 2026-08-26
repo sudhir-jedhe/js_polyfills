@@ -1,3 +1,5 @@
+*** copy index.md ***
+
 const jsonHolder = document.getElementById('json-holder');
 const jsonTemplate = document.querySelector('.json-template');
 const getJsonTemplate = document.querySelector('.get-json');

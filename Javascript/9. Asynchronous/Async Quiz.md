@@ -1,3 +1,5 @@
+*** copy Async Quiz.md ***
+
 ### 1. **Build a custom Promise from scratch**
 
 A basic **Promise** implementation includes the `resolve`, `reject`, and the logic to handle callbacks (`then`, `catch`, and `finally`).

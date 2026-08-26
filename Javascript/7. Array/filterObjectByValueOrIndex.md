@@ -1,3 +1,5 @@
+*** copy filterObjectByValueOrIndex.md ***
+
 Your `filterObject` function is trying to search through an array of objects and filter based on a provided condition, which can either be a string (matching the value in an object) or a number (matching the array index). The logic seems mostly correct, but there are a few improvements and clarifications that could be made to ensure the function works as expected in all scenarios:
 
 ### Key Points:

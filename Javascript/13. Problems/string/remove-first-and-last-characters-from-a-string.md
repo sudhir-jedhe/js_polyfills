@@ -1,3 +1,5 @@
+*** copy remove-first-and-last-characters-from-a-string.md ***
+
 ```js
 // JavaScript Program to remoove first
 // and last character of a string

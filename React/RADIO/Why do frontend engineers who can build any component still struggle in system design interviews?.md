@@ -1,3 +1,5 @@
+*** copy Why do frontend engineers who can build any component still struggle in system design interviews?.md ***
+
 plit these into:
 
 Functional: what it should do

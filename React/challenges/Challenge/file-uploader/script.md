@@ -1,3 +1,5 @@
+*** copy script.md ***
+
 const $form = document.querySelector("form"),
 $fileInput = document.querySelector("#file-input"),
 $selectedFileArea = document.querySelector("#selected-file-area");

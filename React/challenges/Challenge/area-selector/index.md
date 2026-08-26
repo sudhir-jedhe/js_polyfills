@@ -1,3 +1,5 @@
+*** copy index.md ***
+
 const root = document.querySelector('.grid');
 const rows = window.innerHeight / 60 - 3,
   cols = window.innerWidth / 60 - 3;

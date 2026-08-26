@@ -1,3 +1,5 @@
+*** copy Responsive Images: srcset, sizes, and picture.md ***
+
 # Responsive Images: `srcset`, `sizes`, and `<picture>`
 
 Responsive images solve a common performance problem:

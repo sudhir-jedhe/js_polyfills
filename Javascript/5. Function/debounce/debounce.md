@@ -1,3 +1,5 @@
+*** copy debounce.md ***
+
 Below is a consolidated and detailed implementation of `debounce` functions based on your requirements, examples, and additional scenarios. These implementations include basic debounce, debounce with options for `leading` and `trailing` execution, and comments to clarify their behavior.
 
 ---

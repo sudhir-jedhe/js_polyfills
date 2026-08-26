@@ -1,3 +1,5 @@
+*** copy slugify.md ***
+
 SEO is important, and one of the things that can help improve your website's SEO is having a URL that is easy to read and understand. This is where slugs come in.
 
 A slug is a URL-friendly version of a string, typically used to identify a resource on a website. Conventionally, slugs are created by converting a string to lowercase, removing special characters and replacing spaces with dashes.

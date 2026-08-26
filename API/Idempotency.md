@@ -1,3 +1,5 @@
+*** copy Idempotency.md ***
+
 **Idempotency** is a core computer science and REST API architectural concept.
 
 An operation is **idempotent** if making multiple identical requests produces the **exact same server state and side effects** as making a single request. No matter how many times you repeat the action, the end result remains unchanged.

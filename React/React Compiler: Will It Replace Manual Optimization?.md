@@ -1,3 +1,5 @@
+*** copy React Compiler: Will It Replace Manual Optimization?.md ***
+
 **Short answer: Yes, for routine memoization — but no, for holistic application architecture.**
 
 React Compiler fundamentally changes how we handle performance in React by taking over micro-optimizations. However, it does not mean developers can ignore performance entirely.

@@ -1,3 +1,5 @@
+*** copy Prevent overflow with line-clamp and fluid aspect constraints.md ***
+
 To prevent visual overflow across cards, editorial previews, and adaptive media tiles, combine three CSS layout techniques:
 
 1. **Multi-line Text Truncation (`line-clamp`)** with min-content safety fallbacks (`min-w-0`, `break-words`).

@@ -1,3 +1,5 @@
+*** copy nfinite currying for addition.md ***
+
 In JavaScript, infinite currying for addition is typically implemented in one of two ways depending on how the execution terminates: **empty call invocation `()**` or **value extraction via coercion (`valueOf`/`toString`)**.
 
 ---

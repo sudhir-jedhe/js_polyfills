@@ -1,3 +1,5 @@
+*** copy interview 2.md ***
+
 
 1. Implement Infinite Scroll Component.
  Implement an infinite scroll component in React that handles data fetching and error handling.

@@ -1,3 +1,5 @@
+*** copy Build an interactive grid of fluid aspect-ratio cards.md ***
+
 An interactive fluid aspect-ratio grid dynamically balances container-responsive aspect ratios, text line clamping, min/max dimension bounds, and column counts to prevent overflow blowouts and layout shifts.
 
 ### Architectural Core

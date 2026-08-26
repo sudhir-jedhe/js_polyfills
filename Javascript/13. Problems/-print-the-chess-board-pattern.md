@@ -1,3 +1,5 @@
+*** copy -print-the-chess-board-pattern.md ***
+
 ```js
 let chessboard = (row, column) => {
   for (let i = 0; i < row; i++) {

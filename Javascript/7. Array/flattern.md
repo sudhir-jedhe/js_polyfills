@@ -1,3 +1,5 @@
+*** copy flattern.md ***
+
 Here’s a more structured way of organizing and implementing the various flattening techniques you've provided: Recursive Flattening, Stack-Based Approach, Flatten using `reduce()`, and JSON-based Flattening.
 
 ### Full Code Implementation:

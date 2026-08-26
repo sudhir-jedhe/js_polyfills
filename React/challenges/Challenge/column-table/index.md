@@ -1,3 +1,5 @@
+*** copy index.md ***
+
 const rowsEl = document.querySelector('#rows');
 const columnsEl = document.querySelector('#columns');
 const tableBodyEl = document.querySelector('.table-body');

@@ -1,3 +1,5 @@
+*** copy Explain how React Server Components (RSC) render and stream payload over the networ.md ***
+
 **React Server Components (RSC)** represent a fundamental shift in how React applications build, render, and send UI across the wire.
 
 Unlike traditional Client-Side Rendering (CSR) or Server-Side Rendering (SSR), RSC allows components to render **exclusively on the server**, execute database queries or access filesystem APIs directly, and stream a serialized binary representation of the UI to the browser over standard HTTP/2 streams.

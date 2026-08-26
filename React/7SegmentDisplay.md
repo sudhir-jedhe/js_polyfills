@@ -1,3 +1,5 @@
+*** copy 7SegmentDisplay.md ***
+
 For this challenge, only **two things matter**:
 
 1. `getDigits()` returns a **6-digit array** in `HHMMSS` format.

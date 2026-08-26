@@ -1,3 +1,5 @@
+*** copy dom.md ***
+
 Since you're preparing for **Senior React / Tech Lead / Architect** roles, interviewers usually move beyond `getElementById()` and focus on **DOM architecture, performance, rendering pipeline, scalability, browser internals, and framework integration**. Topics such as event propagation and DOM manipulation also appear in internal interview question collections like [UI_Interview_Questions.docx](https://persistentsystems.sharepoint.com/sites/interviewquestions/_layouts/15/Doc.aspx?sourcedoc=%7B5A47BCB6-A3FC-4EAF-A505-7DD1A0BF3308%7D&file=UI_Interview_Questions.docx&action=default&mobileredirect=true&DefaultItemOpen=1&EntityRepresentationId=a277f7bf-5ea0-4ba5-8552-f39522cee321). [[UI_Intervi..._Questions | Word]](https://persistentsystems.sharepoint.com/sites/interviewquestions/_layouts/15/Doc.aspx?sourcedoc=%7B5A47BCB6-A3FC-4EAF-A505-7DD1A0BF3308%7D&file=UI_Interview_Questions.docx&action=default&mobileredirect=true&DefaultItemOpen=1)
 
 # Architect-Level DOM Questions

@@ -1,3 +1,5 @@
+*** copy How do you build a custom useSWR hook in React using useSyncExternalStore?.md ***
+
 Building a custom `useSWR` hook with **`useSyncExternalStore`** connects an external cache directly to React 18+ Concurrent Mode while ensuring zero tearing and automatic re-rendering whenever background revalidations finish.
 
 ---

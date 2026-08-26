@@ -1,3 +1,5 @@
+*** copy document load and DOMContentLoaded events.md ***
+
 The `DOMContentLoaded` and `load` events are key points in the browser's page lifecycle. Here's a detailed explanation of each:
 
 ---

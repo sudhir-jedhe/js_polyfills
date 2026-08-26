@@ -1,3 +1,5 @@
+*** copy filter out odd numbers and square.md ***
+
 Here are the standard ways to filter out odd numbers and square them in JavaScript:
 
 ### Method 1: Chaining `filter()` and `map()` (Most Readable)

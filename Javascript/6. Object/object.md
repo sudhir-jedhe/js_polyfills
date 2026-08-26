@@ -1,3 +1,5 @@
+*** copy object.md ***
+
 ### 1. **Different Ways of Creating an Object in JavaScript**
 
 JavaScript allows multiple ways to create objects. Here's a breakdown of the most common methods:

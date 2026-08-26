@@ -1,3 +1,5 @@
+*** copy random_color.md ***
+
 ```js
 // JavaScript code to pick
 // a random color from array

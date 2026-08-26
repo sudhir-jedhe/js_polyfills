@@ -1,3 +1,5 @@
+*** copy length.md ***
+
 You are on the right track with both implementations, and I see two different approaches here. Let's review and enhance the solutions.
 
 ### **Solution 1: Simple Approach (Basic)**

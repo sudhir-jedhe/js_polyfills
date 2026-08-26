@@ -1,3 +1,5 @@
+*** copy DRY Principle in JavaScript.md ***
+
 ## **RY Principle in JavaScript**
 The DRY (Don't Repeat Yourself) principle is a key concept in software development, aimed at reducing the repetition of code patterns and logic. By following the DRY principle, we aim to write code that is more maintainable, readable, and easier to extend, which ultimately reduces the chances of errors and bugs.
 

@@ -1,3 +1,5 @@
+*** copy How do you configure Prettier with ESLint v9 flat config using eslint-config-prettier?.md ***
+
 To configure Prettier with ESLint v9 Flat Config, use **`eslint-config-prettier`** to turn off all ESLint formatting rules that might conflict with Prettier.
 
 ---

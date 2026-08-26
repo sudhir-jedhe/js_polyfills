@@ -1,3 +1,5 @@
+*** copy arrow-regular-function-differences.md ***
+
 ### **Arrow Functions vs Normal Functions in JavaScript**
 
 Arrow functions and normal functions (also known as traditional functions) are two ways to define functions in JavaScript. While both have similarities, they differ in several important aspects, including syntax, behavior of this, and other features.

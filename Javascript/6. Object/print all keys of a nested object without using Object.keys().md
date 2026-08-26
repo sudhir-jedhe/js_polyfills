@@ -1,3 +1,5 @@
+*** copy print all keys of a nested object without using Object.keys().md ***
+
 To print all keys of a nested object without using `Object.keys()`, you can use a **`for...in` loop** combined with **recursion**.
 
 The `for...in` loop iterates over all enumerable properties of an object, and `hasOwnProperty` ensures that only the object's own properties are accessed, ignoring properties inherited from the prototype chain.

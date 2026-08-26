@@ -1,3 +1,5 @@
+*** copy capture-product-visible-on-viewport-when-user-stops-scrolling.md ***
+
 ```html
 <!DOCTYPE html>
 <html lang="en">

@@ -1,3 +1,5 @@
+*** copy Multi-Select Dropdown with Search.md ***
+
 Here is a fully accessible, reusable **Multi-Select Dropdown with Search** in React and TypeScript. It includes keyboard navigation, outside-click detection, tag removals, and "Select All" support.
 
 ---

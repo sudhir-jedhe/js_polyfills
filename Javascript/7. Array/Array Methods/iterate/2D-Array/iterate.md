@@ -1,3 +1,5 @@
+*** copy iterate.md ***
+
 These examples show **different ways to iterate over a 2D array (matrix)**.
 
 ### Sample Array

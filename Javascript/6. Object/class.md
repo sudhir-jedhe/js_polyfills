@@ -1,3 +1,5 @@
+*** copy class.md ***
+
 Let's break down the code snippets and explain the key concepts along with the expected output and behavior of the code. This includes understanding classes, inheritance, private properties, static methods, and hoisting in JavaScript.
 
 ### 1. **Inheritance and Method Overriding**

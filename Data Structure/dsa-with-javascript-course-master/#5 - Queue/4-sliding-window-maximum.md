@@ -1,3 +1,5 @@
+*** copy 4-sliding-window-maximum.md ***
+
 // Ques 4 : Sliding Window Maximum
 // You are given an array of integers nums, there is a sliding window of size k which is
 // moving from the very left of the array to the very right.You can only see the k numbers

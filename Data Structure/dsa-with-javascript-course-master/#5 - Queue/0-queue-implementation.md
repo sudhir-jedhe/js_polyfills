@@ -1,3 +1,5 @@
+*** copy 0-queue-implementation.md ***
+
 // Basic Queue Implementation
 
 class Queue {

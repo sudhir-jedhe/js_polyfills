@@ -1,3 +1,5 @@
+*** copy chain.md ***
+
 ### Explanation of the Code:
 
 In both versions of the `sum` function, we're using **nested functions** to create a **curried function**. Each of these inner functions "remembers" the values of the variables from their outer scopes, which is an example of how **closures** work in JavaScript.

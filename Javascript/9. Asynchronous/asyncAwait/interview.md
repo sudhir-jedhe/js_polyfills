@@ -1,3 +1,5 @@
+*** copy interview.md ***
+
 ### 28. Explain how `async` and `await` work in JavaScript
 
 **`async`** makes a function return a promise, and **`await`** pauses the execution of the function until the promise resolves.

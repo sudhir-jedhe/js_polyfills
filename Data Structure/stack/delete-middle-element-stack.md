@@ -1,3 +1,5 @@
+*** copy delete-middle-element-stack.md ***
+
 // Input  : Stack[] = [1, 2, 3, 4, 5]
 // Output : Stack[] = [1, 2, 4, 5]
 

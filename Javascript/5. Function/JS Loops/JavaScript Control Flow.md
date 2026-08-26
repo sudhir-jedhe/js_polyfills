@@ -1,3 +1,5 @@
+*** copy JavaScript Control Flow.md ***
+
 **JavaScript Control Flow** refers to the order in which statements are executed in a script. By default, code executes sequentially from top to bottom. Control flow statements interrupt or direct this path based on logic, conditions, or repetitive tasks.
 
 Here is a comprehensive breakdown of the core control flow mechanisms in JavaScript.

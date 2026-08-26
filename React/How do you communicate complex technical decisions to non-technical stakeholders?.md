@@ -1,3 +1,5 @@
+*** copy How do you communicate complex technical decisions to non-technical stakeholders?.md ***
+
 Communicating complex technical decisions to non-technical stakeholders (e.g., Product Managers, Executives, Sales, or Operations) requires translating **implementation details into business trade-offs**.
 
 ---

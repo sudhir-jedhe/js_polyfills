@@ -1,3 +1,5 @@
+*** copy removeChars.md ***
+
 ```js
 removeChars('ab') // 'a'
 removeChars('abc') // ''

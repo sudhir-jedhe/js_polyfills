@@ -1,3 +1,5 @@
+*** copy script.md ***
+
 const mainContainer = document.getElementById('main__container');
 const loadingContainer = document.getElementById('loading__container');
 const form = document.getElementById('submitForm');

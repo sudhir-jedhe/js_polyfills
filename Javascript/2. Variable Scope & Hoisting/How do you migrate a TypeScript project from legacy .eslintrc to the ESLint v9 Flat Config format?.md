@@ -1,3 +1,5 @@
+*** copy How do you migrate a TypeScript project from legacy .eslintrc to the ESLint v9 Flat Config format?.md ***
+
 Migrating a TypeScript project to ESLint v9 Flat Config replaces the legacy `.eslintrc.*` and `.eslintignore` files with a single `eslint.config.mjs` (or `eslint.config.js` / `eslint.config.ts`) file using the unified `typescript-eslint` library.
 
 ---

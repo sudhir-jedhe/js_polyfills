@@ -1,3 +1,5 @@
+*** copy timeLimitedAsyncFunction.md ***
+
 To implement the **time-limited asynchronous function**, we need to create a higher-order function that wraps around any asynchronous function, and ensures it completes within the given time limit. If the function exceeds the specified time limit, it should be rejected with the message `"Time Limit Exceeded"`.
 
 Here's how to implement the `timeLimit` function and also handle the example use cases.

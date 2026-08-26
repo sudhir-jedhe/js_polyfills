@@ -1,3 +1,5 @@
+*** copy what is class.md ***
+
 Your explanation is spot on! You've clearly demonstrated the transition from the function-based, prototype inheritance style in ES5 to the class-based, syntactic sugar style introduced in ES6. While classes in ES6 look much cleaner and easier to understand, they still work under the hood using JavaScript's prototype-based inheritance system. Let's break down the key points in your example and add some clarifications for a better understanding:
 
 ### 1. **ES5 Prototype-Based Inheritance**:

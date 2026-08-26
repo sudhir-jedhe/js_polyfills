@@ -1,3 +1,5 @@
+*** copy compareEvents.md ***
+
 ### Client-Server Real-Time Communication Protocols
 
 This visual illustrates the four primary patterns used by web clients (browsers) to receive updates from a server.

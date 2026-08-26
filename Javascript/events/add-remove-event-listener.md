@@ -1,3 +1,5 @@
+*** copy add-remove-event-listener.md ***
+
 You've outlined a solution for implementing event delegation in JavaScript using reusable `on` and `off` functions. These functions allow you to add and remove event listeners dynamically, with the flexibility to handle delegation and options like event capturing or limiting the listener to specific target elements.
 
 ### Key Points:

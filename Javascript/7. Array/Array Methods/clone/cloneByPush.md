@@ -1,3 +1,5 @@
+*** copy cloneByPush.md ***
+
 ### Clone Array Using `push()`
 
 You can clone an array manually by iterating through it and pushing each element into a new array.

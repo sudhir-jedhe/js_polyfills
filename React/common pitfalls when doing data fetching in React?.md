@@ -1,3 +1,5 @@
+*** copy common pitfalls when doing data fetching in React?.md ***
+
 Common pitfalls when doing data fetching in React include not handling loading and error states, leaking requests by not aborting them on unmount, ignoring race conditions when props or query params change, fetching during render (which loops), and triggering request waterfalls. In modern React (18+), use AbortController for cleanup, account for StrictMode's intentional double-invoke in development, and prefer purpose-built libraries like TanStack Query, SWR, or RTK Query for caching and deduplication. React 19's use() hook plus Suspense, and Server Components, are now the recommended way to read promises in components.
 
 **Common pitfalls when doing data fetching in React**

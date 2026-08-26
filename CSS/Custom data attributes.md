@@ -1,3 +1,5 @@
+*** copy Custom data attributes.md ***
+
 Custom data attributes are a powerful feature in HTML and JavaScript that allow you to store extra information on an HTML element, which can be used for various purposes, like creating dynamic UI components or handling events. In React, they are especially useful for passing additional data to components or managing complex UI states like autocomplete dropdowns.
 
 ### 1. **Custom Data Attributes in HTML/JavaScript**

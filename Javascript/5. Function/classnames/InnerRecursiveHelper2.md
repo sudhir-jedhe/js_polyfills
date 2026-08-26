@@ -1,3 +1,5 @@
+*** copy InnerRecursiveHelper2.md ***
+
 The code you've shared implements a `classNames` function that conditionally concatenates class names from different types of inputs. The approach uses an inner recursive helper function (`classNamesImpl`) that modifies an external value (`classes`) as it processes each argument. The goal of this function is to create a string of class names based on the provided arguments, handling various input types like strings, numbers, arrays, and objects.
 
 Here’s a breakdown of how the function works:

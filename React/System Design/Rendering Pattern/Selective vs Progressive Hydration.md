@@ -1,3 +1,5 @@
+*** copy Selective vs Progressive Hydration.md ***
+
 # Selective Hydration vs Progressive Hydration
 
 ## Frontend System Design + Complete Senior React Interview Explanation

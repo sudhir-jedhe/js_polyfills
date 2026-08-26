@@ -1,3 +1,5 @@
+*** copy maxCharacters.md ***
+
 ```js
 maxCharacters("hello"); // Output: 'l'
 maxCharacters("Mississippi"); // Output: 'i'

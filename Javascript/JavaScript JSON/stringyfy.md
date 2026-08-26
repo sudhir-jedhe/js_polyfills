@@ -1,3 +1,5 @@
+*** copy stringyfy.md ***
+
 The various implementations provided above are all custom versions of `JSON.stringify` designed to handle or omit certain data types and edge cases differently from the built-in method. Here's a breakdown of the key elements across all versions:
 
 ---

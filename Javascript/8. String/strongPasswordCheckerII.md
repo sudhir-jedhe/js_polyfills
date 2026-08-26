@@ -1,3 +1,5 @@
+*** copy strongPasswordCheckerII.md ***
+
 ```js
 function strongPasswordCheckerII(password: string): boolean {
     if (password.length < 8) {

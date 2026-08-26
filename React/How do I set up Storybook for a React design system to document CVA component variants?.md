@@ -1,3 +1,5 @@
+*** copy How do I set up Storybook for a React design system to document CVA component variants?.md ***
+
 Setting up **Storybook** for a React design system built with **Class Variance Authority (CVA)** gives your team an interactive playground to test variants, sizes, and states in isolation.
 
 Here is a step-by-step guide to setting up Storybook (v8+) with Vite/Webpack, Tailwind CSS, and automatic prop controls derived directly from your CVA variant definitions.

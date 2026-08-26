@@ -1,3 +1,5 @@
+*** copy string-to-boolean.md ***
+
 ```js
 const toBoolean = (value, truthyValues = ["true"]) => {
   const normalizedValue = String(value).toLowerCase().trim();

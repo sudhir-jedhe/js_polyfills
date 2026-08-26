@@ -1,3 +1,5 @@
+*** copy How do I export Tailwind CSS tokens to the DTCG (Design Tokens Community Group) JSON format for Figma?.md ***
+
 Exporting Tailwind CSS tokens to the **DTCG (Design Tokens Community Group)** standard requires converting your CSS variable definitions and Tailwind theme values into the standard `{ "$value": "...", "$type": "..." }` schema.
 
 ---

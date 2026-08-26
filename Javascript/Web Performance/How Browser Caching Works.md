@@ -1,3 +1,5 @@
+*** copy How Browser Caching Works.md ***
+
 **Browser caching** is a technique used by browsers to store copies of resources (such as images, CSS, JavaScript, HTML files, etc.) locally on the user's device. This reduces the need for repeated network requests, improving load times and user experience by reusing already downloaded assets instead of fetching them from the server each time.
 
 **How Browser Caching Works**

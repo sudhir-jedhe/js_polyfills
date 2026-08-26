@@ -1,3 +1,5 @@
+*** copy frontEndSecurity.md ***
+
 ✅ 7 Common Front End security attacks:
 
 1. Cross-site scripting (XSS):

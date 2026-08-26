@@ -1,3 +1,5 @@
+*** copy How does the Membrane pattern isolate object graphs using nested Proxies in JavaScript?.md ***
+
 The **Membrane Pattern** is a security and isolation design pattern that establishes a bi-directional boundary between two separate object graphs (e.g., untrusted third-party code vs. host runtime, or sandbox vs. environment).
 
 Instead of cloning entire data graphs (which loses reference identity) or exposing raw references (which risks prototype pollution or privilege escalation), a Membrane **wraps any reference crossing the boundary in a Proxy**.

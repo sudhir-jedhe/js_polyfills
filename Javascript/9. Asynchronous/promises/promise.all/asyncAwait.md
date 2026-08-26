@@ -1,3 +1,5 @@
+*** copy asyncAwait.md ***
+
 ```js
 /**
  * @param {Array<any>} promises - notice input might have non-Promises

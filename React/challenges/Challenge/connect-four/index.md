@@ -1,3 +1,5 @@
+*** copy index.md ***
+
 import { generateFlex, generateGrid, getGridState, hasSameValuesContinously } from './helper.js';
 
 const boardElement = document.getElementById('board');

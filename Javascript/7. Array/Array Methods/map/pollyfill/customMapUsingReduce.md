@@ -1,3 +1,5 @@
+*** copy customMapUsingReduce.md ***
+
 
 ```javascript
     function map(array, func) {

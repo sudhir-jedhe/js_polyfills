@@ -1,3 +1,5 @@
+*** copy How does the V8 engine allocate and link Module Environment Records during static import resolution?.md ***
+
 In the V8 JavaScript engine, static import resolution and environment allocation take place during the **Instantiation (Linking)** phase of the module lifecycle.
 
 V8 represents each ES module in C++ as a **`SourceTextModule`** heap object. During linking, V8 creates a **`ModuleEnvironmentRecord`** (represented in V8 internals as a `ModuleContext`), allocates uninitialized memory slots for all exported bindings, and directly wires import references to those exact memory addresses.

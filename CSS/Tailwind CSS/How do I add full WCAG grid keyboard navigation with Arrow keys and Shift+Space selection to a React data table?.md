@@ -1,3 +1,5 @@
+*** copy How do I add full WCAG grid keyboard navigation with Arrow keys and Shift+Space selection to a React data table?.md ***
+
 To make a data table compliant with the **WAI-ARIA Grid Design Pattern**, you must implement:
 
 1. **Roving `tabIndex**`: Only one cell in the entire grid has `tabIndex={0}` at any time. All other cells have `tabIndex={-1}`.

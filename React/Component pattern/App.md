@@ -1,3 +1,5 @@
+*** copy App.md ***
+
 To create a reusable `Text` component that renders different HTML elements (like `h1`, `div`, `span`, etc.) based on the `type` prop, without using `if-else` or `switch`, we can leverage **dynamic component rendering** in React.
 
 One of the simplest and most elegant ways to achieve this is by mapping the `type` prop to the corresponding HTML tag dynamically.

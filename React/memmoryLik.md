@@ -1,3 +1,5 @@
+*** copy memmoryLik.md ***
+
 Here's the short answer: **Yes, absolutely.** Both closures and `useRef` are frequent causes of memory leaks in React, though they trigger them in slightly different ways.
 
 In JavaScript, garbage collection relies on reachability. A memory leak happens when an unmounted component or unused object remains reachable from a root node—usually because a long-lived reference (like a global listener or timer) retains a closure or object reference.

@@ -1,3 +1,5 @@
+*** copy If a parent component is re-rendering unnecessarily.md ***
+
 When a **Parent Component** re-renders in React, all of its **Child Components** automatically re-render by default.
 
 If a parent component is re-rendering unnecessarily—or causing its children to re-render due to unrelated state changes—you can optimize it using the following battle-tested patterns:

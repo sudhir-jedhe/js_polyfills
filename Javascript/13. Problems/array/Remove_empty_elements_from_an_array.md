@@ -1,3 +1,5 @@
+*** copy Remove_empty_elements_from_an_array.md ***
+
 ```js
 let array = ["GFG_1", "GFG_2", null, "GFG_3",
     "", "GFG_4", undefined, "GFG_5", , , , , ,

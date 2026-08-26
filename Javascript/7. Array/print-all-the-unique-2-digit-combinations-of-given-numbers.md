@@ -1,3 +1,5 @@
+*** copy print-all-the-unique-2-digit-combinations-of-given-numbers.md ***
+
 To print all unique 2-digit combinations from a given array of numbers, your approach is mostly correct. However, there are a couple of improvements that can be made for clarity and functionality:
 
 1. **Removing duplicates**: You correctly use a `Set` to remove duplicates.

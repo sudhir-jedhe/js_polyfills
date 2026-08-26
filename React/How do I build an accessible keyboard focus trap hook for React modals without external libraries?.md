@@ -1,3 +1,5 @@
+*** copy How do I build an accessible keyboard focus trap hook for React modals without external libraries?.md ***
+
 A custom focus trap hook must satisfy four core accessibility requirements:
 
 1. **Initial Focus:** Move focus to the first focusable element (or the modal container itself) upon mounting.

@@ -1,3 +1,5 @@
+*** copy compare.md ***
+
 ```js
 const sameStrings = (inputString1, inputString2) => {
   return inputString1.localeCompare(inputString2) === 0;

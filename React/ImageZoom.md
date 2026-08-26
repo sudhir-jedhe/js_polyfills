@@ -1,3 +1,5 @@
+*** copy ImageZoom.md ***
+
 import React, { useRef } from "react";
 import PropTypes from "prop-types";
 import cx from "classnames";

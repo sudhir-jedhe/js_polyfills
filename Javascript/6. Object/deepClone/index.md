@@ -1,3 +1,5 @@
+*** copy index.md ***
+
 To implement a deep clone function that works for JavaScript objects containing JSON-serializable values, we can use recursion. Since you're specifically asking for the deep cloning of objects without dealing with other complex data types like `Date`, `Map`, `Set`, etc., we can focus on handling the basic types (null, boolean, number, string, arrays, and plain objects) and make sure that the cloned object is fully independent of the original object.
 
 Here’s how we can implement `deepClone`:

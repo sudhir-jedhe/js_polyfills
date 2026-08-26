@@ -1,3 +1,5 @@
+*** copy How do you handle scroll position correction when items above the current viewport resize dynamically?.md ***
+
 When an item located **above the visible viewport** resizes (e.g., an image loads, text expands, or overscan elements measure larger than their estimated heights), the cumulative offset above the user changes. Without correction, the content underneath is pushed down or pulled up, causing a jarring visual **scroll jump/drift**.
 
 ---

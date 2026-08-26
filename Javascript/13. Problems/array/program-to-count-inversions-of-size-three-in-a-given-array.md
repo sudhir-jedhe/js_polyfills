@@ -1,3 +1,5 @@
+*** copy program-to-count-inversions-of-size-three-in-a-given-array.md ***
+
 ```js
 /*
 Given an array arr[] of size n. Three elements arr[i], arr[j] and arr[k] form an inversion of size 3 if a[i] > a[j] >a[k] and i < j < k. Find total number of inversions of size 3.

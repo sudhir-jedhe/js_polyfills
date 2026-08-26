@@ -1,3 +1,5 @@
+*** copy firstUniqChar.md ***
+
 ```js
 /**
  * @param {string} s

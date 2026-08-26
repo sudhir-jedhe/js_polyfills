@@ -1,3 +1,5 @@
+*** copy Show how to implement a complex compound component like a Modal or Select dropdown for a React design system.md ***
+
 Here is a complete, production-grade implementation of a **Modal** compound component for a React design system. It combines **React Context** (for implicit state sharing), **React Portals** (for DOM isolation), and **Radix UI Primitive / Slot patterns** (for accessibility and polymorphism).
 
 ---

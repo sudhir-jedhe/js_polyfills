@@ -1,3 +1,5 @@
+*** copy Memory Leak.md ***
+
 When a web application becomes progressively slower after running for several hours, it is a textbook symptom of a **memory leak**.
 
 Over time, unused objects, detached DOM nodes, and closures accumulate in heap memory. As available memory shrinks, the JavaScript engine's **Garbage Collector (GC)** has to work harder and run more frequently, blocking the main thread and causing noticeable lag, stuttering, and eventual browser crashes.

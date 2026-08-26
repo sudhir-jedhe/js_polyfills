@@ -1,3 +1,5 @@
+*** copy Explain the differences in tree-shaking capabilities between ESM (ES Modules) and CommonJS (CJS).md ***
+
 The fundamental difference in tree-shaking capabilities between **ES Modules (ESM)** and **CommonJS (CJS)** stems from one core architectural design choice: **Static vs. Dynamic module structure**.
 
 ESM was explicitly engineered for static analysis at build time, enabling aggressive dead-code elimination. CommonJS was designed for dynamic, server-side execution at runtime, rendering compile-time tree-shaking nearly impossible.

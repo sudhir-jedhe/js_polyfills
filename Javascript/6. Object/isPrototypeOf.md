@@ -1,3 +1,5 @@
+*** copy isPrototypeOf.md ***
+
 Let's go over the code you provided and understand the key concepts around `Object.isPrototypeOf()` and `super` usage in JavaScript.
 
 ### **Understanding `Object.isPrototypeOf()`**

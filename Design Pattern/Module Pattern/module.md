@@ -1,3 +1,5 @@
+*** copy module.md ***
+
 # Module Pattern in JavaScript
 
 The **Module Pattern** is a design pattern used to:

@@ -1,3 +1,5 @@
+*** copy Diagnosing Progressive Slowdown in Web Applications.md ***
+
 ## Diagnosing Progressive Slowdown in Web Applications
 
 When an application becomes noticeably slower **every time you visit or navigate back to a page**, it is a textbook symptom of **memory leaks**, **dangling event listeners**, or **uncleaned state mounting issues**. Each visit compounds the problem by leaving behind lingering garbage in memory.

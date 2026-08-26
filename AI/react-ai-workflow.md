@@ -1,3 +1,5 @@
+*** copy react-ai-workflow.md ***
+
 This is an excellent topic to document. As AI tools evolve, interviewers want to see that you have a structured methodology for using them, rather than just copy-pasting prompts blindly. When building a React application, AI can be integrated into every single phase of the component lifecycle.
 
 > **Repo Organization Tip:** Save this content inside `10-Modern-Dev-Workflows/scenario-problems/react-ai-workflow.md`.

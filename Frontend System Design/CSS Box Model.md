@@ -1,3 +1,5 @@
+*** copy CSS Box Model.md ***
+
 In CSS and Front-End System Design, the **CSS Box Model** is the foundational layout algorithm used by browser rendering engines (Gecko, Blink, WebKit) to calculate geometry, layout boundaries, paint coordinates, and hit-testing zones for every DOM element in the document tree.
 
 Understanding how the box model computes dimensions, responds to the `box-sizing` rule, and handles display types (`inline` vs. `block`) is essential for building predictable, glitch-free design systems.

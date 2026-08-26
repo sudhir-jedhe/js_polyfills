@@ -1,3 +1,5 @@
+*** copy flat.md ***
+
 The code you've shared involves flattening nested arrays to a specific depth (or completely) using various methods. Let's walk through each approach and understand the differences and their implementation:
 
 ### 1. **Using `Array.prototype.flat()` (Built-in)**

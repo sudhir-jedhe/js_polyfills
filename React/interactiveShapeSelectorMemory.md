@@ -1,3 +1,5 @@
+*** copy interactiveShapeSelectorMemory.md ***
+
 The provided code defines two React components (`Shape` and `Box`) to create a dynamic grid of boxes. Both components use `useState`, `useMemo`, and `useEffect` hooks to manage state and control the behavior of the boxes.
 
 I'll explain how each of the components work, the differences between them, and how they can be optimized or fixed for better functionality.

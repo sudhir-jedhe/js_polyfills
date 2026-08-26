@@ -1,3 +1,5 @@
+*** copy index.md ***
+
 const display = document.getElementById('display');
 const otpFields = [];
 const otpLength = 6;

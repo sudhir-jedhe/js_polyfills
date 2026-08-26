@@ -1,3 +1,5 @@
+*** copy 3-step wizard .md ***
+
 # Event Creation Wizard (React + Zod + useActionState)
 
 This challenge is essentially a **3-step wizard** with:

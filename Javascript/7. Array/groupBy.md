@@ -1,3 +1,5 @@
+*** copy groupBy.md ***
+
 The `groupBy` function is a useful utility for organizing data by a specific criterion, such as a property value or result of a transformation applied to the values. It can group values based on an object property or even by a custom function. Let's go through the various examples of the `groupBy` function that you've provided:
 
 ### 1. Basic `groupBy` Using Property Name

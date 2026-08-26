@@ -1,3 +1,5 @@
+*** copy get-a-key-in-a-javascript-object-by-its-value.md ***
+
 ```js
 function getKeyByValue(object, value) {
   for (let prop in object) {

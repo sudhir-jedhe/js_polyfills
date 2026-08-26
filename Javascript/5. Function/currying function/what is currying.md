@@ -1,3 +1,5 @@
+*** copy what is currying.md ***
+
 You've provided a nice example of currying in JavaScript! To expand on it, currying transforms a function that takes multiple arguments into a series of functions that each take one argument. Let's break it down and explain the key concepts:
 
 ### 1. **Traditional Function (Non-Curried)**

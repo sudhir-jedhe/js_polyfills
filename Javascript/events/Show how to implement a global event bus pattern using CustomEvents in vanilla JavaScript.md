@@ -1,3 +1,5 @@
+*** copy Show how to implement a global event bus pattern using CustomEvents in vanilla JavaScript.md ***
+
 In vanilla JavaScript, you can implement a global **Event Bus** without external libraries by wrapping the native `EventTarget` interface or using a decoupled DOM node (like `window` or `document`).
 
 Using the native **`EventTarget`** object is the cleanest modern approach because it natively supports `addEventListener`, `removeEventListener`, and `dispatchEvent` with standard `CustomEvent` objects without polluting the DOM.

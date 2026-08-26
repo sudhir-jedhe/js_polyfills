@@ -1,3 +1,5 @@
+*** copy Browser Rendering.md ***
+
 Here is a complete end-to-end breakdown of the browser rendering architecture—covering how browsers process HTML/CSS, calculate layout through **Formatting Contexts**, manage overlapping elements with **Stacking Contexts**, and transform data across the four internal browser trees: **DOM Tree**, **RenderObject Tree**, **RenderLayer Tree**, and **GraphicsLayer Tree**.
 
 ---

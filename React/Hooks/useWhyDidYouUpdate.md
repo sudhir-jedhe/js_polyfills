@@ -1,3 +1,5 @@
+*** copy useWhyDidYouUpdate.md ***
+
 // Avoiding pointless re-renders is one way to accomplish performance optimization in React, and in order to track this, we must keep an eye on what has changed in the component’s props or states.
 
 // Use the useWhyDidYouUpdate() hook to find out what changed and caused the re-rendering so that if they are unnecessary, they can be mitigated.

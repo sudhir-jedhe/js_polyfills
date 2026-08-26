@@ -1,3 +1,5 @@
+*** copy VirtualDomTreeJsx.md ***
+
 Here's the complete code that addresses the parsing of HTML-like elements, generates an Abstract Syntax Tree (AST), and then converts it back into JSX-like syntax. It includes the optimizations for self-closing tags, improved error handling, and recursion for parsing nested children.
 
 ```typescript

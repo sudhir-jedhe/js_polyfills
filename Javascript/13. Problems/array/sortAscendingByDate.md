@@ -1,3 +1,5 @@
+*** copy sortAscendingByDate.md ***
+
 ```js
 export const sortAscendingByDate = (array) => {
   return array.sort((a, b) => {

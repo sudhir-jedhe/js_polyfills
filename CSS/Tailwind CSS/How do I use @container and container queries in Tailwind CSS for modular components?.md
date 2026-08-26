@@ -1,3 +1,5 @@
+*** copy How do I use @container and container queries in Tailwind CSS for modular components?.md ***
+
 Container queries allow components to adapt their internal layout based on the width of their **immediate parent container** rather than the entire browser viewport (`@media`). This makes components truly modular—a single card component can render as a compact vertical stack in a narrow sidebar while automatically rendering as a multi-column horizontal banner in a wide dashboard area.
 
 ---

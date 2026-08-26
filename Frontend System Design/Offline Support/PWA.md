@@ -1,3 +1,5 @@
+*** copy PWA.md ***
+
 Implementing Version Vectors or Optimistic Locking in an offline-first React application involves tracking resource versions across three layers: **React UI State**, **IndexedDB (Local Outbox/Cache)**, and the **Backend Database**.
 
 ---

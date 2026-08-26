@@ -1,3 +1,5 @@
+*** copy Compliance and Regulation.md ***
+
 In Front-End System Design, **Compliance and Regulation** bridges legal mandates—such as **GDPR** (EU), **CCPA/CPRA** (California), **PCI-DSS** (Payment Processing), **HIPAA** (Healthcare), and **WCAG/ADA** (Accessibility)—into technical system architecture.
 
 Because front-end applications handle user input, cookies, analytics, and rendering directly in the user’s browser, non-compliance exposes organizations to substantial legal liabilities, regulatory fines, and operational risks.

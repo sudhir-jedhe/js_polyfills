@@ -1,3 +1,5 @@
+*** copy useCallback.md ***
+
 **`useCallback`** is a built-in React Hook that **caches (memoizes) a function definition** between component re-renders.
 
 It prevents React from recreating a new function instance on every single render unless one of its specified dependencies changes.

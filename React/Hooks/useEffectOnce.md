@@ -1,3 +1,5 @@
+*** copy useEffectOnce.md ***
+
 ```js
 import { EffectCallback, useEffect, useRef } from "react";
 import { EffectCallback, useEffect } from "react";

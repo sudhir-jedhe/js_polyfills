@@ -1,3 +1,5 @@
+*** copy historyTracking.md ***
+
 To implement the concurrent history tracking system with the singleton design pattern, along with some other design patterns, I'll ensure that the code follows best practices, applies the correct patterns, and remains modular.
 
 ### Required Design Patterns:

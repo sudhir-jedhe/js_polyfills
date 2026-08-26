@@ -1,3 +1,5 @@
+*** copy design a state management strategy .md ***
+
 A scalable front-end state management strategy categorizes state by **ownership, lifetime, and source of truth** rather than stuffing everything into a single central store.
 
 By categorizing state into distinct layers, you prevent unnecessary re-renders, simplify component testing, and reduce state synchronization bugs.

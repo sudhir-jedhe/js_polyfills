@@ -1,3 +1,5 @@
+*** copy How do React Suspense and useTransition coordinate page navigation without triggering fallback spinners?.md ***
+
 When navigating between pages or views wrapped in `<Suspense>`, initiating the route change inside `startTransition` tells React that the navigation is **interruptible and non-urgent**.
 
 Instead of immediately unmounting the current view and flashing a `<Suspense>` fallback (spinner/skeleton), React **retains the existing page on screen** while it renders the next page in an off-screen, in-memory tree until the asynchronous data or lazy components resolve.

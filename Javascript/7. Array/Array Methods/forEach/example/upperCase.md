@@ -1,3 +1,5 @@
+*** copy upperCase.md ***
+
 Your code provides two different implementations of the `mapToUppercase` function, both of which convert an array of names to uppercase. Here's a breakdown and comparison of the two approaches:
 
 ---

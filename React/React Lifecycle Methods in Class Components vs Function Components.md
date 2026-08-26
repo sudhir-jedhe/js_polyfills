@@ -1,3 +1,5 @@
+*** copy React Lifecycle Methods in Class Components vs Function Components.md ***
+
 ### React Lifecycle Methods in **Class Components** vs **Function Components**
 
 In React, **lifecycle methods** are special methods that allow developers to hook into certain points of a component's existence. These methods can be used to handle different stages of a component's life, such as mounting, updating, and unmounting. React components can be written as either **class components** or **function components**, and the lifecycle methods differ between the two.

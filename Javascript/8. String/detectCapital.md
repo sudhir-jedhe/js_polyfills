@@ -1,3 +1,5 @@
+*** copy detectCapital.md ***
+
 ```js
 function detectCapitalUse(word: string): boolean {
     const cnt = word.split('').reduce((acc, c) => acc + (c === c.toUpperCase() ? 1 : 0), 0);

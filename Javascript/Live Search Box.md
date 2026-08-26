@@ -1,3 +1,5 @@
+*** copy Live Search Box.md ***
+
 Here is a complete, production-grade **Live Search Box** built in Vanilla JavaScript. It includes debounced API calls, full keyboard navigation (Up/Down arrow keys, Enter, Escape), ARIA accessibility, and click-outside-to-close functionality.
 
 ---

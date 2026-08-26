@@ -1,3 +1,5 @@
+*** copy Higher-Order Component.md ***
+
 In React, **HOC** stands for **Higher-Order Component**.
 
 It is an advanced pattern used for **reusing component logic**. An HOC is not part of the React API—it is a design pattern that emerges from React’s compositional nature.

@@ -1,3 +1,5 @@
+*** copy Explain what happens when setState is called in React?.md ***
+
 When you call a state setter function (like `setCount` or `this.setState`), React initiates a multi-step update cycle to update your component and synchronize it with the UI.
 
 Here is the step-by-step breakdown of what happens under the hood:

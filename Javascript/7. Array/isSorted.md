@@ -1,3 +1,5 @@
+*** copy isSorted.md ***
+
 Your solution to determine whether an array is sorted in ascending or descending order is efficient and clear. It leverages early returns, checks the direction of sorting (using differences between consecutive elements), and avoids unnecessary comparisons, which makes it better than the naive approach of sorting and comparing the original array.
 
 ### Let's break it down:

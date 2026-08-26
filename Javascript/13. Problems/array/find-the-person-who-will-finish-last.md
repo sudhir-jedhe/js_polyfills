@@ -1,3 +1,5 @@
+*** copy find-the-person-who-will-finish-last.md ***
+
 ```js
 // Input: mat[][] = {{1, 0, 0}, {0, 0, 0}, {0, 0, 1}}
 // Output: P1

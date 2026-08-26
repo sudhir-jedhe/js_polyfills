@@ -1,3 +1,5 @@
+*** copy How does cross-device passkey authentication work using hybrid transports and QR codes in WebAuthn?.md ***
+
 Cross-device passkey authentication—formally specified in the FIDO Alliance and W3C WebAuthn standards as the **Hybrid Transport** (previously called **caBLE** / *Client-to-Authenticator Bridge over Local Proximity*)—allows a user on a desktop/laptop browser to use a smartphone (iOS or Android) as a roaming FIDO2 authenticator.
 
 It relies on a two-channel architecture: an **encrypted internet signaling channel** (rendezvous server) paired with a **local Bluetooth Low Energy (BLE) proximity check** to prevent remote phishing.

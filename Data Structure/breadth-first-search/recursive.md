@@ -1,3 +1,5 @@
+*** copy recursive.md ***
+
 /**
  * @param {Object} graph Node to array of neighboring nodes.
  * @param {string} source Source node to start traversal from. Has to be a valid node if graph is non-empty.

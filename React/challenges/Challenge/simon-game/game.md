@@ -1,3 +1,5 @@
+*** copy game.md ***
+
 import blue from './sounds/blue.mp3';
 import green from './sounds/green.mp3';
 import red from './sounds/red.mp3';

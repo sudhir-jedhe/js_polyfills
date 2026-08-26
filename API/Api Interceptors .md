@@ -1,3 +1,5 @@
+*** copy Api Interceptors .md ***
+
 ### **Interceptors in API Requests (Fetch / Axios)**
 
 An **Interceptor** is a middleware-like mechanism that allows you to manipulate HTTP requests or responses before they are sent to the server or processed by your application. Both `Axios` and `Fetch` provide support for interceptors, although they are more commonly associated with `Axios`.

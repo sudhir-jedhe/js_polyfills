@@ -1,3 +1,5 @@
+*** copy React Elements and React Components.md ***
+
 In React, the terms **element** and **component** are often used interchangeably by beginners, but they represent distinct concepts. Understanding the difference between them is crucial for mastering React development.
 
 Here’s a breakdown of each:

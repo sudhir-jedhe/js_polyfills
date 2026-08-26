@@ -1,3 +1,5 @@
+*** copy Explain how Content-Security-Policy-Report-Only works alongside reporting endpoints like Report-To.md ***
+
 **`Content-Security-Policy-Report-Only` (CSPRO)** is a diagnostic HTTP response header that allows security engineers to evaluate and test Content Security Policies without risking site breakage.
 
 Instead of blocking requests that violate policy rules, the browser **allows all executions to proceed unimpeded** while logging and sending structured JSON violation payloads to a designated **Reporting Endpoint**.

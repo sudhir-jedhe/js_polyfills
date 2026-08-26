@@ -1,3 +1,5 @@
+*** copy What are the steps and breaking changes when upgrading an application to React 19?.md ***
+
 Upgrading an application to React 19 involves both updating package dependencies and addressing several breaking changes where older patterns and APIs have been formally deprecated or removed.
 
 ---

@@ -1,3 +1,5 @@
+*** copy findSubString.md ***
+
 Both implementations you provided aim to solve the problem of finding all starting indices in a string `s` where a concatenation of words from the list `words` appears. Let's walk through the two approaches and analyze their correctness and efficiency.
 
 ### Approach 1: Sliding Window with Word Count Map

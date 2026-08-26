@@ -1,3 +1,5 @@
+*** copy find-smallest-value-represented-sum-subset-given-array.md ***
+
 ```js
 // Input:  arr[] = {1, 10, 3, 11, 6, 15};
 // Output: 2

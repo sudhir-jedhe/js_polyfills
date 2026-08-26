@@ -1,3 +1,5 @@
+*** copy index.md ***
+
 const generateMemebtn = document.querySelector('.meme-generator .generate-meme-btn');
 const body = document.querySelector('body');
 const memeImg = document.querySelector('.meme-generator img');

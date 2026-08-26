@@ -1,3 +1,5 @@
+*** copy what do you mean by primitive data type.md ***
+
 A **primitive data type** (or simply a "primitive") is a fundamental, built-in data type provided by a programming language that represents a single, raw value. It is not an object and has no methods or properties of its own.
 
 ---

@@ -1,3 +1,5 @@
+*** copy productExceptSelf.md ***
+
 ```js
 function productExceptSelf(nums) {
     const length = nums.length;

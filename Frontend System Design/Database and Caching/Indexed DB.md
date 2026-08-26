@@ -1,3 +1,5 @@
+*** copy Indexed DB.md ***
+
 ### 1. What is IndexedDB?
 
 **IndexedDB** is a low-level, transactional, object-oriented database built directly into modern web browsers. Unlike `localStorage` or `sessionStorage`—which are limited to $\approx 5\text{MB}$ of string-only key-value data and execute **synchronously** (blocking the JavaScript main thread)—IndexedDB is designed specifically for **large-scale, structured data**.

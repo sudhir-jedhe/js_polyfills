@@ -1,3 +1,5 @@
+*** copy To prevent redundant API calls.md ***
+
 API call is faced every time the user open the same page. How would you optimize it? Use caching like a memory cache, local storage, react query, browser cache.
 
 To prevent redundant API calls and optimize performance, we need to treat the shopping cart as **server state** rather than just local UI state.

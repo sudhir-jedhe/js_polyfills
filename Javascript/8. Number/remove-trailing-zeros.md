@@ -1,3 +1,5 @@
+*** copy remove-trailing-zeros.md ***
+
 To remove trailing zeros from a number after converting it to a fixed-point string, there are several approaches you can consider. Below are the three main methods described in your message:
 
 ### 1. **Using Regular Expressions**

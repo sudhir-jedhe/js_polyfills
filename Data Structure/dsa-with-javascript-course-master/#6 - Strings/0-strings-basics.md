@@ -1,3 +1,5 @@
+*** copy 0-strings-basics.md ***
+
 // Strings in Javascript
 
 // Creating Strings

@@ -1,3 +1,5 @@
+*** copy Explain how React 19's 'use' API handles Promises and Context conditionally inside components.md ***
+
 React 19’s **`use` API** represents a major shift in how React components consume resources during render.
 
 Unlike traditional React Hooks (which strictly require unconditional, top-level execution under the "Rules of Hooks"), **`use` is an API function** that can be called conditionally (inside `if` statements) and within loops.

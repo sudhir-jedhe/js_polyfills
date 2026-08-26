@@ -1,3 +1,5 @@
+*** copy useArray.md ***
+
 Your `useArray` custom hook implementation is clean, well-typed, and follows React best practices.
 
 Here is a review of what makes this implementation solid, along with a few useful enhancements you can add.

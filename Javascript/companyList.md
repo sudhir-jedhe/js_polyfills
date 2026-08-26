@@ -1,3 +1,5 @@
+*** copy companyList.md ***
+
 // 50 companies that are HIRING freshers.
 
 // 1. Adobe - Direct Hiring

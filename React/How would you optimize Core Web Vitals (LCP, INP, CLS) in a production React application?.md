@@ -1,3 +1,5 @@
+*** copy How would you optimize Core Web Vitals (LCP, INP, CLS) in a production React application?.md ***
+
 Optimizing Core Web Vitals in a production React application requires addressing the complete delivery and execution lifecycle: network delivery, HTML parsing, JavaScript hydration, and UI rendering.
 
 ---

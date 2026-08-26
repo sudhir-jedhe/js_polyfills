@@ -1,3 +1,5 @@
+*** copy digitalClock.md ***
+
 Creating a digital clock that renders the current time in the `HH:MM:SS` format using a 7-segment digital display requires rendering each individual digit as a set of 7 segments. Here's how you can implement a simple version of this using HTML, CSS, and JavaScript.
 
 ### Steps:

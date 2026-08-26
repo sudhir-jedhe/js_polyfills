@@ -1,3 +1,5 @@
+*** copy validateStringsInArray.md ***
+
 ```js
 export const validateStrings = (array) => {
   return array.every((element) => typeof element === "string");

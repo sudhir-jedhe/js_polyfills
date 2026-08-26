@@ -1,3 +1,5 @@
+*** copy aria-hidden in Dynamic Content.md ***
+
 The `aria-hidden` attribute is used in accessibility to hide elements from assistive technologies like screen readers. When applied to an element, it tells screen readers to ignore that element and all of its descendants, which can be useful for dynamic content in web applications.
 
 In the context of **dynamic content** in JavaScript, `aria-hidden` can help manage what content should or should not be announced by screen readers when elements are shown or hidden.

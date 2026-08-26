@@ -1,3 +1,5 @@
+*** copy Compound Component Pattern.md ***
+
 # Compound Component Pattern in React
 
 ## Frontend System Design + Complete Senior Interview Explanation

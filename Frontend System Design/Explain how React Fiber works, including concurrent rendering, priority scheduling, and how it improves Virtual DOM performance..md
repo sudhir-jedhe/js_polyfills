@@ -1,3 +1,5 @@
+*** copy Explain how React Fiber works, including concurrent rendering, priority scheduling, and how it improves Virtual DOM performance..md ***
+
 Before **React 16**, React’s reconciliation engine (often referred to as the **Stack Reconciler**) processed component updates recursively.
 
 When a state change occurred, React traversed the entire Virtual DOM tree synchronously. Once started, this process **could not be interrupted, paused, or prioritized**. For large component trees, a heavy update phase could easily exceed the 16ms frame budget (for 60fps displays), blocking the main browser thread and causing input lag, dropped animation frames, and UI freezing.

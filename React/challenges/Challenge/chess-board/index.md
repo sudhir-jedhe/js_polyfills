@@ -1,3 +1,5 @@
+*** copy index.md ***
+
 const gridSize = 8;
 const board = document.querySelector('.board');
 

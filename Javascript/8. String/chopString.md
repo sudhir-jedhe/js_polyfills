@@ -1,3 +1,5 @@
+*** copy chopString.md ***
+
 ```js
 const chop = (str, size = str.length) => {
   const arr = [];

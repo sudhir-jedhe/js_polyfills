@@ -1,3 +1,5 @@
+*** copy 03-google-oauth-setup.md ***
+
 # Manual Work — 03 Google OAuth Setup
 
 ## Status

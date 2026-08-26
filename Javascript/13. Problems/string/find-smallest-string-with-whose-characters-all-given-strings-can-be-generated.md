@@ -1,3 +1,5 @@
+*** copy find-smallest-string-with-whose-characters-all-given-strings-can-be-generated.md ***
+
 ```js
 // Input: arr[] = {“your”, “you”, “or”, “yo”}
 // Output: ruyo

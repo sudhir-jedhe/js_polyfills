@@ -1,3 +1,5 @@
+*** copy How do I integrate the cn() helper with class-variance-authority (CVA) in a TypeScript React project?.md ***
+
 Integrating the `cn()` helper with **`class-variance-authority` (CVA)** gives you a strongly-typed component API where props automatically map to Tailwind classes, while external `className` overrides are resolved cleanly without specificity conflicts.
 
 ---

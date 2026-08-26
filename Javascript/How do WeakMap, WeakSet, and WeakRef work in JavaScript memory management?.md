@@ -1,3 +1,5 @@
+*** copy How do WeakMap, WeakSet, and WeakRef work in JavaScript memory management?.md ***
+
 JavaScript uses a **mark-and-sweep** garbage collection (GC) algorithm. Standard data structures (`Map`, `Set`, `Array`, `Object`) hold **strong references** to their contents, preventing the garbage collector from reclaiming an object as long as that collection exists in memory.
 
 `WeakMap`, `WeakSet`, and `WeakRef` hold **weak references**, allowing objects to be garbage-collected when no other strong references to them remain.

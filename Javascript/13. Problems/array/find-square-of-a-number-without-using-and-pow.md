@@ -1,3 +1,5 @@
+*** copy find-square-of-a-number-without-using-and-pow.md ***
+
 ```js
 const square = (n) => {
   if (n < 0) return n;

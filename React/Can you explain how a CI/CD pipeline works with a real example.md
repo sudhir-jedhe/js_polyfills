@@ -1,3 +1,5 @@
+*** copy CD pipeline works with a real example.md ***
+
 Here is a clean, structured visual breakdown recreating the exact CI/CD pipeline step-by-step workflow shown in the image.
 
 ---

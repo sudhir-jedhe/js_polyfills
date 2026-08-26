@@ -1,3 +1,5 @@
+*** copy random.md ***
+
 Your code demonstrates several ways to generate random numbers and unique IDs in JavaScript. Here's a breakdown and clarification of each function:
 
 ### 1. **`randomNumber(min, max)`**:

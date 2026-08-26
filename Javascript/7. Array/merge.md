@@ -1,3 +1,5 @@
+*** copy merge.md ***
+
 ### **Array Merging and Spread/Concat Handling**
 
 In JavaScript, merging arrays and combining elements using the spread operator (`...`) or the `concat()` method is common. However, there are some subtleties that need to be considered when merging arrays or combining other non-iterable types, such as booleans, strings, etc.

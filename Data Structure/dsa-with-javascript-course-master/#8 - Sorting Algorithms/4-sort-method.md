@@ -1,3 +1,5 @@
+*** copy 4-sort-method.md ***
+
 // Sort() Method in Javascript
 
 const fruits = ["dragon fruit", "apple", "date", "cherry", "banana"];

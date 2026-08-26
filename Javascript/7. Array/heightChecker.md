@@ -1,3 +1,5 @@
+*** copy heightChecker.md ***
+
 Your code is almost perfect. Here's a breakdown of the logic, followed by a brief explanation of how it works:
 
 ### `heightChecker.js`

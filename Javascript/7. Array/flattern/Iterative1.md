@@ -1,3 +1,5 @@
+*** copy Iterative1.md ***
+
 ### **Problem Statement:**
 
 We are given an array that may contain nested arrays. The goal is to implement a function that flattens the array so that all nested arrays are recursively combined into a single-level array. The function should not mutate the original array, and should return a new flattened array.

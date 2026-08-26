@@ -1,3 +1,5 @@
+*** copy Multi-language Support.md ***
+
 In front-end system design, **multi-language support** requires structuring an application to dynamically adapt its text, regional formats (dates, numbers, currencies), and layout (RTL vs. LTR) based on user preference.
 
 Front-end engineers divide this into two core concepts:

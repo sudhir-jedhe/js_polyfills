@@ -1,3 +1,5 @@
+*** copy htmlInterview.md ***
+
 Here are detailed, interview-ready answers for the HTML questions from your screenshots, categorized cleanly with clear examples.
 
 ---

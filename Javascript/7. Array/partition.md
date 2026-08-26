@@ -1,3 +1,5 @@
+*** copy partition.md ***
+
 Partitioning arrays into groups based on a predicate is a useful technique that can help in organizing data. Let’s dive into the two types of partitioning: **two-partitioning** and **multiple partitioning**, along with their implementations.
 
 ### 1. **Partition Array into Two Arrays**

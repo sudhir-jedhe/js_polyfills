@@ -1,3 +1,5 @@
+*** copy What is the DOM.md ***
+
 - DOM stands for Document Object Model is an interface (API) for HTML and XML documents.
 
 - When the browser first reads (parses) our HTML document it creates a big object, a really big object based on the HTML document this is the DOM. 

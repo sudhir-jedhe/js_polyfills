@@ -1,3 +1,5 @@
+*** copy How do I write automated Playwright tests to verify dark mode toggle states and color token assertions?.md ***
+
 To test light/dark theme switching and ensure semantic color tokens resolve accurately without visual regressions, automated Playwright tests must verify:
 
 1. **DOM Class & Attribute Mutations:** Checking that the `.dark` class (or `data-theme="dark"`) applies to `<html>`.

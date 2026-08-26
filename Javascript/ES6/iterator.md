@@ -1,3 +1,5 @@
+*** copy iterator.md ***
+
 Under the hood, the **array spread syntax** (`[...iterable]`) and **function argument spread** (`fn(...iterable)`) do not rely on standard `for` loops or object keys. Instead, they rely entirely on the **JavaScript Iteration Protocol**.
 
 Any object that implements the `Symbol.iterator` method can be unpacked using spread syntax—including built-in iterables (`Array`, `String`, `Map`, `Set`, `TypedArray`, `NodeList`) and custom objects or **Generators**.

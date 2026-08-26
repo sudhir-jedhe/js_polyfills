@@ -1,3 +1,5 @@
+*** copy find-the-element-with-k-frequency-in-an-array.md ***
+
 ```js
 Learn how to find the element with k frequency in an array.
 

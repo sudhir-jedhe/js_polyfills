@@ -1,3 +1,5 @@
+*** copy largestNumber.md ***
+
 ```js
 function largestNumber(nums) {
     const compareFn = (a, b) => {

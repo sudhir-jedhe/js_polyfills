@@ -1,3 +1,5 @@
+*** copy Event Delegation.md ***
+
 **Event Delegation** is a JavaScript pattern where a single event listener is attached to a parent element to manage events for all of its current and future child elements.
 
 Instead of adding separate event listeners to every individual child node, event delegation leverages **Event Bubbling**—the process where an event triggered on a child node propagates (bubbles) up the DOM tree to its ancestors.

@@ -1,3 +1,5 @@
+*** copy Loading Pattern.md ***
+
 In frontend system design, there is no single "best" loading state—the optimal approach depends on **user expectation, content type, latency duration, and layout predictability**.
 
 A well-architected frontend handles loading states across four design dimensions: **UX patterns, component architecture, state management, and network performance**.

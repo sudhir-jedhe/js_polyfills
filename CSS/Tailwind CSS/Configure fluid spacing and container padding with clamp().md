@@ -1,3 +1,5 @@
+*** copy Configure fluid spacing and container padding with clamp().md ***
+
 In Tailwind CSS v4, defining custom spacing variables inside the `@theme` directive under the `--spacing-*` namespace automatically registers them across all spacing utilities: padding (`p-*`), margin (`m-*`), gap (`gap-*`), width/height (`w-*`, `h-*`), and insets (`top-*`, `inset-*`).
 
 ---

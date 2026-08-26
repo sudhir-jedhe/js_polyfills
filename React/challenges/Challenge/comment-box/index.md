@@ -1,3 +1,5 @@
+*** copy index.md ***
+
 const commentContainer = document.querySelector('#commentContainer');
 
 const createElement = (elementType = 'div', properties, ...children) => {

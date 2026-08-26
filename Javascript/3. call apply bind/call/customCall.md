@@ -1,3 +1,5 @@
+*** copy customCall.md ***
+
 Creating a **custom `call()`** function from scratch in JavaScript will allow you to understand the underlying mechanics of how function invocation with a specific `this` context works. The `call()` method in JavaScript allows you to invoke a function with a specified `this` value and pass arguments individually (not as an array).
 
 ### Custom `call` Function Explanation

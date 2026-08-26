@@ -1,3 +1,5 @@
+*** copy improveFunctionExcludeItems.md ***
+
 ```js
 
 let items = [

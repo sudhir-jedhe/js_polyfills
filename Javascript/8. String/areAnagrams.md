@@ -1,3 +1,5 @@
+*** copy areAnagrams.md ***
+
 ```js
 areAnagrams("cinema", "iceman"); // Output: true
 areAnagrams("restful", "fluster"); // Output: true

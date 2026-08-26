@@ -1,3 +1,5 @@
+*** copy flatternObject.md ***
+
 It looks like you provided multiple variations of the `flattenObject` function designed to flatten a nested object structure. Let me break down and summarize the provided code examples, highlighting their main differences and functionality.
 
 ---

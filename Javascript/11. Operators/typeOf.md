@@ -1,3 +1,5 @@
+*** copy typeOf.md ***
+
 To implement the utility functions for determining the types of primitive values and non-primitive values, we'll focus on the logic for detecting these types in JavaScript.
 
 ### **Primitive Types Functions**

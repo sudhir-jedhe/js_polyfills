@@ -1,3 +1,5 @@
+*** copy 01-project-foundation.md ***
+
 Use @specs/01-project-foundation.md as the source of truth.
 
 Manual setup from @manual-work/00-initial-project-setup.md is already completed.

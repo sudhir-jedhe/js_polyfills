@@ -1,3 +1,5 @@
+*** copy find All Divisors of a Natural Number.md ***
+
 Both of the provided implementations find the divisors of a number \( n \). Let’s analyze and explain them:
 
 ---

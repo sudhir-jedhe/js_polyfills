@@ -1,3 +1,5 @@
+*** copy check-if-two-stacks-are-equal.md ***
+
 ```js
 Input:
 2 9 3 7 5

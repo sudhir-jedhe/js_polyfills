@@ -1,3 +1,5 @@
+*** copy customBind.md ***
+
 Creating a **custom `bind()`** function is a great way to understand how JavaScript handles function contexts and how function binding works. The `bind()` method allows you to create a new function that, when called, has its `this` value set to a specific value, and optionally, you can also pre-apply arguments.
 
 ### `bind()` Function Explanation

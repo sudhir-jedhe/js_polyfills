@@ -1,3 +1,5 @@
+*** copy Autherization.md ***
+
 ### Authentication vs Authorization vs Role-Based Access Control (RBAC)
 
 Since you've worked with JWT Authentication & Authorization in React applications, this is a common interview topic.

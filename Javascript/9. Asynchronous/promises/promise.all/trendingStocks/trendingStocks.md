@@ -1,3 +1,5 @@
+*** copy trendingStocks.md ***
+
 ```js
 async function trendingStocks(n) {
     // Define API endpoints for different types of stock information

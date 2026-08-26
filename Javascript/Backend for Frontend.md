@@ -1,3 +1,5 @@
+*** copy Backend for Frontend.md ***
+
 ### Why BFF (Backend for Frontend) is a Game-Changer
 
 The **Backend for Frontend (BFF)** design pattern is gaining popularity because it bridges the gap between the frontend and backend, providing tailored API responses and a cleaner, more optimized structure for modern web applications. Let's explore **6 key reasons** why BFF can significantly improve your development process and product.

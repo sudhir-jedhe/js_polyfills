@@ -1,3 +1,5 @@
+*** copy 99 Claude (Secret) Commands.md ***
+
 This infographic, titled **"99 Claude (Secret) Commands"** by Ajit Kumar, is structured into **9 distinct categories**, offering prompt templates and slash commands to optimize various workflows using Claude.
 
 Here is an elaboration of what each category covers:

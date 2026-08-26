@@ -1,3 +1,5 @@
+*** copy Vite for pure React 19 Server Components?.md ***
+
 To configure a pure React 19 Server Components (RSC) environment without frameworks like Next.js, you need a dual-build setup:
 
 1. **A Server Build:** Compiles Server Components into the React Flight stream format (`react-server-dom-webpack/server`).

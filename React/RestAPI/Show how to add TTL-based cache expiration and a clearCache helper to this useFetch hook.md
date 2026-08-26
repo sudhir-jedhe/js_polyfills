@@ -1,3 +1,5 @@
+*** copy Show how to add TTL-based cache expiration and a clearCache helper to this useFetch hook.md ***
+
 Here is the updated `useFetch` hook featuring **TTL-based (Time-To-Live)** cache expiration, automatic cleanup of stale entries, and a standalone `clearCache` helper function.
 
 ---

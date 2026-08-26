@@ -1,3 +1,5 @@
+*** copy static variable vs instance variable.md ***
+
 In JavaScript classes, **static variables** and **instance variables** are two different types of variables that are used to store data. Here's an example to explain their differences and how they are called.
 
 ### Static Variables:

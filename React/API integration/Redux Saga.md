@@ -1,3 +1,5 @@
+*** copy Redux Saga.md ***
+
 Here is a complete, production-ready implementation of asynchronous API integration using **Redux Saga** (alongside a custom **Axios instance with interceptors**).
 
 Redux Saga uses generator functions (`function*`) to handle side effects (like async API calls) as pure, testable, declarative processes.

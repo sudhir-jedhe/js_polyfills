@@ -1,3 +1,5 @@
+*** copy Show how to integrate Sentry into a React application with custom error boundaries and breadcrumbs.md ***
+
 Integrating Sentry into a React application provides real-time error tracking with rich context. Combining Sentry with a custom **Error Boundary** ensures that unhandled UI rendering exceptions display a graceful fallback UI to users while automatically transmitting error stack traces, component stacks, and user action **breadcrumbs** to your monitoring dashboard.
 
 ---

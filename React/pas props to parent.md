@@ -1,3 +1,5 @@
+*** copy pas props to parent.md ***
+
 Passing data from a **child** component to a **parent** component in React is not as straightforward as passing data from **parent to child** via `props`, because React follows a **one-way data flow**. However, you can achieve this by using **callback functions**.
 
 Here's a step-by-step explanation of how you can pass data from child to parent:

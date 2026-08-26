@@ -1,3 +1,5 @@
+*** copy sequential dependemcy.md ***
+
 Yes, whether these requests can run in parallel depends entirely on whether they depend on each other's data:
 
 * **Can they run in parallel?** If **Order** requires the `userId` fetched from User Details, and **Payment History** requires an `orderId` from the Orders, **no**, they cannot run in parallel because of data dependencies. However, if they are completely independent endpoints that only require a base user token/ID, **yes**, they can run in parallel using `Promise.all()`.

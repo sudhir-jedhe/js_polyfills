@@ -1,3 +1,5 @@
+*** copy JavaScript HTML DOM Node Lists.md ***
+
 A **`NodeList`** in JavaScript is a collection of DOM nodes returned by properties like `document.querySelectorAll()` or `element.childNodes`.
 
 Unlike an `HTMLCollection` (which contains *only* HTML element tags), a `NodeList` can contain **any type of DOM node**, including HTML elements, text nodes (including whitespace and line breaks), and comments.

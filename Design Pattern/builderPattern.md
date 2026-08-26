@@ -1,3 +1,5 @@
+*** copy builderPattern.md ***
+
 In your example, you have started implementing the **Builder Pattern**, but there is an issue with how `TaskBuilder` works. Specifically, the `this` reference inside the builder's methods is incorrect because you're returning an object that uses `this`, and it ends up referring to the `TaskBuilder` function itself, not the object being built. This can be fixed by using the `TaskBuilder`'s local variables (`name`, `description`, etc.) instead of the `this` reference.
 
 Here's how you can modify your implementation to properly follow the **Builder Pattern**:

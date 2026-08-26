@@ -1,3 +1,5 @@
+*** copy NAN.md ***
+
 In JavaScript, `NaN` (Not-a-Number) is a special value that represents an invalid or unrepresentable number. It has some unique properties, most notably:
 
 - `NaN` is **not equal to** any value, even to itself: `NaN !== NaN` is `true`.

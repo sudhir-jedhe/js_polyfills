@@ -1,3 +1,5 @@
+*** copy day-week-month-quarter-of-year.md ***
+
 Your functions for calculating the **day of the year**, **week of the year**, **month of the year**, and **quarter of the year** are correctly implemented. Here's an explanation of each one and some examples:
 
 ### 1. **Day of the Year**

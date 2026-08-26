@@ -1,3 +1,5 @@
+*** copy JavaScript Sets.md ***
+
 A JavaScript **`Set`** is a built-in collection of **unique values**. Unlike Arrays, a `Set` cannot contain duplicate elements—if you attempt to add an existing value, the addition is ignored.
 
 ---

@@ -1,3 +1,5 @@
+*** copy typesOfFunction.md ***
+
 Regular (Named) Functions
 The classic `function greet() {}`.
 Great for reusability, hoisting, and clear stack traces.

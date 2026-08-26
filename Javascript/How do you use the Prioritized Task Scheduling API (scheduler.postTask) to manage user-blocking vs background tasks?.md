@@ -1,3 +1,5 @@
+*** copy How do you use the Prioritized Task Scheduling API (scheduler.postTask) to manage user-blocking vs background tasks?.md ***
+
 The **Prioritized Task Scheduling API (`scheduler.postTask`)** allows you to schedule asynchronous work with explicit browser priority levels, dynamic cancellation, and priority reassignment via `TaskController`.
 
 ---

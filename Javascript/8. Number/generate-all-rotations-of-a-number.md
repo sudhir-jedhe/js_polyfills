@@ -1,3 +1,5 @@
+*** copy generate-all-rotations-of-a-number.md ***
+
 Here’s a detailed explanation of the provided code snippets:
 
 ---

@@ -1,3 +1,5 @@
+*** copy React Lanes & ChildLanes: Priority Scheduling Architecture.md ***
+
 Here is a clean, structured technical reference guide detailing **React Lanes**, bitmask operations, and how `childLanes` enable $O(1)$ subtree prioritization and work scheduling.
 
 ---

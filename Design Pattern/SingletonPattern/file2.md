@@ -1,3 +1,5 @@
+*** copy file2.md ***
+
 import singletonCounter from "./Counter";
 
 singletonCounter.incrementCount(); // 1

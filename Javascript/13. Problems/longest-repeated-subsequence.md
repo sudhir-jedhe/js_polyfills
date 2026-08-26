@@ -1,3 +1,5 @@
+*** copy longest-repeated-subsequence.md ***
+
 ```js
 const LRS = (str, m, n) => {
     // If there are no more characters in the string to evaluate

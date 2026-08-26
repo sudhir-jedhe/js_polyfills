@@ -1,3 +1,5 @@
+*** copy How do I integrate axe-playwright into Playwright visual regression tests to catch WCAG color contrast violations?.md ***
+
 Integrating `@axe-core/playwright` into your existing visual regression test suite allows you to capture pixel-diff snapshots while simultaneously running rule-based accessibility audits—such as **WCAG 2.1 AA/AAA color contrast violations** (`color-contrast` and `color-contrast-enhanced`)—in a single test run.
 
 ---

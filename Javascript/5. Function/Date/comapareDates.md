@@ -1,3 +1,5 @@
+*** copy comapareDates.md ***
+
 In JavaScript, when you compare dates, it's important to understand the difference between comparing **primitive values** (like numbers or strings) and **objects** (like `Date` objects).
 
 Let's break it down:

@@ -1,3 +1,5 @@
+*** copy implementation.md ***
+
 ```js
 // myCall implementation
 Function.prototype.myCall = function(thisContext, ...args) {

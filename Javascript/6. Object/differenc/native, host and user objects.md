@@ -1,3 +1,5 @@
+*** copy native, host and user objects.md ***
+
 In JavaScript, the types of objects you refer to—**native objects**, **host objects**, and **user objects**—are essential for understanding the JavaScript environment and how different objects behave based on their origin and purpose. Let's dive deeper into each type:
 
 ### **1. Native Objects**

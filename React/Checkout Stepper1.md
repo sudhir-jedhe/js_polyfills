@@ -1,3 +1,5 @@
+*** copy Checkout Stepper1.md ***
+
 An accessible, production-ready React Checkout Stepper component covering **Customer Info**, **Shipping Info**, **Payment Info**, and **Delivered (Order Summary)** stages with validation, step indicator lines, and responsive layout.
 
 ---

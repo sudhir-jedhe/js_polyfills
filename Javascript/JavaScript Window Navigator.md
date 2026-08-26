@@ -1,3 +1,5 @@
+*** copy JavaScript Window Navigator.md ***
+
 The **`window.navigator`** object contains information about the visitor's browser, operating system, network connection, device hardware, and capabilities.
 
 ---

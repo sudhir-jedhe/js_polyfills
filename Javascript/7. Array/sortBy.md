@@ -1,3 +1,5 @@
+*** copy sortBy.md ***
+
 ```js
 function sortBy(collection, property) {
   // do not remove

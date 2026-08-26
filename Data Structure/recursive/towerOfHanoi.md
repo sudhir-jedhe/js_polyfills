@@ -1,3 +1,5 @@
+*** copy towerOfHanoi.md ***
+
 // javascript recursive function to
 // solve tower of hanoi puzzle
 function towerOfHanoi(n, from_rod, to_rod, aux_rod) {

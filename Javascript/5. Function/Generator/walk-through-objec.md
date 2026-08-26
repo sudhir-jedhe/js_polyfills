@@ -1,3 +1,5 @@
+*** copy walk-through-objec.md ***
+
 // Given an object with deeply nested keys, walking through its leaf nodes is a non-trivial task. Supposing that we want to visit each key in a depth-first manner, we can code a generator function to achieve this, by recursively visiting each key and its children.
 
 // To walk through a JavaScript object depth-first, you need to use a for...of loop and Object.keys() to iterate over the keys of the object. You can then use typeof to check if each value in the given object is itself an object.

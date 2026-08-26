@@ -1,3 +1,5 @@
+*** copy Last_duplicate_element_in_a_sorted_array.md ***
+
 ```js
 /*
 Input : arr[] = {1, 5, 5, 6, 6, 7}

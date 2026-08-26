@@ -1,3 +1,5 @@
+*** copy Jsx.md ***
+
 ### **React with JSX: An Explanation**
 
 **JSX** (JavaScript XML) is a syntax extension for JavaScript that looks similar to HTML but works inside JavaScript code. React uses JSX to describe what the UI should look like. It's a key feature that makes React easier to write and understand, as it allows you to write HTML-like structures directly within JavaScript.

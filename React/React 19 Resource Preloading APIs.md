@@ -1,3 +1,5 @@
+*** copy React 19 Resource Preloading APIs.md ***
+
 Here is a clean, structured reference guide explaining React 19's new Resource Preloading APIs with practical code examples.
 
 ---

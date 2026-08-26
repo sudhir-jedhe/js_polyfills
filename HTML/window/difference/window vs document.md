@@ -1,3 +1,5 @@
+*** copy window vs document.md ***
+
 // | Window |Document|
 // | ------------------------------------------------------------------|------------------- |
 // | It is the root level element in any web page | It is the direct child of the window object. This is also known as Document Object Model(DOM)

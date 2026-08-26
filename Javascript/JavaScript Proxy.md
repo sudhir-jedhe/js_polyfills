@@ -1,3 +1,5 @@
+*** copy JavaScript Proxy.md ***
+
 A **JavaScript `Proxy**` is an object that wraps a target object and acts as a custom gatekeeper for operations performed on that target.
 
 Whenever code reads, writes, inspects, or calls a function on the proxied object, the `Proxy` intercepts the operation using handler functions called **traps**. This gives you complete control over object behavior at runtime.

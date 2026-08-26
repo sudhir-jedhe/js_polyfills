@@ -1,3 +1,5 @@
+*** copy defaultParameterRequired.md ***
+
 In your code, you're defining a function `isRequired` that throws an error when called. You use this function as the default value for the `videoCode` parameter in the `setCurrentVideoCode` function. Here's how it works in the various cases you test:
 
 ### Code Breakdown:

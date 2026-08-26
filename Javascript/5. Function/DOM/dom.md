@@ -1,3 +1,5 @@
+*** copy dom.md ***
+
 For a **Senior React / JavaScript interview (10+ years)**, DOM questions are very common.
 
 # Top DOM Interview Questions

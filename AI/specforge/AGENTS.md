@@ -1,3 +1,5 @@
+*** copy AGENTS.md ***
+
 # SpecForge Agent Guide
 
 Use the project rules in `.cursor/rules/`.

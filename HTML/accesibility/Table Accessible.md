@@ -1,3 +1,5 @@
+*** copy Table Accessible.md ***
+
 Making a table accessible for screen readers in JavaScript involves using proper HTML attributes, roles, and ensuring that dynamic content (such as sorting, filtering, or pagination) is also accessible. This is achieved by adding semantic HTML and ARIA (Accessible Rich Internet Applications) roles to provide additional context to assistive technologies.
 
 ### **Steps to Make a Table Accessible for Screen Readers**

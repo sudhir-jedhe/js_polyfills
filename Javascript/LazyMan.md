@@ -1,3 +1,5 @@
+*** copy LazyMan.md ***
+
 ```js
 // LazyMan is very lazy, he only eats and sleeps.
 

@@ -1,3 +1,5 @@
+*** copy syncVsAsync.md ***
+
 ### What are Async and Sync Operations in JavaScript?
 
 In JavaScript, **asynchronous** and **synchronous** operations represent different approaches to handling tasks. Here's an explanation:

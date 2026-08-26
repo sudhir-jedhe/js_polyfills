@@ -1,3 +1,5 @@
+*** copy structuredClone.md ***
+
 The `structuredClone()` function is a new built-in method introduced in modern JavaScript that provides a more flexible, deep cloning solution compared to the common `JSON.parse(JSON.stringify(...))` approach. It is designed to efficiently clone complex objects, including objects with non-JSON-serializable properties like `Date`, `Map`, `Set`, `ArrayBuffer`, `RegExp`, and more.
 
 Let's dive into how `structuredClone()` works, its advantages, and examples:

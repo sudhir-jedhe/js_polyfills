@@ -1,3 +1,5 @@
+*** copy duplicateZeros.md ***
+
 The function you've implemented `duplicateZeros` seems correct and works as expected for duplicating zeros in an array while maintaining the same array length. However, there are a few things worth mentioning and improving in terms of performance and understanding.
 
 ### **Explanation of Code:**

@@ -1,3 +1,5 @@
+*** copy Project explanation.md ***
+
 Here is a complete, structured **Project Explanation Template** tailored to your 8 years of experience as a **Senior/Lead Front-End Developer**. It uses the **STAR/Professional Project Structure** (Overview, Role, Tech Stack, Team Size, Features, and Challenges) so you can present a real-world application clearly and confidently.
 
 ---

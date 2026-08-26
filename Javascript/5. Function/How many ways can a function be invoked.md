@@ -1,3 +1,5 @@
+*** copy How many ways can a function be invoked.md ***
+
 **How many ways can a function be invoked?**
 ↑ There are 4 ways that a function can be invoked in JavaScript. The invocation determines the value of this or the "owner" object of that function.
 

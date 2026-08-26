@@ -1,3 +1,5 @@
+*** copy Web History API.md ***
+
 The **HTML DOM History API** (`window.history`) gives JavaScript direct access to the browser's session history stack, allowing you to control browser navigation and update the address bar URL **without triggering a full page reload**.
 
 This API forms the underlying mechanics for client-side routers in Single-Page Applications (SPAs) like React Router, Vue Router, and Angular Router.

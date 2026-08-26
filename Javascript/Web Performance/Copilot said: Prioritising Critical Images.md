@@ -1,3 +1,5 @@
+*** copy Copilot said: Prioritising Critical Images.md ***
+
 # Prioritising Critical Images
 
 One of the biggest image-performance mistakes is treating **all images equally**.

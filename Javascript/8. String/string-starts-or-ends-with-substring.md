@@ -1,3 +1,5 @@
+*** copy string-starts-or-ends-with-substring.md ***
+
 While working on a project a little while back, I came across a problem that made me stop and think. I was trying to check if a truncated HTML string that was serialized from the server had been truncated in the middle of a tag. Naturally, instead of writing a one-off solution, I decided to create a reusable helper function.
 
 Check if a string starts with a substring of another string

@@ -1,3 +1,5 @@
+*** copy JavaScript HTML DOM Collections.md ***
+
 In JavaScript, **DOM Collections** are array-like objects that contain groups of DOM nodes or elements returned by browser selection methods.
 
 The two primary types of DOM Collections are **`HTMLCollection`** and **`NodeList`**. While both allow index access and property reading, they behave differently in terms of **liveness** and available **array methods**.

@@ -1,3 +1,5 @@
+*** copy parse-float-with-two-decimal-places.md ***
+
 ```js
 let num1 = parseFloat("10.547892");
 let num2 = parseFloat("10.547892").toFixed(2);

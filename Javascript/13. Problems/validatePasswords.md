@@ -1,3 +1,5 @@
+*** copy validatePasswords.md ***
+
 ```js
 export const validatePasswords = (first, second) => {
   if (first !== second) {

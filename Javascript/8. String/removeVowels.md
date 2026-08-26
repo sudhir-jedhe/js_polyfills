@@ -1,3 +1,5 @@
+*** copy removeVowels.md ***
+
 ```js
 export const removeVowels = (str) => {
   const vowels = ["a", "e", "i", "o", "u"];

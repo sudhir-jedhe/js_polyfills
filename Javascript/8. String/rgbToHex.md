@@ -1,3 +1,5 @@
+*** copy rgbToHex.md ***
+
 Your `rgbToHex` implementation is **clean, robust, and well-structured**!
 
 The helper function `getHexCode` correctly handles clamping, conversion to hexadecimal, and string padding.

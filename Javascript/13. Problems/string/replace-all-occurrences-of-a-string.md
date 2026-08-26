@@ -1,3 +1,5 @@
+*** copy replace-all-occurrences-of-a-string.md ***
+
 ```js
 // Origin String
 const str = "Welcome GeeksforGeeks, Welcome geeks";

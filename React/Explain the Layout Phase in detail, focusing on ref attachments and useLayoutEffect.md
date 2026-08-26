@@ -1,3 +1,5 @@
+*** copy Explain the Layout Phase in detail, focusing on ref attachments and useLayoutEffect.md ***
+
 The **Layout Phase** is the third sub-phase of React's synchronous **Commit Phase**.
 
 It runs **immediately after DOM mutations have been applied**, but **before the browser paints pixels to the screen**. At this exact moment, the live DOM in memory reflects all the new additions, deletions, and property changes, but the user is still looking at the previous frame on their display.

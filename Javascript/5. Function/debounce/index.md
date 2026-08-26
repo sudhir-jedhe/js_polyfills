@@ -1,3 +1,5 @@
+*** copy index.md ***
+
 // Debouncing is a technique used to control how many times we allow a function
 // to be executed over time. When a JavaScript function is debounced
 // with a wait time of X milliseconds, it must wait until after X

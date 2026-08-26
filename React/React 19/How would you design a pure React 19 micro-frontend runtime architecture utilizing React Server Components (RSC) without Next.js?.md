@@ -1,3 +1,5 @@
+*** copy How would you design a pure React 19 micro-frontend runtime architecture utilizing React Server Components (RSC) without Next.js?.md ***
+
 Designing a pure React 19 micro-frontend (MFE) runtime architecture using React Server Components (RSC) without Next.js requires decoupling the core React 19 Flight/RSC server and client runtimes from framework abstractions.
 
 In this architecture, independent MFE server services stream RSC payload chunks over HTTP, and a lightweight Shell orchestrates and reconciles these streams on the client.

@@ -1,3 +1,5 @@
+*** copy pluck.md ***
+
 You're absolutely right! The `pluck` function can be made more flexible, so it can handle both single and multiple key extractions from an array of objects. Below is a breakdown of the implementation you've provided:
 
 ### Pluck a single value for each object:

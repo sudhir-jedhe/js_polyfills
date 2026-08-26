@@ -1,3 +1,5 @@
+*** copy Inheritance and context.md ***
+
 ### 1. **Output and Fix for `hello()`**
 
 ```javascript

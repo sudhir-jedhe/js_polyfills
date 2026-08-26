@@ -1,3 +1,5 @@
+*** copy check_if_an_Array_includes_a_value_in_JavaScript.md ***
+
 ```js
 let num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
  

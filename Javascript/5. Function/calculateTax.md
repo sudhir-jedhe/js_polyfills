@@ -1,3 +1,5 @@
+*** copy calculateTax.md ***
+
 ### Explanation of the Code:
 
 The function `calculateTax` is designed to calculate the total tax based on income and a set of progressive tax brackets. In a progressive tax system, the tax rate increases as the income increases, and different portions of income are taxed at different rates.

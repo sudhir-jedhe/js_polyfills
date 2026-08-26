@@ -1,3 +1,5 @@
+*** copy customApply.md ***
+
 Creating a **custom `apply()` function** from scratch in JavaScript can help you understand how `apply()` works and gain insight into function invocation and the `this` context. Let's build it step by step.
 
 ### Custom `apply` Function Explanation

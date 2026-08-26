@@ -1,3 +1,5 @@
+*** copy quickSort.md ***
+
 // Quick sort is generally regarded as the most efficient general-purpose sorting algorithm for any array size, being faster than merge sort on average. The standard form of quick sort is generally done recursively and in-place. However, it is an unstable sort and hence merge sort could be preferred in cases where stability is important.
 
 // Should the data be sorted in an ascending or descending order?

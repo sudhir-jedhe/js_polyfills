@@ -1,3 +1,5 @@
+*** copy multiplyAll.md ***
+
 The code you provided demonstrates the use of `Array.prototype.reduce()` to compute the sum and product of elements in an array.
 
 ### Explanation:

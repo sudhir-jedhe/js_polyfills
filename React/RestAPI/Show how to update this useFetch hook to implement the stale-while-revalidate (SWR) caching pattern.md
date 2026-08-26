@@ -1,3 +1,5 @@
+*** copy Show how to update this useFetch hook to implement the stale-while-revalidate (SWR) caching pattern.md ***
+
 Here is the updated `useFetch` hook implementing the **Stale-While-Revalidate (SWR)** pattern.
 
 The strategy works by immediately returning existing cached data (even if stale) to keep the UI instant, while concurrently dispatching a background network request to revalidate and update the cache and UI without triggering a full loading state.

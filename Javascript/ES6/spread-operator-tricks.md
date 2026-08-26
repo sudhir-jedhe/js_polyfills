@@ -1,3 +1,5 @@
+*** copy spread-operator-tricks.md ***
+
 ### 3 Ways to Use the JavaScript Spread Operator with Arrays
 
 The JavaScript **spread operator (`...`)** is a powerful tool when working with arrays, allowing you to perform common operations with ease. Let's explore three useful ways to use the spread operator with arrays:

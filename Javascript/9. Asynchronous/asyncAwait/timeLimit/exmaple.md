@@ -1,3 +1,5 @@
+*** copy exmaple.md ***
+
 Thank you for providing this detailed explanation of the `timeLimit` function. I'll create a React component that demonstrates this function, allowing users to interact with it and see how it works with different time limits and asynchronous tasks.
 
 ```typescriptreact project="async-await-demo"

@@ -1,3 +1,5 @@
+*** copy sumDigitDifferences.md ***
+
 The two functions you've written compute the sum of absolute differences between the digits of numbers. Let's break down what they do and how they are structured.
 
 ---

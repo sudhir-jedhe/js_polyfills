@@ -1,3 +1,5 @@
+*** copy difference between `Array.from()` and `Array.of()`?.md ***
+
 Both **`Array.from()`** and **`Array.of()`** are static factory methods introduced in ES6 (`ES2015`) to create new Array instances, but they serve completely different purposes:
 
 * **`Array.from()`** converts **iterable or array-like objects** into real Arrays.

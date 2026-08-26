@@ -1,3 +1,5 @@
+*** copy LinkedList.md ***
+
 JavaScript Data Structures - Linked List
 
 Definition

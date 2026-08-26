@@ -1,3 +1,5 @@
+*** copy difference between `Object` and `Array`?.md ***
+
 In JavaScript, both `Object` and `Array` are fundamental reference types used to store collections of data. However, they are designed for fundamentally different access patterns and use cases.
 
 An **`Object`** represents an **keyed collection** (key-value pairs) for unstructured or labeled data. An **`Array`** represents an **ordered sequence** (indexed list) of elements.

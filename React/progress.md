@@ -1,3 +1,5 @@
+*** copy progress.md ***
+
 <https://react.dev/reference/react-dom/components/progress>
 
 Here is the recreated and cleanly formatted reference guide for the built-in React `<progress>` component, based on the official documentation.

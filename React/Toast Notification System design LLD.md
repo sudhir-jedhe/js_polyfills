@@ -1,3 +1,5 @@
+*** copy Toast Notification System design LLD.md ***
+
 Building a production-ready Toast Notification System is a classic React Low-Level Design (LLD) interview question. It tests your ability to handle **global state management, cleanup/memory leak prevention, event-driven architecture, and UI queueing**.
 
 𝗛𝗼𝘄 𝘄𝗼𝘂𝗹𝗱 𝘆𝗼𝘂 𝗶𝗺𝗽𝗹𝗲𝗺𝗲𝗻𝘁 𝗮 𝘁𝗼𝗮𝘀𝘁 𝗻𝗼𝘁𝗶𝗳𝗶𝗰𝗮𝘁𝗶𝗼𝗻 𝘀𝘆𝘀𝘁𝗲𝗺 𝗶𝗻 𝗥𝗲𝗮𝗰𝘁?

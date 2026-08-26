@@ -1,3 +1,5 @@
+*** copy React Fiber Architecture.md ***
+
 ### **React Fiber Architecture**
 
 React Fiber is the **reimplementation** of React's core algorithm for rendering and updating the user interface. It was introduced in **React 16** to improve the performance and responsiveness of React applications, especially in handling large-scale applications with complex UIs and frequent updates. It enables features like **asynchronous rendering**, **prioritization of updates**, and **more granular control** over the rendering process.

@@ -1,3 +1,5 @@
+*** copy 04-openai-spec-generation.md ***
+
 # Spec 04 — OpenAI Spec Generation Service
 
 ## Goal

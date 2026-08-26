@@ -1,3 +1,5 @@
+*** copy checkStraightLine.md ***
+
 The function `checkStraightLine` is designed to check if a series of points (represented as pairs of coordinates) lie on the same straight line. It uses the concept of **slope** to determine if the points are collinear.
 
 ### Explanation of the Function:

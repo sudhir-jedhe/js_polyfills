@@ -1,3 +1,5 @@
+*** copy Managing state as an array of objects.md ***
+
 Managing state as an **array of objects** is one of the most common patterns in React (for lists, todo items, shopping carts, table data, etc.).
 
 Because React requires **immutable state updates** to detect changes and trigger re-renders, you must **never mutate array or object state directly** (e.g., using `push()`, `splice()`, or direct property assignment like `items[0].title = 'New'`).

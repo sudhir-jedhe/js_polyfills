@@ -1,3 +1,5 @@
+*** copy remove-portion-of-a-string-after-certain-character.md ***
+
 ```js
 function GFG_click(s) {
   return s.substring(0, s.indexOf("?"));

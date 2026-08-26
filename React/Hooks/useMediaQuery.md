@@ -1,3 +1,5 @@
+*** copy useMediaQuery.md ***
+
 A **`useMediaQuery`** custom hook allows React components to react to CSS media queries dynamically.
 
 Common uses:

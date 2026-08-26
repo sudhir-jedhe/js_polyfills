@@ -1,3 +1,5 @@
+*** copy intersection_not_common.md ***
+
 ```js
 var ar1 = [1, 2, 3, 4];
 var ar2 = [2, 4];

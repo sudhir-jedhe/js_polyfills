@@ -1,3 +1,5 @@
+*** copy JavaScript Cookies.md ***
+
 **HTTP Cookies** are small text files stored directly in the user's browser by websites. In JavaScript, you can create, read, and delete cookies using the **`document.cookie`** string property.
 
 Unlike modern client-side storage mechanisms like `localStorage`, cookies are automatically sent to the server with every subsequent HTTP request, making them essential for server-side session management, authentication tokens, and user tracking.

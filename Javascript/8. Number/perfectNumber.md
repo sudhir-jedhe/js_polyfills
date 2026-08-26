@@ -1,3 +1,5 @@
+*** copy perfectNumber.md ***
+
 Here’s the complete and formatted code with comments for clarity:
 
 ```javascript

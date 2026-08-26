@@ -1,3 +1,5 @@
+*** copy convert-a-negative-number-to-positive.md ***
+
 ### Explanation of Methods to Convert Negative Numbers to Positive
 
 #### 1. **Using Multiplication by -1**

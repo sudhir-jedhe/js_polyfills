@@ -1,3 +1,5 @@
+*** copy How do I set up a two-way synchronization pipeline between GitHub and Figma Tokens using GitHub Actions?.md ***
+
 A two-way synchronization pipeline ensures that when designers update tokens in Figma, changes push automatically to a GitHub repository, and when developers update tokens in code, a GitHub Actions workflow compiles the tokens and keeps Figma and your application in sync.
 
 ---

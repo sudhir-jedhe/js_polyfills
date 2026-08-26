@@ -1,3 +1,5 @@
+*** copy Drag and Drop Notes .md ***
+
 A React Drag and Drop Sticky Notes board using pointer events to handle smooth drag movement, bound collision detection, z-index elevation on focus, and local note editing.
 
 ---

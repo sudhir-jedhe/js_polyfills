@@ -1,3 +1,5 @@
+*** copy AGENTS.md and the Repository Control Plane for Coding Agents.md ***
+
 Based on the provided image, here is an elaboration and breakdown of **AGENTS.md and the Repository Control Plane for Coding Agents**:
 
 ---

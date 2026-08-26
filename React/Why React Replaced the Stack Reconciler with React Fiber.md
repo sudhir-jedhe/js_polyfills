@@ -1,3 +1,5 @@
+*** copy Why React Replaced the Stack Reconciler with React Fiber.md ***
+
 Here is a clean, structured reference guide breaking down why React replaced the **Stack Reconciler** with **React Fiber**, how it works, and a practical example showing the operational difference between synchronous recursion and fiber-based scheduling.
 
 ---

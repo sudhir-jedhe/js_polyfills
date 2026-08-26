@@ -1,3 +1,5 @@
+*** copy geneartor.md ***
+
 ### Explanation of Each Example
 
 Let's go through each example one by one, explaining what's happening and the output.

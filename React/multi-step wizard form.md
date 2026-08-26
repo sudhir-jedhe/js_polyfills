@@ -1,3 +1,5 @@
+*** copy multi-step wizard form.md ***
+
 Building a scalable multi-step wizard form requires decoupling each step's validation schema while maintaining a single, unified form state across navigation steps.
 
 By combining **React Hook Form**, **Zod**, and **TypeScript**, you can validate fields dynamically per step and preserve input data when users navigate backward and forward.

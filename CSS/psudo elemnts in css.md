@@ -1,3 +1,5 @@
+*** copy psudo elemnts in css.md ***
+
 In CSS, **pseudo-elements** are used to apply styles to specific parts of an element, such as before or after the content inside an element. These elements do not exist in the HTML structure, but they are useful for adding special effects, content, or styling without altering the HTML markup.
 
 There are two primary pseudo-elements in CSS:

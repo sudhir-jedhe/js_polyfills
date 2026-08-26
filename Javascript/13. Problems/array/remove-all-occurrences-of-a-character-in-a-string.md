@@ -1,3 +1,5 @@
+*** copy remove-all-occurrences-of-a-character-in-a-string.md ***
+
 ```js
 let inputStr = "Geeks-for-Geeks";
 let charToRemove = "-";

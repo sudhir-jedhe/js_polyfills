@@ -1,3 +1,5 @@
+*** copy What are error boundaries in React, and what limitations do they have?.md ***
+
 **Error Boundaries** are class-based React components that catch JavaScript runtime errors anywhere in their child component tree, log those errors, and display a fallback UI instead of crashing the entire application component tree.
 
 Before Error Boundaries were introduced (in React 16), JavaScript errors inside component render methods would corrupt React’s internal state and cause the entire application to unmount (displaying a "white screen of death").

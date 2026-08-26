@@ -1,3 +1,5 @@
+*** copy sumOfDigit.md ***
+
 ### Explanation of the Code:
 
 You've provided multiple implementations for calculating the sum of the digits of a number. Let's break them down one by one.

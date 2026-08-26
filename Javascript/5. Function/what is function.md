@@ -1,3 +1,5 @@
+*** copy what is function.md ***
+
 ### Understanding `this` in JavaScript Functions
 
 In JavaScript, **functions** are the building blocks of code, and the behavior of the `this` keyword within functions can often be confusing because it depends on **how** the function is invoked, not where it is defined. The value of `this` is determined **at runtime** and plays a major role in how JavaScript handles object context and execution.

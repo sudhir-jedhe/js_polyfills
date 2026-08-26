@@ -1,3 +1,5 @@
+*** copy How do modern bundlers like Vite and Next.js handle barrel file performance optimizations?.md ***
+
 Modern bundlers optimize barrel files through AST-based import rewriting, dependency pre-bundling, and graph analysis to avoid parsing unnecessary modules during development and build steps.
 
 **1. Next.js (`optimizePackageImports` & `modularizeImports`)**

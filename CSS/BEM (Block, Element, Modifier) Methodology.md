@@ -1,3 +1,5 @@
+*** copy BEM (Block, Element, Modifier) Methodology.md ***
+
 ### BEM (Block, Element, Modifier) Methodology
 
 BEM is a popular naming convention for writing CSS classes that helps in creating reusable, maintainable, and scalable CSS for large projects. It stands for **Block**, **Element**, and **Modifier**. BEM encourages a modular approach to styling components, where each component is independent, easy to understand, and simple to scale.

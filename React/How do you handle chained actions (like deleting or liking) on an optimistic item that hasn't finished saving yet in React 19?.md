@@ -1,3 +1,5 @@
+*** copy How do you handle chained actions (like deleting or liking) on an optimistic item that hasn't finished saving yet in React 19?.md ***
+
 Handling chained actions (such as liking, updating, or deleting an item that is still in flight) requires coordinating client-generated IDs with asynchronous action queues.
 
 Because the temporary item has no database ID yet, you cannot send a traditional `DELETE /api/items/123`. Instead, you use a **Client UUID as the Canonical Key** combined with an **Action Pipeline / Correlation ID** pattern.

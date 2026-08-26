@@ -1,3 +1,5 @@
+*** copy capitaliseAllWords.md ***
+
 ```js
 export const capitaliseAllWords = (input) => {
   if (!input) return "";

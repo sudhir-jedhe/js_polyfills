@@ -1,3 +1,5 @@
+*** copy get-character-array-from-string-.md ***
+
 ```js
 // Input array
 let str = "GeeksforGeeks: A computer science portal";

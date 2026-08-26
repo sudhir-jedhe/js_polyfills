@@ -1,3 +1,5 @@
+*** copy replace-all-string-occurrences.md ***
+
 ```js
 let str = 'I am prashant yadav';
 str.split(' '); // splitting at white space

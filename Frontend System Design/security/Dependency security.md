@@ -1,3 +1,5 @@
+*** copy Dependency security.md ***
+
 In modern front-end system design, dependency security addresses supply chain risks—where an attacker compromises a third-party package (`npm`, `yarn`, `pnpm`) or hosted CDN script to execute malicious code within your users' browser runtime.
 
 Because front-end JavaScript bundles execute directly on the client side, a compromised dependency can read in-memory state, capture user keystrokes, exfiltrate sensitive data, or redirect users.

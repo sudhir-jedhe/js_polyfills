@@ -1,3 +1,5 @@
+*** copy react slot.md ***
+
 A **"Slot"** in UI frameworks (like Vue, Web Components, or Radix UI) is a pattern that allows a parent component to pass custom UI elements into designated placeholders inside a child component.
 
 In React, slots are typically built using either **named React props (JSX props)** or the **Compound Component pattern (Child Types)**.

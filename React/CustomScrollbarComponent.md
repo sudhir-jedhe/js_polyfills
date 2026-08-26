@@ -1,3 +1,5 @@
+*** copy CustomScrollbarComponent.md ***
+
 Customizing the scrollbar style in React involves using CSS to modify the default appearance of the scrollbar. You can use CSS to style the scrollbar for webkit-based browsers (Chrome, Safari, Edge, etc.). The scrollbar can be customized by selecting pseudo-elements such as `::-webkit-scrollbar`, `::-webkit-scrollbar-thumb`, `::-webkit-scrollbar-track`, and others.
 
 Here's a step-by-step guide on how to customize the scrollbar in a React component:

@@ -1,3 +1,5 @@
+*** copy Difference Between Preflight, Prefetch, Preloading, and Prerendering.md ***
+
 ### **Preflight Request:**
 
 `What it is:` A preflight request is an OPTIONS HTTP request sent by the browser before making the actual request. It checks if the server will allow the actual request, especially in the case of cross-origin requests (CORS).

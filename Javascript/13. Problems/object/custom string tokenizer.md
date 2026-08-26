@@ -1,3 +1,5 @@
+*** copy custom string tokenizer.md ***
+
 ```js
 class CustomTokenizer {
   constructor(string, delimiters) {

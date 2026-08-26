@@ -1,3 +1,5 @@
+*** copy index.md ***
+
 const nounInput = document.getElementById('noun');
 const verbInput = document.getElementById('verb');
 const adjectiveInput = document.getElementById('adjective');

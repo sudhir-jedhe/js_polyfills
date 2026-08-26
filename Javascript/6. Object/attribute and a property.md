@@ -1,3 +1,5 @@
+*** copy attribute and a property.md ***
+
 ### **Difference Between Attributes and Properties in HTML and JavaScript**
 
 In HTML and JavaScript, the terms **attribute** and **property** are often used interchangeably, but they have distinct differences. Let's break them down:

@@ -1,3 +1,5 @@
+*** copy toReversed.md ***
+
 ```js
 
 const items = [1, 2, 3];

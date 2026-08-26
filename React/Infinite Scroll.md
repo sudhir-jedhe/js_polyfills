@@ -1,3 +1,5 @@
+*** copy Infinite Scroll.md ***
+
 // Infinite scroll or lazy loading is an optimization technique used as a pagination to load the next set of data once the user has scrolled through the existing one.
 
 // To implement the infinite scroll, We will have to listen to the window’s scroll event and determine if the user has scrolled to the end.

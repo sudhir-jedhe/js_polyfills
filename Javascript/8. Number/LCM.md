@@ -1,3 +1,5 @@
+*** copy LCM.md ***
+
 ### Explanation of LCM and GCD Implementation
 
 The provided code consists of multiple implementations of LCM (Least Common Multiple) calculation using different approaches:

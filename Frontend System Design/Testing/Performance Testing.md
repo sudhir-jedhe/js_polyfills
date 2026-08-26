@@ -1,3 +1,5 @@
+*** copy Performance Testing.md ***
+
 In Front-End System Design, **Performance Testing** in React is the practice of measuring, simulating, and stress-testing an application's execution under varied hardware, network, memory, and data-scale conditions.
 
 Unlike simple synthetic audits, front-end performance testing simulates real-world stress scenarios—such as low-end mobile CPUs, memory leaks, deep component re-render cascades, and slow 3G network bottlenecks—to fix regressions before they impact **Core Web Vitals** (LCP, INP, CLS).

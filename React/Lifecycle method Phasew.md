@@ -1,3 +1,5 @@
+*** copy Lifecycle method Phasew.md ***
+
 In React, a component’s **lifecycle** refers to the series of methods that are called at different stages of the component's existence, from creation to destruction. This lifecycle is slightly different for **class components** and **function components**, especially with the introduction of **Hooks** in function components.
 
 Let's break down the lifecycle phases for **class components** and **function components** in detail:

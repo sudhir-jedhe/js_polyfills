@@ -1,3 +1,5 @@
+*** copy defineProperty.md ***
+
 ### First Code Example: `Object.defineProperty` on an Array
 
 Let's look at the first code example and break down what happens.

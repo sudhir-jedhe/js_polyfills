@@ -1,3 +1,5 @@
+*** copy cloneByArrayFrom.md ***
+
 # The code demonstrates two common uses of **`Array.from()`** in JavaScript.
 
 ## Example 1: Cloning an Array

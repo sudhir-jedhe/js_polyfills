@@ -1,3 +1,5 @@
+*** copy numeric-array-math-operations.md ***
+
 These functions are great for performing various numerical operations on arrays. Below, I'll provide a more structured explanation of each function, its purpose, and how it's implemented, including a few improvements and additional comments for clarity.
 
 ---

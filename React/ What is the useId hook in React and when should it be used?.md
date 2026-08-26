@@ -1,3 +1,5 @@
+*** copy  What is the useId hook in React and when should it be used?.md ***
+
 **What is the useId hook in React and when should it be used?**
 **Introduction to useId**
 The useId hook was added in React 18. It returns a stable string ID tied to the component instance's position in the tree. The ID is the same on every render of that instance, and — crucially — it is the same on the server and the client.

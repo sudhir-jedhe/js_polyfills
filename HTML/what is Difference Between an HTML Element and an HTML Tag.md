@@ -1,3 +1,5 @@
+*** copy what is Difference Between an HTML Element and an HTML Tag.md ***
+
 **1. HTML Tag**
 An HTML tag refers specifically to the markup used to create an HTML element. It is a set of characters that define the start and end of an element in the HTML code. Tags are the basic building blocks of HTML and are enclosed in angle brackets (< >).
 **Types of Tags:**

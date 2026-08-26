@@ -1,3 +1,5 @@
+*** copy generatorFunction.md ***
+
 Here is the complete and detailed code combining the concepts of JavaScript generators and `Symbol.iterator`, along with an explanation for each section:
 
 ---

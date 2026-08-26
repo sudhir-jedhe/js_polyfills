@@ -1,3 +1,5 @@
+*** copy offLoading service worker.md ***
+
 When a button click freezes your application for five seconds, it means a heavy synchronous task is completely locking up JavaScript's **single main thread**. Because the main thread handles both computation and UI rendering (recalc style, layout, and paint), any heavy loop or complex calculation halts user interaction entirely.
 
 To eliminate this bottleneck, you can implement the exact strategies you mentioned: **breaking work into smaller asynchronous chunks** or **offloading it entirely using a Web Worker**.

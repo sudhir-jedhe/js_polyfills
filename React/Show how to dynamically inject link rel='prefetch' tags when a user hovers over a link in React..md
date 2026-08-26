@@ -1,3 +1,5 @@
+*** copy Show how to dynamically inject link rel='prefetch' tags when a user hovers over a link in React..md ***
+
 Here is a production-ready, reusable `PrefetchLink` component in React that dynamically injects `<link rel="prefetch">` tags into `<head>` when a user hovers over (or focuses on) a link.
 
 It includes deduplication to prevent injecting duplicate tags, a slight debounce (50ms–100ms) to avoid spamming the network when a user rapidly sweeps their cursor across the page, and mobile touch support.

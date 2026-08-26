@@ -1,3 +1,5 @@
+*** copy Configure custom fonts, theme colors, and design tokens.md ***
+
 In Tailwind CSS v4, custom fonts, theme colors, and design tokens are declared directly inside your CSS file using the **`@theme`** directive and standard CSS custom properties.
 
 ---

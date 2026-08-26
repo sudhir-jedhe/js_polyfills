@@ -1,3 +1,5 @@
+*** copy arrayOfFunctionSequem=nce.md ***
+
 Here is the code you've shared with an explanation:
 
 ```javascript

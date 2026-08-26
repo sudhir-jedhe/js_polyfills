@@ -1,3 +1,5 @@
+*** copy asynchronous.md ***
+
 ### 3. Working with Promises: `resolve` and `reject` in JavaScript
 
 In JavaScript, promises are used to handle asynchronous operations. A promise represents an eventual result of an asynchronous operation. It can be in one of three states: pending, resolved (fulfilled), or rejected.

@@ -1,3 +1,5 @@
+*** copy progressBar.md ***
+
 # Progress Bar Component (React)
 
 ### Features Covered

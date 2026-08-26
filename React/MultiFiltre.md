@@ -1,3 +1,5 @@
+*** copy MultiFiltre.md ***
+
 Implement filtering logic so users can narrow down the list of items by color, size, and shape.
 Use a Select component for each filter category (color, size, shape).
 Use a Switch component to toggle between AND and OR filtering modes.

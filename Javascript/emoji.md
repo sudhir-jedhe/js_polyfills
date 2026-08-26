@@ -1,3 +1,5 @@
+*** copy emoji.md ***
+
 In JavaScript, the `.length` property returns the number of **UTF-16 code units** in a string. When it comes to emoji characters like "👍", they are represented using more than one code unit in UTF-16, because they are "supplementary characters."
 
 Here’s what happens when you run the code:

@@ -1,3 +1,5 @@
+*** copy script.md ***
+
 /// Snake game by Kei-K
 
 const gameScore = document.querySelector(".game-score b");

@@ -1,3 +1,5 @@
+*** copy cheat-sheet.md ***
+
 # Asynchronous JavaScript Cheat Sheet
 
 This cheat sheet covers core concepts and usage of promises, \`async/await\`, and other related functions in asynchronous JavaScript.

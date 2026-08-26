@@ -1,3 +1,5 @@
+*** copy date-is-weekday-or-weekend.md ***
+
 Your code logic for determining whether a date is a weekday or a weekend is almost correct, but there is a slight issue with the `isWeekend` function. Specifically, the `getDay()` method returns:
 
 - `0` for Sunday,

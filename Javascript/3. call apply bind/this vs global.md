@@ -1,3 +1,5 @@
+*** copy this vs global.md ***
+
 The behavior of `this` depends on whether code is running in **Script mode** vs **ES Modules**, whether **Strict Mode** (`'use strict'`) is active, and **how a function is invoked**.
 
 ---

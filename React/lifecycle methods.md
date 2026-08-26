@@ -1,3 +1,5 @@
+*** copy lifecycle methods.md ***
+
 In React, the component lifecycle refers to the various stages through which a component passes during its existence, including creation, updating, and unmounting. In class components, we use lifecycle methods to perform actions during these stages. However, with the introduction of **React Hooks**, lifecycle methods are replaced by hooks that allow functional components to handle similar tasks.
 
 Here’s a breakdown of React **class component lifecycle methods** and their equivalents using **React Hooks** in functional components:

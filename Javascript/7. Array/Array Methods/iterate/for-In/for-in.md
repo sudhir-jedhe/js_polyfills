@@ -1,3 +1,5 @@
+*** copy for-in.md ***
+
 ```js
 
 for (let index in arr) {

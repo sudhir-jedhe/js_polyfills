@@ -1,3 +1,5 @@
+*** copy find-distinct-subset-subsequence-sums-array.md ***
+
 ```js
 // Input  : arr[] = {1, 2, 3}
 // Output : 0 1 2 3 4 5 6

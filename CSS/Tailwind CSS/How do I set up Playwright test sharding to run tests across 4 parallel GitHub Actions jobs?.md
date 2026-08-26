@@ -1,3 +1,5 @@
+*** copy How do I set up Playwright test sharding to run tests across 4 parallel GitHub Actions jobs?.md ***
+
 Playwright has native support for **test sharding** via the `--shard=x/y` CLI argument.
 
 To execute tests across 4 parallel jobs and combine the results into a single unified HTML report, use a GitHub Actions **matrix strategy** for the test workers followed by a **merge-reports** job.

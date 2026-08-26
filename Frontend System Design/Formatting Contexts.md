@@ -1,3 +1,5 @@
+*** copy Formatting Contexts.md ***
+
 In front-end engineering and CSS layout engines, what you are describing is a **Formatting Context** (most notably a **Block Formatting Context (BFC)**, as well as **Flex Formatting Context** and **Grid Formatting Context**).
 
 A Formatting Context is a self-contained, isolated spatial layout boundary rendered by the browser. Elements laid out inside a formatting context are **shielded from external layout rules**, and they follow the internal rule set defined by that context's type (e.g., Block, Flex, or Grid rules).

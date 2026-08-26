@@ -1,3 +1,5 @@
+*** copy mouseEnter vs mouseHover.md ***
+
 How do mouseenter and mouseover differ?
 mouseenter
 Does not bubble up the DOM tree.

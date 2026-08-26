@@ -1,3 +1,5 @@
+*** copy TypeError.md ***
+
 A **`TypeError`** in JavaScript occurs when you try to perform an operation on a value of the wrong type.
 
 Unlike a `ReferenceError` (where JavaScript doesn't know the variable exists at all), with a `TypeError`, JavaScript knows the variable exists, but the action you are trying to perform is impossible for that specific data type.

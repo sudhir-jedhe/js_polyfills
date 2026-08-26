@@ -1,3 +1,5 @@
+*** copy Debugging a production issue.md ***
+
 Debugging a production issue requires a systematic, step-by-step approach because production environments differ from local development—code is minified, sourcemaps may be hidden, and live user data is involved.
 
 Here is how to effectively leverage each tool throughout the production debugging lifecycle:

@@ -1,3 +1,5 @@
+*** copy Custom Hooks in React .md ***
+
 🤔 Custom Hooks are special functions in React that let you extract logic into reusable pieces.
 
 👉Example :Imagine you're building an app to show weather forecasts. Instead of writing the same code to get weather data for each city, you can create a Custom Hook like useWeather that handles all the data fetching for you! This Hook encapsulates the logic and ensures your app displays up-to-date weather info efficiently. 🌤️🌍

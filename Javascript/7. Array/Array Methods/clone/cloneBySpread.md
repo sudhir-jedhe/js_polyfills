@@ -1,3 +1,5 @@
+*** copy cloneBySpread.md ***
+
 ## Clone Array Using Spread Operator (`...`)
 
 The **spread operator** is the most common and recommended way to clone arrays in modern JavaScript and React.

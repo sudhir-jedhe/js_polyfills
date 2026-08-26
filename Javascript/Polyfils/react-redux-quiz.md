@@ -1,3 +1,5 @@
+*** copy react-redux-quiz.md ***
+
 Here are answers to your questions about Redux:
 
 ### 1. **How to make an AJAX request in Redux?**

@@ -1,3 +1,5 @@
+*** copy domTravesal.md ***
+
 # DOM Traversal in JavaScript
 
 **DOM Traversal** means navigating through HTML elements in the DOM tree.

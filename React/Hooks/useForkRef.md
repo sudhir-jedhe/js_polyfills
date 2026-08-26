@@ -1,3 +1,5 @@
+*** copy useForkRef.md ***
+
 Here is a production-ready `useForkRef` React hook. It cleanly merges multiple refs (whether function refs or `MutableRefObject` / `RefObject` instances) into a single callback ref, ensuring proper ref assignment and cleanup during unmounts and updates.
 
 ```jsx

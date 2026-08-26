@@ -1,3 +1,5 @@
+*** copy Can we use useCallback for Every  memoize function why or why not?.md ***
+
 **No, you should not wrap every function in `useCallback`.**
 
 Using `useCallback` is not free—it adds runtime overhead, increases memory usage, and makes code harder to maintain without providing any performance benefit in the majority of cases.

@@ -1,3 +1,5 @@
+*** copy How do I create a structured Technical Debt Matrix and scoring system for engineering teams?.md ***
+
 A **Technical Debt Matrix & Scoring System** replaces emotional debates with objective, data-driven prioritization. It scores items by **Risk**, **Friction (Interest)**, and **Effort (Principal)** to determine whether to fix immediately, batch with features, or ignore.
 
 ---

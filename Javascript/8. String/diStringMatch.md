@@ -1,3 +1,5 @@
+*** copy diStringMatch.md ***
+
 The problem you're solving here is to generate a permutation of numbers from 0 to `n` based on a string of instructions. The string `s` consists of characters `I` (for "Increase") and `D` (for "Decrease"). The task is to generate an array that follows these instructions where:
 
 - `I` means the current number should be greater than the previous one (increasing order).

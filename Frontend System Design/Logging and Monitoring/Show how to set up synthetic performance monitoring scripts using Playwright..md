@@ -1,3 +1,5 @@
+*** copy Show how to set up synthetic performance monitoring scripts using Playwright..md ***
+
 Synthetic performance monitoring uses headless browser scripts to continuously simulate critical user journeys (e.g., logging in, searching, adding items to a cart) in isolated, controlled environments.
 
 Using **Playwright**, you can capture real browser timing metrics—including Google's **Core Web Vitals (LCP, INP, CLS)**, network request waterfalls, and Chrome DevTools Protocol (CDP) performance traces—and enforce strict performance budgets in your CI/CD pipelines or scheduled monitoring jobs.

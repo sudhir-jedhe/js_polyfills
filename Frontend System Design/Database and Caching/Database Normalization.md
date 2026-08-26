@@ -1,3 +1,5 @@
+*** copy Database Normalization.md ***
+
 In **Database & Front-End System Design**, **Database Normalization** is a systematic methodology for organizing data within a relational database. It relies on a set of formal rules called **Normal Forms (NFs)** to eliminate data redundancy, enforce data integrity, and prevent database anomalies during insertions, updates, and deletions.
 
 When designing front-end systems, understanding normalization—and when to intentionally **denormalize**—is essential for balancing backend database health with ultra-fast client-side UI rendering.

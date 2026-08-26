@@ -1,3 +1,5 @@
+*** copy clamp.md ***
+
 Let's break down the different functions you've mentioned: `clampNumber`, `toSafeInteger`, and `mapNumRange`, explaining how they work with examples.
 
 ### 1. **Clamp a Number**

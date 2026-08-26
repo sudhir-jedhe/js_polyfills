@@ -1,3 +1,5 @@
+*** copy iterate-object-properties.md ***
+
 You're right! `Array.prototype.forEach()` is a great method for iterating over arrays, but it doesn't directly apply to objects. However, using `Object.keys()`, we can extract the keys from an object and use `forEach()` to iterate over them. This approach gives us a simple and elegant way to iterate over object properties. Let's break down the examples you provided.
 
 ### **1. Iterate over object properties using `forOwn`**

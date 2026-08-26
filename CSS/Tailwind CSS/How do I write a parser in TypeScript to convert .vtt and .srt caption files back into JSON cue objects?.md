@@ -1,3 +1,5 @@
+*** copy How do I write a parser in TypeScript to convert .vtt and .srt caption files back into JSON cue objects?.md ***
+
 To parse both **WebVTT (`.vtt`)** and **SubRip (`.srt`)** caption files into strongly typed JSON cue objects in TypeScript, you need a robust parser that handles:
 
 1. **Timestamp formatting differences:** WebVTT uses periods for milliseconds (`00:01:23.456` or `01:23.456`), while SRT uses commas (`00:01:23,456`).

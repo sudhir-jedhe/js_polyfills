@@ -1,3 +1,5 @@
+*** copy Map vs Weak Map.md ***
+
 In JavaScript, both **Map** and **WeakMap** store key-value pairs, but **WeakMap** is specifically designed to allow garbage collection of its keys, preventing memory leaks when working with objects or functions.
 
 Here is the direct comparison:

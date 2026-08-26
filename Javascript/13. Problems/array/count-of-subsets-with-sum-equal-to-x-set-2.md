@@ -1,3 +1,5 @@
+*** copy count-of-subsets-with-sum-equal-to-x-set-2.md ***
+
 ```js
 // Input: arr[] = {1, 2, 3, 3}, X = 6
 // Output: 3

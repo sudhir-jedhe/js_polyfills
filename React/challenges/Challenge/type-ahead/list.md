@@ -1,3 +1,5 @@
+*** copy list.md ***
+
 export const suggestionsList = [
   'Afghanistan',
   'Albania',

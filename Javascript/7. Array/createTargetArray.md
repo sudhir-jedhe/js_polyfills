@@ -1,3 +1,5 @@
+*** copy createTargetArray.md ***
+
 Here is the full solution with code that demonstrates how to create a target array based on the given `nums` and `index` arrays.
 
 ### `createTargetArray.js`

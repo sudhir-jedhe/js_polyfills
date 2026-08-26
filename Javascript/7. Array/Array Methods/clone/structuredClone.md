@@ -1,3 +1,5 @@
+*** copy structuredClone.md ***
+
 You mean **`structuredClone()`** ✅ (not "strulerdeclone").
 
 `structuredClone()` is the modern JavaScript API for creating a **true deep copy** of objects and arrays.

@@ -1,3 +1,5 @@
+*** copy How do I add directional slide and fade transitions to Radix TabsContent using Framer Motion?.md ***
+
 To create directional slide and fade transitions, you need to track the **direction of the tab change** (whether the user navigated left-to-right or right-to-left) and pass that direction to Framer Motion's `AnimatePresence` and `custom` variant prop.
 
 ---

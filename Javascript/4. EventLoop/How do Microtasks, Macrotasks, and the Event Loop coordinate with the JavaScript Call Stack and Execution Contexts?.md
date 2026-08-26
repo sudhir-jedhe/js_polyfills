@@ -1,3 +1,5 @@
+*** copy How do Microtasks, Macrotasks, and the Event Loop coordinate with the JavaScript Call Stack and Execution Contexts?.md ***
+
 The JavaScript runtime coordinates synchronous and asynchronous execution using a single main-thread **Call Stack**, an **Event Loop**, and two distinct FIFO priority queues: the **Microtask Queue** and the **Task (Macrotask) Queue**.
 
 ---

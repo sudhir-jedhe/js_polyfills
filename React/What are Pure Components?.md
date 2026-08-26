@@ -1,3 +1,5 @@
+*** copy What are Pure Components?.md ***
+
 In React, a **Pure Component** is a component that renders the exact same output given the same props and state.
 
 In a standard React component, if a parent component re-renders, all of its children will automatically re-render too—even if their props or state haven't changed at all. Pure components optimize this behavior by preventing unnecessary re-renders.

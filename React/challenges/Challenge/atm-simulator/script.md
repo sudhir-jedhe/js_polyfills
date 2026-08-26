@@ -1,3 +1,5 @@
+*** copy script.md ***
+
 // Get references to the buttons
 const authenticateButton = document.querySelector('button');
 const checkBalanceButton = document.querySelectorAll('.options button')[0];

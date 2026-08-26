@@ -1,3 +1,5 @@
+*** copy sleep.md ***
+
 Both of the examples you've provided are great demonstrations of how to implement delays in JavaScript using `setTimeout` and `Promise`. Let's break them down:
 
 ---

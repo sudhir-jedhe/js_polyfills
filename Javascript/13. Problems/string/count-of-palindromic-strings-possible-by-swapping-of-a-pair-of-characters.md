@@ -1,3 +1,5 @@
+*** copy count-of-palindromic-strings-possible-by-swapping-of-a-pair-of-characters.md ***
+
 ```js
 // Input: s = “abba”
 // Output: 2

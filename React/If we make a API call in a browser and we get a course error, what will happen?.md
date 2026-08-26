@@ -1,3 +1,5 @@
+*** copy If we make a API call in a browser and we get a course error, what will happen?.md ***
+
 When a browser encounters a **CORS (Cross-Origin Resource Sharing) error**, the browser's security model (Same-Origin Policy) blocks your JavaScript code from accessing the response.
 
 **1. The JavaScript Promise Rejects**

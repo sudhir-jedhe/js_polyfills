@@ -1,3 +1,5 @@
+*** copy Data Normalization of Frontend State.md ***
+
 // State management has become a critical task in modern frontend applications, especially in the decoupled and stateless architecture where the data is pulled from the server and stored in the browser, which will be later used for rendering the user interface and handling user interactions.
 
 // In order to keep the application performant, it is very important how you handle the data. Servers return the data in a complex structure that can have duplicates, which makes them bulky, redundant, and extremely complex to process them.

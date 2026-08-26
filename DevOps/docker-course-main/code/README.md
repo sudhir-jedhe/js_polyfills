@@ -1,3 +1,5 @@
+*** copy README.md ***
+
 # MERN Demo App for Docker Course
 
 This is a **very small MERN app** built specifically as the demo project for your Docker + GitLab CI/CD YouTube course.

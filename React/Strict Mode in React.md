@@ -1,3 +1,5 @@
+*** copy Strict Mode in React.md ***
+
 ### **Strict Mode in React**
 
 **React Strict Mode** is a tool for highlighting potential problems in a React application during development. It is a wrapper component that helps identify and warn about issues related to **deprecated methods**, **unsafe lifecycle methods**, and other potential problems in an application. It does not affect the production build or performance; it only runs in development mode.

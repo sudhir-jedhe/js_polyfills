@@ -1,3 +1,5 @@
+*** copy range-of-numbers-and-characters.md ***
+
 ```js
 const startNum = 1;
 const endNum = 8;

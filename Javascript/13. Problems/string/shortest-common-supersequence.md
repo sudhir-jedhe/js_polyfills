@@ -1,3 +1,5 @@
+*** copy shortest-common-supersequence.md ***
+
 ```js
 /*
 Input:  A = "ABAC",  B = "CAB"

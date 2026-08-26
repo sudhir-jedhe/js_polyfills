@@ -1,3 +1,5 @@
+*** copy Suspense and Lazy Loading in React.md ***
+
 ### **Suspense and Lazy Loading in React**
 
 React's **Suspense** and **lazy loading** are powerful features that help optimize the loading of components in your React application, improving performance and user experience. These features allow you to load parts of your app only when they are needed, which can significantly reduce the initial load time.

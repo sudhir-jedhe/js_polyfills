@@ -1,3 +1,5 @@
+*** copy How does React 19 simplify form state management with Actions?.md ***
+
 React 19 fundamentally changes how forms are handled in React applications by introducing **Actions** and a suite of built-in form hooks (`useActionState`, `useFormStatus`, and `useOptimistic`).
 
 Before React 19, handling a form required writing repetitive, error-prone boilerplate to track loading indicators, submission states, error messages, and form input states manually. React 19 simplifies this workflow significantly.

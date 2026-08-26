@@ -1,3 +1,5 @@
+*** copy mostCommon.md ***
+
 ```js
 const words = ["apple", "banana", "apple", "cherry", "banana", "apple"];
 const mostCommonWord = mostCommon(words);

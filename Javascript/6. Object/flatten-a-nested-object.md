@@ -1,3 +1,5 @@
+*** copy flatten-a-nested-object.md ***
+
 Your code is a good example of how to flatten nested JavaScript objects into a flat structure. It handles different types of data structures, such as objects and arrays, by recursively iterating through the input and flattening it. Let's break down the various approaches in your code and understand the key concepts.
 
 ### Key Concepts

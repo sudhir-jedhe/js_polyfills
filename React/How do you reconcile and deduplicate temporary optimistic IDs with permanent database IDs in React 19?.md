@@ -1,3 +1,5 @@
+*** copy How do you reconcile and deduplicate temporary optimistic IDs with permanent database IDs in React 19?.md ***
+
 When an optimistic item with a temporary client ID (e.g., `temp-1740000000`) is confirmed by the backend, the server returns a permanent database ID (e.g., `uuid-v4` or integer `4821`).
 
 In React 19, `useOptimistic` **handles this reconciliation automatically** because of how its queuing model is designed: when the server action resolves, the temporary item is discarded from the optimistic queue and replaced by the server payload in the base state.

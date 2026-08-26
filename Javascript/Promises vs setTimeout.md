@@ -1,3 +1,5 @@
+*** copy Promises vs setTimeout.md ***
+
 Both **Promises** and **`setTimeout`** handle asynchronous JavaScript, but they execute differently behind the scenes due to how the **Event Loop** manages their task queues.
 
 ---

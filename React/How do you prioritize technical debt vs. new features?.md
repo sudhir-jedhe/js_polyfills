@@ -1,3 +1,5 @@
+*** copy How do you prioritize technical debt vs. new features?.md ***
+
 Prioritizing technical debt against new feature development requires translating engineering friction into business risk. The most effective approach treats technical debt not as an abstract backlog to clear, but as an operational cost that directly impacts delivery speed, system reliability, and revenue.
 
 ---

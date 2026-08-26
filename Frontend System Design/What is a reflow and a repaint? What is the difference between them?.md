@@ -1,3 +1,5 @@
+*** copy What is a reflow and a repaint? What is the difference between them?.md ***
+
 **Reflow** and **Repaint** are two distinct stages in the browser's rendering process that occur whenever the structure, appearance, or content of a web page changes dynamically (e.g., via CSS hover states, DOM manipulation, or window resizing).
 
 ---

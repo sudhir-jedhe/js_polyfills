@@ -1,3 +1,5 @@
+*** copy modify-url-without-reload.md ***
+
 ### Modifying the URL Without Reloading: A Comparison of the History API and Location API
 
 When developing modern web applications, there are times when you need to update the browser's URL to reflect the app's state without triggering a page reload. Here’s a detailed breakdown of the two main approaches: the **History API** and the **Location API**.

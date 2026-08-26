@@ -1,3 +1,5 @@
+*** copy Handling API failures globally.md ***
+
 Handling API failures globally ensures your application gracefully copes with network drops, backend crashes, expired authentication tokens, and server errors without duplicating error-handling code across dozens of components.
 
 In modern React applications, global API error handling is achieved by combining an **HTTP Interceptor layer** (via Axios or a custom Fetch wrapper) with an **Error Boundary** and a **Global Notification system**.

@@ -1,3 +1,5 @@
+*** copy difference between `Array.concat()` and the spread operator?.md ***
+
 difference between `Array.concat()` and the spread operator?
 Both **`Array.prototype.concat()`** and the **spread operator (`...`)** are used to merge arrays and create shallow copies in JavaScript. While they produce identical results in many common scenarios, they differ in how they handle non-array arguments, performance, and readability.
 

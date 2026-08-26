@@ -1,3 +1,5 @@
+*** copy Object1.md ***
+
 # Object Creation / Object Definitions in JavaScript
 
 JavaScript provides multiple ways to create objects. This is a very common interview topic.

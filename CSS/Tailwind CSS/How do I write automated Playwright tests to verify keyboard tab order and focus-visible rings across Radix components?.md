@@ -1,3 +1,5 @@
+*** copy How do I write automated Playwright tests to verify keyboard tab order and focus-visible rings across Radix components?.md ***
+
 Testing keyboard navigation and focus rings across Radix UI primitives requires verifying two distinct behaviors:
 
 1. **DOM Focus Flow & Trapping:** Ensuring `Tab`, `Shift+Tab`, `ArrowDown`/`ArrowUp`, and `Escape` follow WAI-ARIA roving tabindex and focus management patterns.

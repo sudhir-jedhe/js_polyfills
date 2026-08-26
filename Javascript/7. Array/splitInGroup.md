@@ -1,3 +1,5 @@
+*** copy splitInGroup.md ***
+
 ```js
 function splitArrayIntoGroups(array, groupSize) {
     if (!Array.isArray(array) || !Number.isInteger(groupSize) || groupSize <= 0) {

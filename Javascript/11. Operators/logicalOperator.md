@@ -1,3 +1,5 @@
+*** copy logicalOperator.md ***
+
 The **nullish coalescing operator** (`??`) is a more precise alternative to the logical OR operator (`||`) in JavaScript, especially when dealing with values that might be valid falsy values (like `0`, `false`, `NaN`, etc.). It only checks for `null` and `undefined`, and if the value is either of these, it returns the second operand; otherwise, it returns the first operand.
 
 ### **Comparison between `??` and `||`:**

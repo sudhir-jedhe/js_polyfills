@@ -1,3 +1,5 @@
+*** copy Mobile-First vs Desktop-First in Web Design.md ***
+
 ### Mobile-First vs Desktop-First in Web Design
 
 In the context of responsive web design, the concepts of **mobile-first** and **desktop-first** refer to different approaches to building a website's layout and styles. These approaches impact how web pages are styled and how they adapt to different screen sizes and devices. Let's break down each approach and understand the differences, advantages, and use cases.

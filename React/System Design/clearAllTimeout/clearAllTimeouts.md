@@ -1,3 +1,5 @@
+*** copy clearAllTimeouts.md ***
+
 # Implement `clearAllTimeout()` in JavaScript
 
 This is a popular **JavaScript interview question**.

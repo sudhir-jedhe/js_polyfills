@@ -1,3 +1,5 @@
+*** copy tracker.md ***
+
 ## Status
 
 - **Completed:** Sections 01–13B — Core MVP complete

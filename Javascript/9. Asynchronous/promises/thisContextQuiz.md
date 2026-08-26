@@ -1,3 +1,5 @@
+*** copy thisContextQuiz.md ***
+
 ```js
 // Create an object to demonstrate different 'this' contexts
 const obj = {

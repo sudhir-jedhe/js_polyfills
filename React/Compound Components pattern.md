@@ -1,3 +1,5 @@
+*** copy Compound Components pattern.md ***
+
 The **Compound Components pattern** allows you to build a family of components that work together to share implicit state behind the scenes. Think of native HTML elements like `<select>` and `<option>`: `<select>` manages the selected state while `<option>` elements register themselves without explicit prop-drilling.
 
 In React, we implement this pattern by combining **React Context API** with **TypeScript** to create flexible, highly customizable UI controls (such as Accordions, Tabs, Dropdowns, and Modals).

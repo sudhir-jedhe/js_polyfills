@@ -1,3 +1,5 @@
+*** copy Explain Anti-CSRF token strategies like the Double Submit Cookie pattern and Synchronizer Token pattern.md ***
+
 While `SameSite` cookie attributes provide strong baseline protection against Cross-Site Request Forgery (CSRF), defense-in-depth requires explicit **Anti-CSRF Tokens**.
 
 Anti-CSRF tokens guarantee that a state-changing request (such as a `POST`, `PUT`, or `DELETE` action) originated intentionally from your application's UI rather than a malicious third-party site.

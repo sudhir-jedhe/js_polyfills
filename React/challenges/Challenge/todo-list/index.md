@@ -1,3 +1,5 @@
+*** copy index.md ***
+
 const initialItems = ['JavaScript', 'HTML', 'CSS', 'React', 'Angular', 'Zustand', 'NextJS', 'TypeScript'];
 
 const listContainer = document.getElementById('listContainer');

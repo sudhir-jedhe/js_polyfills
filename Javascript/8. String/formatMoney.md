@@ -1,3 +1,5 @@
+*** copy formatMoney.md ***
+
 ```js
 formatMoney(123); // Output: $123.00
 formatMoney(0); // Output: $0.00

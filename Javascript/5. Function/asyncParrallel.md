@@ -1,3 +1,5 @@
+*** copy asyncParrallel.md ***
+
 The goal here is to implement the `parallel()` function, which will execute an array of asynchronous functions in parallel, and trigger a final callback once all of them are done (or if any function fails).
 
 ### Key Requirements:

@@ -1,3 +1,5 @@
+*** copy How do you implement an async in-memory cache that prevents cache stampede using promise deduplication?.md ***
+
 A **Cache Stampede** (or "thundering herd" problem) happens when multiple concurrent requests simultaneously find a key missing (or expired) and all invoke the expensive async loader at the same time.
 
 To prevent this, the cache stores the **in-flight `Promise**` directly, allowing concurrent requests for the same key to share (deduplicate) the same promise execution.

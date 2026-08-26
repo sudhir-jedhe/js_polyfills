@@ -1,3 +1,5 @@
+*** copy When an input form lags while typing in React.md ***
+
 When an input form lags while typing in React, the browser main thread is getting blocked during the keystroke event (`onChange`). Every keystroke triggers a state update, forcing React to execute expensive JS tasks or DOM operations within a ~16ms frame window.
 
 Here are the primary reasons for input lag and how to fix them using `useMemo`, debouncing, and component splitting.

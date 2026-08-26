@@ -1,3 +1,5 @@
+*** copy get-the-last-item-of-javascript-object.md ***
+
 ```js
 let Obj = {
   "1_prop": "1_Val",

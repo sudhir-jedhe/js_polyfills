@@ -1,3 +1,5 @@
+*** copy How do you attach and combine Source Maps using webpack.sources.ConcatSource and SourceMapSource in custom plugins?.md ***
+
 In Webpack 5, the **`webpack-sources`** package (exposed directly via `compiler.webpack.sources`) provides high-performance data structures for code manipulation without breaking or dropping source map chains.
 
 To combine and attach source maps in a custom plugin, you use **`SourceMapSource`** to wrap code that already has a source map, and **`ConcatSource`** to stitch multiple sources, banners, or footers together while automatically remapping source coordinates.

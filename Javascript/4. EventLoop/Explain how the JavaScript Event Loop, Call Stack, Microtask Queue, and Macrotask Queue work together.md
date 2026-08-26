@@ -1,3 +1,5 @@
+*** copy Explain how the JavaScript Event Loop, Call Stack, Microtask Queue, and Macrotask Queue work together.md ***
+
 JavaScript is a **single-threaded, non-blocking, asynchronous** programming language. To execute asynchronous code (like `setTimeout`, `fetch`, or `Promise.then`) without freezing the user interface or blocking main thread execution, the JavaScript engine relies on four cooperating components:
 
 1. **Call Stack**

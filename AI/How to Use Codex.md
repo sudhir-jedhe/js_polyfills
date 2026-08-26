@@ -1,3 +1,5 @@
+*** copy How to Use Codex.md ***
+
 This infographic, titled **"How to Use Codex"** by Rathnakumar Udayakumar, presents a comprehensive mind map of best practices, pro tips, and common mistakes for leveraging Codex effectively in software engineering.
 
 ---

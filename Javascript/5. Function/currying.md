@@ -1,3 +1,5 @@
+*** copy currying.md ***
+
 You've provided various implementations and examples of currying in JavaScript. Let's break down each approach and understand the differences, advantages, and applications.
 
 ### 1. **Basic Curry Function (with Arity Check)**

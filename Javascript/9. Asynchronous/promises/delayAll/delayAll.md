@@ -1,3 +1,5 @@
+*** copy delayAll.md ***
+
 ```js
 function delayAll(functions: Function[], ms: number): Function[] {
     return functions.map(fn => {

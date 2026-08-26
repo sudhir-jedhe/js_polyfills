@@ -1,3 +1,5 @@
+*** copy omit.md ***
+
 ```js
 function omit(object, paths) {
   const newObject = {};
