@@ -1,4 +1,4 @@
-*** copy readme.md ***
+***  readme.md ***
 
 relation db -> tables
 tables connected using relatonships

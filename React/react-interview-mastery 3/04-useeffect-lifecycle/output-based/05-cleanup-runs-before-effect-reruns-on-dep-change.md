@@ -1,4 +1,4 @@
-*** copy 05-cleanup-runs-before-effect-reruns-on-dep-change.md ***
+***  05-cleanup-runs-before-effect-reruns-on-dep-change.md ***
 
 # What Happens When `roomId` Changes From `"lobby"` to `"general"`?
 

@@ -1,4 +1,4 @@
-*** copy 04-event-delegation-and-stoppropagation.md ***
+***  04-event-delegation-and-stoppropagation.md ***
 
 # Interview Q&A: Event Delegation & stopPropagation
 

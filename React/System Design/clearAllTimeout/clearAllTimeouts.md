@@ -1,4 +1,4 @@
-*** copy clearAllTimeouts.md ***
+***  clearAllTimeouts.md ***
 
 # Implement `clearAllTimeout()` in JavaScript
 

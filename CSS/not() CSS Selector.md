@@ -1,4 +1,4 @@
-*** copy not() CSS Selector.md ***
+***  not() CSS Selector.md ***
 
 ### `:not()` CSS Selector
 

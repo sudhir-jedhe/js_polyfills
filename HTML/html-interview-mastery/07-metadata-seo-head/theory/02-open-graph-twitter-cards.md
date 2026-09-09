@@ -1,4 +1,4 @@
-*** copy 02-open-graph-twitter-cards.md ***
+***  02-open-graph-twitter-cards.md ***
 
 # Open Graph and Twitter Card Meta Tags
 

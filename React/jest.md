@@ -1,2 +1,2 @@
-*** copy jest.md ***
+***  jest.md ***
 

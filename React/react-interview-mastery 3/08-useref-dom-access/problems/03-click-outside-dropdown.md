@@ -1,4 +1,4 @@
-*** copy 03-click-outside-dropdown.md ***
+***  03-click-outside-dropdown.md ***
 
 # Problem: "Click outside to close" dropdown using a ref + document event listener
 

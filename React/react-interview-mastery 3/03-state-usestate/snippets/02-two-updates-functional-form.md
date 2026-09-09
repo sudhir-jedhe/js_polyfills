@@ -1,4 +1,4 @@
-*** copy 02-two-updates-functional-form.md ***
+***  02-two-updates-functional-form.md ***
 
 # Two Rapid Updates in One Handler — Functional Form Applies Both Correctly
 

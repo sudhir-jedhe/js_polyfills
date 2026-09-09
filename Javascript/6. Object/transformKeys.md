@@ -1,4 +1,4 @@
-*** copy transformKeys.md ***
+***  transformKeys.md ***
 
 Your code snippets demonstrate various operations on JavaScript objects that manipulate or transform the keys or values in different ways. Let's walk through each function you've provided and explain what it does, then discuss how they work.
 

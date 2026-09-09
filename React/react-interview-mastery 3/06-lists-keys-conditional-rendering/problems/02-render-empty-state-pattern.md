@@ -1,4 +1,4 @@
-*** copy 02-render-empty-state-pattern.md ***
+***  02-render-empty-state-pattern.md ***
 
 # Problem: `renderEmptyState` pattern for loading/empty/populated list states
 

@@ -1,4 +1,4 @@
-*** copy A live stream pushes 500 updates per second. The UI needs 60 fps. What do you buffer, drop, or render?.md ***
+***  A live stream pushes 500 updates per second. The UI needs 60 fps. What do you buffer, drop, or render?.md ***
 
 At **500 updates/second** ($2\text{ ms}$ interval) on a **$60\text{ fps}$** display ($16.67\text{ ms}$ frame budget), the browser receives roughly **8 to 9 updates per render frame**.
 

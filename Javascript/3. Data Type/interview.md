@@ -1,4 +1,4 @@
-*** copy Interview.md ***
+***  Interview.md ***
 
 ### 1. Usage of `typeof` Operator on Different Types of Values
 

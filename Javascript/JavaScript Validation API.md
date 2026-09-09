@@ -1,4 +1,4 @@
-*** copy JavaScript Validation API.md ***
+***  JavaScript Validation API.md ***
 
 The **JavaScript Constraint Validation API** provides built-in methods and properties on HTML form elements (like `<input>`, `<select>`, and `<textarea>`) to validate user inputs before form submission.
 

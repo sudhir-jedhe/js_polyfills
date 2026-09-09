@@ -1,4 +1,4 @@
-*** copy What is CORS and Same Origin Policy.md ***
+***  What is CORS and Same Origin Policy.md ***
 
 ## **What is CORS (Cross-Origin Resource Sharing) and Same-Origin Policy?**
 

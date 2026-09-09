@@ -1,4 +1,4 @@
-*** copy  What is forwardRef() in React used for?.md ***
+***   What is forwardRef() in React used for?.md ***
 
 ### What is `forwardRef()` and What Was It Used For?
 

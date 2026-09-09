@@ -1,4 +1,4 @@
-*** copy Diagnosing Progressive Slowdown in Web Applications.md ***
+***  Diagnosing Progressive Slowdown in Web Applications.md ***
 
 ## Diagnosing Progressive Slowdown in Web Applications
 

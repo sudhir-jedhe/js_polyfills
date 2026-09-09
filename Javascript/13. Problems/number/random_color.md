@@ -1,4 +1,4 @@
-*** copy random_color.md ***
+***  random_color.md ***
 
 ```js
 // JavaScript code to pick

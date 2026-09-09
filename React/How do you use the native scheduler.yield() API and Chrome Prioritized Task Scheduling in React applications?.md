@@ -1,4 +1,4 @@
-*** copy How do you use the native scheduler.yield() API and Chrome Prioritized Task Scheduling in React applications?.md ***
+***  How do you use the native scheduler.yield() API and Chrome Prioritized Task Scheduling in React applications?.md ***
 
 The **Prioritized Task Scheduling API** (via `window.scheduler`) gives you explicit control over how and when JavaScript tasks run on the browser's main thread. In React applications, using `scheduler.yield()` and `scheduler.postTask()` allows you to break up long-running non-React computations (data processing, parsing, filtering) and prioritize background tasks without blocking user interactions or degrading **Interaction to Next Paint (INP)**.
 

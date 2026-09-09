@@ -1,4 +1,4 @@
-*** copy Diagnose detached DOM tree memory leaks.md ***
+***  Diagnose detached DOM tree memory leaks.md ***
 
 A **Detached DOM Tree** occurs when a DOM node is removed from the active document tree (`parent.removeChild(node)` or `element.remove()`), but JavaScript code still holds a reference to that node or any of its child elements.
 

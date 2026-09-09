@@ -1,4 +1,4 @@
-*** copy framework.md ***
+***  framework.md ***
 
 1. R.A.D.I.O. Framework Summary
    The R.A.D.I.O. framework is a structured approach commonly used for front-end and full-stack system design. Here is how it maps to a real-time chat app:

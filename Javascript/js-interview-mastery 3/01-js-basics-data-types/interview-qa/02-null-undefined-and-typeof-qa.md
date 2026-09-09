@@ -1,4 +1,4 @@
-*** copy 02-null-undefined-and-typeof-qa.md ***
+***  02-null-undefined-and-typeof-qa.md ***
 
 # Interview Q&A — `null`, `undefined`, and `typeof`
 

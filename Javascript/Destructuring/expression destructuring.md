@@ -1,4 +1,4 @@
-*** copy expression destructuring.md ***
+***  expression destructuring.md ***
 
 You're correct! In JavaScript, when using destructuring in a statement like the one you provided, the expression needs to be wrapped in parentheses to avoid a syntax error. This is because JavaScript interprets the `{}` as a block of code rather than an object literal when it appears on the left-hand side of an assignment.
 

@@ -1,4 +1,4 @@
-*** copy validatePassword.md ***
+***  validatePassword.md ***
 
 Here is how to write a password validation function in JavaScript that checks for uppercase letters, lowercase letters, numbers, symbols, and a minimum length.
 

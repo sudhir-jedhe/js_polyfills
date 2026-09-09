@@ -1,4 +1,4 @@
-*** copy React Lists.md ***
+***  React Lists.md ***
 
 In React, **lists** are rendered by iterating over arrays using standard JavaScript methods—most commonly **`.map()`**—and returning JSX elements for each item.
 

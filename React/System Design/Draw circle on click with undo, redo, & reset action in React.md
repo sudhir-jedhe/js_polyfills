@@ -1,4 +1,4 @@
-*** copy Draw circle on click with undo, redo, & reset action in React.md ***
+***  Draw circle on click with undo, redo, & reset action in React.md ***
 
 # Draw Circle on Click with Undo, Redo & Reset in React
 

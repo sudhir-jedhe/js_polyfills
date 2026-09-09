@@ -1,4 +1,4 @@
-*** copy 02-get-type-utility.md ***
+***  02-get-type-utility.md ***
 
 # Problem: Implement `getType(x)`
 

@@ -1,4 +1,4 @@
-*** copy listVirtulaization.md ***
+***  listVirtulaization.md ***
 
 # Implement List Virtualization with Vanilla JavaScript
 

@@ -1,4 +1,4 @@
-*** copy 05-figure-figcaption.md ***
+***  05-figure-figcaption.md ***
 
 # Snippet: `<figure>` and `<figcaption>`
 

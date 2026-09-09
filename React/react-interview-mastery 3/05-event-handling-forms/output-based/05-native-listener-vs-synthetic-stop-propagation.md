@@ -1,4 +1,4 @@
-*** copy 05-native-listener-vs-synthetic-stop-propagation.md ***
+***  05-native-listener-vs-synthetic-stop-propagation.md ***
 
 # Output-Based: Does a native `document.addEventListener` still fire after synthetic `stopPropagation()`?
 

@@ -1,4 +1,4 @@
-*** copy TicTacToe.md ***
+***  TicTacToe.md ***
 
 A complete, modern Tic-Tac-Toe game in React featuring win-line highlighting, move history (time travel), and score tracking.
 

@@ -1,4 +1,4 @@
-*** copy technique.md ***
+***  technique.md ***
 
 // Article: Load script efficiently with async and defer
 // Article: Tress shaking

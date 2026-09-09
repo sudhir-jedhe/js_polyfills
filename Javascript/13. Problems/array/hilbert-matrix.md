@@ -1,4 +1,4 @@
-*** copy hilbert-matrix.md ***
+***  hilbert-matrix.md ***
 
 ```js
 // Input : N = 2

@@ -1,4 +1,4 @@
-*** copy componentDidCatchInHooks.md ***
+***  componentDidCatchInHooks.md ***
 
 **No. There is currently no React Hook equivalent to `componentDidCatch()`.**
 

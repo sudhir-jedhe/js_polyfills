@@ -1,4 +1,4 @@
-*** copy Object.seal() and Object.freeze() and Object.preventExtension.md ***
+***  Object.seal() and Object.freeze() and Object.preventExtension.md ***
 
 In JavaScript, both `Object.seal()` and `Object.freeze()` are used to make objects immutable, but they offer different levels of protection. Let's explore the differences between `Object.seal()` and `Object.freeze()`, along with the third method, `Object.preventExtensions()`, to give a more comprehensive view.
 

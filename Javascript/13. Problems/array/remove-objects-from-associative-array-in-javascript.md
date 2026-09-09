@@ -1,4 +1,4 @@
-*** copy remove-objects-from-associative-array-in-javascript.md ***
+***  remove-objects-from-associative-array-in-javascript.md ***
 
 ```js
 function deleteObjects() {

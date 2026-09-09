@@ -1,4 +1,4 @@
-*** copy communication protocols.md ***
+***  communication protocols.md ***
 
 The communication protocols shaping internet interactions are structured in layered models—specifically the **OSI 7-Layer Model** and the **TCP/IP 4-Layer Model**. These protocols form the groundwork for efficient data exchange by standardizing how data is packaged, routed, secured, and delivered across heterogeneous global networks.
 

@@ -1,4 +1,4 @@
-*** copy Content Delivery Network (CDN).md ***
+***  Content Delivery Network (CDN).md ***
 
 Using a **Content Delivery Network (CDN)** provides a range of benefits, especially when it comes to delivering assets such as JavaScript, CSS, images, and videos to end users. A CDN is a network of geographically distributed servers that work together to provide fast delivery of content to users based on their geographic location. Here's an overview of the **benefits of using a CDN**:
 

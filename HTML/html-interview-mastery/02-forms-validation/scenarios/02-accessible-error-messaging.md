@@ -1,4 +1,4 @@
-*** copy 02-accessible-error-messaging.md ***
+***  02-accessible-error-messaging.md ***
 
 # Scenario: Accessible Error Messaging for Screen Reader Users
 

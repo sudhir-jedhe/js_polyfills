@@ -1,4 +1,4 @@
-*** copy React's Before Mutation Phase: Capturing Pre-Update DOM State.md ***
+***  React's Before Mutation Phase: Capturing Pre-Update DOM State.md ***
 
 Here is a clean, structured reference guide detailing the **Before Mutation Phase**, `getSnapshotBeforeUpdate`, and how to handle pre-update DOM measurements in both Class Components and modern Function Components.
 

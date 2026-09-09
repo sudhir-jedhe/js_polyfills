@@ -1,4 +1,4 @@
-*** copy replaceEmptyStrings.md ***
+***  replaceEmptyStrings.md ***
 
 ### Explanation of `replaceEmptyStrings` Function
 

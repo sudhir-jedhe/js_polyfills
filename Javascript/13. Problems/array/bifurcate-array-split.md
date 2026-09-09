@@ -1,4 +1,4 @@
-*** copy bifurcate-array-split.md ***
+***  bifurcate-array-split.md ***
 
 ```js
 // Splitting a JavaScript array into two groups is relatively easy. Depending on your needs, you might know which group each value belongs to in advance or you might need to use a function to determine that.

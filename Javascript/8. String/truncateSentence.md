@@ -1,4 +1,4 @@
-*** copy truncateSentence.md ***
+***  truncateSentence.md ***
 
 Your code looks great! You're implementing a simple function to truncate a sentence to a specified number of words. Here's a brief explanation of what the code is doing:
 

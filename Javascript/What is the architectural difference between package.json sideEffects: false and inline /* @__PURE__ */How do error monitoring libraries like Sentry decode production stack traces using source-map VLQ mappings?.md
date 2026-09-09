@@ -1,4 +1,4 @@
-*** copy How do error monitoring libraries like Sentry decode production stack traces using source-map VLQ mappings?.md ***
+***  How do error monitoring libraries like Sentry decode production stack traces using source-map VLQ mappings?.md ***
 
 When an error occurs in production, the browser captures a minified stack trace with generated positions (e.g., `bundle.min.js:1:42135`). Error monitoring platforms like **Sentry**, **Datadog**, and **Bugsnag** symbolicate these traces using the **Source Map v3 standard** and **Variable-Length Quantity (VLQ)** decoding.
 

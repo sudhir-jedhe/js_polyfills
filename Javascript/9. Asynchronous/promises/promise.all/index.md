@@ -1,4 +1,4 @@
-*** copy index.md ***
+***  index.md ***
 
 // Promise.all() is a method that takes an iterable of elements (usually
 // Promises) as an input, and returns a single Promise that resolves to an array

@@ -1,4 +1,4 @@
-*** copy How would you handle API caching, retries, and background synchronization in a frontend application?.md ***
+***  How would you handle API caching, retries, and background synchronization in a frontend application?.md ***
 
 Handling **API caching, automatic retries, and background synchronization** in a modern frontend application requires a clear division between **Server State** (data owned by the backend) and **Client State** (local UI interactions).
 

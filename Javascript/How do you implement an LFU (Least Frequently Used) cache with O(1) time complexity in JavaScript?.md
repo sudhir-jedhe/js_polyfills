@@ -1,4 +1,4 @@
-*** copy How do you implement an LFU (Least Frequently Used) cache with O(1) time complexity in JavaScript?.md ***
+***  How do you implement an LFU (Least Frequently Used) cache with O(1) time complexity in JavaScript?.md ***
 
 An **LFU (Least Frequently Used) Cache** evicts the item with the lowest access frequency. When there is a tie in frequency, it breaks the tie by evicting the **Least Recently Used (LRU)** item among them.
 

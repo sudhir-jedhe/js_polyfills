@@ -1,4 +1,4 @@
-*** copy Single state object vs individual useState calls, what breaks in each?.md ***
+***  Single state object vs individual useState calls, what breaks in each?.md ***
 
 Choosing between a single state object (`useState({ ... })`) and multiple individual state calls (`useState(...)`) in React depends on state co-location and update frequency. Both approaches have specific failure modes and edge cases that can break your application.
 

@@ -1,4 +1,4 @@
-*** copy controlled conponnet vs uncontrolled.md ***
+***  controlled conponnet vs uncontrolled.md ***
 
 In React, the terms **controlled components** and **uncontrolled components** refer to how form elements like `<input>`, `<textarea>`, and `<select>` are handled in terms of their state and interactions.
 

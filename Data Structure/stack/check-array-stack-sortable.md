@@ -1,4 +1,4 @@
-*** copy check-array-stack-sortable.md ***
+***  check-array-stack-sortable.md ***
 
 // Input : A[] = { 3, 2, 1 }
 // Output : YES

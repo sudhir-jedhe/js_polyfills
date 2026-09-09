@@ -1,4 +1,4 @@
-*** copy Git Branching and CI-CD Pipelines.md ***
+***  Git Branching and CI-CD Pipelines.md ***
 
 This is a fantastic addition to your repository. Interviewers for mid-to-senior roles almost always ask about how you manage code once it leaves your local machine. They want to know you can work in a team without breaking production.
 

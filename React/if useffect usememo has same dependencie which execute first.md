@@ -1,4 +1,4 @@
-*** copy if useffect usememo has same dependencie which execute first.md ***
+***  if useffect usememo has same dependencie which execute first.md ***
 
 **`useMemo` executes first** during the **Render Phase**, while **`useEffect` executes later** during the **Commit Phase** (after the browser has painted the screen).
 

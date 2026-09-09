@@ -1,4 +1,4 @@
-*** copy prototype1.md ***
+***  prototype1.md ***
 
 ### **What is `prototype` in JavaScript?**
 

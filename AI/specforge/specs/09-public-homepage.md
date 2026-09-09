@@ -1,4 +1,4 @@
-*** copy 09-public-homepage.md ***
+***  09-public-homepage.md ***
 
 # Spec 09 — Public Homepage
 

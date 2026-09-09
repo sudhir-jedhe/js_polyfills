@@ -1,4 +1,4 @@
-*** copy validatePasswords.md ***
+***  validatePasswords.md ***
 
 ```js
 export const validatePasswords = (first, second) => {

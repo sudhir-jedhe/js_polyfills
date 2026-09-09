@@ -1,4 +1,4 @@
-*** copy 07-checkbox-select-generic-handler.md ***
+***  07-checkbox-select-generic-handler.md ***
 
 # Snippet: Checkbox and select handled through the same generic pattern
 

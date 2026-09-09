@@ -1,4 +1,4 @@
-*** copy Iterable.md ***
+***  Iterable.md ***
 
 In JavaScript, the `entries()` method returns an iterator object containing key-value pairs for each index of the array (or for each property of an object). When used with a `for...of` loop, this allows you to iterate over these key-value pairs.
 

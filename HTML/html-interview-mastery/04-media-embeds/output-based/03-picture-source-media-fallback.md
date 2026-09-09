@@ -1,4 +1,4 @@
-*** copy 03-picture-source-media-fallback.md ***
+***  03-picture-source-media-fallback.md ***
 
 # Output: `<picture>` `<source>` Evaluation Order
 

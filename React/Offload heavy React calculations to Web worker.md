@@ -1,4 +1,4 @@
-*** copy Offload heavy React calculations to Web worker.md ***
+***  Offload heavy React calculations to Web worker.md ***
 
 Offloading heavy calculations from React to a **Web Worker** keeps CPU-intensive tasks (data processing, parsing large CSVs, image manipulation, cryptographic math) completely off the browser's main thread, maintaining 60+ FPS UI responsiveness and low INP.
 

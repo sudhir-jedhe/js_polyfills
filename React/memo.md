@@ -1,4 +1,4 @@
-*** copy memo.md ***
+***  memo.md ***
 
 **`memo`** is a higher-order component in React that lets you skip re-rendering a component when its props haven't changed.
 

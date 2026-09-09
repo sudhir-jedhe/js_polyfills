@@ -1,4 +1,4 @@
-*** copy collection.md ***
+***  collection.md ***
 
 ### 4. **Insertion and Removal of Elements in Arrays Using `splice()`**
 

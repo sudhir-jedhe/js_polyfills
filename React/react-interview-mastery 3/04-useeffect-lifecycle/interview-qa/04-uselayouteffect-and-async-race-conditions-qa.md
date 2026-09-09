@@ -1,4 +1,4 @@
-*** copy 04-uselayouteffect-and-async-race-conditions-qa.md ***
+***  04-uselayouteffect-and-async-race-conditions-qa.md ***
 
 # Interview Q&A — `useLayoutEffect` and Async Race Conditions
 

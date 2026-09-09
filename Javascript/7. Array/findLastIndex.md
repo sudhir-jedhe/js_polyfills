@@ -1,4 +1,4 @@
-*** copy findLastIndex.md ***
+***  findLastIndex.md ***
 
 Your `customFindLastIndex` method is a solid custom implementation of finding the **last index** of an element that satisfies a given condition. It's similar to the built-in `findLastIndex` method available in newer versions of JavaScript.
 

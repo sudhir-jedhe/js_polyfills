@@ -1,4 +1,4 @@
-*** copy 06-uselayouteffect-measuring-dom-before-paint.md ***
+***  06-uselayouteffect-measuring-dom-before-paint.md ***
 
 # `useLayoutEffect` Measuring the DOM Before Paint to Avoid a Visible Flicker
 

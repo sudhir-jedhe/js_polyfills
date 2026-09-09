@@ -1,4 +1,4 @@
-*** copy What is event.target.md ***
+***  What is event.target.md ***
 
 event.target is the element on which the event occurred or the element that triggered the event.
 

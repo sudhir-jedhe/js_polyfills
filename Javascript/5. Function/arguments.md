@@ -1,4 +1,4 @@
-*** copy arguments.md ***
+***  arguments.md ***
 
 Let's break down each part of the code you've provided and explain what is happening:
 

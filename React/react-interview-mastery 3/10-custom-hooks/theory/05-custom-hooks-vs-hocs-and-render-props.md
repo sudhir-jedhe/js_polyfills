@@ -1,4 +1,4 @@
-*** copy 05-custom-hooks-vs-hocs-and-render-props.md ***
+***  05-custom-hooks-vs-hocs-and-render-props.md ***
 
 # Custom Hooks vs HOCs and Render Props
 

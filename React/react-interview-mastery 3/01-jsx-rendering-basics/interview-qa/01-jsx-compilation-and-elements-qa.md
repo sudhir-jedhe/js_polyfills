@@ -1,4 +1,4 @@
-*** copy 01-jsx-compilation-and-elements-qa.md ***
+***  01-jsx-compilation-and-elements-qa.md ***
 
 # Interview Q&A — JSX Compilation and Elements
 

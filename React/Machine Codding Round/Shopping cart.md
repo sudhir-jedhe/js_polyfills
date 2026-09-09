@@ -1,4 +1,4 @@
-*** copy Shopping cart.md ***
+***  Shopping cart.md ***
 
 Here is a full-stack **E-Commerce Application** architecture and implementation using **React** (Frontend) and **Node.js / Express / MongoDB** (Backend).
 

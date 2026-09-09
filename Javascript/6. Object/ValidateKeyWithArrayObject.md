@@ -1,4 +1,4 @@
-*** copy ValidateKeyWithArrayObject.md ***
+***  ValidateKeyWithArrayObject.md ***
 
 The code you've provided efficiently validates the keys of JavaScript objects in various ways. I'll walk through each function and explain how it works in detail, as well as how you can use it in different situations.
 

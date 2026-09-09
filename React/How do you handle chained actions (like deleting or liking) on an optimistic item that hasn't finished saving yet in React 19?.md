@@ -1,4 +1,4 @@
-*** copy How do you handle chained actions (like deleting or liking) on an optimistic item that hasn't finished saving yet in React 19?.md ***
+***  How do you handle chained actions (like deleting or liking) on an optimistic item that hasn't finished saving yet in React 19?.md ***
 
 Handling chained actions (such as liking, updating, or deleting an item that is still in flight) requires coordinating client-generated IDs with asynchronous action queues.
 

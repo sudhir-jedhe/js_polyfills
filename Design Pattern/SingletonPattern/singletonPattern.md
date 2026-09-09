@@ -1,4 +1,4 @@
-*** copy singletonPattern.md ***
+***  singletonPattern.md ***
 
 # Singleton Pattern in JavaScript & React
 

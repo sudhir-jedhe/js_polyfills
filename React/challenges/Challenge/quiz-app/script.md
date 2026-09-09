@@ -1,4 +1,4 @@
-*** copy script.md ***
+***  script.md ***
 
 const mainContainer = document.getElementById('main__container');
 const loadingContainer = document.getElementById('loading__container');

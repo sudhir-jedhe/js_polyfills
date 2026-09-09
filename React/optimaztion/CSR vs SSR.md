@@ -1,4 +1,4 @@
-*** copy CSR vs SSR.md ***
+***  CSR vs SSR.md ***
 
 https://learnersbucket.com/examples/web/single-page-application-csr-vs-multi-page-application-ssr/
 

@@ -1,4 +1,4 @@
-*** copy How does React 19 automatically handle form reset behaviors after successful Server Actions?.md ***
+***  How does React 19 automatically handle form reset behaviors after successful Server Actions?.md ***
 
 In React 19, form reset behavior is integrated directly into the lifecycle of **uncontrolled forms powered by Actions and Transitions**.
 

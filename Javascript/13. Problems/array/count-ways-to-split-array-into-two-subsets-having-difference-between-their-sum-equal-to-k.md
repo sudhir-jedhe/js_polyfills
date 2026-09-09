@@ -1,4 +1,4 @@
-*** copy count-ways-to-split-array-into-two-subsets-having-difference-between-their-sum-equal-to-k.md ***
+***  count-ways-to-split-array-into-two-subsets-having-difference-between-their-sum-equal-to-k.md ***
 
 ```js
 // Input: A[] = {1, 1, 2, 3}, diff = 1

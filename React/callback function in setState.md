@@ -1,4 +1,4 @@
-*** copy callback function in setState.md ***
+***  callback function in setState.md ***
 
 In React, the **`setState()`** method is used to update the component's state. One important feature of `setState()` is that it can accept a **callback function** as its second argument, which is executed after the state has been successfully updated and the component has re-rendered.
 

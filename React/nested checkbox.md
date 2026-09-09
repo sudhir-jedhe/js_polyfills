@@ -1,4 +1,4 @@
-*** copy nested checkbox.md ***
+***  nested checkbox.md ***
 
 A complete, recursive **Nested Checkbox Tree** component in React supporting infinite nesting, cascading parent-to-child selections, child-to-parent synchronization, and the HTML `indeterminate` state (partial selection).
 

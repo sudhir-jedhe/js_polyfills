@@ -1,4 +1,4 @@
-*** copy How do I create custom variants and pseudo-class modifiers using the @variant directive in Tailwind CSS v4?.md ***
+***  How do I create custom variants and pseudo-class modifiers using the @variant directive in Tailwind CSS v4?.md ***
 
 In Tailwind CSS v4, custom variant behaviors are handled via two dedicated CSS directives:
 

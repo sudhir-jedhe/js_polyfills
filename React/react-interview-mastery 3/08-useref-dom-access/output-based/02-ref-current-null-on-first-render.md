@@ -1,4 +1,4 @@
-*** copy 02-ref-current-null-on-first-render.md ***
+***  02-ref-current-null-on-first-render.md ***
 
 # Output-Based: Is `ref.current` the DOM node or `null` during the very first render?
 

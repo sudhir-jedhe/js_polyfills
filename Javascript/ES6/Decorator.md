@@ -1,4 +1,4 @@
-*** copy Decorator.md ***
+***  Decorator.md ***
 
 **Class Decorators** and **Stage 3 Decorator Metadata** provide a standard declarative syntax for metaprogramming in modern JavaScript. They allow you to annotate, inspect, transform, or replace classes, methods, accessors, getters, setters, and fields at declaration time.
 

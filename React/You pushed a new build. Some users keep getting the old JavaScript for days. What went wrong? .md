@@ -1,4 +1,4 @@
-*** copy You pushed a new build. Some users keep getting the old JavaScript for days. What went wrong? .md ***
+***  You pushed a new build. Some users keep getting the old JavaScript for days. What went wrong? .md ***
 
 When users continue receiving old JavaScript days after a deployment, the failure almost always stems from **stale caching layers**, **Service Worker lifecycle locks**, or **cache key mismatches**.
 

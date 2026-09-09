@@ -1,4 +1,4 @@
-*** copy 05-dependency-array-bugs.md ***
+***  05-dependency-array-bugs.md ***
 
 # Classic Dependency-Array Bugs
 

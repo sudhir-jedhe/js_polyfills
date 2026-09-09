@@ -1,4 +1,4 @@
-*** copy How to check if a certain property exists in an object.md ***
+***  How to check if a certain property exists in an object.md ***
 
 Great explanation! You've outlined three common ways to check if a property exists in a JavaScript object. Let's break down each method a bit further, and highlight their use cases and differences.
 

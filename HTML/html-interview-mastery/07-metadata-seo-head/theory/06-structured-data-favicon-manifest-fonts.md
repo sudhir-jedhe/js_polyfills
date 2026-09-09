@@ -1,4 +1,4 @@
-*** copy 06-structured-data-favicon-manifest-fonts.md ***
+***  06-structured-data-favicon-manifest-fonts.md ***
 
 # Structured Data (JSON-LD), Favicon/Manifest, and Font Preloading
 

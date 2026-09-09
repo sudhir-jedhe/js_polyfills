@@ -1,4 +1,4 @@
-*** copy File Explorer.md ***
+***  File Explorer.md ***
 
 ## Accessible File Explorer Component in React
 

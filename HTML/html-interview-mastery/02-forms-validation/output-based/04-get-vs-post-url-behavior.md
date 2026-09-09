@@ -1,4 +1,4 @@
-*** copy 04-get-vs-post-url-behavior.md ***
+***  04-get-vs-post-url-behavior.md ***
 
 # Output: GET Form Submission and the Resulting URL
 

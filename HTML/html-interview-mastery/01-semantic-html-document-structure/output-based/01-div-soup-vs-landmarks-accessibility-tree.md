@@ -1,4 +1,4 @@
-*** copy 01-div-soup-vs-landmarks-accessibility-tree.md ***
+***  01-div-soup-vs-landmarks-accessibility-tree.md ***
 
 # Output: Div Soup vs. Semantic Landmarks in the Accessibility Tree
 

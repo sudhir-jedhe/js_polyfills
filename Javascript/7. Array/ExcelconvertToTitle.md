@@ -1,4 +1,4 @@
-*** copy ExcelconvertToTitle.md ***
+***  ExcelconvertToTitle.md ***
 
 ### Explanation of the Functions
 

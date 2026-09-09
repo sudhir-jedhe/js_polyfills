@@ -1,4 +1,4 @@
-*** copy cloneBySlice.md ***
+***  cloneBySlice.md ***
 
 # 1. Using `slice()` to Clone Arrays
 

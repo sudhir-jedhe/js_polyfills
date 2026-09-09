@@ -1,4 +1,4 @@
-*** copy insertion-index-in-sorted-array.md ***
+***  insertion-index-in-sorted-array.md ***
 
 ```js
 // Insertion index in sorted array

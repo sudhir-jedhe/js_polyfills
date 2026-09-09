@@ -1,4 +1,4 @@
-*** copy 02-resource-hints-preload-preconnect-prefetch-dns-prefetch.md ***
+***  02-resource-hints-preload-preconnect-prefetch-dns-prefetch.md ***
 
 # Resource Hints: `preload`, `preconnect`, `prefetch`, `dns-prefetch`
 

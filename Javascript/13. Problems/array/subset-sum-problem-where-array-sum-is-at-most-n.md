@@ -1,4 +1,4 @@
-*** copy subset-sum-problem-where-array-sum-is-at-most-n.md ***
+***  subset-sum-problem-where-array-sum-is-at-most-n.md ***
 
 ```js
 // Input: arr[] = {1, 0, 0, 0, 0, 2, 3}, queries[] = {3, 7, 6}

@@ -1,4 +1,4 @@
-*** copy README.md ***
+***  README.md ***
 
 # Data Structures and Algorithm in JavaScript Course
 

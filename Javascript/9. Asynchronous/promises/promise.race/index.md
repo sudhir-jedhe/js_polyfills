@@ -1,4 +1,4 @@
-*** copy index.md ***
+***  index.md ***
 
 ```js
 function race(promises) {

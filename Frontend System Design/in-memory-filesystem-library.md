@@ -1,4 +1,4 @@
-*** copy in-memory-filesystem-library.md ***
+***  in-memory-filesystem-library.md ***
 
 The code you've written for the `FileSystem` class is working well, but there are a few aspects that can be improved to ensure better clarity, robustness, and alignment with typical file systems.
 

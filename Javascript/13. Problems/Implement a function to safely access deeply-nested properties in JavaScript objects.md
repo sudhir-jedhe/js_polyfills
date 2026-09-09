@@ -1,4 +1,4 @@
-*** copy Implement a function to safely access deeply-nested properties in JavaScript objects.md ***
+***  Implement a function to safely access deeply-nested properties in JavaScript objects.md ***
 
 ```js
 function getNestedProperty(obj, path) {

@@ -1,4 +1,4 @@
-*** copy Explain Before Mutation Phase and getSnapshotBeforeUpdate in detail with code examples.md ***
+***  Explain Before Mutation Phase and getSnapshotBeforeUpdate in detail with code examples.md ***
 
 The **Before Mutation Phase** is the very first sub-phase of React's **Commit Phase**.
 

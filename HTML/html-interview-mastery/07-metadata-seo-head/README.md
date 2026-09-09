@@ -1,4 +1,4 @@
-*** copy README.md ***
+***  README.md ***
 
 # Metadata, SEO & `<head>`
 

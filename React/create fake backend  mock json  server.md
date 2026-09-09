@@ -1,4 +1,4 @@
-*** copy create fake backend  mock json  server.md ***
+***  create fake backend  mock json  server.md ***
 
 A complete guide to setting up a zero-config, RESTful mock backend using **`json-server`** that supports CRUD operations, pagination, filtering, relationships, and artificial network delay.
 

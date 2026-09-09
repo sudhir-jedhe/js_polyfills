@@ -1,4 +1,4 @@
-*** copy 02-resource-hints-and-rendering-path-qa.md ***
+***  02-resource-hints-and-rendering-path-qa.md ***
 
 # Interview Q&A — Resource Hints & Critical Rendering Path
 

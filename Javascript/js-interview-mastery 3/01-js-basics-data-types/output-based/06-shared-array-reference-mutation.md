@@ -1,4 +1,4 @@
-*** copy 06-shared-array-reference-mutation.md ***
+***  06-shared-array-reference-mutation.md ***
 
 # Mutating a Shared Array Reference
 

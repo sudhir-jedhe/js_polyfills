@@ -1,4 +1,4 @@
-*** copy concept.md ***
+***  concept.md ***
 
 You’ve provided a solid summary of web accessibility best practices. These practices are vital in making sure that web applications are inclusive and usable by everyone, regardless of their abilities or impairments. Here's a quick recap and some additional tips for each point:
 

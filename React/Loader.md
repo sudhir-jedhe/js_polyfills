@@ -1,4 +1,4 @@
-*** copy Loader.md ***
+***  Loader.md ***
 
 const Loader = ({ numberOfDots }) => {
     const renderDots = (dots) => {

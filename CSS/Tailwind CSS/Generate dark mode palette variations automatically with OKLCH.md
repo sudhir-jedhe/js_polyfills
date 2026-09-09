@@ -1,4 +1,4 @@
-*** copy Generate dark mode palette variations automatically with OKLCH.md ***
+***  Generate dark mode palette variations automatically with OKLCH.md ***
 
 Generating dark mode palettes using the **OKLCH** color space produces perceptually uniform results because Lightness ($L$), Chroma ($C$), and Hue ($H$) are decoupled.
 

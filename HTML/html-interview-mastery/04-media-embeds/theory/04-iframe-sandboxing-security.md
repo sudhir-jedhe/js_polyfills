@@ -1,4 +1,4 @@
-*** copy 04-iframe-sandboxing-security.md ***
+***  04-iframe-sandboxing-security.md ***
 
 # `<iframe>`: Sandboxing and Security Considerations
 

@@ -1,4 +1,4 @@
-*** copy stringReverse.md ***
+***  stringReverse.md ***
 
 ```js
 let reverseString = (str) => {

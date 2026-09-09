@@ -1,4 +1,4 @@
-*** copy replace-multiple-spaces-with-single-space.md ***
+***  replace-multiple-spaces-with-single-space.md ***
 
 ```js
 // String containing multiple spaces

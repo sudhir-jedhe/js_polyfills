@@ -1,4 +1,4 @@
-*** copy optimazation build.md ***
+***  optimazation build.md ***
 
 In modern web development, **Bundling**, **Tree Shaking**, and **Code Splitting** are the three core strategies developers use to balance developer experience with frontend performance.
 

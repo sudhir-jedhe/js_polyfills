@@ -1,4 +1,4 @@
-*** copy output.md ***
+***  output.md ***
 
 ### Output for the provided code snippets:
 

@@ -1,4 +1,4 @@
-*** copy example.md ***
+***  example.md ***
 
 To implement this cheat sheet as an interactive React component, I'll create a main component that allows users to explore different aspects of asynchronous JavaScript, and include executable examples for each section.
 

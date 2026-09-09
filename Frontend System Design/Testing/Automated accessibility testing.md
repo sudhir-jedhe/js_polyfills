@@ -1,4 +1,4 @@
-*** copy Automated accessibility testing.md ***
+***  Automated accessibility testing.md ***
 
 Automated accessibility testing using **`jest-axe`** allows you to catch common WCAG (Web Content Accessibility Guidelines) violations—such as missing ARIA attributes, unassociated form labels, broken landmark structures, and invalid HTML roles—directly inside your Vitest or Jest component test suite.
 

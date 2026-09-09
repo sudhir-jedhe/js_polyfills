@@ -1,4 +1,4 @@
-*** copy 04-doctype-quirks-mode-and-validation.md ***
+***  04-doctype-quirks-mode-and-validation.md ***
 
 # DOCTYPE, Quirks Mode, and HTML Validation
 

@@ -1,4 +1,4 @@
-*** copy JavaScript Window Location.md ***
+***  JavaScript Window Location.md ***
 
 Yes, that is a concise summary of the core properties and methods of the **`window.location`** object!
 

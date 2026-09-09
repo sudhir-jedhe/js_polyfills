@@ -1,4 +1,4 @@
-*** copy Breadcrumb Chain.md ***
+***  Breadcrumb Chain.md ***
 
 The **Breadcrumb Chain Problem** is a popular Frontend/JavaScript machine coding interview question.
 

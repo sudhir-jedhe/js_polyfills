@@ -1,4 +1,4 @@
-*** copy convert2DArray.md ***
+***  convert2DArray.md ***
 
 ### Explanation of the Two `convertTo2DArray` Implementations:
 

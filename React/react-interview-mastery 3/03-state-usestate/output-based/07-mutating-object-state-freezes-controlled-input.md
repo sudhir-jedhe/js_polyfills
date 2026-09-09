@@ -1,4 +1,4 @@
-*** copy 07-mutating-object-state-freezes-controlled-input.md ***
+***  07-mutating-object-state-freezes-controlled-input.md ***
 
 # What Happens on the Second Click?
 

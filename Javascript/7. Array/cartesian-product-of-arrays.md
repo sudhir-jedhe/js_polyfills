@@ -1,4 +1,4 @@
-*** copy cartesian-product-of-arrays.md ***
+***  cartesian-product-of-arrays.md ***
 
 Cartesian product of two JavaScript arrays
 

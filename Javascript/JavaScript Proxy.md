@@ -1,4 +1,4 @@
-*** copy JavaScript Proxy.md ***
+***  JavaScript Proxy.md ***
 
 A **JavaScript `Proxy**` is an object that wraps a target object and acts as a custom gatekeeper for operations performed on that target.
 

@@ -1,4 +1,4 @@
-*** copy chaining.md ***
+***  chaining.md ***
 
 Both code snippets you've provided showcase how **method chaining** can be implemented in JavaScript. Method chaining is the process of calling multiple methods on the same object in a single statement. The key concept here is that each method returns the object itself (using `this`), which allows for the chaining of subsequent method calls.
 

@@ -1,4 +1,4 @@
-*** copy class.md ***
+***  class.md ***
 
 Let's break down the code snippets and explain the key concepts along with the expected output and behavior of the code. This includes understanding classes, inheritance, private properties, static methods, and hoisting in JavaScript.
 

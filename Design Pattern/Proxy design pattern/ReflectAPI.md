@@ -1,4 +1,4 @@
-*** copy ReflectAPI.md ***
+***  ReflectAPI.md ***
 
 ### **Reflect API in JavaScript: A Comprehensive Guide**
 

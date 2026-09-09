@@ -1,4 +1,4 @@
-*** copy number-of-vowels-in-a-string.md ***
+***  number-of-vowels-in-a-string.md ***
 
 ```js
 // Input:GeeksForGeeks

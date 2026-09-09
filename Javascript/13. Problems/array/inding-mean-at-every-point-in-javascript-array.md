@@ -1,4 +1,4 @@
-*** copy inding-mean-at-every-point-in-javascript-array.md ***
+***  inding-mean-at-every-point-in-javascript-array.md ***
 
 ```js
 /*

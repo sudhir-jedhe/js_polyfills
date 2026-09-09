@@ -1,4 +1,4 @@
-*** copy Can you build a WCAG color contrast calculator and validator using pure CSS color-mix() and OKLCH?.md ***
+***  Can you build a WCAG color contrast calculator and validator using pure CSS color-mix() and OKLCH?.md ***
 
 While standard CSS cannot yet output numerical contrast strings like `"4.7:1"` without JavaScript, you **can** build a fully automated, **pure CSS WCAG contrast validator and adaptive text switcher** using the perceptual lightness channel ($L$) of **OKLCH**, CSS `calc()`, and `@supports (color-mix(...))` color mathematics.
 

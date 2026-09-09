@@ -1,4 +1,4 @@
-*** copy Explain the concept of utility-first in Tailwind CSS.md ***
+***  Explain the concept of utility-first in Tailwind CSS.md ***
 
 The **utility-first** approach builds custom user interfaces by composing small, single-purpose CSS classes directly in your markup, rather than writing dedicated CSS class names for every component.
 

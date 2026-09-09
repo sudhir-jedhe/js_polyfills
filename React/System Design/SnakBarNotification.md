@@ -1,4 +1,4 @@
-*** copy SnakBarNotification.md ***
+***  SnakBarNotification.md ***
 
 # Stacked Snack Bar in React
 

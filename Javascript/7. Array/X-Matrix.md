@@ -1,4 +1,4 @@
-*** copy X-Matrix.md ***
+***  X-Matrix.md ***
 
 
 ### implementing a function to check if a given square matrix is an X-Matrix

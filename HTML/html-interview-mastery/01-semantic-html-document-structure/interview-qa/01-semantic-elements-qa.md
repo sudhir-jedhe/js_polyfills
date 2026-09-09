@@ -1,4 +1,4 @@
-*** copy 01-semantic-elements-qa.md ***
+***  01-semantic-elements-qa.md ***
 
 # Interview Q&A — Semantic Elements
 

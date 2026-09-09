@@ -1,4 +1,4 @@
-*** copy first-substring-whose-reverse-is-a-word-in-the-string.md ***
+***  first-substring-whose-reverse-is-a-word-in-the-string.md ***
 
 // Input: str = “mango is sweet when nam en tastes it#”
 // Output: man

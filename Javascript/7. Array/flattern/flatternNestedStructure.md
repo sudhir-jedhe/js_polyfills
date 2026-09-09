@@ -1,4 +1,4 @@
-*** copy flatternNestedStructure.md ***
+***  flatternNestedStructure.md ***
 
 ```js 
 function flattenNestedStructure(input) {

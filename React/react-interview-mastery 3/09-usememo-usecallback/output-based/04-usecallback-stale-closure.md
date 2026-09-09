@@ -1,4 +1,4 @@
-*** copy 04-usecallback-stale-closure.md ***
+***  04-usecallback-stale-closure.md ***
 
 # Output-Based: useCallback Stale Closure
 

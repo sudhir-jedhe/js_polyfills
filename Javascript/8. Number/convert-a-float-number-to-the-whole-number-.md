@@ -1,4 +1,4 @@
-*** copy convert-a-float-number-to-the-whole-number-.md ***
+***  convert-a-float-number-to-the-whole-number-.md ***
 
 ### Explanation of Code Examples for Converting Float to Integer:
 

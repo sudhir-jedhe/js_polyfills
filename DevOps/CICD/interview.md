@@ -1,4 +1,4 @@
-*** copy interview.md ***
+***  interview.md ***
 
 CI/CD and Deployment interview trap questions with simple answers 👇
 

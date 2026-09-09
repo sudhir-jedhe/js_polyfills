@@ -1,4 +1,4 @@
-*** copy desin event emmiter.md ***
+***  desin event emmiter.md ***
 
 Frontend Interview Challenge: Can You Design an Event Emitter?
 

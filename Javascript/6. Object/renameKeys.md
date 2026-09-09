@@ -1,4 +1,4 @@
-*** copy renameKeys.md ***
+***  renameKeys.md ***
 
 ### Renaming Keys in JavaScript Objects
 

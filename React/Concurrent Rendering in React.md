@@ -1,4 +1,4 @@
-*** copy Concurrent Rendering in React.md ***
+***  Concurrent Rendering in React.md ***
 
 ### **Concurrent Rendering in React 18:**
 

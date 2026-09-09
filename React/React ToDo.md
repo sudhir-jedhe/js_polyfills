@@ -1,4 +1,4 @@
-*** copy React ToDo.md ***
+***  React ToDo.md ***
 
 Here is a complete, production-ready Todo application built with **React**, **TypeScript**, and **CSS Modules**.
 

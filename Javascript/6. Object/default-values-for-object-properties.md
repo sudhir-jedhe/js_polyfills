@@ -1,4 +1,4 @@
-*** copy default-values-for-object-properties.md ***
+***  default-values-for-object-properties.md ***
 
 The goal here is to assign default values to properties in an object that are undefined, using `Object.assign()` and the spread operator, while keeping key order intact. Let's break it down step-by-step.
 

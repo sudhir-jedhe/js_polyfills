@@ -1,4 +1,4 @@
-*** copy 04-build-heading-outline-from-content.md ***
+***  04-build-heading-outline-from-content.md ***
 
 # Problem: Build a Correct Heading Outline from Raw Content
 

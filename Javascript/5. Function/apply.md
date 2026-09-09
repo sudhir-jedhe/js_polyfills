@@ -1,4 +1,4 @@
-*** copy apply.md ***
+***  apply.md ***
 
 The code you've provided demonstrates different implementations of `apply`, including creating custom versions of `myapply` and `myOwnApply`. Let's break down each part and analyze how they work.
 

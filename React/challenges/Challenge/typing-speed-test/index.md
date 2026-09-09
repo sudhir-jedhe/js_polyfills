@@ -1,4 +1,4 @@
-*** copy index.md ***
+***  index.md ***
 
 import { VirtualKeyboard } from './VirtualKeyboard.js';
 import { sentences } from './sentences.js';

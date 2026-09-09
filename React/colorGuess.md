@@ -1,4 +1,4 @@
-*** copy colorGuess.md ***
+***  colorGuess.md ***
 
 # Color Game (React) – Complete Solution
 

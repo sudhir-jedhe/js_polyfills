@@ -1,4 +1,4 @@
-*** copy useVibrate.md ***
+***  useVibrate.md ***
 
 Here is a production-ready `useVibrate` React hook that triggers haptic feedback via the browser's `navigator.vibrate` API.
 

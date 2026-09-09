@@ -1,4 +1,4 @@
-*** copy compact.md ***
+***  compact.md ***
 
 Your approach for compacting arrays and objects is well-structured and covers various scenarios including shallow and deep compaction. Let's go over each part and clarify what's happening.
 

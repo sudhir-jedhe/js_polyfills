@@ -1,4 +1,4 @@
-*** copy interview.md ***
+***  interview.md ***
 
 # What is the difference between `Object.assign()` and the spread operator?
 

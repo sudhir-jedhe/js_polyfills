@@ -1,4 +1,4 @@
-*** copy 01-multi-step-form-validation-strategy.md ***
+***  01-multi-step-form-validation-strategy.md ***
 
 # Scenario: Validating a Multi-Step Signup Wizard
 

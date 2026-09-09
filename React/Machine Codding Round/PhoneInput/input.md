@@ -1,4 +1,4 @@
-*** copy input.md ***
+***  input.md ***
 
 ```js
 import React from "react";

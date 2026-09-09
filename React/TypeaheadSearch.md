@@ -1,4 +1,4 @@
-*** copy TypeaheadSearch.md ***
+***  TypeaheadSearch.md ***
 
 import "./TypeaheadSearch.css";
 import "./TypeaheadSearch.css";

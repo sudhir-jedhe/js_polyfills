@@ -1,4 +1,4 @@
-*** copy bind.md ***
+***  bind.md ***
 
 ### Explanation of Custom `bind` Implementations
 

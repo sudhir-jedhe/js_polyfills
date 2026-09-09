@@ -1,4 +1,4 @@
-*** copy 04-mutating-array-then-setstate-skips-rerender.md ***
+***  04-mutating-array-then-setstate-skips-rerender.md ***
 
 # What Happens to the List After Clicking "Add" Twice?
 

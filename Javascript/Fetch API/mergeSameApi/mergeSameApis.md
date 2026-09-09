@@ -1,4 +1,4 @@
-*** copy mergeSameApis.md ***
+***  mergeSameApis.md ***
 
 The `mergeIdenticalAPICalls` function you’ve written is a simple and effective way to prevent duplicate API calls with identical parameters by caching their results. However, this implementation lacks a mechanism to handle cache expiration or maximum size, which might lead to memory bloat if used extensively over time. Below, I’ll improve your function to include cache expiration and a maximum size limit.
 

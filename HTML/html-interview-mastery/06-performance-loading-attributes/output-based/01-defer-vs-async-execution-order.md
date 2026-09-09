@@ -1,4 +1,4 @@
-*** copy 01-defer-vs-async-execution-order.md ***
+***  01-defer-vs-async-execution-order.md ***
 
 # Output: `defer` vs `async` vs Plain — Execution Order
 

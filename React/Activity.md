@@ -1,4 +1,4 @@
-*** copy Activity.md ***
+***  Activity.md ***
 
 **`<Activity>`** is a built-in React component that lets you hide and restore the UI, DOM nodes, and internal state of its children without fully unmounting them.
 

@@ -1,4 +1,4 @@
-*** copy 01-like-button-drops-rapid-clicks.md ***
+***  01-like-button-drops-rapid-clicks.md ***
 
 # "Like" Button Sometimes Only Registers One Click Out of Several Rapid Clicks
 

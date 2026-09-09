@@ -1,4 +1,4 @@
-*** copy reusable select dropdown.md ***
+***  reusable select dropdown.md ***
 
 # Reusable Searchable Select Dropdown in React
 

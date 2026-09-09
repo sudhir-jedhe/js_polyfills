@@ -1,4 +1,4 @@
-*** copy batch-api-calls-in-sequence-in-react.md ***
+***  batch-api-calls-in-sequence-in-react.md ***
 
 // You are given an info-graphic component where you have to batch call APIs in sequence. Let’s say you have 20 APIs to call, batch call 5 APIs together, and the next 5 after the previous one is done, and so on. The first call will take after a delay of 5 seconds and once all the APIs are executed, reset and start from the beginning.
 

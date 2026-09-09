@@ -1,4 +1,4 @@
-*** copy Naukri.com.md ***
+***  Naukri.com.md ***
 
 A full-stack job portal application typically serves three primary user roles: **Job Seekers**, **Recruiters (Employers)**, and **Admins**.
 

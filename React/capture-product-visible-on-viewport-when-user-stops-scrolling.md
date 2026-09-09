@@ -1,4 +1,4 @@
-*** copy capture-product-visible-on-viewport-when-user-stops-scrolling.md ***
+***  capture-product-visible-on-viewport-when-user-stops-scrolling.md ***
 
 ```html
 <!DOCTYPE html>

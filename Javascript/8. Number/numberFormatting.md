@@ -1,4 +1,4 @@
-*** copy numberFormatting.md ***
+***  numberFormatting.md ***
 
 Below is the code implementation for each of the discussed numeric formatting techniques in JavaScript.
 

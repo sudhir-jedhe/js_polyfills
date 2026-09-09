@@ -1,4 +1,4 @@
-*** copy position.md ***
+***  position.md ***
 
 • What exactly is normal page flow?
 • What does position relative to itself really mean?

@@ -1,4 +1,4 @@
-*** copy PhoneInput.md ***
+***  PhoneInput.md ***
 
 ```js
 import "./PhoneInput.css";

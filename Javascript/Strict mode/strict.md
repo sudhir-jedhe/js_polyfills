@@ -1,4 +1,4 @@
-*** copy strict.md ***
+***  strict.md ***
 
 The code you've provided will throw an error. Let's walk through it:
 

@@ -1,4 +1,4 @@
-*** copy Last_duplicate_element_in_a_sorted_array.md ***
+***  Last_duplicate_element_in_a_sorted_array.md ***
 
 ```js
 /*

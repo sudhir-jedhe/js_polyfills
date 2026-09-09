@@ -1,4 +1,4 @@
-*** copy React Portal.md ***
+***  React Portal.md ***
 
 ### What is React Portal?
 

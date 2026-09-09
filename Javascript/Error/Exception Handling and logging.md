@@ -1,4 +1,4 @@
-*** copy Exception Handling and logging.md ***
+***  Exception Handling and logging.md ***
 
 ## **Exception Handling and Logging in JavaScript**
 

@@ -1,4 +1,4 @@
-*** copy react-redux-quiz.md ***
+***  react-redux-quiz.md ***
 
 Here are answers to your questions about Redux:
 

@@ -1,4 +1,4 @@
-*** copy conditionallyAddProperty.md ***
+***  conditionallyAddProperty.md ***
 
 ### Explanation of the Code
 

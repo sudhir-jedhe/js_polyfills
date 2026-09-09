@@ -1,4 +1,4 @@
-*** copy What are the pros and cons of using Factory Functions vs ES6 Classes in modern JavaScript?.md ***
+***  What are the pros and cons of using Factory Functions vs ES6 Classes in modern JavaScript?.md ***
 
 **Factory Functions** return a new object literal directly from any standard function call, whereas **ES6 Classes** use constructor functions and prototype delegation instantiated with the `new` keyword.
 

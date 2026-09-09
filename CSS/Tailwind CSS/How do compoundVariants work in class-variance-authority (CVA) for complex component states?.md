@@ -1,4 +1,4 @@
-*** copy How do compoundVariants work in class-variance-authority (CVA) for complex component states?.md ***
+***  How do compoundVariants work in class-variance-authority (CVA) for complex component states?.md ***
 
 In **`class-variance-authority` (CVA)**, `compoundVariants` let you apply specific classes only when a **particular combination of multiple variant props** is matched simultaneously.
 

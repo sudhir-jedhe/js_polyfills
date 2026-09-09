@@ -1,4 +1,4 @@
-*** copy screnario.md ***
+***  screnario.md ***
 
 Scenario 1:
 You trigger 5 parallel API calls using Promise.all.

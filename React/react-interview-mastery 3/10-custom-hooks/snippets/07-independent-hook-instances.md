@@ -1,4 +1,4 @@
-*** copy 07-independent-hook-instances.md ***
+***  07-independent-hook-instances.md ***
 
 # Snippet: Two Independent Calls to the Same Custom Hook Never Share State
 

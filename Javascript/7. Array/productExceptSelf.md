@@ -1,4 +1,4 @@
-*** copy productExceptSelf.md ***
+***  productExceptSelf.md ***
 
 ### Explanation of the `productExceptSelf` function
 

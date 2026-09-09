@@ -1,4 +1,4 @@
-*** copy pyramid.md ***
+***  pyramid.md ***
 
 Your `pyramidComplete` function creates a pyramid pattern where the left and right sides of each row are padded with spaces. However, there's a small issue with how the white space is handled on the right side. The loop for adding the spaces to the right is off by one because it starts from `i + 1`, which will cause it to add unnecessary spaces after the pyramid shape.
 

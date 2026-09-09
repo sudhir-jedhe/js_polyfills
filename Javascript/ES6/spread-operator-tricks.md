@@ -1,4 +1,4 @@
-*** copy spread-operator-tricks.md ***
+***  spread-operator-tricks.md ***
 
 ### 3 Ways to Use the JavaScript Spread Operator with Arrays
 

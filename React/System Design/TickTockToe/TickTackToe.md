@@ -1,4 +1,4 @@
-*** copy TickTackToe.md ***
+***  TickTackToe.md ***
 
 # Tic-Tac-Toe in React JS
 

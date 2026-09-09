@@ -1,4 +1,4 @@
-*** copy capitalizeWord.md ***
+***  capitalizeWord.md ***
 
 ```js
 export const capitaliseWord = (word) => {

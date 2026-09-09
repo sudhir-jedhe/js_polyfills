@@ -1,4 +1,4 @@
-*** copy What is reconciliation?.md ***
+***  What is reconciliation?.md ***
 
 **Reconciliation** is the core algorithm React uses to determine **what parts of the UI need to change** when a component’s state or props update, and how to update them efficiently.
 

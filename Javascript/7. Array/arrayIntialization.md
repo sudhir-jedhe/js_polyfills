@@ -1,4 +1,4 @@
-*** copy arrayIntialization.md ***
+***  arrayIntialization.md ***
 
 ### Summary of Array Initialization Techniques in JavaScript
 

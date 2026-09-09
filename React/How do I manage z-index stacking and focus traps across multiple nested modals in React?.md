@@ -1,4 +1,4 @@
-*** copy How do I manage z-index stacking and focus traps across multiple nested modals in React?.md ***
+***  How do I manage z-index stacking and focus traps across multiple nested modals in React?.md ***
 
 Managing nested modals requires solving three distinct challenges:
 

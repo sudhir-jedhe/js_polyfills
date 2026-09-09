@@ -1,4 +1,4 @@
-*** copy 03-lists-keys-and-reconciliation-qa.md ***
+***  03-lists-keys-and-reconciliation-qa.md ***
 
 # Interview Q&A — Lists, Keys, and Reconciliation
 

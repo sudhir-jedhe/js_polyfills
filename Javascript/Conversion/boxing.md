@@ -1,4 +1,4 @@
-*** copy boxing.md ***
+***  boxing.md ***
 
 In JavaScript, **primitive values** like strings, numbers, and booleans do not have methods or properties of their own. However, JavaScript provides a concept called **boxing** to allow primitive values to behave like objects temporarily when accessing their properties or methods.
 

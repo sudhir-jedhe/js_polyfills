@@ -1,4 +1,4 @@
-*** copy How do I combine container queries with fluid typography using CSS clamp() in Tailwind CSS?.md ***
+***  How do I combine container queries with fluid typography using CSS clamp() in Tailwind CSS?.md ***
 
 Combining container queries with fluid typography means text scales smoothly based on the **parent container's width** rather than the full viewport.
 

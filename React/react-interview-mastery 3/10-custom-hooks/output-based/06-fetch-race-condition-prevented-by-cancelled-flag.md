@@ -1,4 +1,4 @@
-*** copy 06-fetch-race-condition-prevented-by-cancelled-flag.md ***
+***  06-fetch-race-condition-prevented-by-cancelled-flag.md ***
 
 # Output-Based: A `cancelled` Flag Prevents a Stale-Response Race Condition
 

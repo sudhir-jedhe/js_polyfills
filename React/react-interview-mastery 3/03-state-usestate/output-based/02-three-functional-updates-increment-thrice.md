@@ -1,4 +1,4 @@
-*** copy 02-three-functional-updates-increment-thrice.md ***
+***  02-three-functional-updates-increment-thrice.md ***
 
 # What Does the Button Show After One Click, and Why Is It Different From Question 1?
 

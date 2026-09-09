@@ -1,4 +1,4 @@
-*** copy singleNonDuplicate.md ***
+***  singleNonDuplicate.md ***
 
 The function `singleNonDuplicate` is designed to solve the problem where you are given a sorted array where every element appears exactly twice except for one element that appears once. The goal is to find that single element.
 

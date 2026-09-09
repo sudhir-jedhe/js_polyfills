@@ -1,4 +1,4 @@
-*** copy How do I set up automated visual regression tests in GitHub Actions to test design token changes before merging?.md ***
+***  How do I set up automated visual regression tests in GitHub Actions to test design token changes before merging?.md ***
 
 Automated visual regression testing ensures that updating design tokens (colors, spacing, typography, radii) doesn't introduce unintended layout shifts, broken contrast, or misaligned components.
 

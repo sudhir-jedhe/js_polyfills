@@ -1,4 +1,4 @@
-*** copy  React Hydration.md ***
+***   React Hydration.md ***
 
 🔍 React hydration is the process where React takes over a web page that was initially built on the server. Think of it as React turning a static, non-interactive page into a fully interactive experience once it loads in the browser.
 

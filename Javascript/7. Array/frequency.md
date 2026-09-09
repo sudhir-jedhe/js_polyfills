@@ -1,4 +1,4 @@
-*** copy frequency.md ***
+***  frequency.md ***
 
 ### Explanation of Frequency Counter Solutions
 

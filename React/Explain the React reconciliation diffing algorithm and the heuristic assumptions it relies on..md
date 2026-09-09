@@ -1,4 +1,4 @@
-*** copy Explain the React reconciliation diffing algorithm and the heuristic assumptions it relies on..md ***
+***  Explain the React reconciliation diffing algorithm and the heuristic assumptions it relies on..md ***
 
 **Reconciliation** is React’s process for comparing two Virtual DOM (Fiber) trees to determine the minimum set of DOM mutations needed to bring the UI up to date.
 

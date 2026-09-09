@@ -1,4 +1,4 @@
-*** copy Formatting Contexts.md ***
+***  Formatting Contexts.md ***
 
 In front-end engineering and CSS layout engines, what you are describing is a **Formatting Context** (most notably a **Block Formatting Context (BFC)**, as well as **Flex Formatting Context** and **Grid Formatting Context**).
 

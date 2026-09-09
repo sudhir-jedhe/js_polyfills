@@ -1,4 +1,4 @@
-*** copy What are all the triggers and reasons that cause a React component to re-render?.md ***
+***  What are all the triggers and reasons that cause a React component to re-render?.md ***
 
 A React component re-renders whenever its output needs to be recalculated. In React, there are **four primary triggers** that cause a component to re-render, along with a few edge-case mechanisms.
 

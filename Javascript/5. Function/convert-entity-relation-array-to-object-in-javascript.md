@@ -1,4 +1,4 @@
-*** copy convert-entity-relation-array-to-object-in-javascript.md ***
+***  convert-entity-relation-array-to-object-in-javascript.md ***
 
 ```
 Given an array with two entries, parent and child relation, convert the array to a relation tree object (parent -> child -> grandchild) in JavaScript.

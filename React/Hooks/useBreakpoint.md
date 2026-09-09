@@ -1,4 +1,4 @@
-*** copy useBreakpoint.md ***
+***  useBreakpoint.md ***
 
 Here is a production-ready, SSR-safe `useBreakpoint` hook built on top of the native `window.matchMedia` API. It uses `useSyncExternalStore` (React 18+) to ensure layout stability without visual flicker or re-renders.
 

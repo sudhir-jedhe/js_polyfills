@@ -1,4 +1,4 @@
-*** copy ParkingSystem .md ***
+***  ParkingSystem .md ***
 
 The `ParkingSystem` class design you've provided works well and meets the requirements for handling the parking logic based on three types of parking spaces: big, medium, and small. Let's walk through the explanation and verify the correctness of your solution.
 

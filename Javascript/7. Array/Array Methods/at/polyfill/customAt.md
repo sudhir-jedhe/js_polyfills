@@ -1,4 +1,4 @@
-*** copy customAt.md ***
+***  customAt.md ***
 
 Your `customAt` method looks great overall, and it works for handling both positive and negative indices. There are a couple of things we can refine or clarify:
 

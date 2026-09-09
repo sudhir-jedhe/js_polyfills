@@ -1,4 +1,4 @@
-*** copy compose.md ***
+***  compose.md ***
 
 In JavaScript, **`compose()`** is a functional programming utility that combines multiple functions into one.
 

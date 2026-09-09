@@ -1,4 +1,4 @@
-*** copy AI Integration.md ***
+***  AI Integration.md ***
 
 
 1. Have you used AI in any of your applications?

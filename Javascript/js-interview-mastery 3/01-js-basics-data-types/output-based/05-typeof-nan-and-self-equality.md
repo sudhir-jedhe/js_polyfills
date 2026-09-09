@@ -1,4 +1,4 @@
-*** copy 05-typeof-nan-and-self-equality.md ***
+***  05-typeof-nan-and-self-equality.md ***
 
 # `typeof NaN` and `NaN === NaN`
 

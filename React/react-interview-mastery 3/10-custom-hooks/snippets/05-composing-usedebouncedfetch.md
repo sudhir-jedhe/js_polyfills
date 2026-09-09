@@ -1,4 +1,4 @@
-*** copy 05-composing-usedebouncedfetch.md ***
+***  05-composing-usedebouncedfetch.md ***
 
 # Snippet: Composing Custom Hooks — useDebouncedFetch Built From useDebounce + useFetch
 

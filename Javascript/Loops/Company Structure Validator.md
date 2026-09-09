@@ -1,4 +1,4 @@
-*** copy Company Structure Validator.md ***
+***  Company Structure Validator.md ***
 
 # Company Structure Validator (Uber Frontend Interview)
 

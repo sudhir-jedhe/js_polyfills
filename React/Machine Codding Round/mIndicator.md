@@ -1,4 +1,4 @@
-*** copy mIndicator.md ***
+***  mIndicator.md ***
 
 The m-Indicator App skill has been created and saved as m-indicator-clone.
 

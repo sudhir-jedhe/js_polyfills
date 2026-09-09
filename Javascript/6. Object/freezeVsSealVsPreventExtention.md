@@ -1,4 +1,4 @@
-*** copy freezeVsSealVsPreventExtention.md ***
+***  freezeVsSealVsPreventExtention.md ***
 
 Here's my take: `Object.preventExtensions()`, `Object.seal()`, and `Object.freeze()` are JavaScript's built-in immutability levels, arranged from **least strict to most strict**.
 

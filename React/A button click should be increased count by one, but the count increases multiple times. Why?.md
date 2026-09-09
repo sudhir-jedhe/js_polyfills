@@ -1,4 +1,4 @@
-*** copy A button click should be increased count by one, but the count increases multiple times. Why?.md ***
+***  A button click should be increased count by one, but the count increases multiple times. Why?.md ***
 
 When a button click increases a count by more than one (often doubling, tripling, or jumping unexpectedly), it is almost always caused by one of four common issues in React:
 

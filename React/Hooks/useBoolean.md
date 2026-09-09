@@ -1,4 +1,4 @@
-*** copy useBoolean.md ***
+***  useBoolean.md ***
 
 # 1. useBoolean
 

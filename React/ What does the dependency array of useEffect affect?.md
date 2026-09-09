@@ -1,4 +1,4 @@
-*** copy  What does the dependency array of useEffect affect?.md ***
+***   What does the dependency array of useEffect affect?.md ***
 
 The dependency array of `useEffect` determines **when** the effect function runs. By passing an array of values (variables, props, or state), you tell React to re-run the effect whenever any of those tracked values change between renders.
 

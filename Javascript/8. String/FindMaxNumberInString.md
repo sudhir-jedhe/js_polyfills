@@ -1,4 +1,4 @@
-*** copy FindMaxNumberInString.md ***
+***  FindMaxNumberInString.md ***
 
 To find the **maximum number** from each string in an array, we can approach the problem as follows:
 

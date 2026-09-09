@@ -1,4 +1,4 @@
-*** copy CSS Combinators.md ***
+***  CSS Combinators.md ***
 
 ### CSS Combinators
 

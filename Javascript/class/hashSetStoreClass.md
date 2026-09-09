@@ -1,4 +1,4 @@
-*** copy hashSetStoreClass.md ***
+***  hashSetStoreClass.md ***
 
 ```js
 const Store = function () {

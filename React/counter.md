@@ -1,4 +1,4 @@
-*** copy counter.md ***
+***  counter.md ***
 
 // Create two buttons start and stop.
 // On the start click, start a counter that will increment by 1 every second.

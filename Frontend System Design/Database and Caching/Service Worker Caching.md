@@ -1,4 +1,4 @@
-*** copy Service Worker Caching.md ***
+***  Service Worker Caching.md ***
 
 What is the service working caching technique for storing static assets and enhancing the offline capability in the frontend application?
 

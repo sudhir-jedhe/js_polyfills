@@ -1,4 +1,4 @@
-*** copy  What's the difference between synchronous and asynchronous functions?.md ***
+***   What's the difference between synchronous and asynchronous functions?.md ***
 
 The fundamental difference lies in **how they execute and block code flow**:
 

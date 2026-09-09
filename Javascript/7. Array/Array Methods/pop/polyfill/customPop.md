@@ -1,4 +1,4 @@
-*** copy customPop.md ***
+***  customPop.md ***
 
 ```js
 Array.prototype.customPop = function () {

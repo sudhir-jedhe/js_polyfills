@@ -1,4 +1,4 @@
-*** copy Optimizing CSS delivery.md ***
+***  Optimizing CSS delivery.md ***
 
 Optimizing CSS delivery in a web application is essential for improving performance, especially for React apps or any JavaScript-heavy websites. Properly optimized CSS helps reduce render-blocking time, improves page load speed, and ensures a better user experience. Here are some strategies to optimize CSS delivery:
 

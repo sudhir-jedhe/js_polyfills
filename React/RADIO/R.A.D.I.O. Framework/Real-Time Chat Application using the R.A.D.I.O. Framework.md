@@ -1,4 +1,4 @@
-*** copy Real-Time Chat Application using the R.A.D.I.O. Framework.md ***
+***  Real-Time Chat Application using the R.A.D.I.O. Framework.md ***
 
 Here is a detailed, senior-engineer-level walkthrough of designing a **Real-Time Chat Application** using the **R.A.D.I.O. Framework**.
 

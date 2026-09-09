@@ -1,4 +1,4 @@
-*** copy Show how to set up synthetic performance monitoring scripts using Playwright..md ***
+***  Show how to set up synthetic performance monitoring scripts using Playwright..md ***
 
 Synthetic performance monitoring uses headless browser scripts to continuously simulate critical user journeys (e.g., logging in, searching, adding items to a cart) in isolated, controlled environments.
 

@@ -1,4 +1,4 @@
-*** copy To-Do List application built with hooks (useState, useEffect) and localStorage persistence.md ***
+***  To-Do List application built with hooks (useState, useEffect) and localStorage persistence.md ***
 
 Here is a complete, production-ready **React To-Do List** application built with hooks (`useState`, `useEffect`) and **localStorage persistence**.
 

@@ -1,4 +1,4 @@
-*** copy Modal.md ***
+***  Modal.md ***
 
 import React from "react";
 import PropTypes from "prop-types";

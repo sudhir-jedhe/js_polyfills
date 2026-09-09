@@ -1,4 +1,4 @@
-*** copy 04-confirm-dialog-utility.md ***
+***  04-confirm-dialog-utility.md ***
 
 # Problem: Build a Promise-Based `confirmDialog()` Utility Using `<dialog>`
 

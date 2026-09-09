@@ -1,4 +1,4 @@
-*** copy all-the-permutation-of-string.md ***
+***  all-the-permutation-of-string.md ***
 
 ```js
 let permute = (str, left = 0, right = str.length - 1) => {

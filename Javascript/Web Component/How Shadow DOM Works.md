@@ -1,4 +1,4 @@
-*** copy How Shadow DOM Works.md ***
+***  How Shadow DOM Works.md ***
 
 ## **How Shadow DOM Works**
 

@@ -1,4 +1,4 @@
-*** copy useUpdateEffect.md ***
+***  useUpdateEffect.md ***
 
 ```js
 import React, { DependencyList, EffectCallback } from "react";

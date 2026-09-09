@@ -1,4 +1,4 @@
-*** copy What are the best techniques to prevent unnecessary consumer re-renders inside Compound Components?.md ***
+***  What are the best techniques to prevent unnecessary consumer re-renders inside Compound Components?.md ***
 
 Compound components coordinate shared state across multiple sub-components (e.g., `<Tabs>`, `<Tabs.List>`, `<Tabs.Tab>`, `<Tabs.Panel>`). Because this coordination is typically powered by a root React Context, updating one piece of state (like the active tab index or hover state) can cause **all compound parts to re-render simultaneously**.
 

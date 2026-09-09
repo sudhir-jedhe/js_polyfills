@@ -1,4 +1,4 @@
-*** copy Optimizing CSS delivery.md ***
+***  Optimizing CSS delivery.md ***
 
 Optimizing **CSS delivery** is crucial for improving the performance of your website or web application. CSS can block the rendering of a page, so it’s important to ensure that it loads as efficiently as possible to improve **page load times**, **First Contentful Paint (FCP)**, and **Largest Contentful Paint (LCP)**, which are key metrics for user experience and SEO.
 

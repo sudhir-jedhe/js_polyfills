@@ -1,4 +1,4 @@
-*** copy How do I use CSS content-visibility: auto and contain-intrinsic-size to optimize rendering performance for large pages?.md ***
+***  How do I use CSS content-visibility: auto and contain-intrinsic-size to optimize rendering performance for large pages?.md ***
 
 The `content-visibility` CSS property provides native browser-level rendering virtualization. When set to `content-visibility: auto`, the browser skips layout, styling, and paint calculations for off-screen elements until they approach the viewport, drastically speeding up initial page load and reducing Total Blocking Time (TBT) and Interaction to Next Paint (INP).
 

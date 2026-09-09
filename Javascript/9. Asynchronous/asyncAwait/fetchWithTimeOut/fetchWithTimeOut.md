@@ -1,4 +1,4 @@
-*** copy fetchWithTimeOut.md ***
+***  fetchWithTimeOut.md ***
 
 The code you've provided implements a `fetchWithTimeout` function that fetches data from a given URL with a specified timeout. It makes use of the `AbortController` to abort the `fetch` request if it takes too long. Let's walk through the approach and the behavior of the function.
 

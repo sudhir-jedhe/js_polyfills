@@ -1,4 +1,4 @@
-*** copy using zusland.md ***
+***  using zusland.md ***
 
 Here is a complete, production-ready React **Counter Application** built with **Zustand** (or standard React `useReducer`) that covers **every single requirement**: increment, decrement, reset, and increment/decrement by a custom dynamic value.
 

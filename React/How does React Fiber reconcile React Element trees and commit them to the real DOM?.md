@@ -1,4 +1,4 @@
-*** copy How does React Fiber reconcile React Element trees and commit them to the real DOM?.md ***
+***  How does React Fiber reconcile React Element trees and commit them to the real DOM?.md ***
 
 React Fiber is React's core reconciliation engine. It breaks rendering down into an incremental, interruptible unit-of-work pipeline using a singly-linked tree of **Fiber nodes** and a **Double Buffering** strategy.
 

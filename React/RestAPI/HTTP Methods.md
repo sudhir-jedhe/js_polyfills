@@ -1,4 +1,4 @@
-*** copy HTTP Methods.md ***
+***  HTTP Methods.md ***
 
 Here is how the common HTTP methods map out in a full-stack **React (frontend)** and **Node.js/Express (backend)** application.
 

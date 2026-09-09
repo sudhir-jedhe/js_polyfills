@@ -1,4 +1,4 @@
-*** copy pipe.md ***
+***  pipe.md ***
 
 You’ve shared several interesting variations of the `pipe` function, and they each work differently based on specific use cases. Let's break down and explore the variations:
 

@@ -1,4 +1,4 @@
-*** copy trie.md ***
+***  trie.md ***
 
 export class Trie {
   constructor(arr = []) {

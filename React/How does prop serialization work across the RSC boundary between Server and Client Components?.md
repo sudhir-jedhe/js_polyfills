@@ -1,4 +1,4 @@
-*** copy How does prop serialization work across the RSC boundary between Server and Client Components?.md ***
+***  How does prop serialization work across the RSC boundary between Server and Client Components?.md ***
 
 When a Server Component renders a Client Component (`'use client'`), it crosses the **Server-Client Component boundary**.
 

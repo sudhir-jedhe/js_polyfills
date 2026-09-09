@@ -1,4 +1,4 @@
-*** copy dynamic Role-Based Access Control (RBAC) guards and an automatic breadcrumb engine.md ***
+***  dynamic Role-Based Access Control (RBAC) guards and an automatic breadcrumb engine.md ***
 
 Here is a complete, scalable TypeScript implementation of a **data-driven route registry** using React Router (v6/v7 compatible), with dynamic **Role-Based Access Control (RBAC)** guards and an automatic **breadcrumb engine**.
 

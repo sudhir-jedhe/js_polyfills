@@ -1,4 +1,4 @@
-*** copy 05-toggle-unmount-resets-timer.md ***
+***  05-toggle-unmount-resets-timer.md ***
 
 # Output-Based: Does a conditionally rendered `Timer` resume from where it left off?
 

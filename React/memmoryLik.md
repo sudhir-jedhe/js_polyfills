@@ -1,4 +1,4 @@
-*** copy memmoryLik.md ***
+***  memmoryLik.md ***
 
 Here's the short answer: **Yes, absolutely.** Both closures and `useRef` are frequent causes of memory leaks in React, though they trigger them in slightly different ways.
 

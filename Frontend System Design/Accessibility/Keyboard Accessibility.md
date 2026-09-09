@@ -1,4 +1,4 @@
-*** copy Keyboard Accessibility.md ***
+***  Keyboard Accessibility.md ***
 
 **Keyboard Accessibility** ensures that users can navigate, interact with, and operate every feature of a web application using *only* a keyboard or alternative input device (such as switch controls or screen reader shortcuts), without relying on a mouse or touch screen.
 

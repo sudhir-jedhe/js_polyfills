@@ -1,4 +1,4 @@
-*** copy 04-sharing-logic-not-state.md ***
+***  04-sharing-logic-not-state.md ***
 
 # Sharing Logic, Not State
 

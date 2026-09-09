@@ -1,4 +1,4 @@
-*** copy 01-synthetic-events.md ***
+***  01-synthetic-events.md ***
 
 # SyntheticEvent
 

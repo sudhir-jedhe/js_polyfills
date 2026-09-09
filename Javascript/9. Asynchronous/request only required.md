@@ -1,4 +1,4 @@
-*** copy request only required.md ***
+***  request only required.md ***
 
 When an application receives a massive JSON response, it can choke the JavaScript engine, spike memory usage, and freeze the UI thread. To handle this efficiently, you should combine backend optimization with smart frontend data management.
 

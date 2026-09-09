@@ -1,4 +1,4 @@
-*** copy using zusland.md ***
+***  using zusland.md ***
 
 Here is the complete **React To-Do List application built with Zustand**, featuring user authentication (login/logout), task management, filtering, and `localStorage` persistence.
 

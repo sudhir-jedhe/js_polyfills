@@ -1,4 +1,4 @@
-*** copy How to align item center without using position, flex box and grid.md ***
+***  How to align item center without using position, flex box and grid.md ***
 
 To align an item **center** without using `position`, `flexbox`, or `grid`, you can use several other CSS techniques. These methods rely on standard layout properties that don't involve newer layout systems. Below are the most common techniques:
 

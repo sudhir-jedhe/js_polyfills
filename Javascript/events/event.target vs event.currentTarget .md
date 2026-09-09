@@ -1,4 +1,4 @@
-*** copy event.target vs event.currentTarget .md ***
+***  event.target vs event.currentTarget .md ***
 
 **The difference between event.target vs event.currentTarget is important to know.**
 

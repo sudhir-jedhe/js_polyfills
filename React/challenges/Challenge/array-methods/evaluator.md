@@ -1,4 +1,4 @@
-*** copy evaluator.md ***
+***  evaluator.md ***
 
 const methods = ['map', 'filter'];
 

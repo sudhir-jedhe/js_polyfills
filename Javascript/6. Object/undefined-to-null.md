@@ -1,4 +1,4 @@
-*** copy undefined-to-null.md ***
+***  undefined-to-null.md ***
 
 The task at hand is to implement a function `undefinedToNull()` that takes any value (object, array, or primitive), and recursively replaces all occurrences of `undefined` with `null`. Let's go through the provided solutions, explain them, and see the approach that best fits the requirements.
 

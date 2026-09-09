@@ -1,4 +1,4 @@
-*** copy 02-default-value-without-provider.md ***
+***  02-default-value-without-provider.md ***
 
 # Snippet: Default value is used only when there's no Provider above
 

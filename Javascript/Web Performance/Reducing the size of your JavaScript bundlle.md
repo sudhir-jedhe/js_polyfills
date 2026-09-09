@@ -1,4 +1,4 @@
-*** copy Reducing the size of your JavaScript bundlle.md ***
+***  Reducing the size of your JavaScript bundlle.md ***
 
 Reducing the size of your JavaScript bundle in a React app is crucial for improving load times and overall performance. There are several strategies you can use to optimize and reduce the bundle size. Here are some of the most effective ways to achieve this:
 

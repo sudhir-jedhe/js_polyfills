@@ -1,4 +1,4 @@
-*** copy stateManagment.md ***
+***  stateManagment.md ***
 
 // Article: Cookies, Session, Local storage, Indexdb
 // Article: Microstate management with Zustand

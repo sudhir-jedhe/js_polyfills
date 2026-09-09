@@ -1,4 +1,4 @@
-*** copy 06-object-fit-cover-example.md ***
+***  06-object-fit-cover-example.md ***
 
 # Snippet: `object-fit: cover` for a Uniform Thumbnail Grid
 

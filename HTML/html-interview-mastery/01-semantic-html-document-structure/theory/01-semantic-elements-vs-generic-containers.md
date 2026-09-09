@@ -1,4 +1,4 @@
-*** copy 01-semantic-elements-vs-generic-containers.md ***
+***  01-semantic-elements-vs-generic-containers.md ***
 
 # Semantic Elements vs. Generic Containers
 

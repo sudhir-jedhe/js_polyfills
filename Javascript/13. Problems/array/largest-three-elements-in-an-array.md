@@ -1,4 +1,4 @@
-*** copy largest-three-elements-in-an-array.md ***
+***  largest-three-elements-in-an-array.md ***
 
 ```js
 // Sort the array and then pick the

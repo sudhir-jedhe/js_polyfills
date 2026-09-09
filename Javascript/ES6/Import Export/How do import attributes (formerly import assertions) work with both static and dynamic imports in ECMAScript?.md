@@ -1,4 +1,4 @@
-*** copy How do import attributes (formerly import assertions) work with both static and dynamic imports in ECMAScript?.md ***
+***  How do import attributes (formerly import assertions) work with both static and dynamic imports in ECMAScript?.md ***
 
 **Import Attributes** (introduced as a Stage 4 ECMAScript standard replacing the earlier "Import Assertions" syntax) allow developers to supply explicit metadata—most notably module type assertions—alongside module specifiers.
 

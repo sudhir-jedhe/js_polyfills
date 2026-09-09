@@ -1,4 +1,4 @@
-*** copy parse.md ***
+***  parse.md ***
 
 Here is the `jsonParse` function along with example usage, formatted and implemented as a self-contained piece of code:
 

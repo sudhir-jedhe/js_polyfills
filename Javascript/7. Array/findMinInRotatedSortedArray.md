@@ -1,4 +1,4 @@
-*** copy findMinInRotatedSortedArray.md ***
+***  findMinInRotatedSortedArray.md ***
 
 ```js
 

@@ -1,4 +1,4 @@
-*** copy 06-lifting-state-up.md ***
+***  06-lifting-state-up.md ***
 
 # Lifting State Up
 

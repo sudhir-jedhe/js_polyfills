@@ -1,4 +1,4 @@
-*** copy JavaScript HTML DOM Node Lists.md ***
+***  JavaScript HTML DOM Node Lists.md ***
 
 A **`NodeList`** in JavaScript is a collection of DOM nodes returned by properties like `document.querySelectorAll()` or `element.childNodes`.
 

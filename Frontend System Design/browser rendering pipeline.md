@@ -1,4 +1,4 @@
-*** copy browser rendering pipeline.md ***
+***  browser rendering pipeline.md ***
 
 Understanding the browser rendering pipeline is one of the most critical concepts in front-end system design and performance engineering. The rendering pipeline is the exact sequence of steps a browser engine (such as Blink in Chrome, Gecko in Firefox, or WebKit in Safari) takes to convert raw HTML, CSS, and JavaScript network bytes into actual visual pixels on a user's screen.
 

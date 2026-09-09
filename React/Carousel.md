@@ -1,4 +1,4 @@
-*** copy Carousel.md ***
+***  Carousel.md ***
 
 ```js
 import React, { useState, useEffect, useRef } from "react";

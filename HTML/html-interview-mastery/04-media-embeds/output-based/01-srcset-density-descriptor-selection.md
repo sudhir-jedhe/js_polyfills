@@ -1,4 +1,4 @@
-*** copy 01-srcset-density-descriptor-selection.md ***
+***  01-srcset-density-descriptor-selection.md ***
 
 # Output: Which `srcset` Candidate Loads?
 

@@ -1,4 +1,4 @@
-*** copy Authentication.md ***
+***  Authentication.md ***
 
 Since you're a React/MERN developer, the most common approach is **JWT Authentication + Authorization Token**. Your resume materials also reference **JWT Token authentication & authorization** experience. [\[Sudhir Jedhe \| Word\]](https://persistentsystems-my.sharepoint.com/personal/sudhir_jedhe_persistent_com/_layouts/15/Doc.aspx?sourcedoc=%7BA89AE396-7B6C-4A05-A3AC-97D9041CF73C%7D&file=Sudhir%20Jedhe.docx&action=default&mobileredirect=true&DefaultItemOpen=1), [\[Sudhir Jedhe 2 \| Word\]](https://persistentsystems-my.sharepoint.com/personal/sudhir_jedhe_persistent_com/_layouts/15/Doc.aspx?sourcedoc=%7BF58C5747-96DD-4F3E-BB6A-900C2EBA385C%7D&file=Sudhir%20Jedhe%202.docx&action=default&mobileredirect=true&DefaultItemOpen=1), [\[Sudhir Jedhe 1 \| Word\]](https://persistentsystems-my.sharepoint.com/personal/sudhir_jedhe_persistent_com/_layouts/15/Doc.aspx?sourcedoc=%7B0F186879-6F34-478A-82AD-A41D783B1961%7D&file=Sudhir%20Jedhe%201.docx&action=default&mobileredirect=true&DefaultItemOpen=1)
 

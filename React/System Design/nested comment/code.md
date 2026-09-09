@@ -1,4 +1,4 @@
-*** copy code.md ***
+***  code.md ***
 
 Below is the **complete working React JS code** for an **Infinite Nested Comments System** with:
 

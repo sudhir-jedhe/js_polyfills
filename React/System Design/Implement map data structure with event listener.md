@@ -1,4 +1,4 @@
-*** copy Implement map data structure with event listener.md ***
+***  Implement map data structure with event listener.md ***
 
 # Map Data Structure with Event Listener (Reactive Map)
 

@@ -1,4 +1,4 @@
-*** copy CinemaHall.md ***
+***  CinemaHall.md ***
 
 # Cinema Hall Layout Structure (Machine Coding / React Interview)
 

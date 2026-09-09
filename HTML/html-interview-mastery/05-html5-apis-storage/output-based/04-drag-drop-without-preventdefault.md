@@ -1,4 +1,4 @@
-*** copy 04-drag-drop-without-preventdefault.md ***
+***  04-drag-drop-without-preventdefault.md ***
 
 # Output: Drag and Drop Without `preventDefault()`
 

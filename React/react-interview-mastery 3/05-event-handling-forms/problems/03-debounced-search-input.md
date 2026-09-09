@@ -1,4 +1,4 @@
-*** copy 03-debounced-search-input.md ***
+***  03-debounced-search-input.md ***
 
 # Problem: Debounced search input, debounce implemented by hand
 

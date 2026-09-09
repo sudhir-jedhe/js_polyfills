@@ -1,4 +1,4 @@
-*** copy 07-conditional-consumption-not-recreation.md ***
+***  07-conditional-consumption-not-recreation.md ***
 
 # Snippet: Consuming context conditionally based on a prop, not re-creating the context itself
 

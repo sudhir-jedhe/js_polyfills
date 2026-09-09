@@ -1,4 +1,4 @@
-*** copy index.md ***
+***  index.md ***
 
 import { createGridFragment } from '../../helpers/dom.js';
 

@@ -1,4 +1,4 @@
-*** copy Message Manager.md ***
+***  Message Manager.md ***
 
 The Message Manager skill has been created and saved as message-manager.
 

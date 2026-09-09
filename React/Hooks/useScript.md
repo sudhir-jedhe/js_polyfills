@@ -1,4 +1,4 @@
-*** copy useScript.md ***
+***  useScript.md ***
 
 // Removing the load from the main processing thread and lazy loading the scripts dynamically is an important way of boosting performance.
 

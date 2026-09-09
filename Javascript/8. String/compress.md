@@ -1,4 +1,4 @@
-*** copy compress.md ***
+***  compress.md ***
 
 # String Compression and Decompression (JavaScript Interview)
 

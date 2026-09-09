@@ -1,4 +1,4 @@
-*** copy 12-view-spec-page-output-renderer.md ***
+***  12-view-spec-page-output-renderer.md ***
 
 Use @specs/12-view-spec-page-output-renderer.md as the source of truth.
 

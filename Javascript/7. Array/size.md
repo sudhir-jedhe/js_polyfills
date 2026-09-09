@@ -1,4 +1,4 @@
-*** copy size.md ***
+***  size.md ***
 
 The function `collectionSize` is designed to return the size of a collection, handling three different types of collections: arrays, sets, and maps. Let's break down its functionality and see how it works.
 

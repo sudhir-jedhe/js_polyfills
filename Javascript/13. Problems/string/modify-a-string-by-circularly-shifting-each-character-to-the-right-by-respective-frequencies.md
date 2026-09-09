@@ -1,4 +1,4 @@
-*** copy modify-a-string-by-circularly-shifting-each-character-to-the-right-by-respective-frequencies.md ***
+***  modify-a-string-by-circularly-shifting-each-character-to-the-right-by-respective-frequencies.md ***
 
 ```js
 // Input: S = “geeksforgeeks”

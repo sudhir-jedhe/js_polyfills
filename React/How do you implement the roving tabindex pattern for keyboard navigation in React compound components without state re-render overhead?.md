@@ -1,4 +1,4 @@
-*** copy How do you implement the roving tabindex pattern for keyboard navigation in React compound components without state re-render overhead?.md ***
+***  How do you implement the roving tabindex pattern for keyboard navigation in React compound components without state re-render overhead?.md ***
 
 The **Roving `tabIndex**` pattern ensures that only one item in a composite widget (such as a Menu, Toolbar, or Tab list) is in the natural tab order (`tabIndex = 0`), while all other items are removed from tab order (`tabIndex = -1`). Arrow keys shift focus between items, dynamically moving the `tabIndex = 0` position.
 

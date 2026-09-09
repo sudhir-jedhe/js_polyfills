@@ -1,4 +1,4 @@
-*** copy index.md ***
+***  index.md ***
 
 const passwordInput = document.getElementById('password');
 const progressBar = document.getElementById('progressBar');

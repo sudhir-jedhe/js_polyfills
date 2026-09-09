@@ -1,4 +1,4 @@
-*** copy Selective vs Progressive Hydration.md ***
+***  Selective vs Progressive Hydration.md ***
 
 # Selective Hydration vs Progressive Hydration
 

@@ -1,4 +1,4 @@
-*** copy validate JSON.md ***
+***  validate JSON.md ***
 
 The `isJson` and `isValidJSON` functions aim to validate if a given string is a proper JSON. Both implementations use `JSON.parse()` within a `try...catch` block, which is an effective way to determine if a string is valid JSON.
 

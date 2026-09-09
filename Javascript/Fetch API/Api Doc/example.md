@@ -1,4 +1,4 @@
-*** copy example.md ***
+***  example.md ***
 
 # API Design Best Practices Example
 

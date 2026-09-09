@@ -1,4 +1,4 @@
-*** copy 02-database-and-migrations.md ***
+***  02-database-and-migrations.md ***
 
 # Section 02 — Database and Migrations
 

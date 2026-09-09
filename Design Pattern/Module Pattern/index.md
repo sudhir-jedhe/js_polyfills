@@ -1,4 +1,4 @@
-*** copy index.md ***
+***  index.md ***
 
 // The module pattern is a great way to split a larger file into multiple smaller, reusable pieces.
 // It also promotes code encapsulation, since the values within modules are kept private inside

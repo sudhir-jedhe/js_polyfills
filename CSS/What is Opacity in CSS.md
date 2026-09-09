@@ -1,4 +1,4 @@
-*** copy What is Opacity in CSS.md ***
+***  What is Opacity in CSS.md ***
 
 ### **What is Opacity in CSS?**
 

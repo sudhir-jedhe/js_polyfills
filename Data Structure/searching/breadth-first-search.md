@@ -1,4 +1,4 @@
-*** copy breadth-first-search.md ***
+***  breadth-first-search.md ***
 
 Write a function that implements the breadth-first search (BFS) algorithm on a directed graph (in adjacency list format), given a starting node.
 

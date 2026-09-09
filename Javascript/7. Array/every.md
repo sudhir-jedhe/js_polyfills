@@ -1,4 +1,4 @@
-*** copy every.md ***
+***  every.md ***
 
 ### **Understanding the `every()` Method and Different Techniques**
 

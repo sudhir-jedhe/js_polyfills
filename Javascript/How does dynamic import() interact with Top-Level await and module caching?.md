@@ -1,4 +1,4 @@
-*** copy How does dynamic import() interact with Top-Level await and module caching?.md ***
+***  How does dynamic import() interact with Top-Level await and module caching?.md ***
 
 Dynamic `import(specifier)` is an asynchronous operator that triggers the entire ECMAScript module lifecycle (fetch/parse, link, and evaluate) on demand at runtime, returning a Promise that resolves to the module namespace object.
 

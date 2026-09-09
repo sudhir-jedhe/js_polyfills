@@ -1,4 +1,4 @@
-*** copy cancel.md ***
+***  cancel.md ***
 
 The implementation you provided works well for creating a debounced function with `cancel` and `flush` methods. Here is the slightly refined and extended explanation of the code to clarify its functionality:
 

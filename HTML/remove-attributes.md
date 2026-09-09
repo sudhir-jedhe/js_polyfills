@@ -1,4 +1,4 @@
-*** copy remove-attributes.md ***
+***  remove-attributes.md ***
 
 The code you've provided demonstrates how to remove specific attributes from HTML elements using JavaScript, including removing all attributes from an element. Let's break down both parts:
 

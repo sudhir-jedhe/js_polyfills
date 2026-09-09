@@ -1,4 +1,4 @@
-*** copy Explain how modern package.json 'exports', 'main', and 'module' fields work for dual-package hazard prevention.md ***
+***  Explain how modern package.json 'exports', 'main', and 'module' fields work for dual-package hazard prevention.md ***
 
 When maintaining JavaScript libraries, supporting both **CommonJS (CJS)** (used historically by Node.js with `require()`) and **ECMAScript Modules (ESM)** (the modern standard with `import`) creates a critical challenge known as the **Dual-Package Hazard**.
 

@@ -1,4 +1,4 @@
-*** copy 05-auditing-a-neglected-head.md ***
+***  05-auditing-a-neglected-head.md ***
 
 # Scenario: Auditing a Legacy Site's Neglected `<head>`
 

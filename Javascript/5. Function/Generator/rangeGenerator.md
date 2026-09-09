@@ -1,4 +1,4 @@
-*** copy rangeGenerator.md ***
+***  rangeGenerator.md ***
 
 The code defines a **generator function** `rangeGenerator` that produces a sequence of numbers starting from `start` up to (but not including) `end`, incremented by `step`. This generator is used in a `for...of` loop to log the generated values.
 

@@ -1,4 +1,4 @@
-*** copy max-subarray.md ***
+***  max-subarray.md ***
 
 ```js
 Home

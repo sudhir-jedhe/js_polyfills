@@ -1,4 +1,4 @@
-*** copy JavaScript Window History.md ***
+***  JavaScript Window History.md ***
 
 The **`window.history`** object (part of the Browser Object Model) provides programmatic access to the browser's session history stack—the list of pages visited by the user within the current tab or frame.
 

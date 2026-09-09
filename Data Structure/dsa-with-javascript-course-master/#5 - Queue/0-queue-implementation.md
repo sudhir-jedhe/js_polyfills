@@ -1,4 +1,4 @@
-*** copy 0-queue-implementation.md ***
+***  0-queue-implementation.md ***
 
 // Basic Queue Implementation
 

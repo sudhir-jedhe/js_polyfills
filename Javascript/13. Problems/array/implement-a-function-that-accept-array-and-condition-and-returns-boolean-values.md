@@ -1,4 +1,4 @@
-*** copy implement-a-function-that-accept-array-and-condition-and-returns-boolean-values.md ***
+***  implement-a-function-that-accept-array-and-condition-and-returns-boolean-values.md ***
 
 ```js
 function customEveryFunction(arrayElements, conditionFunction) {

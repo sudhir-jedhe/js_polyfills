@@ -1,4 +1,4 @@
-*** copy How does React queue microtasks for discrete events and synchronous batched updates using queueMicrotask?.md ***
+***  How does React queue microtasks for discrete events and synchronous batched updates using queueMicrotask?.md ***
 
 While low-priority and concurrent updates yield via **macrotasks** (`MessageChannel`), React processes **discrete events** (clicks, keypresses, focus changes) and **synchronous batching** using **microtasks** (`queueMicrotask` / `Promise.resolve()`).
 

@@ -1,4 +1,4 @@
-*** copy 03-stale-closure-bug-fix-in-useeffect.md ***
+***  03-stale-closure-bug-fix-in-useeffect.md ***
 
 # Problem: Find and Fix a Stale-Closure Bug in a `useEffect`
 

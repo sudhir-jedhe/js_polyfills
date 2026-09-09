@@ -1,4 +1,4 @@
-*** copy Compare controlled vs uncontrolled form patterns in React 19 with form actions and useActionState..md ***
+***  Compare controlled vs uncontrolled form patterns in React 19 with form actions and useActionState..md ***
 
 React 19 shifts the standard form paradigm away from controlled inputs with manual state bindings toward **uncontrolled native forms powered by Server/Client Actions, `useActionState`, and `useFormStatus**`.
 

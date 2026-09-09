@@ -1,4 +1,4 @@
-*** copy remove_character_from_string.md ***
+***  remove_character_from_string.md ***
 
 Here is a code review of your snippets, pointing out a bug in the last example and providing modern, robust alternatives.
 

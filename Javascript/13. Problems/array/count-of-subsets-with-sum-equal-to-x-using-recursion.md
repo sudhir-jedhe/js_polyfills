@@ -1,4 +1,4 @@
-*** copy count-of-subsets-with-sum-equal-to-x-using-recursion.md ***
+***  count-of-subsets-with-sum-equal-to-x-using-recursion.md ***
 
 ```js
 // Input: arr[] = {2, 3, 5, 6, 8, 10}, X = 10

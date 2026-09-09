@@ -1,4 +1,4 @@
-*** copy 03-index-as-key-input-desync.md ***
+***  03-index-as-key-input-desync.md ***
 
 # What Happens on Click?
 

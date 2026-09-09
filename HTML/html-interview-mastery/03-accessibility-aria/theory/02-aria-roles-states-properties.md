@@ -1,4 +1,4 @@
-*** copy 02-aria-roles-states-properties.md ***
+***  02-aria-roles-states-properties.md ***
 
 # ARIA Roles, States, and Properties
 

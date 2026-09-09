@@ -1,4 +1,4 @@
-*** copy default parameter Rest parameter.md ***
+***  default parameter Rest parameter.md ***
 
 Both **Default Parameters** and **Rest Parameters** were introduced in ES6 to streamline how JavaScript functions handle input arguments.
 

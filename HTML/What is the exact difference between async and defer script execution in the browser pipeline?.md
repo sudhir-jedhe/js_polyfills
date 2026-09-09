@@ -1,4 +1,4 @@
-*** copy What is the exact difference between async and defer script execution in the browser pipeline?.md ***
+***  What is the exact difference between async and defer script execution in the browser pipeline?.md ***
 
 The primary difference lies in **when the script executes** and **whether execution pauses HTML parsing**. Both attributes download scripts in the background without blocking the parser, but they handle the execution phase differently.
 

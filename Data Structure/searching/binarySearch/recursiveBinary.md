@@ -1,4 +1,4 @@
-*** copy recursiveBinary.md ***
+***  recursiveBinary.md ***
 
 /**
  * @param {Array<number>} arr The input integer array to be searched.

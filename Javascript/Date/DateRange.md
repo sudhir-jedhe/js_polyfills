@@ -1,4 +1,4 @@
-*** copy DateRange.md ***
+***  DateRange.md ***
 
 ```js
 const dateRangeGenerator = function* (start, end, step = 1) {

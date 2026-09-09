@@ -1,4 +1,4 @@
-*** copy Higher-order component pattern in React.md ***
+***  Higher-order component pattern in React.md ***
 
 # Higher-Order Component (HOC) Pattern in React
 

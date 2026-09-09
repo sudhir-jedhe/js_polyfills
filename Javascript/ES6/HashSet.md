@@ -1,4 +1,4 @@
-*** copy HashSet.md ***
+***  HashSet.md ***
 
 The code you've shared implements three different data structures in JavaScript:
 

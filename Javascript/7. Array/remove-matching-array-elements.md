@@ -1,4 +1,4 @@
-*** copy remove-matching-array-elements.md ***
+***  remove-matching-array-elements.md ***
 
 You’ve provided various techniques to remove elements from a JavaScript array **without mutating the original array**. Let's go through each approach with a bit more clarity and detail:
 

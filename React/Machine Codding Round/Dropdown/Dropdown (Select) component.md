@@ -1,4 +1,4 @@
-*** copy Dropdown (Select) component.md ***
+***  Dropdown (Select) component.md ***
 
 Building a custom Accessible Dropdown (Select) component from scratch in React requires handling three core mechanics:
 

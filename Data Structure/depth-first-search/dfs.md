@@ -1,4 +1,4 @@
-*** copy dfs.md ***
+***  dfs.md ***
 
 /**
  * @param {Record<string, Array<string>} graph The adjacency list representing the graph.

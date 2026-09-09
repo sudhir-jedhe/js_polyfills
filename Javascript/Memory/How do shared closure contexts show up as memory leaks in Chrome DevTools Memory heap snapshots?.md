@@ -1,4 +1,4 @@
-*** copy How do shared closure contexts show up as memory leaks in Chrome DevTools Memory heap snapshots?.md ***
+***  How do shared closure contexts show up as memory leaks in Chrome DevTools Memory heap snapshots?.md ***
 
 In V8, all closures created inside the same parent function scope share a single, unified **`system / Context`** object on the Heap.
 

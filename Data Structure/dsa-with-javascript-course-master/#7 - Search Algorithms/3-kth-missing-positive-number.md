@@ -1,4 +1,4 @@
-*** copy 3-kth-missing-positive-number.md ***
+***  3-kth-missing-positive-number.md ***
 
 // Ques 3: Kth Missing Positive Number
 // Given an array arr of positive integers sorted in a strictly increasing order,

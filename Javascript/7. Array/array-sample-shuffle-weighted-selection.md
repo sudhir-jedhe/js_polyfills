@@ -1,4 +1,4 @@
-*** copy array-sample-shuffle-weighted-selection.md ***
+***  array-sample-shuffle-weighted-selection.md ***
 
 ### Sampling, Shuffling, and Weighted Selection in JavaScript Arrays
 

@@ -1,4 +1,4 @@
-*** copy How React Tracks Work: The flags Bitmask on Fiber Nodes.md ***
+***  How React Tracks Work: The flags Bitmask on Fiber Nodes.md ***
 
 Here is a clean, well-structured reference guide explaining how React uses bitwise `flags` on Fiber nodes to coordinate commit-phase side effects efficiently.
 

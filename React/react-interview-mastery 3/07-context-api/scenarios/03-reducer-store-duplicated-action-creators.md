@@ -1,4 +1,4 @@
-*** copy 03-reducer-store-duplicated-action-creators.md ***
+***  03-reducer-store-duplicated-action-creators.md ***
 
 # Scenario: Building a shopping cart with Context + useReducer, but action creators are duplicated everywhere
 

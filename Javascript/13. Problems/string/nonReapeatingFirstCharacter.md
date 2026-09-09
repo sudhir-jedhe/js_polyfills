@@ -1,4 +1,4 @@
-*** copy nonReapeatingFirstCharacter.md ***
+***  nonReapeatingFirstCharacter.md ***
 
 ```js
 // Brute force: Time: O(N^2) | Space: O(1)

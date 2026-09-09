@@ -1,4 +1,4 @@
-*** copy Observable-Subject.md ***
+***  Observable-Subject.md ***
 
 Your code shows how to implement a **Subject** in JavaScript, which is a fundamental part of the **ReactiveX** (RxJS) pattern. Let's go through the code and concepts step by step, explaining how the **Subject** class works and its interactions with the **Observer**.
 

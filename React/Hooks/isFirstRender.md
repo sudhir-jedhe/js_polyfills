@@ -1,4 +1,4 @@
-*** copy isFirstRender.md ***
+***  isFirstRender.md ***
 
 ```js
 import React from "react";

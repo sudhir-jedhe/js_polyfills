@@ -1,4 +1,4 @@
-*** copy Armstrong .md ***
+***  Armstrong .md ***
 
 ```js
 function isArmstrongNumber(number) {

@@ -1,4 +1,4 @@
-*** copy 06-const-reassignment-vs-mutation.md ***
+***  06-const-reassignment-vs-mutation.md ***
 
 # `const` Prevents Reassignment, Not Mutation
 

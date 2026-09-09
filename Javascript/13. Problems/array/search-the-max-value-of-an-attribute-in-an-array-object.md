@@ -1,4 +1,4 @@
-*** copy search-the-max-value-of-an-attribute-in-an-array-object.md ***
+***  search-the-max-value-of-an-attribute-in-an-array-object.md ***
 
 ```js
 // Array of object

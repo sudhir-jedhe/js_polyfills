@@ -1,4 +1,4 @@
-*** copy CSS positioning.md ***
+***  CSS positioning.md ***
 
 In **Frontend System Design**, CSS positioning dictates how elements interact within the document flow, how layout trees are calculated during the browser’s **Layout (Reflow)** phase, and how visual layers are generated for **GPU Compositing**.
 

@@ -1,4 +1,4 @@
-*** copy index.md ***
+***  index.md ***
 
 
 const $movieTitle = document.getElementById('movie-title');

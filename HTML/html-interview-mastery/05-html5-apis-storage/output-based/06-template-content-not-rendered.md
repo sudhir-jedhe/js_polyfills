@@ -1,4 +1,4 @@
-*** copy 06-template-content-not-rendered.md ***
+***  06-template-content-not-rendered.md ***
 
 # Output: Is Content Inside `<template>` Rendered or Fetched?
 

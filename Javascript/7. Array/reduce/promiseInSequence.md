@@ -1,4 +1,4 @@
-*** copy promiseInSequence.md ***
+***  promiseInSequence.md ***
 
 The code you've provided demonstrates how to execute multiple promises in sequence, meaning one promise will start only after the previous one has finished. Here's an explanation of how it works:
 

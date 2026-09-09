@@ -1,4 +1,4 @@
-*** copy maxElementFromArray.md ***
+***  maxElementFromArray.md ***
 
 This code provides several ways to find the maximum and minimum elements in an array, along with ways to retrieve the first and last elements of an array.
 

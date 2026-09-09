@@ -1,4 +1,4 @@
-*** copy 06-usememo-memoizing-a-function.md ***
+***  06-usememo-memoizing-a-function.md ***
 
 # Output-Based: useMemo Memoizing a Function
 

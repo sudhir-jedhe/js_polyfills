@@ -1,4 +1,4 @@
-*** copy 03-enter-key-submit-bypass.md ***
+***  03-enter-key-submit-bypass.md ***
 
 # Output-Based: What happens when the form is submitted by pressing Enter inside the text field?
 

@@ -1,4 +1,4 @@
-*** copy 05-controlled-vs-uncontrolled-react-form.md ***
+***  05-controlled-vs-uncontrolled-react-form.md ***
 
 # Scenario: Choosing Controlled vs. Uncontrolled for a Large React Form
 

@@ -1,4 +1,4 @@
-*** copy JavaScript HTML DOM Navigation.md ***
+***  JavaScript HTML DOM Navigation.md ***
 
 **HTML DOM Navigation** allows you to navigate through the HTML document structure using node relationships. In the DOM tree, every part of an HTML document (elements, text, attributes, comments) is represented as a **node**.
 

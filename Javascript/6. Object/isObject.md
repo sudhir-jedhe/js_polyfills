@@ -1,4 +1,4 @@
-*** copy isObject.md ***
+***  isObject.md ***
 
 ```js
 function isObject(object) {

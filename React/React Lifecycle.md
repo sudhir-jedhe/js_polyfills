@@ -1,4 +1,4 @@
-*** copy React Lifecycle.md ***
+***  React Lifecycle.md ***
 
 Understanding the **React Lifecycle** is essential for managing side effects, fetching data, handling DOM interactions, and optimizing component performance.
 

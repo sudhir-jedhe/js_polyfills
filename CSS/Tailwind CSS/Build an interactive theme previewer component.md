@@ -1,4 +1,4 @@
-*** copy Build an interactive theme previewer component.md ***
+***  Build an interactive theme previewer component.md ***
 
 An interactive theme previewer lets design systems inspect, tweak, and test semantic design tokens in real time across multiple UI components (buttons, inputs, cards, badges, and alerts) while verifying WCAG accessibility.
 

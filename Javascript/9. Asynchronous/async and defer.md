@@ -1,4 +1,4 @@
-*** copy async and defer.md ***
+***  async and defer.md ***
 
 When parsing HTML in the context of JavaScript and web development, the terms `async` and `defer` refer to two attributes that control how external JavaScript files are loaded and executed in relation to the HTML document parsing. While these attributes are both related to the loading behavior of JavaScript, they influence the rendering of the page differently.
 

@@ -1,4 +1,4 @@
-*** copy 06-batching.md ***
+***  06-batching.md ***
 
 # Batching
 

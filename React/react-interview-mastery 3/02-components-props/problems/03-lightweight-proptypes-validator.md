@@ -1,4 +1,4 @@
-*** copy 03-lightweight-proptypes-validator.md ***
+***  03-lightweight-proptypes-validator.md ***
 
 # Problem: Implement a Lightweight Runtime Prop-Type Validator (Simplified PropTypes)
 

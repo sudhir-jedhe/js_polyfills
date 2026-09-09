@@ -1,4 +1,4 @@
-*** copy range.md ***
+***  range.md ***
 
 You have provided several implementations of a `range` function that mimics Python's `range()` behavior in JavaScript, with various ways of handling different combinations of `start`, `end`, and `step` arguments. I'll explain each one and discuss how to generalize the solution to handle all possible cases.
 

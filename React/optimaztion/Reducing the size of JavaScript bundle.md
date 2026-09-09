@@ -1,4 +1,4 @@
-*** copy Reducing the size of JavaScript bundle.md ***
+***  Reducing the size of JavaScript bundle.md ***
 
 Reducing the size of JavaScript bundles is essential for improving web application performance, especially on slow networks or devices. A smaller JavaScript bundle ensures faster page loads, improved time-to-interactive (TTI), and better overall user experience.
 

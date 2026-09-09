@@ -1,4 +1,4 @@
-*** copy screen reader.md ***
+***  screen reader.md ***
 
 A **screen reader** is an assistive technology software that translates digital user interfaces into speech or Braille output. It relies on the operating system's Accessibility API to construct an **Accessibility Tree**—a simplified parallel structure of the DOM—and reads out the role, name, state, and content of UI elements as users navigate using keyboard shortcuts.
 

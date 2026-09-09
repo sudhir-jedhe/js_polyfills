@@ -1,4 +1,4 @@
-*** copy compare-two-objects-to-determine-the-first-object-contains-equivalent-property-values-to-the-second-objec.md ***
+***  compare-two-objects-to-determine-the-first-object-contains-equivalent-property-values-to-the-second-objec.md ***
 
 ```js
 /*

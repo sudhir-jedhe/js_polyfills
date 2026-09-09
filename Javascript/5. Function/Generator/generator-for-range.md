@@ -1,4 +1,4 @@
-*** copy generator-for-range.md ***
+***  generator-for-range.md ***
 
 Here is a complete and detailed breakdown of the provided code examples, with explanations of each part for clarity:
 

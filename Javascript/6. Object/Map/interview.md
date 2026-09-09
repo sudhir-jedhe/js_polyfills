@@ -1,4 +1,4 @@
-*** copy interview.md ***
+***  interview.md ***
 
 Your definition is concise and accurate. To make this answer complete for a technical interview, here is a breakdown highlighting the specific operational differences, API constraints, and practical use cases of a `WeakMap` versus a standard `Map`.
 

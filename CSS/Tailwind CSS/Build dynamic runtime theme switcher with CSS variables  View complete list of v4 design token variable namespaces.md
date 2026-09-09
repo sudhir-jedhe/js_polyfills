@@ -1,4 +1,4 @@
-*** copy Build dynamic runtime theme switcher with CSS variables  View complete list of v4 design token variable namespaces.md ***
+***  Build dynamic runtime theme switcher with CSS variables  View complete list of v4 design token variable namespaces.md ***
 
 In Tailwind CSS v4, the `@theme` directive maps specific CSS variable prefix namespaces directly to corresponding utility classes, modifiers, and design tokens.
 

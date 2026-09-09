@@ -1,4 +1,4 @@
-*** copy Game.md ***
+***  Game.md ***
 
 ```js
 import "./Game.css";

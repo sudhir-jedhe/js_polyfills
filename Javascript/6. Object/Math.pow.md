@@ -1,4 +1,4 @@
-*** copy Math.pow.md ***
+***  Math.pow.md ***
 
 ### Analyzing the Power Function Implementations
 

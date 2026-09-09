@@ -1,4 +1,4 @@
-*** copy 01-usestate-mechanics.md ***
+***  01-usestate-mechanics.md ***
 
 # `useState` Mechanics
 

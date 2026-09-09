@@ -1,4 +1,4 @@
-*** copy 01-web-storage-fundamentals.md ***
+***  01-web-storage-fundamentals.md ***
 
 # Web Storage Fundamentals: `localStorage`, `sessionStorage`, and the `storage` Event
 

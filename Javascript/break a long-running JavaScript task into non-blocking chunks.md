@@ -1,4 +1,4 @@
-*** copy break a long-running JavaScript task into non-blocking chunks.md ***
+***  break a long-running JavaScript task into non-blocking chunks.md ***
 
 To break a long-running JavaScript task into non-blocking chunks, there are four primary strategies ranging from modern native APIs to web workers:
 

@@ -1,4 +1,4 @@
-*** copy What is React strict mode and what are its benefits?.md ***
+***  What is React strict mode and what are its benefits?.md ***
 
 **React Strict Mode** (`<StrictMode>`) is a built-in development tool designed to help you catch potential bugs, unsafe practices, and deprecated features early in your React application before they reach production.
 

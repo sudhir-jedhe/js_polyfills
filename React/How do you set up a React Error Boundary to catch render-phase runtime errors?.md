@@ -1,4 +1,4 @@
-*** copy How do you set up a React Error Boundary to catch render-phase runtime errors?.md ***
+***  How do you set up a React Error Boundary to catch render-phase runtime errors?.md ***
 
 React Error Boundaries act as a "catch-all" safety net for your component tree. If a child component throws a JavaScript error during rendering, lifecycle methods, or constructors, the Error Boundary catches it, logs it, and displays a graceful fallback UI instead of leaving users with a blank white screen.
 

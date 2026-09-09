@@ -1,4 +1,4 @@
-*** copy array-stable-sort.md ***
+***  array-stable-sort.md ***
 
 ### Stable Sorting in JavaScript
 

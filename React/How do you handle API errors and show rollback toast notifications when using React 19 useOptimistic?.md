@@ -1,4 +1,4 @@
-*** copy How do you handle API errors and show rollback toast notifications when using React 19 useOptimistic?.md ***
+***  How do you handle API errors and show rollback toast notifications when using React 19 useOptimistic?.md ***
 
 When an async Action fails in React 19, `useOptimistic` automatically discards the temporary state and rolls back to the base state. To trigger a user-facing toast notification and restore form state on failure, you can intercept the error inside a custom action wrapper or return structured error states from `useActionState`.
 

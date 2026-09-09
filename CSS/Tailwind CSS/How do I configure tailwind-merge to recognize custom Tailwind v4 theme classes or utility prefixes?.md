@@ -1,4 +1,4 @@
-*** copy How do I configure tailwind-merge to recognize custom Tailwind v4 theme classes or utility prefixes?.md ***
+***  How do I configure tailwind-merge to recognize custom Tailwind v4 theme classes or utility prefixes?.md ***
 
 By default, `tailwind-merge` knows standard Tailwind class names. When you introduce custom `@theme` namespaces, custom utilities via `@utility`, or non-standard class patterns in Tailwind v4, `tailwind-merge` won't know which CSS properties they target and might not merge them properly.
 

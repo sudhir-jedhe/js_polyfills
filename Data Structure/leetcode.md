@@ -1,4 +1,4 @@
-*** copy leetcode.md ***
+***  leetcode.md ***
 
 // DSA was extremely HARD
 

@@ -1,4 +1,4 @@
-*** copy crossorigin.md ***
+***  crossorigin.md ***
 
 Here is a technical breakdown of the `crossorigin` HTML attribute, detailing **Cross-Origin Resource Sharing (CORS) mode switching**, **Opaque Responses**, **Subresource Integrity (SRI)**, and **Cross-Origin Error Masking (`Script error.`)**.
 

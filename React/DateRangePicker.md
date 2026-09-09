@@ -1,4 +1,4 @@
-*** copy DateRangePicker.md ***
+***  DateRangePicker.md ***
 
 Here is a complete, production-ready React implementation for a **Date Range Picker with a Dual-Calendar Modal**.
 

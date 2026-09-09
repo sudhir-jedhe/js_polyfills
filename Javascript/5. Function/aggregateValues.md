@@ -1,4 +1,4 @@
-*** copy aggregateValues.md ***
+***  aggregateValues.md ***
 
 The `aggregateValues` function you've written takes the `id` of a form (or any container element), collects the `input` elements of type `text` inside that container, and aggregates their values into a nested object based on their `name` attribute.
 

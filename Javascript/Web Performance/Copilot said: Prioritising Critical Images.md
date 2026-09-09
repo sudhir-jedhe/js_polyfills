@@ -1,4 +1,4 @@
-*** copy Copilot said: Prioritising Critical Images.md ***
+***  Copilot said: Prioritising Critical Images.md ***
 
 # Prioritising Critical Images
 

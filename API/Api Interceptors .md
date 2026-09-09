@@ -1,4 +1,4 @@
-*** copy Api Interceptors .md ***
+***  Api Interceptors .md ***
 
 ### **Interceptors in API Requests (Fetch / Axios)**
 

@@ -1,4 +1,4 @@
-*** copy script.md ***
+***  script.md ***
 
 const currencyRates = {
   USD: 1, // USD to USD (1:1)

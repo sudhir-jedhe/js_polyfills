@@ -1,4 +1,4 @@
-*** copy sortStringBasedOnFrequency.md ***
+***  sortStringBasedOnFrequency.md ***
 
 ```js
 const frequencySort = function (s) {

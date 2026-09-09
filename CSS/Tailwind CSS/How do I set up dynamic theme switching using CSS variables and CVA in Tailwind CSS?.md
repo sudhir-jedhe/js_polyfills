@@ -1,4 +1,4 @@
-*** copy How do I set up dynamic theme switching using CSS variables and CVA in Tailwind CSS?.md ***
+***  How do I set up dynamic theme switching using CSS variables and CVA in Tailwind CSS?.md ***
 
 Dynamic theme switching (such as Light, Dark, or multi-tenant branded themes) is cleanest when you combine **semantic CSS custom properties** in Tailwind v4 with **`class-variance-authority` (CVA)**.
 

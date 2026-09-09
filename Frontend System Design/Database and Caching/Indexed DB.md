@@ -1,4 +1,4 @@
-*** copy Indexed DB.md ***
+***  Indexed DB.md ***
 
 ### 1. What is IndexedDB?
 

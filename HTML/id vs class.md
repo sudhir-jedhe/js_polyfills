@@ -1,4 +1,4 @@
-*** copy id vs class.md ***
+***  id vs class.md ***
 
 In HTML and web development, both the `id` and `class` attributes are used to select and style elements, but they serve different purposes and have distinct behaviors. Here's a detailed comparison:
 

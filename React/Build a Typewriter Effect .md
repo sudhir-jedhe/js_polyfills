@@ -1,4 +1,4 @@
-*** copy Build a Typewriter Effect .md ***
+***  Build a Typewriter Effect .md ***
 
 A self-contained Typewriter component in React that handles multi-word cycling, backspacing, customizable speeds, and a blinking cursor.
 

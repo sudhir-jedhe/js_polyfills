@@ -1,4 +1,4 @@
-*** copy 05-multiple-h1-document-outline.md ***
+***  05-multiple-h1-document-outline.md ***
 
 # Output: Multiple `<h1>`s on One Page
 

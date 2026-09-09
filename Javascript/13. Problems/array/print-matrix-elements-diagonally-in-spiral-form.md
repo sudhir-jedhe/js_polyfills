@@ -1,4 +1,4 @@
-*** copy print-matrix-elements-diagonally-in-spiral-form.md ***
+***  print-matrix-elements-diagonally-in-spiral-form.md ***
 
 ```js
 // Input : N=5, M=6, K=15, arr[][]={{1, 2, 3, 4, 5, 6},

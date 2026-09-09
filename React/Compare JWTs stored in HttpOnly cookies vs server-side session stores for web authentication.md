@@ -1,4 +1,4 @@
-*** copy Compare JWTs stored in HttpOnly cookies vs server-side session stores for web authentication.md ***
+***  Compare JWTs stored in HttpOnly cookies vs server-side session stores for web authentication.md ***
 
 When designing authentication for web applications, the central architectural choice often comes down to: **Stateless JSON Web Tokens (JWTs) stored in secure cookies** versus **Stateful Server-Side Sessions with a Session ID cookie**.
 

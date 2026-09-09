@@ -1,4 +1,4 @@
-*** copy 01-render-then-effect-order-on-mount.md ***
+***  01-render-then-effect-order-on-mount.md ***
 
 # What's Logged, and in What Order, on Mount?
 

@@ -1,4 +1,4 @@
-*** copy Frontend System Design.md ***
+***  Frontend System Design.md ***
 
 https://learnersbucket.com/examples/frontend-system-design/what-to-expect-in-frontend-system-design/
 

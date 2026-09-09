@@ -1,4 +1,4 @@
-*** copy iterate.md ***
+***  iterate.md ***
 
 # Array Iteration Methods in JavaScript
 

@@ -1,4 +1,4 @@
-*** copy Http request.md ***
+***  Http request.md ***
 
 An **HTTP (Hypertext Transfer Protocol) Request** is a message sent by a client (such as a web browser, mobile app, or backend service) to a server across the internet or a local network. It is the foundational mechanism used to request web pages, fetch data from APIs, submit forms, and perform server mutations.
 

@@ -1,4 +1,4 @@
-*** copy How does the V8 engine allocate and link Module Environment Records during static import resolution?.md ***
+***  How does the V8 engine allocate and link Module Environment Records during static import resolution?.md ***
 
 In the V8 JavaScript engine, static import resolution and environment allocation take place during the **Instantiation (Linking)** phase of the module lifecycle.
 

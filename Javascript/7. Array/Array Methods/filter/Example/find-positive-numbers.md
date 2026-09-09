@@ -1,4 +1,4 @@
-*** copy find-positive-numbers.md ***
+***  find-positive-numbers.md ***
 
 The code filters out all positive numbers from the `nums` array using the `filter` method and logs the resulting array to the console. Here's how it works:
 

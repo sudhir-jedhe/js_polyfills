@@ -1,4 +1,4 @@
-*** copy CheckBoxGroup.md ***
+***  CheckBoxGroup.md ***
 
 ```js
 import React, { Component } from "react";

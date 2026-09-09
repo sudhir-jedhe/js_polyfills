@@ -1,4 +1,4 @@
-*** copy What is the difference between Controlled and Uncontrolled React components?.md ***
+***  What is the difference between Controlled and Uncontrolled React components?.md ***
 
 A controlled component drives a form input from React state — you pass value/checked plus an onChange handler, and React state is the single source of truth. An uncontrolled component lets the DOM keep the value; you read it via a ref (or on submit) and seed the initial value with defaultValue/defaultChecked. Controlled inputs are the right default when you need validation, conditional UI, or to derive other state from the value. Uncontrolled inputs are simpler for write-once forms and for <input type="file">, which is always uncontrolled. React 19 also added first-class form support via the form action prop, useFormStatus, and useActionState, which often removes the need for per-field controlled state.
 

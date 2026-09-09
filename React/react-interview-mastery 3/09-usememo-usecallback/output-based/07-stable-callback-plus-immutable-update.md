@@ -1,4 +1,4 @@
-*** copy 07-stable-callback-plus-immutable-update.md ***
+***  07-stable-callback-plus-immutable-update.md ***
 
 # Output-Based: Stable Callback + Immutable Update Skips Unrelated Rows
 

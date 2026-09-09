@@ -1,4 +1,4 @@
-*** copy What are the best techniques to diagnose and optimize Interaction to Next Paint (INP) in heavy React applications?.md ***
+***  What are the best techniques to diagnose and optimize Interaction to Next Paint (INP) in heavy React applications?.md ***
 
 **Interaction to Next Paint (INP)** measures overall page responsiveness by tracking the latency of all user interactions (clicks, taps, keyboard presses) across the entire page lifecycle, reporting the single worst (or 98th percentile) duration.
 

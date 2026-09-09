@@ -1,4 +1,4 @@
-*** copy How do I implement a global command palette with keyboard shortcuts (Cmd+K) in React?.md ***
+***  How do I implement a global command palette with keyboard shortcuts (Cmd+K) in React?.md ***
 
 A global command palette ($\text{Cmd+K}$ / $\text{Ctrl+K}$) requires three key parts:
 

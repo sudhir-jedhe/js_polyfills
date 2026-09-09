@@ -1,4 +1,4 @@
-*** copy dangerouslySetInnerHTML.md ***
+***  dangerouslySetInnerHTML.md ***
 
 Using `dangerouslySetInnerHTML` in React allows you to directly set HTML content from a string, bypassing React's default behavior of escaping content to prevent cross-site scripting (XSS) attacks. This feature can be useful in certain situations, but it comes with significant risks if not used carefully. Here's a detailed breakdown of its significance and when (or why) you should use it:
 

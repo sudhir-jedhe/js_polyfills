@@ -1,4 +1,4 @@
-*** copy Loops.md ***
+***  Loops.md ***
 
 In JavaScript, loop flow control allows you to alter the normal execution sequence of a loop—either stopping it early, skipping an iteration, or jumping out of nested loops entirely.
 

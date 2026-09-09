@@ -1,4 +1,4 @@
-*** copy implement-enqueue-and-dequeue-using-only-two-stacks-in-javascript.md ***
+***  implement-enqueue-and-dequeue-using-only-two-stacks-in-javascript.md ***
 
 // Two stacks declared in the form of plain array
 let stack1 = [];

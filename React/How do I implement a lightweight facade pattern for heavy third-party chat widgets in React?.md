@@ -1,4 +1,4 @@
-*** copy How do I implement a lightweight facade pattern for heavy third-party chat widgets in React?.md ***
+***  How do I implement a lightweight facade pattern for heavy third-party chat widgets in React?.md ***
 
 Heavy third-party chat widgets (Intercom, Zendesk, HubSpot, Drift) often download **500KB–2MB of JavaScript** and consume hundreds of milliseconds of main-thread execution time on initial page load.
 

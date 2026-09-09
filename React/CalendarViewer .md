@@ -1,4 +1,4 @@
-*** copy CalendarViewer .md ***
+***  CalendarViewer .md ***
 
 ```js
 import "./CalendarViewer.css";

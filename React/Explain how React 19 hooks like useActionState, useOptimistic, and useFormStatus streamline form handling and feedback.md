@@ -1,4 +1,4 @@
-*** copy Explain how React 19 hooks like useActionState, useOptimistic, and useFormStatus streamline form handling and feedback.md ***
+***  Explain how React 19 hooks like useActionState, useOptimistic, and useFormStatus streamline form handling and feedback.md ***
 
 React 19 revolutionizes form handling and data mutations by making **Server Actions**, **Pending States**, and **Optimistic UI Updates** first-class primitives in the core library.
 

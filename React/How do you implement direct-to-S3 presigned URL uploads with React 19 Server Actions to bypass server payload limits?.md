@@ -1,4 +1,4 @@
-*** copy How do you implement direct-to-S3 presigned URL uploads with React 19 Server Actions to bypass server payload limits?.md ***
+***  How do you implement direct-to-S3 presigned URL uploads with React 19 Server Actions to bypass server payload limits?.md ***
 
 Uploading large files directly through Server Actions routes heavy binary payloads through your server, consuming bandwidth and easily exceeding default request body size limits (e.g., Next.js's default 1MB cap).
 

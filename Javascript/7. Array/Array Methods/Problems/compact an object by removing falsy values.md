@@ -1,4 +1,4 @@
-*** copy compact an object by removing falsy values.md ***
+***  compact an object by removing falsy values.md ***
 
 ```js
 const compactObject = (val) => {

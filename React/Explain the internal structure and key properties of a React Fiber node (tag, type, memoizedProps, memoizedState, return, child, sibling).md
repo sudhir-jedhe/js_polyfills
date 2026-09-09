@@ -1,4 +1,4 @@
-*** copy Explain the internal structure and key properties of a React Fiber node (tag, type, memoizedProps, memoizedState, return, child, sibling).md ***
+***  Explain the internal structure and key properties of a React Fiber node (tag, type, memoizedProps, memoizedState, return, child, sibling).md ***
 
 A **Fiber node** is a plain JavaScript object that represents a unit of work within React’s reconciliation engine.
 

@@ -1,4 +1,4 @@
-*** copy board.md ***
+***  board.md ***
 
 export function Board(row, col) {
   this.row = row;

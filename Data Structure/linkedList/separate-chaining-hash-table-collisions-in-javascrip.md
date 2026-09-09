@@ -1,4 +1,4 @@
-*** copy separate-chaining-hash-table-collisions-in-javascrip.md ***
+***  separate-chaining-hash-table-collisions-in-javascrip.md ***
 
 /*
 A hash table is a data structure that allows for efficient data retrieval using a key. 

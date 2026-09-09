@@ -1,4 +1,4 @@
-*** copy script.md ***
+***  script.md ***
 
 import { wordList } from './word-list.js';
 import hangman0 from '../images/hangman-0.svg';

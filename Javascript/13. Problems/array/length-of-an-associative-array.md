@@ -1,4 +1,4 @@
-*** copy length-of-an-associative-array.md ***
+***  length-of-an-associative-array.md ***
 
 ```js
 // an associative array does not have a length property

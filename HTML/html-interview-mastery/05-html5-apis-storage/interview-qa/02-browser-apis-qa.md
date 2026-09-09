@@ -1,4 +1,4 @@
-*** copy 02-browser-apis-qa.md ***
+***  02-browser-apis-qa.md ***
 
 # Interview Q&A — Drag & Drop, Geolocation, Web Workers
 

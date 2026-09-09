@@ -1,4 +1,4 @@
-*** copy 02-multiple-async-scripts-arbitrary-order.md ***
+***  02-multiple-async-scripts-arbitrary-order.md ***
 
 # Output: Two `async` Scripts — Which Runs First?
 

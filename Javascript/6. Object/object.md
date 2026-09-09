@@ -1,4 +1,4 @@
-*** copy object.md ***
+***  object.md ***
 
 ### 1. **Different Ways of Creating an Object in JavaScript**
 

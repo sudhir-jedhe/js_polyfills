@@ -1,4 +1,4 @@
-*** copy CSR vs SSR.md ***
+***  CSR vs SSR.md ***
 
 **Client-Side Rendering (CSR)** and **Server-Side Rendering (SSR)** represent two fundamental strategies for rendering web applications.
 

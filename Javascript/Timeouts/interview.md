@@ -1,4 +1,4 @@
-*** copy interview.md ***
+***  interview.md ***
 
 Here is a comprehensive, deep-dive breakdown of each of these 16 fundamental JavaScript timer and Event Loop concepts, complete with visual architecture diagrams and practical code examples.
 

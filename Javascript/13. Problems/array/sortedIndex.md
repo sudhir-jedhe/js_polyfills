@@ -1,4 +1,4 @@
-*** copy sortedIndex.md ***
+***  sortedIndex.md ***
 
 ```js
 export const sortedIndex = (arr, value) => {

@@ -1,4 +1,4 @@
-*** copy toReversed.md ***
+***  toReversed.md ***
 
 
 In JavaScript, there isn't a built-in `Array.toReversed()` method, but you can easily implement a custom method that returns a new array with elements in reverse order. 

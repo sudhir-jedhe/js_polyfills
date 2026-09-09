@@ -1,4 +1,4 @@
-*** copy Testing Strategies.md ***
+***  Testing Strategies.md ***
 
 https://learnersbucket.com/examples/web/testing-strategies-ensuring-quality-in-software-engineering/
 

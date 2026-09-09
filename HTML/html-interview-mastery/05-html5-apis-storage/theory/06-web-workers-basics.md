@@ -1,4 +1,4 @@
-*** copy 06-web-workers-basics.md ***
+***  06-web-workers-basics.md ***
 
 # Web Workers: Offloading Work Off the Main Thread
 

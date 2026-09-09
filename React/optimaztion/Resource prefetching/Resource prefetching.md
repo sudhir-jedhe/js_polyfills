@@ -1,4 +1,4 @@
-*** copy Resource prefetching.md ***
+***  Resource prefetching.md ***
 
 **Resource prefetching** is a technique used to improve website performance by loading resources (such as images, scripts, or stylesheets) **ahead of time**, before they are actually needed by the user. This helps reduce delays and makes the page load faster when the resources are eventually required. It is especially beneficial for improving perceived performance, ensuring that the content required by the user is ready and available when needed, thereby avoiding delays caused by network requests.
 

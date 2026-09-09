@@ -1,4 +1,4 @@
-*** copy 01-cross-tab-logout-sync.md ***
+***  01-cross-tab-logout-sync.md ***
 
 # Scenario: Logging Out in One Tab Should Log Out All Tabs
 

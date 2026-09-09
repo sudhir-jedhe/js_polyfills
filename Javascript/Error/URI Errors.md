@@ -1,4 +1,4 @@
-*** copy URI Errors.md ***
+***  URI Errors.md ***
 
 A **`URIError`** in JavaScript is thrown when one of the global URI (Uniform Resource Identifier) handling functions is used incorrectly, usually by passing it a malformed string.
 

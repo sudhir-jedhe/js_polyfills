@@ -1,4 +1,4 @@
-*** copy swap.md ***
+***  swap.md ***
 
 ### Swapping Two Numbers Without Using a Temporary Variable:
 

@@ -1,4 +1,4 @@
-*** copy jsonToMatrix.md ***
+***  jsonToMatrix.md ***
 
 The task is to convert an array of deeply nested objects into a matrix. The matrix should be structured such that the first row contains the column names (unique keys or paths), and each subsequent row corresponds to an object, with values or empty strings where applicable.
 

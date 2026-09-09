@@ -1,4 +1,4 @@
-*** copy 02-debounced-search-api.md ***
+***  02-debounced-search-api.md ***
 
 # Scenario: Search-as-you-type feature is hammering the backend with a request per keystroke
 

@@ -1,4 +1,4 @@
-*** copy Implement a function that accepts a callback and restricts its invocation to at most N times .md ***
+***  Implement a function that accepts a callback and restricts its invocation to at most N times .md ***
 
 ```js
 // In this question, you need to create a function that accepts a callback

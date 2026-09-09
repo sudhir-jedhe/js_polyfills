@@ -1,4 +1,4 @@
-*** copy script.md ***
+***  script.md ***
 
 const $form = document.querySelector("form"),
 $fileInput = document.querySelector("#file-input"),

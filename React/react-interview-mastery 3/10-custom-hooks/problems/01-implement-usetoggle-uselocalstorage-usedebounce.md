@@ -1,4 +1,4 @@
-*** copy 01-implement-usetoggle-uselocalstorage-usedebounce.md ***
+***  01-implement-usetoggle-uselocalstorage-usedebounce.md ***
 
 # Problem 1: Implement `useToggle`, `useLocalStorage`, and `useDebounce`
 

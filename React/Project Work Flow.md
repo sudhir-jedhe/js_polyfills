@@ -1,4 +1,4 @@
-*** copy Project Work Flow.md ***
+***  Project Work Flow.md ***
 
 To improve my team's workflow and collaboration in a React project, I used several simple strategies:
 

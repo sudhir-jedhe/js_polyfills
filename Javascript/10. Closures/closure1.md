@@ -1,4 +1,4 @@
-*** copy closure1.md ***
+***  closure1.md ***
 
 ### Let's break down the key concepts you mentioned, including the use of closures, variable scoping with `var` and `let`, and how asynchronous code like `setTimeout` interacts with these concepts.
 

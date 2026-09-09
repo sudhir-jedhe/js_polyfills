@@ -1,4 +1,4 @@
-*** copy disableLogger.md ***
+***  disableLogger.md ***
 
 The code examples you provided illustrate different ways to manage logging behavior in a production environment, including:
 

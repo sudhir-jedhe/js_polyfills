@@ -1,4 +1,4 @@
-*** copy useResponsive.md ***
+***  useResponsive.md ***
 
 // DOM parsing and painting is a very expensive operation and should be avoided as much as possible for faster loading of application.
 

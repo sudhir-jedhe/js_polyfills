@@ -1,4 +1,4 @@
-*** copy Nested Checkbox Tree Component in React.md ***
+***  Nested Checkbox Tree Component in React.md ***
 
 # Nested Checkbox Tree Component in React
 

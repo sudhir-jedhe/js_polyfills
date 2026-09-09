@@ -1,4 +1,4 @@
-*** copy count-number-of-sub-string-occurrence-in-a-string.md ***
+***  count-number-of-sub-string-occurrence-in-a-string.md ***
 
 ```js
 Input:

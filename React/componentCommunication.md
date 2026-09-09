@@ -1,4 +1,4 @@
-*** copy componentCommunication.md ***
+***  componentCommunication.md ***
 
 In React, data normally flows from Parent → Child using props. To send data from a Child → Parent, you pass a callback function from the parent to the child, and the child calls that function with the data.
 

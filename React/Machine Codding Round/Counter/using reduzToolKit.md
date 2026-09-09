@@ -1,4 +1,4 @@
-*** copy using reduzToolKit.md ***
+***  using reduzToolKit.md ***
 
 Here is the complete, production-ready React **Counter Application** built using **Redux Toolkit (`@reduxjs/toolkit` and `react-redux`)**, covering all scenarios: increment, decrement, reset, and custom increment/decrement by a dynamic value.
 

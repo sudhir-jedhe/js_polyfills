@@ -1,4 +1,4 @@
-*** copy How to debug and fix Interaction to Next Paint (INP) in React.md ***
+***  How to debug and fix Interaction to Next Paint (INP) in React.md ***
 
 Optimizing **Largest Contentful Paint (LCP)** (loading speed of the main viewport element) and **Cumulative Layout Shift (CLS)** (visual layout stability) requires addressing asset delivery, rendering architecture, and DOM sizing strategies in React.
 

@@ -1,4 +1,4 @@
-*** copy 03-default-prop-values.md ***
+***  03-default-prop-values.md ***
 
 # Default Prop Values via Destructuring
 

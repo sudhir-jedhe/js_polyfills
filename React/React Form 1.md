@@ -1,4 +1,4 @@
-*** copy React Form 1.md ***
+***  React Form 1.md ***
 
 Here is a **production-ready, highly performant React Form architecture** that ticks all 6 requirements.
 

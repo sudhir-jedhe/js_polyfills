@@ -1,4 +1,4 @@
-*** copy What is a CDN.md ***
+***  What is a CDN.md ***
 
 ### **What is a CDN?**
 

@@ -1,4 +1,4 @@
-*** copy slice and splice.md ***
+***  slice and splice.md ***
 
 The table you provided compares the `slice()` and `splice()` methods in JavaScript, and the key differences are accurately highlighted. Here’s an explanation of each point, with some additional details:
 

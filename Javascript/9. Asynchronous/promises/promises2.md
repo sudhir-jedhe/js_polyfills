@@ -1,4 +1,4 @@
-*** copy promises2.md ***
+***  promises2.md ***
 
 The image shows a **Promise Polyfill Test Suite** with 18 test cases covering:
 

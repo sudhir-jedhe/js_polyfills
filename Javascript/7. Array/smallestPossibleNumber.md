@@ -1,4 +1,4 @@
-*** copy smallestPossibleNumber.md ***
+***  smallestPossibleNumber.md ***
 
 The problem you're tackling is to find the smallest possible number that can be formed using the digits of a given number, with the condition that the transformed number should not start with a 0 (unless the number itself is 0).
 

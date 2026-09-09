@@ -1,4 +1,4 @@
-*** copy Grid Lights.md ***
+***  Grid Lights.md ***
 
 A common frontend interview challenge is the **Grid Lights (or Shape Lights)** component: an interactive $3 \times 3$ grid with a non-interactive center cell where selected cells light up in order and automatically deactivate in reverse sequence (FIFO/LIFO) once all active cells are clicked.
 

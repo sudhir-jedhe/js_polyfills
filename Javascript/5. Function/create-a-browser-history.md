@@ -1,4 +1,4 @@
-*** copy create-a-browser-history.md ***
+***  create-a-browser-history.md ***
 
 The provided code consists of various implementations of a `BrowserHistory` class to simulate the behavior of browser navigation such as `visit`, `goBack`, and `forward`. Below is a detailed explanation of each implementation, followed by an improved solution for clarity and completeness.
 

@@ -1,4 +1,4 @@
-*** copy Timeout Cancellation.md ***
+***  Timeout Cancellation.md ***
 
 Here is the complete guide and solution for LeetCode #2715: **Timeout Cancellation** (executing a function after a delay $t$ milliseconds unless a returned cancellation function is called before $t$ elapses).
 

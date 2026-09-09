@@ -1,4 +1,4 @@
-*** copy sequential dependemcy.md ***
+***  sequential dependemcy.md ***
 
 Yes, whether these requests can run in parallel depends entirely on whether they depend on each other's data:
 

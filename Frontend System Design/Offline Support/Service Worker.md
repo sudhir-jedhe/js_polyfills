@@ -1,4 +1,4 @@
-*** copy Service Worker.md ***
+***  Service Worker.md ***
 
 ## 1. What is Offline Support in Frontend System Design?
 

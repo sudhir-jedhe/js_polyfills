@@ -1,4 +1,4 @@
-*** copy element vs Component.md ***
+***  element vs Component.md ***
 
 In React, the terms "element" and "component" refer to different concepts:
 

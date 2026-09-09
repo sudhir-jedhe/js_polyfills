@@ -1,4 +1,4 @@
-*** copy In-memory filesystem library.md ***
+***  In-memory filesystem library.md ***
 
 To achieve the desired functionality as described in your prompt, the `FileSystem` class needs to handle the operations related to directories, files, and paths efficiently. You've provided most of the logic correctly, but there are some improvements to be made. Specifically:
 

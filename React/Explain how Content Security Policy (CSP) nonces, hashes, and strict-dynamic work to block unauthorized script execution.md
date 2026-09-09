@@ -1,4 +1,4 @@
-*** copy Explain how Content Security Policy (CSP) nonces, hashes, and strict-dynamic work to block unauthorized script execution.md ***
+***  Explain how Content Security Policy (CSP) nonces, hashes, and strict-dynamic work to block unauthorized script execution.md ***
 
 **Content Security Policy (CSP)** is an HTTP response header that acts as a primary defense-in-depth mechanism against Cross-Site Scripting (XSS) and data injection attacks.
 

@@ -1,4 +1,4 @@
-*** copy Props Drilling.md ***
+***  Props Drilling.md ***
 
 ### What is Props Drilling?
 

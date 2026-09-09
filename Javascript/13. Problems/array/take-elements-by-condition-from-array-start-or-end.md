@@ -1,4 +1,4 @@
-*** copy take-elements-by-condition-from-array-start-or-end.md ***
+***  take-elements-by-condition-from-array-start-or-end.md ***
 
 ```js
 Get elements from the start or end of a JavaScript array by condition

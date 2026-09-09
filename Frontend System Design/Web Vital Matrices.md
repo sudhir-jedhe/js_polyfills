@@ -1,4 +1,4 @@
-*** copy Web Vital Matrices.md ***
+***  Web Vital Matrices.md ***
 
 Auditing and optimizing Core Web Vitals (**LCP**, **INP**, and **CLS**) in a production front-end application requires a dual methodology: leveraging **Field Data (RUM)** to capture actual user experiences across varied devices and networks, and using **Lab Data (Synthetic)** to reproduce, profile, and fix root causes in isolation.
 

@@ -1,4 +1,4 @@
-*** copy invert-a-binary-tree-recursive-and-iterative-solutions.md ***
+***  invert-a-binary-tree-recursive-and-iterative-solutions.md ***
 
 ```js
 Input:

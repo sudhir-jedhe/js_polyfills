@@ -1,4 +1,4 @@
-*** copy Table Component.md ***
+***  Table Component.md ***
 
 Creating a custom table in React that implements all the features you've mentioned is a complex but rewarding task. Let's break down the key features and create a basic structure. While the full implementation of each feature would take quite a bit of code, I'll give you a starting point that focuses on the most important aspects of each one.
 

@@ -1,4 +1,4 @@
-*** copy shallow copy vs deep copy.md ***
+***  shallow copy vs deep copy.md ***
 
 In JavaScript, **shallow copy** and **deep copy** refer to two different ways of copying objects or arrays. Let's break down both concepts with examples to better understand how they differ:
 

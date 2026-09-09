@@ -1,4 +1,4 @@
-*** copy apply-transform-over-each-element-in-array.md ***
+***  apply-transform-over-each-element-in-array.md ***
 
 Here is the code and explanation in Markdown format:
 

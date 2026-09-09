@@ -1,4 +1,4 @@
-*** copy 06-link-vs-import.md ***
+***  06-link-vs-import.md ***
 
 # Snippet: `<link>` (Parallel) vs. `@import` (Sequential)
 

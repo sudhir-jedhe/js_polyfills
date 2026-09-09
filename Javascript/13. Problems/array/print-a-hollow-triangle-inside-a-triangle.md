@@ -1,4 +1,4 @@
-*** copy print-a-hollow-triangle-inside-a-triangle.md ***
+***  print-a-hollow-triangle-inside-a-triangle.md ***
 
 ```js
 // Input: N = 9

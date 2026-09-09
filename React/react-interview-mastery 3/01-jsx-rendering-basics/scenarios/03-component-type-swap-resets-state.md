@@ -1,4 +1,4 @@
-*** copy 03-component-type-swap-resets-state.md ***
+***  03-component-type-swap-resets-state.md ***
 
 # New Component Tree Flashes/Unmounts Entirely on Minor Prop Change
 

@@ -1,4 +1,4 @@
-*** copy remove-the-last-character-of-a-string.md ***
+***  remove-the-last-character-of-a-string.md ***
 
 Both of your methods correctly remove the last character of a string in JavaScript. `slice(0, -1)` is generally preferred for its brevity, but understanding how `slice` and `substring` handle negative indices highlights key differences between them.
 

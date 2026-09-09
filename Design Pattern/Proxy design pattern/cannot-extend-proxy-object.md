@@ -1,4 +1,4 @@
-*** copy cannot-extend-proxy-object.md ***
+***  cannot-extend-proxy-object.md ***
 
 You're right: while JavaScript's `Proxy` is a very powerful feature, it cannot be directly extended like other objects or classes because of its atypical semantics. A `Proxy` does not have a prototype chain like typical objects, making it non-extensible in the conventional sense. This is because proxies are considered "exotic objects" that behave differently from regular JavaScript objects.
 

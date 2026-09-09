@@ -1,4 +1,4 @@
-*** copy 05-list-rendering-with-stable-keys.md ***
+***  05-list-rendering-with-stable-keys.md ***
 
 # Rendering a List With Stable Keys Derived From Data, Not Index
 

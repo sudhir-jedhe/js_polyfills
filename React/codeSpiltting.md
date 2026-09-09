@@ -1,4 +1,4 @@
-*** copy codeSpiltting.md ***
+***  codeSpiltting.md ***
 
 It is the time of Single Page Applications. We bundle our code, send it to the client and live happily ever after. However, as soon as our app grows, our bundle will grow in size and happiness will turn into nightmares. Users with weak connections will have to wait forever for our app to get up and running. This is not a good user experience at all.
 

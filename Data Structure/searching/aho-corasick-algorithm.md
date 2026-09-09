@@ -1,4 +1,4 @@
-*** copy aho-corasick-algorithm.md ***
+***  aho-corasick-algorithm.md ***
 
 /*
 The Aho-Corasick algorithm is a powerful string-searching algorithm that efficiently identifies 

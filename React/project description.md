@@ -1,4 +1,4 @@
-*** copy project description.md ***
+***  project description.md ***
 
 In your role as a **Senior Software Engineer** at **Tachyon Tech** for the **Woolies (Woolworths) Project**, your responsibilities were varied and comprehensive. Here’s a detailed explanation of the key aspects of your **Full Stack Developer (UI)** role as an **Individual Contributor** for the project:
 

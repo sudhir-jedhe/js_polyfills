@@ -1,4 +1,4 @@
-*** copy React.memo does NOT stop every re-render?.md ***
+***  React.memo does NOT stop every re-render?.md ***
 
 **No, `React.memo` does NOT stop every re-render.**
 

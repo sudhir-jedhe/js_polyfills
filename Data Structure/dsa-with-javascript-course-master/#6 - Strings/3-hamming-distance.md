@@ -1,4 +1,4 @@
-*** copy 3-hamming-distance.md ***
+***  3-hamming-distance.md ***
 
 // Ques 3 : Hamming Distance
 // Given two strings x and y, return the Hamming distance between them.

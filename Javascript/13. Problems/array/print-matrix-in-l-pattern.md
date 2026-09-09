@@ -1,4 +1,4 @@
-*** copy print-matrix-in-l-pattern.md ***
+***  print-matrix-in-l-pattern.md ***
 
 ```js
 Input:

@@ -1,4 +1,4 @@
-*** copy 03a-google-oauth-start.md ***
+***  03a-google-oauth-start.md ***
 
 # Spec 03A — Google OAuth Start Route
 

@@ -1,4 +1,4 @@
-*** copy 02-chat-reconnects-on-every-keystroke.md ***
+***  02-chat-reconnects-on-every-keystroke.md ***
 
 # Chat Component Reconnects on Every Keystroke in an Unrelated Typing Indicator Field
 

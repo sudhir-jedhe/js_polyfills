@@ -1,4 +1,4 @@
-*** copy Explain how to configure custom PostCSS plugins or use Lightning CSS (transformer) in Vite.md ***
+***  Explain how to configure custom PostCSS plugins or use Lightning CSS (transformer) in Vite.md ***
 
 Vite processes CSS out of the box using an internal pipeline. Depending on your performance needs and toolchain requirements, you can extend this pipeline using standard **PostCSS plugins** or replace it with **Lightning CSS**, an ultra-fast Rust-based CSS parser, transformer, and minifier.
 

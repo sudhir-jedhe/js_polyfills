@@ -1,4 +1,4 @@
-*** copy removeVowels.md ***
+***  removeVowels.md ***
 
 ```js
 export const removeVowels = (str) => {

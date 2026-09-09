@@ -1,4 +1,4 @@
-*** copy example.md ***
+***  example.md ***
 
 Thank you for providing this detailed explanation and improvements to the code for executing tasks in parallel. I'll create a React component that demonstrates these concepts, allowing users to run both the task execution and URL fetching in parallel.
 

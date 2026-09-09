@@ -1,4 +1,4 @@
-*** copy computeAmount.md ***
+***  computeAmount.md ***
 
 Certainly! Here's the complete code implementing the `computeAmount` function:
 

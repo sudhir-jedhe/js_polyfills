@@ -1,4 +1,4 @@
-*** copy What are the remaining valid use cases for IIFEs in modern ES6+ development (e.g. top-level await, complex initialization)?.md ***
+***  What are the remaining valid use cases for IIFEs in modern ES6+ development (e.g. top-level await, complex initialization)?.md ***
 
 While ES Modules and block-scoped `let`/`const` eliminated the need for IIFEs in basic encapsulation and loop bindings, IIFEs remain a valuable pattern in modern ES6+ JavaScript and TypeScript.
 

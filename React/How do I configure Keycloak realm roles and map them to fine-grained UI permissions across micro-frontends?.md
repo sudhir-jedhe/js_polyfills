@@ -1,4 +1,4 @@
-*** copy How do I configure Keycloak realm roles and map them to fine-grained UI permissions across micro-frontends?.md ***
+***  How do I configure Keycloak realm roles and map them to fine-grained UI permissions across micro-frontends?.md ***
 
 To configure Keycloak realm roles and map them to fine-grained UI permissions across micro-frontends (MFEs), decouple **Identity Roles** (what Keycloak assigns, e.g., `realm-admin`, `support-tier-2`) from **Domain Permissions** (what specific UI buttons or routes need, e.g., `billing:refund`, `user:delete`).
 

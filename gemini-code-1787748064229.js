@@ -10,7 +10,7 @@ function processDirectory(dirPath) {
     if (entry.isDirectory()) {
       processDirectory(fullPath);
     } else if (entry.isFile() && entry.name.endsWith('.md')) {
-      const header = `*** copy ${entry.name} ***\n\n`;
+      const header = `***  ${entry.name} ***\n\n`;
       const originalContent = fs.readFileSync(fullPath, 'utf8');
       
       fs.writeFileSync(fullPath, header + originalContent, 'utf8');

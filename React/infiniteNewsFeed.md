@@ -1,4 +1,4 @@
-*** copy infiniteNewsFeed.md ***
+***  infiniteNewsFeed.md ***
 
 class FeedApp {
     constructor() {

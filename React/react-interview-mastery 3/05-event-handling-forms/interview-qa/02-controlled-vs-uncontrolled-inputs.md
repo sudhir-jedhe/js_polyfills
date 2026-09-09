@@ -1,4 +1,4 @@
-*** copy 02-controlled-vs-uncontrolled-inputs.md ***
+***  02-controlled-vs-uncontrolled-inputs.md ***
 
 # Interview Q&A: Controlled vs. Uncontrolled Inputs
 

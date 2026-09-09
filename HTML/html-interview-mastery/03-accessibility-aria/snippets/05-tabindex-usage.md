@@ -1,4 +1,4 @@
-*** copy 05-tabindex-usage.md ***
+***  05-tabindex-usage.md ***
 
 # Snippet: `tabindex` Usage Patterns
 

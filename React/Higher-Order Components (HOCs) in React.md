@@ -1,4 +1,4 @@
-*** copy Higher-Order Components (HOCs) in React.md ***
+***  Higher-Order Components (HOCs) in React.md ***
 
 ### **Higher-Order Components (HOCs) in React**
 

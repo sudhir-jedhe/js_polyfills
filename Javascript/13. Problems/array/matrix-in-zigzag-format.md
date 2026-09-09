@@ -1,4 +1,4 @@
-*** copy matrix-in-zigzag-format.md ***
+***  matrix-in-zigzag-format.md ***
 
 ```js
 let zigzagMatrix = (arr) => {

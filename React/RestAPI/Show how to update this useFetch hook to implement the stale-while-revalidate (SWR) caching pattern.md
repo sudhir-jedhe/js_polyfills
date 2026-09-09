@@ -1,4 +1,4 @@
-*** copy Show how to update this useFetch hook to implement the stale-while-revalidate (SWR) caching pattern.md ***
+***  Show how to update this useFetch hook to implement the stale-while-revalidate (SWR) caching pattern.md ***
 
 Here is the updated `useFetch` hook implementing the **Stale-While-Revalidate (SWR)** pattern.
 

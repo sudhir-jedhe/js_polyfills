@@ -1,4 +1,4 @@
-*** copy 04-void-elements-examples.md ***
+***  04-void-elements-examples.md ***
 
 # Snippet: Void Elements in Practice
 

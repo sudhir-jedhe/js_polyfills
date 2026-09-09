@@ -1,4 +1,4 @@
-*** copy interview12.md ***
+***  interview12.md ***
 
 Day 1: <https://lnkd.in/dTCeQ8yw>
 Day 2: <https://lnkd.in/djEqAQAx>

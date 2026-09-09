@@ -1,4 +1,4 @@
-*** copy customise Fetch.md ***
+***  customise Fetch.md ***
 
 You can customize the `fetch()` API in JavaScript to suit your specific needs by adding options such as custom headers, credentials, or methods. Here's how to use the `fetch()` method and customize it for various scenarios:
 

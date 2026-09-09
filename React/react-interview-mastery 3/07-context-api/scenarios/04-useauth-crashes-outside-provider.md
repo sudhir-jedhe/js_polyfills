@@ -1,4 +1,4 @@
-*** copy 04-useauth-crashes-outside-provider.md ***
+***  04-useauth-crashes-outside-provider.md ***
 
 # Scenario: A `useAuth()` hook returns `undefined` and crashes a component in production, but not in tests
 

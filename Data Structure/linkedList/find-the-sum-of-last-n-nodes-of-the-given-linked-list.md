@@ -1,4 +1,4 @@
-*** copy find-the-sum-of-last-n-nodes-of-the-given-linked-list.md ***
+***  find-the-sum-of-last-n-nodes-of-the-given-linked-list.md ***
 
 // Input : 10->6->8->4->12, n = 2
 // Output : 16

@@ -1,4 +1,4 @@
-*** copy why we use meta tag.md ***
+***  why we use meta tag.md ***
 
 We use `<meta>` tags to provide **metadata** (data about data) to machines reading the website.
 

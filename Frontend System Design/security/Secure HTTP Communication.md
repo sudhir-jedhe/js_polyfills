@@ -1,4 +1,4 @@
-*** copy Secure HTTP Communication.md ***
+***  Secure HTTP Communication.md ***
 
 In Front-End System Design, **Secure Communication** ensures that all data in transit between the client browser and the server remains **confidential** (encrypted against eavesdropping), **intact** (protected against tampering), and **authenticated** (guaranteeing communication with the legitimate server).
 

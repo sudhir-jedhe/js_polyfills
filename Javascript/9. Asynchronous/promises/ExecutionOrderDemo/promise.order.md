@@ -1,4 +1,4 @@
-*** copy promise.order.md ***
+***  promise.order.md ***
 
 // This is a JavaScript Quiz from BFE.dev
 ```js

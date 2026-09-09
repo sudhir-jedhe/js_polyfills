@@ -1,4 +1,4 @@
-*** copy 01-form-elements-input-types-qa.md ***
+***  01-form-elements-input-types-qa.md ***
 
 # Interview Q&A — Form Elements & Input Types
 

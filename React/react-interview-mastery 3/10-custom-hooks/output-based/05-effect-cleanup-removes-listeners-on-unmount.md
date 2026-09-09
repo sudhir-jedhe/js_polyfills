@@ -1,4 +1,4 @@
-*** copy 05-effect-cleanup-removes-listeners-on-unmount.md ***
+***  05-effect-cleanup-removes-listeners-on-unmount.md ***
 
 # Output-Based: Effect Cleanup Removes Listeners on Unmount
 

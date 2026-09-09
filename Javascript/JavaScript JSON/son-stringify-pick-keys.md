@@ -1,4 +1,4 @@
-*** copy son-stringify-pick-keys.md ***
+***  son-stringify-pick-keys.md ***
 
 ### Key Points About `JSON.stringify` Customization
 

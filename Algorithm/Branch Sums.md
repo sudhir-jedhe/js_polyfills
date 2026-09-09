@@ -1,4 +1,4 @@
-*** copy Branch Sums.md ***
+***  Branch Sums.md ***
 
 /**
  * Problem: Branch Sums: Given a binary tree, compute the sum of all the branches in the tree.

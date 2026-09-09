@@ -1,4 +1,4 @@
-*** copy randomInRange.md ***
+***  randomInRange.md ***
 
 Here's the complete code for generating random integers within a specified range, along with multiple examples:
 

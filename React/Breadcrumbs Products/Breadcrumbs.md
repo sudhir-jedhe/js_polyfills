@@ -1,4 +1,4 @@
-*** copy Breadcrumbs.md ***
+***  Breadcrumbs.md ***
 
 Here is how you can update the **Breadcrumbs component** to dynamically resolve titles from an API or cache for dynamic routes like `/users/:id` or `/products/:id`.
 

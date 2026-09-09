@@ -1,4 +1,4 @@
-*** copy count-grouped-elements.md ***
+***  count-grouped-elements.md ***
 
 ```js
 // Count the occurrences of each value in an array

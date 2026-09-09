@@ -1,4 +1,4 @@
-*** copy 5-reverse-string.md ***
+***  5-reverse-string.md ***
 
 // Ques 5 - Reverse a String
 // Input: "hello"  ----->>>>>  Output: "olleh"

@@ -1,4 +1,4 @@
-*** copy 07-template-and-dialog-elements.md ***
+***  07-template-and-dialog-elements.md ***
 
 # The `<template>` and `<dialog>` Elements
 

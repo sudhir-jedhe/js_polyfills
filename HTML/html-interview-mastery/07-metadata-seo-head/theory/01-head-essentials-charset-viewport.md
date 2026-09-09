@@ -1,4 +1,4 @@
-*** copy 01-head-essentials-charset-viewport.md ***
+***  01-head-essentials-charset-viewport.md ***
 
 # `<head>` Essentials: Charset and Viewport
 

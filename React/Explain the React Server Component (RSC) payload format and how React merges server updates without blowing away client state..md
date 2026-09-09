@@ -1,4 +1,4 @@
-*** copy Explain the React Server Component (RSC) payload format and how React merges server updates without blowing away client state..md ***
+***  Explain the React Server Component (RSC) payload format and how React merges server updates without blowing away client state..md ***
 
 The **RSC Payload** (or RSC Wire Format) is a compact, streaming, JSON-like string format that serializes the output of React Server Components.
 

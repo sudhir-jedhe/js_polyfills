@@ -1,4 +1,4 @@
-*** copy convert-a-negative-number-to-positiv.md ***
+***  convert-a-negative-number-to-positiv.md ***
 
 ```js
 // Javascript script to convert negative number

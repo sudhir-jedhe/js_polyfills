@@ -1,4 +1,4 @@
-*** copy FormatedTime.md ***
+***  FormatedTime.md ***
 
 Your logic for calculating the time difference between the current time and the provided date is almost correct. However, there are a few small issues with your code that need to be addressed to ensure it works as expected:
 

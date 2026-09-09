@@ -1,4 +1,4 @@
-*** copy 02-cross-tab-sync-storage-event.md ***
+***  02-cross-tab-sync-storage-event.md ***
 
 # Snippet: Cross-Tab Sync via the `storage` Event
 

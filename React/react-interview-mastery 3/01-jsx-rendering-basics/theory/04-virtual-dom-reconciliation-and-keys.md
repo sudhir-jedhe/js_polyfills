@@ -1,4 +1,4 @@
-*** copy 04-virtual-dom-reconciliation-and-keys.md ***
+***  04-virtual-dom-reconciliation-and-keys.md ***
 
 # The Virtual DOM, Reconciliation, and the `key` Prop
 

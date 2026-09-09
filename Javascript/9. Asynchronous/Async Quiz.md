@@ -1,4 +1,4 @@
-*** copy Async Quiz.md ***
+***  Async Quiz.md ***
 
 ### 1. **Build a custom Promise from scratch**
 

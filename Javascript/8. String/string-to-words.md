@@ -1,4 +1,4 @@
-*** copy string-to-words.md ***
+***  string-to-words.md ***
 
 Up until a few years ago, the go-to method for splitting a string into words was String.prototype.split(). While it can still work just fine, it's a bit of a hassle to get right, especially for longer bodies of text. Yet, JavaScript has come up with a simpler way that takes care of all the nuances for us - Intl.Segmenter.
 

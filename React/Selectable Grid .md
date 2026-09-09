@@ -1,4 +1,4 @@
-*** copy Selectable Grid .md ***
+***  Selectable Grid .md ***
 
 A Selectable Grid allows users to drag a 2D bounding selection box across matrix cells to select rectangular ranges.
 

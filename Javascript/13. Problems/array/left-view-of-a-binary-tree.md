@@ -1,4 +1,4 @@
-*** copy left-view-of-a-binary-tree.md ***
+***  left-view-of-a-binary-tree.md ***
 
 ```js
 Input : 

@@ -1,4 +1,4 @@
-*** copy useFormStatus.md ***
+***  useFormStatus.md ***
 
 The `useFormStatus` hook (provided by `react-dom`) gives you status information about the last form submission. It was designed to work seamlessly with React Server Actions and drastically reduces the amount of boilerplate state you need to write to manage form submissions.
 

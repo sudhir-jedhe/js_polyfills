@@ -1,4 +1,4 @@
-*** copy dropdown.md ***
+***  dropdown.md ***
 
 Creating an accessible custom dropdown in React involves considering a few key accessibility features, such as keyboard navigation, focus management, and ARIA (Accessible Rich Internet Applications) attributes. Here’s a step-by-step guide to creating an accessible custom dropdown component in React:
 

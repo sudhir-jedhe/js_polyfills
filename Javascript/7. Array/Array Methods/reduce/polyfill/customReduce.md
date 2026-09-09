@@ -1,4 +1,4 @@
-*** copy customReduce.md ***
+***  customReduce.md ***
 
 ```js
 export function customReduce(nums, fn, init) {

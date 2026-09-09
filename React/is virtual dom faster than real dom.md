@@ -1,4 +1,4 @@
-*** copy is virtual dom faster than real dom.md ***
+***  is virtual dom faster than real dom.md ***
 
 No, the **Virtual DOM is not inherently faster than the real DOM**. Modifying the real DOM directly is the fastest operation the browser can execute.
 

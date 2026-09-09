@@ -1,4 +1,4 @@
-*** copy isArray.md ***
+***  isArray.md ***
 
 Your implementation of `customIsArray` and the polyfill for `Array.isArray` is spot-on! Here's an explanation of the code you've written:
 

@@ -1,4 +1,4 @@
-*** copy How would you build a component library used by multiple teams?.md ***
+***  How would you build a component library used by multiple teams?.md ***
 
 Building a multi-team component library requires treating the library as an **internal open-source product**. Success depends as much on API design, token architecture, and governance as it does on raw UI implementation.
 

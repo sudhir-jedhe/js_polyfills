@@ -1,4 +1,4 @@
-*** copy Prevent overflow with line-clamp and fluid aspect constraints.md ***
+***  Prevent overflow with line-clamp and fluid aspect constraints.md ***
 
 To prevent visual overflow across cards, editorial previews, and adaptive media tiles, combine three CSS layout techniques:
 

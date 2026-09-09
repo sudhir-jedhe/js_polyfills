@@ -1,4 +1,4 @@
-*** copy  How passing components as children prevents re-renders.md ***
+***   How passing components as children prevents re-renders.md ***
 
 Passing components via the `children` prop (or other named props) prevents unnecessary re-renders by leveraging **referential equality** in React. This pattern is widely known as "lifting content up" or "composition."
 

@@ -1,4 +1,4 @@
-*** copy map.md ***
+***  map.md ***
 
 ## Custom `map()` Polyfill (Interview Question)
 

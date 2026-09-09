@@ -1,4 +1,4 @@
-*** copy 02-missing-viewport-meta-mobile-rendering.md ***
+***  02-missing-viewport-meta-mobile-rendering.md ***
 
 # Output: Mobile Rendering Without a Viewport Meta Tag
 

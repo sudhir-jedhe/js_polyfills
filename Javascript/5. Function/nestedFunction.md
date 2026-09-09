@@ -1,4 +1,4 @@
-*** copy nestedFunction.md ***
+***  nestedFunction.md ***
 
 This is a common JavaScript interview question:
 

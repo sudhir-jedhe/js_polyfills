@@ -1,4 +1,4 @@
-*** copy indexOf.md ***
+***  indexOf.md ***
 
 ### 1. **Custom `indexOf` Implementation**
 

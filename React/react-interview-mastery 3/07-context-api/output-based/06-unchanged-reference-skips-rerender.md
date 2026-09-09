@@ -1,4 +1,4 @@
-*** copy 06-unchanged-reference-skips-rerender.md ***
+***  06-unchanged-reference-skips-rerender.md ***
 
 # Output-Based: Does a consumer re-render when the context value reference is unchanged?
 

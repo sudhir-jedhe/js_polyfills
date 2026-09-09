@@ -1,4 +1,4 @@
-*** copy 01-basic-createcontext-provider-usecontext.md ***
+***  01-basic-createcontext-provider-usecontext.md ***
 
 # Snippet: Basic createContext + Provider + useContext
 

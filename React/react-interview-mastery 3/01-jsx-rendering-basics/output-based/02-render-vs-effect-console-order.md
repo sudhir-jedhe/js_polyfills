@@ -1,4 +1,4 @@
-*** copy 02-render-vs-effect-console-order.md ***
+***  02-render-vs-effect-console-order.md ***
 
 # What's the Console Output Order?
 

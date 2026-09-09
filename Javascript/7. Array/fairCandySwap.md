@@ -1,4 +1,4 @@
-*** copy fairCandySwap.md ***
+***  fairCandySwap.md ***
 
 ### Problem Explanation:
 

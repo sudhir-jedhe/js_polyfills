@@ -1,4 +1,4 @@
-*** copy 06-unstable-object-dependency-reruns-every-render.md ***
+***  06-unstable-object-dependency-reruns-every-render.md ***
 
 # What's Wrong With This Component, and What Happens When It Runs?
 

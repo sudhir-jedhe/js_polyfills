@@ -1,4 +1,4 @@
-*** copy How does the React Scheduler coordinate with Fiber Lanes and use MessageChannel for cooperative multitasking?.md ***
+***  How does the React Scheduler coordinate with Fiber Lanes and use MessageChannel for cooperative multitasking?.md ***
 
 The **React Scheduler** (`scheduler` package) is an independent, cooperative multitasking engine that acts like an OS process scheduler for the browser's main thread. It works alongside **React Fiber** (`react-reconciler`), which decides *what* to render and with what priority (Lanes), while the Scheduler decides *when* to execute that work without dropping browser frames.
 

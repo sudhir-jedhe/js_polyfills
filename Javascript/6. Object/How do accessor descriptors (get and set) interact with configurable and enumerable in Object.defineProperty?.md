@@ -1,4 +1,4 @@
-*** copy How do accessor descriptors (get and set) interact with configurable and enumerable in Object.defineProperty?.md ***
+***  How do accessor descriptors (get and set) interact with configurable and enumerable in Object.defineProperty?.md ***
 
 In JavaScript, a property descriptor must be either a **Data Descriptor** (containing `value` and `writable`) or an **Accessor Descriptor** (containing `get` and `set`). They are mutually exclusive.
 

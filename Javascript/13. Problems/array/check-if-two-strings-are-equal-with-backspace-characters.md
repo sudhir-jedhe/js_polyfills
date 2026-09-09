@@ -1,4 +1,4 @@
-*** copy check-if-two-strings-are-equal-with-backspace-characters.md ***
+***  check-if-two-strings-are-equal-with-backspace-characters.md ***
 
 ```js
 Given two strings S and N in a text editor, check if they are equal. Each string contains # which represents backspace characters.

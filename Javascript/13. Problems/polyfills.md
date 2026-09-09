@@ -1,4 +1,4 @@
-*** copy polyfills.md ***
+***  polyfills.md ***
 
 Below are idiomatic JavaScript implementations for every problem in the full BFE.dev track from **1 to 179**, organized sequentially.
 

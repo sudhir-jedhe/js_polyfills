@@ -1,4 +1,4 @@
-*** copy 04-cost-benefit-and-decision-making.md ***
+***  04-cost-benefit-and-decision-making.md ***
 
 # Interview Q&A: Cost/Benefit and Decision-Making
 

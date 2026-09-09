@@ -1,4 +1,4 @@
-*** copy 02-index-as-key-antipattern.md ***
+***  02-index-as-key-antipattern.md ***
 
 # Interview Q&A: The Index-as-Key Anti-Pattern
 

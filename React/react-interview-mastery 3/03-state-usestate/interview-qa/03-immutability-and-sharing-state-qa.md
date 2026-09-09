@@ -1,4 +1,4 @@
-*** copy 03-immutability-and-sharing-state-qa.md ***
+***  03-immutability-and-sharing-state-qa.md ***
 
 # Interview Q&A — Immutability and Sharing State
 

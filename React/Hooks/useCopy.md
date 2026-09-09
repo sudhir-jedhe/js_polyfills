@@ -1,4 +1,4 @@
-*** copy useCopy.md ***
+***  useCopy.md ***
 
 // mplement an useCopy() hook in React that copies the given text to the clipboard.
 

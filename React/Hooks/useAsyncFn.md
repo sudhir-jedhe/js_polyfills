@@ -1,4 +1,4 @@
-*** copy useAsyncFn.md ***
+***  useAsyncFn.md ***
 
 Here is a production-ready `useAsync` hook (and its imperative counterpart `useAsyncFn`). It handles promise states (`idle`, `pending`, `success`, `error`), race conditions, cancellation on unmount, and immediate or manual execution.
 

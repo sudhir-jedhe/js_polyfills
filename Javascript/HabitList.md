@@ -1,4 +1,4 @@
-*** copy HabitList.md ***
+***  HabitList.md ***
 
 const Habits = [
 "Sleep At 10.30 PM",

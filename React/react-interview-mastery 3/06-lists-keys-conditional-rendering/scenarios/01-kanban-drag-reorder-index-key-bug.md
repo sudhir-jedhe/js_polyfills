@@ -1,4 +1,4 @@
-*** copy 01-kanban-drag-reorder-index-key-bug.md ***
+***  01-kanban-drag-reorder-index-key-bug.md ***
 
 # Scenario: Drag-to-reorder task board loses per-card edit state
 

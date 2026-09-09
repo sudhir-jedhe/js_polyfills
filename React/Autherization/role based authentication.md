@@ -1,4 +1,4 @@
-*** copy role based authentication.md ***
+***  role based authentication.md ***
 
 Implementing and managing **authorization** across a React (frontend) and Node.js (backend) stack is a favorite topic in full-stack interviews. Interviewers want to ensure you understand that frontend security is just for UX, while backend security is where actual authorization enforcement happens.
 

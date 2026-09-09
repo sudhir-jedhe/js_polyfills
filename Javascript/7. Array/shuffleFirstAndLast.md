@@ -1,4 +1,4 @@
-*** copy shuffleFirstAndLast.md ***
+***  shuffleFirstAndLast.md ***
 
 To shuffle the first and last elements of an array in JavaScript, you can swap the first and last elements directly. Here's an example:
 

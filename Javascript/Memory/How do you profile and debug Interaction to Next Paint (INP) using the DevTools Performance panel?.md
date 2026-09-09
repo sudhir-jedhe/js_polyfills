@@ -1,4 +1,4 @@
-*** copy How do you profile and debug Interaction to Next Paint (INP) using the DevTools Performance panel?.md ***
+***  How do you profile and debug Interaction to Next Paint (INP) using the DevTools Performance panel?.md ***
 
 **Interaction to Next Paint (INP)** measures the latency of all discrete user interactions (clicks, taps, and key presses) throughout the page lifecycle and reports the longest duration (ignoring rare outliers).
 

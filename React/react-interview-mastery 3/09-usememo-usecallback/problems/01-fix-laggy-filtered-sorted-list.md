@@ -1,4 +1,4 @@
-*** copy 01-fix-laggy-filtered-sorted-list.md ***
+***  01-fix-laggy-filtered-sorted-list.md ***
 
 # Problem 1: Fix a Laggy Filtered/Sorted List With `useMemo`
 

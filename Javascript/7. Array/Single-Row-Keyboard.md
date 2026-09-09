@@ -1,4 +1,4 @@
-*** copy Single-Row-Keyboard.md ***
+***  Single-Row-Keyboard.md ***
 
 ### Problem Understanding:
 

@@ -1,4 +1,4 @@
-*** copy How to ensure website work in all browser.md ***
+***  How to ensure website work in all browser.md ***
 
 Ensuring that your website works across all browsers is an important part of web development. Different browsers interpret code differently, and sometimes the rendering, functionality, or performance can vary between them. To ensure compatibility and a consistent user experience, you need to test, debug, and optimize your website for multiple browsers.
 

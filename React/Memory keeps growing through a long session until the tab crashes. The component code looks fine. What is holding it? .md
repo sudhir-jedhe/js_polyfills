@@ -1,4 +1,4 @@
-*** copy Memory keeps growing through a long session until the tab crashes. The component code looks fine. What is holding it? .md ***
+***  Memory keeps growing through a long session until the tab crashes. The component code looks fine. What is holding it? .md ***
 
 When component code looks clean on the surface, memory leaks that crash tabs over long sessions are almost always caused by **retaining references living outside the component lifecycle**—in shared closure scopes, global registries, detached DOM nodes, or unmanaged third-party SDK lifecycles.
 

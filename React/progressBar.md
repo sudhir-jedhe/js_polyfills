@@ -1,4 +1,4 @@
-*** copy progressBar.md ***
+***  progressBar.md ***
 
 # Progress Bar Component (React)
 

@@ -1,4 +1,4 @@
-*** copy cssManipulation.md ***
+***  cssManipulation.md ***
 
 The code you provided outlines some of the basic operations you can perform using the `classList` property in JavaScript to manipulate CSS classes of HTML elements.
 

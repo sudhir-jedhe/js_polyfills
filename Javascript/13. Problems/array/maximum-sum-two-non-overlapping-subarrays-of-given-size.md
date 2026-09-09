@@ -1,4 +1,4 @@
-*** copy maximum-sum-two-non-overlapping-subarrays-of-given-size.md ***
+***  maximum-sum-two-non-overlapping-subarrays-of-given-size.md ***
 
 ```js
 // Input : arr[] = [2, 5, 1, 2, 7, 3, 0]

@@ -1,4 +1,4 @@
-*** copy 07-uselayouteffect-prevents-scroll-flicker.md ***
+***  07-uselayouteffect-prevents-scroll-flicker.md ***
 
 # Given `useLayoutEffect`, Does the User Ever See a Flicker?
 

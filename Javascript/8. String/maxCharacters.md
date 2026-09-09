@@ -1,4 +1,4 @@
-*** copy maxCharacters.md ***
+***  maxCharacters.md ***
 
 ```js
 maxCharacters("hello"); // Output: 'l'

@@ -1,4 +1,4 @@
-*** copy 06-null-access-throws-during-render.md ***
+***  06-null-access-throws-during-render.md ***
 
 # What Does This Render for `user = null`?
 

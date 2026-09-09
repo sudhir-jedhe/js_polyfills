@@ -1,4 +1,4 @@
-*** copy 04-when-to-memoize.md ***
+***  04-when-to-memoize.md ***
 
 # When Memoization Is Actually Worth It
 

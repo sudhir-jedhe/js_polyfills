@@ -1,4 +1,4 @@
-*** copy handle global state in react.md ***
+***  handle global state in react.md ***
 
 Handling global state in a React application refers to managing state that can be accessed or modified by multiple components across the app, rather than just within a single component. Global state can include things like user authentication data, theme preferences, shopping cart data, or any other data that needs to be shared across different parts of the application.
 

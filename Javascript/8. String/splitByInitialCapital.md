@@ -1,4 +1,4 @@
-*** copy splitByInitialCapital.md ***
+***  splitByInitialCapital.md ***
 
 ```js
 function splitByInitialCapital(str) {

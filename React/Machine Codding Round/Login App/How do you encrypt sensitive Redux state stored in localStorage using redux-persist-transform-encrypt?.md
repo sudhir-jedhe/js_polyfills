@@ -1,4 +1,4 @@
-*** copy How do you encrypt sensitive Redux state stored in localStorage using redux-persist-transform-encrypt?.md ***
+***  How do you encrypt sensitive Redux state stored in localStorage using redux-persist-transform-encrypt?.md ***
 
 To encrypt sensitive Redux state stored in `localStorage` when using `redux-persist`, you can use the **`redux-persist-transform-encrypt`** package. Transforms allow `redux-persist` to intercept state slices and encrypt them *before* writing to storage, and decrypt them *after* reading from storage during rehydration.
 

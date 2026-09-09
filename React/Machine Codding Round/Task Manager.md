@@ -1,4 +1,4 @@
-*** copy Task Manager.md ***
+***  Task Manager.md ***
 
 The **Task Manager** skill has been created and saved as `task-manager`.
 

@@ -1,4 +1,4 @@
-*** copy How  Debugging Performance Issues Using Chrome DevTools.md ***
+***  How  Debugging Performance Issues Using Chrome DevTools.md ***
 
 ### **Debugging Performance Issues Using Chrome DevTools**
 

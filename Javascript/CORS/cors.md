@@ -1,4 +1,4 @@
-*** copy cors.md ***
+***  cors.md ***
 
 **Do you know what CORS is?**
 

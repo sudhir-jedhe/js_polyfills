@@ -1,4 +1,4 @@
-*** copy randomHexColorCode .md ***
+***  randomHexColorCode .md ***
 
 The `randomHexColorCode` function generates a random hex color code, which can be used in CSS for color styling. Let's break it down to understand how it works:
 

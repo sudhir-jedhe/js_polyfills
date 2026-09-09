@@ -1,4 +1,4 @@
-*** copy How do you adjust or reset state during rendering when props change in React without using useEffect?.md ***
+***  How do you adjust or reset state during rendering when props change in React without using useEffect?.md ***
 
 You can adjust state when props change by calling the **`setState` updater directly inside the component body during render**.
 

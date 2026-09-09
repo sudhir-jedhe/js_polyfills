@@ -1,4 +1,4 @@
-*** copy React Server Components.md ***
+***  React Server Components.md ***
 
 
 ✌ React Server Components are a game-changer in the world of server-rendered React applications.

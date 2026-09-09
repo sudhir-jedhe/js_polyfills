@@ -1,4 +1,4 @@
-*** copy Handling project dependency priority issues.md ***
+***  Handling project dependency priority issues.md ***
 
 Handling **project dependency priority issues** is a common challenge in both **software development** and **project management**. When multiple dependencies exist, the challenge is to prioritize them efficiently, ensuring the project moves forward smoothly and deadlines are met. In an interview, discussing how you would manage these issues demonstrates your ability to handle complexity, manage teams, and deliver a successful product.
 

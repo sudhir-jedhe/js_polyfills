@@ -1,4 +1,4 @@
-*** copy 02-skip-link.md ***
+***  02-skip-link.md ***
 
 # Snippet: Skip Link
 

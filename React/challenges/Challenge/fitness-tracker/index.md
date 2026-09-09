@@ -1,4 +1,4 @@
-*** copy index.md ***
+***  index.md ***
 
 const darkModeToggle = document.getElementById('dark-mode-toggle');
 const addButton = document.getElementById('add-button');

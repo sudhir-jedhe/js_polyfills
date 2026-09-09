@@ -1,4 +1,4 @@
-*** copy 03-memo-with-stable-refs.md ***
+***  03-memo-with-stable-refs.md ***
 
 # Snippet: React.memo Only Pays Off Paired With Stable Prop References
 

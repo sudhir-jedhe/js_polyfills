@@ -1,4 +1,4 @@
-*** copy 01-fundamentals.md ***
+***  01-fundamentals.md ***
 
 # Interview Q&A: Fundamentals
 

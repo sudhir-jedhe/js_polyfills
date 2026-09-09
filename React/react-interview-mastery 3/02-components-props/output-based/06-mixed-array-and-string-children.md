@@ -1,4 +1,4 @@
-*** copy 06-mixed-array-and-string-children.md ***
+***  06-mixed-array-and-string-children.md ***
 
 # What Does This Render?
 

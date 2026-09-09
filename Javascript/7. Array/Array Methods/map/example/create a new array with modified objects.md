@@ -1,4 +1,4 @@
-*** copy create a new array with modified objects.md ***
+***  create a new array with modified objects.md ***
 
 ```javascript
 function addContinentProperty(objectsArray, continent) {

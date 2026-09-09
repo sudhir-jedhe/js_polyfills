@@ -1,4 +1,4 @@
-*** copy 03-build-secure-iframe-embed-with-sandbox.md ***
+***  03-build-secure-iframe-embed-with-sandbox.md ***
 
 # Problem: Build a Securely Sandboxed Iframe Embed
 

@@ -1,4 +1,4 @@
-*** copy Implementing SSR (Server-Side Rendering) and SSG (Static Site Generation) in React.md ***
+***  Implementing SSR (Server-Side Rendering) and SSG (Static Site Generation) in React.md ***
 
 ### Implementing **SSR (Server-Side Rendering)** and **SSG (Static Site Generation)** in React
 

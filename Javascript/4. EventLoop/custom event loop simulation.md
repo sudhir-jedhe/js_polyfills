@@ -1,4 +1,4 @@
-*** copy custom event loop simulation.md ***
+***  custom event loop simulation.md ***
 
 Creating a custom event loop simulation in JavaScript can help you understand how JavaScript's concurrency model works. JavaScript uses an event-driven, non-blocking I/O model that works on a single-threaded event loop. Below is a simplified custom simulation of how the event loop works in JavaScript.
 

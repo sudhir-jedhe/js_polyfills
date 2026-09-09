@@ -1,4 +1,4 @@
-*** copy string-immutability.md ***
+***  string-immutability.md ***
 
 Your snippet highlights one of the most fundamental concepts in JavaScript engine design: **Primitives vs. Objects** and **String Immutability**.
 

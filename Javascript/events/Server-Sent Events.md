@@ -1,4 +1,4 @@
-*** copy Server-Sent Events.md ***
+***  Server-Sent Events.md ***
 
 **Server-Sent Events** (SSE) is a web technology that allows servers to push updates to the client over an HTTP connection. Unlike WebSockets, which provide full-duplex communication, SSE is a one-way communication channel where the server continuously sends updates to the client. This is useful for real-time applications where the server needs to send updates without the client making a new request.
 

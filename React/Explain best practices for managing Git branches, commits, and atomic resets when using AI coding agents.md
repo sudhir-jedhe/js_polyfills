@@ -1,4 +1,4 @@
-*** copy Explain best practices for managing Git branches, commits, and atomic resets when using AI coding agents.md ***
+***  Explain best practices for managing Git branches, commits, and atomic resets when using AI coding agents.md ***
 
 Managing Git effectively is the single most critical safety net when working with autonomous AI coding agents (like Claude Code, Aider, Cursor, or Windsurf).
 

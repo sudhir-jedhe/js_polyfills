@@ -1,4 +1,4 @@
-*** copy range-of-numbers-and-characters.md ***
+***  range-of-numbers-and-characters.md ***
 
 ```js
 const startNum = 1;

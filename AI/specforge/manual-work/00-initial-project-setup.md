@@ -1,4 +1,4 @@
-*** copy 00-initial-project-setup.md ***
+***  00-initial-project-setup.md ***
 
 # Manual Work 00 — Initial Project Setup
 

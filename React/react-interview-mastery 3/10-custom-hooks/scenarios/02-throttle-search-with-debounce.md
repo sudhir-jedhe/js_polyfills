@@ -1,4 +1,4 @@
-*** copy 02-throttle-search-with-debounce.md ***
+***  02-throttle-search-with-debounce.md ***
 
 # Scenario: A Search Input Fires a Request on Every Keystroke, Overwhelming the Backend
 

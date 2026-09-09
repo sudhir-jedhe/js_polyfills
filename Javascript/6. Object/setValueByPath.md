@@ -1,4 +1,4 @@
-*** copy setValueByPath.md ***
+***  setValueByPath.md ***
 
 The functions you've written (`setValueByPath`, `set`, etc.) are all designed to set a value in an object by providing a **path**. This kind of functionality is useful when working with deeply nested objects, especially if the structure of the object can vary.
 

@@ -1,4 +1,4 @@
-*** copy using useReducer.md ***
+***  using useReducer.md ***
 
 Here is the complete, production-ready React **Counter Application** refactored to use **`useReducer`**, covering all scenarios: increment, decrement, reset, and custom increment/decrement by a dynamic value.
 

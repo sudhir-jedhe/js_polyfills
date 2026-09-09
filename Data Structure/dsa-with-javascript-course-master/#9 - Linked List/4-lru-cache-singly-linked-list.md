@@ -1,4 +1,4 @@
-*** copy 4-lru-cache-singly-linked-list.md ***
+***  4-lru-cache-singly-linked-list.md ***
 
 class LRUCache {
   constructor(capacity) {

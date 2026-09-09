@@ -1,4 +1,4 @@
-*** copy Server-Side JavaScript Injection (SSJI).md ***
+***  Server-Side JavaScript Injection (SSJI).md ***
 
 **Server-Side JavaScript Injection (SSJI)** occurs when an attacker manipulates server-rendered JavaScript engines (like Node.js executing Next.js Server Components, API routes, or SSR pages) into evaluating untrusted inputs as executable code.
 

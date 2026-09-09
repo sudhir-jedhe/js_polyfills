@@ -1,4 +1,4 @@
-*** copy 01-useeffect-timing-and-dependency-array-qa.md ***
+***  01-useeffect-timing-and-dependency-array-qa.md ***
 
 # Interview Q&A — `useEffect` Timing and Dependency Array
 

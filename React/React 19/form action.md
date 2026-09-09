@@ -1,4 +1,4 @@
-*** copy form action.md ***
+***  form action.md ***
 
 In React 19, the `<form>` element's `action` prop received a massive upgrade. While standard HTML requires the `action` prop to be a URL string, **React 19 allows you to pass a function (including async functions) directly to the `action` prop.**
 

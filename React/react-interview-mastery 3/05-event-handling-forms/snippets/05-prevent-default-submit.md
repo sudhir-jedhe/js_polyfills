@@ -1,4 +1,4 @@
-*** copy 05-prevent-default-submit.md ***
+***  05-prevent-default-submit.md ***
 
 # Snippet: preventDefault on submit to stop the browser's full-page reload
 

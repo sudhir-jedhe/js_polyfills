@@ -1,4 +1,4 @@
-*** copy Searchable react tree view.md ***
+***  Searchable react tree view.md ***
 
 A complete, searchable **Tree View (File/Folder Explorer)** in React featuring recursive rendering, text-search highlighting, auto-expanding ancestor folders when matches are found, and item selection.
 

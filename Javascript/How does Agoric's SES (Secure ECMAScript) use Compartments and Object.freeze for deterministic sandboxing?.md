@@ -1,4 +1,4 @@
-*** copy How does Agoric's SES (Secure ECMAScript) use Compartments and Object.freeze for deterministic sandboxing?.md ***
+***  How does Agoric's SES (Secure ECMAScript) use Compartments and Object.freeze for deterministic sandboxing?.md ***
 
 ***How does Agoric's SES (Secure ECMAScript) use Compartments and Object.freeze for deterministic sandboxing?***
 

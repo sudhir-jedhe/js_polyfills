@@ -1,4 +1,4 @@
-*** copy How do I configure a fluid background video hero banner with aspect-ratio constraints and reduced-motion fallbacks in Tailwind CSS v4?.md ***
+***  How do I configure a fluid background video hero banner with aspect-ratio constraints and reduced-motion fallbacks in Tailwind CSS v4?.md ***
 
 To configure a fluid background video hero banner in Tailwind CSS v4, combine **CSS `aspect-ratio` bounds (`min-h`/`max-h`)**, **`object-cover` absolute positioning**, and **`motion-reduce:` / `forced-colors:` accessibility fallbacks** so the video smoothly scales without clipping text, and swaps to a static poster when reduced motion is preferred.
 

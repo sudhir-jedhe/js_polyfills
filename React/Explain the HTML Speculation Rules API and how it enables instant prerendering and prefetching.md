@@ -1,4 +1,4 @@
-*** copy Explain the HTML Speculation Rules API and how it enables instant prerendering and prefetching.md ***
+***  Explain the HTML Speculation Rules API and how it enables instant prerendering and prefetching.md ***
 
 The **Speculation Rules API** is a web standard designed to provide near-instant page navigations. It replaces legacy `<link rel="prefetch">` and deprecated prerendering implementations with a structured, declarative JSON configuration.
 

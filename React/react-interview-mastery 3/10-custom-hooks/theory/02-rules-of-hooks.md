@@ -1,4 +1,4 @@
-*** copy 02-rules-of-hooks.md ***
+***  02-rules-of-hooks.md ***
 
 # The Rules of Hooks
 

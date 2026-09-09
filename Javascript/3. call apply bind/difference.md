@@ -1,4 +1,4 @@
-*** copy difference.md ***
+***  difference.md ***
 
 The `call()`, `apply()`, and `bind()` methods in JavaScript are all used to set the value of `this` in a function and control its behavior. Though they have a similar purpose, there are key differences in how they work, particularly in how they handle arguments and when the function is executed. Let's break down each method with examples:
 

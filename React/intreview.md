@@ -1,4 +1,4 @@
-*** copy intreview.md ***
+***  intreview.md ***
 
 1) Explain memory allocation in JavaScript
  Sub Que: How to clear closure memory

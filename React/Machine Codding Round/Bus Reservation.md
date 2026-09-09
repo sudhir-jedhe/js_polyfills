@@ -1,4 +1,4 @@
-*** copy Bus Reservation.md ***
+***  Bus Reservation.md ***
 
 The Bus Reservation Application skill has been created and saved as bus-reservation-app.
 

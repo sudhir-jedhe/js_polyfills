@@ -1,4 +1,4 @@
-*** copy Minification vs. Compression.md ***
+***  Minification vs. Compression.md ***
 
 In front-end system design and performance engineering, **minification** and **compression** are two distinct, complementary techniques used to shrink network payload sizes.
 

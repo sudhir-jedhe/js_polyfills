@@ -1,4 +1,4 @@
-*** copy How do I use the CSS contain property (strict, content, size, layout) to prevent layout thrashing in React?.md ***
+***  How do I use the CSS contain property (strict, content, size, layout) to prevent layout thrashing in React?.md ***
 
 The CSS `contain` property isolates subtrees of the DOM from the rest of the document. By explicitly telling the browser engine, *"Changes inside this container will never affect elements outside it,"* the browser restricts style recalculations, layout reflows, and repaints strictly to that subtree rather than invalidating the entire page tree.
 

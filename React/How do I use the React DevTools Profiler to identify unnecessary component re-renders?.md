@@ -1,4 +1,4 @@
-*** copy How do I use the React DevTools Profiler to identify unnecessary component re-renders?.md ***
+***  How do I use the React DevTools Profiler to identify unnecessary component re-renders?.md ***
 
 The **React DevTools Profiler** is a browser extension tool that records component render times and reasons. It allows you to pinpoint exactly which components are re-rendering, how long those renders take, and **why** they re-rendered.
 

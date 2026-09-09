@@ -1,4 +1,4 @@
-*** copy How do I style Radix UI Dialog or Dropdown Menu transitions using Tailwind CSS animations and data states?.md ***
+***  How do I style Radix UI Dialog or Dropdown Menu transitions using Tailwind CSS animations and data states?.md ***
 
 Radix UI components expose dynamic data attributes like `data-[state=open]` and `data-[state=closed]`, which you can target directly in Tailwind CSS to create smooth entry and exit animations.
 

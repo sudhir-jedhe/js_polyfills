@@ -1,4 +1,4 @@
-*** copy When should you compute derived state during render versus storing previous props in React state?.md ***
+***  When should you compute derived state during render versus storing previous props in React state?.md ***
 
 **Compute derived state during render** by default. Storing previous props in state to adjust state during render is a specialized pattern reserved only for when a value must be **independently editable by the user**, but needs to **partially reset or adapt** when an upstream prop changes.
 

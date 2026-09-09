@@ -1,4 +1,4 @@
-*** copy Data Normalization of Frontend State.md ***
+***  Data Normalization of Frontend State.md ***
 
 // State management has become a critical task in modern frontend applications, especially in the decoupled and stateless architecture where the data is pulled from the server and stored in the browser, which will be later used for rendering the user interface and handling user interactions.
 

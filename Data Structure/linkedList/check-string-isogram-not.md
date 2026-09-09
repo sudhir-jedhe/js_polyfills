@@ -1,4 +1,4 @@
-*** copy check-string-isogram-not.md ***
+***  check-string-isogram-not.md ***
 
 // Input: Machine
 // Output: True

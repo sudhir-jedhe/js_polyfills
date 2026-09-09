@@ -1,4 +1,4 @@
-*** copy How would you reset a component state in React?.md ***
+***  How would you reset a component state in React?.md ***
 
 The idiomatic way to reset a component's state in React depends on whether you want to **completely re-initialize the entire component** or **imperatively clear specific state values** (e.g., in response to a button click).
 

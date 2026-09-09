@@ -1,4 +1,4 @@
-*** copy WHAT IS TAILWIND Why do we use Tailwind CSS?.md ***
+***  WHAT IS TAILWIND Why do we use Tailwind CSS?.md ***
 
 **Tailwind CSS** is a utility-first CSS framework designed for rapid UI development. Instead of providing pre-designed UI components (like Bootstrap's `.btn` or `.card`), Tailwind provides low-level utility classes—such as `flex`, `pt-4`, `text-center`, and `bg-blue-500`—that you apply directly within your markup to compose custom designs.
 

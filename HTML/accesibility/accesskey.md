@@ -1,4 +1,4 @@
-*** copy accesskey.md ***
+***  accesskey.md ***
 
 The `accesskey` attribute in HTML allows developers to define a shortcut key (keyboard shortcut) to activate or focus on an element (such as a button or link) on the page. It's typically used for creating faster navigation or access to certain actions, which can improve usability, especially for keyboard and screen reader users.
 

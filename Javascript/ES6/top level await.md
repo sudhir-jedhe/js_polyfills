@@ -1,4 +1,4 @@
-*** copy top level await.md ***
+***  top level await.md ***
 
 Explain how top-level await works in ES6 modules with practical code examples.
 

@@ -1,4 +1,4 @@
-*** copy  Drop Shadow in Tailwind CSS.md ***
+***   Drop Shadow in Tailwind CSS.md ***
 
 In Tailwind CSS, drop shadows are applied using the `drop-shadow-*` filter utilities (which use CSS `filter: drop-shadow(...)`).
 

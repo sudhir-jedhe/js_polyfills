@@ -1,4 +1,4 @@
-*** copy longest palindrome.md ***
+***  longest palindrome.md ***
 
 ```js
 const longestPalindrome = (s) => {

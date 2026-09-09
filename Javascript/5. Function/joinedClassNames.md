@@ -1,4 +1,4 @@
-*** copy joinedClassNames.md ***
+***  joinedClassNames.md ***
 
 Both of the examples you've provided implement a function called `classNames` that takes in a variable number of arguments (using the `...args` rest operator) and returns a single string that represents a list of class names. The function supports different types of inputs such as strings, numbers, objects, and arrays. Let's break down each implementation and explain the logic in detail.
 

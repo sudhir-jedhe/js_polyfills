@@ -1,4 +1,4 @@
-*** copy How do container queries work with --container-* variables and the @container directive in Tailwind CSS v4?.md ***
+***  How do container queries work with --container-* variables and the @container directive in Tailwind CSS v4?.md ***
 
 In Tailwind CSS v4, container queries are built natively into the core engine—no external `@tailwindcss/container-queries` plugin is required.
 

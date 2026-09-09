@@ -1,4 +1,4 @@
-*** copy prevent multiple API calls.md ***
+***  prevent multiple API calls.md ***
 
 To prevent multiple API calls when a user rapidly clicks a login button, you can use a combination of **UI state management** (disabling the button) and **functional techniques** like **debouncing** or **throttling**.
 

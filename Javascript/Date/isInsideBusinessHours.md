@@ -1,4 +1,4 @@
-*** copy isInsideBusinessHours.md ***
+***  isInsideBusinessHours.md ***
 
 Your approach to checking if a given date is within business hours (Monday to Friday, 9:00 AM to 5:00 PM) and excluding holidays is almost perfect, but there is a minor typo in the final check for weekdays in the `isInsideBusinessHours` function.
 

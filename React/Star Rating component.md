@@ -1,4 +1,4 @@
-*** copy Star Rating component.md ***
+***  Star Rating component.md ***
 
 A custom phone number input component in React that formats digits automatically (e.g., `(123) 456-7890`), supports international country codes with flags, strips non-numeric characters, and handles backspacing cleanly without external heavy libraries.
 

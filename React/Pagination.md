@@ -1,4 +1,4 @@
-*** copy Pagination.md ***
+***  Pagination.md ***
 
 // Whenever we show limited no of items on any particular component, we either use pagination or lazy loading to show more items on certain user actions.
 

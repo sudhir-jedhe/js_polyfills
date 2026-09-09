@@ -1,4 +1,4 @@
-*** copy 07-presentational-component.md ***
+***  07-presentational-component.md ***
 
 # Presentational Component Receiving All Data/Behavior via Props
 

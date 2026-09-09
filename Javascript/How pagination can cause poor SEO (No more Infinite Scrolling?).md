@@ -1,4 +1,4 @@
-*** copy How pagination can cause poor SEO (No more Infinite Scrolling?).md ***
+***  How pagination can cause poor SEO (No more Infinite Scrolling?).md ***
 
 Pagination is essential for breaking up large catalogs and article archives, but when misconfigured, it creates severe indexing, crawlability, and link equity bottlenecks for search engines.
 

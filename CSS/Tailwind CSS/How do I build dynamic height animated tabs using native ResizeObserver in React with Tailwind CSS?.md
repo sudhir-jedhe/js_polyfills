@@ -1,4 +1,4 @@
-*** copy How do I build dynamic height animated tabs using native ResizeObserver in React with Tailwind CSS?.md ***
+***  How do I build dynamic height animated tabs using native ResizeObserver in React with Tailwind CSS?.md ***
 
 Using a native `ResizeObserver` hook lets you dynamically animate container height changes as content switches or resizes without needing external helper libraries.
 

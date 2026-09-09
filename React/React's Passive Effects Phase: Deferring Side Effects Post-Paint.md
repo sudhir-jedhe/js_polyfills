@@ -1,4 +1,4 @@
-*** copy React's Passive Effects Phase: Deferring Side Effects Post-Paint.md ***
+***  React's Passive Effects Phase: Deferring Side Effects Post-Paint.md ***
 
 Here is a clean, structured technical reference guide detailing the **Passive Effects Phase**, `useEffect` scheduling mechanics, and why React intentionally defers these side effects until after the browser paint.
 

@@ -1,4 +1,4 @@
-*** copy 01-no-deps-runs-every-render.md ***
+***  01-no-deps-runs-every-render.md ***
 
 # Effect With No Dependency Array — Runs After Every Render
 

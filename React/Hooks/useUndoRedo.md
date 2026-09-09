@@ -1,4 +1,4 @@
-*** copy useUndoRedo.md ***
+***  useUndoRedo.md ***
 
 Here is the complete **Undo / Redo** pattern implementation in English using a custom React Hook (`useUndoRedo`).
 

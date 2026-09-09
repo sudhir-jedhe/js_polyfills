@@ -1,4 +1,4 @@
-*** copy leapYear.md ***
+***  leapYear.md ***
 
 ```js
 const isLeapYear = (year) => {

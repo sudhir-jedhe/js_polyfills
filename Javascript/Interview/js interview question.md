@@ -1,4 +1,4 @@
-*** copy js interview question.md ***
+***  js interview question.md ***
 
 # JavaScript Interview Questions & Answers
 

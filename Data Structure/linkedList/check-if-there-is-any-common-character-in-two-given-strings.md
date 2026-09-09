@@ -1,4 +1,4 @@
-*** copy check-if-there-is-any-common-character-in-two-given-strings.md ***
+***  check-if-there-is-any-common-character-in-two-given-strings.md ***
 
 // Input: s1 = "geeksforgeeks", s2 = "geeks"
 // Output: Yes

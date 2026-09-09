@@ -1,4 +1,4 @@
-*** copy 04-updating-nested-object-state.md ***
+***  04-updating-nested-object-state.md ***
 
 # Updating a Nested Object in State Without Mutating It
 

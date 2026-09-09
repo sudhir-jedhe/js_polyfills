@@ -1,4 +1,4 @@
-*** copy cheetSheet.md ***
+***  cheetSheet.md ***
 
 ### **Asynchronous JavaScript Cheat Sheet**
 

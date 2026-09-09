@@ -1,4 +1,4 @@
-*** copy pseudo-classes.md ***
+***  pseudo-classes.md ***
 
 CSS **pseudo-classes** are used to define the special state or condition of an element. They allow you to style elements based on user interactions, document structure, or other criteria. Here’s a comprehensive list of **all CSS pseudo-classes**, categorized by their functionality:
 

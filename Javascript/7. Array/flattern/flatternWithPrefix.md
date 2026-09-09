@@ -1,4 +1,4 @@
-*** copy flatternWithPrefix.md ***
+***  flatternWithPrefix.md ***
 
 It looks like you provided two variations of the `flattenWithPrefix` function, one dealing with a nested array of objects, and the other working with a nested object structure. Both functions flatten the structure while adding a prefix to the keys or values as they go deeper into the nested structure.
 

@@ -1,4 +1,4 @@
-*** copy array-after-it-is-right-rotated-k-times.md ***
+***  array-after-it-is-right-rotated-k-times.md ***
 
 ```js
 // Input: Array[] = {1, 3, 5, 7, 9}, K = 2.

@@ -1,4 +1,4 @@
-*** copy How does state colocation (pushing state down) prevent parent-driven re-renders without using React.memo?.md ***
+***  How does state colocation (pushing state down) prevent parent-driven re-renders without using React.memo?.md ***
 
 **State Colocation** (or "pushing state down") is the practice of moving state as close as possible to the components that actually read and write it.
 

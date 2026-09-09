@@ -1,4 +1,4 @@
-*** copy Handling Race Conditions in JavaScript.md ***
+***  Handling Race Conditions in JavaScript.md ***
 
 ### **Handling Race Conditions in JavaScript**
 

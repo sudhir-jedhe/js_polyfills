@@ -1,4 +1,4 @@
-*** copy consume a RESTful JSON.md ***
+***  consume a RESTful JSON.md ***
 
 To consume a RESTful JSON API in a ReactJS application, you typically follow these steps:
 

@@ -1,4 +1,4 @@
-*** copy Explain how Vite handles @import inlining and asset URL rebasing in CSS files.md ***
+***  Explain how Vite handles @import inlining and asset URL rebasing in CSS files.md ***
 
 Vite processes CSS via an internal PostCSS pipeline that handles two historically painful frontend issues out of the box: **`@import` inlining** and **asset `url()` rebasing**.
 

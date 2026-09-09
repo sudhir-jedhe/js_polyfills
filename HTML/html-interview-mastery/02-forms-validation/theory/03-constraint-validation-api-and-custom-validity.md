@@ -1,4 +1,4 @@
-*** copy 03-constraint-validation-api-and-custom-validity.md ***
+***  03-constraint-validation-api-and-custom-validity.md ***
 
 # The Constraint Validation API and `setCustomValidity`
 

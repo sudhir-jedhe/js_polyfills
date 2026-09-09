@@ -1,4 +1,4 @@
-*** copy How do you prevent security issues like XSS in a React application?.md ***
+***  How do you prevent security issues like XSS in a React application?.md ***
 
 Preventing Cross-Site Scripting (XSS) in a React application relies on leveraging React's built-in defenses while avoiding dangerous anti-patterns and securing client-side data flows.
 

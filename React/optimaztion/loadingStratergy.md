@@ -1,4 +1,4 @@
-*** copy loadingStratergy.md ***
+***  loadingStratergy.md ***
 
 https://learnersbucket.com/examples/interview/different-loading-strategies-to-increase-the-website-speed/
 

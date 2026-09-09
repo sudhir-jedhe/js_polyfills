@@ -1,4 +1,4 @@
-*** copy 1-max-and-second-max.md ***
+***  1-max-and-second-max.md ***
 
 // Ques 1 - Second Largest Number
 // Given an array Arr of size N, print second largest

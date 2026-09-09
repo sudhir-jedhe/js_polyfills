@@ -1,4 +1,4 @@
-*** copy 03-updating-array-state-without-mutation.md ***
+***  03-updating-array-state-without-mutation.md ***
 
 # Updating an Array in State Without Mutating It
 

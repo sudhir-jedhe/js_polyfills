@@ -1,4 +1,4 @@
-*** copy 04-duplicate-inner-keys.md ***
+***  04-duplicate-inner-keys.md ***
 
 # Output-Based: Duplicate keys in a nested `.map()`
 

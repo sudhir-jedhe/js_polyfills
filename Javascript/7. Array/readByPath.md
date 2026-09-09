@@ -1,4 +1,4 @@
-*** copy readByPath.md ***
+***  readByPath.md ***
 
 ```js
 

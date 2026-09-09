@@ -1,4 +1,4 @@
-*** copy 07-keyed-fragment-in-map.md ***
+***  07-keyed-fragment-in-map.md ***
 
 # Snippet: Using a Fragment with a key when mapping to multiple sibling elements
 

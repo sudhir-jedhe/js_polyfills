@@ -1,4 +1,4 @@
-*** copy truncate.md ***
+***  truncate.md ***
 
 How can I truncate a string to a specified length using JavaScript?
 

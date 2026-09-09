@@ -1,4 +1,4 @@
-*** copy How does React Fiber maintain deterministic state when skipping low-priority updates using baseQueue and baseState?.md ***
+***  How does React Fiber maintain deterministic state when skipping low-priority updates using baseQueue and baseState?.md ***
 
 To keep state deterministic when a high-priority update interrupts or skips a lower-priority update, React must guarantee that **the final state reflects all actions in the exact chronological order they were dispatched**.
 

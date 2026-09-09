@@ -1,4 +1,4 @@
-*** copy sortStringWithIgnorecase.md ***
+***  sortStringWithIgnorecase.md ***
 
 Let us first understand how the Array.sort() method works. It takes a callback function as input in which it passes the current string and the next string as parameters on which the comparison will take place.
 

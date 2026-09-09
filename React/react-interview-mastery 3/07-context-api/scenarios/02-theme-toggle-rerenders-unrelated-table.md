@@ -1,4 +1,4 @@
-*** copy 02-theme-toggle-rerenders-unrelated-table.md ***
+***  02-theme-toggle-rerenders-unrelated-table.md ***
 
 # Scenario: A theme toggle button re-renders the entire page tree
 

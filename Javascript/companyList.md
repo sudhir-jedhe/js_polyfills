@@ -1,4 +1,4 @@
-*** copy companyList.md ***
+***  companyList.md ***
 
 // 50 companies that are HIRING freshers.
 

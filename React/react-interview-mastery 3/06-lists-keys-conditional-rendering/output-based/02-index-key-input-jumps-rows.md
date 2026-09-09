@@ -1,4 +1,4 @@
-*** copy 02-index-key-input-jumps-rows.md ***
+***  02-index-key-input-jumps-rows.md ***
 
 # Output-Based: Index-keyed input state jumps to the wrong row after a removal
 

@@ -1,4 +1,4 @@
-*** copy integrity in packge.lock.md ***
+***  integrity in packge.lock.md ***
 
 The `integrity` field in `package-lock.json` (and `yarn.lock` / `pnpm-lock.yaml`) is one of the most effective, automated lines of defense against package tampering.
 

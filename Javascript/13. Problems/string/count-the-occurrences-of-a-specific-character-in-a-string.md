@@ -1,4 +1,4 @@
-*** copy count-the-occurrences-of-a-specific-character-in-a-string.md ***
+***  count-the-occurrences-of-a-specific-character-in-a-string.md ***
 
 ```js
 /*

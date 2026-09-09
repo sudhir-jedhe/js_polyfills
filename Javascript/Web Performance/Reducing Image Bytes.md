@@ -1,4 +1,4 @@
-*** copy Reducing Image Bytes.md ***
+***  Reducing Image Bytes.md ***
 
 # Reducing Image Bytes (Frontend Performance Fundamentals)
 

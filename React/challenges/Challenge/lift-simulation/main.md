@@ -1,4 +1,4 @@
-*** copy main.md ***
+***  main.md ***
 
 const inputFloor = document.getElementById('input-floor');
 const inputLift = document.getElementById('input-lift');

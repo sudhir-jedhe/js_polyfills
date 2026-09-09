@@ -1,4 +1,4 @@
-*** copy 05-hydration-mismatch-flicker.md ***
+***  05-hydration-mismatch-flicker.md ***
 
 # Server-Rendered Markup Mismatches Client Render, Causing a Console Warning and Flicker
 

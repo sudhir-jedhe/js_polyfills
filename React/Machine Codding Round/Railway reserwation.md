@@ -1,4 +1,4 @@
-*** copy Railway reserwation.md ***
+***  Railway reserwation.md ***
 
 
 The Railway Reservation System skill has been created and saved as railway-reservation.

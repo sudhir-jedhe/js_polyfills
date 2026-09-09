@@ -1,4 +1,4 @@
-*** copy Galary.md ***
+***  Galary.md ***
 
 The Gallery App skill has been created.
 

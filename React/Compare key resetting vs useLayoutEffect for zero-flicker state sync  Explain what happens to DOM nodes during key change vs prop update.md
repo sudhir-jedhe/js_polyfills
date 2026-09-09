@@ -1,4 +1,4 @@
-*** copy Compare key resetting vs useLayoutEffect for zero-flicker state sync  Explain what happens to DOM nodes during key change vs prop update.md ***
+***  Compare key resetting vs useLayoutEffect for zero-flicker state sync  Explain what happens to DOM nodes during key change vs prop update.md ***
 
 **Render Phase vs. Commit Phase in React Fiber**
 

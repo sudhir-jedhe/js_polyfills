@@ -1,4 +1,4 @@
-*** copy How does Rollup use Scope Hoisting and AST walking algorithms to eliminate unused exports?.md ***
+***  How does Rollup use Scope Hoisting and AST walking algorithms to eliminate unused exports?.md ***
 
 Rollup was architected from the ground up around **Scope Hoisting** and fine-grained **AST (Abstract Syntax Tree) static analysis**.
 

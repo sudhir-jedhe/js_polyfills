@@ -1,4 +1,4 @@
-*** copy 02-picture-element-art-direction.md ***
+***  02-picture-element-art-direction.md ***
 
 # The `<picture>` Element and Art Direction
 

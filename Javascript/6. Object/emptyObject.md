@@ -1,4 +1,4 @@
-*** copy emptyObject.md ***
+***  emptyObject.md ***
 
 Testing for an **empty object** can be done in multiple ways in JavaScript, depending on the ECMAScript version you're targeting. Each approach has its nuances, and here are the most common solutions:
 

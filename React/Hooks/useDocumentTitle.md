@@ -1,4 +1,4 @@
-*** copy useDocumentTitle.md ***
+***  useDocumentTitle.md ***
 
 Here is a production-ready `useDocumentTitle` React hook that updates the browser page title and optionally restores the previous title when the component unmounts or changes.
 

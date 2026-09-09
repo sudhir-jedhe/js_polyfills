@@ -1,4 +1,4 @@
-*** copy promise.finally.md ***
+***  promise.finally.md ***
 
 // This is a JavaScript Quiz from BFE.dev
 ```js

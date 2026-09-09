@@ -1,4 +1,4 @@
-*** copy reverse-a-doubly-linked-list.md ***
+***  reverse-a-doubly-linked-list.md ***
 
 ```js
 Input:

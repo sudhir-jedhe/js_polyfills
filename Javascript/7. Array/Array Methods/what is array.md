@@ -1,4 +1,4 @@
-*** copy what is array.md ***
+***  what is array.md ***
 
 Here is a complete, structured overview of the JavaScript `Array` global object.
 

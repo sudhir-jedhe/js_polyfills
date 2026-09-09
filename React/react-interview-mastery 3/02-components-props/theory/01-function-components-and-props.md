@@ -1,4 +1,4 @@
-*** copy 01-function-components-and-props.md ***
+***  01-function-components-and-props.md ***
 
 # Function Components and Props
 

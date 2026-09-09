@@ -1,4 +1,4 @@
-*** copy How do I implement Push Notifications using the Web Push API and a Service Worker in React?.md ***
+***  How do I implement Push Notifications using the Web Push API and a Service Worker in React?.md ***
 
 Implementing Web Push Notifications involves three stages:
 

@@ -1,4 +1,4 @@
-*** copy reorder-array-with-new-indexes.md ***
+***  reorder-array-with-new-indexes.md ***
 
 Your goal is to reorder the array `A` based on the indices provided by array `B`. Here’s a breakdown of the three approaches you presented:
 

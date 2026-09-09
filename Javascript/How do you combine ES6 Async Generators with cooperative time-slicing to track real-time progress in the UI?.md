@@ -1,4 +1,4 @@
-*** copy How do you combine ES6 Async Generators with cooperative time-slicing to track real-time progress in the UI?.md ***
+***  How do you combine ES6 Async Generators with cooperative time-slicing to track real-time progress in the UI?.md ***
 
 How do you combine ES6 Async Generators with cooperative time-slicing to track real-time progress in the UI?
 

@@ -1,4 +1,4 @@
-*** copy multi-user polling.md ***
+***  multi-user polling.md ***
 
 A complete, real-time multi-user polling application featuring a lightweight **Node.js + WebSockets** backend and a **React** client with live voting percentages, progress bars, and duplicate vote prevention.
 

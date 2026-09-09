@@ -1,4 +1,4 @@
-*** copy 01-useeffect-mechanics-and-timing.md ***
+***  01-useeffect-mechanics-and-timing.md ***
 
 # `useEffect` Mechanics and Timing
 

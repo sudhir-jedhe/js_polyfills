@@ -1,4 +1,4 @@
-*** copy Show code examples of JavaScript layout thrashing and how to fix them using requestAnimationFrame and batching.md ***
+***  Show code examples of JavaScript layout thrashing and how to fix them using requestAnimationFrame and batching.md ***
 
 Layout thrashing occurs when JavaScript repeatedly interleaves **DOM reads** (requesting layout metrics) and **DOM writes** (modifying styles or structure). This forces the browser to recalculate layout synchronously on every iteration instead of waiting to batch changes at the end of the frame.
 

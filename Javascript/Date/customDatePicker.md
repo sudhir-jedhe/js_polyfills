@@ -1,4 +1,4 @@
-*** copy customDatePicker.md ***
+***  customDatePicker.md ***
 
 ```js
 

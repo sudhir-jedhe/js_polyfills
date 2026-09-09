@@ -1,4 +1,4 @@
-*** copy compress-a-string.md ***
+***  compress-a-string.md ***
 
 Let's break down the tasks and solutions you've provided.
 

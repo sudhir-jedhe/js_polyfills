@@ -1,4 +1,4 @@
-*** copy Designing a web-based email client like Gmail.md ***
+***  Designing a web-based email client like Gmail.md ***
 
 Designing a web-based email client like Gmail requires handling **high-volume real-time events**, **instant search/filtering**, **offline-first local persistence**, and **rich layout rendering** (virtualized lists, email thread composition, and complex inline HTML rendering).
 

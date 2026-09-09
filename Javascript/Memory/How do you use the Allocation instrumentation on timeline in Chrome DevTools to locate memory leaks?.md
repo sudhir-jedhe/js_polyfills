@@ -1,4 +1,4 @@
-*** copy How do you use the Allocation instrumentation on timeline in Chrome DevTools to locate memory leaks?.md ***
+***  How do you use the Allocation instrumentation on timeline in Chrome DevTools to locate memory leaks?.md ***
 
 **Allocation instrumentation on timeline** (also called the Allocation Timeline) provides a real-time recording of memory allocations as vertical bar spikes on a timeline. It lets you isolate the exact moment and JavaScript line number responsible for uncollected memory.
 

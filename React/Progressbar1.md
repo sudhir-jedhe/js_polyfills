@@ -1,4 +1,4 @@
-*** copy Progressbar1.md ***
+***  Progressbar1.md ***
 
 An accessible, customizable React Progress Bar component built with ARIA attributes (`role="progressbar"`), animated transitions, and auto-clamping values.
 

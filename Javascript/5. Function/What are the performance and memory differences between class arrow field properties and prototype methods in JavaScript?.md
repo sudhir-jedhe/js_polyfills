@@ -1,4 +1,4 @@
-*** copy What are the performance and memory differences between class arrow field properties and prototype methods in JavaScript?.md ***
+***  What are the performance and memory differences between class arrow field properties and prototype methods in JavaScript?.md ***
 
 The difference between **class arrow field properties** (class fields initialized with arrow functions) and standard **prototype methods** comes down to where the function is allocated in memory: **on every single instance** vs. **once on the shared prototype object**.
 

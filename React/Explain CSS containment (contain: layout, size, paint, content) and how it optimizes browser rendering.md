@@ -1,4 +1,4 @@
-*** copy Explain CSS containment (contain: layout, size, paint, content) and how it optimizes browser rendering.md ***
+***  Explain CSS containment (contain: layout, size, paint, content) and how it optimizes browser rendering.md ***
 
 **CSS Containment** allows developers to explicitly tell the browser engine: *"Treat this subtree as an isolated island from the rest of the document."*
 

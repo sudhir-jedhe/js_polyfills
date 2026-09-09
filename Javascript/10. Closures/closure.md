@@ -1,4 +1,4 @@
-*** copy closure.md ***
+***  closure.md ***
 
 If you're asking:
 

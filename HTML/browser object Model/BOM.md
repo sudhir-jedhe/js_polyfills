@@ -1,4 +1,4 @@
-*** copy BOM.md ***
+***  BOM.md ***
 
 ### **What is BOM (Browser Object Model)?**
 

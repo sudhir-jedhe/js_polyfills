@@ -1,4 +1,4 @@
-*** copy JWT Authentication Flow .md ***
+***  JWT Authentication Flow .md ***
 
 JWT (JSON Web Token) is one of the most widely used authentication mechanisms in modern web applications. Here’s how it works:
 

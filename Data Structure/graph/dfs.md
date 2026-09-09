@@ -1,4 +1,4 @@
-*** copy dfs.md ***
+***  dfs.md ***
 
 // JavaScript program to print DFS
 // traversal from a given

@@ -1,4 +1,4 @@
-*** copy Explain why arrow functions ignore call, apply, and bind method context bindings.md ***
+***  Explain why arrow functions ignore call, apply, and bind method context bindings.md ***
 
 Arrow functions ignore `call()`, `apply()`, and `bind()` context bindings because they **do not have their own `this` binding**.
 

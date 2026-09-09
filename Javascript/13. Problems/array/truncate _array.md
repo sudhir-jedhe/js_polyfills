@@ -1,4 +1,4 @@
-*** copy truncate _array.md ***
+***  truncate _array.md ***
 
 ```js
 const num = [1, 2, 3, 4, 5, 6];

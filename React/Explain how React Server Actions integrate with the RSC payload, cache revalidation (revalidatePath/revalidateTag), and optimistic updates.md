@@ -1,4 +1,4 @@
-*** copy revalidateTag), and optimistic updates.md ***
+***  revalidateTag), and optimistic updates.md ***
 
 React Server Actions, the RSC wire format, cache revalidation, and optimistic updates work together as a single unified mutation lifecycle. Instead of the classic multi-step pattern—*trigger API $\rightarrow$ parse JSON $\rightarrow$ invalidate client store $\rightarrow$ trigger re-fetch*—React coordinates mutations and UI updates in a **single network roundtrip**.
 

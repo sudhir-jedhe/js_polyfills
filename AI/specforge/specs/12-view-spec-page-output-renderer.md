@@ -1,4 +1,4 @@
-*** copy 12-view-spec-page-output-renderer.md ***
+***  12-view-spec-page-output-renderer.md ***
 
 # Spec 12 — View Spec Page and Output Renderer
 

@@ -1,4 +1,4 @@
-*** copy 03-multiple-nav-regions.md ***
+***  03-multiple-nav-regions.md ***
 
 # Snippet: Multiple `<nav>` Regions on One Page
 

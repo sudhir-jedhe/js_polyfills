@@ -1,4 +1,4 @@
-*** copy 07-missing-return-in-map.md ***
+***  07-missing-return-in-map.md ***
 
 # Output-Based: `.map()` with a block-body arrow and no `return`
 

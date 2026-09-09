@@ -1,4 +1,4 @@
-*** copy http headers.md ***
+***  http headers.md ***
 
 **HTTP Headers** are the core metadata components of HTTP requests and responses. They act as key-value pairs transmitted between a client (like a browser or mobile app) and a server, carrying crucial instructions about authentication, caching, data formats, security, and connection behavior.
 

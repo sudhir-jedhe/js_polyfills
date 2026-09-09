@@ -1,4 +1,4 @@
-*** copy filter-elements-from-array.md ***
+***  filter-elements-from-array.md ***
 
 The solution you provided for the problem of filtering elements from an array without using the built-in `Array.filter()` method looks solid! Let's break down the code and explain it in detail.
 

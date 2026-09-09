@@ -1,4 +1,4 @@
-*** copy format-license-key.md ***
+***  format-license-key.md ***
 
 ```js
 // Input: str = "dsf354g4dsg1";

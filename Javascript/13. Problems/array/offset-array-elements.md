@@ -1,4 +1,4 @@
-*** copy offset-array-elements.md ***
+***  offset-array-elements.md ***
 
 ```js
 Offset array elements

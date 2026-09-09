@@ -1,4 +1,4 @@
-*** copy Explain CORS preflight (OPTIONS) requests, simple vs non-simple requests, and security headers.md ***
+***  Explain CORS preflight (OPTIONS) requests, simple vs non-simple requests, and security headers.md ***
 
 **Cross-Origin Resource Sharing (CORS)** is a browser enforcement mechanism that dictates how web applications running at one origin (e.g., `[https://app.example.com](https://app.example.com)`) can interact with resources on a different origin (e.g., `[https://api.external.com](https://api.external.com)`).
 

@@ -1,4 +1,4 @@
-*** copy useUrlState.md ***
+***  useUrlState.md ***
 
 Creating a custom hook like `useUrlState()` simplifies reading and updating query parameters by providing an API similar to standard `useState`, but bound directly to React Router’s `useSearchParams`.
 

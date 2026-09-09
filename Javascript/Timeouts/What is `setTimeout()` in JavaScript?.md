@@ -1,4 +1,4 @@
-*** copy What is `setTimeout()` in JavaScript?.md ***
+***  What is `setTimeout()` in JavaScript?.md ***
 
 ### 2. What is `setTimeout()` in JavaScript?
 

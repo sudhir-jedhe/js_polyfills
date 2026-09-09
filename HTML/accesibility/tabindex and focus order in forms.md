@@ -1,4 +1,4 @@
-*** copy tabindex and focus order in forms.md ***
+***  tabindex and focus order in forms.md ***
 
 In web development, **`tabindex`** and **focus order** are essential for ensuring that users can navigate through a web page or application effectively, particularly for those using keyboards, screen readers, or other assistive technologies. Properly managing focus order and using the `tabindex` attribute can significantly enhance the accessibility and usability of forms and popups.
 

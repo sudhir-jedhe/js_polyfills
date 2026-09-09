@@ -1,4 +1,4 @@
-*** copy class vs function.md ***
+***  class vs function.md ***
 
 In JavaScript, **ES6 Classes are syntactic sugar over traditional constructor functions and prototype-based inheritance**.
 

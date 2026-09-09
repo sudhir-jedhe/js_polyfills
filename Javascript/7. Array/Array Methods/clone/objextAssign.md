@@ -1,4 +1,4 @@
-*** copy objextAssign.md ***
+***  objextAssign.md ***
 
 ## Clone Object Using `Object.assign()`
 

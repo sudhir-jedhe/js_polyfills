@@ -1,4 +1,4 @@
-*** copy gerneratorFunction.md ***
+***  gerneratorFunction.md ***
 
 ```js
 

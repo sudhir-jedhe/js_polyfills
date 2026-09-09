@@ -1,4 +1,4 @@
-*** copy Where Should You Store JWTs?.md ***
+***  Where Should You Store JWTs?.md ***
 
 Here is a recreated, polished, and structured summary of the JWT storage breakdown.
 

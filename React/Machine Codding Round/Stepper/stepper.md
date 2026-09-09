@@ -1,4 +1,4 @@
-*** copy stepper.md ***
+***  stepper.md ***
 
 Below is a complete config-driven React Router stepper implementation with:
 

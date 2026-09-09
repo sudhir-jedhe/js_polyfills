@@ -1,4 +1,4 @@
-*** copy Credit card validation.md ***
+***  Credit card validation.md ***
 
 The code provided implements a series of functions to validate a credit card number and determine its type based on common card identifiers and formats. It does this by:
 

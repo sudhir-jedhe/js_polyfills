@@ -1,4 +1,4 @@
-*** copy 06-template-literals.md ***
+***  06-template-literals.md ***
 
 # Template Literals
 

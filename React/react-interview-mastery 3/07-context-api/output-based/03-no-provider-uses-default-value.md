@@ -1,4 +1,4 @@
-*** copy 03-no-provider-uses-default-value.md ***
+***  03-no-provider-uses-default-value.md ***
 
 # Output-Based: `useContext` with no Provider above
 

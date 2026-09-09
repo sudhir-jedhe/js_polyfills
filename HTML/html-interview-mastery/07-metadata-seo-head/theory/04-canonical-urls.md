@@ -1,4 +1,4 @@
-*** copy 04-canonical-urls.md ***
+***  04-canonical-urls.md ***
 
 # Canonical URLs
 

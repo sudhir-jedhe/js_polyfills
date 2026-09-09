@@ -1,4 +1,4 @@
-*** copy  What is the useId hook in React and when should it be used?.md ***
+***   What is the useId hook in React and when should it be used?.md ***
 
 **What is the useId hook in React and when should it be used?**
 **Introduction to useId**

@@ -1,4 +1,4 @@
-*** copy what is HTTP.md ***
+***  what is HTTP.md ***
 
 **What is HTTP?**
 HTTP stands for HyperText Transfer Protocol. It is a protocol used for transferring hypertext (or web content) over the internet. HTTP defines the rules and conventions for how web browsers and web servers communicate with each other to request and deliver resources such as web pages, images, videos, files, and data.

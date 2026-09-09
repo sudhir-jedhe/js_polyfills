@@ -1,4 +1,4 @@
-*** copy React Lifecycle Methods in Class Components vs Function Components.md ***
+***  React Lifecycle Methods in Class Components vs Function Components.md ***
 
 ### React Lifecycle Methods in **Class Components** vs **Function Components**
 
@@ -127,14 +127,14 @@ export default MyComponent;
 
 ### **Comparison Between Class Component and Function Component Lifecycle**
 
-| **Lifecycle Method**          | **Class Component**                  | **Function Component** (Hooks)             |
-|------------------------------|---------------------------------------|-------------------------------------------|
-| **Initial Mount**             | `componentDidMount()`                 | `useEffect(() => {...}, [])`              |
-| **State/Props Update**        | `componentDidUpdate()`                | `useEffect(() => {...}, [dependencies])`  |
-| **Unloading (Cleanup)**       | `componentWillUnmount()`              | `useEffect(() => { return () => {...} })` |
-| **Side Effects**              | `componentDidMount()`, `componentDidUpdate()` | `useEffect()`                            |
-| **Render Method**             | `render()`                            | Return JSX directly                      |
-| **Error Boundaries**          | `componentDidCatch()`                 | `ErrorBoundary` HOC (Higher-Order Component) |
+| **Lifecycle Method**    | **Class Component**                           | **Function Component** (Hooks)               |
+| ----------------------- | --------------------------------------------- | -------------------------------------------- |
+| **Initial Mount**       | `componentDidMount()`                         | `useEffect(() => {...}, [])`                 |
+| **State/Props Update**  | `componentDidUpdate()`                        | `useEffect(() => {...}, [dependencies])`     |
+| **Unloading (Cleanup)** | `componentWillUnmount()`                      | `useEffect(() => { return () => {...} })`    |
+| **Side Effects**        | `componentDidMount()`, `componentDidUpdate()` | `useEffect()`                                |
+| **Render Method**       | `render()`                                    | Return JSX directly                          |
+| **Error Boundaries**    | `componentDidCatch()`                         | `ErrorBoundary` HOC (Higher-Order Component) |
 
 ---
 

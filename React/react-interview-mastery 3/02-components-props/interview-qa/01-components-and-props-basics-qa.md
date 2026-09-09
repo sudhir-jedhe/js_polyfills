@@ -1,4 +1,4 @@
-*** copy 01-components-and-props-basics-qa.md ***
+***  01-components-and-props-basics-qa.md ***
 
 # Interview Q&A — Components and Props Basics
 

@@ -1,4 +1,4 @@
-*** copy FID.md ***
+***  FID.md ***
 
 **First Input Delay (FID)** is a legacy Core Web Vitals metric that measures page responsiveness and interactivity. It tracks the time from when a user **first interacts** with a page (e.g., clicks a link, taps a button, or uses a custom control) to the time when the browser is actually able to begin processing the event handlers in response to that interaction.
 

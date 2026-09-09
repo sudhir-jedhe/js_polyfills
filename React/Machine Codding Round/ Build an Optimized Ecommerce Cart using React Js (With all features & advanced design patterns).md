@@ -1,4 +1,4 @@
-*** copy  Build an Optimized Ecommerce Cart using React Js (With all features & advanced design patterns).md ***
+***   Build an Optimized Ecommerce Cart using React Js (With all features & advanced design patterns).md ***
 
 An enterprise-grade, optimized E-Commerce Cart implementation utilizing **`useReducer` + Context**, **Local Storage Persistence**, a **Compound Component Sliding Drawer UI**, memoized selectors, and coupon validation.
 

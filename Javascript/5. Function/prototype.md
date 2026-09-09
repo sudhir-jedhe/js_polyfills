@@ -1,4 +1,4 @@
-*** copy prototype.md ***
+***  prototype.md ***
 
 ### Question 1: `console.log(f.prototype);`
 

@@ -1,4 +1,4 @@
-*** copy filterBy.md ***
+***  filterBy.md ***
 
 Here's an updated version of the `filterBy` function with additional enhancements for more flexible and complex filtering logic. This allows you to filter by properties, handle case-insensitive matches, or even support inequality filters (like greater than or less than).
 

@@ -1,4 +1,4 @@
-*** copy Production-Ready RESTful API: Node.js, Express, Postgres (pg), & JWT Authentication.md ***
+***  Production-Ready RESTful API: Node.js, Express, Postgres (pg), & JWT Authentication.md ***
 
 ### Production-Ready RESTful API: Node.js, Express, Postgres (pg), & JWT Authentication
 

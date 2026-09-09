@@ -1,4 +1,4 @@
-*** copy index.md ***
+***  index.md ***
 
 To implement your own **Immutability Helper** with the required features (`$push`, `$set`, `$merge`, `$apply`), we can create a function called `update` that can handle these operations. The idea is to return a new object or array with the modifications applied, following the principles of immutability, which is commonly used in libraries like React for state management.
 

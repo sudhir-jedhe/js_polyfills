@@ -1,4 +1,4 @@
-*** copy 02-field-validation-on-blur.md ***
+***  02-field-validation-on-blur.md ***
 
 # Problem: Client-side validation with per-field error messages on blur
 

@@ -1,4 +1,4 @@
-*** copy 05-spec-create-async-generation.md ***
+***  05-spec-create-async-generation.md ***
 
 Use @specs/05-spec-create-async-generation.md as the source of truth.
 

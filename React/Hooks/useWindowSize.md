@@ -1,4 +1,4 @@
-*** copy useWindowSize.md ***
+***  useWindowSize.md ***
 
 Here is a performance-optimized, SSR-safe `useWindowSize` hook that handles high-frequency resize events efficiently using `requestAnimationFrame`.
 

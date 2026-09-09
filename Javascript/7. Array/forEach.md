@@ -1,4 +1,4 @@
-*** copy forEach.md ***
+***  forEach.md ***
 
 ### Custom `forEach` Implementation and Example Usage
 

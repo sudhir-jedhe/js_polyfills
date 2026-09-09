@@ -1,4 +1,4 @@
-*** copy index.md ***
+***  index.md ***
 
 // Implement a function that performs a recursive merge sort. The function should be recursive and takes in an array of integers. The output should be an array with the input sorted in ascending order.
 

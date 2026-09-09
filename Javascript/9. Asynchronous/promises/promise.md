@@ -1,4 +1,4 @@
-*** copy promise.md ***
+***  promise.md ***
 
 // Promises in JavaScript allow you to execute non-blocking (asynchronous) code and produces a value if the operation is successful or throws an error when the process fails.
 

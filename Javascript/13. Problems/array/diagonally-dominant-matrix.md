@@ -1,4 +1,4 @@
-*** copy diagonally-dominant-matrix.md ***
+***  diagonally-dominant-matrix.md ***
 
 ```js
 // Input : A = { { 3, -2, 1 },

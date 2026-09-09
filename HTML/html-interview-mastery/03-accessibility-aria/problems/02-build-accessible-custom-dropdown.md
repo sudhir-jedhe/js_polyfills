@@ -1,4 +1,4 @@
-*** copy 02-build-accessible-custom-dropdown.md ***
+***  02-build-accessible-custom-dropdown.md ***
 
 # Problem: Build an Accessible Custom Dropdown (Listbox Pattern) from Scratch
 

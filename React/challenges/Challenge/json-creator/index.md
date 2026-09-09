@@ -1,4 +1,4 @@
-*** copy index.md ***
+***  index.md ***
 
 const jsonHolder = document.getElementById('json-holder');
 const jsonTemplate = document.querySelector('.json-template');

@@ -1,4 +1,4 @@
-*** copy check-number-is-in-given-range.md ***
+***  check-number-is-in-given-range.md ***
 
 This code demonstrates the use of the **`Array.prototype.filter`** method with a custom callback function (`isInRange`) that uses a context object (`range`) passed as the second argument to `filter`.
 

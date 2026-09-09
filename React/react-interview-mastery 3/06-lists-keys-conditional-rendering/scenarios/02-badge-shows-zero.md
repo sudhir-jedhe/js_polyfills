@@ -1,4 +1,4 @@
-*** copy 02-badge-shows-zero.md ***
+***  02-badge-shows-zero.md ***
 
 # Scenario: Product list badge shows "0" for out-of-stock items
 

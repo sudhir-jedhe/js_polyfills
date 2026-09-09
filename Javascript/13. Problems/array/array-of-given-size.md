@@ -1,4 +1,4 @@
-*** copy array-of-given-size.md ***
+***  array-of-given-size.md ***
 
 ```js
 let arr = new Array(5);

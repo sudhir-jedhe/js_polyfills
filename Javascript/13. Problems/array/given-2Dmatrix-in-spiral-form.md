@@ -1,4 +1,4 @@
-*** copy given-2Dmatrix-in-spiral-form.md ***
+***  given-2Dmatrix-in-spiral-form.md ***
 
 ```js
 // Input: matrix = [[1, 2, 3],

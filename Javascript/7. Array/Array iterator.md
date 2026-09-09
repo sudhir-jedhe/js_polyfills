@@ -1,4 +1,4 @@
-*** copy Array iterator.md ***
+***  Array iterator.md ***
 
 Here is the code you provided, formatted in Markdown along with an explanation:
 Question: "What is an iterator in JavaScript, and how does the iterator protocol work?"

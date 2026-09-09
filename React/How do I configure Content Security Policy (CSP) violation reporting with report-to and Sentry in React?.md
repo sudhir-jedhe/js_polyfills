@@ -1,4 +1,4 @@
-*** copy How do I configure Content Security Policy (CSP) violation reporting with report-to and Sentry in React?.md ***
+***  How do I configure Content Security Policy (CSP) violation reporting with report-to and Sentry in React?.md ***
 
 To monitor and capture CSP violations using Sentry, you need to configure your web server to deliver both the **Reporting API** headers (`Report-To` / `Reporting-Endpoints`) and your **CSP Header** containing the `report-to` and `report-uri` directives pointing to your Sentry DSN endpoint.
 

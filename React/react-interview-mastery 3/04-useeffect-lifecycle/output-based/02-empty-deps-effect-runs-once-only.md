@@ -1,4 +1,4 @@
-*** copy 02-empty-deps-effect-runs-once-only.md ***
+***  02-empty-deps-effect-runs-once-only.md ***
 
 # What Logs When the Count Button Is Clicked, Using This Effect?
 

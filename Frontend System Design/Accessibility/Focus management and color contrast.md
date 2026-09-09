@@ -1,4 +1,4 @@
-*** copy Focus management and color contrast.md ***
+***  Focus management and color contrast.md ***
 
 Focus management and color contrast are fundamental pillars of front-end architecture. Together, they dictate whether an application is usable by everyone—including people who rely on screen readers, keyboard-only navigation, switch devices, or have low vision or color vision deficiencies.
 

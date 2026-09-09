@@ -1,4 +1,4 @@
-*** copy Explore dynamic color themes with CSS variables and CVA.md ***
+***  Explore dynamic color themes with CSS variables and CVA.md ***
 
 Dynamic color themes work best when you decouple **color values** (managed at runtime via CSS custom properties) from **component structure and variants** (managed via `class-variance-authority`).
 

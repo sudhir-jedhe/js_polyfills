@@ -1,4 +1,4 @@
-*** copy 05-seo-audit-heading-structure-fix.md ***
+***  05-seo-audit-heading-structure-fix.md ***
 
 # Scenario: SEO Audit Flags Broken Heading Structure
 

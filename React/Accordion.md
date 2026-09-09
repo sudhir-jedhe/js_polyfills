@@ -1,4 +1,4 @@
-*** copy Accordion.md ***
+***  Accordion.md ***
 
 ```js
 import React from "react";

@@ -1,4 +1,4 @@
-*** copy 01-basic-list-with-stable-key.md ***
+***  01-basic-list-with-stable-key.md ***
 
 # Snippet: Basic list rendering with a stable key
 

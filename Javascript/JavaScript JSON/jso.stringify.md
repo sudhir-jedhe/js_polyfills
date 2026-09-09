@@ -1,4 +1,4 @@
-*** copy jso.stringify.md ***
+***  jso.stringify.md ***
 
 Here’s a detailed breakdown of the JavaScript code snippets and their outputs:
 

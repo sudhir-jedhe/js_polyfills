@@ -1,4 +1,4 @@
-*** copy 02-dependency-array-semantics.md ***
+***  02-dependency-array-semantics.md ***
 
 # The Dependency Array Controls When It Re-Runs
 

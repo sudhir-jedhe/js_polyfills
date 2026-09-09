@@ -1,4 +1,4 @@
-*** copy ImageZoom.md ***
+***  ImageZoom.md ***
 
 import React, { useRef } from "react";
 import PropTypes from "prop-types";

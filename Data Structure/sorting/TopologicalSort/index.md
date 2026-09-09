@@ -1,4 +1,4 @@
-*** copy index.md ***
+***  index.md ***
 
 // Implement a function that performs a topological sort on a directed graph (in
 // adjacency list format), where the keys represent nodes and values are an

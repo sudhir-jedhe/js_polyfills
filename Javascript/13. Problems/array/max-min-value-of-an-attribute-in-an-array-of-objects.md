@@ -1,4 +1,4 @@
-*** copy max-min-value-of-an-attribute-in-an-array-of-objects.md ***
+***  max-min-value-of-an-attribute-in-an-array-of-objects.md ***
 
 ```js
 let Arr = [

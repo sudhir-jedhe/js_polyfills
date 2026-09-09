@@ -1,4 +1,4 @@
-*** copy AccesibleModal.md ***
+***  AccesibleModal.md ***
 
 # Accessible Modal Dialog with Keyboard Interactions (React)
 

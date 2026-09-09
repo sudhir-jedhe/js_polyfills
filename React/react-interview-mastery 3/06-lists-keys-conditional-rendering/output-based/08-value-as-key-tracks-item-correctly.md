@@ -1,4 +1,4 @@
-*** copy 08-value-as-key-tracks-item-correctly.md ***
+***  08-value-as-key-tracks-item-correctly.md ***
 
 # Output-Based: Keying by the value itself during a sort
 

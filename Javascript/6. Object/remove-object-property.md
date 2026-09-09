@@ -1,4 +1,4 @@
-*** copy remove-object-property.md ***
+***  remove-object-property.md ***
 
 ### Explanation of Methods to Remove Properties from an Object
 

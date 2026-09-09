@@ -1,4 +1,4 @@
-*** copy E2E Playwright.md ***
+***  E2E Playwright.md ***
 
 Here is how to set up and write a production-grade **End-to-End (E2E)** test for the `LoginForm` component using **Playwright**.
 

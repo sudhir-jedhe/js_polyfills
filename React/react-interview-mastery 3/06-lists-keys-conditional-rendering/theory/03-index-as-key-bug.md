@@ -1,4 +1,4 @@
-*** copy 03-index-as-key-bug.md ***
+***  03-index-as-key-bug.md ***
 
 # The index-as-key bug, concretely
 

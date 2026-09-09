@@ -1,4 +1,4 @@
-*** copy 03-reparsing-localstorage-blob-every-keystroke.md ***
+***  03-reparsing-localstorage-blob-every-keystroke.md ***
 
 # Search Page Re-Parses a Huge JSON Blob From `localStorage` on Every Keystroke, Causing Lag
 

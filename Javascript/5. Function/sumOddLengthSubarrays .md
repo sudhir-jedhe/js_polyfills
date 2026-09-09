@@ -1,4 +1,4 @@
-*** copy sumOddLengthSubarrays .md ***
+***  sumOddLengthSubarrays .md ***
 
 The problem you're trying to solve is calculating the sum of all subarrays of odd lengths in an array. The function `sumOddLengthSubarrays` is intended to accomplish this task, but there are a few issues in the current implementation that need to be addressed.
 

@@ -1,4 +1,4 @@
-*** copy How can requestAnimationFrame be integrated into ResizeObserver hooks to prevent the 'ResizeObserver loop completed with undelivered notifications' error?.md ***
+***  How can requestAnimationFrame be integrated into ResizeObserver hooks to prevent the 'ResizeObserver loop completed with undelivered notifications' error?.md ***
 
 The error **`ResizeObserver loop completed with undelivered notifications`** (or `ResizeObserver loop limit exceeded`) occurs when a `ResizeObserver` callback triggers a layout mutation (like updating React state that changes DOM dimensions) within the **same animation frame/layout pass**.
 

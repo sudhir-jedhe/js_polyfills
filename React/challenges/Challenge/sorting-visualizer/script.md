@@ -1,4 +1,4 @@
-*** copy script.md ***
+***  script.md ***
 
 const generateBtn = document.getElementById('generate');
 const playBtn = document.getElementById('play');

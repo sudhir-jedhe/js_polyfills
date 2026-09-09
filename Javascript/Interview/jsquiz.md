@@ -1,4 +1,4 @@
-*** copy jsquiz.md ***
+***  jsquiz.md ***
 
 https://jsquiz.vercel.app/
 

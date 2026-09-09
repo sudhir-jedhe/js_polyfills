@@ -1,4 +1,4 @@
-*** copy descendingOrder.md ***
+***  descendingOrder.md ***
 
 Your implementation of the `descendingOrder` function looks good! It correctly checks the input, constructs a descending sequence, and returns it. However, I’ll provide an improved version that simplifies the logic a bit, including handling edge cases more elegantly, such as non-positive integers and invalid inputs.
 

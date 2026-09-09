@@ -1,4 +1,4 @@
-*** copy removeValues.md ***
+***  removeValues.md ***
 
 ```js
 const arr1 = [1, 2, 3, 4, 5];

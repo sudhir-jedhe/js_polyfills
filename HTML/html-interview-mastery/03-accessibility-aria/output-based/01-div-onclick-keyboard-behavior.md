@@ -1,4 +1,4 @@
-*** copy 01-div-onclick-keyboard-behavior.md ***
+***  01-div-onclick-keyboard-behavior.md ***
 
 # Output: `<div onclick>` and Keyboard Behavior
 

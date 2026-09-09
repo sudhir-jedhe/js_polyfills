@@ -1,4 +1,4 @@
-*** copy What is real dom versus virtual dom in front end system design?.md ***
+***  What is real dom versus virtual dom in front end system design?.md ***
 
 In front-end system design, the **Real DOM (Document Object Model)** and the **Virtual DOM (VDOM)** represent two fundamentally different approaches to managing, updating, and rendering user interfaces in web applications.
 

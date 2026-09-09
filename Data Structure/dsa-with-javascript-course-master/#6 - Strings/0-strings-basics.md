@@ -1,4 +1,4 @@
-*** copy 0-strings-basics.md ***
+***  0-strings-basics.md ***
 
 // Strings in Javascript
 

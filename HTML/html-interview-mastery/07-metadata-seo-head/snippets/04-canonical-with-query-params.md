@@ -1,4 +1,4 @@
-*** copy 04-canonical-with-query-params.md ***
+***  04-canonical-with-query-params.md ***
 
 # Snippet: Canonical Tag Consolidating URL Parameter Variants
 

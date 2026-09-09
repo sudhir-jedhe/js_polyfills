@@ -1,4 +1,4 @@
-*** copy import.md ***
+***  import.md ***
 
 Yes, you're correct! In JavaScript, **dynamic imports** are a feature that allows you to load modules asynchronously using the `import()` function. This function returns a **Promise**, and you can use the `await` keyword to resolve that promise in an asynchronous function.
 

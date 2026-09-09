@@ -1,4 +1,4 @@
-*** copy runLengthEncoding.md ***
+***  runLengthEncoding.md ***
 
 // Character Counts
 // Given a string of alphabets (from a to z), Print the count of the character appearing in the string right next to it. This is also called Run Length Encoding.

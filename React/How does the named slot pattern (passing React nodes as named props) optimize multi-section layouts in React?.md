@@ -1,4 +1,4 @@
-*** copy How does the named slot pattern (passing React nodes as named props) optimize multi-section layouts in React?.md ***
+***  How does the named slot pattern (passing React nodes as named props) optimize multi-section layouts in React?.md ***
 
 The **Named Slot Pattern** is an extension of the `children` composition pattern for layouts with multiple independent insertion zones (e.g., `header`, `sidebar`, `content`, `footer`).
 

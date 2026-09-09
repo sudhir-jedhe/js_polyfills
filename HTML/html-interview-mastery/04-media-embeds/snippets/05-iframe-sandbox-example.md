@@ -1,4 +1,4 @@
-*** copy 05-iframe-sandbox-example.md ***
+***  05-iframe-sandbox-example.md ***
 
 # Snippet: Sandboxed `<iframe>` Embed
 

@@ -1,4 +1,4 @@
-*** copy lastIndexOf.md ***
+***  lastIndexOf.md ***
 
 ### Custom `lastIndexOf` Method Implementation
 

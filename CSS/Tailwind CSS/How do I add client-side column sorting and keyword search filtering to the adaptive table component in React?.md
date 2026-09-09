@@ -1,4 +1,4 @@
-*** copy How do I add client-side column sorting and keyword search filtering to the adaptive table component in React?.md ***
+***  How do I add client-side column sorting and keyword search filtering to the adaptive table component in React?.md ***
 
 To add client-side column sorting and keyword filtering to the adaptive container query table, implement a controlled state pattern with `useMemo` for sorting/filtering calculations, accessible `aria-sort` headers, and a mobile-friendly sort selector when the component collapses into card mode.
 

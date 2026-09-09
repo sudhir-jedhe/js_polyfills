@@ -1,4 +1,4 @@
-*** copy 01-fundamentals-and-rules-of-hooks.md ***
+***  01-fundamentals-and-rules-of-hooks.md ***
 
 # Interview Q&A: Fundamentals and the Rules of Hooks
 

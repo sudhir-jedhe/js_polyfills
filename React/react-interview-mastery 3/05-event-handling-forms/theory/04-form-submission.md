@@ -1,4 +1,4 @@
-*** copy 04-form-submission.md ***
+***  04-form-submission.md ***
 
 # Form submission and `preventDefault`
 

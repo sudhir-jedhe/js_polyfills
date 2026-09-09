@@ -1,4 +1,4 @@
-*** copy 03-null-vs-undefined.md ***
+***  03-null-vs-undefined.md ***
 
 # `null` vs `undefined`
 

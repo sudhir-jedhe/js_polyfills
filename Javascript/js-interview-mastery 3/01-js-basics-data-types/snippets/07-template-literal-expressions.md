@@ -1,4 +1,4 @@
-*** copy 07-template-literal-expressions.md ***
+***  07-template-literal-expressions.md ***
 
 # Template Literals Evaluate Expressions
 

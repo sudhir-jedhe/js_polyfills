@@ -1,4 +1,4 @@
-*** copy Hot Module Replacement (HMR) in React .md ***
+***  Hot Module Replacement (HMR) in React .md ***
 
 Ever wondered how developers make instant updates to their React apps? It’s all thanks to Hot Module Replacement (HMR)! 🔥
 

@@ -1,4 +1,4 @@
-*** copy 06-manual-value-reconstruction-bug.md ***
+***  06-manual-value-reconstruction-bug.md ***
 
 # Output-Based: What breaks when a handler rebuilds the value from stale state instead of `e.target.value`?
 

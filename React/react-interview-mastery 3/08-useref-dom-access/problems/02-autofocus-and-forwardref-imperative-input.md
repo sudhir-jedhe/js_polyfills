@@ -1,4 +1,4 @@
-*** copy 02-autofocus-and-forwardref-imperative-input.md ***
+***  02-autofocus-and-forwardref-imperative-input.md ***
 
 # Problem: Auto-focus-on-mount input, plus a `forwardRef` custom input exposing `.focus()` via `useImperativeHandle`
 

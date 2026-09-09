@@ -1,4 +1,4 @@
-*** copy How do I build a compound component pattern in React with context?.md ***
+***  How do I build a compound component pattern in React with context?.md ***
 
   The **Compound Component Pattern** allows you to create a set of related components that work together to share implicit state while giving the consumer total flexibility over the DOM structure and layout.
 

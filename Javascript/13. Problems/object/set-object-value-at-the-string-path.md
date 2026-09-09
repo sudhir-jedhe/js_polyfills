@@ -1,4 +1,4 @@
-*** copy set-object-value-at-the-string-path.md ***
+***  set-object-value-at-the-string-path.md ***
 
 ```js
 const object = { a: [{ b: { c: 3 } }] };

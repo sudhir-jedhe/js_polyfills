@@ -1,4 +1,4 @@
-*** copy overideSetter.md ***
+***  overideSetter.md ***
 
 Let's break down your code and understand the behavior in JavaScript, especially how getter and setter methods work in classes. I'll explain the flow of execution, the behavior of `getter` and `setter`, and what happens when you override the setter.
 

@@ -1,4 +1,4 @@
-*** copy How do you find Memory Leaks in a Frontend Application?.md ***
+***  How do you find Memory Leaks in a Frontend Application?.md ***
 
 ***How do you find Memory Leaks in a Frontend Application?***
 

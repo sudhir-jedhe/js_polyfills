@@ -1,4 +1,4 @@
-*** copy How does the circular update queue work in useState and useReducer during Fiber rendering?.md ***
+***  How does the circular update queue work in useState and useReducer during Fiber rendering?.md ***
 
 When you call `setState` or `dispatch`, React does not update `hook.memoizedState` immediately. Instead, it appends an **`Update` object** to a **circular singly-linked list** attached to `hook.queue.pending`.
 

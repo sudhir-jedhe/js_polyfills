@@ -1,4 +1,4 @@
-*** copy example.md ***
+***  example.md ***
 
 Thank you for providing this detailed explanation of the `mapSeries` function. I'll create a React component that demonstrates this function, allowing users to interact with it and visualize how it processes tasks sequentially.
 

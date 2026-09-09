@@ -1,4 +1,4 @@
-*** copy globalThis.md ***
+***  globalThis.md ***
 
 The difference between the **Global Environment Record** and the **Global Object (`window` / `globalThis`)** comes down to specification architecture:
 

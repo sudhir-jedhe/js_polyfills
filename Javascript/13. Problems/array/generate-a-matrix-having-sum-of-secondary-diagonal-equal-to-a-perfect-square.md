@@ -1,4 +1,4 @@
-*** copy generate-a-matrix-having-sum-of-secondary-diagonal-equal-to-a-perfect-square.md ***
+***  generate-a-matrix-having-sum-of-secondary-diagonal-equal-to-a-perfect-square.md ***
 
 ```js
 // Input: N = 3

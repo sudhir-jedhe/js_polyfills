@@ -1,4 +1,4 @@
-*** copy using useReducer.md ***
+***  using useReducer.md ***
 
 Here is the refactored **To-Do List** application converted from `useState` to **`useReducer`**. Using `useReducer` keeps all state-transition logic centralized and predictable, making the component cleaner and much easier to scale as your app grows.
 

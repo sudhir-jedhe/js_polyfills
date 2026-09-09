@@ -1,4 +1,4 @@
-*** copy ExcelSheetColumnNumber.md ***
+***  ExcelSheetColumnNumber.md ***
 
 ### Explanation of Both `titleToNumber` Functions
 

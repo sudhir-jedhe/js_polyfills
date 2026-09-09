@@ -1,4 +1,4 @@
-*** copy 4-sliding-window-maximum.md ***
+***  4-sliding-window-maximum.md ***
 
 // Ques 4 : Sliding Window Maximum
 // You are given an array of integers nums, there is a sliding window of size k which is

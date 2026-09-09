@@ -1,4 +1,4 @@
-*** copy quiz.md ***
+***  quiz.md ***
 
 Here's a collection of JavaScript functions implementing each of the tasks:
 

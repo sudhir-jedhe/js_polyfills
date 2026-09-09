@@ -1,4 +1,4 @@
-*** copy merge-two-sorted-arrays-into-a-single-sorted-array.md ***
+***  merge-two-sorted-arrays-into-a-single-sorted-array.md ***
 
 ```js
 // Using concat() and slice() method

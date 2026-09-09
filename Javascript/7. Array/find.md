@@ -1,4 +1,4 @@
-*** copy find.md ***
+***  find.md ***
 
 Your code demonstrates the use of the `find` method and a custom implementation of it via `Array.prototype.customFind`. Here's a breakdown of both approaches:
 

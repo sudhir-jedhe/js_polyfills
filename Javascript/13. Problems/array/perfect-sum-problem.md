@@ -1,4 +1,4 @@
-*** copy perfect-sum-problem.md ***
+***  perfect-sum-problem.md ***
 
 ```js
 // Input: arr[] = {5, 10, 12, 13, 15, 18}, K = 30

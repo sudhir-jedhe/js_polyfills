@@ -1,4 +1,4 @@
-*** copy proxy.md ***
+***  proxy.md ***
 
 ### Explanation and Solution Breakdown
 

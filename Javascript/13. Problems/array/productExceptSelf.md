@@ -1,4 +1,4 @@
-*** copy productExceptSelf.md ***
+***  productExceptSelf.md ***
 
 ```js
 function productExceptSelf(nums) {

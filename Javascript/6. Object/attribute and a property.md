@@ -1,4 +1,4 @@
-*** copy attribute and a property.md ***
+***  attribute and a property.md ***
 
 ### **Difference Between Attributes and Properties in HTML and JavaScript**
 

@@ -1,4 +1,4 @@
-*** copy shiftOperator.md ***
+***  shiftOperator.md ***
 
 ### Explanation of Bitwise Operations
 

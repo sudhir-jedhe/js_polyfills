@@ -1,4 +1,4 @@
-*** copy 01-useinterval-custom-hook.md ***
+***  01-useinterval-custom-hook.md ***
 
 # Problem: Implement a `useInterval(callback, delay)` Custom Hook
 

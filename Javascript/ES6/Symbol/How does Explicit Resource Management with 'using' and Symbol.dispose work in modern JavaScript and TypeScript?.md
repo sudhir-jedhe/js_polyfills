@@ -1,4 +1,4 @@
-*** copy How does Explicit Resource Management with 'using' and Symbol.dispose work in modern JavaScript and TypeScript?.md ***
+***  How does Explicit Resource Management with 'using' and Symbol.dispose work in modern JavaScript and TypeScript?.md ***
 
 **Explicit Resource Management** introduces the `using` and `await using` declarations alongside two well-known symbols—**`Symbol.dispose`** and **`Symbol.asyncDispose`**.
 

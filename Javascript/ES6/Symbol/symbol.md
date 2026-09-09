@@ -1,4 +1,4 @@
-*** copy symbol.md ***
+***  symbol.md ***
 
 Let's walk through the given JavaScript code and understand the output step by step.
 

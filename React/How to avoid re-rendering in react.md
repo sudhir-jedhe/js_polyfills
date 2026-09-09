@@ -1,4 +1,4 @@
-*** copy How to avoid re-rendering in react.md ***
+***  How to avoid re-rendering in react.md ***
 
 Preventing unnecessary re-renders in React is crucial for optimizing the performance of your application, especially as it grows larger. React re-renders components whenever their state or props change, but sometimes these re-renders are unnecessary and can degrade performance. Here are some common strategies to prevent or optimize re-renders in React:
 

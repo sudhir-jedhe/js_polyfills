@@ -1,4 +1,4 @@
-*** copy update.md ***
+***  update.md ***
 
 Absolutely. In a production-grade design system (Material UI, Ant Design, Adobe Spectrum, Atlassian, etc.), a dropdown should support much more than just `placement`.
 

@@ -1,4 +1,4 @@
-*** copy Why Not To Modify React State Directly.md ***
+***  Why Not To Modify React State Directly.md ***
 
 In React, state must **never be modified directly** (e.g., `state.count = 5` or `todos.push(newItem)`). Instead, you must always use the state-updating functions provided by React (like `setState` or the setter function from `useState`).
 

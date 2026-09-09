@@ -1,4 +1,4 @@
-*** copy Show a comparison between handling form data fetching and mutation in React 18 versus React 19..md ***
+***  Show a comparison between handling form data fetching and mutation in React 18 versus React 19..md ***
 
 Here is a side-by-side comparison of handling asynchronous form mutation, state tracking, and feedback in **React 18** versus **React 19**.
 

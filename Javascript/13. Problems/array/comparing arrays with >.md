@@ -1,4 +1,4 @@
-*** copy comparing arrays with >.md ***
+***  comparing arrays with >.md ***
 
 When comparing arrays with `>` in JavaScript, the behavior depends on whether you compare arrays directly (coercion) or compare their individual elements.
 

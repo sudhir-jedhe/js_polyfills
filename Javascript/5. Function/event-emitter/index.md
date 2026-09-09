@@ -1,4 +1,4 @@
-*** copy index.md ***
+***  index.md ***
 
 // In the observer pattern (also commonly known as the publish-subscribe model), we can observe/subscribe to events emitted by publishers and execute code whenever an event happens.
 

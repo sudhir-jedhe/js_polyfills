@@ -1,4 +1,4 @@
-*** copy How to create an object without a prototype.md ***
+***  How to create an object without a prototype.md ***
 
 Yes, you're absolutely right! In JavaScript, we can create an object with or without a prototype, depending on our use case, using the `Object.create()` method. This is a powerful feature because it gives us the ability to create objects with a custom prototype or no prototype at all.
 

@@ -1,4 +1,4 @@
-*** copy JSONtoHTML.md ***
+***  JSONtoHTML.md ***
 
 Here's the complete code for your `JSONtoHTML` function with some improvements to handle non-array inputs, validation of attributes, and clearer structure:
 

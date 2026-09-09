@@ -1,4 +1,4 @@
-*** copy implementation.md ***
+***  implementation.md ***
 
 ```js
 // myCall implementation

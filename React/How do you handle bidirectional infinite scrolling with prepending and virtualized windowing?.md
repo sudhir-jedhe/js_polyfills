@@ -1,4 +1,4 @@
-*** copy How do you handle bidirectional infinite scrolling with prepending and virtualized windowing?.md ***
+***  How do you handle bidirectional infinite scrolling with prepending and virtualized windowing?.md ***
 
 **Bidirectional infinite scrolling** (common in chat apps like Slack or timeline apps like Twitter) introduces two core engineering challenges:
 

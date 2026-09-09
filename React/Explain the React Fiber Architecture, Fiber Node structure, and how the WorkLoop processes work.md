@@ -1,4 +1,4 @@
-*** copy Explain the React Fiber Architecture, Fiber Node structure, and how the WorkLoop processes work.md ***
+***  Explain the React Fiber Architecture, Fiber Node structure, and how the WorkLoop processes work.md ***
 
 Before React 16, React used the **Stack Reconciler**. It processed updates recursively down the component tree. Once started, a stack reconciliation could not be paused, interrupted, or split across frames. If a tree was deep or complex, rendering could block the browser's main thread for over 16ms, causing dropped frames, choppy animations, and delayed user input responses.
 

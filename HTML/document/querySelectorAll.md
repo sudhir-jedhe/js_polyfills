@@ -1,4 +1,4 @@
-*** copy querySelectorAll.md ***
+***  querySelectorAll.md ***
 
 Your `querySelectorAll` implementation is a simplified version of the native `document.querySelectorAll`, allowing for basic CSS selector matching. It works by recursively traversing the DOM and checking each element for a match based on the selector passed to it.
 

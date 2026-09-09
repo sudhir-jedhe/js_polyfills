@@ -1,4 +1,4 @@
-*** copy 04-chart-reprocesses-on-every-parent-render.md ***
+***  04-chart-reprocesses-on-every-parent-render.md ***
 
 # Scenario: An Expensive Chart Re-Renders on Every Parent Re-Render Despite React.memo
 

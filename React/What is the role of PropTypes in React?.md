@@ -1,4 +1,4 @@
-*** copy What is the role of PropTypes in React?.md ***
+***  What is the role of PropTypes in React?.md ***
 
 **PropTypes** is a runtime type-checking mechanism in React. Its primary role is to verify that the props passed down to a component match the expected data types (such as strings, numbers, arrays, or custom shapes) and to warn developers during development if incorrect data is supplied.
 

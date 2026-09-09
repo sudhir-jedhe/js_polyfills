@@ -1,4 +1,4 @@
-*** copy && or Logical AND operator.md ***
+***  && or Logical AND operator.md ***
 
 You're demonstrating a common and efficient pattern in JavaScript using the **logical AND operator (`&&`)**. Let's break down both the explanation and code you provided to understand how it works and how it can be used effectively.
 

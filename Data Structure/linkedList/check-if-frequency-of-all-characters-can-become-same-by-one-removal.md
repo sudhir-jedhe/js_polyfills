@@ -1,4 +1,4 @@
-*** copy check-if-frequency-of-all-characters-can-become-same-by-one-removal.md ***
+***  check-if-frequency-of-all-characters-can-become-same-by-one-removal.md ***
 
 // Input: str = “xyyz”
 // Output: Yes

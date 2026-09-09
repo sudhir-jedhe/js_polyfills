@@ -1,4 +1,4 @@
-*** copy How do writable, enumerable, and configurable attributes work under the hood in Object.defineProperty?.md ***
+***  How do writable, enumerable, and configurable attributes work under the hood in Object.defineProperty?.md ***
 
 In JavaScript, every object property is backed by an internal record called a **Property Descriptor**. When you define or modify a property using `Object.defineProperty(obj, prop, descriptor)`, the JavaScript engine configures attributes that control mutability, iteration visibility, and metadata locking.
 

@@ -1,4 +1,4 @@
-*** copy customArrayClass.md ***
+***  customArrayClass.md ***
 
 # Custom Array Class
 

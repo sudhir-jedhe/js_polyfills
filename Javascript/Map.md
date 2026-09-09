@@ -1,4 +1,4 @@
-*** copy Map.md ***
+***  Map.md ***
 
 ```js
 let stones = new Map();

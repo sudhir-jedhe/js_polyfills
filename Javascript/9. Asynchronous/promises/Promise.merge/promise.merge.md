@@ -1,4 +1,4 @@
-*** copy promise.merge.md ***
+***  promise.merge.md ***
 
 You have to implement a function called promiseMerge that can take n no. of promises as input.
 

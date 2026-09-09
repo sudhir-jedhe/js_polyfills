@@ -1,4 +1,4 @@
-*** copy stack_class.md ***
+***  stack_class.md ***
 
 // Implement a stack data structure in JavaScript that contains the following operations:
 

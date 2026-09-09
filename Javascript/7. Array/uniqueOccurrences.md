@@ -1,4 +1,4 @@
-*** copy uniqueOccurrences.md ***
+***  uniqueOccurrences.md ***
 
 Here's your code, which checks if the number of occurrences of each element in an array is unique, along with the provided test cases and their explanations.
 

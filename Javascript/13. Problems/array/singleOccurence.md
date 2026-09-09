@@ -1,4 +1,4 @@
-*** copy singleOccurence.md ***
+***  singleOccurence.md ***
 
 ```js
 function findSingle(arr: number[]): number {

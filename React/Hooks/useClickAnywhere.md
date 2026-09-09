@@ -1,4 +1,4 @@
-*** copy useClickAnywhere.md ***
+***  useClickAnywhere.md ***
 
 Here is a production-ready `useClickAnywhere` hook that listens for global pointer clicks (`mousedown` or `pointerdown`) and triggers a callback with the click event.
 

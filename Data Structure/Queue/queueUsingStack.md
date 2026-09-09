@@ -1,4 +1,4 @@
-*** copy queueUsingStack.md ***
+***  queueUsingStack.md ***
 
 const arr = [1, 2, 3, 4];
 

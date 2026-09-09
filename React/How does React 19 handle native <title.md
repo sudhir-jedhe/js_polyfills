@@ -1,4 +1,4 @@
-*** copy How does React 19 handle native <title.md ***
+***  How does React 19 handle native <title.md ***
 
 In React 19, support for **Document Metadata Hoisting** allows you to render `<title>`, `<meta>`, and `<link>` (rel="canonical", rel="icon", etc.) tags directly inside any component in your tree.
 

@@ -1,4 +1,4 @@
-*** copy partial.md ***
+***  partial.md ***
 
 The goal of `_.partial()` is to create a new function that partially applies a given function with some preset arguments, allowing you to provide the remaining arguments later when invoking the function. In addition to this, you can use a placeholder to specify where the later arguments should be inserted.
 

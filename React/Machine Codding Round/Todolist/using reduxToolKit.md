@@ -1,4 +1,4 @@
-*** copy using reduxToolKit.md ***
+***  using reduxToolKit.md ***
 
 Here is the complete **React To-Do List application refactored to use Redux** (specifically `@reduxjs/toolkit` and `react-redux`), complete with authentication (login/logout), task management, and `localStorage` persistence.
 

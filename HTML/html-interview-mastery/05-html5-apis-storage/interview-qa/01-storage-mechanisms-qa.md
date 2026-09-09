@@ -1,4 +1,4 @@
-*** copy 01-storage-mechanisms-qa.md ***
+***  01-storage-mechanisms-qa.md ***
 
 # Interview Q&A — Storage Mechanisms
 

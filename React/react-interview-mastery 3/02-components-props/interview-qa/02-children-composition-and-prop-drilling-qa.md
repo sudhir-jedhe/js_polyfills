@@ -1,4 +1,4 @@
-*** copy 02-children-composition-and-prop-drilling-qa.md ***
+***  02-children-composition-and-prop-drilling-qa.md ***
 
 # Interview Q&A — Children, Composition, and Prop Drilling
 

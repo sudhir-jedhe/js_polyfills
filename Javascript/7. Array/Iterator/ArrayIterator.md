@@ -1,4 +1,4 @@
-*** copy ArrayIterator.md ***
+***  ArrayIterator.md ***
 
 ### JavaScript Iterators
 

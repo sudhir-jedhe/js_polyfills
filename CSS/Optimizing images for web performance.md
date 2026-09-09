@@ -1,4 +1,4 @@
-*** copy Optimizing images for web performance.md ***
+***  Optimizing images for web performance.md ***
 
 Optimizing images for web performance is critical to ensure fast loading times, better user experience, and improved SEO. Large, unoptimized images can slow down a website significantly, leading to increased bounce rates and lower search engine rankings. Here's a detailed guide on how to optimize images for web performance:
 

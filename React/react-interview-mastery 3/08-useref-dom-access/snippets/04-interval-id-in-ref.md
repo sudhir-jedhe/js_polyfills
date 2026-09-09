@@ -1,4 +1,4 @@
-*** copy 04-interval-id-in-ref.md ***
+***  04-interval-id-in-ref.md ***
 
 # Snippet: Storing an interval ID in a ref to clear it from a different handler
 

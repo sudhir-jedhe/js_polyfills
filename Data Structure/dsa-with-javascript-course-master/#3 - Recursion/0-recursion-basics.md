@@ -1,4 +1,4 @@
-*** copy 0-recursion-basics.md ***
+***  0-recursion-basics.md ***
 
 function Piyush() {
   return Rehana();

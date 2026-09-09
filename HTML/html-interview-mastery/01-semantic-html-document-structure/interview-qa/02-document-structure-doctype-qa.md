@@ -1,4 +1,4 @@
-*** copy 02-document-structure-doctype-qa.md ***
+***  02-document-structure-doctype-qa.md ***
 
 # Interview Q&A — Document Structure & DOCTYPE
 

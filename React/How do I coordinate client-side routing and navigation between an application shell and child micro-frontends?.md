@@ -1,4 +1,4 @@
-*** copy How do I coordinate client-side routing and navigation between an application shell and child micro-frontends?.md ***
+***  How do I coordinate client-side routing and navigation between an application shell and child micro-frontends?.md ***
 
 Coordinating client-side routing between a host container (Application Shell) and child Micro-Frontends (MFEs) requires solving two primary problems:
 

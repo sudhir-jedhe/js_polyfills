@@ -1,4 +1,4 @@
-*** copy compare.md ***
+***  compare.md ***
 
 ```js
 const sameStrings = (inputString1, inputString2) => {

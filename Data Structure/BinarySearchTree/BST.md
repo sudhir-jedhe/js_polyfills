@@ -1,4 +1,4 @@
-*** copy BST.md ***
+***  BST.md ***
 
 JavaScript Data Structures - Binary Search Tree
 

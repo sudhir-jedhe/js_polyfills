@@ -1,4 +1,4 @@
-*** copy 03-uselocalstorage.md ***
+***  03-uselocalstorage.md ***
 
 # Snippet: useLocalStorage — State Persisted Across Page Reloads
 

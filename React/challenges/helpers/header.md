@@ -1,4 +1,4 @@
-*** copy header.md ***
+***  header.md ***
 
 import { jsChallenges } from '@fmc/data/content';
 import './navbar.ts';

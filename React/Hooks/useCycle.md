@@ -1,4 +1,4 @@
-*** copy useCycle.md ***
+***  useCycle.md ***
 
 # `useCycle` Custom Hook (React)
 

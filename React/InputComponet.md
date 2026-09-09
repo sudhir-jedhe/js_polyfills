@@ -1,4 +1,4 @@
-*** copy InputComponet.md ***
+***  InputComponet.md ***
 
 import React from "react";
 import PropTypes from "prop-types";

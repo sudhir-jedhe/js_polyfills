@@ -1,4 +1,4 @@
-*** copy Subresource Integrity (SRI).md ***
+***  Subresource Integrity (SRI).md ***
 
 
 **Subresource Integrity (SRI)** is a browser security feature that verifies files fetched from external third-party servers—such as Content Delivery Networks (CDNs)—haven't been altered or tampered with before execution.

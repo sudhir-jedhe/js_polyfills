@@ -1,4 +1,4 @@
-*** copy Bitwise.md ***
+***  Bitwise.md ***
 
 Bitwise operators treat their operands as a sequence of 32 binary bits (zeros and ones) rather than decimal numbers, performing evaluations at the bit level.
 

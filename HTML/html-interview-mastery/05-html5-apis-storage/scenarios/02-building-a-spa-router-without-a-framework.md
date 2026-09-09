@@ -1,4 +1,4 @@
-*** copy 02-building-a-spa-router-without-a-framework.md ***
+***  02-building-a-spa-router-without-a-framework.md ***
 
 # Scenario: Adding Client-Side Routing to a Vanilla JS Widget
 

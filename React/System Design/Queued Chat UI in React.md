@@ -1,4 +1,4 @@
-*** copy Queued Chat UI in React.md ***
+***  Queued Chat UI in React.md ***
 
 # Queued Chat UI in React
 

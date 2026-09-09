@@ -1,4 +1,4 @@
-*** copy React Rendering Pipeline.md ***
+***  React Rendering Pipeline.md ***
 
 Here is a comprehensive breakdown of the complete React rendering architecture, reconstructed step-by-step from state trigger to pixel paint.
 

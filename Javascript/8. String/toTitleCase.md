@@ -1,4 +1,4 @@
-*** copy toTitleCase.md ***
+***  toTitleCase.md ***
 
 ```js
 function toTitleCase(str) {

@@ -1,4 +1,4 @@
-*** copy 01-independent-counter-instances.md ***
+***  01-independent-counter-instances.md ***
 
 # Output-Based: Independent Counter Instances
 

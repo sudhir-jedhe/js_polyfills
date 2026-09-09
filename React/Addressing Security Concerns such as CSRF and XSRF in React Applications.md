@@ -1,4 +1,4 @@
-*** copy Addressing Security Concerns such as CSRF and XSRF in React Applications.md ***
+***  Addressing Security Concerns such as CSRF and XSRF in React Applications.md ***
 
 ### Addressing Security Concerns such as CSRF and XSRF in React Applications
 

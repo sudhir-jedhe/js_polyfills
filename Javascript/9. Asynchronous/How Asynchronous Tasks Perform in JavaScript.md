@@ -1,4 +1,4 @@
-*** copy How Asynchronous Tasks Perform in JavaScript.md ***
+***  How Asynchronous Tasks Perform in JavaScript.md ***
 
 **How Asynchronous Tasks Perform in JavaScript**
 In JavaScript, asynchronous tasks are operations that run independently of the main execution flow and don't block the execution of other code. Instead of waiting for an asynchronous operation to finish (like reading a file, making an HTTP request, or waiting for a timer to complete), JavaScript continues to execute the rest of the code. Once the asynchronous task finishes, a callback function (or other mechanisms) is executed to handle the result.

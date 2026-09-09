@@ -1,4 +1,4 @@
-*** copy priority-queue-in-JavaScript.md ***
+***  priority-queue-in-JavaScript.md ***
 
 // Priority Queue is a commonly used data structure in algorithm problem.
 // Especially useful for Top K problem with a huge amount of input data, since

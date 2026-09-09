@@ -1,4 +1,4 @@
-*** copy imageCarousal.md ***
+***  imageCarousal.md ***
 
 # Image Carousel Variants (React)
 

@@ -1,4 +1,4 @@
-*** copy Security Testing.md ***
+***  Security Testing.md ***
 
 In Front-End System Design, **Security Testing** is the systematic process of validating that client-side applications—running in untrusted user environments—are resilient against exploitation, unauthorized access, state tampering, and data leakage.
 

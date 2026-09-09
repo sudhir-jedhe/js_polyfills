@@ -1,4 +1,4 @@
-*** copy js problems.md ***
+***  js problems.md ***
 
 Here are solutions to the problems you listed:
 

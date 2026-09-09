@@ -1,4 +1,4 @@
-*** copy Anatomy of React's Render Phase.md ***
+***  Anatomy of React's Render Phase.md ***
 
 Here is a clean, structured reference guide breaking down the **Render Phase**, its sub-routines (`beginWork` and `completeWork`), and how offscreen DOM creation works during reconciliation.
 

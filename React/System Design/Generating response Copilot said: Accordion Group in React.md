@@ -1,4 +1,4 @@
-*** copy Generating response Copilot said: Accordion Group in React.md ***
+***  Generating response Copilot said: Accordion Group in React.md ***
 
 # Accordion Group in React
 

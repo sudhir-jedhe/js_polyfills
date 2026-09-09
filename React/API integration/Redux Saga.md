@@ -1,4 +1,4 @@
-*** copy Redux Saga.md ***
+***  Redux Saga.md ***
 
 Here is a complete, production-ready implementation of asynchronous API integration using **Redux Saga** (alongside a custom **Axios instance with interceptors**).
 

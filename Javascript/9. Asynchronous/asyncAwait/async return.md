@@ -1,4 +1,4 @@
-*** copy async return.md ***
+***  async return.md ***
 
 Let's break down your code and the situation you're describing. You have two functions with the same name `fetchData` but different implementations. The situation you're describing is also trying to `console.log(fetchData)` after defining these functions.
 

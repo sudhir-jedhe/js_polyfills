@@ -1,4 +1,4 @@
-*** copy index.md ***
+***  index.md ***
 
 # **Code Snippet 1: Using `Array.apply()`**
 

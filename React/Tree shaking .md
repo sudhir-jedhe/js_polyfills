@@ -1,4 +1,4 @@
-*** copy Tree shaking .md ***
+***  Tree shaking .md ***
 
 
 👉 Tree shaking is like cleaning out your closet. It removes unused stuff (code) from your app's bundle during building. This helps keep your app light and fast.

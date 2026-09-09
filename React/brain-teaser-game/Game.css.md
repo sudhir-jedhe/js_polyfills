@@ -1,4 +1,4 @@
-*** copy Game.css.md ***
+***  Game.css.md ***
 
 /* src/Game.css */
 .game-container {

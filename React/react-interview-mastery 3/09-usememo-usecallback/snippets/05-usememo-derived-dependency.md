@@ -1,4 +1,4 @@
-*** copy 05-usememo-derived-dependency.md ***
+***  05-usememo-derived-dependency.md ***
 
 # Snippet: useMemo for a Derived Value Used in a Dependency Array Elsewhere
 

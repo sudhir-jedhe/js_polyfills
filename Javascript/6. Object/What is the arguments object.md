@@ -1,4 +1,4 @@
-*** copy What is the arguments object.md ***
+***  What is the arguments object.md ***
 
 ### Understanding the `arguments` Object and Its Limitations
 

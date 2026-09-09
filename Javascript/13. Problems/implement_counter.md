@@ -1,4 +1,4 @@
-*** copy implement_counter.md ***
+***  implement_counter.md ***
 
 ```js
 // create a javascript function count(), when called it should return how many times it has been called,

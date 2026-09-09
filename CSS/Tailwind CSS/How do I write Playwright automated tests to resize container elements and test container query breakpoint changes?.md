@@ -1,4 +1,4 @@
-*** copy How do I write Playwright automated tests to resize container elements and test container query breakpoint changes?.md ***
+***  How do I write Playwright automated tests to resize container elements and test container query breakpoint changes?.md ***
 
 Because container queries respond to the inline size of their parent element rather than the browser window, testing them requires resizing the **container element itself** (or its parent wrapper) and verifying the computed styles or DOM changes.
 

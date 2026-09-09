@@ -1,4 +1,4 @@
-*** copy 06-early-return-for-empty-state.md ***
+***  06-early-return-for-empty-state.md ***
 
 # Early Return Keeps the Main Render Path Flat and Readable
 

@@ -1,4 +1,4 @@
-*** copy 01-usememo-expensive-filter.md ***
+***  01-usememo-expensive-filter.md ***
 
 # Snippet: useMemo Caching an Expensive Filter/Sort
 

@@ -1,4 +1,4 @@
-*** copy Chainable Currency Calculator.md ***
+***  Chainable Currency Calculator.md ***
 
 A **Chainable Currency Calculator** is a popular JavaScript interview question that tests:
 

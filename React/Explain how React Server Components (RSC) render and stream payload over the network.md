@@ -1,4 +1,4 @@
-*** copy Explain how React Server Components (RSC) render and stream payload over the network.md ***
+***  Explain how React Server Components (RSC) render and stream payload over the network.md ***
 
 ### 1. The Core Architecture: RSC vs. Traditional SSR
 

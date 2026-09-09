@@ -1,4 +1,4 @@
-*** copy 04-accessible-icon-button.md ***
+***  04-accessible-icon-button.md ***
 
 # Snippet: Accessible Icon-Only Button
 

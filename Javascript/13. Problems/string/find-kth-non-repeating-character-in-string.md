@@ -1,4 +1,4 @@
-*** copy find-kth-non-repeating-character-in-string.md ***
+***  find-kth-non-repeating-character-in-string.md ***
 
 ```js
 // Input: s = 'geeksforgeeks' , K = 2

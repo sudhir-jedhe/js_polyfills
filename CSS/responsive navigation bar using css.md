@@ -1,4 +1,4 @@
-*** copy responsive navigation bar using css.md ***
+***  responsive navigation bar using css.md ***
 
 Does not have a tag with width or initial-scale 
 

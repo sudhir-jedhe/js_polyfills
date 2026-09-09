@@ -1,4 +1,4 @@
-*** copy AggregateError.md ***
+***  AggregateError.md ***
 
 An **`AggregateError`** is a built-in JavaScript error object introduced in ES2021. It represents a single error that wraps **multiple underlying errors** together into an iterable `.errors` array property.
 

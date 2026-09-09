@@ -1,4 +1,4 @@
-*** copy removed-elements-of-a-given-array-until-the-passed-function-returns-true.md ***
+***  removed-elements-of-a-given-array-until-the-passed-function-returns-true.md ***
 
 ```js
 let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];

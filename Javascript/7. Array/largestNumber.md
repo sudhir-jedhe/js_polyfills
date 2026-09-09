@@ -1,4 +1,4 @@
-*** copy largestNumber.md ***
+***  largestNumber.md ***
 
 ```js
 function largestNumber(nums) {

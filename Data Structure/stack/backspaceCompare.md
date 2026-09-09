@@ -1,4 +1,4 @@
-*** copy backspaceCompare.md ***
+***  backspaceCompare.md ***
 
 function backspaceCompare(S, T) {
     const stackS = [];

@@ -1,4 +1,4 @@
-*** copy focus Managment.md ***
+***  focus Managment.md ***
 
 **Focus management in a Single Page Application (SPA)** is crucial for accessibility and usability. In SPAs, content is dynamically loaded without a page refresh, which can cause issues with focus. When content changes (such as opening a modal, navigating to a new view, or loading new content), you need to ensure that focus is placed appropriately to help users, especially those using screen readers or navigating via keyboard.
 

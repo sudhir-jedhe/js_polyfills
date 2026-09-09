@@ -1,4 +1,4 @@
-*** copy getElementByClassName.md ***
+***  getElementByClassName.md ***
 
 ```js
 function findByClass(class) {

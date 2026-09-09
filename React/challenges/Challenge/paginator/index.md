@@ -1,4 +1,4 @@
-*** copy index.md ***
+***  index.md ***
 
 const paginationElement = document.getElementById('pagination');
 const pagesElement = document.getElementById('pages');

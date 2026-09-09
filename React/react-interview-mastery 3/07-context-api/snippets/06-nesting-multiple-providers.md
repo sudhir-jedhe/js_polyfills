@@ -1,4 +1,4 @@
-*** copy 06-nesting-multiple-providers.md ***
+***  06-nesting-multiple-providers.md ***
 
 # Snippet: Nesting multiple providers cleanly
 

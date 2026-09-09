@@ -1,4 +1,4 @@
-*** copy Set up automated keyboard navigation tests in Playwright.md ***
+***  Set up automated keyboard navigation tests in Playwright.md ***
 
 Automating keyboard navigation tests in Playwright involves validating three core requirements:
 

@@ -1,4 +1,4 @@
-*** copy How does variable shadowing work in JavaScript with let, const, and nested blocks?.md ***
+***  How does variable shadowing work in JavaScript with let, const, and nested blocks?.md ***
 
 **Variable Shadowing** occurs when a variable declared within an inner scope (such as a block or function) shares the exact same name as a variable declared in an outer scope.
 

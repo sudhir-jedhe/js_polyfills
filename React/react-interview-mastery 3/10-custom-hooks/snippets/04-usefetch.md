@@ -1,4 +1,4 @@
-*** copy 04-usefetch.md ***
+***  04-usefetch.md ***
 
 # Snippet: useFetch — Request With Loading/Error State and Cleanup on Unmount
 

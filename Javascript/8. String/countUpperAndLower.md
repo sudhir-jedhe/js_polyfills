@@ -1,4 +1,4 @@
-*** copy countUpperAndLower.md ***
+***  countUpperAndLower.md ***
 
 Here are three clear ways to count uppercase versus lowercase letters in a JavaScript string.
 

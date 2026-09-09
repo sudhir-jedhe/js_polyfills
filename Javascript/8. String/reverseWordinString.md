@@ -1,4 +1,4 @@
-*** copy reverseWordinString.md ***
+***  reverseWordinString.md ***
 
 ```js
 /*********************Reverse Word in String remove white spaces *******************/

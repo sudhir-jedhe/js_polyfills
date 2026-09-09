@@ -1,4 +1,4 @@
-*** copy lazyLoading.md ***
+***  lazyLoading.md ***
 
 // For example suppose you are visiting an e-commerce website where there are many list of items, It does not makes any sense to load all the items at once, instead it is better to fetch more items after user has seen the previous items.
 

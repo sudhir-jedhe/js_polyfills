@@ -1,4 +1,4 @@
-*** copy create-a-lightbox-modal-image-galler.md ***
+***  create-a-lightbox-modal-image-galler.md ***
 
 ```js
 import { useState } from "react";

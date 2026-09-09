@@ -1,4 +1,4 @@
-*** copy Autocomplete.md ***
+***  Autocomplete.md ***
 
 Here is a production-ready, highly accessible **Autocomplete / Typeahead component** built in React. It satisfies core frontend system design requirements: **Debounced API integration**, **WAI-ARIA accessibility guidelines (Combobox pattern)**, **Keyboard navigation**, and **Race-condition handling**.
 

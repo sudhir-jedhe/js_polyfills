@@ -1,4 +1,4 @@
-*** copy sort-numeric-array.md ***
+***  sort-numeric-array.md ***
 
 ```js
 // Declare and initialize an Array

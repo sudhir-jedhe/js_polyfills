@@ -1,4 +1,4 @@
-*** copy SortableTable.md ***
+***  SortableTable.md ***
 
 # Sortable Data Table (React) – Complete Interview Solution
 

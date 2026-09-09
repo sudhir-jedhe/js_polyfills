@@ -1,4 +1,4 @@
-*** copy 01-wcag-aria-fundamentals-qa.md ***
+***  01-wcag-aria-fundamentals-qa.md ***
 
 # Interview Q&A — WCAG & ARIA Fundamentals
 

@@ -1,4 +1,4 @@
-*** copy eact 18 concurrent .md ***
+***  eact 18 concurrent .md ***
 
 Before React 18, all state updates were treated with equal, urgent priority. If a large list re-rendered or a heavy chart recalculated while a user was typing in an input field, the browser main thread blocked, causing visible UI lag or frozen typing indicators.
 

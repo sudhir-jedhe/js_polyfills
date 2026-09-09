@@ -1,4 +1,4 @@
-*** copy 05-link-vs-import-performance.md ***
+***  05-link-vs-import-performance.md ***
 
 # `<link>` vs. CSS `@import` — Performance Implications
 

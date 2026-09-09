@@ -1,4 +1,4 @@
-*** copy 03-undo-redo-text-input.md ***
+***  03-undo-redo-text-input.md ***
 
 # Problem: Implement an Undo/Redo Manager for a Text Input
 

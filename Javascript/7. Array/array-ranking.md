@@ -1,16 +1,16 @@
-*** copy array-ranking.md ***
+***copy array-ranking.md***
 
 ### Calculate the Ranking of a JavaScript Array
 
 The ranking of an array is determined based on how each element compares to the others according to a provided comparator function (`compFn`). This ranking could be useful in scenarios like sorting algorithms, ranking items, or determining positions in a leaderboard.
 
-In essence, for each element in the array, the ranking will tell you how many elements are smaller (or larger) based on the comparator function. 
+In essence, for each element in the array, the ranking will tell you how many elements are smaller (or larger) based on the comparator function.
 
-### Approach:
+### Approach
 
 1. **Comparator Function** (`compFn`):
    - The comparator function is a custom function you provide. It determines how the elements are compared. It could be a simple comparison (e.g., `a < b` or `a > b`), or something more complex, like comparing strings lexicographically with `localeCompare`.
-   
+
 2. **Mapping and Filtering**:
    - Use `Array.prototype.map()` to iterate over the array, and for each element, calculate its ranking based on how many elements are smaller (or larger) than it using `Array.prototype.filter()`.
 
@@ -24,7 +24,7 @@ const ranking = (arr, compFn) =>
   arr.map(a => arr.filter(b => compFn(a, b)).length + 1);
 ```
 
-### Explanation:
+### Explanation
 
 - `arr.map(a => ...)` iterates over each element `a` of the array.
 - `arr.filter(b => compFn(a, b))` counts how many elements `b` satisfy the comparator condition with `a`.
@@ -43,7 +43,7 @@ console.log(ranking([8, 6, 9, 5], (a, b) => a < b));
 ```
 
 - In this case, we're using a simple comparator `a < b` which means we want to find how many elements are smaller than the current element.
-- **Explanation**: 
+- **Explanation**:
   - 8 is greater than 6, 5, and 9, so it's ranked 2.
   - 6 is greater than 5 and smaller than 8 and 9, so it's ranked 3.
   - 9 is greater than 8, 6, and 5, so it's ranked 1.

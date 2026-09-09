@@ -1,4 +1,4 @@
-*** copy 01-core-mechanic.md ***
+***  01-core-mechanic.md ***
 
 # The core mechanic
 

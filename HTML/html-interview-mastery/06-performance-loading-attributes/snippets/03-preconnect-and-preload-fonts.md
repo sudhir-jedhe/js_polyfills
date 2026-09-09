@@ -1,4 +1,4 @@
-*** copy 03-preconnect-and-preload-fonts.md ***
+***  03-preconnect-and-preload-fonts.md ***
 
 # Snippet: `preconnect` + `preload` for Web Fonts
 

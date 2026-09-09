@@ -1,4 +1,4 @@
-*** copy Show how to add window focus and online reconnection event listeners to trigger background revalidation.md ***
+***  Show how to add window focus and online reconnection event listeners to trigger background revalidation.md ***
 
 Here is the updated `useFetch` hook incorporating **automatic background revalidation on window focus** (when a user switches tabs or returns to the browser) and **network reconnection** (when the internet connection drops and restores).
 

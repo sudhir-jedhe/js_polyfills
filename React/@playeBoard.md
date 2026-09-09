@@ -1,4 +1,4 @@
-*** copy @playeBoard.md ***
+***  @playeBoard.md ***
 
 For the **Devtools Tech: Build a Two-Player Line Board Game** challenge, the publicly available description indicates that it's a board-game UI challenge focused on implementing game logic, state transitions, component architecture, and UX on a **12×12 board**. [\[devtools.tech\]](https://devtools.tech/questions/s/build-a-two-player-line-board-game---qid---lIas2ZwR8dMHDjbpxICA), [\[linkedin.com\]](https://www.linkedin.com/posts/yomeshgupta_devtools-tech-added-this-interesting-ui-challenge-activity-7330817051638358016-qkHM)
 

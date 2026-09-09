@@ -1,4 +1,4 @@
-*** copy mapFunction.md ***
+***  mapFunction.md ***
 
 ```javascript
 export function map(arr, callback) {

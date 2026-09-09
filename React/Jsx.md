@@ -1,4 +1,4 @@
-*** copy Jsx.md ***
+***  Jsx.md ***
 
 ### **React with JSX: An Explanation**
 

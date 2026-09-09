@@ -1,4 +1,4 @@
-*** copy OptimizedSearchList.md ***
+***  OptimizedSearchList.md ***
 
 An optimized search and filter architecture in React combining a custom **Debounce Hook**, **Intersection Observer API** for infinite scrolling, and an **AbortController** to prevent race conditions during rapid querying.
 

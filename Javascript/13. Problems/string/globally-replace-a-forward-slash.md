@@ -1,4 +1,4 @@
-*** copy globally-replace-a-forward-slash.md ***
+***  globally-replace-a-forward-slash.md ***
 
 ```js
 // Input string

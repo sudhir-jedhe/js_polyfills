@@ -1,4 +1,4 @@
-*** copy doubly-linked-list.md ***
+***  doubly-linked-list.md ***
 
 ```js
 function doubleLinkedList() {

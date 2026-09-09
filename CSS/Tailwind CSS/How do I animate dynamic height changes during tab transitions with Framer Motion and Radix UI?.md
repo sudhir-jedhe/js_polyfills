@@ -1,4 +1,4 @@
-*** copy How do I animate dynamic height changes during tab transitions with Framer Motion and Radix UI?.md ***
+***  How do I animate dynamic height changes during tab transitions with Framer Motion and Radix UI?.md ***
 
 To animate dynamic height transitions between tabs with differing content heights, wrap the tab content container in a `motion.div` configured with `animate={{ height: "auto" }}` or use `framer-motion`'s **`useMeasure`** / **`ResizeObserver`** pattern combined with `layout` animations.
 

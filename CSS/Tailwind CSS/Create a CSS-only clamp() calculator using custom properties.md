@@ -1,4 +1,4 @@
-*** copy Create a CSS-only clamp() calculator using custom properties.md ***
+***  Create a CSS-only clamp() calculator using custom properties.md ***
 
 You can build a purely dynamic, **CSS-only linear interpolation engine** using CSS custom properties (`var()`) and `calc()`.
 

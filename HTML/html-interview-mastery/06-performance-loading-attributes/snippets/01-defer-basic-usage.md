@@ -1,4 +1,4 @@
-*** copy 01-defer-basic-usage.md ***
+***  01-defer-basic-usage.md ***
 
 # Snippet: `defer` for Application Scripts
 

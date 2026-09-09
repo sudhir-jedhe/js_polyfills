@@ -1,4 +1,4 @@
-*** copy Add a field that depends on another. How does your state structure change?.md ***
+***  Add a field that depends on another. How does your state structure change?.md ***
 
 When a form field's existence, value, or validation rules depend on another field (e.g., selecting "Country = India" reveals a state dropdown, or selecting "ID Type = PAN" reveals a PAN input field), your state structure should shift from **flat independent state variables** to a **derived/computed state pattern** or a **discriminated union/normalized state object**.
 

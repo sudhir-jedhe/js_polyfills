@@ -1,4 +1,4 @@
-*** copy 04-and-operator-truthy-guard.md ***
+***  04-and-operator-truthy-guard.md ***
 
 # `&&` Trap: Guard With a Boolean, Not a Raw Number
 

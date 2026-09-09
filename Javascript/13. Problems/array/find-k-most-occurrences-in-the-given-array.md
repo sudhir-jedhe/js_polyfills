@@ -1,4 +1,4 @@
-*** copy find-k-most-occurrences-in-the-given-array.md ***
+***  find-k-most-occurrences-in-the-given-array.md ***
 
 ```js
 /*

@@ -1,4 +1,4 @@
-*** copy How do you build a custom Webpack loader and plugin tandem to extract non-JS assets into dedicated output files?.md ***
+***  How do you build a custom Webpack loader and plugin tandem to extract non-JS assets into dedicated output files?.md ***
 
 To extract non-JS assets (such as CSS, SVG sprites, or custom metadata) into dedicated standalone output files using a modern **Webpack 5+** architecture, you build a paired **Loader** and **Plugin**.
 

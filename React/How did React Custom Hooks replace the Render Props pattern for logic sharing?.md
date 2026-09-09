@@ -1,4 +1,4 @@
-*** copy How did React Custom Hooks replace the Render Props pattern for logic sharing?.md ***
+***  How did React Custom Hooks replace the Render Props pattern for logic sharing?.md ***
 
 Before React 16.8, sharing stateful logic (like subscription management, mouse tracking, or form handling) across components required either **Higher-Order Components (HOCs)** or **Render Props**.
 

@@ -1,4 +1,4 @@
-*** copy 04-geolocation-current-position.md ***
+***  04-geolocation-current-position.md ***
 
 # Snippet: Getting the User's Current Position
 

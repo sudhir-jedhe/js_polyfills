@@ -1,4 +1,4 @@
-*** copy properties.md ***
+***  properties.md ***
 
 Here is a structured, categorized reference for all standard `Document` properties and methods based on your document API reference.
 

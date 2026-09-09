@@ -1,4 +1,4 @@
-*** copy 03-safely-deindexing-a-staging-leak.md ***
+***  03-safely-deindexing-a-staging-leak.md ***
 
 # Scenario: A Staging Subdomain Got Indexed by Accident
 

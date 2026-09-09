@@ -1,4 +1,4 @@
-*** copy 04-domcontentloaded-vs-load-timing.md ***
+***  04-domcontentloaded-vs-load-timing.md ***
 
 # Output: `DOMContentLoaded` vs. `load` — Which Fires First, and When?
 

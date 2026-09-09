@@ -1,4 +1,4 @@
-*** copy 04-usememo-object-prop.md ***
+***  04-usememo-object-prop.md ***
 
 # Snippet: useMemo to Avoid Recreating an Object Passed to a Memoized Child
 

@@ -1,4 +1,4 @@
-*** copy How do you implement direct-to-S3 multipart uploads with chunking for multi-gigabyte files in React?.md ***
+***  How do you implement direct-to-S3 multipart uploads with chunking for multi-gigabyte files in React?.md ***
 
 For files exceeding 100MB up to several gigabytes/terabytes, a single presigned `PUT` URL is vulnerable to network drops and S3's 5GB single-PUT limit.
 

@@ -1,4 +1,4 @@
-*** copy sort Map.md ***
+***  sort Map.md ***
 
 Here’s a detailed explanation with code examples for sorting JavaScript `Map` objects, covering keys and values, both in ascending and descending order.
 

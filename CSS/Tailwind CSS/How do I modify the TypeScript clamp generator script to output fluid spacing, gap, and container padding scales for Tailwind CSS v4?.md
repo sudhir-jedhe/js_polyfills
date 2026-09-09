@@ -1,4 +1,4 @@
-*** copy How do I modify the TypeScript clamp generator script to output fluid spacing, gap, and container padding scales for Tailwind CSS v4?.md ***
+***  How do I modify the TypeScript clamp generator script to output fluid spacing, gap, and container padding scales for Tailwind CSS v4?.md ***
 
 In Tailwind CSS v4, custom spacing tokens defined under the `--spacing-*` namespace in `@theme` automatically map to all spacing-based utilities: padding (`p-*`), margin (`m-*`), gap (`gap-*`), width/height sizing (`w-*`, `h-*`), and container insets.
 

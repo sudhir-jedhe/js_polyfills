@@ -1,4 +1,4 @@
-*** copy 02-empty-deps-runs-once-on-mount.md ***
+***  02-empty-deps-runs-once-on-mount.md ***
 
 # Empty Dependency Array — Runs Once, on Mount Only
 

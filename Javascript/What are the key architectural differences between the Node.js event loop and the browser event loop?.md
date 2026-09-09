@@ -1,4 +1,4 @@
-*** copy What are the key architectural differences between the Node.js event loop and the browser event loop?.md ***
+***  What are the key architectural differences between the Node.js event loop and the browser event loop?.md ***
 
 While both environments run on the JavaScript engine (V8) and rely on a single-threaded execution model for JavaScript code, their underlying event loop architectures are designed for entirely different workloads.
 

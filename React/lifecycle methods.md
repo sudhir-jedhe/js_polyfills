@@ -1,4 +1,4 @@
-*** copy lifecycle methods.md ***
+***  lifecycle methods.md ***
 
 In React, the component lifecycle refers to the various stages through which a component passes during its existence, including creation, updating, and unmounting. In class components, we use lifecycle methods to perform actions during these stages. However, with the introduction of **React Hooks**, lifecycle methods are replaced by hooks that allow functional components to handle similar tasks.
 
@@ -187,15 +187,15 @@ However, you can handle errors in functional components using hooks like `useSta
 
 ### **Summary of React Class Lifecycle Methods and their Equivalents in Hooks**
 
-| **Class Component Lifecycle Method**      | **Hooks Equivalent**                             |
-|------------------------------------------|-------------------------------------------------|
-| `componentDidMount`                      | `useEffect` (with empty dependency array `[]`)   |
-| `componentDidUpdate`                     | `useEffect` (with dependencies)                 |
-| `componentWillUnmount`                   | `useEffect` cleanup function                    |
-| `shouldComponentUpdate`                  | `React.memo` (for functional components)        |
-| `getDerivedStateFromProps`               | `useEffect` (with props as dependencies)        |
-| `getSnapshotBeforeUpdate`                | `useRef` + `useEffect`                          |
-| `getDerivedStateFromError`               | Error boundaries (class component or custom hook) |
+| **Class Component Lifecycle Method** | **Hooks Equivalent**                              |
+| ------------------------------------ | ------------------------------------------------- |
+| `componentDidMount`                  | `useEffect` (with empty dependency array `[]`)    |
+| `componentDidUpdate`                 | `useEffect` (with dependencies)                   |
+| `componentWillUnmount`               | `useEffect` cleanup function                      |
+| `shouldComponentUpdate`              | `React.memo` (for functional components)          |
+| `getDerivedStateFromProps`           | `useEffect` (with props as dependencies)          |
+| `getSnapshotBeforeUpdate`            | `useRef` + `useEffect`                            |
+| `getDerivedStateFromError`           | Error boundaries (class component or custom hook) |
 
 ### Conclusion
 

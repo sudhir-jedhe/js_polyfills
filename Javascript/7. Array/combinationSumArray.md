@@ -1,4 +1,4 @@
-*** copy combinationSumArray.md ***
+***  combinationSumArray.md ***
 
 ### The `combinationSum` Function Explanation
 

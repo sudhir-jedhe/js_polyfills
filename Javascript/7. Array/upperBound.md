@@ -1,4 +1,4 @@
-*** copy upperBound.md ***
+***  upperBound.md ***
 
 Your implementation of finding the **upper bound** in a sorted array using binary search is correct and efficient. Let's go through the logic, explain it, and ensure everything is clear.
 

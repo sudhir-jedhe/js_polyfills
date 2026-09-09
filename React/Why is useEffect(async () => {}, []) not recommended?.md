@@ -1,4 +1,4 @@
-*** copy Why is useEffect(async () => {}, []) not recommended?.md ***
+***  Why is useEffect(async () => {}, []) not recommended?.md ***
 
  is not recommended because React effects cannot return a Promise. [1, 2]  
 An  function automatically returns a Promise. However, React expects a  hook to return either nothing () or a cleanup function. [3, 4, 5, 6]  

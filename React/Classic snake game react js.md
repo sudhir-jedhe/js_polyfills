@@ -1,4 +1,4 @@
-*** copy Classic snake game react js.md ***
+***  Classic snake game react js.md ***
 
 A complete, responsive Classic Snake Game built in React with grid rendering, directional controls, self-collision and wall-collision detection, high scores, and food generation.
 

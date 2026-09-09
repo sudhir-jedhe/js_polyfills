@@ -1,4 +1,4 @@
-*** copy React Performance tracks.md ***
+***  React Performance tracks.md ***
 
 **React Performance Tracks** are specialized custom entries that appear directly on your browser developer tools' Performance panel timeline. They provide deep, synchronized visibility into your React application's internal events, concurrent scheduling, and component-level timings alongside standard browser metrics like network requests, JavaScript execution, and event loop activity.
 

@@ -1,4 +1,4 @@
-*** copy LCM.md ***
+***  LCM.md ***
 
 ### Explanation of LCM and GCD Implementation
 

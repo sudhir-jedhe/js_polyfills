@@ -1,4 +1,4 @@
-*** copy 3-implement-queue-using-stack.md ***
+***  3-implement-queue-using-stack.md ***
 
 // Ques 3 : Implement Queue using Stacks
 // Implement a first in first out(FIFO) queue using only two stacks.

@@ -1,4 +1,4 @@
-*** copy Explain how React uses Time Slicing, shouldYield, and the Scheduler package to keep renders non-blocking.md ***
+***  Explain how React uses Time Slicing, shouldYield, and the Scheduler package to keep renders non-blocking.md ***
 
 React uses **Time Slicing**, the internal **`shouldYield()`** predicate, and the **`scheduler` package** to transform rendering from a single synchronous, main-thread-blocking operation into a cooperative multitasking loop.
 

@@ -1,4 +1,4 @@
-*** copy 2-palindrome-linked-list.md ***
+***  2-palindrome-linked-list.md ***
 
 // Ques 1 : Given the head of a singly linked list, return true if it is
 // a palindrome or false otherwise

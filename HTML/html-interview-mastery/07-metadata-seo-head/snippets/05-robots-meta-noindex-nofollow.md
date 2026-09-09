@@ -1,4 +1,4 @@
-*** copy 05-robots-meta-noindex-nofollow.md ***
+***  05-robots-meta-noindex-nofollow.md ***
 
 # Snippet: `noindex` a Thank-You Page Without Blocking It in `robots.txt`
 

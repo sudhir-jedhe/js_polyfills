@@ -1,4 +1,4 @@
-*** copy How does hydration work in React, and what causes hydration mismatches?.md ***
+***  How does hydration work in React, and what causes hydration mismatches?.md ***
 
 **Hydration** is the process where client-side React converts server-rendered HTML into an interactive, fully functional application.
 

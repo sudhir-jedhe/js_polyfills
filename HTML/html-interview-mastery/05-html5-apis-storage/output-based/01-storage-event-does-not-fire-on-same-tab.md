@@ -1,4 +1,4 @@
-*** copy 01-storage-event-does-not-fire-on-same-tab.md ***
+***  01-storage-event-does-not-fire-on-same-tab.md ***
 
 # Output: Does the `storage` Event Fire in the Same Tab?
 

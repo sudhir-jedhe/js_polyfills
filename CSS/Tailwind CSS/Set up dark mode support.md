@@ -1,4 +1,4 @@
-*** copy Set up dark mode support.md ***
+***  Set up dark mode support.md ***
 
 In Tailwind CSS v4, dark mode is configured using standard CSS variables and the `@custom-variant` directive in your main stylesheet, pairing seamlessly with `next-themes` in Next.js.
 

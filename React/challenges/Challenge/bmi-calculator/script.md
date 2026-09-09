@@ -1,4 +1,4 @@
-*** copy script.md ***
+***  script.md ***
 
 const form = document.getElementById('bmiForm');
 

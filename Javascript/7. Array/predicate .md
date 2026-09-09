@@ -1,4 +1,4 @@
-*** copy predicate .md ***
+***  predicate .md ***
 
 These code snippets explore the usage of various JavaScript array methods, such as `find()`, `filter()`, `every()`, `some()`, and a custom function `negate()` to manipulate arrays based on different conditions. Let me break them down for you:
 

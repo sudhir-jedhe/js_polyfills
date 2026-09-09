@@ -1,4 +1,4 @@
-*** copy numberOfWaysToMakeChange.md ***
+***  numberOfWaysToMakeChange.md ***
 
 // Number of Ways To Make Change
 // Given a target amount and a set of denominations (coins), find the total number of ways the given target amount can be expressed by using the denominations provided. Consider you have an infinite supply of each denomination given in the array.

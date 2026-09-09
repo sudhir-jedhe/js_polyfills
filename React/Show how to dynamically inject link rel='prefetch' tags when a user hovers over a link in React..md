@@ -1,4 +1,4 @@
-*** copy Show how to dynamically inject link rel='prefetch' tags when a user hovers over a link in React..md ***
+***  Show how to dynamically inject link rel='prefetch' tags when a user hovers over a link in React..md ***
 
 Here is a production-ready, reusable `PrefetchLink` component in React that dynamically injects `<link rel="prefetch">` tags into `<head>` when a user hovers over (or focuses on) a link.
 

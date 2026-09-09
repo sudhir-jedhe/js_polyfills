@@ -1,4 +1,4 @@
-*** copy How do Server Actions trigger page revalidation using revalidatePath and revalidateTag in Next.js?.md ***
+***  How do Server Actions trigger page revalidation using revalidatePath and revalidateTag in Next.js?.md ***
 
 In Next.js (App Router), **Server Actions** mutate data on the server and trigger cache invalidation via **`revalidatePath`** or **`revalidateTag`**.
 

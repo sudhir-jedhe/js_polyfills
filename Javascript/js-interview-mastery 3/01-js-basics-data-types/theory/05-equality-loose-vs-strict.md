@@ -1,4 +1,4 @@
-*** copy 05-equality-loose-vs-strict.md ***
+***  05-equality-loose-vs-strict.md ***
 
 # `==` (Loose Equality) vs `===` (Strict Equality)
 

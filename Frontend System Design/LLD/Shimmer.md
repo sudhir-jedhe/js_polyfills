@@ -1,4 +1,4 @@
-*** copy Shimmer.md ***
+***  Shimmer.md ***
 
 Designing a production-grade Shimmer UI requires combining **pure CSS hardware animation**, **predictive layout geometries**, and **robust TypeScript state modeling**.
 

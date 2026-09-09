@@ -1,4 +1,4 @@
-*** copy wordBreak .md ***
+***  wordBreak .md ***
 
 ```js
 Input:

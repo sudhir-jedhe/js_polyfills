@@ -1,4 +1,4 @@
-*** copy longest-repeated-subsequence.md ***
+***  longest-repeated-subsequence.md ***
 
 ```js
 const LRS = (str, m, n) => {

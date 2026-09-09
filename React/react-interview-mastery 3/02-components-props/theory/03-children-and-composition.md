@@ -1,4 +1,4 @@
-*** copy 03-children-and-composition.md ***
+***  03-children-and-composition.md ***
 
 # `props.children` and Composition
 

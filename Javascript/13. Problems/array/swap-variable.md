@@ -1,4 +1,4 @@
-*** copy swap-variable.md ***
+***  swap-variable.md ***
 
 ```js
 // Swapping array using temporary variable

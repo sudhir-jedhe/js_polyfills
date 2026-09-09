@@ -1,4 +1,4 @@
-*** copy Involutory Matrix.md ***
+***  Involutory Matrix.md ***
 
 ```js
 // Input : mat[N][N] = {{1, 0, 0},

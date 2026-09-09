@@ -1,4 +1,4 @@
-*** copy geneartor.md ***
+***  geneartor.md ***
 
 ### Explanation of Each Example
 

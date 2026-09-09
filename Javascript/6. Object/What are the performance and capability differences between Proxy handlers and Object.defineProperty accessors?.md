@@ -1,4 +1,4 @@
-*** copy What are the performance and capability differences between Proxy handlers and Object.defineProperty accessors?.md ***
+***  What are the performance and capability differences between Proxy handlers and Object.defineProperty accessors?.md ***
 
 ***What are the performance and capability differences between Proxy handlers and Object.defineProperty accessors?***
 

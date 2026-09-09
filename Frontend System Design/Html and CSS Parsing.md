@@ -1,4 +1,4 @@
-*** copy Html and CSS Parsing.md ***
+***  Html and CSS Parsing.md ***
 
 HTML parsing and CSS parsing are two fundamental pipelines within the browser engine. While both convert raw source code into structured in-memory trees, they differ significantly in **execution strategy**, **blocking behavior**, and **how they handle errors**.
 

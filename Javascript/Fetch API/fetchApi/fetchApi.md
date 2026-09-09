@@ -1,4 +1,4 @@
-*** copy fetchApi.md ***
+***  fetchApi.md ***
 
 The provided examples illustrate how to perform HTTP requests in JavaScript using both the modern `Fetch API` and the older `XMLHttpRequest`. Here is a consolidated explanation and usage for each method.
 

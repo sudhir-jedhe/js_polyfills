@@ -1,4 +1,4 @@
-*** copy How do I decouple API network dispatch from React render cycles to eliminate click-to-fetch latency?.md ***
+***  How do I decouple API network dispatch from React render cycles to eliminate click-to-fetch latency?.md ***
 
 To eliminate the latency between a user interaction and the network packet hitting the wire, you must **fire the network request immediately in the event loop before initiating heavy React state transitions, synchronous validations, or render tree reconciliations**.
 

@@ -1,4 +1,4 @@
-*** copy 05-labels-fieldset-legend-accessibility.md ***
+***  05-labels-fieldset-legend-accessibility.md ***
 
 # Labels, Fieldset/Legend, and Form Accessibility
 

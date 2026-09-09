@@ -1,4 +1,4 @@
-*** copy 01-preventing-accidental-object-mutation.md ***
+***  01-preventing-accidental-object-mutation.md ***
 
 # Preventing Accidental Mutation of a Settings Object
 

@@ -1,4 +1,4 @@
-*** copy How does Webpack's ModuleConcatenationPlugin work and what triggers scope hoisting bailouts?.md ***
+***  How does Webpack's ModuleConcatenationPlugin work and what triggers scope hoisting bailouts?.md ***
 
 Webpack’s **`ModuleConcatenationPlugin`** (commonly referred to as **Scope Hoisting**, enabled automatically in production mode via `optimization.concatenateModules: true`) optimizes output bundles by merging multiple ECMAScript Modules into a single closure, rather than wrapping every file in an isolated function (`__webpack_require__`).
 

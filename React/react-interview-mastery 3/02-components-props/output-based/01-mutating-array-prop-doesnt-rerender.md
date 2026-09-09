@@ -1,4 +1,4 @@
-*** copy 01-mutating-array-prop-doesnt-rerender.md ***
+***  01-mutating-array-prop-doesnt-rerender.md ***
 
 # What Happens on Click?
 

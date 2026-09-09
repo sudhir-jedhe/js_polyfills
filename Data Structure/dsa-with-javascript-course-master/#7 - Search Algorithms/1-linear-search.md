@@ -1,4 +1,4 @@
-*** copy 1-linear-search.md ***
+***  1-linear-search.md ***
 
 // Ques 1: Implement Linear Search in JavaScript
 // Write a function to search "target" in nums. If target exists, then return its index.

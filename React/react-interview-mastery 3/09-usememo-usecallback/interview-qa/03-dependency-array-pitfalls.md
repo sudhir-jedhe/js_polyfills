@@ -1,4 +1,4 @@
-*** copy 03-dependency-array-pitfalls.md ***
+***  03-dependency-array-pitfalls.md ***
 
 # Interview Q&A: Dependency-Array Pitfalls
 

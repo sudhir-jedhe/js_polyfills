@@ -1,4 +1,4 @@
-*** copy maximum-product-subarray.md ***
+***  maximum-product-subarray.md ***
 
 ```js
 // Input: arr[] = {6, -3, -10, 0, 2}

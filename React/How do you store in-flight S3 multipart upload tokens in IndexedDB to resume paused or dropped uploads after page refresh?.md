@@ -1,4 +1,4 @@
-*** copy How do you store in-flight S3 multipart upload tokens in IndexedDB to resume paused or dropped uploads after page refresh?.md ***
+***  How do you store in-flight S3 multipart upload tokens in IndexedDB to resume paused or dropped uploads after page refresh?.md ***
 
 To make S3 multipart uploads resumable across browser sessions, crashes, or page reloads, you must persist two things:
 

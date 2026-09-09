@@ -1,4 +1,4 @@
-*** copy generate-a-n-digit-number.md ***
+***  generate-a-n-digit-number.md ***
 
 ```js
 function gfg() {

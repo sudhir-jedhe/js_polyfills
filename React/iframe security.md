@@ -1,4 +1,4 @@
-*** copy iframe security.md ***
+***  iframe security.md ***
 
 To prevent your React application (or any website) from being embedded in an iframe, you can take several measures to block or restrict the ability of other websites from framing your content. Here's how you can achieve this:
 

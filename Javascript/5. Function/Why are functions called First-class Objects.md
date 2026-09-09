@@ -1,4 +1,4 @@
-*** copy Why are functions called First-class Objects.md ***
+***  Why are functions called First-class Objects.md ***
 
 You're absolutely right! In JavaScript, **functions are first-class objects**. This means they can be **treated like any other value** — assigned to variables, passed as arguments, returned from other functions, and stored in arrays or objects. Let's break this down in more detail:
 

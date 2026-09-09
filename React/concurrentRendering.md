@@ -1,4 +1,4 @@
-*** copy concurrentRendering.md ***
+***  concurrentRendering.md ***
 
 The core concept is **Concurrent React** (specifically powered by **Concurrent Rendering** and **Time Slicing**).
 

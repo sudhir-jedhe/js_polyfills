@@ -1,4 +1,4 @@
-*** copy Explain the Layout Phase in detail, focusing on ref attachments and useLayoutEffect.md ***
+***  Explain the Layout Phase in detail, focusing on ref attachments and useLayoutEffect.md ***
 
 The **Layout Phase** is the third sub-phase of React's synchronous **Commit Phase**.
 

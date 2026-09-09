@@ -1,4 +1,4 @@
-*** copy dates.md ***
+***  dates.md ***
 
 # JavaScript Date Object – Complete Interview Guide
 

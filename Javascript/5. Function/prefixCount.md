@@ -1,4 +1,4 @@
-*** copy prefixCount.md ***
+***  prefixCount.md ***
 
 The code you provided defines and uses the function `prefixCount` to count how many words in the `words` array start with the specified `pref` prefix.
 

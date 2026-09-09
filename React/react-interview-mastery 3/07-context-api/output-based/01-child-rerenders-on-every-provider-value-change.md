@@ -1,4 +1,4 @@
-*** copy 01-child-rerenders-on-every-provider-value-change.md ***
+***  01-child-rerenders-on-every-provider-value-change.md ***
 
 # Output-Based: Does `Child` re-render on every `count` increment, even though it only reads `count`?
 

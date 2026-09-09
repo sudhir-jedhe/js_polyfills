@@ -1,4 +1,4 @@
-*** copy cross browser compability.md ***
+***  cross browser compability.md ***
 
 Cross-browser performance optimization ensures that a web application functions smoothly and performs well across different browsers (e.g., Chrome, Firefox, Safari, Edge, etc.). Each browser interprets JavaScript and renders CSS differently, which can impact performance, especially for complex web applications. Here are some strategies to improve cross-browser performance:
 

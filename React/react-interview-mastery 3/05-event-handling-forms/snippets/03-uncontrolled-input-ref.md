@@ -1,4 +1,4 @@
-*** copy 03-uncontrolled-input-ref.md ***
+***  03-uncontrolled-input-ref.md ***
 
 # Snippet: Uncontrolled input read via ref on submit
 

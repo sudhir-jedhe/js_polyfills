@@ -1,4 +1,4 @@
-*** copy relative, absolute, sticky, fixed static position.md ***
+***  relative, absolute, sticky, fixed static position.md ***
 
 In CSS, the `position` property is used to specify how an element is positioned on the page. The values you can use for the `position` property are `static`, `relative`, `absolute`, `fixed`, and `sticky`. Each of these position values affects the layout and behavior of elements differently.
 

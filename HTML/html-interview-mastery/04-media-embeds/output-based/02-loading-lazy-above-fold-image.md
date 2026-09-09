@@ -1,4 +1,4 @@
-*** copy 02-loading-lazy-above-fold-image.md ***
+***  02-loading-lazy-above-fold-image.md ***
 
 # Output: `loading="lazy"` on the Hero Image
 

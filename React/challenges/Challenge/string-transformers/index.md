@@ -1,4 +1,4 @@
-*** copy index.md ***
+***  index.md ***
 
 const userInput = document.getElementById('userInput');
 

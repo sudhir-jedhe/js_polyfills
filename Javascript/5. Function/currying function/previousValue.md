@@ -1,4 +1,4 @@
-*** copy previousValue.md ***
+***  previousValue.md ***
 
 In this example, we are using a closure to create a function that "remembers" its previously passed values. The `sum` variable stores the accumulated sum of all values passed to the inner function, and each time we call the function, it adds the current number to that stored sum.
 

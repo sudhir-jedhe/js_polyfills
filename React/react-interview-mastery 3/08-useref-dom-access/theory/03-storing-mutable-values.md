@@ -1,4 +1,4 @@
-*** copy 03-storing-mutable-values.md ***
+***  03-storing-mutable-values.md ***
 
 # Storing mutable values across renders
 

@@ -1,4 +1,4 @@
-*** copy 05-object-fit-object-position.md ***
+***  05-object-fit-object-position.md ***
 
 # `object-fit` and `object-position`: HTML + CSS Interplay
 

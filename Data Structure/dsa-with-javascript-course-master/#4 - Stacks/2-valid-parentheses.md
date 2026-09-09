@@ -1,4 +1,4 @@
-*** copy 2-valid-parentheses.md ***
+***  2-valid-parentheses.md ***
 
 // Ques 2 : Given a string s containing just the characters '(', ')', '{', '}', '[' and ']',
 //          determine if the input string is valid.

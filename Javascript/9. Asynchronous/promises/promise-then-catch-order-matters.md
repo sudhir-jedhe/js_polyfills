@@ -1,4 +1,4 @@
-*** copy promise-then-catch-order-matters.md ***
+***  promise-then-catch-order-matters.md ***
 
 The order of then and catch matters
 

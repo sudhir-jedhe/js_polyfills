@@ -1,4 +1,4 @@
-*** copy When multiple components request the same API endpoint simultaneously.md ***
+***  When multiple components request the same API endpoint simultaneously.md ***
 
 When **multiple components request the same API endpoint simultaneously or repeatedly**, making duplicate network calls degrades application performance and overloads the server.
 

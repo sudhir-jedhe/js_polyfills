@@ -1,4 +1,4 @@
-*** copy generateOTP.md ***
+***  generateOTP.md ***
 
 ```js
 // Function to generate OTP

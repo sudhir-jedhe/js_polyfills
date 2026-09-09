@@ -1,4 +1,4 @@
-*** copy Responsive Images: srcset, sizes, and picture.md ***
+***  Responsive Images: srcset, sizes, and picture.md ***
 
 # Responsive Images: `srcset`, `sizes`, and `<picture>`
 

@@ -1,4 +1,4 @@
-*** copy customDataGrid.md ***
+***  customDataGrid.md ***
 
 Building a high-performance **Custom Data Grid** in React from scratch requires handling virtual scrolling (for rendering thousands of rows without crashing the DOM), column resizing, sorting, filtering, row selection, and pin/freeze features.
 

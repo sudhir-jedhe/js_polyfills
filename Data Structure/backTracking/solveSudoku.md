@@ -1,4 +1,4 @@
-*** copy solveSudoku.md ***
+***  solveSudoku.md ***
 
 // Javascript program for above approach
 

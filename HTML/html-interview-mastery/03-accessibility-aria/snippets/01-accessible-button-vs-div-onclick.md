@@ -1,4 +1,4 @@
-*** copy 01-accessible-button-vs-div-onclick.md ***
+***  01-accessible-button-vs-div-onclick.md ***
 
 # Snippet: Accessible Button vs. `<div onclick>`
 

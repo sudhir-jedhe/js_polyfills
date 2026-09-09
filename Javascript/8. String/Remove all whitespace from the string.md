@@ -1,4 +1,4 @@
-*** copy Remove all whitespace from the string.md ***
+***  Remove all whitespace from the string.md ***
 
 ```js
 let text = "   Learnersbucket    ";

@@ -1,4 +1,4 @@
-*** copy What is closute .  What are advantages and disadvantages, code snipets.md ***
+***  What is closute .  What are advantages and disadvantages, code snipets.md ***
 
 A **closure** is the combination of a function bundled together with references to its surrounding state (lexical environment). In JavaScript, a closure gives an inner function access to an outer function's scope even after the outer function has finished executing and returned.
 

@@ -1,4 +1,4 @@
-*** copy doRightWhile.md ***
+***  doRightWhile.md ***
 
 ```js
 function dropRightWhile(array, predicate) {

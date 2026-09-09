@@ -1,4 +1,4 @@
-*** copy complete layout.md ***
+***  complete layout.md ***
 
 Here is a complete, production-ready React layout architecture that meets all your requirements: a top navigation bar with a hamburger drawer toggle, dynamic React Router breadcrumbs, a central main content area, and a right-side Table of Contents (TOC) with smooth-scrolling and scroll-spy functionality.
 

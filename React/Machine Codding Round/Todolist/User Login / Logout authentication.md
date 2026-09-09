@@ -1,2 +1,2 @@
-*** copy  Logout authentication.md ***
+***   Logout authentication.md ***
 

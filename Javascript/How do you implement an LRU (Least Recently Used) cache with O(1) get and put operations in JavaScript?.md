@@ -1,4 +1,4 @@
-*** copy How do you implement an LRU (Least Recently Used) cache with O(1) get and put operations in JavaScript?.md ***
+***  How do you implement an LRU (Least Recently Used) cache with O(1) get and put operations in JavaScript?.md ***
 
 An **LRU (Least Recently Used) Cache** requires $O(1)$ time complexity for both `get` and `put` operations.
 

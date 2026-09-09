@@ -1,4 +1,4 @@
-*** copy 06-aria-live-polite-vs-assertive.md ***
+***  06-aria-live-polite-vs-assertive.md ***
 
 # Output: `aria-live="polite"` vs. `"assertive"` Timing
 

@@ -1,4 +1,4 @@
-*** copy ToolTip.md ***
+***  ToolTip.md ***
 
 import React, { Component } from "react";
 import styles from "./index.module.css";

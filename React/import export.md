@@ -1,4 +1,4 @@
-*** copy import export.md ***
+***  import export.md ***
 
 In modern JavaScript and React, **`import`** and **`export`** (introduced in ES6) are used to share code—like components, functions, or variables—across different files. This module system keeps your code organized, reusable, and maintainable.
 

@@ -1,4 +1,4 @@
-*** copy useAsync.md ***
+***  useAsync.md ***
 
 // useAsync(asyncFn, immediate) takes an async function and an immediate flag as input and it will provide an abstraction for complete async operation (API calls) in React, in return it will give the status, value, error, refetch.
 

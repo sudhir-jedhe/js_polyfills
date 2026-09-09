@@ -1,4 +1,4 @@
-*** copy entries.md ***
+***  entries.md ***
 
 The code you shared demonstrates how to work with key-value pairs and objects in JavaScript. Let's break it down and clarify what each part of the code does:
 

@@ -1,4 +1,4 @@
-*** copy find-maximum-number-of-pieces-in-n-cuts.md ***
+***  find-maximum-number-of-pieces-in-n-cuts.md ***
 
 ```js
 /*

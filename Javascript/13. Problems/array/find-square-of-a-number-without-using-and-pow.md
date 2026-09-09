@@ -1,4 +1,4 @@
-*** copy find-square-of-a-number-without-using-and-pow.md ***
+***  find-square-of-a-number-without-using-and-pow.md ***
 
 ```js
 const square = (n) => {

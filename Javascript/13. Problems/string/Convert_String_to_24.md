@@ -1,4 +1,4 @@
-*** copy Convert_String_to_24.md ***
+***  Convert_String_to_24.md ***
 
 ```js
 function convertTo24HourFormat(timeString) { 

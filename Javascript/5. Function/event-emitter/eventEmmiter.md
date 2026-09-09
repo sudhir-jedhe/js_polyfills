@@ -1,4 +1,4 @@
-*** copy eventEmmiter.md ***
+***  eventEmmiter.md ***
 
 Here's a complete implementation of the `EventEmitter` class in JavaScript based on the requirements and features outlined above.
 

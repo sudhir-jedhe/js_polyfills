@@ -1,4 +1,4 @@
-*** copy How do useTransition and useDeferredValue improve Interaction to Next Paint (INP) in React?.md ***
+***  How do useTransition and useDeferredValue improve Interaction to Next Paint (INP) in React?.md ***
 
 `useTransition` and `useDeferredValue` leverage React's **Concurrent Renderer** to split state updates into two distinct priority tiers: **urgent** updates (immediate user feedback) and **transition/non-urgent** updates (heavy computations and large UI re-renders).
 

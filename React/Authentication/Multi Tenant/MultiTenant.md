@@ -1,4 +1,4 @@
-*** copy MultiTenant.md ***
+***  MultiTenant.md ***
 
 ### Multi-Tenant React Application Interview Questions
 

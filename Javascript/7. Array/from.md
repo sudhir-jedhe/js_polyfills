@@ -1,4 +1,4 @@
-*** copy from.md ***
+***  from.md ***
 
 ### Explanation of the Code
 

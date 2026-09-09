@@ -1,4 +1,4 @@
-*** copy Why React?".md ***
+***  Why React?".md ***
 
 When interviewers ask **"Why React?"**, mentioning **Component-Based Architecture**, **Virtual DOM**, **Large Ecosystem**, and **Easy Integration** is the standard answer.
 

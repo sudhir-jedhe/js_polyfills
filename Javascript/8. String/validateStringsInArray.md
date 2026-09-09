@@ -1,4 +1,4 @@
-*** copy validateStringsInArray.md ***
+***  validateStringsInArray.md ***
 
 ```js
 export const validateStrings = (array) => {

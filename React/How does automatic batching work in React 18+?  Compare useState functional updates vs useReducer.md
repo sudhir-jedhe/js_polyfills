@@ -1,4 +1,4 @@
-*** copy How does automatic batching work in React 18+?  Compare useState functional updates vs useReducer.md ***
+***  How does automatic batching work in React 18+?  Compare useState functional updates vs useReducer.md ***
 
 **How Automatic Batching Works in React 18+**
 

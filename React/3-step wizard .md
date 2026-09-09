@@ -1,4 +1,4 @@
-*** copy 3-step wizard .md ***
+***  3-step wizard .md ***
 
 # Event Creation Wizard (React + Zod + useActionState)
 

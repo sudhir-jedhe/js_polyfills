@@ -1,4 +1,4 @@
-*** copy findIndex.md ***
+***  findIndex.md ***
 
 Your code provides various examples of how to find the index of an element in an array, with a few custom implementations and different scenarios. Let's break it down:
 

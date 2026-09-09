@@ -1,4 +1,4 @@
-*** copy How do I configure a strict Content Security Policy (CSP) with nonces for a React SPA?.md ***
+***  How do I configure a strict Content Security Policy (CSP) with nonces for a React SPA?.md ***
 
 A strict, nonce-based **Content Security Policy (CSP)** blocks Cross-Site Scripting (XSS) by preventing arbitrary inline scripts, eval execution, and unauthorized third-party origins from running.
 

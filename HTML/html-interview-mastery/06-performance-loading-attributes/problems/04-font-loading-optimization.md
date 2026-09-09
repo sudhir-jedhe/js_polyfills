@@ -1,4 +1,4 @@
-*** copy 04-font-loading-optimization.md ***
+***  04-font-loading-optimization.md ***
 
 # Problem: Eliminate Flash of Invisible Text for a Self-Hosted Font
 

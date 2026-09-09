@@ -1,4 +1,4 @@
-*** copy 50 components share one context. It updates. What re-renders and why?.md ***
+***  50 components share one context. It updates. What re-renders and why?.md ***
 
 When a React Context provider's value updates, **all 50 components that consume that context (via `useContext(MyContext)` or `<MyContext.Consumer>`) will re-render.**
 

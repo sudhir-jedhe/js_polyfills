@@ -1,4 +1,4 @@
-*** copy remove-false-value.md ***
+***  remove-false-value.md ***
 
 Both implementations effectively remove "falsy" values from the array, which include `false`, `0`, `""` (empty string), `null`, `undefined`, and `NaN`.
 

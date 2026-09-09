@@ -1,4 +1,4 @@
-*** copy helper.md ***
+***  helper.md ***
 
 export function createElement(type, properties) {
   const element = document.createElement(type);

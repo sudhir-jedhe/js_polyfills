@@ -1,4 +1,4 @@
-*** copy 04-stop-propagation-basic.md ***
+***  04-stop-propagation-basic.md ***
 
 # Output-Based: What's logged when the inner button is clicked?
 

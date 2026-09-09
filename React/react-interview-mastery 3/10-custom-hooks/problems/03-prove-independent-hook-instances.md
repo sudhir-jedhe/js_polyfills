@@ -1,4 +1,4 @@
-*** copy 03-prove-independent-hook-instances.md ***
+***  03-prove-independent-hook-instances.md ***
 
 # Problem 3: Prove Two Components Calling the Same Custom Hook Get Independent State
 

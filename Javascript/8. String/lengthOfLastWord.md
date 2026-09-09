@@ -1,4 +1,4 @@
-*** copy lengthOfLastWord.md ***
+***  lengthOfLastWord.md ***
 
 Your solution for **LeetCode 58: Length of Last Word** is **optimal, clean, and runs in $\mathcal{O}(N)$ time with $\mathcal{O}(1)$ space**.
 

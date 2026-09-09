@@ -1,4 +1,4 @@
-*** copy 04-lazy-loading-image-gallery.md ***
+***  04-lazy-loading-image-gallery.md ***
 
 # Snippet: Lazy-Loaded Image Gallery with Reserved Space
 

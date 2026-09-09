@@ -1,4 +1,4 @@
-*** copy for-in.md ***
+***  for-in.md ***
 
 ```js
 

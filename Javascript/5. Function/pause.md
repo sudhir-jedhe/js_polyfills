@@ -1,4 +1,4 @@
-*** copy pause.md ***
+***  pause.md ***
 
 Your `pause` function is already correctly implemented and explained! It uses `setTimeout` wrapped in a `Promise` to introduce a delay, and when combined with `async` and `await`, it pauses the execution of code until the specified duration has passed.
 

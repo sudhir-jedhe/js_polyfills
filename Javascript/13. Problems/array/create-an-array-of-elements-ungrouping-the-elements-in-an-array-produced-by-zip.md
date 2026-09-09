@@ -1,4 +1,4 @@
-*** copy create-an-array-of-elements-ungrouping-the-elements-in-an-array-produced-by-zip.md ***
+***  create-an-array-of-elements-ungrouping-the-elements-in-an-array-produced-by-zip.md ***
 
 ```js
 // Zip creates an array of elements, grouped based on their position in the original arrays

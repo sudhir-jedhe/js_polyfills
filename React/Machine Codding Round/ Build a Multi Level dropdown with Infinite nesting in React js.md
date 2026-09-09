@@ -1,4 +1,4 @@
-*** copy  Build a Multi Level dropdown with Infinite nesting in React js.md ***
+***   Build a Multi Level dropdown with Infinite nesting in React js.md ***
 
 An infinite-level nested dropdown in React using a **recursive component tree pattern**, automatic click-outside detection, keyboard accessibility, and hover/click expansion triggers.
 

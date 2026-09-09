@@ -1,4 +1,4 @@
-*** copy Types of objects.md ***
+***  Types of objects.md ***
 
 In JavaScript, **almost everything is an object**. However, to understand the different "types" of objects, it helps to categorize them based on how they are created, their underlying runtime type, and their intended purpose.
 

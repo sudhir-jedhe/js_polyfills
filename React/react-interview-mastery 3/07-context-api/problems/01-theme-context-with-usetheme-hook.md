@@ -1,4 +1,4 @@
-*** copy 01-theme-context-with-usetheme-hook.md ***
+***  01-theme-context-with-usetheme-hook.md ***
 
 # Problem: `ThemeContext` with a `useTheme()` custom hook, throwing outside its Provider
 

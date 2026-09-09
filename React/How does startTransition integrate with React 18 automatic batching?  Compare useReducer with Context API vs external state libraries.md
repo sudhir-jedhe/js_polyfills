@@ -1,4 +1,4 @@
-*** copy How does startTransition integrate with React 18 automatic batching?  Compare useReducer with Context API vs external state libraries.md ***
+***  How does startTransition integrate with React 18 automatic batching?  Compare useReducer with Context API vs external state libraries.md ***
 
 **How `startTransition` Integrates with Automatic Batching**
 

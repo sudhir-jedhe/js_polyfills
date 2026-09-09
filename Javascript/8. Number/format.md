@@ -1,4 +1,4 @@
-*** copy format.md ***
+***  format.md ***
 
 Here's an analysis of each section:
 

@@ -1,4 +1,4 @@
-*** copy 05-accessible-names.md ***
+***  05-accessible-names.md ***
 
 # Accessible Names: `<label>` vs. `aria-label` vs. `aria-labelledby`
 

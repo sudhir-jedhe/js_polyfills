@@ -1,4 +1,4 @@
-*** copy Functional Programming.md ***
+***  Functional Programming.md ***
 
 ### 31. Memoize a function taking a single argument
 

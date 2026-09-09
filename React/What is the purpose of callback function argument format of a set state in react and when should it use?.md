@@ -1,4 +1,4 @@
-*** copy What is the purpose of callback function argument format of a set state in react and when should it use?.md ***
+***  What is the purpose of callback function argument format of a set state in react and when should it use?.md ***
 
 The callback argument format in a state updater function—commonly called the **functional updater pattern** (`setCount(prev => prev + 1)`)—ensures that state updates are calculated using the **most current, pending state value** rather than a potentially stale value captured in a closure.
 

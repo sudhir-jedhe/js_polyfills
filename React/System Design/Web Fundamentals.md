@@ -1,4 +1,4 @@
-*** copy Web Fundamentals.md ***
+***  Web Fundamentals.md ***
 
 # Web Fundamentals — Complete Senior Frontend Interview Deep Dive
 

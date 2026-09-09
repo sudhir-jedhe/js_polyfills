@@ -1,4 +1,4 @@
-*** copy Container Queries.md ***
+***  Container Queries.md ***
 
 In CSS, **container queries** are a new and powerful feature that allows you to apply styles based on the size of a container element, rather than the viewport size. This is useful for responsive design, particularly when you need to make a component or element adapt its layout based on the size of its parent container, rather than the whole page.
 

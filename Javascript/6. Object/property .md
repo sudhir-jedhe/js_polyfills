@@ -1,4 +1,4 @@
-*** copy property .md ***
+***  property .md ***
 
 In the code you provided, you're using objects `a` and `b` as keys to the `obj` object, and then assigning new objects to those keys. However, when you use objects as keys in JavaScript, the object is automatically converted to a string using the `toString()` method of the object. This can cause some unexpected behavior.
 

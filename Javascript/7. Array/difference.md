@@ -1,4 +1,4 @@
-*** copy difference.md ***
+***  difference.md ***
 
 ### Array Difference Implementation in JavaScript
 

@@ -1,4 +1,4 @@
-*** copy make-middle-node-head-linked-list.md ***
+***  make-middle-node-head-linked-list.md ***
 
 // Input  : 1 2 3 4 5
 // Output : 3 1 2 4 5

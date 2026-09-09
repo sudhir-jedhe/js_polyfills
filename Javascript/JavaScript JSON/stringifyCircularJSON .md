@@ -1,4 +1,4 @@
-*** copy stringifyCircularJSON .md ***
+***  stringifyCircularJSON .md ***
 
 ### Handling Circular References in JSON
 

@@ -1,4 +1,4 @@
-*** copy 02-implement-usefetch-with-abort-on-unmount.md ***
+***  02-implement-usefetch-with-abort-on-unmount.md ***
 
 # Problem 2: Implement `useFetch(url)` With Loading/Error/Data State and Abort-on-Unmount
 

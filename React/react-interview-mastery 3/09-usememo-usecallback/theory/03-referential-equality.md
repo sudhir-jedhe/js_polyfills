@@ -1,4 +1,4 @@
-*** copy 03-referential-equality.md ***
+***  03-referential-equality.md ***
 
 # Why Referential Equality Matters
 

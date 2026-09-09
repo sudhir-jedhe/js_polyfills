@@ -1,4 +1,4 @@
-*** copy append.md ***
+***  append.md ***
 
 In the code you've provided, you're adding custom methods to the `Array.prototype` to replicate the functionality of appending elements at the start or end of an array. Let's walk through the code and address some key issues with the `customAppendAtStart` method.
 

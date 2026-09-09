@@ -1,4 +1,4 @@
-*** copy How do detached DOM leaks happen in React useEffect cleanups and Vue unmounted hooks?.md ***
+***  How do detached DOM leaks happen in React useEffect cleanups and Vue unmounted hooks?.md ***
 
 In component-driven frameworks like React and Vue, detached DOM leaks occur when a component is unmounted and its elements are removed from the browser's render tree, but asynchronous tasks, global listeners, external third-party instances, or closures created during its lifecycle still hold references to those elements or the component's internal fiber/instance nodes.
 

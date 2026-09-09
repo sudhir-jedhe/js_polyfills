@@ -1,4 +1,4 @@
-*** copy React Rendering.md ***
+***  React Rendering.md ***
 
 When state or props change in a React application, React undergoes a structured lifecycle to figure out what changed and safely update the screen. This entire process is divided into three main stages: **Trigger Phase**, **Render Phase**, and **Commit Phase**.
 

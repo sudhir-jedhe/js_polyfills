@@ -1,4 +1,4 @@
-*** copy Optimization Technique.md ***
+***  Optimization Technique.md ***
 
 # React & Web Performance Optimization Techniques
 

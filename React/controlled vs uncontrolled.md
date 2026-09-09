@@ -1,4 +1,4 @@
-*** copy controlled vs uncontrolled.md ***
+***  controlled vs uncontrolled.md ***
 
 In React, components can be classified as **controlled** or **uncontrolled** based on how they manage their state. The distinction between the two lies in how the component's form elements (like input fields) are handled in terms of data flow and state management.
 

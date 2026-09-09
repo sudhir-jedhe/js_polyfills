@@ -1,4 +1,4 @@
-*** copy 05-robots-meta-vs-robots-txt.md ***
+***  05-robots-meta-vs-robots-txt.md ***
 
 # Robots Meta Tag vs. `robots.txt`
 

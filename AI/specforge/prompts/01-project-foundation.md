@@ -1,4 +1,4 @@
-*** copy 01-project-foundation.md ***
+***  01-project-foundation.md ***
 
 Use @specs/01-project-foundation.md as the source of truth.
 

@@ -1,4 +1,4 @@
-*** copy How do you use React Developer Tools Profiler and why-did-you-render to catch unnecessary re-renders?.md ***
+***  How do you use React Developer Tools Profiler and why-did-you-render to catch unnecessary re-renders?.md ***
 
 Catching and fixing unnecessary re-renders in React requires measuring **when** and **why** a component renders. Two primary tools are used for this:
 

@@ -1,4 +1,4 @@
-*** copy 04-native-confirm-delete-modal.md ***
+***  04-native-confirm-delete-modal.md ***
 
 # Scenario: Replacing a Custom Modal with `<dialog>` for a Confirm-Delete Flow
 

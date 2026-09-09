@@ -1,4 +1,4 @@
-*** copy How do JavaScript closures allocate variables on the heap instead of the stack?.md ***
+***  How do JavaScript closures allocate variables on the heap instead of the stack?.md ***
 
 JavaScript engines (like V8) determine variable allocation using a compile-time process known as **Scope Analysis** and **Escape Analysis**.
 

@@ -1,4 +1,4 @@
-*** copy 01-consolidate-duplicated-fetch-logic.md ***
+***  01-consolidate-duplicated-fetch-logic.md ***
 
 # Scenario: Five Components Each Reimplement Ad-Hoc Fetch Logic, Inconsistently
 

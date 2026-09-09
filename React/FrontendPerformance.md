@@ -1,4 +1,4 @@
-*** copy FrontendPerformance.md ***
+***  FrontendPerformance.md ***
 
 # Frontend Performance Deep Dive (Senior React Interview Guide)
 

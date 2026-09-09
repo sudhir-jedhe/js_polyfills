@@ -1,4 +1,4 @@
-*** copy generateSecurePassword.md ***
+***  generateSecurePassword.md ***
 
 To generate a cryptographically secure random password (composed of letters, numbers, and special symbols), you must draw random values from **`window.crypto.getRandomValues()`** and use **rejection sampling** to prevent modulo bias.
 

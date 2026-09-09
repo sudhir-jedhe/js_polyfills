@@ -1,4 +1,4 @@
-*** copy rgbToHex.md ***
+***  rgbToHex.md ***
 
 Your `rgbToHex` implementation is **clean, robust, and well-structured**!
 

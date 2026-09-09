@@ -1,4 +1,4 @@
-*** copy CSR (Client-Side Rendering) vs SSR (Server-Side Rendering).md ***
+***  CSR (Client-Side Rendering) vs SSR (Server-Side Rendering).md ***
 
 ### **CSR (Client-Side Rendering) vs SSR (Server-Side Rendering)**
 

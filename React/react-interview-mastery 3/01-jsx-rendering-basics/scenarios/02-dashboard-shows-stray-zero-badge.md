@@ -1,4 +1,4 @@
-*** copy 02-dashboard-shows-stray-zero-badge.md ***
+***  02-dashboard-shows-stray-zero-badge.md ***
 
 # Dashboard Shows a Stray "0" Instead of Staying Blank
 

@@ -1,4 +1,4 @@
-*** copy jsToJson.md ***
+***  jsToJson.md ***
 
 The code you provided implements a function, `convertValueToJsonString`, that converts a value to a JSON string if it is an object or an array. Otherwise, it converts the value to a string representation.
 

@@ -1,4 +1,4 @@
-*** copy Styling.md ***
+***  Styling.md ***
 
 # Styling in React — Complete Senior Frontend Interview Deep Dive
 

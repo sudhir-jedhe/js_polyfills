@@ -1,4 +1,4 @@
-*** copy toReversed.md ***
+***  toReversed.md ***
 
 ```js
 

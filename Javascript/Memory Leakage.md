@@ -1,4 +1,4 @@
-*** copy Memory Leakage.md ***
+***  Memory Leakage.md ***
 
 Handling arrays in JavaScript Proxy systems is uniquely challenging because array operations mutate multiple internal targets simultaneously. When you call an array method like `push()`, `pop()`, or `splice()`, JavaScript updates both the **numeric index properties** (e.g., `arr[3] = 'x'`) and the **`length` property** under the hood.
 

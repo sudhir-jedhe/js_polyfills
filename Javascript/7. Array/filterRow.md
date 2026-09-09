@@ -1,4 +1,4 @@
-*** copy filterRow.md ***
+***  filterRow.md ***
 
 Your `filterRows` function looks great and correctly implements a basic filtering mechanism. Let's break down how it works and confirm the logic:
 

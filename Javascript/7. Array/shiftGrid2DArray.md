@@ -1,4 +1,4 @@
-*** copy shiftGrid2DArray.md ***
+***  shiftGrid2DArray.md ***
 
 ### Explanation of the `shiftGrid` function
 

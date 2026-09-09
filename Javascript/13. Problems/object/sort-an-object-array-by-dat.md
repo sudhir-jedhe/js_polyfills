@@ -1,4 +1,4 @@
-*** copy sort-an-object-array-by-dat.md ***
+***  sort-an-object-array-by-dat.md ***
 
 ```js
 let Arr = [

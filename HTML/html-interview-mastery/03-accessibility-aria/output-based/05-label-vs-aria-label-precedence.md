@@ -1,4 +1,4 @@
-*** copy 05-label-vs-aria-label-precedence.md ***
+***  05-label-vs-aria-label-precedence.md ***
 
 # Output: `<label>` Text vs. `aria-label` — Which Wins?
 

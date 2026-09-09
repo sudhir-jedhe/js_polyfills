@@ -1,4 +1,4 @@
-*** copy promise_then_callbacks.md ***
+***  promise_then_callbacks.md ***
 
 Promise.resolve(1)
   .then(() => 2) // not utilise value 1 from resolve. so return 2

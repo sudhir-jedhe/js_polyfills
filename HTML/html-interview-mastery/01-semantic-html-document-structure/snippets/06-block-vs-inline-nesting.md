@@ -1,4 +1,4 @@
-*** copy 06-block-vs-inline-nesting.md ***
+***  06-block-vs-inline-nesting.md ***
 
 # Snippet: Block vs. Inline Nesting Rules
 

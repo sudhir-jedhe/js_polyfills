@@ -1,4 +1,4 @@
-*** copy array-includes-any-or-all-values.md ***
+***  array-includes-any-or-all-values.md ***
 
 To check if a JavaScript array includes **any** or **all** values from another array, we can use `Array.prototype.includes()` in combination with `Array.prototype.some()` or `Array.prototype.every()` depending on whether we want to check for **any** or **all** values.
 

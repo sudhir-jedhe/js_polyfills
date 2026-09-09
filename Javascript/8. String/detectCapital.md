@@ -1,4 +1,4 @@
-*** copy detectCapital.md ***
+***  detectCapital.md ***
 
 ```js
 function detectCapitalUse(word: string): boolean {

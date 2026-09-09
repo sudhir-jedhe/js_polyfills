@@ -1,4 +1,4 @@
-*** copy find-all-autobiographical-numbers-with-given-number-of-digits.md ***
+***  find-all-autobiographical-numbers-with-given-number-of-digits.md ***
 
 ```js
 // Given N as the number of digits, the task is to find all the Autobiographical Numbers whose length is equal to N.

@@ -1,4 +1,4 @@
-*** copy 1-circular-queue.md ***
+***  1-circular-queue.md ***
 
 // Ques 1 : Circular Queue Implementation
 // Design your implementation of the circular queue. The circular queue is a

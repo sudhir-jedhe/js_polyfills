@@ -1,4 +1,4 @@
-*** copy Higher-Order Component.md ***
+***  Higher-Order Component.md ***
 
 In React, **HOC** stands for **Higher-Order Component**.
 

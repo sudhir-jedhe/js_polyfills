@@ -1,4 +1,4 @@
-*** copy How do I implement accessible multi-row selection and batch action toolbars in TanStack Table?.md ***
+***  How do I implement accessible multi-row selection and batch action toolbars in TanStack Table?.md ***
 
 Implementing accessible multi-row selection and batch action toolbars in TanStack Table (v8) requires:
 

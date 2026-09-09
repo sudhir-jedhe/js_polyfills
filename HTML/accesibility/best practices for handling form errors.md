@@ -1,4 +1,4 @@
-*** copy best practices for handling form errors.md ***
+***  best practices for handling form errors.md ***
 
 Ensuring that form error messages are accessible is a key part of creating inclusive web applications. Making sure error messages are properly announced by screen readers, easy to find, and clearly associated with the corresponding form fields is essential for accessibility.
 

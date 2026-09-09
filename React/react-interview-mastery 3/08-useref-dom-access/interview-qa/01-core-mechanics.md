@@ -1,4 +1,4 @@
-*** copy 01-core-mechanics.md ***
+***  01-core-mechanics.md ***
 
 # Interview Q&A: useRef Core Mechanics
 

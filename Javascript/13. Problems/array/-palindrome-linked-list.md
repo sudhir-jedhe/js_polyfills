@@ -1,4 +1,4 @@
-*** copy -palindrome-linked-list.md ***
+***  -palindrome-linked-list.md ***
 
 ```js
 Input:

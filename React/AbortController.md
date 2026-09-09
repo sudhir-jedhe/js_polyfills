@@ -1,4 +1,4 @@
-*** copy AbortController.md ***
+***  AbortController.md ***
 
 Managing asynchronous network requests with `AbortController` prevents **race conditions** (where an older, slower request overwrites newer data) and avoids memory/state updates after a component unmounts.
 

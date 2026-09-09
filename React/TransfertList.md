@@ -1,4 +1,4 @@
-*** copy TransfertList.md ***
+***  TransfertList.md ***
 
 To implement the requirements you mentioned in React using mock APIs and promises, follow the steps below. We'll break the task into parts for clarity.
 

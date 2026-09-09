@@ -1,4 +1,4 @@
-*** copy detectType.md ***
+***  detectType.md ***
 
 Your function `detectType(data)` is a clever and effective way to determine the type of a given data value. Let's break it down and provide some additional insights:
 

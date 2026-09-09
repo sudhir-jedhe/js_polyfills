@@ -1,4 +1,4 @@
-*** copy reload-page.md ***
+***  reload-page.md ***
 
 Reloading a webpage programmatically using JavaScript can be done in multiple ways, each suited to different scenarios. Here's an overview and explanation of the most common methods:
 

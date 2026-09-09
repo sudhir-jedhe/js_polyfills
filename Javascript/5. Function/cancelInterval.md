@@ -1,4 +1,4 @@
-*** copy cancelInterval.md ***
+***  cancelInterval.md ***
 
 ```js
 

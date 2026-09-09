@@ -1,4 +1,4 @@
-*** copy React Hook Form.md ***
+***  React Hook Form.md ***
 
 **React Hook Form** provides high-performance forms in React by leveraging **uncontrolled inputs** under the hood. Unlike traditional controlled components that trigger a full component re-render on every keystroke, React Hook Form isolated updates to the DOM node, keeping re-renders near zero.
 

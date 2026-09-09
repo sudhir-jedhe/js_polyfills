@@ -1,4 +1,4 @@
-*** copy await does not work as expected inside Array.prototype.forEach and how to fix it.md ***
+***  await does not work as expected inside Array.prototype.forEach and how to fix it.md ***
 
 When using `async/await` inside `Array.prototype.forEach()`, the loop **does not wait for async operations to complete** before moving to the next element or continuing execution after the loop.
 

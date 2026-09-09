@@ -1,4 +1,4 @@
-*** copy 06-json-ld-faq-page.md ***
+***  06-json-ld-faq-page.md ***
 
 # Snippet: JSON-LD Structured Data for an FAQ Page
 

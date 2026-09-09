@@ -1,4 +1,4 @@
-*** copy interview1.md ***
+***  interview1.md ***
 
 🧠 JavaScript Fundamentals
 

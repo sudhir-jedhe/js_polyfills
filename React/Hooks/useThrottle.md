@@ -1,4 +1,4 @@
-*** copy useThrottle.md ***
+***  useThrottle.md ***
 
 // Throttling is a way/technique to restrict the number of function execution/call. For example, consider a lucky draw number generator, we want to get a number only after a particular time.
 

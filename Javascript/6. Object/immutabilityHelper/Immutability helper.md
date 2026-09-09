@@ -1,4 +1,4 @@
-*** copy Immutability helper.md ***
+***  Immutability helper.md ***
 
 The goal of your `update` function is to implement an immutability helper that can perform various updates on data structures such as arrays and objects. You have provided several versions and approaches to solve the problem. I’ll go through your different approaches and explain them, offering refinements where needed.
 

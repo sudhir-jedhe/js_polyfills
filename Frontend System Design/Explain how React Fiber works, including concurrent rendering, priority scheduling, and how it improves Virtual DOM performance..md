@@ -1,4 +1,4 @@
-*** copy Explain how React Fiber works, including concurrent rendering, priority scheduling, and how it improves Virtual DOM performance..md ***
+***  Explain how React Fiber works, including concurrent rendering, priority scheduling, and how it improves Virtual DOM performance..md ***
 
 Before **React 16**, React’s reconciliation engine (often referred to as the **Stack Reconciler**) processed component updates recursively.
 

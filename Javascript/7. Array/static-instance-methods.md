@@ -1,4 +1,4 @@
-*** copy static-instance-methods.md ***
+***  static-instance-methods.md ***
 
 You're absolutely right in your explanation of **static** and **instance** methods in JavaScript. Let's break down the details of both, and how they apply to arrays and classes.
 

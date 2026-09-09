@@ -1,4 +1,4 @@
-*** copy Objects Iterable.md ***
+***  Objects Iterable.md ***
 
 **Making Objects Iterable with Generators in JavaScript**
 

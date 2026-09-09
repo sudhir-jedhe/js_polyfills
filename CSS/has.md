@@ -1,4 +1,4 @@
-*** copy has.md ***
+***  has.md ***
 
 # CSS `:has()` Selector (Game Changer 🚀)
 

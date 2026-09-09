@@ -1,4 +1,4 @@
-*** copy object-fit and object-position in CSS.md ***
+***  object-fit and object-position in CSS.md ***
 
 ### `object-fit` and `object-position` in CSS
 

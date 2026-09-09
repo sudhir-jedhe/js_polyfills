@@ -1,4 +1,4 @@
-*** copy Configure fluid spacing and padding tokens with @theme.md ***
+***  Configure fluid spacing and padding tokens with @theme.md ***
 
 In Tailwind CSS v4, defining custom spacing variables inside the `@theme` directive under the `--spacing-*` namespace automatically binds them across all spacing, padding, margin, gap, and dimension utilities without requiring manual configuration in JavaScript.
 

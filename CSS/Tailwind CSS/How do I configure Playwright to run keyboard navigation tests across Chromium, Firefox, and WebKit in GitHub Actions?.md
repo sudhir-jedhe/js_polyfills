@@ -1,4 +1,4 @@
-*** copy How do I configure Playwright to run keyboard navigation tests across Chromium, Firefox, and WebKit in GitHub Actions?.md ***
+***  How do I configure Playwright to run keyboard navigation tests across Chromium, Firefox, and WebKit in GitHub Actions?.md ***
 
 To run cross-browser keyboard navigation tests reliably across **Chromium**, **Firefox**, and **WebKit** in GitHub Actions, you need to account for engine-specific keyboard quirks (such as macOS/WebKit key modifiers and Focus/Tab navigation behaviors) and parallelize execution across test matrices.
 

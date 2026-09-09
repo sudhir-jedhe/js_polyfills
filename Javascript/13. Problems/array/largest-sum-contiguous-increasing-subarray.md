@@ -1,4 +1,4 @@
-*** copy largest-sum-contiguous-increasing-subarray.md ***
+***  largest-sum-contiguous-increasing-subarray.md ***
 
 ```js
 // Input : arr[] = {2, 1, 4, 7, 3, 6}

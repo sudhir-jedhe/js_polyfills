@@ -1,4 +1,4 @@
-*** copy InnerRecursiveHelper3.md ***
+***  InnerRecursiveHelper3.md ***
 
 In Approach 3, the main difference from the previous two approaches is that the recursive helper function (`classNamesImpl`) accepts an external `classesArr` argument. This argument is directly modified within each recursive call, and the same instance of `classesArr` is passed along, ensuring that all modifications (adding class names) happen to the same array throughout the recursion. This eliminates the need to return a value from `classNamesImpl`.
 

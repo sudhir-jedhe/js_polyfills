@@ -1,4 +1,4 @@
-*** copy Let's do a mock interview question about React Server Components vs Client Components in Next.js App Router.md ***
+***  Let's do a mock interview question about React Server Components vs Client Components in Next.js App Router.md ***
 
 Here is your mock interview scenario. Treat this like a real conversation—answer in your own words, and we’ll refine your response afterward.
 

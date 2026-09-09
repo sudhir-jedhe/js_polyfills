@@ -1,4 +1,4 @@
-*** copy Handling API failures globally.md ***
+***  Handling API failures globally.md ***
 
 Handling API failures globally ensures your application gracefully copes with network drops, backend crashes, expired authentication tokens, and server errors without duplicating error-handling code across dozens of components.
 

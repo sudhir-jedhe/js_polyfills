@@ -1,4 +1,4 @@
-*** copy promisify.md ***
+***  promisify.md ***
 
 ```js
 const myPromisify = (fn) => {

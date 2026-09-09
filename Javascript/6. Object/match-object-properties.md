@@ -1,4 +1,4 @@
-*** copy match-object-properties.md ***
+***  match-object-properties.md ***
 
 ### Comparing JavaScript Objects for Equality
 

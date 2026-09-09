@@ -1,4 +1,4 @@
-*** copy 02-accessible-custom-dropdown-combobox.md ***
+***  02-accessible-custom-dropdown-combobox.md ***
 
 # Scenario: Building an Accessible Custom Dropdown (Combobox)
 

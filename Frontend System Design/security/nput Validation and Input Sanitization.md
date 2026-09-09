@@ -1,4 +1,4 @@
-*** copy nput Validation and Input Sanitization.md ***
+***  nput Validation and Input Sanitization.md ***
 
 In Front-End System Design, **Input Validation** and **Input Sanitization** serve two completely different security and operational purposes:
 

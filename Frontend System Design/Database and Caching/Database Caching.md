@@ -1,4 +1,4 @@
-*** copy Database Caching.md ***
+***  Database Caching.md ***
 
 In **Front-End System Design**, **Database Caching** (more accurately referred to as **Client-Side Data Caching** or **API Response Caching**) refers to the practice of temporarily storing database query results and backend API responses on the user's client (in the browser's memory, IndexedDB, or local storage).
 

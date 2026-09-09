@@ -1,4 +1,4 @@
-*** copy remove-n-elements-from-the-end-of-a-given-arra.md ***
+***  remove-n-elements-from-the-end-of-a-given-arra.md ***
 
 ```js
 // Define the array

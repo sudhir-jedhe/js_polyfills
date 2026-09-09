@@ -1,4 +1,4 @@
-*** copy Explain how React Suspense integrates with useTransition to avoid hiding existing UI during page transitions.md ***
+***  Explain how React Suspense integrates with useTransition to avoid hiding existing UI during page transitions.md ***
 
 When navigating between tabs or pages, standard React `Suspense` immediately replaces the **entire existing content** with a fallback spinner as soon as a new child suspends (throws a Promise).
 

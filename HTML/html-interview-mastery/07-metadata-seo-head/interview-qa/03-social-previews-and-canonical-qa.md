@@ -1,4 +1,4 @@
-*** copy 03-social-previews-and-canonical-qa.md ***
+***  03-social-previews-and-canonical-qa.md ***
 
 # Interview Q&A — Social Previews & Canonical URLs
 

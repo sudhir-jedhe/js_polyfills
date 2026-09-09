@@ -1,4 +1,4 @@
-*** copy collection1.md ***
+***  collection1.md ***
 
 Below are the answers for each problem along with code examples:
 

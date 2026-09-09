@@ -1,4 +1,4 @@
-*** copy 06-proptypes-vs-typescript.md ***
+***  06-proptypes-vs-typescript.md ***
 
 # PropTypes vs. TypeScript for Prop Validation
 

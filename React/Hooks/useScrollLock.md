@@ -1,4 +1,4 @@
-*** copy useScrollLock.md ***
+***  useScrollLock.md ***
 
 Here is a production-ready `useScrollLock` React hook. It prevents background scrolling on `<body>` when modals, drawers, or dialogs are open, accounts for scrollbar layout shift (preventing content jump), supports nested modals with an internal lock counter, and cleans up safely on unmount.
 

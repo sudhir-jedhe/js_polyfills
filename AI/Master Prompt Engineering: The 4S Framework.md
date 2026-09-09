@@ -1,4 +1,4 @@
-*** copy Master Prompt Engineering: The 4S Framework.md ***
+***  Master Prompt Engineering: The 4S Framework.md ***
 
 This infographic introduces **"Master Prompt Engineering: The 4S Framework,"** designed to yield better prompts, smarter AI responses, and better code.
 

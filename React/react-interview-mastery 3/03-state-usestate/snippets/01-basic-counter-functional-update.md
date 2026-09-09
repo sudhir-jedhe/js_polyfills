@@ -1,4 +1,4 @@
-*** copy 01-basic-counter-functional-update.md ***
+***  01-basic-counter-functional-update.md ***
 
 # Basic Counter Using Functional Update
 

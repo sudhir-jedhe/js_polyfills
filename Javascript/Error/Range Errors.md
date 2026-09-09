@@ -1,4 +1,4 @@
-*** copy Range Errors.md ***
+***  Range Errors.md ***
 
 A **`RangeError`** in JavaScript is thrown when a numeric value or a parameter provided to a function is outside of its valid, allowed boundaries.
 

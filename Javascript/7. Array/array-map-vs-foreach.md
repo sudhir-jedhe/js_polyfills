@@ -1,4 +1,4 @@
-*** copy array-map-vs-foreach.md ***
+***  array-map-vs-foreach.md ***
 
 ### Understanding `Array.prototype.map()` vs. `Array.prototype.forEach()`
 

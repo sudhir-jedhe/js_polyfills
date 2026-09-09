@@ -1,4 +1,4 @@
-*** copy separateDuplicatesAndUnique.md ***
+***  separateDuplicatesAndUnique.md ***
 
 Your solution for separating duplicates and unique values from an array is effective and well-structured. Below is an explanation and slight comparison of the three approaches you've provided. Each one is valid, and the choice between them depends on the specific requirements and constraints of your use case.
 

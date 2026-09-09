@@ -1,4 +1,4 @@
-*** copy Client-Side Rendering (CSR) in ReactJS.md ***
+***  Client-Side Rendering (CSR) in ReactJS.md ***
 
 Client-Side Rendering (CSR) is a technique where the browser dynamically renders the web page’s content using JavaScript, rather than relying on the server to provide fully-rendered HTML.
 

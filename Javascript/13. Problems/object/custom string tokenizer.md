@@ -1,4 +1,4 @@
-*** copy custom string tokenizer.md ***
+***  custom string tokenizer.md ***
 
 ```js
 class CustomTokenizer {

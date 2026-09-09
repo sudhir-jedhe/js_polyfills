@@ -1,4 +1,4 @@
-*** copy find-distinct-subset-subsequence-sums-array.md ***
+***  find-distinct-subset-subsequence-sums-array.md ***
 
 ```js
 // Input  : arr[] = {1, 2, 3}

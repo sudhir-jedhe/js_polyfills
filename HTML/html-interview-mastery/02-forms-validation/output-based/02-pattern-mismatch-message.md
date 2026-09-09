@@ -1,4 +1,4 @@
-*** copy 02-pattern-mismatch-message.md ***
+***  02-pattern-mismatch-message.md ***
 
 # Output: `pattern` Mismatch and the `title` Attribute
 

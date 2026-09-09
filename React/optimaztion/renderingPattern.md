@@ -1,4 +1,4 @@
-*** copy renderingPattern.md ***
+***  renderingPattern.md ***
 
 // Article: Container/presentational pattern in React
 // Article: Higher-order component pattern in React

@@ -1,4 +1,4 @@
-*** copy Interactive N x N Grid with Incremental Values on Click.md ***
+***  Interactive N x N Grid with Incremental Values on Click.md ***
 
 # Interactive N x N Grid with Incremental Values on Click
 

@@ -1,4 +1,4 @@
-*** copy productSum.md ***
+***  productSum.md ***
 
 /**
  * Problem: Product Sum: Given an array (that can have nested arrays) - return the sum of all the numbers in the array.

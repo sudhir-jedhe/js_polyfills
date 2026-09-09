@@ -1,4 +1,4 @@
-*** copy CD pipeline.md ***
+***  CD pipeline.md ***
 
 A CI/CD pipeline is an automated workflow that facilitates continuous integration (CI) and continuous delivery or deployment (CD) by managing code building, testing, and release processes.
 

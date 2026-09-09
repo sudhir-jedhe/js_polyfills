@@ -1,4 +1,4 @@
-*** copy min-flips-of-continuous-characters-to-make-all-characters-same-in-a-string.md ***
+***  min-flips-of-continuous-characters-to-make-all-characters-same-in-a-string.md ***
 
 ```js
 // Input : 00011110001110

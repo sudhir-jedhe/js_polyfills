@@ -1,4 +1,4 @@
-*** copy 0-stack-implementation.md ***
+***  0-stack-implementation.md ***
 
 // Basic Stack Implementation
 

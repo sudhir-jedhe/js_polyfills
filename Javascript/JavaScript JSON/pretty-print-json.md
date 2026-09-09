@@ -1,4 +1,4 @@
-*** copy pretty-print-json.md ***
+***  pretty-print-json.md ***
 
 The examples provided highlight the use of the **`JSON.stringify()`** method in JavaScript, which allows for the serialization of objects into JSON strings. Here’s a breakdown of how the code works in both examples:
 

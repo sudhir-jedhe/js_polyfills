@@ -1,4 +1,4 @@
-*** copy check-if-two-stacks-are-equal.md ***
+***  check-if-two-stacks-are-equal.md ***
 
 ```js
 Input:

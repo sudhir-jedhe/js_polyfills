@@ -1,4 +1,4 @@
-*** copy sort.md ***
+***  sort.md ***
 
 This is an extensive collection of examples and explanations for JavaScript's `Array.prototype.sort()` method, as well as a custom sorting implementation. Let’s break down some key points for clarity:
 

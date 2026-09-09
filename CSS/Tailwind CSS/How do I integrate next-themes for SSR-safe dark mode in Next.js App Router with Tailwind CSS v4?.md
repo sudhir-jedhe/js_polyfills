@@ -1,4 +1,4 @@
-*** copy How do I integrate next-themes for SSR-safe dark mode in Next.js App Router with Tailwind CSS v4?.md ***
+***  How do I integrate next-themes for SSR-safe dark mode in Next.js App Router with Tailwind CSS v4?.md ***
 
 Integrating `next-themes` with Tailwind CSS v4 in the Next.js App Router prevents flash of unstyled content (FOUC) and ensures server-safe hydration when switching themes.
 

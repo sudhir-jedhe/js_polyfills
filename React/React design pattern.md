@@ -1,4 +1,4 @@
-*** copy React design pattern.md ***
+***  React design pattern.md ***
 
 React offers several design patterns to structure and organize your application. These patterns improve maintainability, readability, and scalability. Here are the most common React design patterns with explanations and examples:
 
@@ -708,12 +708,12 @@ const App = () => {
 ---
 
 ### **Comparison with Other Patterns**
-| **Feature**                 | **Props Getter Pattern**          | **Render Props Pattern**        | **Higher-Order Components**      |
-|-----------------------------|-----------------------------------|---------------------------------|-----------------------------------|
-| **Customizability**          | High                             | High                            | Moderate                         |
-| **Component Composition**   | Easy                             | Flexible                        | May cause wrapper hell           |
-| **Performance Overhead**    | Low                              | Moderate                        | High                             |
-| **Simplicity**               | Simple and intuitive             | May introduce complexity        | Relatively complex               |
+| **Feature**               | **Props Getter Pattern** | **Render Props Pattern** | **Higher-Order Components** |
+| ------------------------- | ------------------------ | ------------------------ | --------------------------- |
+| **Customizability**       | High                     | High                     | Moderate                    |
+| **Component Composition** | Easy                     | Flexible                 | May cause wrapper hell      |
+| **Performance Overhead**  | Low                      | Moderate                 | High                        |
+| **Simplicity**            | Simple and intuitive     | May introduce complexity | Relatively complex          |
 
 ---
 
@@ -843,12 +843,12 @@ const App = () => {
 
 ### **Comparison with Other Patterns**
 
-| Feature                     | Render Props Pattern            | Higher-Order Component (HOC)     | Props Getter Pattern             |
-|-----------------------------|----------------------------------|----------------------------------|----------------------------------|
-| **Reusability**             | High                            | High                            | High                            |
-| **Customizability**          | Very High                       | Moderate                        | High                            |
-| **Ease of Use**             | Moderate                        | Moderate                        | Simple                          |
-| **Code Clarity**            | May result in nesting (verbose) | Clear but adds wrappers         | Simple and clean                |
+| Feature             | Render Props Pattern            | Higher-Order Component (HOC) | Props Getter Pattern |
+| ------------------- | ------------------------------- | ---------------------------- | -------------------- |
+| **Reusability**     | High                            | High                         | High                 |
+| **Customizability** | Very High                       | Moderate                     | High                 |
+| **Ease of Use**     | Moderate                        | Moderate                     | Simple               |
+| **Code Clarity**    | May result in nesting (verbose) | Clear but adds wrappers      | Simple and clean     |
 
 ---
 
@@ -1332,12 +1332,12 @@ const App = () => {
 
 ### **Comparison with Other Patterns**
 
-| **Feature**            | **Controlled Props**           | **Uncontrolled Components**    | **Hybrid (Partially Controlled)** |
-|-------------------------|---------------------------------|--------------------------------|------------------------------------|
-| **State Management**    | Parent                         | Component                      | Parent or Component               |
-| **Flexibility**         | High                           | Moderate                       | High                              |
-| **Complexity**          | Moderate                       | Low                            | High                              |
-| **Use Case**            | Fine-grained control           | Simpler components             | Complex components with optional overrides |
+| **Feature**          | **Controlled Props** | **Uncontrolled Components** | **Hybrid (Partially Controlled)**          |
+| -------------------- | -------------------- | --------------------------- | ------------------------------------------ |
+| **State Management** | Parent               | Component                   | Parent or Component                        |
+| **Flexibility**      | High                 | Moderate                    | High                                       |
+| **Complexity**       | Moderate             | Low                         | High                                       |
+| **Use Case**         | Fine-grained control | Simpler components          | Complex components with optional overrides |
 
 ---
 
@@ -1763,12 +1763,12 @@ export default App;
 
 ### **Comparison with Other Patterns**
 
-| **Feature**               | **Compound Component Pattern**    | **Higher-Order Component (HOC)**  | **Render Props**               |
-|---------------------------|------------------------------------|----------------------------------|--------------------------------|
-| **State Management**       | Managed by parent (or context)    | Managed by HOC                   | Managed by parent or passed in |
-| **Flexibility**            | Very flexible                     | Less flexible                    | Flexible                       |
-| **Complexity**             | Can become complex with multiple components | May lead to prop drilling       | Can be complex to understand   |
-| **Use Case**               | Complex components with shared state | Enhancing behavior of components | Reusability with shared behavior |
+| **Feature**          | **Compound Component Pattern**              | **Higher-Order Component (HOC)** | **Render Props**                 |
+| -------------------- | ------------------------------------------- | -------------------------------- | -------------------------------- |
+| **State Management** | Managed by parent (or context)              | Managed by HOC                   | Managed by parent or passed in   |
+| **Flexibility**      | Very flexible                               | Less flexible                    | Flexible                         |
+| **Complexity**       | Can become complex with multiple components | May lead to prop drilling        | Can be complex to understand     |
+| **Use Case**         | Complex components with shared state        | Enhancing behavior of components | Reusability with shared behavior |
 
 ---
 
@@ -1942,15 +1942,15 @@ Suppose you need to fetch data from an API across multiple components. Instead o
 
 React design patterns each come with their own set of **use cases**, **benefits**, **advantages**, and **disadvantages**. They help developers organize code more effectively, leading to cleaner, more maintainable applications. However, they should be used thoughtfully, as overuse or inappropriate use can lead to unnecessary complexity.
 
-| Pattern                          | Advantages                                    | Disadvantages                               |
-|----------------------------------|----------------------------------------------|--------------------------------------------|
-| **Container/Presentational**     | Separation of concerns, Reusability          | More boilerplate, Less flexibility         |
-| **Higher-Order Components (HOC)** | Code reusability, Better separation of logic | Prop collision, Harder to debug            |
-| **Render Props**                 | Flexible, Avoids prop drilling               | Can introduce complexity and performance issues |
-| **Compound Components**          | Modularity, Centralized state management     | Tight coupling, Can become complex         |
-| **Hooks**                        | Less boilerplate, Simpler logic              | Learning curve, Potential for overuse      |
-| **Context API**                  | Avoid prop drilling, Centralized state       | Performance issues with excessive use      |
-| **State Reducer**                | Predictable state transitions, Decoupled logic | Verbose, Overkill for simple states       |
-| **Custom Hooks**                 | Code reusability, Cleaner components         | Overuse can lead to excessive abstraction   |
+| Pattern                           | Advantages                                     | Disadvantages                                   |
+| --------------------------------- | ---------------------------------------------- | ----------------------------------------------- |
+| **Container/Presentational**      | Separation of concerns, Reusability            | More boilerplate, Less flexibility              |
+| **Higher-Order Components (HOC)** | Code reusability, Better separation of logic   | Prop collision, Harder to debug                 |
+| **Render Props**                  | Flexible, Avoids prop drilling                 | Can introduce complexity and performance issues |
+| **Compound Components**           | Modularity, Centralized state management       | Tight coupling, Can become complex              |
+| **Hooks**                         | Less boilerplate, Simpler logic                | Learning curve, Potential for overuse           |
+| **Context API**                   | Avoid prop drilling, Centralized state         | Performance issues with excessive use           |
+| **State Reducer**                 | Predictable state transitions, Decoupled logic | Verbose, Overkill for simple states             |
+| **Custom Hooks**                  | Code reusability, Cleaner components           | Overuse can lead to excessive abstraction       |
 
 Each pattern has its ideal use cases depending on the complexity of the app, the needs of the team, and the scalability of the app. Understanding their pros and cons will allow you to make better decisions when choosing a pattern for your application.

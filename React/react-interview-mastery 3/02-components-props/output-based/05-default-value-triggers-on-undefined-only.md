@@ -1,4 +1,4 @@
-*** copy 05-default-value-triggers-on-undefined-only.md ***
+***  05-default-value-triggers-on-undefined-only.md ***
 
 # What Happens Here?
 

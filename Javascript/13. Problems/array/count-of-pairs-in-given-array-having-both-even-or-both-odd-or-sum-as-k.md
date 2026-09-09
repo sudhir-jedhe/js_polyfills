@@ -1,4 +1,4 @@
-*** copy count-of-pairs-in-given-array-having-both-even-or-both-odd-or-sum-as-k.md ***
+***  count-of-pairs-in-given-array-having-both-even-or-both-odd-or-sum-as-k.md ***
 
 ```js
 // Input: N = 6, K = 7, arr[] = {1, 2, 3, 4, 5, 6}

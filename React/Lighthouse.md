@@ -1,4 +1,4 @@
-*** copy Lighthouse.md ***
+***  Lighthouse.md ***
 
 
 Interviewer: What is Lighthouse and why do you use it?

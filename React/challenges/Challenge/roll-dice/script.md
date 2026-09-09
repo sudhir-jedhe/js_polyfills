@@ -1,4 +1,4 @@
-*** copy script.md ***
+***  script.md ***
 
 function createDice(number) {
   const dotPositionMatrix = {

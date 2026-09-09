@@ -1,4 +1,4 @@
-*** copy Why does CSS block rendering even though it is not JavaScript?.md ***
+***  Why does CSS block rendering even though it is not JavaScript?.md ***
 
 Even though CSS does not contain executable logic like JavaScript, it is classified as a **render-blocking resource** by the browser for a very fundamental reason: **to prevent unstyled content layout flashes (FOUC) and avoid expensive, redundant layout recalculations.**
 

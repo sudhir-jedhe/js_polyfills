@@ -1,4 +1,4 @@
-*** copy What are the rules for managing async states across multiple concurrent form actions?.md ***
+***  What are the rules for managing async states across multiple concurrent form actions?.md ***
 
 Managing async states across multiple concurrent form actions requires coordinating optimistic updates, network requests, state transitions, and UI lockouts so that out-of-order responses don't corrupt your application state.
 

@@ -1,4 +1,4 @@
-*** copy findPercentageOfStudent.md ***
+***  findPercentageOfStudent.md ***
 
 ```js
 const students = [

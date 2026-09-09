@@ -1,4 +1,4 @@
-*** copy 03-throwing-custom-hook-wrapper.md ***
+***  03-throwing-custom-hook-wrapper.md ***
 
 # Snippet: Custom hook wrapper that throws if used outside its Provider
 

@@ -1,4 +1,4 @@
-*** copy 05-stable-state-reference-skips-recompute.md ***
+***  05-stable-state-reference-skips-recompute.md ***
 
 # Output-Based: Stable State Reference Skips Recomputation
 

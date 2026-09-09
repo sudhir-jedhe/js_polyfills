@@ -1,4 +1,4 @@
-*** copy 02-cart-quantity-stepper-stale-total.md ***
+***  02-cart-quantity-stepper-stale-total.md ***
 
 # Shopping Cart Quantity Stepper Occasionally Shows a Stale Total
 

@@ -1,4 +1,4 @@
-*** copy 01-srcset-sizes-example.md ***
+***  01-srcset-sizes-example.md ***
 
 # Snippet: `srcset` + `sizes` Responsive Image
 

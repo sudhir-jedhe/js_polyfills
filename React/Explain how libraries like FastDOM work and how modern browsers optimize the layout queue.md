@@ -1,4 +1,4 @@
-*** copy Explain how libraries like FastDOM work and how modern browsers optimize the layout queue.md ***
+***  Explain how libraries like FastDOM work and how modern browsers optimize the layout queue.md ***
 
 ### How FastDOM Works
 

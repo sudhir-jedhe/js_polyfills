@@ -1,4 +1,4 @@
-*** copy 01-wcag-basics-and-pillars.md ***
+***  01-wcag-basics-and-pillars.md ***
 
 # WCAG Basics: The Four Pillars and Conformance Levels
 

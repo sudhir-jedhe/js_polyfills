@@ -1,4 +1,4 @@
-*** copy unwind-object.md ***
+***  unwind-object.md ***
 
 The provided `unwind` function is a great example of how to "unwind" or "flatten" an array-valued property within an object into multiple objects with the property value expanded.
 

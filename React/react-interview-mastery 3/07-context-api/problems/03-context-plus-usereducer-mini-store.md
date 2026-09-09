@@ -1,4 +1,4 @@
-*** copy 03-context-plus-usereducer-mini-store.md ***
+***  03-context-plus-usereducer-mini-store.md ***
 
 # Problem: Context + `useReducer` as a mini global store for a small app
 

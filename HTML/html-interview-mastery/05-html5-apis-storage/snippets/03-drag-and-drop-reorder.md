@@ -1,4 +1,4 @@
-*** copy 03-drag-and-drop-reorder.md ***
+***  03-drag-and-drop-reorder.md ***
 
 # Snippet: Basic Drag and Drop Between Two Zones
 

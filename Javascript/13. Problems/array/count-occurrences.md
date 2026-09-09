@@ -1,4 +1,4 @@
-*** copy count-occurrences.md ***
+***  count-occurrences.md ***
 
 ```js
 Count value occurrences in an array

@@ -1,4 +1,4 @@
-*** copy shift.md ***
+***  shift.md ***
 
 The custom implementation of the `customShift` method for arrays you provided is a good example of how you can replicate the built-in JavaScript `shift()` method manually. Let's break down the logic and compare it with the built-in behavior.
 

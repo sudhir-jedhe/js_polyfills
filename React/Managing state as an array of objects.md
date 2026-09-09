@@ -1,4 +1,4 @@
-*** copy Managing state as an array of objects.md ***
+***  Managing state as an array of objects.md ***
 
 Managing state as an **array of objects** is one of the most common patterns in React (for lists, todo items, shopping carts, table data, etc.).
 

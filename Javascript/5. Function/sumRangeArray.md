@@ -1,4 +1,4 @@
-*** copy sumRangeArray.md ***
+***  sumRangeArray.md ***
 
 ### Understanding the `NumArray` class implementation
 

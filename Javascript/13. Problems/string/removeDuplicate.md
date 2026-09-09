@@ -1,4 +1,4 @@
-*** copy removeDuplicate.md ***
+***  removeDuplicate.md ***
 
 ```js
 export const removeDuplicates = (str) => {

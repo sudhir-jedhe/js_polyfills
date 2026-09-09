@@ -1,4 +1,4 @@
-*** copy How react devloper using AI Agent.md ***
+***  How react devloper using AI Agent.md ***
 
 React developers interact with AI Agents in two distinct ways: **embedding AI agents inside applications** to create autonomous user features, and **using AI coding agents to accelerate their daily development workflow**.
 

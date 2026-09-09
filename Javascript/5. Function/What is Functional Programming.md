@@ -1,4 +1,4 @@
-*** copy What is Functional Programming.md ***
+***  What is Functional Programming.md ***
 
 **Functional Programming** is a declarative programming paradigm or pattern on how we build our applications with functions using expressions that calculates a value without mutating or changing the arguments that are passed to it.
 

@@ -1,4 +1,4 @@
-*** copy event loop.md ***
+***  event loop.md ***
 
 **Is JavaScript Single-threaded or Multi-threaded?**
 JavaScript is single-threaded, but it has mechanisms that allow it to handle asynchronous operations in a non-blocking manner, making it seem like it can do multiple tasks at the same time.

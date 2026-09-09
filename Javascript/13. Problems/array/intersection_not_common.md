@@ -1,4 +1,4 @@
-*** copy intersection_not_common.md ***
+***  intersection_not_common.md ***
 
 ```js
 var ar1 = [1, 2, 3, 4];

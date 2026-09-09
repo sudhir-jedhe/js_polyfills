@@ -1,4 +1,4 @@
-*** copy Explain how the React Compiler transforms code and optimization workflow.md ***
+***  Explain how the React Compiler transforms code and optimization workflow.md ***
 
 The **React Compiler** (formerly codenamed *React Forget*) transforms React code from developer-friendly, unoptimized JavaScript into low-level, highly optimized execution code. It automates memoization at build time, eliminating the need to manually write `useMemo`, `useCallback`, or `React.memo`.
 

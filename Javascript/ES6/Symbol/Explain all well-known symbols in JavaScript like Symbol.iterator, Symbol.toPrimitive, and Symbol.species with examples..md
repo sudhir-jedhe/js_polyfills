@@ -1,4 +1,4 @@
-*** copy Explain all well-known symbols in JavaScript like Symbol.iterator, Symbol.toPrimitive, and Symbol.species with examples..md ***
+***  Explain all well-known symbols in JavaScript like Symbol.iterator, Symbol.toPrimitive, and Symbol.species with examples..md ***
 
 Explain all well-known symbols in JavaScript like Symbol.iterator, Symbol.toPrimitive, and Symbol.species with examples.
 

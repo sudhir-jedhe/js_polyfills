@@ -1,4 +1,4 @@
-*** copy index.md ***
+***  index.md ***
 
 import { getDaysFragment, getMonthsFragment, getWeekDaysFragment, getYearsFragment } from './helper.js';
 

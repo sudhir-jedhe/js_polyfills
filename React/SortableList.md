@@ -1,4 +1,4 @@
-*** copy SortableList.md ***
+***  SortableList.md ***
 
 import React, { useState } from "react";
 

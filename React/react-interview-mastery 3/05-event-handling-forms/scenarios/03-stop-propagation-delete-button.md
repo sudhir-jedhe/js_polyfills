@@ -1,4 +1,4 @@
-*** copy 03-stop-propagation-delete-button.md ***
+***  03-stop-propagation-delete-button.md ***
 
 # Scenario: Clicking a "Delete" button inside a clickable list-row also opens the row's detail view
 

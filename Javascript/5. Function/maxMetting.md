@@ -1,4 +1,4 @@
-*** copy maxMetting.md ***
+***  maxMetting.md ***
 
 ### **Problem Overview:**
 

@@ -1,4 +1,4 @@
-*** copy insersationSort.md ***
+***  insersationSort.md ***
 
 // Javascript program for insertion sort
 

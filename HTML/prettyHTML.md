@@ -1,4 +1,4 @@
-*** copy prettyHTML.md ***
+***  prettyHTML.md ***
 
 Your code defines a function `prettyHTML` that takes an HTML string and a `styles` object as inputs, parses the HTML, applies the styles to the corresponding elements, and returns the modified HTML as a string.
 

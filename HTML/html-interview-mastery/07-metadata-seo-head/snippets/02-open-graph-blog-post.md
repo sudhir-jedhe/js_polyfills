@@ -1,4 +1,4 @@
-*** copy 02-open-graph-blog-post.md ***
+***  02-open-graph-blog-post.md ***
 
 # Snippet: Open Graph Tags for a Blog Post
 

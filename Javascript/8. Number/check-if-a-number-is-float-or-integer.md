@@ -1,4 +1,4 @@
-*** copy check-if-a-number-is-float-or-integer.md ***
+***  check-if-a-number-is-float-or-integer.md ***
 
 ### Code Explanation
 

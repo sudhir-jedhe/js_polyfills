@@ -1,4 +1,4 @@
-*** copy How do you design and implement a Virtualized List component (Low-Level Design) in React?.md ***
+***  How do you design and implement a Virtualized List component (Low-Level Design) in React?.md ***
 
 Designing and implementing a **Virtualized List** (or "Windowing" component) is a classic Frontend Low-Level Design (LLD) problem.
 

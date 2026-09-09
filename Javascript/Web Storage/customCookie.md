@@ -1,4 +1,4 @@
-*** copy customCookie.md ***
+***  customCookie.md ***
 
 The code you're providing implements a custom cookie-like system using JavaScript. It allows setting, getting, and managing "cookies" (stored in memory) with expiration handling. Below is an explanation of how both implementations (`useCustomCookie` and `install`) work and how they manage cookie-like behavior:
 

@@ -1,4 +1,4 @@
-*** copy How do I build an accessible tooltip component in React and Radix that automatically activates only when text is truncated by line-clamp?.md ***
+***  How do I build an accessible tooltip component in React and Radix that automatically activates only when text is truncated by line-clamp?.md ***
 
 To build a conditional tooltip that only activates when text is truncated by `line-clamp` (or `truncate`), compare the element's actual layout bounds (`clientWidth`, `clientHeight`) against its scrollable content dimensions (`scrollWidth`, `scrollHeight`) using a `ResizeObserver`.
 

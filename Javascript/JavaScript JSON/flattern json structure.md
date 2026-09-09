@@ -1,4 +1,4 @@
-*** copy flattern json structure.md ***
+***  flattern json structure.md ***
 
 Here's a detailed explanation and full code to flatten a JSON structure using `getValueList`:
 

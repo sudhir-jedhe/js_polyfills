@@ -1,4 +1,4 @@
-*** copy Show code examples of when useCallback actually prevents re-renders vs when it adds pure overhead..md ***
+***  Show code examples of when useCallback actually prevents re-renders vs when it adds pure overhead..md ***
 
 **Scenario 1: Pure Overhead (Provides Zero Performance Benefit)**
 

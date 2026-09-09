@@ -1,4 +1,4 @@
-*** copy Explain how SameSite=Strict, Lax, and None cookie attributes protect against Cross-Site Request Forgery (CSRF).md ***
+***  Explain how SameSite=Strict, Lax, and None cookie attributes protect against Cross-Site Request Forgery (CSRF).md ***
 
 **Cross-Site Request Forgery (CSRF)** is an attack vector where a malicious website tricks a user's browser into performing unwanted actions on a trusted site where the user is currently authenticated.
 

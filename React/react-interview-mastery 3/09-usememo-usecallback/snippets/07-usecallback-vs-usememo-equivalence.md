@@ -1,4 +1,4 @@
-*** copy 07-usecallback-vs-usememo-equivalence.md ***
+***  07-usecallback-vs-usememo-equivalence.md ***
 
 # Snippet: useCallback(fn, []) and useMemo(() => fn, []) Produce the Identical Reference
 

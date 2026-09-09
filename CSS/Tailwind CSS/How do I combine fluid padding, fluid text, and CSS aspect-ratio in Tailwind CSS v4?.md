@@ -1,4 +1,4 @@
-*** copy How do I combine fluid padding, fluid text, and CSS aspect-ratio in Tailwind CSS v4?.md ***
+***  How do I combine fluid padding, fluid text, and CSS aspect-ratio in Tailwind CSS v4?.md ***
 
 Combining **fluid padding**, **fluid text**, and **`aspect-ratio`** inside a query container produces a self-contained card or media block that scales all of its interior proportions simultaneously without layout shifts or text overflow.
 

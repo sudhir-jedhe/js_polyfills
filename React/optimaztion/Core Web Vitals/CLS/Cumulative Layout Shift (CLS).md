@@ -1,4 +1,4 @@
-*** copy Cumulative Layout Shift (CLS).md ***
+***  Cumulative Layout Shift (CLS).md ***
 
 **Layout shifting** refers to a phenomenon where visible elements on a webpage move or shift unexpectedly during page load or while interacting with the page. This can occur when the browser recalculates the layout of the page as new content, images, or resources are loaded. Layout shifts can lead to a poor user experience, especially if elements move while the user is interacting with the page.
 

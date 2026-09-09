@@ -1,4 +1,4 @@
-*** copy splitArray.md ***
+***  splitArray.md ***
 
 ```js
 function splitArray(nums) {

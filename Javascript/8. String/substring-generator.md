@@ -1,4 +1,4 @@
-*** copy substring-generator.md ***
+***  substring-generator.md ***
 
 // Left substring generator
 // Using a for...in loop, we can iterate over the string, and yield each substring, starting at the beginning. We can use String.prototype.slice() to get the substring. In order to terminate early, we can use String.prototype.length to check if the string is empty.

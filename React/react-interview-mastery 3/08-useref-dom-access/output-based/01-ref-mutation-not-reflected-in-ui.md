@@ -1,4 +1,4 @@
-*** copy 01-ref-mutation-not-reflected-in-ui.md ***
+***  01-ref-mutation-not-reflected-in-ui.md ***
 
 # Output-Based: Does the displayed count update when a ref is mutated on click?
 

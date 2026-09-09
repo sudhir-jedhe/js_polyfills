@@ -1,4 +1,4 @@
-*** copy sum-of-subsets-of-all-the-subsets-of-an-array-on.md ***
+***  sum-of-subsets-of-all-the-subsets-of-an-array-on.md ***
 
 ```js
 // Input: arr[] = {1, 1}

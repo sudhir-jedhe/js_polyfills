@@ -1,4 +1,4 @@
-*** copy largest-elements-from-array.md ***
+***  largest-elements-from-array.md ***
 
 ```js
 /*

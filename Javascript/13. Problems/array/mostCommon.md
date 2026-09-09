@@ -1,4 +1,4 @@
-*** copy mostCommon.md ***
+***  mostCommon.md ***
 
 ```js
 const words = ["apple", "banana", "apple", "cherry", "banana", "apple"];

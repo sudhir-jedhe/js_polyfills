@@ -1,4 +1,4 @@
-*** copy Finding ALL Missing Numbers i.md ***
+***  Finding ALL Missing Numbers i.md ***
 
 To find the missing numbers from a sequence, we first need to look at the pattern or range.
 

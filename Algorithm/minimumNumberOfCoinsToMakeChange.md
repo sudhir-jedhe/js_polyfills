@@ -1,4 +1,4 @@
-*** copy minimumNumberOfCoinsToMakeChange.md ***
+***  minimumNumberOfCoinsToMakeChange.md ***
 
 // Minimum Number Of Coins To Make Change
 // Given an array of coins or denominations and a target sum, calculate the minimum number of coins required to match the target. Note that the coins array will have denominations that are Infinitely available, i.e. coins can be repeated and added to calculate the target.

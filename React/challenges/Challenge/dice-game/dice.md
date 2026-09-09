@@ -1,4 +1,4 @@
-*** copy dice.md ***
+***  dice.md ***
 
 import diceImg1 from './images/dice1.png';
 import diceImg2 from './images/dice2.png';

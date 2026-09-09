@@ -1,4 +1,4 @@
-*** copy 03-team-over-memoizes-everything.md ***
+***  03-team-over-memoizes-everything.md ***
 
 # Scenario: A Team Is Memoizing Everything "For Performance"
 

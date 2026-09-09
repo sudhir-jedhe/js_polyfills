@@ -1,4 +1,4 @@
-*** copy 04-count-and-badge-bug-and-fix.md ***
+***  04-count-and-badge-bug-and-fix.md ***
 
 # Snippet: The `count && <Badge/>` bug and its fix
 

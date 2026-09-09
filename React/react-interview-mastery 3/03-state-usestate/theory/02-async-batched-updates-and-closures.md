@@ -1,4 +1,4 @@
-*** copy 02-async-batched-updates-and-closures.md ***
+***  02-async-batched-updates-and-closures.md ***
 
 # Updates Are Asynchronous and Batched
 

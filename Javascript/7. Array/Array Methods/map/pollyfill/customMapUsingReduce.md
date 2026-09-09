@@ -1,4 +1,4 @@
-*** copy customMapUsingReduce.md ***
+***  customMapUsingReduce.md ***
 
 
 ```javascript

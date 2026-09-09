@@ -1,4 +1,4 @@
-*** copy ImageGalary.md ***
+***  ImageGalary.md ***
 
 # Image Gallery (React JS) – Machine Coding Interview
 

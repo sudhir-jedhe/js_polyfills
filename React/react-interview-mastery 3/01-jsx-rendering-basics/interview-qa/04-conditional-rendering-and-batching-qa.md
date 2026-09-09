@@ -1,4 +1,4 @@
-*** copy 04-conditional-rendering-and-batching-qa.md ***
+***  04-conditional-rendering-and-batching-qa.md ***
 
 # Interview Q&A — Conditional Rendering and Batching
 

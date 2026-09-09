@@ -1,4 +1,4 @@
-*** copy 4-maximum-count-of-positive-and-negative-integer.md ***
+***  4-maximum-count-of-positive-and-negative-integer.md ***
 
 // Ques 4: Maximum Count of Positive Integer and Negative Integer
 // Given an array nums sorted in non-decreasing order, return the maximum between

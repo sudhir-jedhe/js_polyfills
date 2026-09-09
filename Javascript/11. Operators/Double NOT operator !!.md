@@ -1,4 +1,4 @@
-*** copy Double NOT operator !!.md ***
+***  Double NOT operator !!.md ***
 
 In JavaScript, **falsy values** are values that, when coerced to a boolean, evaluate to `false`. These include:
 

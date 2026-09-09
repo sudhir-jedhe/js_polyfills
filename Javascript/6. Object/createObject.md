@@ -1,4 +1,4 @@
-*** copy createObject.md ***
+***  createObject.md ***
 
 Your examples demonstrate different ways to create and work with objects in JavaScript. Let me break down each approach to help clarify their differences and use cases.
 

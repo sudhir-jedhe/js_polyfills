@@ -1,4 +1,4 @@
-*** copy Explain how React Fiber uses double-buffering (current vs workInProgress trees) for zero-flicker rendering.md ***
+***  Explain how React Fiber uses double-buffering (current vs workInProgress trees) for zero-flicker rendering.md ***
 
 In graphics programming, **double-buffering** is a classic technique used to prevent screen tearing and flickering: drawing operations are performed off-screen on a "back buffer," and once the frame is fully prepared, it is swapped instantaneously to the "front buffer" displayed on screen.
 

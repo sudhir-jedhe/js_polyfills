@@ -1,4 +1,4 @@
-*** copy 04-number-isnan-vs-global-isnan.md ***
+***  04-number-isnan-vs-global-isnan.md ***
 
 # `Number.isNaN` vs Global `isNaN`
 

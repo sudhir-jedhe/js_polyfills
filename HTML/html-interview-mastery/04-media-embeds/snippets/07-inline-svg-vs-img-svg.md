@@ -1,4 +1,4 @@
-*** copy 07-inline-svg-vs-img-svg.md ***
+***  07-inline-svg-vs-img-svg.md ***
 
 # Snippet: Inline SVG vs. `<img src="*.svg">`
 

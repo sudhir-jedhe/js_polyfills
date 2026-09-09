@@ -1,4 +1,4 @@
-*** copy REST APIs.md ***
+***  REST APIs.md ***
 
 Here is the English translation of the comprehensive explanation on REST API principles and how to build a robust, scalable interface for web applications:
 

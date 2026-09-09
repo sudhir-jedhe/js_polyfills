@@ -1,4 +1,4 @@
-*** copy How do you use the React <Profiler>.md ***
+***  How do you use the React <Profiler>.md ***
 
 The **`<Profiler>`** component is React’s programmatic API for measuring how often and how long a component subtree renders. It lets you collect performance metrics directly in code and send them to an analytics dashboard or logging service.
 

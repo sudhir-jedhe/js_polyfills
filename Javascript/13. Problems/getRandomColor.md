@@ -1,4 +1,4 @@
-*** copy getRandomColor.md ***
+***  getRandomColor.md ***
 
 ```js
 export const getRandomColor = () => {

@@ -1,4 +1,4 @@
-*** copy 04-geolocation-api.md ***
+***  04-geolocation-api.md ***
 
 # The Geolocation API
 

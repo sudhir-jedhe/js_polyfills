@@ -1,4 +1,4 @@
-*** copy 04-null-loose-equality-vs-relational-comparison.md ***
+***  04-null-loose-equality-vs-relational-comparison.md ***
 
 # `null` in Loose Equality vs Relational Comparison
 

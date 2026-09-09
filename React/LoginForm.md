@@ -1,4 +1,4 @@
-*** copy LoginForm.md ***
+***  LoginForm.md ***
 
 import { useState } from "react";
 import { TextBoxComponent } from "@syncfusion/ej2-react-inputs";

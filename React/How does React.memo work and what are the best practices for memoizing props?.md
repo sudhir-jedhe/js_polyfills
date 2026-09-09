@@ -1,4 +1,4 @@
-*** copy How does React.memo work and what are the best practices for memoizing props?.md ***
+***  How does React.memo work and what are the best practices for memoizing props?.md ***
 
 **`React.memo`** is a higher-order component that wraps a functional component to optimize its rendering performance. It tells React to **skip re-rendering the component if its incoming props are shallowly equal to its previous props**, even if its parent component re-renders.
 

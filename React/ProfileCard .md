@@ -1,4 +1,4 @@
-*** copy ProfileCard .md ***
+***  ProfileCard .md ***
 
 import "./ProfileCard.css";
 import ProfileCard from "./ProfileCard";

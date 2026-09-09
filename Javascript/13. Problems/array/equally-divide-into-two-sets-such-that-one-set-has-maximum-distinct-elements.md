@@ -1,4 +1,4 @@
-*** copy equally-divide-into-two-sets-such-that-one-set-has-maximum-distinct-elements.md ***
+***  equally-divide-into-two-sets-such-that-one-set-has-maximum-distinct-elements.md ***
 
 ```js
 // Input : arr[] = [1, 1, 2, 2, 3, 3]

@@ -1,4 +1,4 @@
-*** copy validate-object-properties.md ***
+***  validate-object-properties.md ***
 
 To validate object keys against an array or another object, the methods you've provided are great starting points. Let's break down the approach and explain the different validations with examples.
 

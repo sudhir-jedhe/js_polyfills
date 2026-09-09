@@ -1,4 +1,4 @@
-*** copy React Compiler.md ***
+***  React Compiler.md ***
 
 Setting up the **React Compiler** requires a modern React build setup (such as **Vite**, **Next.js**, or a custom **Babel** pipeline) running **React 19**.
 

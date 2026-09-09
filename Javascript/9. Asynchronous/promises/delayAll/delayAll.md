@@ -1,4 +1,4 @@
-*** copy delayAll.md ***
+***  delayAll.md ***
 
 ```js
 function delayAll(functions: Function[], ms: number): Function[] {

@@ -1,4 +1,4 @@
-*** copy calculateTax.md ***
+***  calculateTax.md ***
 
 ### Explanation of the Code:
 

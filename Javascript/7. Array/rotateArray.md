@@ -1,4 +1,4 @@
-*** copy rotateArray.md ***
+***  rotateArray.md ***
 
 Your implementation for rotating arrays is correct, but let's break down the two approaches you've shown for rotating an array and ensure both methods are understood well. I'll also discuss possible optimizations and improvements.
 

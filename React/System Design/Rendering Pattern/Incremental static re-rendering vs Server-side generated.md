@@ -1,4 +1,4 @@
-*** copy Incremental static re-rendering vs Server-side generated.md ***
+***  Incremental static re-rendering vs Server-side generated.md ***
 
 # Advanced Provider Pattern Topics
 

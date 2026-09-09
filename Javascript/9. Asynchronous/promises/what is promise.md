@@ -1,4 +1,4 @@
-*** copy what is promise.md ***
+***  what is promise.md ***
 
 Here is a clean, well-formatted, and comprehensive modern JavaScript reference guide based on your notes. The syntax error in your initial promise creation snippet has been fixed, and the examples have been organized for clarity and scannability.
 

@@ -1,4 +1,4 @@
-*** copy 04-large-list-jank-on-every-keystroke.md ***
+***  04-large-list-jank-on-every-keystroke.md ***
 
 # Long List of 5,000 Rows Causes Visible Jank on Every Keystroke in a Filter Box
 

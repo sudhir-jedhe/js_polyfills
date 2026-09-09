@@ -1,4 +1,4 @@
-*** copy difference between `throw` and `try-catch`?.md ***
+***  difference between `throw` and `try-catch`?.md ***
 
 The difference between `throw` and `try...catch` comes down to **creating errors** versus **handling errors**.
 

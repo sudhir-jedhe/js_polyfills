@@ -1,4 +1,4 @@
-*** copy Faulty-Keyboard.md ***
+***  Faulty-Keyboard.md ***
 
    1. Faulty Keyboard
       Description

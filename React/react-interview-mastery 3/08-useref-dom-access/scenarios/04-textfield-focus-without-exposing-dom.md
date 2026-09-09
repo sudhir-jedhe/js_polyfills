@@ -1,4 +1,4 @@
-*** copy 04-textfield-focus-without-exposing-dom.md ***
+***  04-textfield-focus-without-exposing-dom.md ***
 
 # Scenario: A reusable `<TextField>` component needs to let parent forms call `.focus()` on validation errors, without exposing the whole DOM node
 

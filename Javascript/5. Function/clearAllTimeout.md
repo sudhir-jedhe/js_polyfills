@@ -1,4 +1,4 @@
-*** copy clearAllTimeout.md ***
+***  clearAllTimeout.md ***
 
 To implement the `clearAllTimeout()` function, we need to keep track of all the active timers set by `setTimeout()`. Once we have that, we can clear each of those timers when `clearAllTimeout()` is invoked.
 

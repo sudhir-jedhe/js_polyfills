@@ -1,4 +1,4 @@
-*** copy 01-minimal-correct-head.md ***
+***  01-minimal-correct-head.md ***
 
 # Snippet: A Minimal, Correctly Ordered `<head>`
 

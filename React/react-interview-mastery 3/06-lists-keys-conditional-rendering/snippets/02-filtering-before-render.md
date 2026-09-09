@@ -1,4 +1,4 @@
-*** copy 02-filtering-before-render.md ***
+***  02-filtering-before-render.md ***
 
 # Snippet: Filtering a list before rendering
 

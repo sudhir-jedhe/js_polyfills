@@ -1,4 +1,4 @@
-*** copy strongPasswordCheckerII.md ***
+***  strongPasswordCheckerII.md ***
 
 ```js
 function strongPasswordCheckerII(password: string): boolean {

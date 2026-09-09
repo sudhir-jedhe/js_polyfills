@@ -1,4 +1,4 @@
-*** copy How do you print all nested object keys with their full dot-notation paths in JavaScript without using Object.keys?.md ***
+***  How do you print all nested object keys with their full dot-notation paths in JavaScript without using Object.keys?.md ***
 
 To print nested object keys with their full dot-notation paths (e.g., `address.geo.lat`) without using `Object.keys()`, use a recursive function with a `for...in` loop and accumulate the prefix path at each level.
 

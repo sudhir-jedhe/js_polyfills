@@ -1,4 +1,4 @@
-*** copy loop-through-a-plain-object-with-the-objects-as-members.md ***
+***  loop-through-a-plain-object-with-the-objects-as-members.md ***
 
 ```js
 let person = {

@@ -1,4 +1,4 @@
-*** copy 01-build-signup-form-native-validation.md ***
+***  01-build-signup-form-native-validation.md ***
 
 # Problem: Build a Signup Form with Full Native Validation
 

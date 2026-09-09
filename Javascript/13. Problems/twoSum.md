@@ -1,4 +1,4 @@
-*** copy twoSum.md ***
+***  twoSum.md ***
 
 ```js
 function twoSum(nums, target) {

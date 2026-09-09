@@ -1,4 +1,4 @@
-*** copy 02-lazy-loading-infinite-gallery.md ***
+***  02-lazy-loading-infinite-gallery.md ***
 
 # Problem: Build a Lazy-Loading Image Gallery with No Layout Shift
 

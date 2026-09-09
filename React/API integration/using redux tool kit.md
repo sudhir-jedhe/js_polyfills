@@ -1,4 +1,4 @@
-*** copy using redux tool kit.md ***
+***  using redux tool kit.md ***
 
 Here is a complete, production-ready implementation of asynchronous API integration using **Redux Toolkit (`createAsyncThunk`)**, paired with a custom **Axios instance and interceptors** for request/response handling.
 

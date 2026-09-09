@@ -1,4 +1,4 @@
-*** copy index-of-substrings.md ***
+***  index-of-substrings.md ***
 
 // Find all indexes of a substring in a JavaScript string
 Here's the complete and well-commented code for the `indexOfSubstrings` generator function, which efficiently finds all occurrences of a substring within a string:

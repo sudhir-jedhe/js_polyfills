@@ -1,4 +1,4 @@
-*** copy allQuiz.md ***
+***  allQuiz.md ***
 
 Here is the complete catalog of all 249 questions present across your interview preparation screenshots, organized chronologically by their respective technical domain:
 

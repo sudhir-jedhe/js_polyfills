@@ -1,4 +1,4 @@
-*** copy eventStoreKeyValuePair.md ***
+***  eventStoreKeyValuePair.md ***
 
 # Implement Event-Driven Key-Value Store
 

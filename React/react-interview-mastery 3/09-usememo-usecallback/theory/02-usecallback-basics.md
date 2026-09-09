@@ -1,4 +1,4 @@
-*** copy 02-usecallback-basics.md ***
+***  02-usecallback-basics.md ***
 
 # useCallback: Caching a Function Reference
 

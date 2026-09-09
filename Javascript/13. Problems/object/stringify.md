@@ -1,4 +1,4 @@
-*** copy stringify.md ***
+***  stringify.md ***
 
 ```js
 export const stringify = (value) => {

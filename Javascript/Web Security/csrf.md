@@ -1,4 +1,4 @@
-*** copy csrf.md ***
+***  csrf.md ***
 
 ### **Cross-Site Request Forgery (CSRF) in Detail**
 

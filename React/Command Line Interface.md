@@ -1,4 +1,4 @@
-*** copy Command Line Interface.md ***
+***  Command Line Interface.md ***
 
 A complete, interactive Command Line Interface (CLI) / Terminal component in React with command parsing, history scrolling ($\uparrow$/$\downarrow$), auto-focus, and custom output support.
 

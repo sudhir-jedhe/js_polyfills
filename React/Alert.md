@@ -1,4 +1,4 @@
-*** copy Alert.md ***
+***  Alert.md ***
 
 ````js
 import React, { Component } from "react";

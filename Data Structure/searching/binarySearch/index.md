@@ -1,4 +1,4 @@
-*** copy index.md ***
+***  index.md ***
 
 /**
  * @param {Array<number>} arr The input integer array to be searched.

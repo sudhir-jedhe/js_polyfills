@@ -1,4 +1,4 @@
-*** copy 7SegmentDisplay.md ***
+***  7SegmentDisplay.md ***
 
 For this challenge, only **two things matter**:
 

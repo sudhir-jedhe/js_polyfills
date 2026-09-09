@@ -1,4 +1,4 @@
-*** copy chopString.md ***
+***  chopString.md ***
 
 ```js
 const chop = (str, size = str.length) => {

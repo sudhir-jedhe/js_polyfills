@@ -1,4 +1,4 @@
-*** copy nth-array-element.md ***
+***  nth-array-element.md ***
 
 ```js
 Get the nth element of a JavaScript array

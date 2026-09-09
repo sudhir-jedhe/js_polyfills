@@ -1,4 +1,4 @@
-*** copy using redux.md ***
+***  using redux.md ***
 
 Here is the complete, production-ready React **Counter Application** built using **Classic / Old Redux** (pre-Toolkit, using `createStore`, action creators, switch-case reducers, and `react-redux` hooks), covering all scenarios: increment, decrement, reset, and custom increment/decrement by a dynamic value.
 

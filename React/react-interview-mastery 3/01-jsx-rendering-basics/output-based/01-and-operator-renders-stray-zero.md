@@ -1,4 +1,4 @@
-*** copy 01-and-operator-renders-stray-zero.md ***
+***  01-and-operator-renders-stray-zero.md ***
 
 # What Renders?
 

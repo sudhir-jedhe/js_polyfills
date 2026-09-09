@@ -1,4 +1,4 @@
-*** copy How do I mathematically calculate the slope and intercept for CSS clamp() and container query units?.md ***
+***  How do I mathematically calculate the slope and intercept for CSS clamp() and container query units?.md ***
 
 Fluid typography with `clamp()` uses the linear equation formula:
 

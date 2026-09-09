@@ -1,4 +1,4 @@
-*** copy CORS.md ***
+***  CORS.md ***
 
 **Cross-Origin Resource Sharing (CORS)** is a browser security mechanism that uses HTTP headers to determine whether a web application running at one origin (e.g., `[https://app.mydomain.com](https://app.mydomain.com)`) is allowed to request and read restricted resources hosted on a different origin (e.g., `[https://api.partnerdomain.com](https://api.partnerdomain.com)`).
 

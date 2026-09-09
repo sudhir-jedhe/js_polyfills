@@ -1,4 +1,4 @@
-*** copy 06-event-delegation.md ***
+***  06-event-delegation.md ***
 
 # Event delegation and `stopPropagation`
 

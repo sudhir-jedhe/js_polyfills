@@ -1,4 +1,4 @@
-*** copy pass-by-reference-or-pass-by-valu.md ***
+***  pass-by-reference-or-pass-by-valu.md ***
 
 Yes, you're absolutely correct, and your explanation highlights a very important concept in JavaScript's handling of objects and how they are passed to functions. Let's break down the concept further to ensure it's clear:
 

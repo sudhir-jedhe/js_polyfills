@@ -1,4 +1,4 @@
-*** copy 02-controlled-input.md ***
+***  02-controlled-input.md ***
 
 # Snippet: Controlled input
 

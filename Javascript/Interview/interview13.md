@@ -1,4 +1,4 @@
-*** copy interview13.md ***
+***  interview13.md ***
 
 ### **Technical Managerial Round Interview Questions for a Senior Java React Developer (9-12 Years of Experience)**
 

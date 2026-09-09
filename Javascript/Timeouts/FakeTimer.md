@@ -1,4 +1,4 @@
-*** copy FakeTimer.md ***
+***  FakeTimer.md ***
 
 The code you've provided outlines a **FakeTimer** class that simulates the behavior of `setTimeout` and `clearTimeout` functions for testing or simulations, without relying on actual time delays. However, there are a couple of issues in the implementation that could be improved, especially when dealing with clearing timeouts.
 

@@ -1,4 +1,4 @@
-*** copy 03-drag-and-drop-api.md ***
+***  03-drag-and-drop-api.md ***
 
 # The HTML Drag and Drop API
 

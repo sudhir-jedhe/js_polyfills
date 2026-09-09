@@ -1,4 +1,4 @@
-*** copy 07-favicon-and-manifest-links.md ***
+***  07-favicon-and-manifest-links.md ***
 
 # Snippet: Favicon and Web App Manifest Links
 

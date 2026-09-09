@@ -1,4 +1,4 @@
-*** copy 04-adding-rich-results-to-a-recipe-site.md ***
+***  04-adding-rich-results-to-a-recipe-site.md ***
 
 # Scenario: A Recipe Site Wants Star Ratings and Cook Time to Show in Search Results
 

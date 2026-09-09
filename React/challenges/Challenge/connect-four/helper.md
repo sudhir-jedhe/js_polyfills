@@ -1,4 +1,4 @@
-*** copy helper.md ***
+***  helper.md ***
 
 export const generateGrid = function (rows, cols, className) {
   const fragment = document.createDocumentFragment();

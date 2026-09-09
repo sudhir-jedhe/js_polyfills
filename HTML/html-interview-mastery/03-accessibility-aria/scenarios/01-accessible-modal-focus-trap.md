@@ -1,4 +1,4 @@
-*** copy 01-accessible-modal-focus-trap.md ***
+***  01-accessible-modal-focus-trap.md ***
 
 # Scenario: Building an Accessible Modal with Focus Trapping
 

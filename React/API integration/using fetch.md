@@ -1,4 +1,4 @@
-*** copy using fetch.md ***
+***  using fetch.md ***
 
 Here is a complete, production-ready React component demonstrating how to perform **asynchronous API integration** using **`useState`** and `useEffect`.
 

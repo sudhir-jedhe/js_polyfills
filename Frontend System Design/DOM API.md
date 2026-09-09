@@ -1,4 +1,4 @@
-*** copy DOM API.md ***
+***  DOM API.md ***
 
 Here is an end-to-end, interview-grade Front-End System Design reference covering the **DOM API, DOM Querying, Performance Optimization Strategies, and a Production-Grade Templating Engine Implementation.**
 

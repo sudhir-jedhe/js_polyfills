@@ -1,4 +1,4 @@
-*** copy divide-array-in-two-subsets-such-that-sum-of-square-of-sum-of-both-subsets-is-maximum.md ***
+***  divide-array-in-two-subsets-such-that-sum-of-square-of-sum-of-both-subsets-is-maximum.md ***
 
 ```js
 // Input: arr[] = {1, 2, 3}

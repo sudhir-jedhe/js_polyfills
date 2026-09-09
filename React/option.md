@@ -1,4 +1,4 @@
-*** copy option.md ***
+***  option.md ***
 
 <https://react.dev/reference/react-dom/components/option>
 

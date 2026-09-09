@@ -1,4 +1,4 @@
-*** copy React Fiber Architecture: The Core Engine.md ***
+***  React Fiber Architecture: The Core Engine.md ***
 
 Here is a clean, structured reference guide breaking down **React Fiber**, its core responsibilities as a scheduler, and the key properties that make incremental rendering possible.
 

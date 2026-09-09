@@ -1,4 +1,4 @@
-*** copy CD.md ***
+***  CD.md ***
 
 // 1️⃣ Development: This is where the magic begins! We code, create branches, and collaborate on GitHub. It's like building with digital Lego blocks.
 

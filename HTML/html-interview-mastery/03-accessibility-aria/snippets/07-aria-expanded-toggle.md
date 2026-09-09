@@ -1,4 +1,4 @@
-*** copy 07-aria-expanded-toggle.md ***
+***  07-aria-expanded-toggle.md ***
 
 # Snippet: `aria-expanded` Toggle Pattern
 

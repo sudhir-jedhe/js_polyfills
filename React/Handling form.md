@@ -1,4 +1,4 @@
-*** copy Handling form.md ***
+***  Handling form.md ***
 
 Handling forms in React is a fundamental part of building interactive user interfaces. In React, form handling involves managing user inputs, form validation, and form submission. Forms in React are typically handled using either **controlled components** or **uncontrolled components**.
 

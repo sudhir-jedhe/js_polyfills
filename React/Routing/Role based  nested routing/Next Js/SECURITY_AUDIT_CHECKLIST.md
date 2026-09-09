@@ -1,4 +1,4 @@
-*** copy SECURITY_AUDIT_CHECKLIST.md ***
+***  SECURITY_AUDIT_CHECKLIST.md ***
 
 # Security Audit Checklist
 

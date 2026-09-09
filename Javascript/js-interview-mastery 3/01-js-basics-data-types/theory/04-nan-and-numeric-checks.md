@@ -1,4 +1,4 @@
-*** copy 04-nan-and-numeric-checks.md ***
+***  04-nan-and-numeric-checks.md ***
 
 # `NaN` and How to Test For It
 

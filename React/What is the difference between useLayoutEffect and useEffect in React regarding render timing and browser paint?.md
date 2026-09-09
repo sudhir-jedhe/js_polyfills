@@ -1,4 +1,4 @@
-*** copy What is the difference between useLayoutEffect and useEffect in React regarding render timing and browser paint?.md ***
+***  What is the difference between useLayoutEffect and useEffect in React regarding render timing and browser paint?.md ***
 
 The core difference between `useEffect` and `useLayoutEffect` comes down to **when they execute relative to the browser's paint cycle**:
 

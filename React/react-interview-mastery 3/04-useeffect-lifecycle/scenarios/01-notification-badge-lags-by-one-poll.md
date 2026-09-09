@@ -1,4 +1,4 @@
-*** copy 01-notification-badge-lags-by-one-poll.md ***
+***  01-notification-badge-lags-by-one-poll.md ***
 
 # Live Notification Badge Shows a Count That's Always One Behind
 

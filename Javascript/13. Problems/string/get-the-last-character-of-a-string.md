@@ -1,4 +1,4 @@
-*** copy get-the-last-character-of-a-string.md ***
+***  get-the-last-character-of-a-string.md ***
 
 ```js
 // Input String

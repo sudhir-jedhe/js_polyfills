@@ -1,4 +1,4 @@
-*** copy instanceof.md ***
+***  instanceof.md ***
 
 The `instanceOf` function is a custom implementation to check if an object is an instance of a class or constructor function, including its ancestors in the prototype chain.
 

@@ -1,4 +1,4 @@
-*** copy normalize-line-endings.md ***
+***  normalize-line-endings.md ***
 
 Historically, different operating systems have used different characters to represent line endings in text files. For example, Windows uses '\r\n' (carriage return + line feed), Unix-like systems use '\n' (line feed), and older Mac systems used '\r' (carriage return). All of these differences can cause issues when working with text files or strings.
 

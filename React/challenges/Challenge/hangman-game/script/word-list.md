@@ -1,4 +1,4 @@
-*** copy word-list.md ***
+***  word-list.md ***
 
 export const wordList = [
   {

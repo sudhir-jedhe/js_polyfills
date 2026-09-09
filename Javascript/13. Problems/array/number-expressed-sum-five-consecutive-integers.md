@@ -1,4 +1,4 @@
-*** copy number-expressed-sum-five-consecutive-integers.md ***
+***  number-expressed-sum-five-consecutive-integers.md ***
 
 ```js
 // Input : n = 15

@@ -1,4 +1,4 @@
-*** copy 03-submission-and-debouncing.md ***
+***  03-submission-and-debouncing.md ***
 
 # Interview Q&A: Form Submission & Debouncing
 

@@ -1,4 +1,4 @@
-*** copy index.md ***
+***  index.md ***
 
 const leftItems = ['JS', 'HTML', 'CSS', 'TS'];
 const rightItems = ['React', 'Angular', 'Vue', 'Svelte'];

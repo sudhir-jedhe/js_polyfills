@@ -1,4 +1,4 @@
-*** copy customMap.md ***
+***  customMap.md ***
 
 ```javascript
 Array.prototype.customMap = function(callback) {

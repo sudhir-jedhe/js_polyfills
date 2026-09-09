@@ -1,4 +1,4 @@
-*** copy balanced-parentheses.md ***
+***  balanced-parentheses.md ***
 
 ```js
 # An algorithm to check if an expressions (parentheses) given in a string are balanced or not

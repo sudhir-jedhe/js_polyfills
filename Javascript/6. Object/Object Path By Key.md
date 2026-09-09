@@ -1,4 +1,4 @@
-*** copy Object Path By Key.md ***
+***  Object Path By Key.md ***
 
 Both functions you've written are useful for accessing nested values in JavaScript objects using a string path. Below is an explanation and minor enhancements to ensure robust handling of edge cases, including better handling of undefined properties and missing keys.
 

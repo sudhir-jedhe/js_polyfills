@@ -1,4 +1,4 @@
-*** copy example.md ***
+***  example.md ***
 
 I'll create a React component that demonstrates the concepts of parallel task execution as described in the attachment. This component will allow users to run different versions of the parallel execution and see the results in real-time.
 

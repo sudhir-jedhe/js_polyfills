@@ -1,4 +1,4 @@
-*** copy 04-mutation-and-validation-qa.md ***
+***  04-mutation-and-validation-qa.md ***
 
 # Interview Q&A — Prop Mutation Pitfalls and Validation
 

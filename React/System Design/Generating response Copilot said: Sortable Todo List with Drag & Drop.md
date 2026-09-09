@@ -1,4 +1,4 @@
-*** copy Generating response Copilot said: Sortable Todo List with Drag & Drop.md ***
+***  Generating response Copilot said: Sortable Todo List with Drag & Drop.md ***
 
 # Sortable Todo List with Drag & Drop in React
 

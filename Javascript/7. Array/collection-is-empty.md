@@ -1,4 +1,4 @@
-*** copy collection-is-empty.md ***
+***  collection-is-empty.md ***
 
 The `isEmpty` function you've provided checks if a value is empty in different contexts, including arrays, objects, strings, `null`, and `undefined`. This approach is useful for determining whether a given value has meaningful content.
 

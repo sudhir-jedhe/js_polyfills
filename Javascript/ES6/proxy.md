@@ -1,4 +1,4 @@
-*** copy proxy.md ***
+***  proxy.md ***
 
 In JavaScript, **Metaprogramming** refers to writing code that inspects, intercepts, or modifies the behavior of other code at runtime.
 

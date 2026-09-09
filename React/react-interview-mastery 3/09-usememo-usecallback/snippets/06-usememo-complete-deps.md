@@ -1,4 +1,4 @@
-*** copy 06-usememo-complete-deps.md ***
+***  06-usememo-complete-deps.md ***
 
 # Snippet: Correctly Listing All Dependencies to Avoid a Stale useMemo Result
 

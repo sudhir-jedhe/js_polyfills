@@ -1,4 +1,4 @@
-*** copy React hook form tutorial (with zod).md ***
+***  React hook form tutorial (with zod).md ***
 
 A complete, end-to-end tutorial on integrating **React Hook Form (RHF)** with **Zod** schema validation, covering setup, form state tracking, nested fields, dynamic arrays (`useFieldArray`), and submission handling.
 

@@ -1,4 +1,4 @@
-*** copy What is the purpose of callback function argument format of setState() in React class components and when should it be used?.md ***
+***  What is the purpose of callback function argument format of setState() in React class components and when should it be used?.md ***
 
 In React class components, `this.setState()` accepts an optional **second argument**, which is a callback function.
 

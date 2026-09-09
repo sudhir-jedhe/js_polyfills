@@ -1,4 +1,4 @@
-*** copy remove-a-property-from-javascript-object.md ***
+***  remove-a-property-from-javascript-object.md ***
 
 ```js
 const p = {

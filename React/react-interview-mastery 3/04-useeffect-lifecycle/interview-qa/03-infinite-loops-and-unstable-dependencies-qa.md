@@ -1,4 +1,4 @@
-*** copy 03-infinite-loops-and-unstable-dependencies-qa.md ***
+***  03-infinite-loops-and-unstable-dependencies-qa.md ***
 
 # Interview Q&A — Infinite Loops and Unstable Dependencies
 

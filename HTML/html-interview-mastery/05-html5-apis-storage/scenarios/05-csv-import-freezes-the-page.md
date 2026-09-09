@@ -1,4 +1,4 @@
-*** copy 05-csv-import-freezes-the-page.md ***
+***  05-csv-import-freezes-the-page.md ***
 
 # Scenario: Importing a Large CSV Freezes the Entire Page
 

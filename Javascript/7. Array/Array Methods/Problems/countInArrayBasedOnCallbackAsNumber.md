@@ -1,4 +1,4 @@
-*** copy countInArrayBasedOnCallbackAsNumber.md ***
+***  countInArrayBasedOnCallbackAsNumber.md ***
 
 Given a nested array and a callback function, count all the elements that pass the test in the callback and return the count.
 

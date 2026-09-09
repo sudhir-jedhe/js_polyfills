@@ -1,4 +1,4 @@
-*** copy toUpperCase.md ***
+***  toUpperCase.md ***
 
 /\*
 The toUpperCase() method returns the value of the string converted to uppercase.

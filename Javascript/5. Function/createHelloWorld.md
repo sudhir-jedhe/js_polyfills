@@ -1,4 +1,4 @@
-*** copy createHelloWorld.md ***
+***  createHelloWorld.md ***
 
 The code you provided demonstrates how to create a function that returns another function, which in turn returns the string `"Hello World"`. This is a basic example of **higher-order functions** in JavaScript.
 

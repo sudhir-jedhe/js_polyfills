@@ -1,4 +1,4 @@
-*** copy privateCounter.md ***
+***  privateCounter.md ***
 
 ### Explanation of the Code
 

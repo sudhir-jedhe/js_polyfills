@@ -1,4 +1,4 @@
-*** copy 04-eqeqeq-null-exception-policy.md ***
+***  04-eqeqeq-null-exception-policy.md ***
 
 # Should `value == null` Be a Linter Exception to `===`?
 

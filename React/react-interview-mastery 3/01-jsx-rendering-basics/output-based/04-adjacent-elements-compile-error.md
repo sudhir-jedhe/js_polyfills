@@ -1,4 +1,4 @@
-*** copy 04-adjacent-elements-compile-error.md ***
+***  04-adjacent-elements-compile-error.md ***
 
 # Does This Compile/Render?
 

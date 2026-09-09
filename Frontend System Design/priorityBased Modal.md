@@ -1,4 +1,4 @@
-*** copy priorityBased Modal.md ***
+***  priorityBased Modal.md ***
 
 **Priority-Based Modals** is a very common **Frontend System Design** question, especially for React Lead/Frontend Architect interviews.
 

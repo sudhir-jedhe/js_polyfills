@@ -1,4 +1,4 @@
-*** copy How do you handle expired JWT tokens and silent refresh when navigating protected routes?.md ***
+***  How do you handle expired JWT tokens and silent refresh when navigating protected routes?.md ***
 
 Handling expired JWT tokens and silent refresh during route navigation requires coordinating your **Auth State**, **React Router Guards**, and your **HTTP Client (Axios or Fetch)**.
 

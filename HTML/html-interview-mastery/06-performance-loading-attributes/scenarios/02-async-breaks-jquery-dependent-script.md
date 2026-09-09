@@ -1,4 +1,4 @@
-*** copy 02-async-breaks-jquery-dependent-script.md ***
+***  02-async-breaks-jquery-dependent-script.md ***
 
 # Scenario: Switching to `async` Broke a jQuery-Dependent Script
 

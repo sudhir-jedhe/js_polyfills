@@ -1,4 +1,4 @@
-*** copy mergeItervals.md ***
+***  mergeItervals.md ***
 
 Both of the provided solutions aim to merge overlapping intervals. However, they differ slightly in how they approach the problem. Let's walk through both solutions to understand their logic and behavior:
 

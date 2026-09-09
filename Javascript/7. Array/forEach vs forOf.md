@@ -1,4 +1,4 @@
-*** copy forEach vs forOf.md ***
+***  forEach vs forOf.md ***
 
 The `forEach` method and the `for` loop in JavaScript both allow you to iterate over collections like arrays, but they have some key differences in terms of behavior, syntax, and performance. Here's a breakdown of the key differences:
 

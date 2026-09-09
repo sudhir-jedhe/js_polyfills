@@ -1,4 +1,4 @@
-*** copy buidPreorderInOrder.md ***
+***  buidPreorderInOrder.md ***
 
 ```js
 class TreeNode {

@@ -1,4 +1,4 @@
-*** copy Explain how lifting content up via the children prop avoids unnecessary re-renders in React.md ***
+***  Explain how lifting content up via the children prop avoids unnecessary re-renders in React.md ***
 
 **Lifting Content Up** (also known as the **"Component as `children`"** or **Composition** pattern) avoids unnecessary child re-renders by creating child React Elements in a parent's scope before passing them down as props.
 

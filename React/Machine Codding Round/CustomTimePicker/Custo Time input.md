@@ -1,4 +1,4 @@
-*** copy Custo Time input.md ***
+***  Custo Time input.md ***
 
 Here is a lightweight, customizable **Custom Time Input** component built with React and Tailwind CSS. It supports standard 12-hour (AM/PM) or 24-hour modes, arrow key navigation, auto-focus jumping between hours/minutes, and keyboard incrementing.
 

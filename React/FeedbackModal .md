@@ -1,4 +1,4 @@
-*** copy FeedbackModal .md ***
+***  FeedbackModal .md ***
 
 ```js
 import "./FeedbackModal.css";

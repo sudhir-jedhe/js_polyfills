@@ -1,4 +1,4 @@
-*** copy Explain step-by-step how JavaScript's Abstract Equality Comparison algorithm coerces types for loose equality (==)..md ***
+***  Explain step-by-step how JavaScript's Abstract Equality Comparison algorithm coerces types for loose equality (==)..md ***
 
 The **Abstract Equality Comparison Algorithm** (defined in the ECMAScript specification as `IsLooselyEqual(x, y)`) defines exact step-by-step rules for how `x == y` evaluates.
 

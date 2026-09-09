@@ -1,4 +1,4 @@
-*** copy find-the-missing-number-in-a-given-integer-array-of-1-to-100.md ***
+***  find-the-missing-number-in-a-given-integer-array-of-1-to-100.md ***
 
 ```js
 // Input: arr[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, /* Missing number */,12, /* ... */, 100];

@@ -1,4 +1,4 @@
-*** copy PRODUCTION PERFORMANCE.md ***
+***  PRODUCTION PERFORMANCE.md ***
 
 This list captures the reality of modern web engineering: **performance is ultimately an end-to-end network, runtime, and human perception problem**, not just a metric on a Lighthouse report.
 

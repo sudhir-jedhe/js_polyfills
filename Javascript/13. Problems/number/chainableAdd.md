@@ -1,4 +1,4 @@
-*** copy chainableAdd.md ***
+***  chainableAdd.md ***
 
 ```js
 /**

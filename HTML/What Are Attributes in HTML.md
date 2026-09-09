@@ -1,4 +1,4 @@
-*** copy What Are Attributes in HTML.md ***
+***  What Are Attributes in HTML.md ***
 
 In HTML, attributes provide additional information about an element. They are used to define properties or behaviors of HTML elements, and they are always written inside the opening tag of an element. Attributes modify or configure the behavior, appearance, or functionality of an HTML element.
 

@@ -1,4 +1,4 @@
-*** copy TypingSpeed.md ***
+***  TypingSpeed.md ***
 
 # Build a Typing Speed Test Component (React + TypeScript)
 

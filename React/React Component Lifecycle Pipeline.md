@@ -1,4 +1,4 @@
-*** copy React Component Lifecycle Pipeline.md ***
+***  React Component Lifecycle Pipeline.md ***
 
 In React, a component follows a continuous lifecycle and execution pipeline: **Trigger $\rightarrow$ Render $\rightarrow$ Commit $\rightarrow$ Effect $\rightarrow$ Cleanup/Unmount**.
 

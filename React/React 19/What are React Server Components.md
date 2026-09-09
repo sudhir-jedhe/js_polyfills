@@ -1,4 +1,4 @@
-*** copy What are React Server Components.md ***
+***  What are React Server Components.md ***
 
 React Server Components (RSCs) are a foundational shift in how React works. They allow you to write UI components that execute **exclusively on the server** and never ship their underlying JavaScript to the user's browser.
 

@@ -1,4 +1,4 @@
-*** copy Render props.md ***
+***  Render props.md ***
 
 **Render Props** is an advanced React pattern used for sharing code/state between components using a **prop whose value is a function**.
 

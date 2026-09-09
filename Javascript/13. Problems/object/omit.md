@@ -1,4 +1,4 @@
-*** copy omit.md ***
+***  omit.md ***
 
 ```js
 function omit(object, paths) {

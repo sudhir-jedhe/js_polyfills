@@ -1,4 +1,4 @@
-*** copy optimize performance.md ***
+***  optimize performance.md ***
 
 ### 1. **Best Approaches to Reduce HTTP Requests on a Webpage:**
 Reducing HTTP requests is a key factor in improving web performance. Here are some effective strategies to achieve that:

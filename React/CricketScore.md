@@ -1,4 +1,4 @@
-*** copy CricketScore.md ***
+***  CricketScore.md ***
 
 To implement a cricket score functionality as per your requirements, we can create a React component that displays a table with two columns: "Ball Number" and "Number of Runs". There will be a button to update the score, and after six clicks (representing six balls), we will show the total score.
 

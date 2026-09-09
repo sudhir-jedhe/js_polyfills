@@ -1,4 +1,4 @@
-*** copy Explain React Server Components (RSC) and Streaming SSR compared to traditional hydration patterns.md ***
+***  Explain React Server Components (RSC) and Streaming SSR compared to traditional hydration patterns.md ***
 
 ### The Core Bottlenecks of Traditional SSR + Hydration
 

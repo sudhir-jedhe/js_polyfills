@@ -1,4 +1,4 @@
-*** copy 01-full-landmark-page-skeleton.md ***
+***  01-full-landmark-page-skeleton.md ***
 
 # Snippet: Full Landmark Page Skeleton
 

@@ -1,4 +1,4 @@
-*** copy 5-merge-sort.md ***
+***  5-merge-sort.md ***
 
 // Ques 5: Implement Merge Sort in JavaScript
 // Write a function to sort the given array nums in ascending order.

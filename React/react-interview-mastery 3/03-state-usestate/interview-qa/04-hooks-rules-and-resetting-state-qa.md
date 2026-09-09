@@ -1,4 +1,4 @@
-*** copy 04-hooks-rules-and-resetting-state-qa.md ***
+***  04-hooks-rules-and-resetting-state-qa.md ***
 
 # Interview Q&A — Hooks Rules and Resetting State
 

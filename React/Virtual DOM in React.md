@@ -1,4 +1,4 @@
-*** copy Virtual DOM in React.md ***
+***  Virtual DOM in React.md ***
 
 ### **Virtual DOM in React: An Overview**
 

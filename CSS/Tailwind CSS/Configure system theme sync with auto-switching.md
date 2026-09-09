@@ -1,4 +1,4 @@
-*** copy Configure system theme sync with auto-switching.md ***
+***  Configure system theme sync with auto-switching.md ***
 
 Configuring system theme synchronization with auto-switching requires a two-layer setup:
 

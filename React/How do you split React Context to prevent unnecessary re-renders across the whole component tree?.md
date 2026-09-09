@@ -1,4 +1,4 @@
-*** copy How do you split React Context to prevent unnecessary re-renders across the whole component tree?.md ***
+***  How do you split React Context to prevent unnecessary re-renders across the whole component tree?.md ***
 
 When a value inside a React Context Provider changes, **every component that calls `useContext` on that provider will re-render**, even if it only uses a piece of the context that didn't change.
 

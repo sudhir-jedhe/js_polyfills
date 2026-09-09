@@ -1,4 +1,4 @@
-*** copy interview.md ***
+***  interview.md ***
 
 ### 20. Explain how promises can be chained in JavaScript
 

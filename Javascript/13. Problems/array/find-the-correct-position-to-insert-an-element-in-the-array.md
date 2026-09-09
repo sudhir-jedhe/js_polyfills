@@ -1,4 +1,4 @@
-*** copy find-the-correct-position-to-insert-an-element-in-the-array.md ***
+***  find-the-correct-position-to-insert-an-element-in-the-array.md ***
 
 ```js
 Input: [1, 3, 5, 6];

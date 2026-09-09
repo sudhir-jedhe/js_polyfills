@@ -1,4 +1,4 @@
-*** copy 02-async-updates-batching-and-functional-form-qa.md ***
+***  02-async-updates-batching-and-functional-form-qa.md ***
 
 # Interview Q&A — Async Updates, Batching, and the Functional Form
 

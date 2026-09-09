@@ -1,4 +1,4 @@
-*** copy Vercel..md ***
+***  Vercel..md ***
 
 Here are complete, production-ready GitHub Actions workflows for both deployment targets (**Vercel** and **AWS S3/CloudFront**).
 

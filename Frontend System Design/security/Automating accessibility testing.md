@@ -1,4 +1,4 @@
-*** copy Automating accessibility testing.md ***
+***  Automating accessibility testing.md ***
 
 Automating accessibility testing in your CI/CD pipeline ensures your front-end application continually adheres to **WCAG 2.1 AA** and **ADA Section 508** standards before code hits production.
 

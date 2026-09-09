@@ -1,4 +1,4 @@
-*** copy script.md ***
+***  script.md ***
 
 // Get references to HTML elements
 const slider = document.querySelector('.slider');

@@ -1,4 +1,4 @@
-*** copy How do you add optimistic UI updates and rollback support to this custom useSWR hook?.md ***
+***  How do you add optimistic UI updates and rollback support to this custom useSWR hook?.md ***
 
 An **optimistic mutation** immediately writes the anticipated new state into the cache so the UI updates instantly. If the asynchronous operation fails, the store automatically rolls back to the previous snapshot and re-throws the error.
 

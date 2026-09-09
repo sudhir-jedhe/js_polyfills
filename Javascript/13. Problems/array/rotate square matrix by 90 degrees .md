@@ -1,4 +1,4 @@
-*** copy rotate square matrix by 90 degrees .md ***
+***  rotate square matrix by 90 degrees .md ***
 
 ```js
 // Input:

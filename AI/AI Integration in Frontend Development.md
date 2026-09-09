@@ -1,4 +1,4 @@
-*** copy AI Integration in Frontend Development.md ***
+***  AI Integration in Frontend Development.md ***
 
 This is a fantastic infographic (`image_08667c.jpg`) that perfectly captures the modern frontend developer's workflow. Interviewers are increasingly asking candidates about their usage of AI tools to gauge if they are using them as a "crutch" or as an "amplifier."
 

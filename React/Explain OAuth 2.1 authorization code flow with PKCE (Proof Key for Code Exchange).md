@@ -1,4 +1,4 @@
-*** copy Explain OAuth 2.1 authorization code flow with PKCE (Proof Key for Code Exchange).md ***
+***  Explain OAuth 2.1 authorization code flow with PKCE (Proof Key for Code Exchange).md ***
 
 **OAuth 2.1** consolidates a decade of security learned from OAuth 2.0. Among its biggest changes: **it deprecates the Implicit Grant and Resource Owner Password Credentials flows entirely**, making the **Authorization Code Flow with PKCE (Proof Key for Code Exchange, pronounced "pixie")** the mandatory standard for *all* clients—including Single Page Applications (SPAs), mobile apps, and server-side web apps.
 

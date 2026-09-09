@@ -1,4 +1,4 @@
-*** copy How Do You Check if a Value Is in an Array in Javascript.md ***
+***  How Do You Check if a Value Is in an Array in Javascript.md ***
 
 You've demonstrated three common methods for checking if a value exists in an array in JavaScript. Here's a quick breakdown of the methods you've used:
 

@@ -1,4 +1,4 @@
-*** copy How do I use the Web Background Sync API with a Service Worker in React?.md ***
+***  How do I use the Web Background Sync API with a Service Worker in React?.md ***
 
 The **Web Background Sync API** allows web applications to defer server mutations until the user has stable network connectivity, even if the user has closed the tab or navigated away.
 

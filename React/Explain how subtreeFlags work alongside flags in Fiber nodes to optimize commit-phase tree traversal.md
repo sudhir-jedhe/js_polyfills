@@ -1,4 +1,4 @@
-*** copy Explain how subtreeFlags work alongside flags in Fiber nodes to optimize commit-phase tree traversal.md ***
+***  Explain how subtreeFlags work alongside flags in Fiber nodes to optimize commit-phase tree traversal.md ***
 
 While individual **`flags`** tell React what work needs to be executed on a *specific* Fiber node during the Commit Phase, **`subtreeFlags`** tell React whether **any descendant Fiber node** inside that component's subtree has pending work.
 

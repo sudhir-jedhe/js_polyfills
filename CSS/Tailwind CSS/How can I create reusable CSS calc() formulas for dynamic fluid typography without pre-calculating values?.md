@@ -1,4 +1,4 @@
-*** copy How can I create reusable CSS calc() formulas for dynamic fluid typography without pre-calculating values?.md ***
+***  How can I create reusable CSS calc() formulas for dynamic fluid typography without pre-calculating values?.md ***
 
 You can make the browser calculate the slope and intercept at runtime by embedding the linear equation directly inside CSS `calc()`.
 

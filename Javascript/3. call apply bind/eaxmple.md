@@ -1,4 +1,4 @@
-*** copy eaxmple.md ***
+***  eaxmple.md ***
 
 ### Explanation of `call()`, `apply()`, and `bind()`
 

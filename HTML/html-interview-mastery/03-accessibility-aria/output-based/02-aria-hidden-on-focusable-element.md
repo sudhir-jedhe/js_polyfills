@@ -1,4 +1,4 @@
-*** copy 02-aria-hidden-on-focusable-element.md ***
+***  02-aria-hidden-on-focusable-element.md ***
 
 # Output: `aria-hidden="true"` on a Focusable Element
 

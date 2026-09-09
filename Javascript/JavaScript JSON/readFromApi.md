@@ -1,4 +1,4 @@
-*** copy readFromApi.md ***
+***  readFromApi.md ***
 
 Here's an explanation and a refined version of the code to make it work efficiently when fetching and processing data from an API:
 

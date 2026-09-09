@@ -1,4 +1,4 @@
-*** copy Find_Duplicate_Elements_in_an_Array.md ***
+***  Find_Duplicate_Elements_in_an_Array.md ***
 
 ```js
 let check_duplicate_in_array = (input_array) => {

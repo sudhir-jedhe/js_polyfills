@@ -1,4 +1,4 @@
-*** copy symbol methods and its properties.md ***
+***  symbol methods and its properties.md ***
 
 In JavaScript, the `Symbol` constructor and its instances provide a small set of **static methods**, **instance properties/methods**, and the **global symbol registry**.
 

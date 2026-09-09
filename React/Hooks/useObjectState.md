@@ -1,4 +1,4 @@
-*** copy useObjectState.md ***
+***  useObjectState.md ***
 
 # `useObjectState` – Custom React Hook
 

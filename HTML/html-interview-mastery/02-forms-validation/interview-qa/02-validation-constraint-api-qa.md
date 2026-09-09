@@ -1,4 +1,4 @@
-*** copy 02-validation-constraint-api-qa.md ***
+***  02-validation-constraint-api-qa.md ***
 
 # Interview Q&A — Validation & the Constraint Validation API
 

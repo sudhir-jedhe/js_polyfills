@@ -1,4 +1,4 @@
-*** copy Generating React Components with Claude.md ***
+***  Generating React Components with Claude.md ***
 
 This is a highly practical guide to add to your repository. Prompt engineering for UI components is a specific skill. Because Claude features "Artifacts" (a live browser environment inside the chat), you can iteratively design and test a React component visually before ever pasting it into your local codebase.
 

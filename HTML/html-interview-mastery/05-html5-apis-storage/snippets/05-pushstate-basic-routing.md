@@ -1,4 +1,4 @@
-*** copy 05-pushstate-basic-routing.md ***
+***  05-pushstate-basic-routing.md ***
 
 # Snippet: `pushState` + `popstate` Minimal Router
 

@@ -1,4 +1,4 @@
-*** copy 01-mechanics-and-prop-drilling.md ***
+***  01-mechanics-and-prop-drilling.md ***
 
 # Interview Q&A: Mechanics & Prop Drilling
 

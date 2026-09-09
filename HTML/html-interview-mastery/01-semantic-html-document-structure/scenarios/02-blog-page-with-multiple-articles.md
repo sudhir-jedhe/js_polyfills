@@ -1,4 +1,4 @@
-*** copy 02-blog-page-with-multiple-articles.md ***
+***  02-blog-page-with-multiple-articles.md ***
 
 # Scenario: Structuring a Blog Index Page with Multiple Posts
 

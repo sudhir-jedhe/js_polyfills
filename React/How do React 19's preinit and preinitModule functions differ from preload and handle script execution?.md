@@ -1,4 +1,4 @@
-*** copy How do React 19's preinit and preinitModule functions differ from preload and handle script execution?.md ***
+***  How do React 19's preinit and preinitModule functions differ from preload and handle script execution?.md ***
 
 While `preload` and `preloadModule` only **download and cache** resources ahead of time without executing them, **`preinit`** and **`preinitModule`** go one step further: they **fetch AND immediately initialize/execute** the resource (inserting it as an active `<script>` or `<link rel="stylesheet">` in the document).
 

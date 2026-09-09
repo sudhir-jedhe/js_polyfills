@@ -1,4 +1,4 @@
-*** copy findMissingAndRepeatedValues.md ***
+***  findMissingAndRepeatedValues.md ***
 
 Let's break down both versions of your function for finding the repeated and missing numbers in a grid, and ensure that the logic is correct and clear.
 

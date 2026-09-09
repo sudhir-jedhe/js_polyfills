@@ -1,4 +1,4 @@
-*** copy stringToObject.md ***
+***  stringToObject.md ***
 
 ```js
 function stringToObject(str, value) {

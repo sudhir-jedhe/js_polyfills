@@ -1,4 +1,4 @@
-*** copy 03-relative-og-image-url.md ***
+***  03-relative-og-image-url.md ***
 
 # Output: Relative `og:image` URL
 

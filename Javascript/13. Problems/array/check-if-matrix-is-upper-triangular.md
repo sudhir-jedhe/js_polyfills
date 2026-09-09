@@ -1,4 +1,4 @@
-*** copy check-if-matrix-is-upper-triangular.md ***
+***  check-if-matrix-is-upper-triangular.md ***
 
 ```js
 // Given a square matrix and the task is to check the matrix is in upper triangular form or not.

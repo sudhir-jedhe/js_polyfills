@@ -1,4 +1,4 @@
-*** copy for-in-for-of-foreach.md ***
+***  for-in-for-of-foreach.md ***
 
 You are absolutely correct in explaining the difference between `for...in`, `for...of`, and `forEach()` as iteration constructs in JavaScript. Here's a more detailed breakdown of each one with examples to help clarify how they work and when you might use each:
 

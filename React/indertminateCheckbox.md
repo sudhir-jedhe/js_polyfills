@@ -1,4 +1,4 @@
-*** copy indertminateCheckbox.md ***
+***  indertminateCheckbox.md ***
 
 import FolderTree from "./FolderTree";
 import IndeterminateCheckbox from "./IndeterminateCheckbox";

@@ -1,4 +1,4 @@
-*** copy Array Mutation.md ***
+***  Array Mutation.md ***
 
 JavaScript array methods generally fall into two categories: **mutating** (methods that alter the original array in place) and **non-mutating** (methods that return a new array or value without modifying the original).
 

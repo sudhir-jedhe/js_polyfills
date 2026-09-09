@@ -1,4 +1,4 @@
-*** copy 05-common-bugs-missing-deps-and-infinite-loops.md ***
+***  05-common-bugs-missing-deps-and-infinite-loops.md ***
 
 # Common Bugs: Missing Dependencies and Infinite Loops
 

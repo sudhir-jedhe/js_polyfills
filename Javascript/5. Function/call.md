@@ -1,4 +1,4 @@
-*** copy call.md ***
+***  call.md ***
 
 In the task you've provided, the goal is to implement a `callPolyfill` method for functions that will behave similarly to the built-in `Function.prototype.call()` method. It should allow you to call a function with a specific context (`this`) and any number of arguments, while avoiding the use of the built-in `call()` method.
 

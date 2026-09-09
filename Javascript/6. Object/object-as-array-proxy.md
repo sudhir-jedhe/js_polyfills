@@ -1,4 +1,4 @@
-*** copy object-as-array-proxy.md ***
+***  object-as-array-proxy.md ***
 
 Sure! Below is the original code that turns a regular object into an enhanced object with array-like methods using a `Proxy`:
 

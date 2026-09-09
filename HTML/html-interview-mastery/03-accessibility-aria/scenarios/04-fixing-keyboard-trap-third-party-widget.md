@@ -1,4 +1,4 @@
-*** copy 04-fixing-keyboard-trap-third-party-widget.md ***
+***  04-fixing-keyboard-trap-third-party-widget.md ***
 
 # Scenario: A Third-Party Date Picker Widget Traps Keyboard Focus
 

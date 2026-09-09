@@ -1,4 +1,4 @@
-*** copy find-second-largest-element-in-an-array.md ***
+***  find-second-largest-element-in-an-array.md ***
 
 ```js
 /*

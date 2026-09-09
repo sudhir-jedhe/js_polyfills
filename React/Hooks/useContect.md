@@ -1,4 +1,4 @@
-*** copy useContect.md ***
+***  useContect.md ***
 
 In React, the `useContext` API is used to access the value of a **Context** directly within a functional component. Context provides a way to share values like global state or theme across components without having to manually pass props at every level of the component tree.
 

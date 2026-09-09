@@ -1,4 +1,4 @@
-*** copy using redux.md ***
+***  using redux.md ***
 
 Here is a complete, production-ready React To-Do List application built using **Classic / Old Redux** (pre-Toolkit, using `createStore`, action creators, switch-case reducers, and `react-redux` hooks like `useSelector` and `useDispatch`), featuring user authentication (login/logout), task management, and `localStorage` persistence.
 

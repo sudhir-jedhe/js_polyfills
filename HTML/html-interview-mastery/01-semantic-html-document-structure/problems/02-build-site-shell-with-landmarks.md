@@ -1,4 +1,4 @@
-*** copy 02-build-site-shell-with-landmarks.md ***
+***  02-build-site-shell-with-landmarks.md ***
 
 # Problem: Build a Full Site Shell with Every Standard Landmark
 

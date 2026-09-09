@@ -1,4 +1,4 @@
-*** copy The LCP image sits above the fold. The browser still discovers it late. Why?.md ***
+***  The LCP image sits above the fold. The browser still discovers it late. Why?.md ***
 
 When an above-the-fold LCP (Largest Contentful Paint) image is discovered late by the browser, the issue almost always comes down to **bypassing or delaying the browser’s HTML Preload Scanner**.
 

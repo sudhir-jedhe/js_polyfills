@@ -1,4 +1,4 @@
-*** copy 05-lazy-initial-state.md ***
+***  05-lazy-initial-state.md ***
 
 # Lazy Initial State
 

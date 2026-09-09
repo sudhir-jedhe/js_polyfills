@@ -1,4 +1,4 @@
-*** copy checkPasswordStrength.md ***
+***  checkPasswordStrength.md ***
 
 ```js
 export const checkPasswordStrength = (password) => {

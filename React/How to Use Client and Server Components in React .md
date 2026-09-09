@@ -1,4 +1,4 @@
-*** copy How to Use Client and Server Components in React .md ***
+***  How to Use Client and Server Components in React .md ***
 
 When building apps with React, it’s important to know when to use client components and when to use server components.
 

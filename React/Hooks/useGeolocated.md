@@ -1,4 +1,4 @@
-*** copy useGeolocated.md ***
+***  useGeolocated.md ***
 
 Here is a production-ready `useGeolocated` React hook for tracking user location via the native `navigator.geolocation` API.
 

@@ -1,4 +1,4 @@
-*** copy ReactDom.md ***
+***  ReactDom.md ***
 
 **`ReactDOM`** is a core library in React that helps to interact with the browser's DOM and enables rendering of React components into the DOM. While most people are familiar with **ReactDOM.render()** for rendering components, it has other important use cases that enhance functionality, especially when dealing with different rendering scenarios.
 

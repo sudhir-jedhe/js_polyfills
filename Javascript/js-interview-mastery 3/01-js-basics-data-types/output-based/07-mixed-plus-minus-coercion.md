@@ -1,4 +1,4 @@
-*** copy 07-mixed-plus-minus-coercion.md ***
+***  07-mixed-plus-minus-coercion.md ***
 
 # Mixed `+` and `-` Coercion
 

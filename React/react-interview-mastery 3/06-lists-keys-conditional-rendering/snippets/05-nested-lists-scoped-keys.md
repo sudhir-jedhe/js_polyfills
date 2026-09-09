@@ -1,4 +1,4 @@
-*** copy 05-nested-lists-scoped-keys.md ***
+***  05-nested-lists-scoped-keys.md ***
 
 # Snippet: Nested lists each need their own key scoped to their own siblings
 

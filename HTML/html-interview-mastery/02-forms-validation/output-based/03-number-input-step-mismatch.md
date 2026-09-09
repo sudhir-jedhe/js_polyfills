@@ -1,4 +1,4 @@
-*** copy 03-number-input-step-mismatch.md ***
+***  03-number-input-step-mismatch.md ***
 
 # Output: `number` Input with `step` Mismatch
 

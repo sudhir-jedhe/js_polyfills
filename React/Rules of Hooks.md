@@ -1,4 +1,4 @@
-*** copy Rules of Hooks.md ***
+***  Rules of Hooks.md ***
 
 **No, you must never call React Hooks inside conditions (`if`/`else`), loops (`for`/`while`), or nested functions.**
 

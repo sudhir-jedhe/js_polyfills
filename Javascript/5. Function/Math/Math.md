@@ -1,4 +1,4 @@
-*** copy Math.md ***
+***  Math.md ***
 
 For **JavaScript / React interviews**, math-based coding questions are extremely common because they test:
 

@@ -1,4 +1,4 @@
-*** copy 01-reorderable-task-list-loses-focus.md ***
+***  01-reorderable-task-list-loses-focus.md ***
 
 # Reorderable Task List Loses Input Focus and Shows Wrong Text
 

@@ -1,4 +1,4 @@
-*** copy canMakeSquare.md ***
+***  canMakeSquare.md ***
 
 function canMakeSquare(grid: string[][]): boolean {
     const dirs: number[] = [0, 0, 1, 1, 0];

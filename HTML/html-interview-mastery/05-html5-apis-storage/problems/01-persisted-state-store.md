@@ -1,4 +1,4 @@
-*** copy 01-persisted-state-store.md ***
+***  01-persisted-state-store.md ***
 
 # Problem: Build a `persistedStore` Backed by `localStorage`
 

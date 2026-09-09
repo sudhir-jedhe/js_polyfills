@@ -1,4 +1,4 @@
-*** copy remove_specific_elements_from_the_left_of_a_given_array_of_elements.md ***
+***  remove_specific_elements_from_the_left_of_a_given_array_of_elements.md ***
 
 ```js
 function fun(n) { 

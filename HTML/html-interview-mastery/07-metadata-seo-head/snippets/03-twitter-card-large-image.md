@@ -1,4 +1,4 @@
-*** copy 03-twitter-card-large-image.md ***
+***  03-twitter-card-large-image.md ***
 
 # Snippet: Twitter Card (Large Image) Alongside Open Graph
 

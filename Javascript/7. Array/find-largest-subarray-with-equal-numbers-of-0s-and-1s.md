@@ -1,4 +1,4 @@
-*** copy find-largest-subarray-with-equal-numbers-of-0s-and-1s.md ***
+***  find-largest-subarray-with-equal-numbers-of-0s-and-1s.md ***
 
 Your solution to the problem is about finding the longest contiguous subarray where the number of 0s and 1s are equal. You have provided two different implementations for this. Let's break them down.
 

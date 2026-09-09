@@ -1,4 +1,4 @@
-*** copy Core Web Vitals.md ***
+***  Core Web Vitals.md ***
 
 Google’s **Core Web Vitals (CWVs)** are a set of three specific, user-centric metrics that measure the real-world performance, interactivity, and visual stability of a web application.
 

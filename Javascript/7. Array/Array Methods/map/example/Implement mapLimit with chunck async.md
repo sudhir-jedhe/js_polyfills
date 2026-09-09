@@ -1,4 +1,4 @@
-*** copy Implement mapLimit with chunck async.md ***
+***  Implement mapLimit with chunck async.md ***
 
 ```js
 async function mapWithChunksAsync(array, mapper, chunkSize) {

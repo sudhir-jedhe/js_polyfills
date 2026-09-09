@@ -1,4 +1,4 @@
-*** copy longest-string-in-an-array.md ***
+***  longest-string-in-an-array.md ***
 
 ```js
 // Input array of strings

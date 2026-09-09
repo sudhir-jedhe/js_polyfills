@@ -1,4 +1,4 @@
-*** copy AirbnbCard.md ***
+***  AirbnbCard.md ***
 
 # Airbnb Card Compound Component (React Context Pattern)
 

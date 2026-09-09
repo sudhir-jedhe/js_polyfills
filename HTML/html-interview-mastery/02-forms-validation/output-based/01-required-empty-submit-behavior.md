@@ -1,4 +1,4 @@
-*** copy 01-required-empty-submit-behavior.md ***
+***  01-required-empty-submit-behavior.md ***
 
 # Output: Submitting a Form with an Empty Required Field
 

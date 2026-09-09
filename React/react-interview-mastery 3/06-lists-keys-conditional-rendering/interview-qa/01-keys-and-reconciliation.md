@@ -1,4 +1,4 @@
-*** copy 01-keys-and-reconciliation.md ***
+***  01-keys-and-reconciliation.md ***
 
 # Interview Q&A: Keys and Reconciliation
 

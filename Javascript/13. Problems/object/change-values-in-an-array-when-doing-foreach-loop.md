@@ -1,4 +1,4 @@
-*** copy change-values-in-an-array-when-doing-foreach-loop.md ***
+***  change-values-in-an-array-when-doing-foreach-loop.md ***
 
 ```js
 let arr = [1, 2, 3];

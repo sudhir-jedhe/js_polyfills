@@ -1,4 +1,4 @@
-*** copy How do you detect and fix layout thrashing caused by useLayoutEffect and DOM measurements in React?.md ***
+***  How do you detect and fix layout thrashing caused by useLayoutEffect and DOM measurements in React?.md ***
 
 **Layout thrashing** (forced synchronous layout) occurs when JavaScript repeatedly interleaves reading geometric properties from the DOM with writing modifications back to the DOM.
 

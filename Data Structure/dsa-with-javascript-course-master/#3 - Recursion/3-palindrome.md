@@ -1,4 +1,4 @@
-*** copy 3-palindrome.md ***
+***  3-palindrome.md ***
 
 // Ques 3 : Given an integer x, return true if x is a palindrome, and false otherwise.
 // Input: x = 121      ----->>>>>      Output: true;

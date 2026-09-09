@@ -1,4 +1,4 @@
-*** copy 03-optimizing-image-loading-performance.md ***
+***  03-optimizing-image-loading-performance.md ***
 
 # Scenario: Optimizing an Image-Heavy Product Listing Page for Performance
 

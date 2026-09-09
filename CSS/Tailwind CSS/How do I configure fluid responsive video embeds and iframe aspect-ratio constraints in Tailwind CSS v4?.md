@@ -1,4 +1,4 @@
-*** copy How do I configure fluid responsive video embeds and iframe aspect-ratio constraints in Tailwind CSS v4?.md ***
+***  How do I configure fluid responsive video embeds and iframe aspect-ratio constraints in Tailwind CSS v4?.md ***
 
 In Tailwind CSS v4, responsive video embeds and `iframe` containers rely on native CSS `aspect-ratio` with dimension clamping (`min-h`, `max-h`), eliminating the need for legacy padding-hack wrappers (`pb-[56.25%]`).
 

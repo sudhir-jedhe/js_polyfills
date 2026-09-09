@@ -1,4 +1,4 @@
-*** copy triangleType.md ***
+***  triangleType.md ***
 
 To extend your `triangleType` function to account for other shapes, such as rectangles and squares, you can add additional checks for the properties of these shapes. A square has four equal sides, and a rectangle has opposite sides of equal length. We can combine this with your existing triangle check logic.
 

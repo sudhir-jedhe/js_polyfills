@@ -1,4 +1,4 @@
-*** copy Button.md ***
+***  Button.md ***
 
 ```js
 //index.js

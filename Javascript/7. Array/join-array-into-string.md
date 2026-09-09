@@ -1,4 +1,4 @@
-*** copy join-array-into-string.md ***
+***  join-array-into-string.md ***
 
 The introduction of `Intl.ListFormat` is a powerful feature for formatting lists in a way that adheres to localized grammatical rules, which was previously cumbersome with methods like `Array.prototype.join()`. This allows for more flexible and linguistically correct list formatting, especially when dealing with conjunctions, disjunctions, and varying styles.
 

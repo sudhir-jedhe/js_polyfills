@@ -1,4 +1,4 @@
-*** copy toggle.md ***
+***  toggle.md ***
 
 The `toggle` function you've created is designed to return a function that cycles through the values in a given array in a cyclic manner. Each time the returned function is called, it returns the next element in the array, and when it reaches the end of the array, it starts from the beginning again.
 

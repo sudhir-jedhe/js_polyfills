@@ -1,4 +1,4 @@
-*** copy modify-url-without-reload.md ***
+***  modify-url-without-reload.md ***
 
 ### Modifying the URL Without Reloading: A Comparison of the History API and Location API
 

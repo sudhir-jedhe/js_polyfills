@@ -1,4 +1,4 @@
-*** copy What are the @source and @reference directives in Tailwind CSS v4 and how are they used?.md ***
+***  What are the @source and @reference directives in Tailwind CSS v4 and how are they used?.md ***
 
 In Tailwind CSS v4, **`@source`** and **`@reference`** solve two common architecture challenges: controlling file scanning for class generation, and sharing theme context without duplicating CSS output.
 

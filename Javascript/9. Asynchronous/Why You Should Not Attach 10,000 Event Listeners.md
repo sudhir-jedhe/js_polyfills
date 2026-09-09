@@ -1,4 +1,4 @@
-*** copy Why You Should Not Attach 10,000 Event Listeners.md ***
+***  Why You Should Not Attach 10,000 Event Listeners.md ***
 
 ## Why You Should Not Attach 10,000 Event Listeners
 

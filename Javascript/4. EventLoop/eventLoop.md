@@ -1,4 +1,4 @@
-*** copy eventLoop.md ***
+***  eventLoop.md ***
 
 # JavaScript Event Loop
 

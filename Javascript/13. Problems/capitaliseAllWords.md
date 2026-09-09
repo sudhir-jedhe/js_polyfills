@@ -1,4 +1,4 @@
-*** copy capitaliseAllWords.md ***
+***  capitaliseAllWords.md ***
 
 ```js
 export const capitaliseAllWords = (input) => {

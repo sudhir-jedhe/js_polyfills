@@ -1,4 +1,4 @@
-*** copy 02-pushstate-does-not-trigger-popstate.md ***
+***  02-pushstate-does-not-trigger-popstate.md ***
 
 # Output: Does `pushState` Trigger `popstate`?
 

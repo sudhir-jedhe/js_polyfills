@@ -1,4 +1,4 @@
-*** copy how to lift state up in React.md ***
+***  how to lift state up in React.md ***
 
 **Lifting state up** is a fundamental React pattern used when two or more sibling components need to share the same changing data.
 

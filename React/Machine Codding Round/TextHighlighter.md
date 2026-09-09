@@ -1,4 +1,4 @@
-*** copy TextHighlighter.md ***
+***  TextHighlighter.md ***
 
 ```js
 import React, { useState } from "react";

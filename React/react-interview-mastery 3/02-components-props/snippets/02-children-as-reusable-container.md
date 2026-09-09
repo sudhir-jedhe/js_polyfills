@@ -1,4 +1,4 @@
-*** copy 02-children-as-reusable-container.md ***
+***  02-children-as-reusable-container.md ***
 
 # `props.children` Makes a Component a Reusable Container
 

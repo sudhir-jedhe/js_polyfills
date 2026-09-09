@@ -1,4 +1,4 @@
-*** copy What are error boundaries in React, and what limitations do they have?.md ***
+***  What are error boundaries in React, and what limitations do they have?.md ***
 
 **Error Boundaries** are class-based React components that catch JavaScript runtime errors anywhere in their child component tree, log those errors, and display a fallback UI instead of crashing the entire application component tree.
 

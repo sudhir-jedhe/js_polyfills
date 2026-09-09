@@ -1,4 +1,4 @@
-*** copy 02-crawling-indexing-structured-data-qa.md ***
+***  02-crawling-indexing-structured-data-qa.md ***
 
 # Interview Q&A — Crawling, Indexing & Structured Data
 

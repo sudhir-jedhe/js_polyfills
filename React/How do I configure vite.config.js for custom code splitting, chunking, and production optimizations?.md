@@ -1,4 +1,4 @@
-*** copy How do I configure vite.config.js for custom code splitting, chunking, and production optimizations?.md ***
+***  How do I configure vite.config.js for custom code splitting, chunking, and production optimizations?.md ***
 
 Configuring Vite for production optimization involves customizing its underlying bundler, **Rollup**, via the `build.rollupOptions` setting in `vite.config.js`.
 

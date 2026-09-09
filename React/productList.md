@@ -1,4 +1,4 @@
-*** copy productList.md ***
+***  productList.md ***
 
 Below is a **complete React.js E-Commerce Product Listing Page** implementation covering:
 

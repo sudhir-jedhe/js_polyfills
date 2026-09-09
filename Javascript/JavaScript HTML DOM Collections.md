@@ -1,4 +1,4 @@
-*** copy JavaScript HTML DOM Collections.md ***
+***  JavaScript HTML DOM Collections.md ***
 
 In JavaScript, **DOM Collections** are array-like objects that contain groups of DOM nodes or elements returned by browser selection methods.
 

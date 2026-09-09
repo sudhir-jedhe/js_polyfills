@@ -1,4 +1,4 @@
-*** copy challenge1.md ***
+***  challenge1.md ***
 
 Let’s break down each of these concepts and explore how to build them step by step in React:
 

@@ -1,4 +1,4 @@
-*** copy Idempotency.md ***
+***  Idempotency.md ***
 
 **Idempotency** is a core computer science and REST API architectural concept.
 

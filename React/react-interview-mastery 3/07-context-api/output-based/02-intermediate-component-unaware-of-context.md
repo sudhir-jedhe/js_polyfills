@@ -1,4 +1,4 @@
-*** copy 02-intermediate-component-unaware-of-context.md ***
+***  02-intermediate-component-unaware-of-context.md ***
 
 # Output-Based: Does an intermediate component need to know about a context it doesn't consume?
 

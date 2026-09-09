@@ -1,4 +1,4 @@
-*** copy provider pattern.md ***
+***  provider pattern.md ***
 
 # Provider Data Passing Pattern in React
 

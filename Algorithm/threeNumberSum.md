@@ -1,4 +1,4 @@
-*** copy threeNumberSum.md ***
+***  threeNumberSum.md ***
 
 /**
  * Problem: Three Number Sum: Given an array of integers, 

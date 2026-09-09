@@ -1,4 +1,4 @@
-*** copy interview11.md ***
+***  interview11.md ***
 
 Here is a complete, architectural breakdown answering all 45 fundamental JavaScript execution, runtime, memory, and async questions with clear code examples.
 

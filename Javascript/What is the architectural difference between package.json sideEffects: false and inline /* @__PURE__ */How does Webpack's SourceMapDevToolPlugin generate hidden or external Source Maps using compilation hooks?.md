@@ -1,4 +1,4 @@
-*** copy How does Webpack's SourceMapDevToolPlugin generate hidden or external Source Maps using compilation hooks?.md ***
+***  How does Webpack's SourceMapDevToolPlugin generate hidden or external Source Maps using compilation hooks?.md ***
 
 Webpack’s **`SourceMapDevToolPlugin`** (the underlying engine behind the `devtool` configuration option) hooks directly into the **`seal`** phase to extract, process, format, and emit source maps.
 

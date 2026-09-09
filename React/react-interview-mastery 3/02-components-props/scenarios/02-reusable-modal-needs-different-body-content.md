@@ -1,4 +1,4 @@
-*** copy 02-reusable-modal-needs-different-body-content.md ***
+***  02-reusable-modal-needs-different-body-content.md ***
 
 # Reusable `<Modal>` Needs a Different Body Every Time It's Used
 

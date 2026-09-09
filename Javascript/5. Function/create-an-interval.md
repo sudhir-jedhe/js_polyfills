@@ -1,4 +1,4 @@
-*** copy create-an-interval.md ***
+***  create-an-interval.md ***
 
 To implement the `mySetInterval` function with the specific behavior described, we need to ensure that the interval period grows linearly with each call. The interval starts with an initial delay (`delay`) and then increases by a linear function of the form `delay + (b * count)` after each execution, where `b` is the increment and `count` is the number of times the function has been called.
 

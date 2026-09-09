@@ -1,4 +1,4 @@
-*** copy weekday-name.md ***
+***  weekday-name.md ***
 
 The functions you've implemented leverage JavaScript's `toLocaleDateString()` method to display the name of the day in different formats and languages. This method can be customized to show long, short, or narrow versions of the weekday names based on the `locale` provided. Let's break down each function:
 

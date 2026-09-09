@@ -1,4 +1,4 @@
-*** copy nested commnet.md ***
+***  nested commnet.md ***
 
 Below is a **complete system design + working React JS code** for an **Infinite Nested Comments System**, useful for React interview/system-design rounds.
 

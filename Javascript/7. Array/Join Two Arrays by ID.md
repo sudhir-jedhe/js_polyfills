@@ -1,4 +1,4 @@
-*** copy Join Two Arrays by ID.md ***
+***  Join Two Arrays by ID.md ***
 
 Here is the complete guide and solution for LeetCode #2722: **Join Two Arrays by ID** (merging two array objects by their `id` property, resolving key conflicts by letting properties from `arr2` override `arr1`).
 

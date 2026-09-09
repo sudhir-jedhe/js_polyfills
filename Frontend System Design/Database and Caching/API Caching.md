@@ -1,4 +1,4 @@
-*** copy API Caching.md ***
+***  API Caching.md ***
 
 In Front-End System Design, **API Caching** is the technique of storing the HTTP responses of backend API calls in memory or local client storage so that subsequent requests for the exact same resource can be fulfilled instantly without making a network round-trip to the server.
 

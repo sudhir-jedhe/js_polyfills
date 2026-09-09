@@ -1,4 +1,4 @@
-*** copy getStringsWithVowels.md ***
+***  getStringsWithVowels.md ***
 
 ```js
 getStringsWithVowels(["apple", "banana", "orange", "pear"]); // Output: ['apple', 'orange']

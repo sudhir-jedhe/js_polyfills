@@ -1,4 +1,4 @@
-*** copy longestIncreasingSubsequence.md ***
+***  longestIncreasingSubsequence.md ***
 
 Both implementations of the `longestIncreasingSubsequence` (LIS) function are correct and provide valuable solutions, but they differ in their approaches. Here's a detailed comparison and explanation of each one:
 

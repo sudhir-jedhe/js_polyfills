@@ -1,4 +1,4 @@
-*** copy 06-uselayouteffect-and-effects-as-synchronization.md ***
+***  06-uselayouteffect-and-effects-as-synchronization.md ***
 
 # `useLayoutEffect`, and Effects as Synchronization
 

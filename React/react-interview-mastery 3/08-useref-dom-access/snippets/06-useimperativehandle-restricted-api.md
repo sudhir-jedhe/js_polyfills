@@ -1,4 +1,4 @@
-*** copy 06-useimperativehandle-restricted-api.md ***
+***  06-useimperativehandle-restricted-api.md ***
 
 # Snippet: useImperativeHandle exposing a restricted API instead of the raw DOM node
 

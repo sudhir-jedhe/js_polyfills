@@ -1,4 +1,4 @@
-*** copy immutable data to avoid  side effects.md ***
+***  immutable data to avoid  side effects.md ***
 
 ### **Using Immutable Data to Avoid Side Effects in JavaScript**
 

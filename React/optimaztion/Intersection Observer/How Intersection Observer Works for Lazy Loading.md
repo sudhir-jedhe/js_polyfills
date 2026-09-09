@@ -1,4 +1,4 @@
-*** copy How Intersection Observer Works for Lazy Loading.md ***
+***  How Intersection Observer Works for Lazy Loading.md ***
 
 The **Intersection Observer API** is a powerful tool in JavaScript that allows you to efficiently detect when an element enters or exits the viewport (or a specified container). It's widely used for implementing **lazy loading** of images, videos, or other elements, ensuring that resources are only loaded when they are about to be displayed on the screen, which can significantly improve page performance.
 

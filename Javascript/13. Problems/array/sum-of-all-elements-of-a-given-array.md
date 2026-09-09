@@ -1,4 +1,4 @@
-*** copy sum-of-all-elements-of-a-given-array.md ***
+***  sum-of-all-elements-of-a-given-array.md ***
 
 ```js
 // Creating array

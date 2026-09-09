@@ -1,4 +1,4 @@
-*** copy find-number-x-whose-sum-digits-equal-n.md ***
+***  find-number-x-whose-sum-digits-equal-n.md ***
 
 ```js
 // Input : N = 21

@@ -1,4 +1,4 @@
-*** copy promise.reject.md ***
+***  promise.reject.md ***
 
 ```js
 //Promise.reject

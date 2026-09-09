@@ -1,4 +1,4 @@
-*** copy How do you use the React DevTools Profiler to detect and debug unnecessary component re-renders?.md ***
+***  How do you use the React DevTools Profiler to detect and debug unnecessary component re-renders?.md ***
 
 The **React Developer Tools Profiler** records component render timings and commit phases to help pinpoint performance bottlenecks, expensive renders, and unnecessary re-renders.
 

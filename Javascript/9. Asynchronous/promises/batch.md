@@ -1,4 +1,4 @@
-*** copy batch.md ***
+***  batch.md ***
 
 Processing promises in Batch
 ```js

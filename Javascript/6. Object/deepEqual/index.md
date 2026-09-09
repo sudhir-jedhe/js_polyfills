@@ -1,4 +1,4 @@
-*** copy index.md ***
+***  index.md ***
 
 Your code examples are focused on checking whether two objects (or arrays) are **deeply equal**—meaning that all properties and nested structures must match in value and structure. You've provided a few different implementations for deep equality checks, each with its own approach. I'll explain and review each solution, pointing out their strengths, weaknesses, and potential improvements.
 

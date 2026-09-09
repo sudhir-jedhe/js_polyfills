@@ -1,4 +1,4 @@
-*** copy isIsomorphics.md ***
+***  isIsomorphics.md ***
 
 The problem you've described involves checking whether two strings are isomorphic. Two strings are isomorphic if each character in one string can be mapped to a character in the other string in a one-to-one correspondence, while preserving the order of characters. Additionally, no two characters in the first string can map to the same character in the second string, but a character can map to itself.
 

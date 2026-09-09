@@ -1,4 +1,4 @@
-*** copy 05-localstorage-stores-strings-only.md ***
+***  05-localstorage-stores-strings-only.md ***
 
 # Output: Storing a Number and an Object in localStorage
 

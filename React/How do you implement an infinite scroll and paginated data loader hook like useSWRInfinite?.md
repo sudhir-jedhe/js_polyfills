@@ -1,4 +1,4 @@
-*** copy How do you implement an infinite scroll and paginated data loader hook like useSWRInfinite?.md ***
+***  How do you implement an infinite scroll and paginated data loader hook like useSWRInfinite?.md ***
 
 An **infinite pagination hook** (like `useSWRInfinite`) builds on top of base caching by managing a dynamic array of page keys and aggregating each page's response into a unified 2D array: `[ [Page 1 Data], [Page 2 Data], ... ]`.
 

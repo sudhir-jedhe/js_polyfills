@@ -1,4 +1,4 @@
-*** copy Loading Pattern.md ***
+***  Loading Pattern.md ***
 
 In frontend system design, there is no single "best" loading state—the optimal approach depends on **user expectation, content type, latency duration, and layout predictability**.
 

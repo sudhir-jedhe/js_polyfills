@@ -1,4 +1,4 @@
-*** copy What is the difference between react node and react element and react component?.md ***
+***  What is the difference between react node and react element and react component?.md ***
 
 A **React Component** is a blueprint (a function or class), a **React Element** is a lightweight object describing a UI instance created from that blueprint, and a **React Node** is a broad type representing anything React can render.
 

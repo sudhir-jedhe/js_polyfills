@@ -1,4 +1,4 @@
-*** copy Effective state managemen.md ***
+***  Effective state managemen.md ***
 
 Effective state management is key to creating scalable and maintainable React applications. Here’s a deeper dive into the principles you've outlined and how to implement them for optimal results:
 

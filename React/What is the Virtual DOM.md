@@ -1,4 +1,4 @@
-*** copy What is the Virtual DOM.md ***
+***  What is the Virtual DOM.md ***
 
 ### What is the Virtual DOM?
 

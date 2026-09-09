@@ -1,4 +1,4 @@
-*** copy index.md ***
+***  index.md ***
 
 import img1 from './images/1.jpg';
 import img2 from './images/2.jpg';

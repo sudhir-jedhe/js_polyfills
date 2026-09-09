@@ -1,4 +1,4 @@
-*** copy 03-inline-object-dependency.md ***
+***  03-inline-object-dependency.md ***
 
 # Output-Based: Inline Object Dependency Defeats useMemo
 

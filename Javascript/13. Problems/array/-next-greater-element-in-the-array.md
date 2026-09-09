@@ -1,4 +1,4 @@
-*** copy -next-greater-element-in-the-array.md ***
+***  -next-greater-element-in-the-array.md ***
 
 ```js
 Input:

@@ -1,4 +1,4 @@
-*** copy 04-file-upload-uncontrolled.md ***
+***  04-file-upload-uncontrolled.md ***
 
 # Scenario: File upload form needs to read a selected file, but the input keeps warning about being uncontrolled/controlled
 

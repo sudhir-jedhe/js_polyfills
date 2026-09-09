@@ -1,4 +1,4 @@
-*** copy 03-accessible-multi-nav-site.md ***
+***  03-accessible-multi-nav-site.md ***
 
 # Scenario: A Documentation Site with Global Nav, Sidebar Nav, and In-Page TOC
 

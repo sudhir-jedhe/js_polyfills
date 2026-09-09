@@ -1,4 +1,4 @@
-*** copy dom.md ***
+***  dom.md ***
 
 Here are the implementations and explanations for each of the problems you listed:
 

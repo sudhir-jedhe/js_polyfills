@@ -1,4 +1,4 @@
-*** copy subset-with-sum-closest-to-zero.md ***
+***  subset-with-sum-closest-to-zero.md ***
 
 ```js
 // Input : arr[] = {2, 2, 2, -4}

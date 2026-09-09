@@ -1,4 +1,4 @@
-*** copy difference between `instanceof` and `typeof`?.md ***
+***  difference between `instanceof` and `typeof`?.md ***
 
 Both **`typeof`** and **`instanceof`** are built-in type-checking operators in JavaScript, but they answer fundamentally different questions:
 

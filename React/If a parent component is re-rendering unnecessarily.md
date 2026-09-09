@@ -1,4 +1,4 @@
-*** copy If a parent component is re-rendering unnecessarily.md ***
+***  If a parent component is re-rendering unnecessarily.md ***
 
 When a **Parent Component** re-renders in React, all of its **Child Components** automatically re-render by default.
 

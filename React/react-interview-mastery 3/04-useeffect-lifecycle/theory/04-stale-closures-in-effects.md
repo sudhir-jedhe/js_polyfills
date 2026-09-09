@@ -1,4 +1,4 @@
-*** copy 04-stale-closures-in-effects.md ***
+***  04-stale-closures-in-effects.md ***
 
 # Stale Closures Inside Effects
 

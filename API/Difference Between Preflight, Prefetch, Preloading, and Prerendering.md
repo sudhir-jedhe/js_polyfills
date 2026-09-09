@@ -1,4 +1,4 @@
-*** copy Difference Between Preflight, Prefetch, Preloading, and Prerendering.md ***
+***  Difference Between Preflight, Prefetch, Preloading, and Prerendering.md ***
 
 ### **Preflight Request:**
 

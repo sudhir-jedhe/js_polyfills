@@ -1,4 +1,4 @@
-*** copy form Library.md ***
+***  form Library.md ***
 
 # Reusable & Extensible Generic Form Library in React
 

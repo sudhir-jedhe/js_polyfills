@@ -1,4 +1,4 @@
-*** copy cdn.md ***
+***  cdn.md ***
 
 # Image CDNs and Delivery Infrastructure
 

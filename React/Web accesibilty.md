@@ -1,4 +1,4 @@
-*** copy Web accesibilty.md ***
+***  Web accesibilty.md ***
 
 Web accessibility is a critical aspect of web development, ensuring that websites and web applications are usable by people with disabilities. During an interview for a React developer position, interviewers may ask questions to assess your understanding of accessibility principles and how you apply them in React. Here are some common web accessibility interview questions you might encounter, along with explanations and answers for React developers:
 

@@ -1,4 +1,4 @@
-*** copy calculator.md ***
+***  calculator.md ***
 
 ```js
 const calculator = {

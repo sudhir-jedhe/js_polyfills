@@ -1,4 +1,4 @@
-*** copy sematicVersioning.md ***
+***  sematicVersioning.md ***
 
 # Compare Semantic Versions (JavaScript Interview)
 

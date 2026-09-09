@@ -1,4 +1,4 @@
-*** copy Explain how React walks the Fiber tree using depth-first traversal, beginWork, and completeWork.md ***
+***  Explain how React walks the Fiber tree using depth-first traversal, beginWork, and completeWork.md ***
 
 In React's Render Phase, React traverses the Fiber tree using a **Depth-First Search (DFS)** algorithm.
 

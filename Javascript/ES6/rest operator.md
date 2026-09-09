@@ -1,4 +1,4 @@
-*** copy rest operator.md ***
+***  rest operator.md ***
 
 ### Rest Operator (`...`)
 

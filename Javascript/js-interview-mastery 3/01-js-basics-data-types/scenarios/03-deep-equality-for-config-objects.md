@@ -1,4 +1,4 @@
-*** copy 03-deep-equality-for-config-objects.md ***
+***  03-deep-equality-for-config-objects.md ***
 
 # Deep-Comparing Configuration Objects to Decide on a Re-render
 

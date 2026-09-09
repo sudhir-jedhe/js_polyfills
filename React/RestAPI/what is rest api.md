@@ -1,4 +1,4 @@
-*** copy what is rest api.md ***
+***  what is rest api.md ***
 
 1. What is a REST API?
    A REST API exposes resources through URLs and uses HTTP semantics to operate on those resources. A frontend might call GET /products to list products, GET /products/123 to read one product, or POST /orders to create an order.

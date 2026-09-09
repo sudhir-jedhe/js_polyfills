@@ -1,4 +1,4 @@
-*** copy useState.md ***
+***  useState.md ***
 
 Here is a complete, production-ready React **Counter Application** built using **`useState`**, covering all scenarios: increment, decrement, reset, and custom increment/decrement by a dynamic value.
 

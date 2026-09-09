@@ -1,4 +1,4 @@
-*** copy Web Geolocation API.md ***
+***  Web Geolocation API.md ***
 
 The **Web Geolocation API** allows web applications to request the user's geographic location (latitude and longitude). Because location data is sensitive, browsers enforce explicit user permission before sharing coordinates, and the API works exclusively over secure origins (`https://`).
 

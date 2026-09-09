@@ -1,4 +1,4 @@
-*** copy How does React serialize and stream props across Server-to-Client Component boundaries during streaming SSR?.md ***
+***  How does React serialize and stream props across Server-to-Client Component boundaries during streaming SSR?.md ***
 
 When rendering React Server Components (RSC) during streaming Server-Side Rendering (SSR), the server outputs two interleaved streams over the single HTTP response:
 

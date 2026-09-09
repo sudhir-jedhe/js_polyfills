@@ -1,4 +1,4 @@
-*** copy 06-resource-hints-in-head-practical-setup.md ***
+***  06-resource-hints-in-head-practical-setup.md ***
 
 # Putting It Together: A Well-Optimized `<head>`
 

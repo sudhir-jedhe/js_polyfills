@@ -1,4 +1,4 @@
-*** copy How do you integrate redux-persist with Redux Toolkit for automated localStorage synchronization?.md ***
+***  How do you integrate redux-persist with Redux Toolkit for automated localStorage synchronization?.md ***
 
 Integrating **`redux-persist`** with **Redux Toolkit (RTK)** automates the synchronization of your Redux state with `localStorage` (or `sessionStorage`), ensuring user state persists across page reloads without needing manual `localStorage` calls inside individual reducers.
 

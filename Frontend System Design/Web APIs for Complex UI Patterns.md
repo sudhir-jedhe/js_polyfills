@@ -1,4 +1,4 @@
-*** copy Web APIs for Complex UI Patterns.md ***
+***  Web APIs for Complex UI Patterns.md ***
 
 In Front-End System Design, relying on traditional scroll, resize, or polling event listeners leads to main-thread congestion and poor frame rates ($<60\text{ FPS}$). Modern browser architecture addresses this with asynchronous **Observer APIs**. These APIs offload layout monitoring to the browser's engine, executing callbacks asynchronously on the main thread only when specific triggers are hit.
 

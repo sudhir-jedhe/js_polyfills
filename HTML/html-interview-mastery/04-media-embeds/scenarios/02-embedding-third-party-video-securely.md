@@ -1,4 +1,4 @@
-*** copy 02-embedding-third-party-video-securely.md ***
+***  02-embedding-third-party-video-securely.md ***
 
 # Scenario: Embedding a Third-Party Video Player Securely
 

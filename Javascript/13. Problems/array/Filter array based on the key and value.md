@@ -1,4 +1,4 @@
-*** copy Filter array based on the key and value.md ***
+***  Filter array based on the key and value.md ***
 
 ```js
 let filterObjects = (key, value) => {

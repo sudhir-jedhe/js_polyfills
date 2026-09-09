@@ -1,4 +1,4 @@
-*** copy drawNetsedCircle.md ***
+***  drawNetsedCircle.md ***
 
 Your code provides two ways of drawing nested circles: one using the `<canvas>` element for drawing graphics programmatically and another by creating `div` elements with CSS for a more web-based, DOM-oriented approach. Let's walk through the two implementations and make sure everything is working properly.
 

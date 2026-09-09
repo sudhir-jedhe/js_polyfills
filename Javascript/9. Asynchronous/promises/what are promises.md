@@ -1,4 +1,4 @@
-*** copy what are promises.md ***
+***  what are promises.md ***
 
 ### What is a Promise in JavaScript?
 

@@ -1,4 +1,4 @@
-*** copy How does React 19 natively handle <style.md ***
+***  How does React 19 natively handle <style.md ***
 
 In React 19, native support for **Resource Loading and Stylesheet Hoisting** allows you to render `<style>` and `<link rel="stylesheet">` tags directly inside any component in your tree. React automatically discovers, deduplicates, and hoists these tags to the document `<head>`, while integrating with `<Suspense>` to prevent unstyled content flashes.
 

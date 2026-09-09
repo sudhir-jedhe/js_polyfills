@@ -1,4 +1,4 @@
-*** copy useEventListener.md ***
+***  useEventListener.md ***
 
 Here is a production-ready, highly flexible `useEventListener` React hook that works with DOM elements, the `window`, `document`, or media query lists—complete with TypeScript/JSDoc signatures for strict typing.
 

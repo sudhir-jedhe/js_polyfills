@@ -1,4 +1,4 @@
-*** copy interview.md ***
+***  interview.md ***
 
 When an event (like a click, keypress, or hover) occurs on a DOM element, it does not instantly fire on that target element alone. Instead, the event travels through the DOM tree in a 3-phase journey known as **DOM Event Propagation**.
 

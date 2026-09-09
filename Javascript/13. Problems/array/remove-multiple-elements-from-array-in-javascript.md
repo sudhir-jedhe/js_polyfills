@@ -1,4 +1,4 @@
-*** copy remove-multiple-elements-from-array-in-javascript.md ***
+***  remove-multiple-elements-from-array-in-javascript.md ***
 
 ```js
 const arr = ['Geeks', 'GFG', 'Geek', 'GeeksForGeeks'];

@@ -1,4 +1,4 @@
-*** copy class component vs function component in performance  build.md ***
+***  class component vs function component in performance  build.md ***
 
 When comparing class components and function components, performance isn't just about runtime execution speed—it also directly impacts build size, bundle optimization, and tree-shaking efficiency.
 

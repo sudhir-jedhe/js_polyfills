@@ -1,4 +1,4 @@
-*** copy Backbone.Model.class.md ***
+***  Backbone.Model.class.md ***
 
 The class you've written is a simple implementation that resembles the behavior of `Backbone.Model`, with the ability to store attributes, listen for changes to those attributes, and trigger events when they change.
 

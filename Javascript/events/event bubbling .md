@@ -1,4 +1,4 @@
-*** copy event bubbling .md ***
+***  event bubbling .md ***
 
 ### 8. What is event bubbling in JavaScript?
 

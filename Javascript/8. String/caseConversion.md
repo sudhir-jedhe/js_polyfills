@@ -1,4 +1,4 @@
-*** copy caseConversion.md ***
+***  caseConversion.md ***
 
 Word boundary identification
 Before we can convert a string to a different case, we need to be able to identify the boundaries between words. While a naive approach could rely on spaces or other delimiters to separate words, this approach is not robust enough to handle all cases. Regular expressions provide a far more robust solution to this problem. After much experimentation, I've found the following regular expression to be the most robust:

@@ -1,4 +1,4 @@
-*** copy 03-nan-self-inequality.md ***
+***  03-nan-self-inequality.md ***
 
 # `NaN` Is the Only Value Not Equal to Itself
 

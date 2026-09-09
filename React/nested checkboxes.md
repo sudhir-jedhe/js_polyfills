@@ -1,4 +1,4 @@
-*** copy nested checkboxes.md ***
+***  nested checkboxes.md ***
 
 # Nested Checkboxes (Parent → Child → Grandchild)
 

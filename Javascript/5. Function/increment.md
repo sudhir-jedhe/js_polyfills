@@ -1,4 +1,4 @@
-*** copy increment.md ***
+***  increment.md ***
 
 Let's break down the behavior of the code you've provided, step by step, and explain how it works, especially focusing on the use of `Symbol.toPrimitive`, `+` operator, and getter methods.
 

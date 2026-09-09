@@ -1,4 +1,4 @@
-*** copy Alerting Mechanism.md ***
+***  Alerting Mechanism.md ***
 
 In **Front-End System Design**, an **Alerting Mechanism** is an automated monitoring pipeline that continuously evaluates client-side telemetry streams (errors, Core Web Vitals, API failure rates, and synthetic journey results) against predefined thresholds or statistical anomalies.
 

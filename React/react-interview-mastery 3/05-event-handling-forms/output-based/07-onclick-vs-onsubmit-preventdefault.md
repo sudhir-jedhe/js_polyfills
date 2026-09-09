@@ -1,4 +1,4 @@
-*** copy 07-onclick-vs-onsubmit-preventdefault.md ***
+***  07-onclick-vs-onsubmit-preventdefault.md ***
 
 # Output-Based: What happens if `handleSubmit` is attached to the button's `onClick` instead of the form's `onSubmit`, and the user submits by pressing Enter?
 

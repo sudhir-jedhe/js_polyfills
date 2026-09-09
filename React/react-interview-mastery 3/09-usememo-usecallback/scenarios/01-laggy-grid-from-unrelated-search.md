@@ -1,4 +1,4 @@
-*** copy 01-laggy-grid-from-unrelated-search.md ***
+***  01-laggy-grid-from-unrelated-search.md ***
 
 # Scenario: A Data Grid With 10,000 Rows Lags on Every Keystroke in an Unrelated Search Box
 

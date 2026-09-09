@@ -1,4 +1,4 @@
-*** copy Explain how React Server Components (RSC) render and stream payload over the networ.md ***
+***  Explain how React Server Components (RSC) render and stream payload over the networ.md ***
 
 **React Server Components (RSC)** represent a fundamental shift in how React applications build, render, and send UI across the wire.
 

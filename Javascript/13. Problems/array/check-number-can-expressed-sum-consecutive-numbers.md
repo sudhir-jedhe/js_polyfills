@@ -1,4 +1,4 @@
-*** copy check-number-can-expressed-sum-consecutive-numbers.md ***
+***  check-number-can-expressed-sum-consecutive-numbers.md ***
 
 ```js
 // Input  : n = 10

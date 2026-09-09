@@ -1,4 +1,4 @@
-*** copy Security Headers.md ***
+***  Security Headers.md ***
 
 In modern web architecture, **HTTP Headers** are name-value pairs sent between the client (browser) and server during HTTP requests and responses. They act as the primary negotiation mechanism for caching, state management, media types, and **security rules**.
 

@@ -1,4 +1,4 @@
-*** copy Show a component coded in traditional CSS vs Tailwind CSS side by side.md ***
+***  Show a component coded in traditional CSS vs Tailwind CSS side by side.md ***
 
 Here is how a responsive **User Profile Card** looks when built with Traditional CSS versus Tailwind CSS:
 

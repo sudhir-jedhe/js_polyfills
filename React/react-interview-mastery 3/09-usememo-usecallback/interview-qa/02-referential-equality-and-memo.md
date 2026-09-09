@@ -1,4 +1,4 @@
-*** copy 02-referential-equality-and-memo.md ***
+***  02-referential-equality-and-memo.md ***
 
 # Interview Q&A: Referential Equality and React.memo
 

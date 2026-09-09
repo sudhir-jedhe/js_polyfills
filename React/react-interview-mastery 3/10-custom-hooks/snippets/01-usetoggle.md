@@ -1,4 +1,4 @@
-*** copy 01-usetoggle.md ***
+***  01-usetoggle.md ***
 
 # Snippet: useToggle — Boolean State With a Stable Toggle Function
 

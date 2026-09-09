@@ -1,4 +1,4 @@
-*** copy Authentication using JSON Web Tokens.md ***
+***  Authentication using JSON Web Tokens.md ***
 
 Authentication using JSON Web Tokens (JWT) relies on a stateless, token-based architecture. Instead of storing session state on the server, the server verifies user credentials once, signs an encrypted payload (the JWT), and returns it to the client. The client presents this token with every subsequent request.
 

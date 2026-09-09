@@ -1,4 +1,4 @@
-*** copy How do you unflatten a single-level object with dot-notation keys back into a deeply nested object in JavaScript?.md ***
+***  How do you unflatten a single-level object with dot-notation keys back into a deeply nested object in JavaScript?.md ***
 
 To reconstruct a deeply nested object from a flattened, dot-notation key-value map, split each path by `.` (or bracket indices) and recursively traverse or instantiate the nested containers (objects or arrays).
 

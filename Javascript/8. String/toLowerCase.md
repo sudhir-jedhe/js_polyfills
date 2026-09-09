@@ -1,4 +1,4 @@
-*** copy toLowerCase.md ***
+***  toLowerCase.md ***
 
 /\*
 

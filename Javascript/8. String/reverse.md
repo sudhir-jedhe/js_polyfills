@@ -1,4 +1,4 @@
-*** copy reverse.md ***
+***  reverse.md ***
 
 ```js
 function reverseString(str) {

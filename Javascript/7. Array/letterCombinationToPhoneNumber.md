@@ -1,4 +1,4 @@
-*** copy letterCombinationToPhoneNumber.md ***
+***  letterCombinationToPhoneNumber.md ***
 
 Both implementations of the `letterCombinations` function solve the problem of generating all possible letter combinations that a given string of digits could represent, based on the standard phone keypad mappings.
 

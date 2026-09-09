@@ -1,4 +1,4 @@
-*** copy 03-video-audio-elements-and-attributes.md ***
+***  03-video-audio-elements-and-attributes.md ***
 
 # `<video>` and `<audio>` Elements and Attributes
 

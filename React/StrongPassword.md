@@ -1,4 +1,4 @@
-*** copy StrongPassword.md ***
+***  StrongPassword.md ***
 
 # Strong Password Checker (React)
 

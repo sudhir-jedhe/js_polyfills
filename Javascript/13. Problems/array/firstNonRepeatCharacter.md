@@ -1,4 +1,4 @@
-*** copy firstNonRepeatCharacter.md ***
+***  firstNonRepeatCharacter.md ***
 
 ```js
 firstCharacter("hello"); // "h"

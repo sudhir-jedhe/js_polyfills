@@ -1,4 +1,4 @@
-*** copy customTrim.md ***
+***  customTrim.md ***
 
 ```js
 // trim() method

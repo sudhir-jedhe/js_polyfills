@@ -1,4 +1,4 @@
-*** copy Chrome Extensions Every Developer.md ***
+***  Chrome Extensions Every Developer.md ***
 
 Chrome Extensions Every Developer Should Try (I’ve been using some of these tools for the last 4+ years)
 

@@ -1,4 +1,4 @@
-*** copy How do you set up Husky and lint-staged with ESLint v9 and Prettier for pre-commit formatting and linting?.md ***
+***  How do you set up Husky and lint-staged with ESLint v9 and Prettier for pre-commit formatting and linting?.md ***
 
 Setting up **Husky** and **lint-staged** automates code quality checks by ensuring only staged files are formatted with Prettier and linted with ESLint before any Git commit succeeds.
 

@@ -1,4 +1,4 @@
-*** copy debaounceimmediate.md ***
+***  debaounceimmediate.md ***
 
 This implementation of `debounce` with an optional `immediate` parameter is a great way to control the frequency of function execution in scenarios like event handling. Here's a breakdown of how the function works:
 

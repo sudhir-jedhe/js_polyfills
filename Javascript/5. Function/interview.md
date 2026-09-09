@@ -1,4 +1,4 @@
-*** copy interview.md ***
+***  interview.md ***
 
 # How does `this` behave in different JavaScript contexts?
 

@@ -1,4 +1,4 @@
-*** copy JavaScript is a dynamically typed language..md ***
+***  JavaScript is a dynamically typed language..md ***
 
 **JavaScript is a dynamically typed language.**
 

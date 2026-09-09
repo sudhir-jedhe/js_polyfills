@@ -1,4 +1,4 @@
-*** copy Why do we need to create a copy of the state when updating it in React.md ***
+***  Why do we need to create a copy of the state when updating it in React.md ***
 
 In React, **state is immutable**, meaning you should never directly modify the state variable. Instead, you should create a **copy** of the state and update it, because **directly mutating the state** can lead to **unexpected behavior** and **rendering issues** in your React application. 
 

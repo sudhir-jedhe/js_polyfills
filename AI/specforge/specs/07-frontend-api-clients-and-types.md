@@ -1,4 +1,4 @@
-*** copy 07-frontend-api-clients-and-types.md ***
+***  07-frontend-api-clients-and-types.md ***
 
 # Spec 07 — Frontend API Clients and Shared Types
 

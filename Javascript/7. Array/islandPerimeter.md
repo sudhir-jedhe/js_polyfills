@@ -1,4 +1,4 @@
-*** copy islandPerimeter.md ***
+***  islandPerimeter.md ***
 
 The problem you've described involves calculating the perimeter of an island in a grid. The grid consists of land (represented by `1`s) and water (represented by `0`s). The task is to determine the perimeter of the island formed by connected land cells.
 

@@ -1,4 +1,4 @@
-*** copy Explain how to structure SKILL.md files and progressive disclosure for Cursor skills.md ***
+***  Explain how to structure SKILL.md files and progressive disclosure for Cursor skills.md ***
 
 In Agentic AI workflows and tools like Cursor, **Agent Skills** extend what the model can do beyond its base context. Instead of forcing the model to read an enormous, monolithic instruction manual on every prompt (which wastes context and degrades reasoning), **Progressive Disclosure** loads detailed instructions **only when a specific task demands them**.
 

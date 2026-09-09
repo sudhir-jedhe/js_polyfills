@@ -1,4 +1,4 @@
-*** copy HttpStatusCheetSheet.md ***
+***  HttpStatusCheetSheet.md ***
 
 ### HTTP Status Codes Cheat Sheet with Detailed Descriptions
 

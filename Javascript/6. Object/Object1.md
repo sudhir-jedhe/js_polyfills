@@ -1,4 +1,4 @@
-*** copy Object1.md ***
+***  Object1.md ***
 
 # Object Creation / Object Definitions in JavaScript
 

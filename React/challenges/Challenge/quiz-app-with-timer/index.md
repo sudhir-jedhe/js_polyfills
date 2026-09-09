@@ -1,4 +1,4 @@
-*** copy index.md ***
+***  index.md ***
 
 import questions from './questions.json';
 

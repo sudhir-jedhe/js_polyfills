@@ -1,4 +1,4 @@
-*** copy Traverse-DOM-level-by-level.md ***
+***  Traverse-DOM-level-by-level.md ***
 
 ### Problem Description
 

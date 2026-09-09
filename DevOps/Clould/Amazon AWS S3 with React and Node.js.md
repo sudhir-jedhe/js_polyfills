@@ -1,4 +1,4 @@
-*** copy Amazon AWS S3 with React and Node.js.md ***
+***  Amazon AWS S3 with React and Node.js.md ***
 
 ### Amazon S3 with React and Node.js Example
 

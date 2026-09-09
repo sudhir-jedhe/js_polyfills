@@ -1,4 +1,4 @@
-*** copy increment counter.md ***
+***  increment counter.md ***
 
 To create an increment counter using two functions, `outer` and `inner`, where the `outer` function is responsible for invoking the `inner` function to increment the count, we can use closures in JavaScript. The idea is to use a counter variable inside the `outer` function, which will be incremented by the `inner` function each time it is called.
 

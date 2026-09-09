@@ -1,4 +1,4 @@
-*** copy 04-quirks-mode-broken-layout.md ***
+***  04-quirks-mode-broken-layout.md ***
 
 # Scenario: A Legacy Page's CSS Math "Doesn't Add Up"
 

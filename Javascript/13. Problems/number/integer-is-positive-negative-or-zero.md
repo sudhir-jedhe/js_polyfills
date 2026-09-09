@@ -1,4 +1,4 @@
-*** copy integer-is-positive-negative-or-zero.md ***
+***  integer-is-positive-negative-or-zero.md ***
 
 ```js
 // Function for number checking

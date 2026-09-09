@@ -1,4 +1,4 @@
-*** copy 03-accessible-naming-qa.md ***
+***  03-accessible-naming-qa.md ***
 
 # Interview Q&A — Accessible Naming & Screen Reader Behavior
 

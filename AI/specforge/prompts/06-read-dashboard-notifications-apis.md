@@ -1,4 +1,4 @@
-*** copy 06-read-dashboard-notifications-apis.md ***
+***  06-read-dashboard-notifications-apis.md ***
 
 Use @specs/06-read-dashboard-notifications-apis.md as the source of truth.
 

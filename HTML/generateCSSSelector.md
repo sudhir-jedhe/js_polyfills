@@ -1,4 +1,4 @@
-*** copy generateCSSSelector.md ***
+***  generateCSSSelector.md ***
 
 The `generateSelector` function generates a unique CSS selector path from the target element to the root element. It does so by iterating over the parent nodes and constructing a selector that uniquely identifies the path to the target element.
 

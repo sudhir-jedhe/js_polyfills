@@ -1,4 +1,4 @@
-*** copy Symbol.md ***
+***  Symbol.md ***
 
 Explain how Object.getOwnPropertyNames, Object.getOwnPropertySymbols, and Reflect.ownKeys work in JavaScript.
 

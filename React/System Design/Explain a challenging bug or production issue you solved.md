@@ -1,4 +1,4 @@
-*** copy Explain a challenging bug or production issue you solved.md ***
+***  Explain a challenging bug or production issue you solved.md ***
 
 Here is how you can present a high-impact, senior-level production bug story during an interview. This explanation uses the **STAR method (Situation, Task, Action, Result)**, focusing on a real-world scenario involving memory leaks, event loop lag, and Node.js stream management under high concurrency.
 

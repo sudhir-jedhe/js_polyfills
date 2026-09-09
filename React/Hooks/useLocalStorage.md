@@ -1,4 +1,4 @@
-*** copy useLocalStorage.md ***
+***  useLocalStorage.md ***
 
 Here is a production-ready `useLocalStorage` React hook. It handles initial SSR hydration safety, error handling for restricted storage/quota errors, function updaters (like standard `useState`), and multi-tab synchronization via the native `storage` event.
 

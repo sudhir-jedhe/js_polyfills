@@ -1,4 +1,4 @@
-*** copy 01-responsive-images-srcset-sizes-loading.md ***
+***  01-responsive-images-srcset-sizes-loading.md ***
 
 # Responsive Images: `srcset`, `sizes`, `loading`, `decoding`
 

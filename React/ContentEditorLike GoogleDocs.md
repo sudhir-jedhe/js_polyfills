@@ -1,4 +1,4 @@
-*** copy ContentEditorLike GoogleDocs.md ***
+***  ContentEditorLike GoogleDocs.md ***
 
 ```js
 import React, { useState, useRef, useEffect } from "react";

@@ -1,4 +1,4 @@
-*** copy Config-Driven UI.md ***
+***  Config-Driven UI.md ***
 
 **Config-Driven UI** (or Server-Driven UI) is a frontend architectural pattern where the structure, layout, behavior, and content of a user interface are defined by a JSON (or YAML) configuration object rather than hardcoded in JSX/HTML.
 

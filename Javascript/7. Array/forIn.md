@@ -1,4 +1,4 @@
-*** copy forIn.md ***
+***  forIn.md ***
 
 ### 1. **Using `for...in` with Arrays:**
 

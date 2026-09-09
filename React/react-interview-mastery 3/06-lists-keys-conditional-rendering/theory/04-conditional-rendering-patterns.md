@@ -1,4 +1,4 @@
-*** copy 04-conditional-rendering-patterns.md ***
+***  04-conditional-rendering-patterns.md ***
 
 # Conditional rendering
 

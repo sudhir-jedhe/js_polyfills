@@ -1,4 +1,4 @@
-*** copy 02-document-outline-and-heading-hierarchy.md ***
+***  02-document-outline-and-heading-hierarchy.md ***
 
 # Document Outline and Heading Hierarchy
 

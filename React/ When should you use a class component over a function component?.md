@@ -1,4 +1,4 @@
-*** copy  When should you use a class component over a function component?.md ***
+***   When should you use a class component over a function component?.md ***
 
 In modern React (especially with React 19 and the introduction of hooks, Server Components, and the React Compiler), **you should almost never write new class components**. Function components are the universal standard.
 

@@ -1,4 +1,4 @@
-*** copy keys.md ***
+***  keys.md ***
 
 ```js
 function isObject(object) {

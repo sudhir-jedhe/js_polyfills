@@ -1,4 +1,4 @@
-*** copy 6-quick-sort.md ***
+***  6-quick-sort.md ***
 
 // Ques 6: Implement Quick Sort in JavaScript
 // Write a function to sort the given array nums in ascending order.

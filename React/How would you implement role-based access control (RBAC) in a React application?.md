@@ -1,4 +1,4 @@
-*** copy How would you implement role-based access control (RBAC) in a React application?.md ***
+***  How would you implement role-based access control (RBAC) in a React application?.md ***
 
 Implementing Role-Based Access Control (RBAC) in React requires a centralized permissions model that controls access at both the **Route level** (page views) and the **Component/UI level** (buttons, actions, navigation links).
 

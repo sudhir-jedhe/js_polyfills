@@ -1,4 +1,4 @@
-*** copy MultiFiltre.md ***
+***  MultiFiltre.md ***
 
 Implement filtering logic so users can narrow down the list of items by color, size, and shape.
 Use a Select component for each filter category (color, size, shape).

@@ -1,4 +1,4 @@
-*** copy aws for developer.md ***
+***  aws for developer.md ***
 
 // Leverage and learn AWS as a frontend & Mobile Developer
 

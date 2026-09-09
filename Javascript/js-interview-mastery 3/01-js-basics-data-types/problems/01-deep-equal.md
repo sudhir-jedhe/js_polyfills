@@ -1,4 +1,4 @@
-*** copy 01-deep-equal.md ***
+***  01-deep-equal.md ***
 
 # Problem: Implement `deepEqual(a, b)`
 

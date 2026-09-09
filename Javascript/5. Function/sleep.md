@@ -1,4 +1,4 @@
-*** copy sleep.md ***
+***  sleep.md ***
 
 In JavaScript, you can make a function "sleep" or pause for a given duration using `setTimeout()` or by utilizing `Promises` in combination with `async`/`await`. Both approaches allow you to create delays in the execution of your code.
 

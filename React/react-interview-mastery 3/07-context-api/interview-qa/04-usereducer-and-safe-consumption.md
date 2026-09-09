@@ -1,4 +1,4 @@
-*** copy 04-usereducer-and-safe-consumption.md ***
+***  04-usereducer-and-safe-consumption.md ***
 
 # Interview Q&A: Context + useReducer & Safe Consumption
 

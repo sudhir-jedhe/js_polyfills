@@ -1,4 +1,4 @@
-*** copy Implement a custom hook in React that debounces input value.md ***
+***  Implement a custom hook in React that debounces input value.md ***
 
 Here is a standard, typed implementation of a `useDebounce` hook in React using TypeScript.
 

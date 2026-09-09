@@ -1,4 +1,4 @@
-*** copy 01-typeof-typeof.md ***
+***  01-typeof-typeof.md ***
 
 # `typeof typeof`
 

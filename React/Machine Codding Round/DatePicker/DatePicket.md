@@ -1,4 +1,4 @@
-*** copy DatePicket.md ***
+***  DatePicket.md ***
 
 If you want 100% custom implementation (no MUI DatePicker, no react-datepicker), for a Senior React interview you should build it as a mini framework.
 

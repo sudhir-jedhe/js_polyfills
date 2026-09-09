@@ -1,4 +1,4 @@
-*** copy 07-keyed-fragment-in-a-list.md ***
+***  07-keyed-fragment-in-a-list.md ***
 
 # What's Rendered in the DOM After This List Renders?
 

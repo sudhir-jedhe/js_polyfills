@@ -1,4 +1,4 @@
-*** copy HOC vs Hooks vs Custom Hooks in React.md ***
+***  HOC vs Hooks vs Custom Hooks in React.md ***
 
 ### **HOC vs Hooks vs Custom Hooks in React**
 

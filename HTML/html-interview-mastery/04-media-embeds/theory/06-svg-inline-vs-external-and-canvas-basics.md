@@ -1,4 +1,4 @@
-*** copy 06-svg-inline-vs-external-and-canvas-basics.md ***
+***  06-svg-inline-vs-external-and-canvas-basics.md ***
 
 # SVG: Inline vs. External, and Canvas Basics
 

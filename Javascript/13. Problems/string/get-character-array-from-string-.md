@@ -1,4 +1,4 @@
-*** copy get-character-array-from-string-.md ***
+***  get-character-array-from-string-.md ***
 
 ```js
 // Input array

@@ -1,4 +1,4 @@
-*** copy PromiseScheduler.md ***
+***  PromiseScheduler.md ***
 
 # Promise Scheduler (Concurrency Control)
 

@@ -1,4 +1,4 @@
-*** copy Explain how to integrate automated testing, pre-commit hooks, and CI checks to safely evaluate AI agent code output.md ***
+***  Explain how to integrate automated testing, pre-commit hooks, and CI checks to safely evaluate AI agent code output.md ***
 
 While AI coding agents increase raw coding throughput, they can also introduce hallucinations, silent regressions, security vulnerabilities, or formatting inconsistencies.
 

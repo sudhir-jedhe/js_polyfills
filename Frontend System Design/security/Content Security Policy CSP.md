@@ -1,4 +1,4 @@
-*** copy Content Security Policy CSP.md ***
+***  Content Security Policy CSP.md ***
 
 Below is a production-ready **Content Security Policy (CSP)** configuration tailored for a modern React Single Page Application (SPA) deployed via reverse proxies (like Nginx), cloud hostings (Cloudflare, Vercel, AWS CloudFront), or server headers.
 

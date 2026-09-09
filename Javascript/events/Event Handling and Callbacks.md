@@ -1,4 +1,4 @@
-*** copy Event Handling and Callbacks.md ***
+***  Event Handling and Callbacks.md ***
 
 ### 23. Build a class that can subscribe to and emit events
 

@@ -1,4 +1,4 @@
-*** copy 03-void-elements-vs-normal-elements.md ***
+***  03-void-elements-vs-normal-elements.md ***
 
 # Void Elements vs. Normal Elements
 

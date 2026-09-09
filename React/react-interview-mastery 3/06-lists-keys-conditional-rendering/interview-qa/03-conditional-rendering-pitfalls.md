@@ -1,4 +1,4 @@
-*** copy 03-conditional-rendering-pitfalls.md ***
+***  03-conditional-rendering-pitfalls.md ***
 
 # Interview Q&A: Conditional Rendering Pitfalls
 

@@ -1,4 +1,4 @@
-*** copy How does WebAuthn prevent AitM (Adversary-in-the-Middle) phishing and malicious QR code relay attacks?.md ***
+***  How does WebAuthn prevent AitM (Adversary-in-the-Middle) phishing and malicious QR code relay attacks?.md ***
 
 WebAuthn / FIDO2 provides cryptographic phishing resistance by design. It makes standard **Adversary-in-the-Middle (AitM) reverse proxies** (e.g., Evilginx, Modlishka) and **malicious QR code relay attacks** mathematically impossible to execute, even if a user is completely tricked by a fraudulent website.
 

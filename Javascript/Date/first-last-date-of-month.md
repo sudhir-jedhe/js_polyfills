@@ -1,4 +1,4 @@
-*** copy first-last-date-of-month.md ***
+***  first-last-date-of-month.md ***
 
 The functions `firstDateOfMonth` and `lastDateOfMonth` you provided are correct, and they serve the purpose of returning the first and last date of a given month, respectively.
 

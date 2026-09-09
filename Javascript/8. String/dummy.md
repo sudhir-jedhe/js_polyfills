@@ -1,4 +1,4 @@
-*** copy dummy.md ***
+***  dummy.md ***
 
 Let's break down the two solutions for reversing words in a sentence.
 

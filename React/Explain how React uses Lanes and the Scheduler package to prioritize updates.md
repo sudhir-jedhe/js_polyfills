@@ -1,4 +1,4 @@
-*** copy Explain how React uses Lanes and the Scheduler package to prioritize updates.md ***
+***  Explain how React uses Lanes and the Scheduler package to prioritize updates.md ***
 
 To achieve fluid 60fps (or 120fps) user interfaces, React must prioritize urgent interactions—like typing into a text input or dragging a slider—over non-urgent tasks—like rendering a heavy data grid or processing background network fetches.
 

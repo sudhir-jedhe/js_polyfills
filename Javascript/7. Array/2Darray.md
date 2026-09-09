@@ -1,4 +1,4 @@
-*** copy 2Darray.md ***
+***  2Darray.md ***
 
 Certainly! Here's the full code for each of the functions described earlier:
 

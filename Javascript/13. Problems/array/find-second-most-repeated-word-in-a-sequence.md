@@ -1,4 +1,4 @@
-*** copy find-second-most-repeated-word-in-a-sequence.md ***
+***  find-second-most-repeated-word-in-a-sequence.md ***
 
 ```js
 function findSecondMostFrequentElement(arr) {

@@ -1,4 +1,4 @@
-*** copy index.md ***
+***  index.md ***
 
 import clear from './images/clear.png';
 import clouds from './images/clouds.png';

@@ -1,4 +1,4 @@
-*** copy app.md ***
+***  app.md ***
 
 ```js
 import ImageCarousel from "./ImageCarousel";

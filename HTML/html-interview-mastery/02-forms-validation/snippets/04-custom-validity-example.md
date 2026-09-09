@@ -1,4 +1,4 @@
-*** copy 04-custom-validity-example.md ***
+***  04-custom-validity-example.md ***
 
 # Snippet: `setCustomValidity()` in Practice
 

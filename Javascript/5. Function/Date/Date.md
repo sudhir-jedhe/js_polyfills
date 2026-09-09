@@ -1,4 +1,4 @@
-*** copy Date.md ***
+***  Date.md ***
 
 Date-related questions are **very common in JavaScript/React interviews** because they test:
 

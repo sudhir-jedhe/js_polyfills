@@ -1,4 +1,4 @@
-*** copy space-complexity.md ***
+***  space-complexity.md ***
 
 // Space Complexity
 

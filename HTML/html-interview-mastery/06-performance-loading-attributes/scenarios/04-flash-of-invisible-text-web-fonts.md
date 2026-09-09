@@ -1,4 +1,4 @@
-*** copy 04-flash-of-invisible-text-web-fonts.md ***
+***  04-flash-of-invisible-text-web-fonts.md ***
 
 # Scenario: A Flash of Invisible Text on Every Page Load
 

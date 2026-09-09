@@ -1,4 +1,4 @@
-*** copy What is the DOM.md ***
+***  What is the DOM.md ***
 
 - DOM stands for Document Object Model is an interface (API) for HTML and XML documents.
 

@@ -1,4 +1,4 @@
-*** copy NotificationList.md ***
+***  NotificationList.md ***
 
 # Notifications List Component (React Machine Coding Interview)
 

@@ -1,4 +1,4 @@
-*** copy 06-read-dashboard-notifications-apis.md ***
+***  06-read-dashboard-notifications-apis.md ***
 
 # Spec 06 — Read APIs for Specs, Dashboard, and Notifications
 

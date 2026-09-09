@@ -1,4 +1,4 @@
-*** copy 07-section-6-deploying-to-vps-with-docker-concepts.md ***
+***  07-section-6-deploying-to-vps-with-docker-concepts.md ***
 
 # Section 6 — Deploying to VPS with Docker — Concepts
 

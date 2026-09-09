@@ -1,4 +1,4 @@
-*** copy window vs document.md ***
+***  window vs document.md ***
 
 // | Window |Document|
 // | ------------------------------------------------------------------|------------------- |

@@ -1,4 +1,4 @@
-*** copy React Events.md ***
+***  React Events.md ***
 
 In React, event handling is very similar to handling events on HTML DOM elements, but with a few key syntactical and architectural differences.
 

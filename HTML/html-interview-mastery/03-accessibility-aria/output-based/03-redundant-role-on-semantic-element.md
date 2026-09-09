@@ -1,4 +1,4 @@
-*** copy 03-redundant-role-on-semantic-element.md ***
+***  03-redundant-role-on-semantic-element.md ***
 
 # Output: Redundant ARIA Role on an Already-Semantic Element
 

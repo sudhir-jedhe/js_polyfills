@@ -1,4 +1,4 @@
-*** copy AI Agent Workflows: Plan Mode vs. Agent Mode Architecture.md ***
+***  AI Agent Workflows: Plan Mode vs. Agent Mode Architecture.md ***
 
 Here is a clean, structured technical reference guide capturing the core philosophy behind **Plan Mode vs. Agent Mode** in Claude Code (and AI coding agents generally), emphasizing the **"Rebuild, Don't Patch"** principle and mental model alignment.
 

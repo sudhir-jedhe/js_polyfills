@@ -1,4 +1,4 @@
-*** copy Named useEffect Functions.md ***
+***  Named useEffect Functions.md ***
 
 Here is a clean, structured technical summary breaking down the practice of using **Named Effect Functions**, its impact on debugging tooling, and how it acts as an architectural smell detector in React components.
 

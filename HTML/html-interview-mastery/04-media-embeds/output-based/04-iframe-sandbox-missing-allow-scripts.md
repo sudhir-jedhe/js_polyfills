@@ -1,4 +1,4 @@
-*** copy 04-iframe-sandbox-missing-allow-scripts.md ***
+***  04-iframe-sandbox-missing-allow-scripts.md ***
 
 # Output: Sandboxed Iframe Missing `allow-scripts`
 

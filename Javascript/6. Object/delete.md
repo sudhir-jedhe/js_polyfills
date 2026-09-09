@@ -1,4 +1,4 @@
-*** copy delete.md ***
+***  delete.md ***
 
 ### Explanation of Code and Key Concepts
 

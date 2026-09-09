@@ -1,4 +1,4 @@
-*** copy Convert Float to String.md ***
+***  Convert Float to String.md ***
 
 ```js
 const floatValue = 1000.25;

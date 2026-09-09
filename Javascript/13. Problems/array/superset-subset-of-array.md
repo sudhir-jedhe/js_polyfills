@@ -1,4 +1,4 @@
-*** copy superset-subset-of-array.md ***
+***  superset-subset-of-array.md ***
 
 ```js
 const superset = (a, b) => {

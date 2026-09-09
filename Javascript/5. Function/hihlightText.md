@@ -1,4 +1,4 @@
-*** copy hihlightText.md ***
+***  hihlightText.md ***
 
 To implement the `highlight` function that satisfies the requirements you mentioned, we need to ensure that:
 

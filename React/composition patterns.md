@@ -1,4 +1,4 @@
-*** copy composition patterns.md ***
+***  composition patterns.md ***
 
 Before reaching for `React.memo`, `useMemo`, or `useCallback`, you can eliminate the vast majority of unnecessary re-renders purely through **component architecture**.
 
@@ -237,9 +237,9 @@ export function LoginForm() {
 
 ## Architecture Summary Rule
 
-| Scenario | Recommended Pattern |
-| --- | --- |
-| Form inputs or search bars affecting a tiny section | **Move State Down** into a dedicated component. |
+| Scenario                                                                     | Recommended Pattern                                          |
+| ---------------------------------------------------------------------------- | ------------------------------------------------------------ |
+| Form inputs or search bars affecting a tiny section                          | **Move State Down** into a dedicated component.              |
 | Stateful wrapper (dialogs, accordions, scroll listeners) surrounding content | **Pass `children` as props** to stabilize the inner subtree. |
-| Complex layouts with multiple dynamic panels | **Named Component Slots** (`leftSlot`, `rightSlot`). |
-| Data needed only upon trigger (submit/click) | **Uncontrolled Inputs with `useRef**`. |
+| Complex layouts with multiple dynamic panels                                 | **Named Component Slots** (`leftSlot`, `rightSlot`).         |
+| Data needed only upon trigger (submit/click)                                 | **Uncontrolled Inputs with `useRef**`.                       |

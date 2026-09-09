@@ -1,4 +1,4 @@
-*** copy lodash_chunk.md ***
+***  lodash_chunk.md ***
 
 The code you provided implements a **`customChunk`** function, which takes an array and splits it into smaller chunks of the specified size. Let's break down the function and understand how it works, and also look at the provided examples.
 

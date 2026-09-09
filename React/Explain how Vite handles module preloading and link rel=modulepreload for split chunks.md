@@ -1,4 +1,4 @@
-*** copy Explain how Vite handles module preloading and link rel=modulepreload for split chunks.md ***
+***  Explain how Vite handles module preloading and link rel=modulepreload for split chunks.md ***
 
 When browsers fetch split JavaScript chunks via dynamic imports (`import('./Dashboard.js')`), they often encounter a **network waterfall problem**.
 

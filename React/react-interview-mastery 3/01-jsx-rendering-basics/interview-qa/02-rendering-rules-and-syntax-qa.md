@@ -1,4 +1,4 @@
-*** copy 02-rendering-rules-and-syntax-qa.md ***
+***  02-rendering-rules-and-syntax-qa.md ***
 
 # Interview Q&A — Rendering Rules and Syntax
 

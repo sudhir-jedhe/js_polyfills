@@ -1,4 +1,4 @@
-*** copy eventLogger.md ***
+***  eventLogger.md ***
 
 You've provided several code snippets related to implementing an `EventLogger` class, which tracks events, logs them, and handles delays and request simulations. There are a few points and minor issues I will highlight and address, to help you refine the code.
 

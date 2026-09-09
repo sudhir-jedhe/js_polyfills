@@ -1,4 +1,4 @@
-*** copy How do I write automated Playwright tests to verify drag-and-drop sorting and reordering across list items?.md ***
+***  How do I write automated Playwright tests to verify drag-and-drop sorting and reordering across list items?.md ***
 
 Testing drag-and-drop reordering in Playwright requires handling two different implementation types:
 

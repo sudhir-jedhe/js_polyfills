@@ -1,4 +1,4 @@
-*** copy Purpose of the Meta Viewport Tag.md ***
+***  Purpose of the Meta Viewport Tag.md ***
 
 The **meta viewport tag** plays a crucial role in **responsive web design**, ensuring that web pages are displayed correctly across various screen sizes and devices, particularly on mobile devices. 
 

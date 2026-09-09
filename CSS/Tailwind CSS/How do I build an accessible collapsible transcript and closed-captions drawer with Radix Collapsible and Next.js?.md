@@ -1,4 +1,4 @@
-*** copy How do I build an accessible collapsible transcript and closed-captions drawer with Radix Collapsible and Next.js?.md ***
+***  How do I build an accessible collapsible transcript and closed-captions drawer with Radix Collapsible and Next.js?.md ***
 
 An accessible video transcript and closed-captions drawer fulfills **WCAG 2.2 Success Criterion 1.2.2 (Captions - Prerecorded)** and **1.2.3 (Audio Description or Media Alternative)**.
 

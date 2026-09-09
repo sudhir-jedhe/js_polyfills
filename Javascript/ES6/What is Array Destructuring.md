@@ -1,4 +1,4 @@
-*** copy What is Array Destructuring.md ***
+***  What is Array Destructuring.md ***
 
 ## What is Array Destructuring?
 

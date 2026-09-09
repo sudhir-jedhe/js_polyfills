@@ -1,4 +1,4 @@
-*** copy 02-generate-og-tags-programmatically.md ***
+***  02-generate-og-tags-programmatically.md ***
 
 # Problem: Generate Open Graph and Twitter Card Tags Programmatically
 

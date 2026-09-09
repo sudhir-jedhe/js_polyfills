@@ -1,4 +1,4 @@
-*** copy 01-inline-handler-defeats-memo.md ***
+***  01-inline-handler-defeats-memo.md ***
 
 # Output-Based: Inline Handler Defeats React.memo
 

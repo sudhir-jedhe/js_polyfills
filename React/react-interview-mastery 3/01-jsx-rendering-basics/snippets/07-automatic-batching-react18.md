@@ -1,4 +1,4 @@
-*** copy 07-automatic-batching-react18.md ***
+***  07-automatic-batching-react18.md ***
 
 # Automatic Batching in React 18 — One Re-render, Not Two, Even in a `setTimeout`
 

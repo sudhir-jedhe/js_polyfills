@@ -1,4 +1,4 @@
-*** copy CORS.md ***
+***  CORS.md ***
 
 CORS (Cross-Origin Resource Sharing) is a mechanism that enables secure interaction between web resources from different origins. Here's a detailed breakdown of the CORS mechanism, including its requests, responses, and headers:
 

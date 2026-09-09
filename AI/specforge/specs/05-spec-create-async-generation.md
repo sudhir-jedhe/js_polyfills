@@ -1,4 +1,4 @@
-*** copy 05-spec-create-async-generation.md ***
+***  05-spec-create-async-generation.md ***
 
 # Spec 05 — Specs Create API with Async Generation
 

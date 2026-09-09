@@ -1,4 +1,4 @@
-*** copy 02-sortable-drag-drop-list.md ***
+***  02-sortable-drag-drop-list.md ***
 
 # Problem: Build a Sortable Drag-and-Drop List
 

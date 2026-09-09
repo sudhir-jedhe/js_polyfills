@@ -1,4 +1,4 @@
-*** copy 04-when-not-to-use-refs.md ***
+***  04-when-not-to-use-refs.md ***
 
 # Interview Q&A: When Not to Reach for Refs
 

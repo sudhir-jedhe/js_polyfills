@@ -1,4 +1,4 @@
-*** copy interview.md ***
+***  interview.md ***
 
 A categorized, deep-dive compendium of **105 essential Git interview questions and answers**, spanning fundamental operations, internal architecture, branching models, history manipulation, debugging tools, and enterprise workflows.
 

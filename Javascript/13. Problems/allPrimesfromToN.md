@@ -1,4 +1,4 @@
-*** copy allPrimesfromToN.md ***
+***  allPrimesfromToN.md ***
 
 ```js
 

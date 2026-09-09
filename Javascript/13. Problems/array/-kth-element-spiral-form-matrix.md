@@ -1,4 +1,4 @@
-*** copy -kth-element-spiral-form-matrix.md ***
+***  -kth-element-spiral-form-matrix.md ***
 
 ```js
 // Input: mat[][] =

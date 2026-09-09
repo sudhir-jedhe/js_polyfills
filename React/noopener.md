@@ -1,4 +1,4 @@
-*** copy noopener.md ***
+***  noopener.md ***
 
 HTML Tip💡
 

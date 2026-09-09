@@ -1,4 +1,4 @@
-*** copy How do React Server Components and Server Actions process concurrent form submissions on the server?.md ***
+***  How do React Server Components and Server Actions process concurrent form submissions on the server?.md ***
 
 When handling concurrent form submissions in an architecture powered by **React Server Components (RSC)** and **Server Actions**, processing is divided between server-side HTTP request handling and client-side stream reconciliation.
 

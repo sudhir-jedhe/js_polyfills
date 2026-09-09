@@ -1,4 +1,4 @@
-*** copy Compare useEffect and useLayoutEffect execution timing and queues inside Fiber nodes.md ***
+***  Compare useEffect and useLayoutEffect execution timing and queues inside Fiber nodes.md ***
 
 While both **`useEffect`** and **`useLayoutEffect`** register side effects during the Render Phase, their execution timing, queue structures, and flush mechanics inside the Fiber architecture are completely different.
 

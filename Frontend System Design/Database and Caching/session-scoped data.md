@@ -1,4 +1,4 @@
-*** copy session-scoped data.md ***
+***  session-scoped data.md ***
 
 When storing **temporary, session-scoped data** in a React application—data that must remain available while a user navigates or works within their current browser session, but should automatically reset or be cleared when the session ends—front-end engineers rely on specific session storage mechanisms and state management strategies.
 

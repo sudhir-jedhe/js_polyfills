@@ -1,4 +1,4 @@
-*** copy promise-then-finally.md ***
+***  promise-then-finally.md ***
 
 What is the difference between then and finally in a JavaScript promise?
 

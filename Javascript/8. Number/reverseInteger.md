@@ -1,4 +1,4 @@
-*** copy reverseInteger.md ***
+***  reverseInteger.md ***
 
 The code you provided contains two implementations for reversing an integer and handling some edge cases such as negative numbers, overflow, and dropped leading zeros. Let's break down and review both implementations:
 

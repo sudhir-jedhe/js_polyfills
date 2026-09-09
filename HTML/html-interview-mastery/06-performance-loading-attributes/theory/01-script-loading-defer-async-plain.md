@@ -1,4 +1,4 @@
-*** copy 01-script-loading-defer-async-plain.md ***
+***  01-script-loading-defer-async-plain.md ***
 
 # Script Loading: Plain `<script>` vs `async` vs `defer`
 

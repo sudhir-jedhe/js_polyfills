@@ -1,4 +1,4 @@
-*** copy Http Response Headers.md ***
+***  Http Response Headers.md ***
 
 ### HTTP Response Headers: Overview, Use Cases, Advantages, and Disadvantages
 

@@ -1,4 +1,4 @@
-*** copy generatePassphrase.md ***
+***  generatePassphrase.md ***
 
 To generate cryptographically secure passphrases in the browser, you must use **`window.crypto.getRandomValues()`** rather than `Math.random()`. `Math.random()` uses a pseudo-random number generator (PRNG) that is predictable and unsuitable for security.
 

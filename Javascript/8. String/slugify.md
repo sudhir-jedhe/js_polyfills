@@ -1,4 +1,4 @@
-*** copy slugify.md ***
+***  slugify.md ***
 
 SEO is important, and one of the things that can help improve your website's SEO is having a URL that is easy to read and understand. This is where slugs come in.
 

@@ -1,4 +1,4 @@
-*** copy 09-array-plus-array-concatenation.md ***
+***  09-array-plus-array-concatenation.md ***
 
 # Adding Two Arrays with `+`
 

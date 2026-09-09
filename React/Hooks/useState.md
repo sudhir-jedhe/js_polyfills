@@ -1,4 +1,4 @@
-*** copy useState.md ***
+***  useState.md ***
 
 `useState` is the core React Hook used to declare and manage **local state** inside a functional component.
 

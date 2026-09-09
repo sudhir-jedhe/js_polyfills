@@ -1,4 +1,4 @@
-*** copy How to setup system degin compnent in react and reuse.md ***
+***  How to setup system degin compnent in react and reuse.md ***
 
 Building a complete, production-grade Design System like Material Design from scratch requires a structured multi-layer architecture. Material Design isn't just a set of buttons—it is an ecosystem built on **Design Tokens**, **Core Primitives**, **Compound UI Components**, **Theme Engine**, and **Accessibility Contracts**.
 

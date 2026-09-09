@@ -1,4 +1,4 @@
-*** copy 02-native-html5-validation-attributes.md ***
+***  02-native-html5-validation-attributes.md ***
 
 # Native HTML5 Validation Attributes
 

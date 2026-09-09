@@ -1,4 +1,4 @@
-*** copy 05-choosing-svg-canvas-img-icon-system.md ***
+***  05-choosing-svg-canvas-img-icon-system.md ***
 
 # Scenario: Choosing Between SVG, Canvas, and `<img>` for an Icon System
 

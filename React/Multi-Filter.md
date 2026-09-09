@@ -1,4 +1,4 @@
-*** copy Multi-Filter.md ***
+***  Multi-Filter.md ***
 
 A complete, multi-criteria filtering system in React supporting free-text search, multi-select checkboxes (categories), a range slider (price), and an in-stock toggle using derived state with `useMemo`.
 

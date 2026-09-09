@@ -1,4 +1,4 @@
-*** copy code Quality.md ***
+***  code Quality.md ***
 
 ### How to Implement Static Code Analysis in Your Project
 

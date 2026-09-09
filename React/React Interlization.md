@@ -1,4 +1,4 @@
-*** copy React Interlization.md ***
+***  React Interlization.md ***
 
 **How do you localize React applications?**
 Localizing a React application (often called **i18n** for internationalization and **l10n** for localization) involves extracting hardcoded text from your components, formatting dates, numbers, and currencies according to regional rules, and managing language switching seamlessly.

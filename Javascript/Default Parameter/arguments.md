@@ -1,4 +1,4 @@
-*** copy arguments.md ***
+***  arguments.md ***
 
 # Parameters vs Arguments in JavaScript
 

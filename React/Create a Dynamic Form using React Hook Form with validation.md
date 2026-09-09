@@ -1,4 +1,4 @@
-*** copy Create a Dynamic Form using React Hook Form with validation.md ***
+***  Create a Dynamic Form using React Hook Form with validation.md ***
 
 Here is a complete, production-ready implementation of a **Dynamic Form** using **React Hook Form** (v7) and **TypeScript**.
 

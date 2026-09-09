@@ -1,4 +1,4 @@
-*** copy 03-console-log-after-setter-shows-stale-value.md ***
+***  03-console-log-after-setter-shows-stale-value.md ***
 
 # What Logs When the Button Is Clicked?
 

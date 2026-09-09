@@ -1,4 +1,4 @@
-*** copy mirror-characters-of-a-string.md ***
+***  mirror-characters-of-a-string.md ***
 
 ```js
 // Input : N = 3

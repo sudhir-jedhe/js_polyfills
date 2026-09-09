@@ -1,4 +1,4 @@
-*** copy Chrome DevTools.md ***
+***  Chrome DevTools.md ***
 
 ### 1. Performance Panel
 

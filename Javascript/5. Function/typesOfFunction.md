@@ -1,4 +1,4 @@
-*** copy typesOfFunction.md ***
+***  typesOfFunction.md ***
 
 Regular (Named) Functions
 The classic `function greet() {}`.

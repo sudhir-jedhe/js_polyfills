@@ -1,4 +1,4 @@
-*** copy dom.md ***
+***  dom.md ***
 
 Certainly! Below is the full code for the functions you've shared, along with examples of how to use them in an HTML document.
 

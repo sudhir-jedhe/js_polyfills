@@ -1,4 +1,4 @@
-*** copy 08-section-6-deploying-to-vps-with-docker-practical-implementation.md ***
+***  08-section-6-deploying-to-vps-with-docker-practical-implementation.md ***
 
 # Section 6 — Deploying to VPS with Docker — Practical Implementation
 

@@ -1,4 +1,4 @@
-*** copy Show me step-by-step how to configure custom barrel file rewriting in Next.js and Vite..md ***
+***  Show me step-by-step how to configure custom barrel file rewriting in Next.js and Vite..md ***
 
 **Next.js Configuration**
 

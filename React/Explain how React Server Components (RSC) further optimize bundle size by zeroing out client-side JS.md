@@ -1,4 +1,4 @@
-*** copy Explain how React Server Components (RSC) further optimize bundle size by zeroing out client-side JS.md ***
+***  Explain how React Server Components (RSC) further optimize bundle size by zeroing out client-side JS.md ***
 
 **React Server Components (RSC)** represent a fundamental shift in how React delivers code to the browser. While traditional client-side function components already improved build size over class components, **RSC takes bundle optimization a step further: it reduces the client-side JavaScript bundle for server components to exactly zero bytes.**
 

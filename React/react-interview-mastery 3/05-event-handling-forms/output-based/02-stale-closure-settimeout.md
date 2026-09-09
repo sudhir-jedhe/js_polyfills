@@ -1,4 +1,4 @@
-*** copy 02-stale-closure-settimeout.md ***
+***  02-stale-closure-settimeout.md ***
 
 # Output-Based: What logs three seconds after clicking, if the button was clicked when `count` was `2`?
 

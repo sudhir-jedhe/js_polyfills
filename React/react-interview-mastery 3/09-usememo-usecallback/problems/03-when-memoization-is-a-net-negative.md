@@ -1,4 +1,4 @@
-*** copy 03-when-memoization-is-a-net-negative.md ***
+***  03-when-memoization-is-a-net-negative.md ***
 
 # Problem 3: A Case Where `useMemo` Is NOT Worth It (Cheap Computation)
 

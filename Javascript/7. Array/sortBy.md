@@ -1,4 +1,4 @@
-*** copy sortBy.md ***
+***  sortBy.md ***
 
 ```js
 function sortBy(collection, property) {

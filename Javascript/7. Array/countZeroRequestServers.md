@@ -1,4 +1,4 @@
-*** copy countZeroRequestServers.md ***
+***  countZeroRequestServers.md ***
 
 The problem you're dealing with involves determining how many servers did not receive any requests within a specific time window defined by a query. There are two different approaches in the code you've provided, which aim to solve the problem but with slightly different strategies. Let's break them down:
 

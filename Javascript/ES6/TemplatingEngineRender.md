@@ -1,4 +1,4 @@
-*** copy TemplatingEngineRender.md ***
+***  TemplatingEngineRender.md ***
 
 The function you have written is a simple templating engine that allows you to replace variables and handle conditionals in templates. It works by:
 

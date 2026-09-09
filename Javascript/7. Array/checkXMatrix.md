@@ -1,4 +1,4 @@
-*** copy checkXMatrix.md ***
+***  checkXMatrix.md ***
 
 The given problem requires us to check if a given square matrix (2D array) is an X-Matrix. An X-Matrix is defined by two conditions:
 

@@ -1,4 +1,4 @@
-*** copy find-height-and-width-of-binary-tree.md ***
+***  find-height-and-width-of-binary-tree.md ***
 
 ```js
 Height of a binary tree

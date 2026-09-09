@@ -1,4 +1,4 @@
-*** copy Git Roadmap.md ***
+***  Git Roadmap.md ***
 
 Git Roadmap for Developers: Learn the Workflow, Not Just the Commands
 

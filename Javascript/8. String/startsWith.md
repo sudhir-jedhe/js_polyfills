@@ -1,4 +1,4 @@
-*** copy startsWith.md ***
+***  startsWith.md ***
 
 ```js
 const str = "Hello Geeks!";

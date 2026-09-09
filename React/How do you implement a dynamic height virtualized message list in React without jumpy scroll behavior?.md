@@ -1,4 +1,4 @@
-*** copy How do you implement a dynamic height virtualized message list in React without jumpy scroll behavior?.md ***
+***  How do you implement a dynamic height virtualized message list in React without jumpy scroll behavior?.md ***
 
 Implementing a virtualized message list with **dynamic heights** and **reverse scrolling** (Chat UI layout) is notorious for scroll jumping.
 

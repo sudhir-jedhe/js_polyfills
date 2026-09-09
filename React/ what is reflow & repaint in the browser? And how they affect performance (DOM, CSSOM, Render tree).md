@@ -1,4 +1,4 @@
-*** copy  what is reflow & repaint in the browser? And how they affect performance (DOM, CSSOM, Render tree).md ***
+***   what is reflow & repaint in the browser? And how they affect performance (DOM, CSSOM, Render tree).md ***
 
 **Reflow** (also known as *Layout*) and **Repaint** are two distinct stages in the browser’s rendering pipeline that occur whenever the structure, geometry, or visual styles of a webpage change.
 

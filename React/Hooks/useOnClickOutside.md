@@ -1,4 +1,4 @@
-*** copy useOnClickOutside.md ***
+***  useOnClickOutside.md ***
 
 Here is a production-ready `useOnClickOutside` hook that supports multiple ref targets, touch devices, and custom event types (`mousedown`, `pointerdown`, or `touchstart`).
 

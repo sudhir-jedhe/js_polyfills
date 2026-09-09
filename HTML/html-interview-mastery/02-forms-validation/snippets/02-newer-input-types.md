@@ -1,4 +1,4 @@
-*** copy 02-newer-input-types.md ***
+***  02-newer-input-types.md ***
 
 # Snippet: Newer Input Types
 

@@ -1,4 +1,4 @@
-*** copy FileUploader.md ***
+***  FileUploader.md ***
 
 ```js
 import React from "react";

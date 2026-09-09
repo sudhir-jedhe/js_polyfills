@@ -1,4 +1,4 @@
-*** copy How does React 19 useOptimistic interact with form auto-resets and server rollbacks?.md ***
+***  How does React 19 useOptimistic interact with form auto-resets and server rollbacks?.md ***
 
 In React 19, **`useOptimistic`**, **Actions (Transitions)**, and **Form Auto-Resets** are designed to work together as a single unified lifecycle.
 

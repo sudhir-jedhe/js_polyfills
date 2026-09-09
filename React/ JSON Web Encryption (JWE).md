@@ -1,4 +1,4 @@
-*** copy  JSON Web Encryption (JWE).md ***
+***   JSON Web Encryption (JWE).md ***
 
 
 💡 What is JSON Web Encryption (JWE)?

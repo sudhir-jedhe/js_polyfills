@@ -1,4 +1,4 @@
-*** copy highlightText.md ***
+***  highlightText.md ***
 
 The two code snippets you've provided implement ways to highlight specific text on a webpage, with each using different approaches: one through JavaScript directly manipulating the DOM, and the other through a React component.
 

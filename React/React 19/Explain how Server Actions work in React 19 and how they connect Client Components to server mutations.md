@@ -1,4 +1,4 @@
-*** copy Explain how Server Actions work in React 19 and how they connect Client Components to server mutations.md ***
+***  Explain how Server Actions work in React 19 and how they connect Client Components to server mutations.md ***
 
 **Server Actions** in React 19 are asynchronous functions that run exclusively on the server, but can be imported and invoked directly from Client Components (or HTML forms).
 

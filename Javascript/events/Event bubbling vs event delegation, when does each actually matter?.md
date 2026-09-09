@@ -1,4 +1,4 @@
-*** copy Event bubbling vs event delegation, when does each actually matter?.md ***
+***  Event bubbling vs event delegation, when does each actually matter?.md ***
 
 Understanding **Event Bubbling** vs. **Event Delegation** comes down to recognizing the difference between a **browser execution mechanism** and a **design pattern**.
 

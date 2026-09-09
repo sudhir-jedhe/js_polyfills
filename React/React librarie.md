@@ -1,4 +1,4 @@
-*** copy React librarie.md ***
+***  React librarie.md ***
 
 1. React Compound Slider: https://lnkd.in/gf5yW38J
 

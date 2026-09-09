@@ -1,4 +1,4 @@
-*** copy restaurant reservation widget.md ***
+***  restaurant reservation widget.md ***
 
 To build a React component for a restaurant reservation widget with the given user flow, we will break down the task into several parts:
 

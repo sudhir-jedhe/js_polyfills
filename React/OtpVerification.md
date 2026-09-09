@@ -1,4 +1,4 @@
-*** copy OtpVerification.md ***
+***  OtpVerification.md ***
 
 import "./OtpVerification.css";
 import "./OtpVerification.css";

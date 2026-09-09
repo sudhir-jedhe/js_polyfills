@@ -1,4 +1,4 @@
-*** copy font-variant in CSS.md ***
+***  font-variant in CSS.md ***
 
 ### `font-variant` in CSS
 

@@ -1,4 +1,4 @@
-*** copy 3-reverse-linked-list.md ***
+***  3-reverse-linked-list.md ***
 
 // Ques 2 : Given the head of a singly linked list, reverse the list, and
 // return the reversed list.

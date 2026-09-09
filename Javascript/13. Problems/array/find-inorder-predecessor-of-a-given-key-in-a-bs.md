@@ -1,4 +1,4 @@
-*** copy find-inorder-predecessor-of-a-given-key-in-a-bs.md ***
+***  find-inorder-predecessor-of-a-given-key-in-a-bs.md ***
 
 ```js
 Input:

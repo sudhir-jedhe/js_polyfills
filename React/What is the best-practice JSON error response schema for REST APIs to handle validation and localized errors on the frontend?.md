@@ -1,4 +1,4 @@
-*** copy What is the best-practice JSON error response schema for REST APIs to handle validation and localized errors on the frontend?.md ***
+***  What is the best-practice JSON error response schema for REST APIs to handle validation and localized errors on the frontend?.md ***
 
 The industry standard for REST API error payloads is based on **RFC 7807 (Problem Details for HTTP APIs)** and **RFC 9457**.
 

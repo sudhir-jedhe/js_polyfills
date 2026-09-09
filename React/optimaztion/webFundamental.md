@@ -1,4 +1,4 @@
-*** copy webFundamental.md ***
+***  webFundamental.md ***
 
 // Article: How a webpage is rendered in the browser
 // Article: Testing startergies

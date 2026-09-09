@@ -1,4 +1,4 @@
-*** copy 03-ternary-conditional-rendering.md ***
+***  03-ternary-conditional-rendering.md ***
 
 # Snippet: Ternary conditional rendering — two mutually exclusive branches
 

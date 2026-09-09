@@ -1,4 +1,4 @@
-*** copy Implementation: Custom React Cache with TTL & Auto-Cleanup.md ***
+***  Implementation: Custom React Cache with TTL & Auto-Cleanup.md ***
 
 Combining nested `Map` objects with Time-To-Live (TTL) mechanics is an excellent pattern for managing hierarchical, short-lived client-side state in React applications.
 

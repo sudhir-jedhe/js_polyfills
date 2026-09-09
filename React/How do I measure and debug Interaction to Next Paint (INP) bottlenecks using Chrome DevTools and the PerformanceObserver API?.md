@@ -1,4 +1,4 @@
-*** copy How do I measure and debug Interaction to Next Paint (INP) bottlenecks using Chrome DevTools and the PerformanceObserver API?.md ***
+***  How do I measure and debug Interaction to Next Paint (INP) bottlenecks using Chrome DevTools and the PerformanceObserver API?.md ***
 
 **Interaction to Next Paint (INP)** assesses page responsiveness by measuring the time from a user interaction (click, tap, or keypress) until the browser presents the next visual frame.
 

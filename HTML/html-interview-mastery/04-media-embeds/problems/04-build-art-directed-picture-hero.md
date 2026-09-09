@@ -1,4 +1,4 @@
-*** copy 04-build-art-directed-picture-hero.md ***
+***  04-build-art-directed-picture-hero.md ***
 
 # Problem: Build an Art-Directed `<picture>` Hero with Format Fallback
 

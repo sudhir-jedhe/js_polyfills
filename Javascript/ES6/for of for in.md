@@ -1,4 +1,4 @@
-*** copy for of for in.md ***
+***  for of for in.md ***
 
 While both `for...in` and `for...of` loops iterate over data in JavaScript, they serve fundamentally different purposes:
 

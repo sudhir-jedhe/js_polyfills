@@ -1,4 +1,4 @@
-*** copy  What is the React Compiler?.md ***
+***   What is the React Compiler?.md ***
 
 The **React Compiler** (originally code-named "React Forget") is a build-time tool created by the React core team that automatically optimizes your React applications.
 

@@ -1,4 +1,4 @@
-*** copy index.md ***
+***  index.md ***
 
 const root = document.querySelector('.grid');
 const rows = window.innerHeight / 60 - 3,

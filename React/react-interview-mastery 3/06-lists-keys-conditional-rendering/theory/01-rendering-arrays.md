@@ -1,4 +1,4 @@
-*** copy 01-rendering-arrays.md ***
+***  01-rendering-arrays.md ***
 
 # Rendering arrays
 

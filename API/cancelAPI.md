@@ -1,4 +1,4 @@
-*** copy cancelAPI.md ***
+***  cancelAPI.md ***
 
 In React, sometimes you need to cancel API calls, especially when you're working with asynchronous data fetching. This is particularly important for scenarios where the component may unmount or when you no longer need the data (e.g., navigating to another page or changing the component's state). Canceling unnecessary API calls helps prevent memory leaks, unwanted state updates, and wasted resources.
 

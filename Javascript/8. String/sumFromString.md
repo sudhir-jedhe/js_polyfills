@@ -1,4 +1,4 @@
-*** copy sumFromString.md ***
+***  sumFromString.md ***
 
 ```js
 export const sumNumbers = (str) => {

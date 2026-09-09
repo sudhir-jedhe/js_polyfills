@@ -1,4 +1,4 @@
-*** copy How do I animate accordion expand and collapse transitions using CSS grid and Radix UI in Tailwind CSS v4?.md ***
+***  How do I animate accordion expand and collapse transitions using CSS grid and Radix UI in Tailwind CSS v4?.md ***
 
 Animating dynamic-height elements (like accordions) from `height: 0` to `height: auto` has historically required JavaScript measurements or hacky `max-height` values.
 

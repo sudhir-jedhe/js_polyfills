@@ -1,4 +1,4 @@
-*** copy 01-bundled-context-laggy-search.md ***
+***  01-bundled-context-laggy-search.md ***
 
 # Scenario: A single "app state" context is causing the whole app to lag on every keystroke
 

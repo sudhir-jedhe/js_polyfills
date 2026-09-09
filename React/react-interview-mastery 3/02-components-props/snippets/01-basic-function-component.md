@@ -1,4 +1,4 @@
-*** copy 01-basic-function-component.md ***
+***  01-basic-function-component.md ***
 
 # Basic Function Component With Destructured Props
 

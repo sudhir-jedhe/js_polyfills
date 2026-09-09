@@ -1,4 +1,4 @@
-*** copy print-array-after-it-is-right-rotated-k-times.md ***
+***  print-array-after-it-is-right-rotated-k-times.md ***
 
 ```js
 /*

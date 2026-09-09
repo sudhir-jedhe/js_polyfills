@@ -1,4 +1,4 @@
-*** copy once.md ***
+***  once.md ***
 
 The problem you are trying to solve is to implement a `once` function that ensures the provided callback function is only called once, no matter how many times it is invoked. After the first call, subsequent invocations of the function should return the result of the first invocation without executing the callback again.
 

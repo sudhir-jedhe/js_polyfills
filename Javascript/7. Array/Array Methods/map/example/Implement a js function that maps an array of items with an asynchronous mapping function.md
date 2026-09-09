@@ -1,4 +1,4 @@
-*** copy Implement a js function that maps an array of items with an asynchronous mapping function.md ***
+***  Implement a js function that maps an array of items with an asynchronous mapping function.md ***
 
 Implement a js function that maps an array of items with an asynchronous
 mapping function

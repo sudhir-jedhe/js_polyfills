@@ -1,4 +1,4 @@
-*** copy 01-refactoring-div-soup-to-semantic-html.md ***
+***  01-refactoring-div-soup-to-semantic-html.md ***
 
 # Scenario: Refactoring a Legacy "Div Soup" Page
 

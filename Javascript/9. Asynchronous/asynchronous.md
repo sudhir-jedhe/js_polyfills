@@ -1,4 +1,4 @@
-*** copy asynchronous.md ***
+***  asynchronous.md ***
 
 ### 3. Working with Promises: `resolve` and `reject` in JavaScript
 

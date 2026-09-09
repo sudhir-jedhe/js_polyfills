@@ -1,4 +1,4 @@
-*** copy total-number-of-subsets-in-which-the-product-of-the-elements-is-even.md ***
+***  total-number-of-subsets-in-which-the-product-of-the-elements-is-even.md ***
 
 ```js
 // Input: arr[] = {2, 2, 3}

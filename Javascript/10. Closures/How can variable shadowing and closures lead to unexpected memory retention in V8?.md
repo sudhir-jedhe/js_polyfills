@@ -1,4 +1,4 @@
-*** copy How can variable shadowing and closures lead to unexpected memory retention in V8?.md ***
+***  How can variable shadowing and closures lead to unexpected memory retention in V8?.md ***
 
 ***How can variable shadowing and closures lead to unexpected memory retention in V8?***
 

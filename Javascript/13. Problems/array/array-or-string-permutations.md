@@ -1,4 +1,4 @@
-*** copy array-or-string-permutations.md ***
+***  array-or-string-permutations.md ***
 
 ```js
 Home

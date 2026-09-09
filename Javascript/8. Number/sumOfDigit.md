@@ -1,4 +1,4 @@
-*** copy sumOfDigit.md ***
+***  sumOfDigit.md ***
 
 ### Explanation of the Code:
 

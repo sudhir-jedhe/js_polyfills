@@ -1,4 +1,4 @@
-*** copy Memoize1.md ***
+***  Memoize1.md ***
 
 Here is the complete guide and solution for LeetCode #2623: **Memoize** (implementing a memoization higher-order function to cache function outputs based on inputs).
 

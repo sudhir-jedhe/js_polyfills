@@ -1,4 +1,4 @@
-*** copy createNegativeArrayProxy.md ***
+***  createNegativeArrayProxy.md ***
 
 The code you provided correctly implements a **proxy** that allows negative indexing for arrays, which is not natively supported in JavaScript. This is a neat use case of JavaScript's `Proxy` object, specifically leveraging the `get` trap to handle negative indexes.
 

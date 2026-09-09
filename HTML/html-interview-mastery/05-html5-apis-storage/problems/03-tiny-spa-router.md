@@ -1,4 +1,4 @@
-*** copy 03-tiny-spa-router.md ***
+***  03-tiny-spa-router.md ***
 
 # Problem: Build a Tiny SPA Router from Scratch
 

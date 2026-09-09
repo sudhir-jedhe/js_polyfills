@@ -1,4 +1,4 @@
-*** copy first class function.md ***
+***  first class function.md ***
 
 // In Javascript, functions are first class objects.
 // First-class functions means when functions in that language are treated

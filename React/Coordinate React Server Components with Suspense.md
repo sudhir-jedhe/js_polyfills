@@ -1,4 +1,4 @@
-*** copy Coordinate React Server Components with Suspense.md ***
+***  Coordinate React Server Components with Suspense.md ***
 
 In React Server Components (RSC), coordinating with `<Suspense>` enables **Progressive HTML Streaming** and **Selective Hydration**.
 

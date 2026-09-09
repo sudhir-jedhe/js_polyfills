@@ -1,4 +1,4 @@
-*** copy What's the difference between Server Components and Client Components?.md ***
+***  What's the difference between Server Components and Client Components?.md ***
 
 Server Components and Client Components represent a split in where and how React executes your code. Historically, React rendered your entire application in the user's browser. Now, you can divide the labor between the backend server and the frontend browser to get the best of both worlds.
 

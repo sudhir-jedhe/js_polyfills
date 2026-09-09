@@ -1,4 +1,4 @@
-*** copy unary function.md ***
+***  unary function.md ***
 
 Unary functions are a fundamental concept in programming where a function accepts exactly one argument. They are commonly used for simplifying operations and making code more readable. Here's a breakdown of the provided example:
 

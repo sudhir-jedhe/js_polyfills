@@ -1,4 +1,4 @@
-*** copy Movie ticket reservation React Node.md ***
+***  Movie ticket reservation React Node.md ***
 
 Here is a complete, production-ready MERN (MongoDB, Express, React, Node.js) **Movie Ticket Reservation Application** architecture and implementation guide.
 

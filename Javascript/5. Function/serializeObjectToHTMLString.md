@@ -1,4 +1,4 @@
-*** copy serializeObjectToHTMLString.md ***
+***  serializeObjectToHTMLString.md ***
 
 Your approach to serializing an object into an HTML string is almost there, but there are a few areas that need attention for it to properly create a well-structured HTML string with proper indentation.
 

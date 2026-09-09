@@ -1,4 +1,4 @@
-*** copy frequency.md ***
+***  frequency.md ***
 
 ```js
 const text = "Hello, World!";

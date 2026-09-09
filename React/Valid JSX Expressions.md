@@ -1,4 +1,4 @@
-*** copy Valid JSX Expressions.md ***
+***  Valid JSX Expressions.md ***
 
 In JSX and JavaScript, you cannot directly use an `if` statement inside an expression such as `console.log()`. This is because **`if` statements** are **statements**, not **expressions**. Expressions return values, while statements do not. JSX expects expressions that evaluate to values, so attempting to use a control structure like `if` inside `console.log()` will throw a syntax error.
 

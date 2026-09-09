@@ -1,4 +1,4 @@
-*** copy 03-use-previous-hook.md ***
+***  03-use-previous-hook.md ***
 
 # Snippet: Tracking a previous prop/state value across renders
 

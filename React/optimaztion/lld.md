@@ -1,4 +1,4 @@
-*** copy lld.md ***
+***  lld.md ***
 
 // Article: Tic tac toe game with bot
 // Article: Implement Feature Flag component in React

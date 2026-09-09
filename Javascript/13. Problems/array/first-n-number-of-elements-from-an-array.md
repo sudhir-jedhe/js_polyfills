@@ -1,4 +1,4 @@
-*** copy first-n-number-of-elements-from-an-array.md ***
+***  first-n-number-of-elements-from-an-array.md ***
 
 ```js
 const arr = [1, 2, 3, 4, 5, 6];

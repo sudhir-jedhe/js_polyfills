@@ -1,4 +1,4 @@
-*** copy 03-multi-field-handlers.md ***
+***  03-multi-field-handlers.md ***
 
 # Handling multiple fields with one handler
 

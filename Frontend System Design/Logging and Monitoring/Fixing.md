@@ -1,4 +1,4 @@
-*** copy Fixing.md ***
+***  Fixing.md ***
 
 In **Front-End System Design**, detecting an issue through telemetry and alerting is only half the battle. Resolving the anomaly requires a structured **Triage $\rightarrow$ Isolation $\rightarrow$ Remediation $\rightarrow$ Prevention** strategy to fix the root cause without introducing new regressions.
 

@@ -1,4 +1,4 @@
-*** copy Filter Elements from Array without using Array.prototype.filter.md ***
+***  Filter Elements from Array without using Array.prototype.filter.md ***
 
 # Filter Elements from Array without using Array.prototype.filter
 

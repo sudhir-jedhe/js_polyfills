@@ -1,4 +1,4 @@
-*** copy heapSort.md ***
+***  heapSort.md ***
 
 /**
  * @param {Array<number>} arr The input integer array to be sorted.

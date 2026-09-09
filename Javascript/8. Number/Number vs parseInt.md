@@ -1,4 +1,4 @@
-*** copy Number vs parseInt.md ***
+***  Number vs parseInt.md ***
 
 In JavaScript, both `Number` and `parseInt` are used to convert values to numbers, but they work differently. Here's a detailed comparison of the two, highlighting their differences and appropriate use cases.
 

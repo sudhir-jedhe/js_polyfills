@@ -1,4 +1,4 @@
-*** copy API Design for extensibility .md ***
+***  API Design for extensibility .md ***
 
 Designing an API for **extensibility** means building your system so it can evolve, scale, and accommodate new features, fields, or business logic in the future without breaking existing client applications.
 

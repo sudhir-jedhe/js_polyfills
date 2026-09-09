@@ -1,4 +1,4 @@
-*** copy Count_occurrences _of_all_items _array.md ***
+***  Count_occurrences _of_all_items _array.md ***
 
 ```js
 let arr = [

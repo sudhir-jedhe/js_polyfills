@@ -1,4 +1,4 @@
-*** copy 06-block-vs-inline-elements-html-semantics.md ***
+***  06-block-vs-inline-elements-html-semantics.md ***
 
 # Block vs. Inline Elements: the HTML Side
 

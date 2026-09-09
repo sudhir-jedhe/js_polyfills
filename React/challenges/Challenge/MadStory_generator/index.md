@@ -1,4 +1,4 @@
-*** copy index.md ***
+***  index.md ***
 
 const nounInput = document.getElementById('noun');
 const verbInput = document.getElementById('verb');

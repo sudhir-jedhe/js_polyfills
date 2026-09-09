@@ -1,4 +1,4 @@
-*** copy What does the new keyword do.md ***
+***  What does the new keyword do.md ***
 
 he new keyword is used with constructor functions to make objects
 in JavaScript.

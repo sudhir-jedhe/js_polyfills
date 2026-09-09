@@ -1,4 +1,4 @@
-*** copy Chat application .md ***
+***  Chat application .md ***
 
 The WhatsApp Web Clone skill has been created and saved as whatsapp-web-clone.
 

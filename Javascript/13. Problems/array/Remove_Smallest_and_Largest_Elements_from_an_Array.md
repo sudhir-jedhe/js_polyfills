@@ -1,4 +1,4 @@
-*** copy Remove_Smallest_and_Largest_Elements_from_an_Array.md ***
+***  Remove_Smallest_and_Largest_Elements_from_an_Array.md ***
 
 ```js
 // Using reduce() method  

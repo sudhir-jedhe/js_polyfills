@@ -1,4 +1,4 @@
-*** copy 02-build-accessible-captioned-video-player.md ***
+***  02-build-accessible-captioned-video-player.md ***
 
 # Problem: Build an Accessible Video Player with Captions from Scratch
 

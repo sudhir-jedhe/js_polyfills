@@ -1,4 +1,4 @@
-*** copy 01-jsx-compiles-to-createelement.md ***
+***  01-jsx-compiles-to-createelement.md ***
 
 # JSX Compiles to `createElement`/`jsx()` Calls
 

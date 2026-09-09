@@ -1,4 +1,4 @@
-*** copy plusOne.md ***
+***  plusOne.md ***
 
 Both implementations you've provided for the `plusOne` function solve the problem of incrementing an array of digits representing a non-negative integer, with the appropriate handling for carries.
 

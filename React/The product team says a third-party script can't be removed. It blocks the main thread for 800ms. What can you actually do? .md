@@ -1,4 +1,4 @@
-*** copy The product team says a third-party script can't be removed. It blocks the main thread for 800ms. What can you actually do? .md ***
+***  The product team says a third-party script can't be removed. It blocks the main thread for 800ms. What can you actually do? .md ***
 
 When a third-party script cannot be removed, you have to transition from treating it as a standard dependency to isolating, deferring, or offloading it.
 

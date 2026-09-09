@@ -1,4 +1,4 @@
-*** copy lodah_once.md ***
+***  lodah_once.md ***
 
 Here’s the **original code** with the explanation of the **customOnce** function:
 

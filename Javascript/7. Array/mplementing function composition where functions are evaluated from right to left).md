@@ -1,4 +1,4 @@
-*** copy mplementing function composition where functions are evaluated from right to left).md ***
+***  mplementing function composition where functions are evaluated from right to left).md ***
 
 # mplementing function composition where functions are evaluated from right to left)
 

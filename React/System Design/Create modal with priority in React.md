@@ -1,4 +1,4 @@
-*** copy Create modal with priority in React.md ***
+***  Create modal with priority in React.md ***
 
 # Modal with Priority in React
 

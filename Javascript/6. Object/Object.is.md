@@ -1,4 +1,4 @@
-*** copy Object.is.md ***
+***  Object.is.md ***
 
 The `Object.is()` method in JavaScript is designed to provide a more precise equality check compared to the `===` operator, with specific handling for some special cases such as `NaN` and `-0`/`+0`.
 

@@ -1,4 +1,4 @@
-*** copy 03-splitting-contexts.md ***
+***  03-splitting-contexts.md ***
 
 # Splitting contexts
 

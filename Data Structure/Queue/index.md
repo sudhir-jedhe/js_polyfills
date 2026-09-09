@@ -1,4 +1,4 @@
-*** copy index.md ***
+***  index.md ***
 
 // Implement a queue data structure in JavaScript that contains the following operations:
 

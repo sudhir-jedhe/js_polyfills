@@ -1,4 +1,4 @@
-*** copy Iterative1.md ***
+***  Iterative1.md ***
 
 ### **Problem Statement:**
 

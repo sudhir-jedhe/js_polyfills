@@ -1,4 +1,4 @@
-*** copy 01-build-accessible-modal-focus-trap.md ***
+***  01-build-accessible-modal-focus-trap.md ***
 
 # Problem: Build an Accessible Modal with Focus Trapping from Scratch
 

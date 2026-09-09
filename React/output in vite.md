@@ -1,4 +1,4 @@
-*** copy output in vite.md ***
+***  output in vite.md ***
 
 In Vite, **output** refers to how and where your compiled assets are generated when you run the production build command (`vite build` or `npx vite build`).
 

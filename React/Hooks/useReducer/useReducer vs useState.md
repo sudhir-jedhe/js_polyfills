@@ -1,4 +1,4 @@
-*** copy useReducer vs useState.md ***
+***  useReducer vs useState.md ***
 
 **No, `useReducer` and `useState` perform identically under the hood in React.**
 

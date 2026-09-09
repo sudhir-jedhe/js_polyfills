@@ -1,4 +1,4 @@
-*** copy FlipCard.md ***
+***  FlipCard.md ***
 
 # Flipping Card Component (React + TypeScript)
 

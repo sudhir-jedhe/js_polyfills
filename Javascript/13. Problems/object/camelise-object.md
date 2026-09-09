@@ -1,4 +1,4 @@
-*** copy camelise-object.md ***
+***  camelise-object.md ***
 
 ```js
 export const camelise = (obj) => {

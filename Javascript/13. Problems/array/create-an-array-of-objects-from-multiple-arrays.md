@@ -1,4 +1,4 @@
-*** copy create-an-array-of-objects-from-multiple-arrays.md ***
+***  create-an-array-of-objects-from-multiple-arrays.md ***
 
 ```js
 let books_details = [

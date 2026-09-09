@@ -1,4 +1,4 @@
-*** copy 02-fragments-avoid-wrapper-div.md ***
+***  02-fragments-avoid-wrapper-div.md ***
 
 # Fragments Avoid an Unnecessary Wrapper `<div>`
 

@@ -1,4 +1,4 @@
-*** copy How does useOptimistic handle multiple rapid concurrent form submissions in React 19?.md ***
+***  How does useOptimistic handle multiple rapid concurrent form submissions in React 19?.md ***
 
 When a user triggers multiple rapid submissions in a row (e.g., rapidly sending several chat messages or toggling multiple todo items), React 19 handles `useOptimistic` updates by maintaining an internal **queue of pending optimistic actions** applied sequentially on top of the latest confirmed **base state**.
 

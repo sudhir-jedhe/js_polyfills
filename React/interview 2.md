@@ -1,4 +1,4 @@
-*** copy interview 2.md ***
+***  interview 2.md ***
 
 
 1. Implement Infinite Scroll Component.

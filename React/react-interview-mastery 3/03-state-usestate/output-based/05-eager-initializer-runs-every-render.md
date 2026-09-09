@@ -1,4 +1,4 @@
-*** copy 05-eager-initializer-runs-every-render.md ***
+***  05-eager-initializer-runs-every-render.md ***
 
 # What Renders, and What's the Bug?
 

@@ -1,4 +1,4 @@
-*** copy How Jsx works?.md ***
+***  How Jsx works?.md ***
 
 **JSX** (JavaScript XML) is a syntax extension for JavaScript that lets you write HTML-like markup inside your JavaScript or TypeScript files.
 

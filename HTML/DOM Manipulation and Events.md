@@ -1,4 +1,4 @@
-*** copy DOM Manipulation and Events.md ***
+***  DOM Manipulation and Events.md ***
 
 ### 52. Add an event listener to multiple elements
 

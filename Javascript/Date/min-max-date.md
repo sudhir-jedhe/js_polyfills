@@ -1,4 +1,4 @@
-*** copy min-max-date.md ***
+***  min-max-date.md ***
 
 Your code defines two functions, `minDate` and `maxDate`, which are used to find the minimum and maximum dates from an array of date objects. Let’s break down the implementation:
 

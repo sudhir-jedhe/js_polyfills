@@ -1,4 +1,4 @@
-*** copy reverse-last-k-elements-in-a-queue.md ***
+***  reverse-last-k-elements-in-a-queue.md ***
 
 ```js
 const reverseQueue = (queue, k) => {

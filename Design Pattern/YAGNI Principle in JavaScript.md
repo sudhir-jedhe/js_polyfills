@@ -1,4 +1,4 @@
-*** copy YAGNI Principle in JavaScript.md ***
+***  YAGNI Principle in JavaScript.md ***
 
 ## **YAGNI Principle in JavaScript**
 The `YAGNI` principle stands for **"You Aren't Gonna Need It."** It is a software development concept that encourages developers to avoid adding functionality or features until they are actually needed. YAGNI helps developers to focus on solving the current problem at hand rather than anticipating future needs that may never arise. The principle is part of the Extreme Programming (XP) methodology, which advocates for simplicity and iterative development.

@@ -1,4 +1,4 @@
-*** copy 02-rerender-cost.md ***
+***  02-rerender-cost.md ***
 
 # The re-render cost
 

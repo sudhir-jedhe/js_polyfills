@@ -1,4 +1,4 @@
-*** copy 03-floating-point-addition-precision.md ***
+***  03-floating-point-addition-precision.md ***
 
 # Floating-Point Addition Precision
 

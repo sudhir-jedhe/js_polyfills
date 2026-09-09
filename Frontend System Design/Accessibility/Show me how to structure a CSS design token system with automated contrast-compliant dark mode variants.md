@@ -1,4 +1,4 @@
-*** copy Show me how to structure a CSS design token system with automated contrast-compliant dark mode variants.md ***
+***  Show me how to structure a CSS design token system with automated contrast-compliant dark mode variants.md ***
 
 Structuring an accessible design token system requires separating **primitive values** (raw colors) from **semantic tokens** (intent-based roles like surface, text, border). By anchoring semantic tokens to luminance-tested pairs, you ensure both light and dark mode automatically pass WCAG AA (4.5:1 for text, 3:1 for UI controls) without hand-picking colors for every component.
 

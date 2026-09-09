@@ -1,4 +1,4 @@
-*** copy How do I set up Double Submit CSRF token protection with Axios interceptors and SameSite cookies?.md ***
+***  How do I set up Double Submit CSRF token protection with Axios interceptors and SameSite cookies?.md ***
 
 The **Double Submit Cookie pattern** prevents Cross-Site Request Forgery (CSRF) by requiring two matching proofs of identity on state-changing requests ($\text{POST}, \text{PUT}, \text{PATCH}, \text{DELETE}$):
 

@@ -1,4 +1,4 @@
-*** copy -print-the-chess-board-pattern.md ***
+***  -print-the-chess-board-pattern.md ***
 
 ```js
 let chessboard = (row, column) => {

@@ -1,4 +1,4 @@
-*** copy Modal.md ***
+***  Modal.md ***
 
 Building an accessible modal component in React requires managing three core areas: **ARIA attributes** (communicating semantics to screen readers), **focus trapping** (keeping keyboard navigation inside the dialog), and **focus restoration** (returning focus to the trigger element when closed).
 

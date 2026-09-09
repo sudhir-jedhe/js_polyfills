@@ -1,4 +1,4 @@
-*** copy digitalRoot .md ***
+***  digitalRoot .md ***
 
 ```js
 let digitalRoot = (n) => {

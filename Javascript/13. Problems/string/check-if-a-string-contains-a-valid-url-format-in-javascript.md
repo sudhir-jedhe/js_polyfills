@@ -1,4 +1,4 @@
-*** copy check-if-a-string-contains-a-valid-url-format-in-javascript.md ***
+***  check-if-a-string-contains-a-valid-url-format-in-javascript.md ***
 
 ```js
 function isValidURL(url) {

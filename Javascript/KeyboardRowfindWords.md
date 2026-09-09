@@ -1,4 +1,4 @@
-*** copy KeyboardRowfindWords.md ***
+***  KeyboardRowfindWords.md ***
 
 ```js
 function findWords(words: string[]): string[] {

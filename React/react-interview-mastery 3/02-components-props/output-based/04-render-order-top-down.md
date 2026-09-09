@@ -1,4 +1,4 @@
-*** copy 04-render-order-top-down.md ***
+***  04-render-order-top-down.md ***
 
 # What's Logged, and in What Order?
 

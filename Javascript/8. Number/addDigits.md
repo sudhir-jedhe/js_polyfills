@@ -1,4 +1,4 @@
-*** copy addDigits.md ***
+***  addDigits.md ***
 
 The function `addDigits` efficiently calculates the digital root of a given number \( \text{num} \) using properties of modular arithmetic. Here's how the function works:
 

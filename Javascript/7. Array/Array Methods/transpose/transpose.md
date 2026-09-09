@@ -1,4 +1,4 @@
-*** copy transpose.md ***
+***  transpose.md ***
 
 ```js
 export function transpose(matrix) {

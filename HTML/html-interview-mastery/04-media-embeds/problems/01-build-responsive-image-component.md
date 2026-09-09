@@ -1,4 +1,4 @@
-*** copy 01-build-responsive-image-component.md ***
+***  01-build-responsive-image-component.md ***
 
 # Problem: Build a Responsive Image Component with `srcset`
 

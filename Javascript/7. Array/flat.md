@@ -1,4 +1,4 @@
-*** copy flat.md ***
+***  flat.md ***
 
 The code you've shared involves flattening nested arrays to a specific depth (or completely) using various methods. Let's walk through each approach and understand the differences and their implementation:
 

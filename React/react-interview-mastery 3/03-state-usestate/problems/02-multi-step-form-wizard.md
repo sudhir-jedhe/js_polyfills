@@ -1,4 +1,4 @@
-*** copy 02-multi-step-form-wizard.md ***
+***  02-multi-step-form-wizard.md ***
 
 # Problem: Build a Multi-Step Form Wizard
 

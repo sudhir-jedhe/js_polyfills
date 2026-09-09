@@ -1,4 +1,4 @@
-*** copy React Composition.md ***
+***  React Composition.md ***
 
 **React Composition** is a fundamental design pattern in React where components are built by **combining simpler, smaller components together** rather than relying on class inheritance or deep prop drilling.
 

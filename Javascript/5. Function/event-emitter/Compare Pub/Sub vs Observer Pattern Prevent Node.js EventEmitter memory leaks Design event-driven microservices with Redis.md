@@ -1,4 +1,4 @@
-*** copy Sub vs Observer Pattern Prevent Node.js EventEmitter memory leaks Design event-driven microservices with Redis.md ***
+***  Sub vs Observer Pattern Prevent Node.js EventEmitter memory leaks Design event-driven microservices with Redis.md ***
 
 Compare Pub/Sub vs Observer Pattern
 Prevent Node.js EventEmitter memory leaks

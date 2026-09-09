@@ -1,4 +1,4 @@
-*** copy 01-robots-txt-blocks-noindex-page.md ***
+***  01-robots-txt-blocks-noindex-page.md ***
 
 # Output: Does This Page Get Deindexed?
 

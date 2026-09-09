@@ -1,4 +1,4 @@
-*** copy code Management.md ***
+***  code Management.md ***
 
 # Code Management — Complete Senior Frontend / Full-Stack Interview Deep Dive
 

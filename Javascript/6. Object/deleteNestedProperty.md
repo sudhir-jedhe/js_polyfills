@@ -1,4 +1,4 @@
-*** copy deleteNestedProperty.md ***
+***  deleteNestedProperty.md ***
 
 Deleting a nested property in JavaScript/React can be done in several ways depending on whether you want to **mutate** the original object or **keep immutability** (recommended in React).
 

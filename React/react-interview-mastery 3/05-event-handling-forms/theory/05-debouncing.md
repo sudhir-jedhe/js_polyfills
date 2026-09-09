@@ -1,4 +1,4 @@
-*** copy 05-debouncing.md ***
+***  05-debouncing.md ***
 
 # Debouncing input handlers
 

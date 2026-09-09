@@ -1,4 +1,4 @@
-*** copy Explain how to design an Offline-First chat application with local message queueing and IndexedDB sync.md ***
+***  Explain how to design an Offline-First chat application with local message queueing and IndexedDB sync.md ***
 
 Designing an **Offline-First Chat Application** requires treating local client storage as the **primary source of truth** for the UI, while the network and backend server act as a synchronization target.
 

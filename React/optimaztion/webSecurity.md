@@ -1,4 +1,4 @@
-*** copy webSecurity.md ***
+***  webSecurity.md ***
 
 // Article: Cross-site scripting (XSS)
 // Article: Cross-site forgery (CSRF)

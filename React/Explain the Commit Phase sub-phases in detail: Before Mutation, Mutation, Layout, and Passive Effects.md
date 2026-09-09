@@ -1,4 +1,4 @@
-*** copy Explain the Commit Phase sub-phases in detail: Before Mutation, Mutation, Layout, and Passive Effects.md ***
+***  Explain the Commit Phase sub-phases in detail: Before Mutation, Mutation, Layout, and Passive Effects.md ***
 
 Once the **Render Phase** finishes calculating changes and building the `WorkInProgress` Fiber tree, React enters the **Commit Phase**.
 

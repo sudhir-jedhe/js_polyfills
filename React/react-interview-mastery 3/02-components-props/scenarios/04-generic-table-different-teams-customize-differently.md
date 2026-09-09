@@ -1,4 +1,4 @@
-*** copy 04-generic-table-different-teams-customize-differently.md ***
+***  04-generic-table-different-teams-customize-differently.md ***
 
 # Building a Generic `<Table>` Component That Different Teams Want to Customize Differently
 

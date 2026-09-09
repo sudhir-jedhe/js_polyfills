@@ -1,4 +1,4 @@
-*** copy smartTable.md ***
+***  smartTable.md ***
 
 I found an internal reference, EditPFData.html, that describes a PF data table with edit, search, pagination and sorting, which aligns well with your custom grid requirement. I also checked MUI X docs for feature inspiration: Data Grid - Row definition - MUI X says rows should have a stable unique identifier, Data Grid - Cells - MUI X describes custom cell rendering/formatting, Data Grid - Virtualization - MUI X explains row/column virtualisation for performance, and Data Grid - Accessibility - MUI X highlights keyboard navigation and ARIA-style data-grid patterns.
 

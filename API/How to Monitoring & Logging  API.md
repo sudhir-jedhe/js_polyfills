@@ -1,4 +1,4 @@
-*** copy How to Monitoring & Logging  API.md ***
+***  How to Monitoring & Logging  API.md ***
 
 Effective **Monitoring & Logging** are the twin pillars of API observability. They allow you to track performance, debug errors in production, catch downtime before users notice, and analyze traffic patterns.
 

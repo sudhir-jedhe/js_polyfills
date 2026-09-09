@@ -1,4 +1,4 @@
-*** copy twoStacks .md ***
+***  twoStacks .md ***
 
 An algorithm to implement two stacks with a single array.
 

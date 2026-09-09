@@ -1,4 +1,4 @@
-*** copy isHappy.md ***
+***  isHappy.md ***
 
 Here is the complete implementation of the happy number checker in TypeScript:
 

@@ -1,4 +1,4 @@
-*** copy transformArray.md ***
+***  transformArray.md ***
 
 The provided `transformArray` function is designed to modify the elements of an array iteratively based on a simple rule. The rule checks if an element is a local minimum or maximum (i.e., smaller or larger than its neighbors), and if so, replaces it with the average of its neighbors. The process continues until no more changes are made, ensuring that all such local extremes are replaced by their neighbors' averages.
 

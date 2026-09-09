@@ -1,4 +1,4 @@
-*** copy 03-chart-library-imperative-integration.md ***
+***  03-chart-library-imperative-integration.md ***
 
 # Scenario: A third-party charting library needs a raw DOM element to mount into, wrapped in a reusable component
 

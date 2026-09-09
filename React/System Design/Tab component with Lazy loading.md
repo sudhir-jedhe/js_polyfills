@@ -1,4 +1,4 @@
-*** copy Tab component with Lazy loading.md ***
+***  Tab component with Lazy loading.md ***
 
 # Tab Component with Lazy Loading in React
 

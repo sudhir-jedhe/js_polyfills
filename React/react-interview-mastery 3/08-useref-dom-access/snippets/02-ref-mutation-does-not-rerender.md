@@ -1,4 +1,4 @@
-*** copy 02-ref-mutation-does-not-rerender.md ***
+***  02-ref-mutation-does-not-rerender.md ***
 
 # Snippet: Mutating a ref does NOT trigger a re-render
 

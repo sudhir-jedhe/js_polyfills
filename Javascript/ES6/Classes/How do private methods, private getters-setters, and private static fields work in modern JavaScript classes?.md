@@ -1,4 +1,4 @@
-*** copy How do private methods, private getters-setters, and private static fields work in modern JavaScript classes?.md ***
+***  How do private methods, private getters-setters, and private static fields work in modern JavaScript classes?.md ***
 
 Private identifiers prefixed with `#` in modern JavaScript extend beyond instance variables to **private methods**, **private accessors (getters/setters)**, and **private static members**.
 

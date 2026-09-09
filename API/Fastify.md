@@ -1,4 +1,4 @@
-*** copy Fastify.md ***
+***  Fastify.md ***
 
 **1. Schema-Driven Fastify Server Setup**
 

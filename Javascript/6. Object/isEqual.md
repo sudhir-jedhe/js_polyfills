@@ -1,4 +1,4 @@
-*** copy isEqual.md ***
+***  isEqual.md ***
 
 Your problem statement is to implement a deep equality check (similar to `_.isEqual` in lodash) for various data types, including primitives, objects, arrays, and handling circular references.
 

@@ -1,4 +1,4 @@
-*** copy for-Each.md ***
+***  for-Each.md ***
 
 ```js
 arr.forEach((val) => console.log(val));

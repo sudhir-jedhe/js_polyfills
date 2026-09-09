@@ -1,4 +1,4 @@
-*** copy 02-picture-art-direction.md ***
+***  02-picture-art-direction.md ***
 
 # Snippet: `<picture>` Art Direction
 

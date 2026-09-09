@@ -1,4 +1,4 @@
-*** copy groupByKey.md ***
+***  groupByKey.md ***
 
 Your code is almost perfect for implementing the `groupBy` function using JavaScript's `reduce` method. This function groups the objects in an array by the specified key, which in your case is the `age` property. Here's a breakdown and clarification of your code:
 

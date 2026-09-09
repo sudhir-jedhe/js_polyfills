@@ -1,4 +1,4 @@
-*** copy React Transitions.md ***
+***  React Transitions.md ***
 
 In React, **Transitions** provide a mechanism to distinguish between **urgent updates** (e.g., typing into an input, clicking a button, dragging a slider) and **non-urgent transition updates** (e.g., filtering a list, switching tabs, rendering a heavy chart).
 

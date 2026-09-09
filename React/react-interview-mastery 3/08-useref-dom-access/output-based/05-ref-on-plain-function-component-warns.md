@@ -1,4 +1,4 @@
-*** copy 05-ref-on-plain-function-component-warns.md ***
+***  05-ref-on-plain-function-component-warns.md ***
 
 # Output-Based: What happens when a `ref` is passed to a plain function component?
 

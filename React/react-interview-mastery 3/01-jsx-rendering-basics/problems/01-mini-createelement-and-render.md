@@ -1,4 +1,4 @@
-*** copy 01-mini-createelement-and-render.md ***
+***  01-mini-createelement-and-render.md ***
 
 # Problem: Implement a Minimal `createElement` + `render`
 

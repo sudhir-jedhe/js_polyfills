@@ -1,4 +1,4 @@
-*** copy How do you combine useOptimistic and useActionState together to handle both instant UI updates and form validation errors?.md ***
+***  How do you combine useOptimistic and useActionState together to handle both instant UI updates and form validation errors?.md ***
 
 Combining **`useOptimistic`** with **`useActionState`** allows you to give users instant visual feedback (like adding an item to a list immediately) while maintaining robust server-side error handling and form validation.
 

@@ -1,4 +1,4 @@
-*** copy What is event.currentTarget.md ***
+***  What is event.currentTarget.md ***
 
 The event.currentTarget is the element on which we attach the event handler explicitly.
 

@@ -1,4 +1,4 @@
-*** copy sparse.md ***
+***  sparse.md ***
 
 ### Understanding Sparse Arrays in JavaScript
 

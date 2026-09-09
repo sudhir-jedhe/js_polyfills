@@ -1,4 +1,4 @@
-*** copy 04-stale-closure-in-interval.md ***
+***  04-stale-closure-in-interval.md ***
 
 # Output-Based: What number does a `setInterval` with an empty-deps effect get stuck at?
 

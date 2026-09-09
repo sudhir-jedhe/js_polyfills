@@ -1,4 +1,4 @@
-*** copy 07-module-script-default-defer-behavior.md ***
+***  07-module-script-default-defer-behavior.md ***
 
 # Output: `type="module"` Script Ordering
 

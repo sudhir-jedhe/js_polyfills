@@ -1,4 +1,4 @@
-*** copy proxy.md ***
+***  proxy.md ***
 
 # Proxy Design Pattern in JavaScript & React
 

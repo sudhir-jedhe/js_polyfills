@@ -1,4 +1,4 @@
-*** copy  annotations in Rollup and Webpack?.md ***
+***   annotations in Rollup and Webpack?.md ***
 
 The architectural difference between `package.json`'s `sideEffects` field and inline `/* @__PURE__ */` annotations lies in **granularity, pipeline stage, and the scope of what gets eliminated**.
 

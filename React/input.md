@@ -1,4 +1,4 @@
-*** copy input.md ***
+***  input.md ***
 
 <https://react.dev/reference/react-dom/components/input>
 

@@ -1,4 +1,4 @@
-*** copy Function Components (modern standard) or Class Components (legacy).md ***
+***  Function Components (modern standard) or Class Components (legacy).md ***
 
 In React, components can be written using either **Function Components** (modern standard) or **Class Components** (legacy).
 

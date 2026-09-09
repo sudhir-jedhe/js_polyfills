@@ -1,4 +1,4 @@
-*** copy 04-prop-drilling-and-alternatives.md ***
+***  04-prop-drilling-and-alternatives.md ***
 
 # Prop Drilling and Its Alternatives
 

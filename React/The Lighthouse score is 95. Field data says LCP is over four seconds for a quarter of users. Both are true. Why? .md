@@ -1,4 +1,4 @@
-*** copy The Lighthouse score is 95. Field data says LCP is over four seconds for a quarter of users. Both are true. Why? .md ***
+***  The Lighthouse score is 95. Field data says LCP is over four seconds for a quarter of users. Both are true. Why? .md ***
 
 Lighthouse measures **synthetic lab conditions** under a clean, controlled profile, while field data (Real User Monitoring / CrUX) records **real-world human sessions across the 75th percentile ($p75$)**.
 

@@ -1,4 +1,4 @@
-*** copy CheckoutStepper.md ***
+***  CheckoutStepper.md ***
 
 Here is a clean, fully functional React `CheckoutStepper` component built with standard React state and Tailwind CSS. It manages step navigation, active states, completion indicators, and step content switching.
 

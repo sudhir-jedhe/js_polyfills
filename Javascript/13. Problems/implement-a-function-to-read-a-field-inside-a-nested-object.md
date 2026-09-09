@@ -1,4 +1,4 @@
-*** copy implement-a-function-to-read-a-field-inside-a-nested-object.md ***
+***  implement-a-function-to-read-a-field-inside-a-nested-object.md ***
 
 ```js
 n this question, you need to implement a function read that takes two parameters:

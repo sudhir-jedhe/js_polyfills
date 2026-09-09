@@ -1,4 +1,4 @@
-*** copy JavaScript Cookies.md ***
+***  JavaScript Cookies.md ***
 
 **HTTP Cookies** are small text files stored directly in the user's browser by websites. In JavaScript, you can create, read, and delete cookies using the **`document.cookie`** string property.
 

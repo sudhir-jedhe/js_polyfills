@@ -1,4 +1,4 @@
-*** copy prototype.constructor.md ***
+***  prototype.constructor.md ***
 
 In JavaScript, extending built-in objects like `Array` with custom methods is possible through the use of `Array.prototype`. However, it's generally discouraged to extend built-in prototypes because it can lead to unexpected behavior, especially when using third-party libraries or interacting with other parts of the code. Nonetheless, here are the solutions to your two examples, where you extend the `Array.prototype` with custom methods.
 

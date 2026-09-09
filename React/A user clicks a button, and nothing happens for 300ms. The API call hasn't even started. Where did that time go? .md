@@ -1,4 +1,4 @@
-*** copy A user clicks a button, and nothing happens for 300ms. The API call hasn't even started. Where did that time go? .md ***
+***  A user clicks a button, and nothing happens for 300ms. The API call hasn't even started. Where did that time go? .md ***
 
 When 300ms elapses between a user click and the network request leaving the browser, the time is typically lost in **input latency, main-thread blocking, synthetic event overhead, or pre-flight JavaScript execution**.
 

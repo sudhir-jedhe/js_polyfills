@@ -1,4 +1,4 @@
-*** copy 02-dom-access-and-timing.md ***
+***  02-dom-access-and-timing.md ***
 
 # Interview Q&A: DOM Access & Commit Timing
 

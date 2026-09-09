@@ -1,4 +1,4 @@
-*** copy domTravesal.md ***
+***  domTravesal.md ***
 
 # DOM Traversal in JavaScript
 

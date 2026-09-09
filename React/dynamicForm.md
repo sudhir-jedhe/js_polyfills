@@ -1,4 +1,4 @@
-*** copy dynamicForm.md ***
+***  dynamicForm.md ***
 
 Here is a complete, lightweight dynamic form engine built in pure React without any third-party dependencies.
 

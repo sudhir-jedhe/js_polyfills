@@ -1,4 +1,4 @@
-*** copy search-with-autosuggestion.md ***
+***  search-with-autosuggestion.md ***
 
 The problem statement reads as:
 

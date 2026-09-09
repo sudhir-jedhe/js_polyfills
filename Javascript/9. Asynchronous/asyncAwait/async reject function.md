@@ -1,4 +1,4 @@
-*** copy async reject function.md ***
+***  async reject function.md ***
 
 Implement async reject function in JavaScript
 Posted on April 2, 2024 | by Prashant Yadav

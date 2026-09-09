@@ -1,4 +1,4 @@
-*** copy iterator.md ***
+***  iterator.md ***
 
 Under the hood, the **array spread syntax** (`[...iterable]`) and **function argument spread** (`fn(...iterable)`) do not rely on standard `for` loops or object keys. Instead, they rely entirely on the **JavaScript Iteration Protocol**.
 

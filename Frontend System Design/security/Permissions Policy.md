@@ -1,4 +1,4 @@
-*** copy Permissions Policy.md ***
+***  Permissions Policy.md ***
 
 In Front-End System Design, **Permissions Policy** (formerly known as **Feature Policy**) is a browser security standard that gives you granular control over which browser features, hardware APIs, and iframe capabilities your application—and any embedded third-party scripts or iframes—are allowed to access.
 

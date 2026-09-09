@@ -1,4 +1,4 @@
-*** copy parse-float-with-two-decimal-places.md ***
+***  parse-float-with-two-decimal-places.md ***
 
 ```js
 let num1 = parseFloat("10.547892");

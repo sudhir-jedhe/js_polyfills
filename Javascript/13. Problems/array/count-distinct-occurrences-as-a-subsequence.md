@@ -1,4 +1,4 @@
-*** copy count-distinct-occurrences-as-a-subsequence.md ***
+***  count-distinct-occurrences-as-a-subsequence.md ***
 
 ```js
 function countSeq(str, seq) {

@@ -1,4 +1,4 @@
-*** copy cancellable.md ***
+***  cancellable.md ***
 
 The `cancellable` function you are trying to implement works with generator functions that yield promises. The goal is to allow you to cancel long-running asynchronous operations, interrupting their progress if needed.
 

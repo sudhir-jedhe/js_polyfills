@@ -1,4 +1,4 @@
-*** copy 06-stable-keys-dont-prevent-rerenders.md ***
+***  06-stable-keys-dont-prevent-rerenders.md ***
 
 # Output-Based: Do `Card` components re-render when a new array reference has the same items in the same order?
 

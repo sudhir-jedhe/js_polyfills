@@ -1,4 +1,4 @@
-*** copy 03-heading-level-skip-behavior.md ***
+***  03-heading-level-skip-behavior.md ***
 
 # Output: What Happens When a Heading Level Is Skipped?
 

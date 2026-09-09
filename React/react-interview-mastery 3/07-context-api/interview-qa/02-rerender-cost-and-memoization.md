@@ -1,4 +1,4 @@
-*** copy 02-rerender-cost-and-memoization.md ***
+***  02-rerender-cost-and-memoization.md ***
 
 # Interview Q&A: The Re-render Cost & Memoization
 

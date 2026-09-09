@@ -1,4 +1,4 @@
-*** copy AGENTS.md ***
+***  AGENTS.md ***
 
 # SpecForge Agent Guide
 

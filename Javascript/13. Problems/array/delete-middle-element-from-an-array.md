@@ -1,4 +1,4 @@
-*** copy delete-middle-element-from-an-array.md ***
+***  delete-middle-element-from-an-array.md ***
 
 ```js
 // Input array

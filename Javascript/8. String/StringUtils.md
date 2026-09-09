@@ -1,4 +1,4 @@
-*** copy StringUtils.md ***
+***  StringUtils.md ***
 
 Here is a complete, production-ready **`StringUtils`** library written in TypeScript.
 

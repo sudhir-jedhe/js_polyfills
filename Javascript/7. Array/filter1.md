@@ -1,4 +1,4 @@
-*** copy filter1.md ***
+***  filter1.md ***
 
 The various examples and solutions you've shared cover a range of array manipulation tasks, from implementing custom `filter` methods to handling scenarios such as finding values, removing duplicates, and filtering based on specific conditions. Let’s break down and highlight the key points of these examples and what they are solving:
 

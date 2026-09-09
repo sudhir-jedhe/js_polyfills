@@ -1,4 +1,4 @@
-*** copy How do I implement accessible focus-trapping and keyboard navigation for mini-sidebar hover flyouts?.md ***
+***  How do I implement accessible focus-trapping and keyboard navigation for mini-sidebar hover flyouts?.md ***
 
 To make hover flyouts fully accessible, they must operate like standard menus following the **WAI-ARIA Menu/Menubar Design Pattern**:
 

@@ -1,4 +1,4 @@
-*** copy sortAscendingByDate.md ***
+***  sortAscendingByDate.md ***
 
 ```js
 export const sortAscendingByDate = (array) => {

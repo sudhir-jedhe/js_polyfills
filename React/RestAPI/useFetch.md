@@ -1,4 +1,4 @@
-*** copy useFetch.md ***
+***  useFetch.md ***
 
 Here is a complete, production-ready implementation of a custom `useFetch` hook in React featuring an in-memory cache, loading/error states, manual refetching, and cleanup via `AbortController`.
 

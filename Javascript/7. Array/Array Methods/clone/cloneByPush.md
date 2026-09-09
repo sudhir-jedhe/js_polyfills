@@ -1,4 +1,4 @@
-*** copy cloneByPush.md ***
+***  cloneByPush.md ***
 
 ### Clone Array Using `push()`
 

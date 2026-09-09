@@ -1,4 +1,4 @@
-*** copy find-non-duplicate-number-in-an-array.md ***
+***  find-non-duplicate-number-in-an-array.md ***
 
 ```js
 const singleNumber = (nums) => {

@@ -1,4 +1,4 @@
-*** copy Why does React recommend against mutating state?.md ***
+***  Why does React recommend against mutating state?.md ***
 
 React recommends against mutating state directly because **React relies on immutable state changes to detect updates, trigger re-renders correctly, and manage time-travel debugging.**
 

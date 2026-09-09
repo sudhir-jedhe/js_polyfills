@@ -1,4 +1,4 @@
-*** copy reduceRight.md ***
+***  reduceRight.md ***
 
 In your code, you're using the `reduceRight` method to iterate through an array from **right to left** instead of the typical left to right (`reduce`). This is useful when you need to process the array in reverse order.
 

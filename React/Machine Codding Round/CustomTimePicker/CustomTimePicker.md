@@ -1,4 +1,4 @@
-*** copy CustomTimePicker.md ***
+***  CustomTimePicker.md ***
 
 1. Real-Time Time Input Validation
 

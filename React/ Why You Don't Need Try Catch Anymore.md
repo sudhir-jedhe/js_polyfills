@@ -1,4 +1,4 @@
-*** copy  Why You Don't Need Try Catch Anymore.md ***
+***   Why You Don't Need Try Catch Anymore.md ***
 
 The phrase **"Why You Don't Need Try/Catch Anymore"** refers to a growing shift in modern JavaScript, TypeScript, and backend architectures away from nested `try/catch` blocks in favor of **Result types**, **tuple-based error handling** (Go-style), and declarative error-handling primitives.
 

@@ -1,4 +1,4 @@
-*** copy percentile-of-matches.md ***
+***  percentile-of-matches.md ***
 
 To calculate the percentile of a given value in an array, we need to determine the percentage of values in the array that are less than or equal to the given value, while accounting for repeated occurrences of the value.
 

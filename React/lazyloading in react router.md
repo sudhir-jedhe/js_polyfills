@@ -1,4 +1,4 @@
-*** copy lazyloading in react router.md ***
+***  lazyloading in react router.md ***
 
 Lazy loading in React Router 6.4 is a way to load components only when they are needed (i.e., when the user navigates to a specific route). This can significantly improve the initial loading time of your application by reducing the amount of JavaScript needed at the start.
 

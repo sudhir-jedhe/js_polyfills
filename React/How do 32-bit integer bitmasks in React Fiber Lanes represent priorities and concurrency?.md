@@ -1,4 +1,4 @@
-*** copy How do 32-bit integer bitmasks in React Fiber Lanes represent priorities and concurrency?.md ***
+***  How do 32-bit integer bitmasks in React Fiber Lanes represent priorities and concurrency?.md ***
 
 React Fiber represents priority and concurrent task groups using **31-bit integer bitmasks** (JavaScript treats bitwise operands as 32-bit signed integers; React reserves 31 bits to avoid sign-bit pitfalls).
 

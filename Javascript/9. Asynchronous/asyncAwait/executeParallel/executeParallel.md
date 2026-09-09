@@ -1,4 +1,4 @@
-*** copy executeParallel.md ***
+***  executeParallel.md ***
 
 ### Problem Statement: 
 You need to implement a function in JavaScript that takes a list of asynchronous tasks and executes them **in parallel**. After each task finishes, a callback should be invoked with the result of that task. You can expect each task to be a function that returns a promise, and these tasks should be executed concurrently. The function should handle both successful results and errors, and return the results in the order the tasks were provided, not the order they finished.

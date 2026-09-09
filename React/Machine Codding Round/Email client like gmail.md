@@ -1,4 +1,4 @@
-*** copy Email client like gmail.md ***
+***  Email client like gmail.md ***
 
 A full-stack, responsive Email Client application architecture (Gmail clone) has been created and saved as a skill (email-client).What's Included:Full-Stack Architecture: MongoDB Mongoose schemas (User, Email), REST API controller routes with full text searching, and Socket.io setup for real-time inbox sync.Interactive React Prototype Component:Folders & Labels: Easily switch between Inbox, Starred, Sent, Drafts, Trash, and colored tags (Work, Personal, Finance, Urgent).Read/Unread Sync: Clicking an email marks it as read and displays the message body side-by-side in a split-pane view.Floating Compose Modal: Allows sending rich email messages dynamically.Search Bar: Live keyword filtering across subject lines, body snippets, and senders. email-client Full-stack MERN email client (Gmail clone) with inbox, compose, star, label filters, search, and socket.io real-time notifications.
 Instructions

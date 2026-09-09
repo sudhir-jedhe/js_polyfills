@@ -1,4 +1,4 @@
-*** copy 03-plain-script-dom-not-yet-parsed.md ***
+***  03-plain-script-dom-not-yet-parsed.md ***
 
 # Output: Plain `<script>` Querying an Element Declared After It
 

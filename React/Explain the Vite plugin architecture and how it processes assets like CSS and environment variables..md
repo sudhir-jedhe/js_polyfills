@@ -1,4 +1,4 @@
-*** copy Explain the Vite plugin architecture and how it processes assets like CSS and environment variables..md ***
+***  Explain the Vite plugin architecture and how it processes assets like CSS and environment variables..md ***
 
 ### 1. Vite Plugin Architecture
 

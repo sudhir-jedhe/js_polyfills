@@ -1,4 +1,4 @@
-*** copy k_th_Largest_Sum_Contiguous_Subarray.md ***
+***  k_th_Largest_Sum_Contiguous_Subarray.md ***
 
 ```js
 /*

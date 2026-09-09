@@ -1,4 +1,4 @@
-*** copy Building a reusable design system.md ***
+***  Building a reusable design system.md ***
 
 Building a reusable design system and component library in React requires a solid architecture focused on consistency, accessibility, and scalability. Below is a complete blueprint and implementation guide for building a professional React component library.
 

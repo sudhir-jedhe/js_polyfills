@@ -1,4 +1,4 @@
-*** copy Global property deletion vs declared variable deletion.md ***
+***  Global property deletion vs declared variable deletion.md ***
 
 The difference comes down to the **`configurable`** attribute in the underlying ECMAScript property descriptor: **`var` declarations create non-configurable properties**, while **implicit assignments create standard configurable properties**.
 

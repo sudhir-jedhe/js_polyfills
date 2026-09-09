@@ -1,4 +1,4 @@
-*** copy What are stateless components.md ***
+***  What are stateless components.md ***
 
 Stateless components in React are components that do not manage or hold any internal state. They simply receive data via props and render UI based on that data. These components are often functional components and are used for presentational purposes.
 

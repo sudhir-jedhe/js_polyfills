@@ -1,4 +1,4 @@
-*** copy Compound Component Pattern.md ***
+***  Compound Component Pattern.md ***
 
 # Compound Component Pattern in React
 

@@ -1,4 +1,4 @@
-*** copy Show how to implement a selector-based React Context using useSyncExternalStore and subscription listeners..md ***
+***  Show how to implement a selector-based React Context using useSyncExternalStore and subscription listeners..md ***
 
 This pattern combines the dependency-injection benefits of **React Context** with the fine-grained performance of **`useSyncExternalStore`**. Context provides the store instance to the component subtree, while `useSyncExternalStore` subscribes directly to selected state slices, completely bypassing React Context's default whole-tree re-render penalty.
 

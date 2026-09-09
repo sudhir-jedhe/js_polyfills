@@ -1,4 +1,4 @@
-*** copy index.md ***
+***  index.md ***
 
 const container = document.querySelector('.post-container');
 const loader = document.querySelector('.loader');

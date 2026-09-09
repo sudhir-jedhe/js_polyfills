@@ -1,4 +1,4 @@
-*** copy get-the-last-item-of-javascript-object.md ***
+***  get-the-last-item-of-javascript-object.md ***
 
 ```js
 let Obj = {

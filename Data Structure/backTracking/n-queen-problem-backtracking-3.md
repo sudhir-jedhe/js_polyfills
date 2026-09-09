@@ -1,4 +1,4 @@
-*** copy n-queen-problem-backtracking-3.md ***
+***  n-queen-problem-backtracking-3.md ***
 
 // JavaScript program to solve N Queen
 // Problem using backtracking

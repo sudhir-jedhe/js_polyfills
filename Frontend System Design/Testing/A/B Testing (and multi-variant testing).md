@@ -1,4 +1,4 @@
-*** copy B Testing (and multi-variant testing).md ***
+***  B Testing (and multi-variant testing).md ***
 
 In Front-End System Design, **A/B Testing** (and multi-variant testing) is an architectural strategy for systematically serving two or more variations of a user interface (Variant $A$ / Control vs. Variant $B$ / Experiment) to different segments of live users to measure the impact on key business metrics (conversions, click-through rates, retention, or Core Web Vitals).
 

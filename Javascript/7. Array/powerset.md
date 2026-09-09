@@ -1,4 +1,4 @@
-*** copy powerset.md ***
+***  powerset.md ***
 
 The function `powerset` that you’ve provided generates the **power set** of a given array. A power set is the set of all subsets of a set, including the empty set and the set itself.
 

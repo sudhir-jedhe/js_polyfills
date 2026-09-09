@@ -1,4 +1,4 @@
-*** copy  5 rendering patterns for websites How they work benifits and limitation.md ***
+***   5 rendering patterns for websites How they work benifits and limitation.md ***
 
 Here are the 5 core rendering patterns used in modern web development, detailing how each works, its advantages, and its trade-offs.
 

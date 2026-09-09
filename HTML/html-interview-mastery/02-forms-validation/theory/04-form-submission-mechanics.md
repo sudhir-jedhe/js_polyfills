@@ -1,4 +1,4 @@
-*** copy 04-form-submission-mechanics.md ***
+***  04-form-submission-mechanics.md ***
 
 # Form Submission Mechanics: GET vs. POST, enctype, FormData
 

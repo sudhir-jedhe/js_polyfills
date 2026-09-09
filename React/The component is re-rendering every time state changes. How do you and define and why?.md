@@ -1,4 +1,4 @@
-*** copy The component is re-rendering every time state changes. How do you and define and why?.md ***
+***  The component is re-rendering every time state changes. How do you and define and why?.md ***
 
 When a component re-renders every time its state changes, **this is actually the default and intended behavior of React**.
 

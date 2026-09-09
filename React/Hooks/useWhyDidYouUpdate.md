@@ -1,4 +1,4 @@
-*** copy useWhyDidYouUpdate.md ***
+***  useWhyDidYouUpdate.md ***
 
 // Avoiding pointless re-renders is one way to accomplish performance optimization in React, and in order to track this, we must keep an eye on what has changed in the component’s props or states.
 

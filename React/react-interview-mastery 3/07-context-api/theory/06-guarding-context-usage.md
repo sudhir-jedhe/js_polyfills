@@ -1,4 +1,4 @@
-*** copy 06-guarding-context-usage.md ***
+***  06-guarding-context-usage.md ***
 
 # Guarding against "used outside its Provider"
 

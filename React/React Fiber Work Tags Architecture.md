@@ -1,4 +1,4 @@
-*** copy React Fiber Work Tags Architecture.md ***
+***  React Fiber Work Tags Architecture.md ***
 
 The `fiber.tag` property is a fundamental optimization in the React Fiber reconciler architecture.
 

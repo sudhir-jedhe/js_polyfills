@@ -1,4 +1,4 @@
-*** copy Find_all_Strings_that_Match_Specific_Pattern_in_a_Dictionary'.md ***
+***  Find_all_Strings_that_Match_Specific_Pattern_in_a_Dictionary'.md ***
 
 ```js
 /**

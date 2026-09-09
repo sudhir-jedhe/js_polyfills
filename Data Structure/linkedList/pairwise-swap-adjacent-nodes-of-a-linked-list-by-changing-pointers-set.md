@@ -1,4 +1,4 @@
-*** copy pairwise-swap-adjacent-nodes-of-a-linked-list-by-changing-pointers-set.md ***
+***  pairwise-swap-adjacent-nodes-of-a-linked-list-by-changing-pointers-set.md ***
 
 // Input : 1->2->3->4->5->6->7
 // Output : 2->1->4->3->6->5->7,

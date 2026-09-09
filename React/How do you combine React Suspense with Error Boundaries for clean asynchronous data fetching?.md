@@ -1,4 +1,4 @@
-*** copy How do you combine React Suspense with Error Boundaries for clean asynchronous data fetching?.md ***
+***  How do you combine React Suspense with Error Boundaries for clean asynchronous data fetching?.md ***
 
 Combining **React Suspense** with **Error Boundaries** creates a clean, declarative paradigm for asynchronous data fetching often called the **"Suspense Fallback Pattern"**.
 

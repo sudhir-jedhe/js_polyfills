@@ -1,4 +1,4 @@
-*** copy  React 19 native style element hoisting.md ***
+***   React 19 native style element hoisting.md ***
 
 In React 19, native **Document Metadata & Resource Hoisting** allows you to declare `<style>` and `<link rel="stylesheet">` elements directly inside the component that needs them.
 

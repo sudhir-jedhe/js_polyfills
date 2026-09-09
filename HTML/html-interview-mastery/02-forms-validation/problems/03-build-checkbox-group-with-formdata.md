@@ -1,4 +1,4 @@
-*** copy 03-build-checkbox-group-with-formdata.md ***
+***  03-build-checkbox-group-with-formdata.md ***
 
 # Problem: Build a Multi-Select Checkbox Group and Read It via `FormData`
 

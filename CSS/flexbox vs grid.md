@@ -1,4 +1,4 @@
-*** copy flexbox vs grid.md ***
+***  flexbox vs grid.md ***
 
 Both **Flexbox** and **CSS Grid** are powerful layout modules in CSS, but they are designed for different use cases.
 

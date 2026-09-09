@@ -1,4 +1,4 @@
-*** copy child props.md ***
+***  child props.md ***
 
 ### What are Child Props in React?
 

@@ -1,4 +1,4 @@
-*** copy json and object manipulation.md ***
+***  json and object manipulation.md ***
 
 Here's the code for the given tasks:
 

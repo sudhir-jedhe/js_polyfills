@@ -1,4 +1,4 @@
-*** copy getTimeLeft.md ***
+***  getTimeLeft.md ***
 
 ```js
 export const getTimeLeft = (years, months) => {

@@ -1,4 +1,4 @@
-*** copy containerWithMaxWater.md ***
+***  containerWithMaxWater.md ***
 
 function maxArea(height) {
     let maxArea = 0;

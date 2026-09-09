@@ -1,4 +1,4 @@
-*** copy proxy-array-negative-index.md ***
+***  proxy-array-negative-index.md ***
 
 The concept you're discussing is to enable negative index access on JavaScript arrays. JavaScript does not natively support negative indices like Python, but using a `Proxy` object, we can intercept access to array elements and modify the behavior to handle negative indices. 
 

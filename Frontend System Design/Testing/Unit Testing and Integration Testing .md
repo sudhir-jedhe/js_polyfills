@@ -1,4 +1,4 @@
-*** copy Unit Testing and Integration Testing .md ***
+***  Unit Testing and Integration Testing .md ***
 
 In **Front-End System Design**, Unit Testing and Integration Testing represent the two core foundation layers of application reliability. As front-end applications grow into complex, stateful systems, these testing strategies ensure that business logic remains deterministic and user interfaces behave correctly when components interact.
 

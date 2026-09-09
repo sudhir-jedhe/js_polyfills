@@ -1,4 +1,4 @@
-*** copy findDifference.md ***
+***  findDifference.md ***
 
 ```js
 function findTheDifference(s: string, t: string): string {

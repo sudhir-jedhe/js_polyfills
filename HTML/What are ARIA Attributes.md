@@ -1,4 +1,4 @@
-*** copy What are ARIA Attributes.md ***
+***  What are ARIA Attributes.md ***
 
 In JavaScript, ARIA (Accessible Rich Internet Applications) attributes play a crucial role in enhancing the accessibility of web applications. These attributes help make dynamic content and complex user interface elements accessible to people with disabilities, particularly those who rely on assistive technologies like screen readers.
 

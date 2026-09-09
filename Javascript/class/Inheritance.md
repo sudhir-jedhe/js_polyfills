@@ -1,4 +1,4 @@
-*** copy Inheritance.md ***
+***  Inheritance.md ***
 
 Let's break down the provided code and understand the inheritance behavior in JavaScript:
 

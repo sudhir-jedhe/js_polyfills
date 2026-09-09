@@ -1,4 +1,4 @@
-*** copy sudukuSolver.md ***
+***  sudukuSolver.md ***
 
 ```js
 function solveSudoku(board) {

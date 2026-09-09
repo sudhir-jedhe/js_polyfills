@@ -1,4 +1,4 @@
-*** copy How do you configure the no-shadow and no-shadow-restricted-names ESLint rules in large codebases?.md ***
+***  How do you configure the no-shadow and no-shadow-restricted-names ESLint rules in large codebases?.md ***
 
 In large codebases, configuring variable shadowing rules prevents subtle bugs (like accidentally hiding outer helper functions, global objects, or state variables) while avoiding false positives on common patterns such as enum names, type parameters, and standard callback arguments.
 

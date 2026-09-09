@@ -1,4 +1,4 @@
-*** copy index.md ***
+***  index.md ***
 
 const balanceAmount = document.getElementById('balance-amount');
 const transactionList = document.getElementById('transaction-list');

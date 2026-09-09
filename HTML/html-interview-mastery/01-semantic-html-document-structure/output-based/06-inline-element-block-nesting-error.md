@@ -1,4 +1,4 @@
-*** copy 06-inline-element-block-nesting-error.md ***
+***  06-inline-element-block-nesting-error.md ***
 
 # Output: Block Element Inside an Inline Element's "Container" Paragraph
 

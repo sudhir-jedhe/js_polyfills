@@ -1,4 +1,4 @@
-*** copy why-did-you-render in a React TypeScript project.md ***
+***  why-did-you-render in a React TypeScript project.md ***
 
 Setting up `@welldone-software/why-did-you-render` (WDYR) in a TypeScript application requires initializing the library before any React code executes and configuring the JSX runtime appropriately.
 

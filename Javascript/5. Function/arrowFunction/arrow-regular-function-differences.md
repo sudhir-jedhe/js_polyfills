@@ -1,4 +1,4 @@
-*** copy arrow-regular-function-differences.md ***
+***  arrow-regular-function-differences.md ***
 
 ### **Arrow Functions vs Normal Functions in JavaScript**
 

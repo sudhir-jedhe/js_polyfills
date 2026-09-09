@@ -1,4 +1,4 @@
-*** copy 03-native-semantics-vs-aria.md ***
+***  03-native-semantics-vs-aria.md ***
 
 # Native Semantics vs. ARIA: "No ARIA Is Better Than Bad ARIA"
 

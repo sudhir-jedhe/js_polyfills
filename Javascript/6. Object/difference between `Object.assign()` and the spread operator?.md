@@ -1,4 +1,4 @@
-*** copy difference between `Object.assign()` and the spread operator?.md ***
+***  difference between `Object.assign()` and the spread operator?.md ***
 
 Both **`Object.assign()`** and the **spread operator (`...`)** perform shallow copying and merging of objects in JavaScript. While they achieve similar results in many everyday scenarios, they have important structural, functional, and engine-level differences.
 

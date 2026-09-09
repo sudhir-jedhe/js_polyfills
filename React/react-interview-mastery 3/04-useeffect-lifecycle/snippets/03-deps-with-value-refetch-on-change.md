@@ -1,4 +1,4 @@
-*** copy 03-deps-with-value-refetch-on-change.md ***
+***  03-deps-with-value-refetch-on-change.md ***
 
 # Dependency Array With a Value — Re-Runs Only When That Value Changes
 

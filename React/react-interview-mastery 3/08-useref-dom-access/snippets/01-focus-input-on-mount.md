@@ -1,4 +1,4 @@
-*** copy 01-focus-input-on-mount.md ***
+***  01-focus-input-on-mount.md ***
 
 # Snippet: Focusing an input on mount
 

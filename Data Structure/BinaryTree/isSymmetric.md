@@ -1,4 +1,4 @@
-*** copy isSymmetric.md ***
+***  isSymmetric.md ***
 
 /**
  * Definition for a binary tree node.

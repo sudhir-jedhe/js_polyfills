@@ -1,4 +1,4 @@
-*** copy 03-child-mutates-shared-object-reference.md ***
+***  03-child-mutates-shared-object-reference.md ***
 
 # What Does the Console Show?
 

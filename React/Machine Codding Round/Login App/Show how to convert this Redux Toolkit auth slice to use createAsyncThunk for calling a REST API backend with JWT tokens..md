@@ -1,4 +1,4 @@
-*** copy Show how to convert this Redux Toolkit auth slice to use createAsyncThunk for calling a REST API backend with JWT tokens..md ***
+***  Show how to convert this Redux Toolkit auth slice to use createAsyncThunk for calling a REST API backend with JWT tokens..md ***
 
 Here is how to convert a synchronous Redux Toolkit authentication slice into an asynchronous flow using **`createAsyncThunk`**.
 

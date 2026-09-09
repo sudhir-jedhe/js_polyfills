@@ -1,4 +1,4 @@
-*** copy run-promises-in-series.md ***
+***  run-promises-in-series.md ***
 
 Run JavaScript promises in series
 

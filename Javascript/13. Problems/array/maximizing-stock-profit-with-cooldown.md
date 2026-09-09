@@ -1,4 +1,4 @@
-*** copy maximizing-stock-profit-with-cooldown.md ***
+***  maximizing-stock-profit-with-cooldown.md ***
 
 ```js
 // Given the prices of stock for n number of days. Every ith day tell the price of the stock on that day.

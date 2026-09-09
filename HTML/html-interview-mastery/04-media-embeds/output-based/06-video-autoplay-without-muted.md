@@ -1,4 +1,4 @@
-*** copy 06-video-autoplay-without-muted.md ***
+***  06-video-autoplay-without-muted.md ***
 
 # Output: `autoplay` Without `muted`
 

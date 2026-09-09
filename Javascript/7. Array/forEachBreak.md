@@ -1,4 +1,4 @@
-*** copy forEachBreak.md ***
+***  forEachBreak.md ***
 
 The reason **`forEach`** doesn't support an easy **`break`** is due to how JavaScript functions like `forEach` are designed to work. Unlike traditional loops (like `for`, `while`), `forEach` doesn't allow control flow keywords like `break` or `continue`. Here's an explanation of why this is the case:
 

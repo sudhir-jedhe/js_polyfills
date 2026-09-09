@@ -1,4 +1,4 @@
-*** copy getDomain.md ***
+***  getDomain.md ***
 
 ```js
 getDomain("https://www.google.com/"); // Output: 'google.com'

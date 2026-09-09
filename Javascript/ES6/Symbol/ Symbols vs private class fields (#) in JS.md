@@ -1,4 +1,4 @@
-*** copy  Symbols vs private class fields (#) in JS.md ***
+***   Symbols vs private class fields (#) in JS.md ***
 
 While both **Symbols** and **Private Class Fields (`#`)** can hide implementation details on an object, they serve completely different purposes in JavaScript: **Symbols provide non-colliding property keys with weak encapsulation (obscurity)**, whereas **Private Class Fields (`#`) provide true hard privacy enforced at the language syntax and engine level**.
 

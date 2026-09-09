@@ -1,4 +1,4 @@
-*** copy http reposnse.md ***
+***  http reposnse.md ***
 
 An **HTTP (Hypertext Transfer Protocol) Response** is the message sent back by a web server to a client (such as a browser, mobile app, or backend service) in reply to an HTTP request. It tells the client whether the request succeeded, provides the requested data or web page, or explains why an error occurred.
 

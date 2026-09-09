@@ -1,4 +1,4 @@
-*** copy Explain how the React 19 Compiler automates memoization and replaces React.memo, useMemo, and useCallback.md ***
+***  Explain how the React 19 Compiler automates memoization and replaces React.memo, useMemo, and useCallback.md ***
 
 The **React Compiler** (formerly known as *Auto-Memo* or *Forget*) shifts performance optimization from a **manual runtime burden** on developers to an **automated build-time transformation**.
 

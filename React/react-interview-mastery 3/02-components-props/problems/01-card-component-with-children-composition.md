@@ -1,4 +1,4 @@
-*** copy 01-card-component-with-children-composition.md ***
+***  01-card-component-with-children-composition.md ***
 
 # Problem: Build a Reusable `<Card>` Component With Header/Body/Footer Slots
 

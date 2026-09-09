@@ -1,4 +1,4 @@
-*** copy Like Button component.md ***
+***  Like Button component.md ***
 
 An interactive, accessible React Like Button component with toggle animation, live counter, and optimistic updates.
 

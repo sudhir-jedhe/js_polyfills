@@ -1,4 +1,4 @@
-*** copy Multi Step Form .md ***
+***  Multi Step Form .md ***
 
 An accessible, production-ready React Multi-Step Form with step-by-step state preservation, per-step field validation, and an interactive progress indicator.
 

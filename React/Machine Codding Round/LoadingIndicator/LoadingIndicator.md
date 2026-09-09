@@ -1,4 +1,4 @@
-*** copy LoadingIndicator.md ***
+***  LoadingIndicator.md ***
 
 ```js
 import "./LoadingIndicator.css";

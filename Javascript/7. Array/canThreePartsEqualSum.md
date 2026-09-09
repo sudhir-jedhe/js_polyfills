@@ -1,4 +1,4 @@
-*** copy canThreePartsEqualSum.md ***
+***  canThreePartsEqualSum.md ***
 
 ```
 export function canThreePartsEqualSum(arr) {

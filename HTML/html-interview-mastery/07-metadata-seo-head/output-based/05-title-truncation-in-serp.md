@@ -1,4 +1,4 @@
-*** copy 05-title-truncation-in-serp.md ***
+***  05-title-truncation-in-serp.md ***
 
 # Output: A `<title>` That's Too Long for the SERP
 

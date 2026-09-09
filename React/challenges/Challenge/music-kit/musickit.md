@@ -1,4 +1,4 @@
-*** copy musickit.md ***
+***  musickit.md ***
 
 import tom1 from './sounds/tom-1.mp3';
 import tom2 from './sounds/tom-2.mp3';

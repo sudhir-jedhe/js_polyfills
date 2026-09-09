@@ -1,4 +1,4 @@
-*** copy find-all-item-with-data-type-number.md ***
+***  find-all-item-with-data-type-number.md ***
 
 In the provided code snippet, there is a slight issue with the `isNumber` function. It only returns `true` explicitly when the type of `value` is `"number"`. Otherwise, it implicitly returns `undefined`. While this works in practice for filtering, it's better to explicitly handle the `false` case to improve code readability and consistency.
 

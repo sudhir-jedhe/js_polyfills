@@ -1,4 +1,4 @@
-*** copy 07-toggle-boolean-with-functional-form.md ***
+***  07-toggle-boolean-with-functional-form.md ***
 
 # Toggling Boolean State With the Functional Form (Avoids Stale Closures in Rapid Toggles)
 

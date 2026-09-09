@@ -1,4 +1,4 @@
-*** copy index.md ***
+***  index.md ***
 
 import { generateFlex, generateGrid, getGridState, hasSameValuesContinously } from './helper.js';
 

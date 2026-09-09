@@ -1,4 +1,4 @@
-*** copy lcm.md ***
+***  lcm.md ***
 
 ```js
 let lcm = (n1, n2) => {

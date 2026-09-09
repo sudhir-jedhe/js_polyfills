@@ -1,4 +1,4 @@
-*** copy constructor.md ***
+***  constructor.md ***
 
 
 # Creating Arrays in JavaScript

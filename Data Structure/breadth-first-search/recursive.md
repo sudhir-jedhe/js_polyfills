@@ -1,4 +1,4 @@
-*** copy recursive.md ***
+***  recursive.md ***
 
 /**
  * @param {Object} graph Node to array of neighboring nodes.

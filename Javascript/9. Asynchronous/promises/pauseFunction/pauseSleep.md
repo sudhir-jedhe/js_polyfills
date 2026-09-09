@@ -1,4 +1,4 @@
-*** copy pauseSleep.md ***
+***  pauseSleep.md ***
 
 Implement a function that pauses for a specified duration before resuming execution
 ```js

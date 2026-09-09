@@ -1,4 +1,4 @@
-*** copy 01-synthetic-event-basic.md ***
+***  01-synthetic-event-basic.md ***
 
 # Snippet: Basic SyntheticEvent usage
 

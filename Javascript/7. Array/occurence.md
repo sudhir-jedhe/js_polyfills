@@ -1,4 +1,4 @@
-*** copy occurence.md ***
+***  occurence.md ***
 
 The `countOccurrences` function is a great way to count how many times each element appears in an array. There are a few variations of this function, which differ in their implementation approach, but all essentially do the same thing: count the frequency of each element.
 

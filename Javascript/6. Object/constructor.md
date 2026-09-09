@@ -1,4 +1,4 @@
-*** copy constructor.md ***
+***  constructor.md ***
 
 ### Explanation of Constructor Behavior in JavaScript Classes
 

@@ -1,4 +1,4 @@
-*** copy GitHub Actions.md ***
+***  GitHub Actions.md ***
 
 GitHub Actions is a powerful tool for automating software workflows. It allows you to implement CI/CD pipelines directly in your GitHub repository. Here's an overview of how you can use GitHub Actions for continuous integration and continuous deployment (CI/CD):
 

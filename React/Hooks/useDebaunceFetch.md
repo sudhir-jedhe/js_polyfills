@@ -1,4 +1,4 @@
-*** copy useDebaunceFetch.md ***
+***  useDebaunceFetch.md ***
 
 Here is a custom React hook `useDebouncedFetch` that packages debouncing, `AbortController` cancellation, state management (`data`, `loading`, `error`), and automatic unmount cleanup.
 

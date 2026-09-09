@@ -1,4 +1,4 @@
-*** copy What is the significance of the React Fiber architecture?.md ***
+***  What is the significance of the React Fiber architecture?.md ***
 
 This question is asked a lot in Interviews. Let us try to answer it briefly.
 

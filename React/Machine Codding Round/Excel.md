@@ -1,4 +1,4 @@
-*** copy Excel.md ***
+***  Excel.md ***
 
 The Excel App skill has been created and saved as excel-app.
 

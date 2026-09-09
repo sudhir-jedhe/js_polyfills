@@ -1,4 +1,4 @@
-*** copy throttle-Promises.md ***
+***  throttle-Promises.md ***
 
 ### Throttling Promises
 

@@ -1,4 +1,4 @@
-*** copy 01-images-picture-qa.md ***
+***  01-images-picture-qa.md ***
 
 # Interview Q&A — Images & `<picture>`
 

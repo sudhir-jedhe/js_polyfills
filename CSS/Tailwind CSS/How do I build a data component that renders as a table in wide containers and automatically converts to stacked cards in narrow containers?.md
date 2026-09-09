@@ -1,4 +1,4 @@
-*** copy How do I build a data component that renders as a table in wide containers and automatically converts to stacked cards in narrow containers?.md ***
+***  How do I build a data component that renders as a table in wide containers and automatically converts to stacked cards in narrow containers?.md ***
 
 To build an adaptive data view that renders as a structured tabular layout in wide containers and collapses into stacked key-value cards in narrow containers, combine `@container` on the wrapper with CSS `display` overrides on standard HTML table elements (`block`, `grid`, and `table-cell`).
 

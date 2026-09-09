@@ -1,4 +1,4 @@
-*** copy Find All Divisors of a Number.md ***
+***  Find All Divisors of a Number.md ***
 
 ### Analyzing the Code and Outputs
 

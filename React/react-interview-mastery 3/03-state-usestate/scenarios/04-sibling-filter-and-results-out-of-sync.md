@@ -1,4 +1,4 @@
-*** copy 04-sibling-filter-and-results-out-of-sync.md ***
+***  04-sibling-filter-and-results-out-of-sync.md ***
 
 # Two Sibling Components (a Filter Sidebar and a Results List) Get Out of Sync
 

@@ -1,4 +1,4 @@
-*** copy js quiz.md ***
+***  js quiz.md ***
 
 Here are the explanations for the questions you asked:
 

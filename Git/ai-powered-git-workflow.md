@@ -1,4 +1,4 @@
-*** copy ai-powered-git-workflow.md ***
+***  ai-powered-git-workflow.md ***
 
 Integrating Large Language Models (LLMs) like **Gemini, Claude, or Codex** directly into your Git and CI/CD workflows is the cutting edge of Developer Experience (DX). This shows interviewers you are thinking about team scaling, not just writing code.
 

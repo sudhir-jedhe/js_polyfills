@@ -1,4 +1,4 @@
-*** copy What is the purpose of React 18's useInsertionEffect and how does it differ from useLayoutEffect?.md ***
+***  What is the purpose of React 18's useInsertionEffect and how does it differ from useLayoutEffect?.md ***
 
 **`useInsertionEffect`** is a specialized hook introduced in React 18 specifically designed for **runtime CSS-in-JS library authors** (such as Styled-Components or Emotion). Its sole purpose is to inject `<style>` tags or CSS rules into the DOM **before** React reads layout or the browser calculates layout and paints.
 

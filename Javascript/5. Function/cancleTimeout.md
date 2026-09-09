@@ -1,4 +1,4 @@
-*** copy cancleTimeout.md ***
+***  cancleTimeout.md ***
 
 ```js
 function mySetTimeout(callback, delay) {

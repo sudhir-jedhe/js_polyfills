@@ -1,4 +1,4 @@
-*** copy async-array-loops.md ***
+***  async-array-loops.md ***
 
 Asynchronous array loops in JavaScript
 

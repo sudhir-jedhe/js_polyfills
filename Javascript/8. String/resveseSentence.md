@@ -1,4 +1,4 @@
-*** copy resveseSentence.md ***
+***  resveseSentence.md ***
 
 ```js
 export const reverseSentence = (sentence) => {

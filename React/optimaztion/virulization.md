@@ -1,4 +1,4 @@
-*** copy virulization.md ***
+***  virulization.md ***
 
 **Virtualization in React** refers to a technique used to optimize the rendering of large lists or sets of data by rendering only the items that are visible in the viewport (the visible part of the page) and dynamically rendering new items as the user scrolls. This method significantly improves performance by reducing the number of DOM nodes rendered at any given time, making it particularly useful for applications with long lists or large datasets.
 

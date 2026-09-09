@@ -1,4 +1,4 @@
-*** copy 03-fix-duplicate-content-canonical-setup.md ***
+***  03-fix-duplicate-content-canonical-setup.md ***
 
 # Problem: Fix a Broken Canonical Setup Causing Duplicate Content
 

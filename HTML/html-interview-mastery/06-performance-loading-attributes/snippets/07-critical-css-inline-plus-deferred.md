@@ -1,4 +1,4 @@
-*** copy 07-critical-css-inline-plus-deferred.md ***
+***  07-critical-css-inline-plus-deferred.md ***
 
 # Snippet: Inlined Critical CSS + Deferred Non-Critical CSS
 

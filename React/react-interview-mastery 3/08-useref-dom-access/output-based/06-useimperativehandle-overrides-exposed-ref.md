@@ -1,4 +1,4 @@
-*** copy 06-useimperativehandle-overrides-exposed-ref.md ***
+***  06-useimperativehandle-overrides-exposed-ref.md ***
 
 # Output-Based: What does `ref.current` print when the child uses `useImperativeHandle`?
 

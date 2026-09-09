@@ -1,4 +1,4 @@
-*** copy What is a strict mode.md ***
+***  What is a strict mode.md ***
 
 ### Strict Mode in JavaScript
 

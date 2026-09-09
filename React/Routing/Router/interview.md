@@ -1,4 +1,4 @@
-*** copy interview.md ***
+***  interview.md ***
 
 Here is a common scenario-based React Router interview question regarding **Protected Routes**, along with the ideal answer, implementation, and follow-up discussion points.
 

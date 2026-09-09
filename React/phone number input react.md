@@ -1,4 +1,4 @@
-*** copy phone number input react.md ***
+***  phone number input react.md ***
 
 A custom phone number input component in React that formats digits automatically (e.g., `(123) 456-7890`), supports international country codes with flags, strips non-numeric characters, and handles backspacing cleanly without external heavy libraries.
 

@@ -1,4 +1,4 @@
-*** copy Caching.md ***
+***  Caching.md ***
 
 Caching is one of the most effective ways to improve the performance of a website or web application. It reduces the load on servers, minimizes network requests, and improves page load times by storing and reusing previously fetched resources. Caching can be applied at various layers, such as the browser, server, or CDN (Content Delivery Network).
 

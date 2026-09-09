@@ -1,4 +1,4 @@
-*** copy 03-undefined-and-renders-nothing.md ***
+***  03-undefined-and-renders-nothing.md ***
 
 # Output-Based: `isAdmin && <AdminPanel/>` when `isAdmin` is `undefined`
 

@@ -1,4 +1,4 @@
-*** copy interview.md ***
+***  interview.md ***
 
 1. How would you design a Responsive Web Application?
 Responsive design allows a web application to adapt seamlessly to different screen sizes and devices. During this discussion, focus on the following aspects:

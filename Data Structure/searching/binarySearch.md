@@ -1,4 +1,4 @@
-*** copy binarySearch.md ***
+***  binarySearch.md ***
 
 // Iterative function to implement Binary Search
 let iterativeFunction = function (arr, x) {

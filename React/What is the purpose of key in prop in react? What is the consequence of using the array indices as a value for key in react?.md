@@ -1,4 +1,4 @@
-*** copy What is the purpose of key in prop in react? What is the consequence of using the array indices as a value for key in react?.md ***
+***  What is the purpose of key in prop in react? What is the consequence of using the array indices as a value for key in react?.md ***
 
 The **`key`** prop gives elements inside dynamic lists a stable identity. React uses it during **reconciliation** (the Virtual DOM diffing process) to match incoming elements with existing Fiber nodes, determining whether to reuse, reorder, insert, or destroy a DOM node.
 

@@ -1,4 +1,4 @@
-*** copy 05-novalidate-attribute-effect.md ***
+***  05-novalidate-attribute-effect.md ***
 
 # Output: The Effect of `novalidate`
 

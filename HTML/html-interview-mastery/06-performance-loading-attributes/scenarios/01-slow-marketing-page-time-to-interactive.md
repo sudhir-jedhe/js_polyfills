@@ -1,4 +1,4 @@
-*** copy 01-slow-marketing-page-time-to-interactive.md ***
+***  01-slow-marketing-page-time-to-interactive.md ***
 
 # Scenario: Marketing Page With a High "Time to Interactive"
 

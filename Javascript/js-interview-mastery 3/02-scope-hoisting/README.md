@@ -1,4 +1,4 @@
-*** copy README.md ***
+***  README.md ***
 
 # Scope & Hoisting
 

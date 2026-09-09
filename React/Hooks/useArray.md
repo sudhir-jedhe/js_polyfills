@@ -1,4 +1,4 @@
-*** copy useArray.md ***
+***  useArray.md ***
 
 Your `useArray` custom hook implementation is clean, well-typed, and follows React best practices.
 

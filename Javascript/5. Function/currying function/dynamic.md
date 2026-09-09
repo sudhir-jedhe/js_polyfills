@@ -1,4 +1,4 @@
-*** copy dynamic.md ***
+***  dynamic.md ***
 
 **Dynamic Currying Sum** is a classic JavaScript interview question that tests:
 

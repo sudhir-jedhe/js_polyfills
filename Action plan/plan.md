@@ -1,4 +1,4 @@
-*** copy plan.md ***
+***  plan.md ***
 
 To master **JavaScript, React, Node.js, MongoDB, PostgreSQL, TypeScript, and Spring Boot**, the most strategic approach is to group them by ecosystems. Trying to learn JavaScript/TypeScript and Java (Spring Boot) at the exact same time can lead to context-switching fatigue.
 

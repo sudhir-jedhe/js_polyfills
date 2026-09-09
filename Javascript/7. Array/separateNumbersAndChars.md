@@ -1,4 +1,4 @@
-*** copy separateNumbersAndChars.md ***
+***  separateNumbersAndChars.md ***
 
 Here are two common ways to separate numbers and characters (letters) into different arrays in JavaScript, depending on what you want to do with symbols and spaces.
 

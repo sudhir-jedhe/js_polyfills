@@ -1,4 +1,4 @@
-*** copy sort.md ***
+***  sort.md ***
 
 // Topological sort is an algorithm that produces a linear ordering of the
 // vertices of a Directed Acyclic Graph (DAG) such that for every directed edge

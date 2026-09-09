@@ -1,4 +1,4 @@
-*** copy How do you implement a pure React 19 data-fetching pattern without useEffect or external state libraries?.md ***
+***  How do you implement a pure React 19 data-fetching pattern without useEffect or external state libraries?.md ***
 
 In pure React 19, data fetching without `useEffect` or third-party state libraries relies on combining **React Server Components (RSC)**, **Promises**, **`<Suspense>`**, and the new **`use()`** API.
 

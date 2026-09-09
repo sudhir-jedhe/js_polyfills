@@ -1,4 +1,4 @@
-*** copy ontrolled vs uncontrolled components i.md ***
+***  ontrolled vs uncontrolled components i.md ***
 
 In React forms, the primary difference between **controlled** and **uncontrolled** components comes down to **who owns and manages the source of truth for the input's value**:
 

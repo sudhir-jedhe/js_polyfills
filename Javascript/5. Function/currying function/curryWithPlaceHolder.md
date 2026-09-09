@@ -1,4 +1,4 @@
-*** copy curryWithPlaceHolder.md ***
+***  curryWithPlaceHolder.md ***
 
 Both implementations you provided showcase how to implement currying with placeholder support, allowing flexibility in the order of arguments.
 

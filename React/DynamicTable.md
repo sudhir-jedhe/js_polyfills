@@ -1,4 +1,4 @@
-*** copy DynamicTable.md ***
+***  DynamicTable.md ***
 
 # Dynamic Table Generator (React Machine Coding Interview)
 

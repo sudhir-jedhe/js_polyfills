@@ -1,4 +1,4 @@
-*** copy Show a practical example of writing a custom Vite plugin that creates virtual modules and handles custom file transformations.md ***
+***  Show a practical example of writing a custom Vite plugin that creates virtual modules and handles custom file transformations.md ***
 
 Here is a complete, runnable example of a custom Vite plugin that accomplishes two common tasks:
 

@@ -1,4 +1,4 @@
-*** copy array-min-max.md ***
+***  array-min-max.md ***
 
 ```js
 Min & max value of a numeric array

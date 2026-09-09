@@ -1,4 +1,4 @@
-*** copy findMeetingSlotInterval.md ***
+***  findMeetingSlotInterval.md ***
 
 // [start, end] is a time interval, with all integers from 0 to 24.
 

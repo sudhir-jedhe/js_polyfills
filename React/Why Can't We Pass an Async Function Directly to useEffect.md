@@ -1,4 +1,4 @@
-*** copy Why Can't We Pass an Async Function Directly to useEffect.md ***
+***  Why Can't We Pass an Async Function Directly to useEffect.md ***
 
 ### Why Can't We Pass an Async Function Directly to `useEffect`?
 

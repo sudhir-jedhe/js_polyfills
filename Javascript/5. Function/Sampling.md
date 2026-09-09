@@ -1,4 +1,4 @@
-*** copy Sampling.md ***
+***  Sampling.md ***
 
 The code you provided defines a **sampler function** that executes a given function (`fn`) once after a specified number of calls (`count`). Here's a breakdown of the code and how it works:
 

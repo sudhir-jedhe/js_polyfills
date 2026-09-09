@@ -1,4 +1,4 @@
-*** copy spread-rest-syntax.md ***
+***  spread-rest-syntax.md ***
 
 ### **Understanding the Spread Syntax (`...`) and Rest Syntax (`...`) in JavaScript**
 

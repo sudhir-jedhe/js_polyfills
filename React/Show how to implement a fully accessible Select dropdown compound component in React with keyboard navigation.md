@@ -1,4 +1,4 @@
-*** copy Show how to implement a fully accessible Select dropdown compound component in React with keyboard navigation.md ***
+***  Show how to implement a fully accessible Select dropdown compound component in React with keyboard navigation.md ***
 
 Here is a complete, production-ready **Select Dropdown** compound component built in React. It implements strict accessibility standards (**WAI-ARIA Select Pattern**), full keyboard navigation, type-ahead searching, and slot integration (`asChild`).
 

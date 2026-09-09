@@ -1,4 +1,4 @@
-*** copy 02-fix-memo-child-rerendering-with-usecallback.md ***
+***  02-fix-memo-child-rerendering-with-usecallback.md ***
 
 # Problem 2: Fix a `React.memo`'d Child Re-Rendering Because of a New Inline Function Every Render
 

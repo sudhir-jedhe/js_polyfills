@@ -1,4 +1,4 @@
-*** copy in-memory search engine.md ***
+***  in-memory search engine.md ***
 
 ```
 const searchEngine = new InMemorySearch();

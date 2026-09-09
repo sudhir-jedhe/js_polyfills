@@ -1,4 +1,4 @@
-*** copy 01-broken-social-share-preview.md ***
+***  01-broken-social-share-preview.md ***
 
 # Scenario: Links to the Site Show a Blank Preview When Shared on Slack/Twitter
 

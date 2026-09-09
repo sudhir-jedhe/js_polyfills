@@ -1,4 +1,4 @@
-*** copy filter.md ***
+***  filter.md ***
 
 The `filter()` method in JavaScript is a powerful utility for creating a new array containing only the elements that pass a specified test (the predicate callback). Let's break this functionality down into detail with an example and explain each step.
 

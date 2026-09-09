@@ -1,4 +1,4 @@
-*** copy How do you handle API rate limits gracefully on the frontend?.md ***
+***  How do you handle API rate limits gracefully on the frontend?.md ***
 
 Handling API rate limits gracefully on the frontend requires a combination of **proactive prevention**, **reactive handling**, and **clear user communication**.
 

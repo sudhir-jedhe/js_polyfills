@@ -1,4 +1,4 @@
-*** copy 03-child-prop-mutation-causes-intermittent-bug.md ***
+***  03-child-prop-mutation-causes-intermittent-bug.md ***
 
 # Child Component's Prop Mutation Causes a Bug That Only Shows Up Intermittently
 

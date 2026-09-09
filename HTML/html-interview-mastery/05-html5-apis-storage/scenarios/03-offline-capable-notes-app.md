@@ -1,4 +1,4 @@
-*** copy 03-offline-capable-notes-app.md ***
+***  03-offline-capable-notes-app.md ***
 
 # Scenario: Notes App That Should Work Offline and Handle Large Attachments
 

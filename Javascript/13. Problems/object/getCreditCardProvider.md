@@ -1,4 +1,4 @@
-*** copy getCreditCardProvider.md ***
+***  getCreditCardProvider.md ***
 
 ```js
 const providers = {

@@ -1,4 +1,4 @@
-*** copy StrictMode.md ***
+***  StrictMode.md ***
 
 **`<StrictMode>`** is a development-only tool designed to help you catch subtle bugs, impure functions, and deprecated APIs in your component tree before they make it to production.
 

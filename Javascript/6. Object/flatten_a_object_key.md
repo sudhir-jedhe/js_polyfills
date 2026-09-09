@@ -1,4 +1,4 @@
-*** copy flatten_a_object_key.md ***
+***  flatten_a_object_key.md ***
 
 The code snippets you've shared are great examples of how to work with **nested objects** in JavaScript, including how to **flatten** objects (convert nested objects into a single level) and **unflatten** them back into their original structure. Let's break down each of the examples and explain them in detail.
 

@@ -1,4 +1,4 @@
-*** copy ObjectInroArrayOfObject.md ***
+***  ObjectInroArrayOfObject.md ***
 
 The code you provided contains two functions that transform data between different structures. Here's an explanation of how both `listify` and `delistify` work, along with a couple of improvements and clarifications:
 

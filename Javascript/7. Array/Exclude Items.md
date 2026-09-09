@@ -1,4 +1,4 @@
-*** copy Exclude Items.md ***
+***  Exclude Items.md ***
 
 If you're referring to the common JavaScript interview problem **"Exclude Items"**, the goal is usually:
 

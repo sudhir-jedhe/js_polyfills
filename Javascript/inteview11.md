@@ -1,4 +1,4 @@
-*** copy inteview11.md ***
+***  inteview11.md ***
 
 1)Imagine you're leading the frontend of a SaaS application used by millions. How would you organize the project, improve performance, deploy features, test, monitor, secure, and maintain the application?
 

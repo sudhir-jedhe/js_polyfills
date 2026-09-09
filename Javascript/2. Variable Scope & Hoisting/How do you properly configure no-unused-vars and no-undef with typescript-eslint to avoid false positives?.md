@@ -1,4 +1,4 @@
-*** copy How do you properly configure no-unused-vars and no-undef with typescript-eslint to avoid false positives?.md ***
+***  How do you properly configure no-unused-vars and no-undef with typescript-eslint to avoid false positives?.md ***
 
 To configure `no-unused-vars` and `no-undef` properly in TypeScript projects, the general rule is: **turn off the core ESLint rules and let TypeScript (via compiler flags and `@typescript-eslint`) handle them**.
 

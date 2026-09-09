@@ -1,4 +1,4 @@
-*** copy isPalindrome.md ***
+***  isPalindrome.md ***
 
 Here is a breakdown of your implementations for numbers, strings, and arrays, including key optimizations and edge cases to keep in mind.
 

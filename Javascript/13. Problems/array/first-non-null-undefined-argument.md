@@ -1,4 +1,4 @@
-*** copy first-non-null-undefined-argument.md ***
+***  first-non-null-undefined-argument.md ***
 
 ```js
 function coalesce() {

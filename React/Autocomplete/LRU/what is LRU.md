@@ -1,4 +1,4 @@
-*** copy what is LRU.md ***
+***  what is LRU.md ***
 
 # LRU Cache (Least Recently Used Cache)
 

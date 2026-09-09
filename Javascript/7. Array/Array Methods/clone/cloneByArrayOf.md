@@ -1,4 +1,4 @@
-*** copy cloneByArrayOf.md ***
+***  cloneByArrayOf.md ***
 
 If by **"clone ByArrayof"** you mean **cloning using `Array.of()`**, it's important to know that **`Array.of()` is not a cloning method**.
 

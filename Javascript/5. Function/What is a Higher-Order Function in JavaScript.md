@@ -1,4 +1,4 @@
-*** copy What is a Higher-Order Function in JavaScript.md ***
+***  What is a Higher-Order Function in JavaScript.md ***
 
 **What is a Higher-Order Function in JavaScript?**
 A higher-order function is a function that either:

@@ -1,4 +1,4 @@
-*** copy React performance optimization.md ***
+***  React performance optimization.md ***
 
 React performance optimization centers on one core objective: **preventing unnecessary re-renders and avoiding costly computations during the render phase.**
 

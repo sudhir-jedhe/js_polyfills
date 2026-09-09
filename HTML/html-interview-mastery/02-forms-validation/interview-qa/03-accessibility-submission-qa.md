@@ -1,4 +1,4 @@
-*** copy 03-accessibility-submission-qa.md ***
+***  03-accessibility-submission-qa.md ***
 
 # Interview Q&A — Form Accessibility & Submission Mechanics
 

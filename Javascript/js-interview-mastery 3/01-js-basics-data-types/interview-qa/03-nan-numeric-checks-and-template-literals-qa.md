@@ -1,4 +1,4 @@
-*** copy 03-nan-numeric-checks-and-template-literals-qa.md ***
+***  03-nan-numeric-checks-and-template-literals-qa.md ***
 
 # Interview Q&A — `NaN`, Numeric Checks, and Template Literals
 

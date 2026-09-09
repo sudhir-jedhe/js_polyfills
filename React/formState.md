@@ -1,4 +1,4 @@
-*** copy formState.md ***
+***  formState.md ***
 
 Managing form state efficiently in React—especially for forms with dozens of input fields—comes down to **minimizing unnecessary re-renders**, **avoiding state fragmentation**, and **retaining a clean schema**.
 

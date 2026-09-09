@@ -1,4 +1,4 @@
-*** copy 05-lazy-initial-state.md ***
+***  05-lazy-initial-state.md ***
 
 # Lazy Initial State — `expensiveInit` Only Runs Once, on First Mount
 

@@ -1,4 +1,4 @@
-*** copy When is useLayoutEffect strictly required in React versus useEffect, and what are the performance trade-offs?.md ***
+***  When is useLayoutEffect strictly required in React versus useEffect, and what are the performance trade-offs?.md ***
 
 **`useLayoutEffect`** and **`useEffect`** have identical signatures, but they execute at completely different stages of the browser's rendering lifecycle.
 

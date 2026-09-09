@@ -1,4 +1,4 @@
-*** copy 04-functional-update-fixes-interval-stale-closure.md ***
+***  04-functional-update-fixes-interval-stale-closure.md ***
 
 # How Is This Different From Question 3, and What Does It Log?
 

@@ -1,4 +1,4 @@
-*** copy 03-infinite-render-loop-filters-panel.md ***
+***  03-infinite-render-loop-filters-panel.md ***
 
 # Infinite Render Loop Crashes a Filters Panel
 

@@ -1,4 +1,4 @@
-*** copy rest.md ***
+***  rest.md ***
 
 It looks like you're implementing a function called `_rest`, which is designed to mimic the behavior of `Array.prototype.slice()` but for the "rest" of the array after a given index. This is essentially what `_.rest` does in libraries like **Lodash**.
 

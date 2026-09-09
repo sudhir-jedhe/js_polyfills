@@ -1,4 +1,4 @@
-*** copy propertyExit.md ***
+***  propertyExit.md ***
 
 In your code, you're using the `in` operator to check whether a property exists in an object. The `in` operator returns `true` if the specified property exists on the object (including its prototype chain), and `false` otherwise.
 

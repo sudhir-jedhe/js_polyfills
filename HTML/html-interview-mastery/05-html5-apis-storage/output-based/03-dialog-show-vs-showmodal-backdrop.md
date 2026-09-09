@@ -1,4 +1,4 @@
-*** copy 03-dialog-show-vs-showmodal-backdrop.md ***
+***  03-dialog-show-vs-showmodal-backdrop.md ***
 
 # Output: `show()` vs `showModal()` — Is the Backdrop Visible?
 

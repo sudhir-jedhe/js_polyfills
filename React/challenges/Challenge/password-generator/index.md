@@ -1,4 +1,4 @@
-*** copy index.md ***
+***  index.md ***
 
 const charRangeEl = document.querySelector('#range');
 const charLengthEl = document.querySelector('.char-length');

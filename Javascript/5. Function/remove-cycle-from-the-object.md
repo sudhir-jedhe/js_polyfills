@@ -1,4 +1,4 @@
-*** copy remove-cycle-from-the-object.md ***
+***  remove-cycle-from-the-object.md ***
 
 # getCircularReplacer
 

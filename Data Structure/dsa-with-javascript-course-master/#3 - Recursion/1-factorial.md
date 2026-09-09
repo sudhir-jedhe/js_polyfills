@@ -1,4 +1,4 @@
-*** copy 1-factorial.md ***
+***  1-factorial.md ***
 
 // Ques 1 : Factorial of n
 // Input:  n = 5  ----->>>>>  Output: 120

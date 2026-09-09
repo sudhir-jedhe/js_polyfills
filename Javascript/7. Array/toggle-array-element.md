@@ -1,4 +1,4 @@
-*** copy toggle-array-element.md ***
+***  toggle-array-element.md ***
 
 ### Toggling an Element in an Array
 

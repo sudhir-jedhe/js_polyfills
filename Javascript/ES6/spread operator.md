@@ -1,4 +1,4 @@
-*** copy spread operator.md ***
+***  spread operator.md ***
 
 The **spread operator** (`...`) was introduced in ES6 and allows you to expand or "spread" the elements of an iterable (like an array, object, or string) into individual elements or key-value pairs.
 

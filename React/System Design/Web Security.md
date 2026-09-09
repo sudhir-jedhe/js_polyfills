@@ -1,4 +1,4 @@
-*** copy Web Security.md ***
+***  Web Security.md ***
 
 # Web Security — Complete Senior Frontend / Full-Stack Interview Deep Dive
 

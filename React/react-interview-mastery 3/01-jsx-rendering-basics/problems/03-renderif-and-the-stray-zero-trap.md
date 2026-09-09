@@ -1,4 +1,4 @@
-*** copy 03-renderif-and-the-stray-zero-trap.md ***
+***  03-renderif-and-the-stray-zero-trap.md ***
 
 # Problem: Implement `renderIf(condition, component)` and Explain the Stray-`0` Trap
 

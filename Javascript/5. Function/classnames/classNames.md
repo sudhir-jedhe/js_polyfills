@@ -1,4 +1,4 @@
-*** copy classNames.md ***
+***  classNames.md ***
 
 ### Classnames Function Problem
 

@@ -1,4 +1,4 @@
-*** copy Show me how to package dynamic fluid typography into a reusable Tailwind CSS v4 CSS-first preset.md ***
+***  Show me how to package dynamic fluid typography into a reusable Tailwind CSS v4 CSS-first preset.md ***
 
 In Tailwind CSS v4, presets and plugins are authored directly in CSS. You package reusable systems as standalone `.css` files that expose `@theme` tokens, root custom properties, and `@utility` rules, which consuming projects can import with a single `@import` statement.
 

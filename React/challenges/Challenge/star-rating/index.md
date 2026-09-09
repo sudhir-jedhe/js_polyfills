@@ -1,4 +1,4 @@
-*** copy index.md ***
+***  index.md ***
 
 import { createElement, createElements } from './helper.js';
 

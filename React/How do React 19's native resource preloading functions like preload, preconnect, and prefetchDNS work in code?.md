@@ -1,4 +1,4 @@
-*** copy How do React 19's native resource preloading functions like preload, preconnect, and prefetchDNS work in code?.md ***
+***  How do React 19's native resource preloading functions like preload, preconnect, and prefetchDNS work in code?.md ***
 
 React 19 introduces a set of native **Resource Preloading APIs** exported directly from `react-dom`. These functions instruct the browser to warm up network connections, fetch critical assets early, and preload scripts, stylesheets, and fonts without requiring manual `<link>` tags in raw HTML or third-party document head managers.
 

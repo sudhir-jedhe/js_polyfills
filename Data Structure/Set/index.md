@@ -1,4 +1,4 @@
-*** copy index.md ***
+***  index.md ***
 
 // iterable can use for-of-loop
 // unique data

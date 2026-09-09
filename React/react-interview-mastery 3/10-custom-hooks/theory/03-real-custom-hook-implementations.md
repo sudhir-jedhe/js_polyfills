@@ -1,4 +1,4 @@
-*** copy 03-real-custom-hook-implementations.md ***
+***  03-real-custom-hook-implementations.md ***
 
 # Real Custom Hook Implementations
 

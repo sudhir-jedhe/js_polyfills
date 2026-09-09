@@ -1,4 +1,4 @@
-*** copy 02-nested-article-in-section-outline.md ***
+***  02-nested-article-in-section-outline.md ***
 
 # Output: Nested `<article>` Inside `<section>`
 

@@ -1,4 +1,4 @@
-*** copy what is function.md ***
+***  what is function.md ***
 
 ### Understanding `this` in JavaScript Functions
 

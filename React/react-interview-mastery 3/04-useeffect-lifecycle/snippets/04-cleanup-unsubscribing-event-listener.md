@@ -1,4 +1,4 @@
-*** copy 04-cleanup-unsubscribing-event-listener.md ***
+***  04-cleanup-unsubscribing-event-listener.md ***
 
 # Cleanup Function Unsubscribing an Event Listener
 

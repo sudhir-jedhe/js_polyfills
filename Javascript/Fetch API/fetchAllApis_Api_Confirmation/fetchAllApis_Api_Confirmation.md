@@ -1,4 +1,4 @@
-*** copy fetchAllApis_Api_Confirmation.md ***
+***  fetchAllApis_Api_Confirmation.md ***
 
 Here's the complete implementation of the `fetchAllApis` function, including enhancements for better error resilience and the ability to handle partially failed API calls using `Promise.allSettled`:
 

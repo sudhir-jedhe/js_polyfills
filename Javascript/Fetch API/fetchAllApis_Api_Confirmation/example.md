@@ -1,4 +1,4 @@
-*** copy example.md ***
+***  example.md ***
 
 Thank you for providing this comprehensive implementation of the `fetchAllApis` function. It's a well-structured and robust solution for handling multiple API calls concurrently. Let's integrate this into a React component to demonstrate its usage in a practical context. We'll also add some additional features to make it more user-friendly and informative.
 

@@ -1,4 +1,4 @@
-*** copy toString.md ***
+***  toString.md ***
 
 ## `arr.toString()` in JavaScript
 

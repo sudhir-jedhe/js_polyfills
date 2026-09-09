@@ -1,4 +1,4 @@
-*** copy mutateStateObject.md ***
+***  mutateStateObject.md ***
 
 Manipulate Object in State
 When updating, never mutate the object directly — always create a new one by spreading the previous state ({ ...previousUser, age: newAge }). This ensures React detects the change and re-renders properly.

@@ -1,4 +1,4 @@
-*** copy 02-validating-numeric-form-input.md ***
+***  02-validating-numeric-form-input.md ***
 
 # Validating Numeric Form Input
 

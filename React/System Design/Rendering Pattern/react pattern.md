@@ -1,4 +1,4 @@
-*** copy react pattern.md ***
+***  react pattern.md ***
 
 # 5 Advanced React Component Patterns
 

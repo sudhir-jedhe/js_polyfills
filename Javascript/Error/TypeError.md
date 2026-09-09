@@ -1,4 +1,4 @@
-*** copy TypeError.md ***
+***  TypeError.md ***
 
 A **`TypeError`** in JavaScript occurs when you try to perform an operation on a value of the wrong type.
 

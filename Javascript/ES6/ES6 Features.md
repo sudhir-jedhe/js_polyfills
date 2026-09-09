@@ -1,4 +1,4 @@
-*** copy ES6 Features.md ***
+***  ES6 Features.md ***
 
 ### ES6+ Features with Examples
 

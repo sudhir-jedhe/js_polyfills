@@ -1,4 +1,4 @@
-*** copy 04-advanced-form-resets-on-collapse.md ***
+***  04-advanced-form-resets-on-collapse.md ***
 
 # Scenario: Conditional rendering causes an expensive form to reset unexpectedly
 

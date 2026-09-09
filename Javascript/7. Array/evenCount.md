@@ -1,4 +1,4 @@
-*** copy evenCount.md ***
+***  evenCount.md ***
 
 Certainly! There are various ways to count even numbers in an array in JavaScript. Below are **multiple methods** you can use to accomplish this:
 

@@ -1,4 +1,4 @@
-*** copy 04-build-accessible-tabs-component.md ***
+***  04-build-accessible-tabs-component.md ***
 
 # Problem: Build an Accessible Tabs Component from Scratch
 

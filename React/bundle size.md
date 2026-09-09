@@ -1,4 +1,4 @@
-*** copy bundle size.md ***
+***  bundle size.md ***
 
 every React app starts facing performance issues. One major reason is the bundle size. It quietly slows down your app, and many teams don’t notice it early.
 

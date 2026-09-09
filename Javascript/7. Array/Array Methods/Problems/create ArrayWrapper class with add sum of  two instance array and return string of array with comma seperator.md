@@ -1,4 +1,4 @@
-*** copy create ArrayWrapper class with add sum of  two instance array and return string of array with comma seperator.md ***
+***  create ArrayWrapper class with add sum of  two instance array and return string of array with comma seperator.md ***
 
 ```js
 // create an ArrayWrapper class that accepts an array of integers in its constructor. The class should have the following features:

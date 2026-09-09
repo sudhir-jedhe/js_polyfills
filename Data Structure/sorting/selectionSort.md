@@ -1,4 +1,4 @@
-*** copy selectionSort.md ***
+***  selectionSort.md ***
 
 // Javascript program for implementation of selection sort
 function swap(arr, xp, yp) {

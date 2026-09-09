@@ -1,4 +1,4 @@
-*** copy function VS Object.md ***
+***  function VS Object.md ***
 
 Great! You've provided a clear and concise explanation of **functions** and **methods** in JavaScript, and how they relate to objects and classes. Let's go over a few details and expand on these concepts to deepen the understanding.
 

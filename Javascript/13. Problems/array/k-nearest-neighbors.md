@@ -1,4 +1,4 @@
-*** copy k-nearest-neighbors.md ***
+***  k-nearest-neighbors.md ***
 
 ```js
 Classify data using the K-nearest neighbors algorithm in JavaScript

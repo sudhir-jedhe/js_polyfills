@@ -1,4 +1,4 @@
-*** copy Explain common npm supply chain attacks like typosquatting, dependency confusion, and malicious postinstall scripts.md ***
+***  Explain common npm supply chain attacks like typosquatting, dependency confusion, and malicious postinstall scripts.md ***
 
 The open-source JavaScript ecosystem relies on mutual trust. When you run `npm install`, you execute code written by hundreds of strangers on your local machine and production servers.
 

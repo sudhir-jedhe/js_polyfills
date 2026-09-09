@@ -1,4 +1,4 @@
-*** copy findNextRightSibling.md ***
+***  findNextRightSibling.md ***
 
 ```js
 function findNextRightSibling(root, target) {

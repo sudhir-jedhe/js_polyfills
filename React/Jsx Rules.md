@@ -1,4 +1,4 @@
-*** copy Jsx Rules.md ***
+***  Jsx Rules.md ***
 
 In React, JSX (JavaScript XML) is a syntax extension for JavaScript that allows you to write HTML-like code within JavaScript. JSX is used to describe what the UI should look like. While JSX may look like HTML, it has several important differences and rules that you must follow. Below are the key **JSX rules** to keep in mind when writing React code:
 

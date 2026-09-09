@@ -1,4 +1,4 @@
-*** copy react with the redux toolkit which include login register log out and the local storage.md ***
+***  react with the redux toolkit which include login register log out and the local storage.md ***
 
 Here is a complete, production-ready React application setup using **Redux Toolkit (RTK)** to manage authentication state (`login`, `register`, `logout`) with automatic state persistence in **`localStorage`**.
 

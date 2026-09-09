@@ -1,4 +1,4 @@
-*** copy With the React Compiler handling automatic memoization, are useMemo and useCallback completely dead?.md ***
+***  With the React Compiler handling automatic memoization, are useMemo and useCallback completely dead?.md ***
 
 The short answer is **no, they are not completely dead**, but in a project where the React Compiler is enabled, you will almost **never** need to write them yourself in standard application code.
 

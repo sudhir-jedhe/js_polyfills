@@ -1,4 +1,4 @@
-*** copy 06-visually-hidden-utility.md ***
+***  06-visually-hidden-utility.md ***
 
 # Snippet: The `.visually-hidden` (Screen-Reader-Only) Utility Class
 

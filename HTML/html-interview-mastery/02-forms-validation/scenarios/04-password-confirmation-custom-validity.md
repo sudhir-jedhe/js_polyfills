@@ -1,4 +1,4 @@
-*** copy 04-password-confirmation-custom-validity.md ***
+***  04-password-confirmation-custom-validity.md ***
 
 # Scenario: Password-Confirmation Field Stuck Permanently Invalid
 

@@ -1,4 +1,4 @@
-*** copy 02-storage-comparison-cookies-indexeddb.md ***
+***  02-storage-comparison-cookies-indexeddb.md ***
 
 # The Classic Comparison: localStorage vs sessionStorage vs Cookies vs IndexedDB
 

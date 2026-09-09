@@ -1,4 +1,4 @@
-*** copy How do you inspect and optimize the size of the React Server Component Flight payload?.md ***
+***  How do you inspect and optimize the size of the React Server Component Flight payload?.md ***
 
 When using React Server Components (RSC) and full-stack frameworks like Next.js App Router, the browser downloads the **RSC Flight payload** (a text-based serialized stream containing the virtual DOM tree, module references, and serialized props) during initial SSR (embedded in HTML) and during every client-side page transition.
 

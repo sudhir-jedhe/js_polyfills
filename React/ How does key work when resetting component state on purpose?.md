@@ -1,4 +1,4 @@
-*** copy  How does key work when resetting component state on purpose?.md ***
+***   How does key work when resetting component state on purpose?.md ***
 
 React binds component state to a specific **Fiber node at a specific position in the tree with a specific `key**`. When a component's `key` prop changes between renders, React treats it as an entirely new entity rather than an update to the existing one.
 

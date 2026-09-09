@@ -1,4 +1,4 @@
-*** copy highlightText.md ***
+***  highlightText.md ***
 
 The code you've written seems to be aimed at implementing a search functionality where, when a user enters a search term and clicks the "Search" button, any matching text in the content is highlighted using `<mark>` tags.
 

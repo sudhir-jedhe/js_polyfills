@@ -1,4 +1,4 @@
-*** copy How do I implement an offline sync queue with indexedDB and background retry in React?.md ***
+***  How do I implement an offline sync queue with indexedDB and background retry in React?.md ***
 
 An offline sync queue allows users to perform mutations (create, update, delete) while offline or experiencing unstable connectivity. The mutations are persisted locally in **IndexedDB**, queued, and automatically processed in the background with exponential backoff when connectivity resumes.
 

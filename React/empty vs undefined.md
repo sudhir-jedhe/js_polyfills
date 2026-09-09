@@ -1,4 +1,4 @@
-*** copy empty vs undefined.md ***
+***  empty vs undefined.md ***
 
 Here is a breakdown of the code snippet output, followed by a technical deep-dive into JavaScript **sparse arrays**, **prototype resolution**, and **V8 engine optimization elements**.
 

@@ -1,4 +1,4 @@
-*** copy JavaScript Temporal.md ***
+***  JavaScript Temporal.md ***
 
 **JavaScript `Temporal**` is a modern built-in API designed to fix the long-standing flaws of the legacy `Date` object. Standardized under ECMAScript Stage 3 (and implemented across modern engines), `Temporal` provides immutable, timezone-aware, and type-safe primitives for dates, times, durations, and instantly identifiable timestamps.
 

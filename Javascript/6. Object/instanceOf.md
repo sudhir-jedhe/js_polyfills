@@ -1,4 +1,4 @@
-*** copy instanceOf.md ***
+***  instanceOf.md ***
 
 ### JavaScript Quiz and Explanation
 

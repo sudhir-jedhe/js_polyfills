@@ -1,4 +1,4 @@
-*** copy fibonacci.md ***
+***  fibonacci.md ***
 
 You've outlined several approaches to solving the Fibonacci problem, each with its own time and space complexities. Let's break down each approach to understand the trade-offs, strengths, and weaknesses, and provide explanations where necessary.
 

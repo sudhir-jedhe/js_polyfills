@@ -1,4 +1,4 @@
-*** copy mouseEnter vs mouseHover.md ***
+***  mouseEnter vs mouseHover.md ***
 
 How do mouseenter and mouseover differ?
 mouseenter

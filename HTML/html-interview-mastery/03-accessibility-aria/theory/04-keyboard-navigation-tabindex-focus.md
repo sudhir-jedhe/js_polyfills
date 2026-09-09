@@ -1,4 +1,4 @@
-*** copy 04-keyboard-navigation-tabindex-focus.md ***
+***  04-keyboard-navigation-tabindex-focus.md ***
 
 # Keyboard Navigation: `tabindex` and Focus Management
 

@@ -1,4 +1,4 @@
-*** copy Architecture.md ***
+***  Architecture.md ***
 
 ### **Enhancing the React Architecture with CI/CD, Authentication, Deployment Strategies, and Expanded Features**
 

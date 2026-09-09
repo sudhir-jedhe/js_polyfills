@@ -1,4 +1,4 @@
-*** copy 04-critical-rendering-path.md ***
+***  04-critical-rendering-path.md ***
 
 # Critical Rendering Path Basics
 

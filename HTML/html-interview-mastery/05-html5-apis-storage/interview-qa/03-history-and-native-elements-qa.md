@@ -1,4 +1,4 @@
-*** copy 03-history-and-native-elements-qa.md ***
+***  03-history-and-native-elements-qa.md ***
 
 # Interview Q&A — History API, `<template>`, `<dialog>`
 

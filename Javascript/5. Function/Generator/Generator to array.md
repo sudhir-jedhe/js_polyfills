@@ -1,4 +1,4 @@
-*** copy Generator to array.md ***
+***  Generator to array.md ***
 
 The provided code uses the `generatorToArray` utility function to convert an iterable (such as a generator or other iterables like a `Set` or `Map`) into an array using the spread syntax (`...`).
 

@@ -1,4 +1,4 @@
-*** copy system design.md ***
+***  system design.md ***
 
 n this question, you must implement a function that takes two arguments object and filter function, then returns a filtered object.
 

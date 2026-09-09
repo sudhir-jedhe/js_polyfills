@@ -1,4 +1,4 @@
-*** copy MultiTenant1.md ***
+***  MultiTenant1.md ***
 
 This is an advanced architectural topic. In a frontend interview, building a Multi-Tenant app tests your knowledge of **System Design, Routing, Security, and State Management**.
 

@@ -1,4 +1,4 @@
-*** copy simpleCurrySum.md ***
+***  simpleCurrySum.md ***
 
 ```js
 function sum(a) {

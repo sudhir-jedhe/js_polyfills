@@ -1,4 +1,4 @@
-*** copy Prototype.md ***
+***  Prototype.md ***
 
 In JavaScript, **everything except primitives is an object** (or can behave like one), and every object has an internal link to another object called its **Prototype**.
 

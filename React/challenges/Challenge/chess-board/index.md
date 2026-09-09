@@ -1,4 +1,4 @@
-*** copy index.md ***
+***  index.md ***
 
 const gridSize = 8;
 const board = document.querySelector('.board');

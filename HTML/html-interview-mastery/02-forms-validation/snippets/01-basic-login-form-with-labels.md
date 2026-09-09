@@ -1,4 +1,4 @@
-*** copy 01-basic-login-form-with-labels.md ***
+***  01-basic-login-form-with-labels.md ***
 
 # Snippet: Basic Login Form with Proper Labels
 

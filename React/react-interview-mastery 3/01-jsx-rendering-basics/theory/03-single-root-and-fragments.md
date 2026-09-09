@@ -1,4 +1,4 @@
-*** copy 03-single-root-and-fragments.md ***
+***  03-single-root-and-fragments.md ***
 
 # Single Root Element and Fragments
 

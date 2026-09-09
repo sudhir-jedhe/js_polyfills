@@ -1,4 +1,4 @@
-*** copy infiniteSumCurry.md ***
+***  infiniteSumCurry.md ***
 
 ```js
 function sum(a) {

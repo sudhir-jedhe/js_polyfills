@@ -1,4 +1,4 @@
-*** copy matchSelectorWithLink.md ***
+***  matchSelectorWithLink.md ***
 
 To match any link (`<a>` element) that ends with `.zip`, `.Zip`, or `.ZIP`, you can use the **attribute selector** in CSS. The `href` attribute of the link contains the file extension, and you can target that using the `ends with` (`$=`) operator.
 

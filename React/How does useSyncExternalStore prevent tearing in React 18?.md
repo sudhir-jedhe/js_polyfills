@@ -1,4 +1,4 @@
-*** copy How does useSyncExternalStore prevent tearing in React 18?.md ***
+***  How does useSyncExternalStore prevent tearing in React 18?.md ***
 
 **UI Tearing** is a visual glitch where two different components on the screen display conflicting, out-of-sync values for the exact same piece of external state during a single render pass.
 

@@ -1,4 +1,4 @@
-*** copy object-by-id-in-an-array-of-objects.md ***
+***  object-by-id-in-an-array-of-objects.md ***
 
 ```js
 // This is our array of Objects

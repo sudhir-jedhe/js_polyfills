@@ -1,4 +1,4 @@
-*** copy MultiStepForm.md ***
+***  MultiStepForm.md ***
 
 import "./DynamicMultiStepForm.css";
 import React, { useState } from "react";

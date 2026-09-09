@@ -1,4 +1,4 @@
-*** copy checkDistances.md ***
+***  checkDistances.md ***
 
 The function `checkDistances` checks whether characters in the string `s` are spaced according to a given set of distances in the `distance` array. The goal is to ensure that for every character that appears twice in the string, the distance between its occurrences matches the corresponding value in the `distance` array.
 

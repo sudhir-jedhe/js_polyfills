@@ -1,4 +1,4 @@
-*** copy BFE.devInterview'.md ***
+***  BFE.devInterview'.md ***
 
 ### 1. Implement `curry()`
 

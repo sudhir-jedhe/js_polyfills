@@ -1,4 +1,4 @@
-*** copy check-two-given-strings-are-isomorphic.md ***
+***  check-two-given-strings-are-isomorphic.md ***
 
 ```js
 // str1 = 'ABCA'

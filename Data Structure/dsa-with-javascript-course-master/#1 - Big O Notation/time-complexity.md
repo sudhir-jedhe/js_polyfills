@@ -1,4 +1,4 @@
-*** copy time-complexity.md ***
+***  time-complexity.md ***
 
 // Slow Example
 const funnyNumber = (array) => {

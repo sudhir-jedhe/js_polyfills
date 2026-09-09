@@ -1,4 +1,4 @@
-*** copy How do you handle multi-step form wizards with file uploads and binary FormData in React 19 Server Actions?.md ***
+***  How do you handle multi-step form wizards with file uploads and binary FormData in React 19 Server Actions?.md ***
 
 Handling file uploads across a multi-step wizard presents a unique challenge: **native `<input type="file" />` elements cannot retain their value across step re-renders or navigation for browser security reasons**, and raw `File` / `Blob` instances cannot be retained in persistent serializable state across server boundaries.
 

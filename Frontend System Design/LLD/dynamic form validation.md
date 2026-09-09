@@ -1,4 +1,4 @@
-*** copy dynamic form validation.md ***
+***  dynamic form validation.md ***
 
 Implementing dynamic form validation using libraries like **Zod** or **Yup** in a Config-Driven UI requires converting serializable **JSON validation rules** into executable validation schemas at runtime.
 

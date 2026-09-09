@@ -1,4 +1,4 @@
-*** copy promiseWithTimeout.md ***
+***  promiseWithTimeout.md ***
 
 Implement a function that resolves a promise if it is fulfilled within a timeout period and rejects otherwise
 ```js

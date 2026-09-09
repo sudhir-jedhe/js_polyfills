@@ -1,4 +1,4 @@
-*** copy eventEmmiter1.md ***
+***  eventEmmiter1.md ***
 
 Below is a **clean implementation** of the `EventEmitter` class using a modern ES6 approach and also providing a prototype-based alternative. It incorporates the considerations and clarifications you outlined.
 

@@ -1,4 +1,4 @@
-*** copy splitWordsBySeparator.md ***
+***  splitWordsBySeparator.md ***
 
 Your implementation for **LeetCode 2788 ("Split Strings by Separator")** using `Array.prototype.flatMap` is **optimal, concise, and production-ready**!
 

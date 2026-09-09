@@ -1,4 +1,4 @@
-*** copy Asynchronous AbortController.md ***
+***  Asynchronous AbortController.md ***
 
 The **`AbortController`** API is the standard JavaScript mechanism for signaling cancellation to asynchronous operations. It provides a controller-signal pair (`controller` and `signal`) that allows you to stop pending asynchronous tasks—like network requests, event listeners, or custom promises—instantly without waiting for them to complete or time out.
 

@@ -1,4 +1,4 @@
-*** copy 04-tabindex-values-comparison.md ***
+***  04-tabindex-values-comparison.md ***
 
 # Output: `tabindex="-1"` vs. `tabindex="0"` vs. `tabindex="5"`
 

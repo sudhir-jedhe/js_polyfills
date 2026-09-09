@@ -1,4 +1,4 @@
-*** copy random.md ***
+***  random.md ***
 
 ```js
 export const random = () => {

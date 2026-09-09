@@ -1,4 +1,4 @@
-*** copy Contact Manger.md ***
+***  Contact Manger.md ***
 
 The **Contact Manager** application architecture has been created and saved as a skill (`contact-manager`).
 

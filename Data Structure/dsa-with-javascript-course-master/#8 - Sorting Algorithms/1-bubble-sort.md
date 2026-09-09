@@ -1,4 +1,4 @@
-*** copy 1-bubble-sort.md ***
+***  1-bubble-sort.md ***
 
 // Ques 1: Implement Bubble Sort in JavaScript
 // Write a function to sort the given array nums in ascending order.

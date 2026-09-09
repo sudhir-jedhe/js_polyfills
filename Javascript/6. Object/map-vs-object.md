@@ -1,4 +1,4 @@
-*** copy map-vs-object.md ***
+***  map-vs-object.md ***
 
 You're absolutely right—while JavaScript objects are ubiquitous and widely used, **Maps** offer some advantages that aren't as commonly known but are incredibly useful in certain scenarios. Let's break down the key differences, strengths, and when it's better to use one over the other.
 

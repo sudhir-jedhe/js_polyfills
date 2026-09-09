@@ -1,4 +1,4 @@
-*** copy 05-formdata-and-fetch-submission.md ***
+***  05-formdata-and-fetch-submission.md ***
 
 # Snippet: `FormData` + `fetch` Submission
 

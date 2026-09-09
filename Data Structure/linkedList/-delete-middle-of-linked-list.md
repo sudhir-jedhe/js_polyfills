@@ -1,4 +1,4 @@
-*** copy -delete-middle-of-linked-list.md ***
+***  -delete-middle-of-linked-list.md ***
 
 // 1->2->3->4->5 then the linked list should be modified to 1->2->4->5
 // 1->2->3->4->5->6 then it should be modified to 1->2->3->5->6.

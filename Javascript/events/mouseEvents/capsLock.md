@@ -1,4 +1,4 @@
-*** copy capsLock.md ***
+***  capsLock.md ***
 
 The `MouseEvent.getModifierState()` method is useful for detecting the state of modifier keys like `CapsLock`, `NumLock`, `Shift`, etc. Here's a breakdown of how this method works and its use case demonstrated in the provided example.
 

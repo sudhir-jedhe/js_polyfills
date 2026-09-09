@@ -1,4 +1,4 @@
-*** copy How do I implement an icon-only collapsed mini-sidebar mode with hover flyout submenus in React?.md ***
+***  How do I implement an icon-only collapsed mini-sidebar mode with hover flyout submenus in React?.md ***
 
 To implement an icon-only mini-sidebar with hover flyout submenus, the architecture needs to handle two distinct interaction modes:
 

@@ -1,4 +1,4 @@
-*** copy 03-debounce-skips-intermediate-value.md ***
+***  03-debounce-skips-intermediate-value.md ***
 
 # Output-Based: Debounce Skips the Intermediate Value
 

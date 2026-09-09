@@ -1,4 +1,4 @@
-*** copy What is JSX? How does it work?.md ***
+***  What is JSX? How does it work?.md ***
 
 **JSX (JavaScript XML)** is a syntax extension for JavaScript that allows you to write HTML-like markup directly inside JavaScript files. It is not standard JavaScript and cannot be executed directly by browsers; it is syntactic sugar designed to produce React Elements.
 

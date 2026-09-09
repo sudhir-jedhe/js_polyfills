@@ -1,4 +1,4 @@
-*** copy ThroatllingAPICallInBatch.md ***
+***  ThroatllingAPICallInBatch.md ***
 
 Here’s the updated `APIBatchRequester` class incorporating retry logic for failed requests, queue size management, and optional progress tracking:
 

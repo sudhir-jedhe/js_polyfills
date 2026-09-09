@@ -1,4 +1,4 @@
-*** copy remove-last-character-from-the-string.md ***
+***  remove-last-character-from-the-string.md ***
 
 ```js
 function removeCharacter(str) {

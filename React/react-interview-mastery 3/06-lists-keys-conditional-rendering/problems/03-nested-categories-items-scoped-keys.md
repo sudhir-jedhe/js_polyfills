@@ -1,4 +1,4 @@
-*** copy 03-nested-categories-items-scoped-keys.md ***
+***  03-nested-categories-items-scoped-keys.md ***
 
 # Problem: Nested list (categories → items) with correctly scoped keys at each level
 

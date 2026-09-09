@@ -1,4 +1,4 @@
-*** copy index.md ***
+***  index.md ***
 
 const timeEl = document.querySelector('.time');
 const durationButtons = document.querySelectorAll('.duration-button');

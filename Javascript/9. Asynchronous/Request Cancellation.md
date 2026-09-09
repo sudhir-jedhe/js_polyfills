@@ -1,4 +1,4 @@
-*** copy Request Cancellation.md ***
+***  Request Cancellation.md ***
 
 A user searches React and immediately searches Angular. The first API response arrives after the second. How would you show the correct result?
 

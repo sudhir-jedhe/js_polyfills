@@ -1,4 +1,4 @@
-*** copy towerOfHanoi.md ***
+***  towerOfHanoi.md ***
 
 // javascript recursive function to
 // solve tower of hanoi puzzle

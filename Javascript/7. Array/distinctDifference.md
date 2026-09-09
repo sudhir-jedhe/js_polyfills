@@ -1,4 +1,4 @@
-*** copy distinctDifference.md ***
+***  distinctDifference.md ***
 
 Both implementations you provided aim to compute the **distinct difference** for each element in the array, where the "distinct difference" for an index `i` is defined as:
 

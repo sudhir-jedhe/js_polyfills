@@ -1,4 +1,4 @@
-*** copy what is pure function.md ***
+***  what is pure function.md ***
 
 Pure functions are a fundamental concept in functional programming. They make code more predictable, easier to test, and easier to debug. Let’s analyze the differences between **pure** and **impure** functions with examples:
 

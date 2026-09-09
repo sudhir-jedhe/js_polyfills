@@ -1,4 +1,4 @@
-*** copy Explain how React 19's 'use' API handles Promises and Context conditionally inside components.md ***
+***  Explain how React 19's 'use' API handles Promises and Context conditionally inside components.md ***
 
 React 19’s **`use` API** represents a major shift in how React components consume resources during render.
 

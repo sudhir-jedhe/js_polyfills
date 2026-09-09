@@ -1,4 +1,4 @@
-*** copy problemStatement.md ***
+***  problemStatement.md ***
 
 // Example 1:
 

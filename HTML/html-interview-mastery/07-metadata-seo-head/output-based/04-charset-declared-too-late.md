@@ -1,4 +1,4 @@
-*** copy 04-charset-declared-too-late.md ***
+***  04-charset-declared-too-late.md ***
 
 # Output: `charset` Declared After a Large Inline `<style>` Block
 

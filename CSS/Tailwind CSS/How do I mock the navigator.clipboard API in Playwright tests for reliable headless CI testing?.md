@@ -1,4 +1,4 @@
-*** copy How do I mock the navigator.clipboard API in Playwright tests for reliable headless CI testing?.md ***
+***  How do I mock the navigator.clipboard API in Playwright tests for reliable headless CI testing?.md ***
 
 To eliminate cross-browser permission restrictions and OS-level clipboard flakes on headless CI runners (especially in Firefox and WebKit), mock the `navigator.clipboard` object using Playwright's `page.addInitScript()`.
 

@@ -1,4 +1,4 @@
-*** copy Show how to build a custom React hook for API caching and request deduplication from scratch.md ***
+***  Show how to build a custom React hook for API caching and request deduplication from scratch.md ***
 
 Building a custom React hook for API caching and request deduplication requires managing three distinct states:
 

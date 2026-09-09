@@ -1,4 +1,4 @@
-*** copy rearrange-array-such-that-even-positioned-are-greater-than-odd.md ***
+***  rearrange-array-such-that-even-positioned-are-greater-than-odd.md ***
 
 ```js
 //Using Reverse Iteration

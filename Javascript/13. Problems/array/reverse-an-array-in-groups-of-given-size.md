@@ -1,4 +1,4 @@
-*** copy reverse-an-array-in-groups-of-given-size.md ***
+***  reverse-an-array-in-groups-of-given-size.md ***
 
 ```js
 /*

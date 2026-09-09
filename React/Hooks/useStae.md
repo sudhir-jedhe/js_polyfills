@@ -1,4 +1,4 @@
-*** copy useStae.md ***
+***  useStae.md ***
 
 Here is a clean, consolidated guide explaining **how React Hooks (specifically `useState`) work under the hood using Closures**, alongside a breakdown of **why the Rules of Hooks exist** and a **hands-on interview practice challenge**.
 

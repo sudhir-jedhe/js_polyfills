@@ -1,4 +1,4 @@
-*** copy rotate-the-matrix-right-by-k-times.md ***
+***  rotate-the-matrix-right-by-k-times.md ***
 
 ```js
 /*

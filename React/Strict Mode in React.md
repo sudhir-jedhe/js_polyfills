@@ -1,4 +1,4 @@
-*** copy Strict Mode in React.md ***
+***  Strict Mode in React.md ***
 
 ### **Strict Mode in React**
 

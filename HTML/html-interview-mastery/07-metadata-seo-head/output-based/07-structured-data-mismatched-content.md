@@ -1,4 +1,4 @@
-*** copy 07-structured-data-mismatched-content.md ***
+***  07-structured-data-mismatched-content.md ***
 
 # Output: JSON-LD Claims a Rating the Page Doesn't Show
 

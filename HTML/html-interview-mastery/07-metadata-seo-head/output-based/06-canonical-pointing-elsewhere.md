@@ -1,4 +1,4 @@
-*** copy 06-canonical-pointing-elsewhere.md ***
+***  06-canonical-pointing-elsewhere.md ***
 
 # Output: A Page Canonicalized to a Different URL
 

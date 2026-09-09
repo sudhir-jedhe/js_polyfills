@@ -1,4 +1,4 @@
-*** copy getInitials.md ***
+***  getInitials.md ***
 
 ```js
 getInitials({ firstName: "John", middleName: "A", lastName: "Doe" }); // Output: 'J. A. D.'

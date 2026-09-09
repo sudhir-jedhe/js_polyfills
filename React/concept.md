@@ -1,4 +1,4 @@
-*** copy concept.md ***
+***  concept.md ***
 
 # Life cycle methods of components:
 

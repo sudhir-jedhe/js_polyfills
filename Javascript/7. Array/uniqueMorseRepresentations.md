@@ -1,4 +1,4 @@
-*** copy uniqueMorseRepresentations.md ***
+***  uniqueMorseRepresentations.md ***
 
 ### Problem Breakdown:
 

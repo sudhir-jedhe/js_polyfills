@@ -1,4 +1,4 @@
-*** copy Why React.memo Re-renders on Context Changes.md ***
+***  Why React.memo Re-renders on Context Changes.md ***
 
 Here is a clean, structured technical breakdown explaining why `React.memo` does not prevent re-renders when consumed Context changes, and how `lanes` and `childLanes` propagate this work through the Fiber tree.
 

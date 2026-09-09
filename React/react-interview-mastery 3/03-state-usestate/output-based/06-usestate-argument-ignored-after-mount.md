@@ -1,4 +1,4 @@
-*** copy 06-usestate-argument-ignored-after-mount.md ***
+***  06-usestate-argument-ignored-after-mount.md ***
 
 # Does Clicking "Reset" Actually Reset `count` Visually? What's the Surprise?
 

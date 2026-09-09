@@ -1,4 +1,4 @@
-*** copy Show how to create a custom useMeasure hook using useLayoutEffect and ResizeObserver for accurate, flicker-free layout tracking..md ***
+***  Show how to create a custom useMeasure hook using useLayoutEffect and ResizeObserver for accurate, flicker-free layout tracking..md ***
 
 A robust measurement hook requires handling three core constraints:
 

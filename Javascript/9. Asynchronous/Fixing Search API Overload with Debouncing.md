@@ -1,4 +1,4 @@
-*** copy Fixing Search API Overload with Debouncing.md ***
+***  Fixing Search API Overload with Debouncing.md ***
 
 ## Fixing Search API Overload with Debouncing
 

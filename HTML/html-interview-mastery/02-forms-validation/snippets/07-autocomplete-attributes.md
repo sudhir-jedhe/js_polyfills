@@ -1,4 +1,4 @@
-*** copy 07-autocomplete-attributes.md ***
+***  07-autocomplete-attributes.md ***
 
 # Snippet: `autocomplete` Attribute Values
 

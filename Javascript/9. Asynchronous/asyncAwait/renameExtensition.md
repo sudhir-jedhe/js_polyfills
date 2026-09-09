@@ -1,4 +1,4 @@
-*** copy renameExtensition.md ***
+***  renameExtensition.md ***
 
 This Node.js script renames **all `.js` files in the current directory** to **`.md` files**.
 

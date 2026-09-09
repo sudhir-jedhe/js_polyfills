@@ -1,4 +1,4 @@
-*** copy kronecker-product-of-two-matrices.md ***
+***  kronecker-product-of-two-matrices.md ***
 
 ```js
 // 1. The matrix direct(kronecker) product of the 2×2 matrix A

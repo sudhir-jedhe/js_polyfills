@@ -1,4 +1,4 @@
-*** copy How Code Splitting Works in React.md ***
+***  How Code Splitting Works in React.md ***
 
 **Code splitting** in React is a performance optimization technique that allows you to split your JavaScript bundle into smaller, more manageable chunks, and only load the code that's needed for the current page or feature. This can drastically reduce the initial load time and improve the performance of your React app, especially for large applications.
 

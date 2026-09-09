@@ -1,4 +1,4 @@
-*** copy Checkbox.md ***
+***  Checkbox.md ***
 
 ```js
 import React from "react";

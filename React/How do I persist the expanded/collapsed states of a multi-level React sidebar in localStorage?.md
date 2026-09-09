@@ -1,4 +1,4 @@
-*** copy collapsed states of a multi-level React sidebar in localStorage?.md ***
+***  collapsed states of a multi-level React sidebar in localStorage?.md ***
 
 To persist the expanded and collapsed states across page reloads and user sessions, lift the accordion state out of individual recursive items into a **central set of expanded paths** backed by `localStorage`.
 

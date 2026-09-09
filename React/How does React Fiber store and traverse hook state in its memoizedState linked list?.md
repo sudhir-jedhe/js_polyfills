@@ -1,4 +1,4 @@
-*** copy How does React Fiber store and traverse hook state in its memoizedState linked list?.md ***
+***  How does React Fiber store and traverse hook state in its memoizedState linked list?.md ***
 
 In React Fiber, hooks do not use a Map or an array keyed by name. Instead, every function component's hooks are stored as a **singly-linked list of `Hook` objects** attached to `fiber.memoizedState`.
 

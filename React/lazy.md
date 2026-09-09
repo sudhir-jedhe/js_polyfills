@@ -1,4 +1,4 @@
-*** copy lazy.md ***
+***  lazy.md ***
 
 **`lazy`** is a React function that lets you defer loading a component’s JavaScript code until it is rendered for the first time.
 

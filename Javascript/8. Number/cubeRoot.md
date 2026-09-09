@@ -1,4 +1,4 @@
-*** copy cubeRoot.md ***
+***  cubeRoot.md ***
 
 ### Explanation of the Code and Improvements
 

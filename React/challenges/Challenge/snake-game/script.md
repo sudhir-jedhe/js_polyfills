@@ -1,4 +1,4 @@
-*** copy script.md ***
+***  script.md ***
 
 /// Snake game by Kei-K
 

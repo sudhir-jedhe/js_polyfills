@@ -1,4 +1,4 @@
-*** copy jsinterviewQuestion.md ***
+***  jsinterviewQuestion.md ***
 
 // 𝗕𝗮𝘀𝗶𝗰 𝗖𝗼𝗻𝗰𝗲𝗽𝘁𝘀:
 // 1. What is JavaScript?

@@ -1,4 +1,4 @@
-*** copy promise_then_callbacks II.md ***
+***  promise_then_callbacks II.md ***
 
 // This is a JavaScript Quiz from BFE.dev
 ```js

@@ -1,4 +1,4 @@
-*** copy 1-truncate-the-string.md ***
+***  1-truncate-the-string.md ***
 
 // Ques 1 : Truncate the text
 // Write a function called truncate that checks the length of a given string - str, and if

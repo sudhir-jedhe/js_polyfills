@@ -1,4 +1,4 @@
-*** copy FilterByFn.md ***
+***  FilterByFn.md ***
 
 Your implementation of the `filter` function is correct, but there is a minor misunderstanding in one of the test cases. Let's go over your code and the test cases:
 

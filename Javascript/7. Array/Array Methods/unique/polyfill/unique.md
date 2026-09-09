@@ -1,4 +1,4 @@
-*** copy unique.md ***
+***  unique.md ***
 
 ```js
 function getUniqueValuesInAllArrays(arrays, iteratee) {

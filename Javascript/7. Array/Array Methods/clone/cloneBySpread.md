@@ -1,4 +1,4 @@
-*** copy cloneBySpread.md ***
+***  cloneBySpread.md ***
 
 ## Clone Array Using Spread Operator (`...`)
 

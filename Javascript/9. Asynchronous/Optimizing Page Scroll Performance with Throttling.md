@@ -1,4 +1,4 @@
-*** copy Optimizing Page Scroll Performance with Throttling.md ***
+***  Optimizing Page Scroll Performance with Throttling.md ***
 
 ## Optimizing Page Scroll Performance with Throttling
 

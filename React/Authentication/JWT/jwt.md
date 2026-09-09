@@ -1,4 +1,4 @@
-*** copy jwt.md ***
+***  jwt.md ***
 
 ### Common JWT (JSON Web Token) Interview Questions & Answers
 

@@ -1,4 +1,4 @@
-*** copy Explain the Passive Effects Phase in detail, focusing on useEffect scheduling and cleanup order.md ***
+***  Explain the Passive Effects Phase in detail, focusing on useEffect scheduling and cleanup order.md ***
 
 The **Passive Effects Phase** is the fourth and final sub-phase of React's **Commit Phase**.
 

@@ -1,4 +1,4 @@
-*** copy 05-lists-and-conditional-rendering.md ***
+***  05-lists-and-conditional-rendering.md ***
 
 # Rendering Lists and Conditionals
 

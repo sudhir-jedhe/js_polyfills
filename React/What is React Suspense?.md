@@ -1,4 +1,4 @@
-*** copy What is React Suspense?.md ***
+***  What is React Suspense?.md ***
 
 **React Suspense** is a feature that allows you to handle asynchronous operations in your React components more gracefully. It enables you to show fallback content while waiting for something to load, such as data fetching or code splitting. You can use it with React.lazy for code splitting and with libraries like react-query for data fetching.
 

@@ -1,4 +1,4 @@
-*** copy 02-cleanup-and-stale-closures-qa.md ***
+***  02-cleanup-and-stale-closures-qa.md ***
 
 # Interview Q&A — Cleanup Functions and Stale Closures
 

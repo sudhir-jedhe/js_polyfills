@@ -1,4 +1,4 @@
-*** copy unique-values-in-array-remove-duplicates.md ***
+***  unique-values-in-array-remove-duplicates.md ***
 
 ```js
 Get all unique values in a JavaScript array & remove duplicates

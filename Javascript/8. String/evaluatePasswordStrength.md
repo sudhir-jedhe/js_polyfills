@@ -1,4 +1,4 @@
-*** copy evaluatePasswordStrength.md ***
+***  evaluatePasswordStrength.md ***
 
 Building a password strength meter that measures **bits of entropy** is far superior to simple character-count checklists. Entropy quantifies the mathematical randomness of a password based on its character set size and length using the standard formula:
 

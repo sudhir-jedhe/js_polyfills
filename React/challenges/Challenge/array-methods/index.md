@@ -1,4 +1,4 @@
-*** copy index.md ***
+***  index.md ***
 
 import { Evaluator } from './evaluator.js';
 

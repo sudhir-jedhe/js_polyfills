@@ -1,4 +1,4 @@
-*** copy Find Successor.md ***
+***  Find Successor.md ***
 
 // Find Successor
 // Given the root of a binary tree and a node in it, return the in-order successor of that node in the BST. If the given node has no in-order successor in the tree, return null.

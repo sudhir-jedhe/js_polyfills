@@ -1,4 +1,4 @@
-*** copy delete-first-occurrence-of-given-key-from-a-linked-lis.md ***
+***  delete-first-occurrence-of-given-key-from-a-linked-lis.md ***
 
 // Input: list = 1->2->3->5->2->10, key = 2
 // Output: 1->3->5->2->10

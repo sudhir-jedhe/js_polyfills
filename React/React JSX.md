@@ -1,4 +1,4 @@
-*** copy React JSX.md ***
+***  React JSX.md ***
 
 **JSX (JavaScript XML)** is a syntax extension for JavaScript used in React to describe what the UI should look like. It allows you to write HTML-like markup directly inside a JavaScript file, combining rendering logic with UI structure.
 

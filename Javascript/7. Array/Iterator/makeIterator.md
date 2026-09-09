@@ -1,4 +1,4 @@
-*** copy makeIterator.md ***
+***  makeIterator.md ***
 
 Yes, you're absolutely right! The `Symbol.iterator` is an integral part of the iterator protocol in JavaScript, and by defining it, you can make any object or class iterable. This gives you a lot of flexibility, as it allows you to control how an object or class should behave when iterated over with constructs like `for...of` or `spread syntax`.
 

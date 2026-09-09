@@ -1,4 +1,4 @@
-*** copy 03-aria-live-region.md ***
+***  03-aria-live-region.md ***
 
 # Snippet: `aria-live` Region
 

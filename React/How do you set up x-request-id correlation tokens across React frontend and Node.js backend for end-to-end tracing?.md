@@ -1,4 +1,4 @@
-*** copy How do you set up x-request-id correlation tokens across React frontend and Node.js backend for end-to-end tracing?.md ***
+***  How do you set up x-request-id correlation tokens across React frontend and Node.js backend for end-to-end tracing?.md ***
 
 Setting up an **End-to-End Correlation ID (`x-request-id`)** allows you to trace a single user interaction from a button click in React all the way through Node.js middleware, asynchronous backend processing, database queries, and external API requests—even when aggregating logs in Sentry, Datadog, or CloudWatch.
 

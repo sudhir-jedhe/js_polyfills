@@ -1,4 +1,4 @@
-*** copy How do I implement passwordless WebAuthn  Passkeys authentication in React and Node.js?.md ***
+***  How do I implement passwordless WebAuthn  Passkeys authentication in React and Node.js?.md ***
 
 Implementing passwordless **WebAuthn / Passkeys** authentication requires two distinct ceremonies: **Registration** (creating a public/private keypair bound to Touch ID, Face ID, Windows Hello, or 1Password) and **Authentication** (signing a server challenge with the stored private key).
 

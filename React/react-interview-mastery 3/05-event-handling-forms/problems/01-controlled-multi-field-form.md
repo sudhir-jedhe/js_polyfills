@@ -1,4 +1,4 @@
-*** copy 01-controlled-multi-field-form.md ***
+***  01-controlled-multi-field-form.md ***
 
 # Problem: Controlled multi-field form with a single generic `handleChange`
 

@@ -1,4 +1,4 @@
-*** copy viewport.md ***
+***  viewport.md ***
 
 The **viewport** is simply the visible area of a web page that a user can currently see on their screen.
 

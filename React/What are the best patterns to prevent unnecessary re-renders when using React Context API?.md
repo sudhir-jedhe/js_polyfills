@@ -1,4 +1,4 @@
-*** copy What are the best patterns to prevent unnecessary re-renders when using React Context API?.md ***
+***  What are the best patterns to prevent unnecessary re-renders when using React Context API?.md ***
 
 When a React Context value updates, **every component that calls `useContext(MyContext)` re-renders unconditionally**, bypassing any `React.memo` wrappers on the consumer. To eliminate unnecessary re-renders, use the following production-tested architectural patterns.
 

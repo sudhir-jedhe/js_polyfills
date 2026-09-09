@@ -1,4 +1,4 @@
-*** copy 03-forwardref-and-useimperativehandle.md ***
+***  03-forwardref-and-useimperativehandle.md ***
 
 # Interview Q&A: forwardRef & useImperativeHandle
 

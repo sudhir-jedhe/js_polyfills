@@ -1,4 +1,4 @@
-*** copy What does useOptimistic do?.md ***
+***  What does useOptimistic do?.md ***
 
 **`useOptimistic`** is a React 19 hook that lets you implement **Optimistic UI updates** with zero boilerplate.
 

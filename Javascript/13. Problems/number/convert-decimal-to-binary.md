@@ -1,4 +1,4 @@
-*** copy convert-decimal-to-binary.md ***
+***  convert-decimal-to-binary.md ***
 
 ```js
 /* 

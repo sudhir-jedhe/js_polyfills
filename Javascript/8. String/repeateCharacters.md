@@ -1,4 +1,4 @@
-*** copy repeateCharacters.md ***
+***  repeateCharacters.md ***
 
 "Repeat Characters" can mean multiple interview problems. Here are the most common ones:
 

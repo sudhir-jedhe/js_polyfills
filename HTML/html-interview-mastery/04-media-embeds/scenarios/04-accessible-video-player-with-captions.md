@@ -1,4 +1,4 @@
-*** copy 04-accessible-video-player-with-captions.md ***
+***  04-accessible-video-player-with-captions.md ***
 
 # Scenario: Making a Company All-Hands Recording Accessible
 

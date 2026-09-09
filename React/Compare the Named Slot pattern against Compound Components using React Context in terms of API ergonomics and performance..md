@@ -1,4 +1,4 @@
-*** copy Compare the Named Slot pattern against Compound Components using React Context in terms of API ergonomics and performance..md ***
+***  Compare the Named Slot pattern against Compound Components using React Context in terms of API ergonomics and performance..md ***
 
 **Named Slots vs. Compound Components (with Context)**
 

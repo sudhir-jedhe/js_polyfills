@@ -1,4 +1,4 @@
-*** copy Compression and Minimizing React.md ***
+***  Compression and Minimizing React.md ***
 
 **Compression and Minimizing React App for Optimal Performance**
 

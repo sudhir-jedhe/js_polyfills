@@ -1,4 +1,4 @@
-*** copy What's the difference between the in operator and the hasOwnProperty method in objects.md ***
+***  What's the difference between the in operator and the hasOwnProperty method in objects.md ***
 
 ### Difference Between `in` Operator and `hasOwnProperty` Method
 

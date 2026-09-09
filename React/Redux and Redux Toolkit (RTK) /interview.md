@@ -1,4 +1,4 @@
-*** copy interview.md ***
+***  interview.md ***
 
 Here is a comprehensive compilation of **Redux and Redux Toolkit (RTK)** interview questions, structured from core concepts to advanced production patterns.
 

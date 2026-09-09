@@ -1,4 +1,4 @@
-*** copy 13a-dashboard-page.md ***
+***  13a-dashboard-page.md ***
 
 # Spec 13A — Dashboard Page
 

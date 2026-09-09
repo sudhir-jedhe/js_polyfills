@@ -1,4 +1,4 @@
-*** copy 02-duplicate-content-from-url-parameters.md ***
+***  02-duplicate-content-from-url-parameters.md ***
 
 # Scenario: Search Rankings Dropped After Adding Filter/Sort URL Parameters
 

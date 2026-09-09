@@ -1,4 +1,4 @@
-*** copy 02-object-reassignment-inside-function.md ***
+***  02-object-reassignment-inside-function.md ***
 
 # Reassigning an Object Parameter Inside a Function
 

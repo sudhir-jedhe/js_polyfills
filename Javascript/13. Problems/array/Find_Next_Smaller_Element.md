@@ -1,4 +1,4 @@
-*** copy Find_Next_Smaller_Element.md ***
+***  Find_Next_Smaller_Element.md ***
 
 ```js
 /*

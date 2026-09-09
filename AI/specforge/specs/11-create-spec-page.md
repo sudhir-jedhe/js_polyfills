@@ -1,4 +1,4 @@
-*** copy 11-create-spec-page.md ***
+***  11-create-spec-page.md ***
 
 # Spec 11 — Create Spec Page
 

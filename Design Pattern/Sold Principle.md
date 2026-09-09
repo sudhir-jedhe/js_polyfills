@@ -1,4 +1,4 @@
-*** copy Sold Principle.md ***
+***  Sold Principle.md ***
 
 # SOLID Principles in JavaScript
 

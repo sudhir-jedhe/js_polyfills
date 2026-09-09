@@ -1,4 +1,4 @@
-*** copy  Explain why props changing is technically a symptom, not a trigger.md ***
+***   Explain why props changing is technically a symptom, not a trigger.md ***
 
 In React, a component **never re-renders simply because its props changed**. Instead, a prop change is a **symptom (downstream result)** of an ancestor component having already triggered and executed a re-render.
 

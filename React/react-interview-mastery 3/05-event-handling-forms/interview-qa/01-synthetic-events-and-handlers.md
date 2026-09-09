@@ -1,4 +1,4 @@
-*** copy 01-synthetic-events-and-handlers.md ***
+***  01-synthetic-events-and-handlers.md ***
 
 # Interview Q&A: SyntheticEvent & Handlers in Function Components
 

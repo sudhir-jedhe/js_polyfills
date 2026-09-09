@@ -1,4 +1,4 @@
-*** copy NAN.md ***
+***  NAN.md ***
 
 In JavaScript, `NaN` (Not-a-Number) is a special value that represents an invalid or unrepresentable number. It has some unique properties, most notably:
 

@@ -1,4 +1,4 @@
-*** copy PromisePool .md ***
+***  PromisePool .md ***
 
 ```js
 class PromisePool {

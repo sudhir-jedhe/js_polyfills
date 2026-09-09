@@ -1,4 +1,4 @@
-*** copy IFFE function.md ***
+***  IFFE function.md ***
 
 Here are examples of IIFEs (Immediately Invoked Function Expressions) with explanations:
 

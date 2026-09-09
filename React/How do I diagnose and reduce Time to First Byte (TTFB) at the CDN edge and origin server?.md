@@ -1,4 +1,4 @@
-*** copy How do I diagnose and reduce Time to First Byte (TTFB) at the CDN edge and origin server?.md ***
+***  How do I diagnose and reduce Time to First Byte (TTFB) at the CDN edge and origin server?.md ***
 
 **Time to First Byte (TTFB)** measures the duration between the browser initiating a request for the document and receiving the very first byte of the response. For a "Good" user experience, Google's Core Web Vitals targets a **$\text{TTFB} \le 800\text{ms}$** (ideally $< 200\text{ms}$ on cached edge hits).
 

@@ -1,4 +1,4 @@
-*** copy OrderedStream.md ***
+***  OrderedStream.md ***
 
 ```js
 class OrderedStream {

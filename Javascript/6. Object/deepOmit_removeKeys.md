@@ -1,4 +1,4 @@
-*** copy deepOmit_removeKeys.md ***
+***  deepOmit_removeKeys.md ***
 
 If you'd like to preserve the original object and not modify it directly while removing the specified keys, you can create a deep copy of the object first. This way, any modifications are made on the copy, leaving the original object unchanged.
 

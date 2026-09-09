@@ -1,4 +1,4 @@
-*** copy array.md ***
+***copy array.md***
 
 Here are **5 advanced, scenario-based JavaScript Array interview questions** designed for Senior/Staff Engineer levels. These cover crucial topics like array mutation vs. non-mutation, sparse arrays, custom sorting traps, prototype pollution/overriding, and the performance differences between iterative methods.
 

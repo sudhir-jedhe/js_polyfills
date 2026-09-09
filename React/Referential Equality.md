@@ -1,4 +1,4 @@
-*** copy Referential Equality.md ***
+***  Referential Equality.md ***
 
 This is a classic **Atlassian interview question** that tests understanding of **Referential Equality (Object/Array reference identity)** in React.
 

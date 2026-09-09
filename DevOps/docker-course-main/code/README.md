@@ -1,4 +1,4 @@
-*** copy README.md ***
+***  README.md ***
 
 # MERN Demo App for Docker Course
 

@@ -1,4 +1,4 @@
-*** copy How do I create reusable custom utilities using the @utility directive in Tailwind CSS v4?.md ***
+***  How do I create reusable custom utilities using the @utility directive in Tailwind CSS v4?.md ***
 
 In Tailwind CSS v4, custom utility classes are registered using the **`@utility`** directive directly in your CSS.
 

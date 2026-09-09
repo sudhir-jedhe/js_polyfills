@@ -1,4 +1,4 @@
-*** copy 01-zero-badge-renders-literally.md ***
+***  01-zero-badge-renders-literally.md ***
 
 # Output-Based: `count && <Component/>` with `count={0}`
 

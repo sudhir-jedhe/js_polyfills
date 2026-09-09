@@ -1,4 +1,4 @@
-*** copy What is mean by rendering in react.md ***
+***  What is mean by rendering in react.md ***
 
 **Rendering** in React is the process where React calls your component functions to determine what the user interface (UI) should look like based on current props and state.
 

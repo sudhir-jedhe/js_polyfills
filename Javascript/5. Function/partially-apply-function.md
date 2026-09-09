@@ -1,4 +1,4 @@
-*** copy partially-apply-function.md ***
+***  partially-apply-function.md ***
 
 You've outlined two useful concepts: **partial application** (both left and right) of functions in JavaScript, using the spread operator (`...`). Let's break these down:
 

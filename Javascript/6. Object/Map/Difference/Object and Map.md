@@ -1,4 +1,4 @@
-*** copy Object and Map.md ***
+***  Object and Map.md ***
 
 Objects and Maps in JavaScript are both used to store key-value pairs. However, as outlined, there are significant differences between them that make Maps more suitable in certain situations. Let's explore these differences with code examples for clarity:
 

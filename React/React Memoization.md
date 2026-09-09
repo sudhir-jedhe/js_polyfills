@@ -1,4 +1,4 @@
-*** copy React Memoization.md ***
+***  React Memoization.md ***
 
 ### **React Memoization**
 

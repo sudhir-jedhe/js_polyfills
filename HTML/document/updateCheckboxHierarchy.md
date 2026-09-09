@@ -1,4 +1,4 @@
-*** copy updateCheckboxHierarchy.md ***
+***  updateCheckboxHierarchy.md ***
 
 ```js
 function updateCheckboxHierarchy(event) {

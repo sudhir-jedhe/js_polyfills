@@ -1,4 +1,4 @@
-*** copy React Compiler: Will It Replace Manual Optimization?.md ***
+***  React Compiler: Will It Replace Manual Optimization?.md ***
 
 **Short answer: Yes, for routine memoization — but no, for holistic application architecture.**
 

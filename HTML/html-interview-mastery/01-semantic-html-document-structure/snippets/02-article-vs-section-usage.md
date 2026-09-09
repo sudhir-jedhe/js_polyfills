@@ -1,4 +1,4 @@
-*** copy 02-article-vs-section-usage.md ***
+***  02-article-vs-section-usage.md ***
 
 # Snippet: `<article>` vs. `<section>` in Practice
 

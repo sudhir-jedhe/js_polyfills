@@ -1,4 +1,4 @@
-*** copy construct2DArray.md ***
+***  construct2DArray.md ***
 
 This is a solution to the **LeetCode 2022: Convert 1D Array Into 2D Array** problem.
 

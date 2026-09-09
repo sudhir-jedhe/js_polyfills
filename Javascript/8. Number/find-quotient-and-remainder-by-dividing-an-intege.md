@@ -1,4 +1,4 @@
-*** copy find-quotient-and-remainder-by-dividing-an-intege.md ***
+***  find-quotient-and-remainder-by-dividing-an-intege.md ***
 
 All three implementations demonstrate how to calculate the quotient and remainder of the division of two numbers, \( a \) and \( b \), using different methods to find the quotient. Here's a breakdown:
 

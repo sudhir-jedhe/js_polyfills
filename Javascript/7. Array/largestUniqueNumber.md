@@ -1,4 +1,4 @@
-*** copy largestUniqueNumber.md ***
+***  largestUniqueNumber.md ***
 
 ### Problem Explanation:
 The task is to find the **largest unique number** from a given array of numbers. A unique number is one that appears exactly once in the array. If no unique numbers exist, the function should return `-1`.

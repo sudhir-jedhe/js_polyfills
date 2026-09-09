@@ -1,4 +1,4 @@
-*** copy Automating the Git Workflow.md ***
+***  Automating the Git Workflow.md ***
 
 Automating your Git workflow is a major green flag in senior-level interviews. It shows you care about **Developer Experience (DX)** and know how to prevent human error before it reaches production.
 

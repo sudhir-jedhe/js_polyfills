@@ -1,4 +1,4 @@
-*** copy immutable-object-proxy.md ***
+***  immutable-object-proxy.md ***
 
 The concept of immutability in JavaScript, especially when dealing with objects, is essential for preventing unintended changes to the state of an object. While the `const` keyword prevents reassignment of variables, it **does not make the object itself immutable**. To create truly immutable objects, developers often use methods like `Object.freeze()`, but as you've mentioned, that approach can have limitations, particularly with deeply nested structures. A more flexible and powerful alternative is to use the `Proxy` object to enforce immutability.
 

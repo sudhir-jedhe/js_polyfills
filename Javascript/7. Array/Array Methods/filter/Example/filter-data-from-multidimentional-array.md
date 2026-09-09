@@ -1,4 +1,4 @@
-*** copy filter-data-from-multidimentional-array.md ***
+***  filter-data-from-multidimentional-array.md ***
 
 Here is the complete code with the functionality you described, including examples and their respective outputs:
 

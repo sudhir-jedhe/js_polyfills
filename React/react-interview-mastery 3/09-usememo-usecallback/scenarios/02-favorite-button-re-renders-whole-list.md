@@ -1,4 +1,4 @@
-*** copy 02-favorite-button-re-renders-whole-list.md ***
+***  02-favorite-button-re-renders-whole-list.md ***
 
 # Scenario: A "Favorite" Button Causes the Entire Parent List to Re-Render
 

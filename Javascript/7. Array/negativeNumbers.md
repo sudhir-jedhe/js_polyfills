@@ -1,4 +1,4 @@
-*** copy negativeNumbers.md ***
+***  negativeNumbers.md ***
 
 Here are the three most common ways to find negative numbers from an array in JavaScript, depending on what you need:
 

@@ -1,4 +1,4 @@
-*** copy 02-chat-autoscroll-too-early.md ***
+***  02-chat-autoscroll-too-early.md ***
 
 # Scenario: A chat app's auto-scroll-to-bottom feature scrolls too early, before new messages are painted
 

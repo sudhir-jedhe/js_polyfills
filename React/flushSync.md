@@ -1,4 +1,4 @@
-*** copy flushSync.md ***
+***  flushSync.md ***
 
 ### What is `flushSync` in React?
 

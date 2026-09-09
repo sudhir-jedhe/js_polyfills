@@ -1,4 +1,4 @@
-*** copy replace-all-occurrences-of-a-string.md ***
+***  replace-all-occurrences-of-a-string.md ***
 
 ```js
 // Origin String

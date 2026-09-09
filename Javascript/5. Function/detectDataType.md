@@ -1,4 +1,4 @@
-*** copy detectDataType.md ***
+***  detectDataType.md ***
 
 ```js
 function detectType(data) {

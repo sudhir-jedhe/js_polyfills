@@ -1,4 +1,4 @@
-*** copy gymSesion.md ***
+***  gymSesion.md ***
 
 Here is the complete code implementing the `selectData` function and an example usage:
 

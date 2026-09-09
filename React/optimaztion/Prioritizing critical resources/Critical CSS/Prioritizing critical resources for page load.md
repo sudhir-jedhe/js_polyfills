@@ -1,4 +1,4 @@
-*** copy Prioritizing critical resources for page load.md ***
+***  Prioritizing critical resources for page load.md ***
 
 Prioritizing critical resources for page load is a key technique for optimizing website performance. The goal is to ensure that essential resources (CSS, JavaScript, images, etc.) required to render the page are loaded first and quickly, while non-essential resources can be loaded afterward or lazily to avoid blocking the rendering process. This reduces the time it takes for the page to become interactive and improves the user experience, particularly on slower networks or devices.
 

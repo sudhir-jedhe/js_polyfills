@@ -1,4 +1,4 @@
-*** copy How does Webpack generate its runtime bootstrap code and manage chunk manifest caching across long-term builds?.md ***
+***  How does Webpack generate its runtime bootstrap code and manage chunk manifest caching across long-term builds?.md ***
 
 Webpack’s runtime is the small execution engine injected into the generated bundle. It defines the module registry, manages module resolution (`__webpack_require__`), coordinates chunk loading over the network, and maintains the **Chunk Manifest**.
 

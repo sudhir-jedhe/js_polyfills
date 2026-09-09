@@ -1,4 +1,4 @@
-*** copy 02-prop-drilling-refactor-with-composition.md ***
+***  02-prop-drilling-refactor-with-composition.md ***
 
 # Problem: Demonstrate Prop Drilling Through 3 Layers, Then Refactor It Away With Composition
 

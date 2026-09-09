@@ -1,4 +1,4 @@
-*** copy asyncAwait vs promise.md ***
+***  asyncAwait vs promise.md ***
 
 In JavaScript, **Promises** are the foundation for handling asynchronous operations, while **`async` / `await**` is modern syntax built on top of Promises to make asynchronous code look and behave like synchronous code.
 

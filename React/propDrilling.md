@@ -1,4 +1,4 @@
-*** copy propDrilling.md ***
+***  propDrilling.md ***
 
 Prop Drilling is a React problem where data is passed from a parent component to a deeply nested child component through multiple intermediate components that don't actually use the data.
 

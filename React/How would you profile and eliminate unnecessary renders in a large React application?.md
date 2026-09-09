@@ -1,4 +1,4 @@
-*** copy How would you profile and eliminate unnecessary renders in a large React application?.md ***
+***  How would you profile and eliminate unnecessary renders in a large React application?.md ***
 
 Eliminating unnecessary re-renders in a large application requires a diagnostic-first workflow: measure real bottlenecks, identify root causes, and apply structural fixes before defaulting to low-level memoization.
 

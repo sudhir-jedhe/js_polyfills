@@ -1,4 +1,4 @@
-*** copy infinite_scroll_feed.md ***
+***  infinite_scroll_feed.md ***
 
 Your implementation of the `FeedApp` class with infinite scrolling logic looks good overall. However, there are a couple of points and improvements you could consider to ensure smoother functioning of the app. Below are some suggestions and improvements to the existing code:
 

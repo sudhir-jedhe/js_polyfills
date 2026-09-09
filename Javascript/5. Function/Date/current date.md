@@ -1,4 +1,4 @@
-*** copy current date.md ***
+***  current date.md ***
 
 The code you provided generates the current date in the format `MM/DD/YYYY`, where:
 

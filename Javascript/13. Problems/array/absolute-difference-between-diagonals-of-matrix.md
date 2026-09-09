@@ -1,4 +1,4 @@
-*** copy absolute-difference-between-diagonals-of-matrix.md ***
+***  absolute-difference-between-diagonals-of-matrix.md ***
 
 ```js
 Input:

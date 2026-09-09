@@ -1,4 +1,4 @@
-*** copy syncVsAsync.md ***
+***  syncVsAsync.md ***
 
 ### What are Async and Sync Operations in JavaScript?
 

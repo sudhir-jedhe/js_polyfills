@@ -1,4 +1,4 @@
-*** copy React advantage and disadvatage.md ***
+***  React advantage and disadvatage.md ***
 
 React has become one of the most popular libraries for building user interfaces due to its numerous advantages. Here are the key benefits of using React:
 

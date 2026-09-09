@@ -1,4 +1,4 @@
-*** copy cssSpecificity.md ***
+***  cssSpecificity.md ***
 
 CSS specificity is the algorithm browsers use to decide **which style rule wins** when multiple conflicting CSS rules target the same element.
 

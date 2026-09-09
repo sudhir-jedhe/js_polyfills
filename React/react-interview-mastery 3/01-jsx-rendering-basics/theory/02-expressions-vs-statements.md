@@ -1,4 +1,4 @@
-*** copy 02-expressions-vs-statements.md ***
+***  02-expressions-vs-statements.md ***
 
 # Expressions vs. Statements Inside JSX
 

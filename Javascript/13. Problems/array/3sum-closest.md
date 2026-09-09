@@ -1,4 +1,4 @@
-*** copy 3sum-closest.md ***
+***  3sum-closest.md ***
 
 ```js
 Input:

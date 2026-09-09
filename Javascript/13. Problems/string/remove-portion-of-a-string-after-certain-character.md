@@ -1,4 +1,4 @@
-*** copy remove-portion-of-a-string-after-certain-character.md ***
+***  remove-portion-of-a-string-after-certain-character.md ***
 
 ```js
 function GFG_click(s) {

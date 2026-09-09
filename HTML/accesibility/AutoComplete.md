@@ -1,4 +1,4 @@
-*** copy AutoComplete.md ***
+***  AutoComplete.md ***
 
 # Accessible Autocomplete (Combobox) in React
 

@@ -1,4 +1,4 @@
-*** copy rules MDC file for modern React and TypeScript best practices.md ***
+***  rules MDC file for modern React and TypeScript best practices.md ***
 
 Here is a production-ready, comprehensive `.cursor/rules` `.mdc` file designed for modern React 19, TypeScript, and Next.js / React Server Components environments.
 

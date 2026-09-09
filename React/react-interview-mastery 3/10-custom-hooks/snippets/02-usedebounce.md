@@ -1,4 +1,4 @@
-*** copy 02-usedebounce.md ***
+***  02-usedebounce.md ***
 
 # Snippet: useDebounce — Delay Reacting to a Fast-Changing Value
 

@@ -1,2 +1,2 @@
-*** copy Promise retry.md ***
+***  Promise retry.md ***
 

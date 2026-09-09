@@ -1,4 +1,4 @@
-*** copy closure works.md ***
+***  closure works.md ***
 
 A **closure** is the combination of a function bundled together with references to its surrounding state (**lexical environment**). It allows an inner function to access variables from an enclosing scope even after the parent function has finished executing.
 

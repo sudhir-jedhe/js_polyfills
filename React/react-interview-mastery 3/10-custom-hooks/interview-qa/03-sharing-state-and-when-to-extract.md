@@ -1,4 +1,4 @@
-*** copy 03-sharing-state-and-when-to-extract.md ***
+***  03-sharing-state-and-when-to-extract.md ***
 
 # Interview Q&A: Sharing State and When to Extract a Hook
 

@@ -1,4 +1,4 @@
-*** copy What is the difference between link rel='preload', link rel='prefetch', and script defer?.md ***
+***  What is the difference between link rel='preload', link rel='prefetch', and script defer?.md ***
 
 The main difference comes down to **intent** and **lifecycle scope**: `<link rel="preload">` is for critical resources needed for the **current** page immediately; `<link rel="prefetch">` is for speculative resources needed for the **next** navigation; and `<script defer>` is an execution directive for JavaScript on the **current** page.
 

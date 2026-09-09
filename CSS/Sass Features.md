@@ -1,4 +1,4 @@
-*** copy Sass Features.md ***
+***  Sass Features.md ***
 
 Sass (Syntactically Awesome Stylesheets) is a CSS preprocessor that extends CSS with powerful features to make styling more efficient and maintainable. Here are some key features of Sass:
 

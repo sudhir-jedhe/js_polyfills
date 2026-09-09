@@ -1,4 +1,4 @@
-*** copy Refference Error.md ***
+***  Refference Error.md ***
 
 A **`ReferenceError`** in JavaScript is thrown when your code attempts to access a variable that has not been declared or is not currently accessible in the current scope. It is the JavaScript engine's way of saying, "I don't know what this identifier refers to."
 

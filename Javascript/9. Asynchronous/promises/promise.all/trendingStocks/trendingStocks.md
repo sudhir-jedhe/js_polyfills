@@ -1,4 +1,4 @@
-*** copy trendingStocks.md ***
+***  trendingStocks.md ***
 
 ```js
 async function trendingStocks(n) {

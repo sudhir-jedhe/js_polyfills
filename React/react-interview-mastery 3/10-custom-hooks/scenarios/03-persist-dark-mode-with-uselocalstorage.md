@@ -1,4 +1,4 @@
-*** copy 03-persist-dark-mode-with-uselocalstorage.md ***
+***  03-persist-dark-mode-with-uselocalstorage.md ***
 
 # Scenario: A Dark Mode Preference Resets on Every Page Reload
 

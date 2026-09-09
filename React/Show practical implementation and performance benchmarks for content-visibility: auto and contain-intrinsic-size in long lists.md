@@ -1,4 +1,4 @@
-*** copy Show practical implementation and performance benchmarks for content-visibility: auto and contain-intrinsic-size in long lists.md ***
+***  Show practical implementation and performance benchmarks for content-visibility: auto and contain-intrinsic-size in long lists.md ***
 
 ### Practical Implementation: Long Feed Optimization
 

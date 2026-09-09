@@ -1,4 +1,4 @@
-*** copy shortest-common-supersequence.md ***
+***  shortest-common-supersequence.md ***
 
 ```js
 /*

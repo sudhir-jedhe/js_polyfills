@@ -1,4 +1,4 @@
-*** copy What is AWS - Traditional VS Cloud Computing - Why Cloud Computing.md ***
+***  What is AWS - Traditional VS Cloud Computing - Why Cloud Computing.md ***
 
 ## 1. What is Cloud Computing & AWS?
 

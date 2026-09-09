@@ -1,4 +1,4 @@
-*** copy Adaptive loading.md ***
+***  Adaptive loading.md ***
 
 https://learnersbucket.com/examples/javascript/adaptive-loading-progressively-improve-web-performance/
 

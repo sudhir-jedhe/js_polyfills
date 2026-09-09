@@ -1,4 +1,4 @@
-*** copy find-minimum-rotations-required-to-get-the-same-string.md ***
+***  find-minimum-rotations-required-to-get-the-same-string.md ***
 
 ```js
 // Input: str = "geeks"

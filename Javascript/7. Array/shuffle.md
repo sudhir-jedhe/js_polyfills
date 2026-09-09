@@ -1,4 +1,4 @@
-*** copy shuffle.md ***
+***  shuffle.md ***
 
 ### Explanation of Shuffling Techniques in JavaScript
 

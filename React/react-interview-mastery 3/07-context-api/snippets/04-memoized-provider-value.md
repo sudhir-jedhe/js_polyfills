@@ -1,4 +1,4 @@
-*** copy 04-memoized-provider-value.md ***
+***  04-memoized-provider-value.md ***
 
 # Snippet: Memoizing the provider value to avoid a new object every render
 

@@ -1,4 +1,4 @@
-*** copy 01-three-direct-updates-only-increment-once.md ***
+***  01-three-direct-updates-only-increment-once.md ***
 
 # What Does the Button Show After One Click?
 

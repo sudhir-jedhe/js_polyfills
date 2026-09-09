@@ -1,4 +1,4 @@
-*** copy What is the difference between controlled and uncontrolled components in React forms?.md ***
+***  What is the difference between controlled and uncontrolled components in React forms?.md ***
 
 In React, the difference between **controlled** and **uncontrolled** components comes down to **where the form data's state lives**.
 

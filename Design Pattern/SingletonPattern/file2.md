@@ -1,4 +1,4 @@
-*** copy file2.md ***
+***  file2.md ***
 
 import singletonCounter from "./Counter";
 

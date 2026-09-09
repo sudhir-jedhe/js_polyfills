@@ -1,4 +1,4 @@
-*** copy stack-with-max-and-min-function.md ***
+***  stack-with-max-and-min-function.md ***
 
 ```js
 Input:

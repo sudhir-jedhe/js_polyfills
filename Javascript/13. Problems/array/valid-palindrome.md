@@ -1,4 +1,4 @@
-*** copy valid-palindrome.md ***
+***  valid-palindrome.md ***
 
 ```js
 "abca";

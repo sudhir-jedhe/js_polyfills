@@ -1,4 +1,4 @@
-*** copy basicjs.md ***
+***  basicjs.md ***
 
 ### 1. **Event Delegation**
 

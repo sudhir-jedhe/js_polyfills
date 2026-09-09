@@ -1,4 +1,4 @@
-*** copy classArray.md ***
+***  classArray.md ***
 
 # Array class
 

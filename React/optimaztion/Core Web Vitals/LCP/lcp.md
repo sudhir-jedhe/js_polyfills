@@ -1,4 +1,4 @@
-*** copy lcp.md ***
+***  lcp.md ***
 
 **Largest Contentful Paint (LCP)** is a core Web Vitals metric that measures perceived loading speed. It marks the point in the page load timeline when the main content of a web page has likely rendered on the screen.
 

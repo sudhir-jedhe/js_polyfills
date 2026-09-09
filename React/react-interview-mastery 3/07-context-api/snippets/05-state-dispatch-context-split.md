@@ -1,4 +1,4 @@
-*** copy 05-state-dispatch-context-split.md ***
+***  05-state-dispatch-context-split.md ***
 
 # Snippet: Splitting state and dispatch contexts
 

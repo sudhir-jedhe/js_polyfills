@@ -1,4 +1,4 @@
-*** copy setTimeOut.md ***
+***  setTimeOut.md ***
 
 Let's break down each of the code snippets and explain how they work:
 

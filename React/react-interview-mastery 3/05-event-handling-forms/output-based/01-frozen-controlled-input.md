@@ -1,4 +1,4 @@
-*** copy 01-frozen-controlled-input.md ***
+***  01-frozen-controlled-input.md ***
 
 # Output-Based: What does typing "hi" into the input show?
 

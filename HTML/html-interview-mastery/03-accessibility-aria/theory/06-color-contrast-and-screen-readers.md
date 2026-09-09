@@ -1,4 +1,4 @@
-*** copy 06-color-contrast-and-screen-readers.md ***
+***  06-color-contrast-and-screen-readers.md ***
 
 # Color Contrast Basics and Screen Reader Considerations
 

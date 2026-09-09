@@ -1,4 +1,4 @@
-*** copy multi-step wizard form.md ***
+***  multi-step wizard form.md ***
 
 Building a scalable multi-step wizard form requires decoupling each step's validation schema while maintaining a single, unified form state across navigation steps.
 

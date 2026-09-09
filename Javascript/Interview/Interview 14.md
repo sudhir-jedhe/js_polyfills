@@ -1,4 +1,4 @@
-*** copy Interview 14.md ***
+***  Interview 14.md ***
 
 Frontend system design interviews evaluate how you manage complexity, concurrency, network constraints, and client-side performance. Senior interview loops frequently expect working implementations of these patterns rather than high-level diagrams alone.
 

@@ -1,4 +1,4 @@
-*** copy How do React Server Components handle preinit and preinitModule during streaming SSR?.md ***
+***  How do React Server Components handle preinit and preinitModule during streaming SSR?.md ***
 
 During streaming Server-Side Rendering (SSR) with React Server Components (RSC), `preinit` and `preinitModule` act as **early discovery mechanisms**. They allow the server to discover required external scripts and stylesheets during the component rendering pass on the server and stream the corresponding `<script>` or `<link>` tags directly to the browser before the component’s HTML content even finishes streaming.
 

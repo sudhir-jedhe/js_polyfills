@@ -1,4 +1,4 @@
-*** copy How to Deploy a React JS Application?.md ***
+***  How to Deploy a React JS Application?.md ***
 
 Building a React application is only half the job. The next step is **Deployment**—making your app available for users around the world.
 

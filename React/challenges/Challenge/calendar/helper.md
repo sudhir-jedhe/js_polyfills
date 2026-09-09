@@ -1,4 +1,4 @@
-*** copy helper.md ***
+***  helper.md ***
 
 const MONTHS = [
   'January',

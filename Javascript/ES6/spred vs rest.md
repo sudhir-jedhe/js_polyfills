@@ -1,4 +1,4 @@
-*** copy spred vs rest.md ***
+***  spred vs rest.md ***
 
 The **spread operator** and the **rest parameter** use the exact same three-dot syntax (`...`) in JavaScript, but they are complete opposites in how they function.
 

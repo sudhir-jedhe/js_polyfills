@@ -1,4 +1,4 @@
-*** copy frontEndSecurity.md ***
+***  frontEndSecurity.md ***
 
 ✅ 7 Common Front End security attacks:
 

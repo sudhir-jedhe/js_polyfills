@@ -1,4 +1,4 @@
-*** copy 10-specs-list-page-polling.md ***
+***  10-specs-list-page-polling.md ***
 
 # Spec 10 — Specs List Page and Polling
 

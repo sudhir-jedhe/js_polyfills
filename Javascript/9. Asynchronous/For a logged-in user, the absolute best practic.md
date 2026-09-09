@@ -1,4 +1,4 @@
-*** copy For a logged-in user, the absolute best practic.md ***
+***  For a logged-in user, the absolute best practic.md ***
 
 For a **logged-in user**, the absolute best practice is to store the shopping cart data in a **Backend Database**.
 

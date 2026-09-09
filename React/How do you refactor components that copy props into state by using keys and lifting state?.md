@@ -1,4 +1,4 @@
-*** copy How do you refactor components that copy props into state by using keys and lifting state?.md ***
+***  How do you refactor components that copy props into state by using keys and lifting state?.md ***
 
 Copying props into state (e.g., `const [email, setEmail] = useState(props.initialEmail)`) is a common source of synchronization bugs in React. When the parent passes a new prop, the child component ignores it because `useState` only initializes state on the component's initial mount.
 

@@ -1,4 +1,4 @@
-*** copy counter.md ***
+***  counter.md ***
 
 ### Task Overview
 

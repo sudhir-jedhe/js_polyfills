@@ -1,4 +1,4 @@
-*** copy useNetworkState.md ***
+***  useNetworkState.md ***
 
 Here is a production-ready `useNetworkState` React hook that tracks detailed browser connection metrics using the Network Information API (`navigator.connection`) and `useSyncExternalStore` (React 18+).
 

@@ -1,4 +1,4 @@
-*** copy mapString .md ***
+***  mapString .md ***
 
 Apply a mapping function to each character in a JavaScript string
 

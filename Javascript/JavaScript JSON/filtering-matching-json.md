@@ -1,4 +1,4 @@
-*** copy filtering-matching-json.md ***
+***  filtering-matching-json.md ***
 
 Here is the full code, including additional examples and explanations, for filtering JSON data using the `findMatches` function:
 

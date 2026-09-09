@@ -1,4 +1,4 @@
-*** copy 05-section-5-production-ready-docker-images-concepts.md ***
+***  05-section-5-production-ready-docker-images-concepts.md ***
 
 # Section 5 — Production-Ready Docker Images — Concepts
 

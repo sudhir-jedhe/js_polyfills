@@ -1,4 +1,4 @@
-*** copy What are Semantic Tags in HTML.md ***
+***  What are Semantic Tags in HTML.md ***
 
 **What are Semantic Tags in HTML?**
 Semantic tags in HTML are elements that have a clear meaning both to the browser and the developer. They describe the content of a webpage in a way that makes sense in the context of the content they hold, rather than just serving as containers for structure or layout purposes.

@@ -1,4 +1,4 @@
-*** copy clamp.md ***
+***  clamp.md ***
 
 Here is the implementation and explanation of the `clamp` function:
 

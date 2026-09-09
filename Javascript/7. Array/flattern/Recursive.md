@@ -1,4 +1,4 @@
-*** copy Recursive.md ***
+***  Recursive.md ***
 
 ### **Solution 1: Using `reduce` and `concat` for Flattening**
 

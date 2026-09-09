@@ -1,4 +1,4 @@
-*** copy how vite working.md ***
+***  how vite working.md ***
 
 Vite radically speeds up web development by rethinking how code is served during development versus how it is bundled for production.
 

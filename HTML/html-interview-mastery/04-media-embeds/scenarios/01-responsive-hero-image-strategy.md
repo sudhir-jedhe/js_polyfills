@@ -1,4 +1,4 @@
-*** copy 01-responsive-hero-image-strategy.md ***
+***  01-responsive-hero-image-strategy.md ***
 
 # Scenario: Designing a Responsive Hero Image Strategy
 

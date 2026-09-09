@@ -1,4 +1,4 @@
-*** copy React Suspense.md ***
+***  React Suspense.md ***
 
 **React Suspense** is a core React mechanism that lets components declaratively "wait" for something asynchronous—such as fetching data, loading code split bundles, or waiting for images—before rendering their UI.
 

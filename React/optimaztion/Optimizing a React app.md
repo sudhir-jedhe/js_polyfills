@@ -1,4 +1,4 @@
-*** copy Optimizing a React app.md ***
+***  Optimizing a React app.md ***
 
 Optimizing a React app is essential to ensure better performance, faster load times, and a smooth user experience. There are multiple strategies and techniques you can apply to optimize both the **build** and **runtime** performance of your React application.
 

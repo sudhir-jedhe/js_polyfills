@@ -1,4 +1,4 @@
-*** copy React Fiber Architecture.md ***
+***  React Fiber Architecture.md ***
 
 ### **React Fiber Architecture**
 

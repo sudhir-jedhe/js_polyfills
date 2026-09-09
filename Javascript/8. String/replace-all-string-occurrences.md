@@ -1,4 +1,4 @@
-*** copy replace-all-string-occurrences.md ***
+***  replace-all-string-occurrences.md ***
 
 ```js
 let str = 'I am prashant yadav';

@@ -1,4 +1,4 @@
-*** copy 07-replacestate-back-button-behavior.md ***
+***  07-replacestate-back-button-behavior.md ***
 
 # Output: Back Button Behavior After `replaceState`
 

@@ -1,4 +1,4 @@
-*** copy linearSearch .md ***
+***  linearSearch .md ***
 
 Linear search
 

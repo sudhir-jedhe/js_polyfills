@@ -1,4 +1,4 @@
-*** copy for-in-push.md ***
+***  for-in-push.md ***
 
 write a program to polyfill filter functionality of the Array
 filter iterates over the all values of array and passes value, index and array (itself) as the arguments

@@ -1,4 +1,4 @@
-*** copy Debugging.md ***
+***  Debugging.md ***
 
 The Debugging Mindset Every Frontend Developer Should Build !
 

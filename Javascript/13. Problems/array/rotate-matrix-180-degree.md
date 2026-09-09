@@ -1,4 +1,4 @@
-*** copy rotate-matrix-180-degree.md ***
+***  rotate-matrix-180-degree.md ***
 
 ```js
 // Input :  1  2  3

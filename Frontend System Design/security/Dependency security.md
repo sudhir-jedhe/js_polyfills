@@ -1,4 +1,4 @@
-*** copy Dependency security.md ***
+***  Dependency security.md ***
 
 In modern front-end system design, dependency security addresses supply chain risks—where an attacker compromises a third-party package (`npm`, `yarn`, `pnpm`) or hosted CDN script to execute malicious code within your users' browser runtime.
 

@@ -1,4 +1,4 @@
-*** copy 04-forwardref.md ***
+***  04-forwardref.md ***
 
 # forwardRef
 

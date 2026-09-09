@@ -1,4 +1,4 @@
-*** copy useBattery.md ***
+***  useBattery.md ***
 
 Here is a production-ready `useBattery` React hook using the Battery Status API (`navigator.getBattery`).
 

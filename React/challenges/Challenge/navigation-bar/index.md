@@ -1,4 +1,4 @@
-*** copy index.md ***
+***  index.md ***
 
 const burgerMenu = document.querySelector('.burger-menu');
 const navLinks = document.querySelector('.nav-links');

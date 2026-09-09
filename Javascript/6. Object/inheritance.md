@@ -1,4 +1,4 @@
-*** copy inheritance.md ***
+***  inheritance.md ***
 
 ### Object-Oriented Programming (OOP) - Classical vs Prototypal Inheritance
 

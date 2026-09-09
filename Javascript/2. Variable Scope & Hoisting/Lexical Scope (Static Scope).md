@@ -1,4 +1,4 @@
-*** copy Lexical Scope (Static Scope).md ***
+***  Lexical Scope (Static Scope).md ***
 
 **Lexical Scope** (also known as **Static Scope**) means that variable scope is determined by the **physical placement of functions and blocks in the source code at author time**, not where or how they are called at runtime.
 

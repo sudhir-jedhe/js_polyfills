@@ -1,4 +1,4 @@
-*** copy Iterative2.md ***
+***  Iterative2.md ***
 
 ### **Solution 2: Iterative Solution with `Array.prototype.some`**
 

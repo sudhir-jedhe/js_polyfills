@@ -1,4 +1,4 @@
-*** copy list.md ***
+***  list.md ***
 
 export const suggestionsList = [
   'Afghanistan',

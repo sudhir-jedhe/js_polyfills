@@ -1,4 +1,4 @@
-*** copy 01-primitives-reference-types-and-memory-qa.md ***
+***  01-primitives-reference-types-and-memory-qa.md ***
 
 # Interview Q&A — Primitives, Reference Types, and Memory
 

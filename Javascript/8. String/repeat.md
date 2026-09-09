@@ -1,4 +1,4 @@
-*** copy repeat.md ***
+***  repeat.md ***
 
 ```js
 /****************************How to implement String.prototype.repeat********************* */

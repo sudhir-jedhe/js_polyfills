@@ -1,4 +1,4 @@
-*** copy Explain the four caching layers in Next.js App Router (Request Memoization, Data Cache, Full Route Cache, Router Cache).md ***
+***  Explain the four caching layers in Next.js App Router (Request Memoization, Data Cache, Full Route Cache, Router Cache).md ***
 
 The Next.js App Router relies on **four distinct, interlocking caching layers** to minimize network roundtrips, reduce database queries, and deliver pre-rendered HTML/RSC payloads instantly.
 

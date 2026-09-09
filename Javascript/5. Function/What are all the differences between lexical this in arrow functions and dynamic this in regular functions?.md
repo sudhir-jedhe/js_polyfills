@@ -1,4 +1,4 @@
-*** copy What are all the differences between lexical this in arrow functions and dynamic this in regular functions?.md ***
+***  What are all the differences between lexical this in arrow functions and dynamic this in regular functions?.md ***
 
 The fundamental difference between regular functions and arrow functions is that **regular functions define their own `this` binding dynamically at runtime (call site)**, whereas **arrow functions do not possess a `this` binding at all—they inherit `this` lexically from their enclosing parent scope (author site)**.
 

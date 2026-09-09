@@ -1,4 +1,4 @@
-*** copy generatots.md ***
+***  generatots.md ***
 
 In JavaScript, **Generator functions** (`function*`) are special functions that can be **paused and resumed** during execution.
 

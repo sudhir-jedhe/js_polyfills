@@ -1,4 +1,4 @@
-*** copy convertToSlug.md ***
+***  convertToSlug.md ***
 
 ```js
 convertToSlug("This is an example string"); // Output: "this-is-an-example-string"

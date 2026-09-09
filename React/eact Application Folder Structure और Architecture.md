@@ -1,4 +1,4 @@
-*** copy eact Application Folder Structure और Architecture.md ***
+***  eact Application Folder Structure और Architecture.md ***
 
 Here is the complete, professional breakdown of an **Enterprise React Application Architecture and Folder Structure** in English, structured specifically for a Senior/Lead Front-End Developer interview.
 

@@ -1,4 +1,4 @@
-*** copy Why React Hooks.md ***
+***  Why React Hooks.md ***
 
 Why React Hooks?
 Hooks are a new addition to React 16.8 to provide state management and side-effects in function components.

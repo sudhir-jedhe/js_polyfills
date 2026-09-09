@@ -1,4 +1,4 @@
-*** copy 04-void-element-closing-tag-parsing.md ***
+***  04-void-element-closing-tag-parsing.md ***
 
 # Output: Closing a Void Element
 

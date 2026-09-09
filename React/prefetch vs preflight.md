@@ -1,4 +1,4 @@
-*** copy prefetch vs preflight.md ***
+***  prefetch vs preflight.md ***
 
 When you make HTTP requests using **`prefetch`** and **`preflight`**, you are dealing with two different concepts in the context of web performance and security. Here's an explanation of both:
 

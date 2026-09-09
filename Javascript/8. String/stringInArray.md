@@ -1,4 +1,4 @@
-*** copy stringInArray.md ***
+***  stringInArray.md ***
 
 ```js
 let str = "learnersbucket";

@@ -1,4 +1,4 @@
-*** copy generate-all-combinations-of-a-string.md ***
+***  generate-all-combinations-of-a-string.md ***
 
 ```js
 let possibleCombinations = (str) => {

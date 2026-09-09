@@ -1,4 +1,4 @@
-*** copy React's Layout Phase: Ref Attachments & useLayoutEffect.md ***
+***  React's Layout Phase: Ref Attachments & useLayoutEffect.md ***
 
 Here is a clean, structured technical reference guide breaking down the **Layout Phase**, ref binding guarantees, and why `useLayoutEffect` operates as a synchronous pre-paint circuit breaker.
 

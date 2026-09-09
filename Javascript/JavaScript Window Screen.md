@@ -1,4 +1,4 @@
-*** copy JavaScript Window Screen.md ***
+***  JavaScript Window Screen.md ***
 
 The **`window.screen`** object (a child property of the global `window` object) provides metrics and details about the user's physical display monitor rather than the browser window itself.
 

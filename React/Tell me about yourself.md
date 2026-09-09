@@ -1,4 +1,4 @@
-*** copy Tell me about yourself.md ***
+***  Tell me about yourself.md ***
 
 Hi, I’m a Senior Front-End Developer with 8 years of experience specializing in React and modern JavaScript ecosystems. Over the years, I have built scalable, high-performance web applications, focus on responsive design, clean architecture, and seamless user experiences.
 

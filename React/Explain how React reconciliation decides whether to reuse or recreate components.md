@@ -1,4 +1,4 @@
-*** copy Explain how React reconciliation decides whether to reuse or recreate components.md ***
+***  Explain how React reconciliation decides whether to reuse or recreate components.md ***
 
 React’s **reconciliation** algorithm (often called the "Diffing" algorithm) determines how React updates the real DOM when state or props change.
 

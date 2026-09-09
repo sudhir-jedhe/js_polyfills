@@ -1,4 +1,4 @@
-*** copy Domain Operation Simulator.md ***
+***  Domain Operation Simulator.md ***
 
 # Domain Operation Simulator (Mini DNS System)
 

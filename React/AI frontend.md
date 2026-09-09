@@ -1,4 +1,4 @@
-*** copy AI frontend.md ***
+***  AI frontend.md ***
 
 Here is a complete, production-ready React application showcasing all 8 AI frontend paradigms. It runs in a modern, dark-themed SaaS workspace called **"OmniAI Workspace"** and features:
 

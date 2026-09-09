@@ -1,4 +1,4 @@
-*** copy implement-stack-and-queue-togethe.md ***
+***  implement-stack-and-queue-togethe.md ***
 
 class Deque {
   constructor(size) {

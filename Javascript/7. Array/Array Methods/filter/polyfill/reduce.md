@@ -1,4 +1,4 @@
-*** copy reduce.md ***
+***  reduce.md ***
 
 Both implementations showcase how to create a custom `filter` function using `reduce`. Here's a breakdown of each and how they work:
 

@@ -1,4 +1,4 @@
-*** copy 04-json-ld-for-product-page.md ***
+***  04-json-ld-for-product-page.md ***
 
 # Problem: Write JSON-LD Structured Data for a Product Page
 

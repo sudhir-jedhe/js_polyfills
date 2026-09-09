@@ -1,4 +1,4 @@
-*** copy 07-template-and-dialog-together.md ***
+***  07-template-and-dialog-together.md ***
 
 # Snippet: `<template>` for a List + `<dialog>` for Confirmation
 

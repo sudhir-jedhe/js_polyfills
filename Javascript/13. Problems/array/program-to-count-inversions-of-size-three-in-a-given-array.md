@@ -1,4 +1,4 @@
-*** copy program-to-count-inversions-of-size-three-in-a-given-array.md ***
+***  program-to-count-inversions-of-size-three-in-a-given-array.md ***
 
 ```js
 /*

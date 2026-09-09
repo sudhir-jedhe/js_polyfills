@@ -1,4 +1,4 @@
-*** copy ObsevableFrom.md ***
+***  ObsevableFrom.md ***
 
 Your code defines a function `from` that creates an **Observable** from various types of inputs, such as arrays, promises, iterable objects, or other Observables. Let's walk through the code, analyzing each part and how it works.
 

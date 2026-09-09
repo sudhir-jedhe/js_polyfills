@@ -1,4 +1,4 @@
-*** copy Functions vs. Class Components.md ***
+***  Functions vs. Class Components.md ***
 
 Here is a breakdown of how **Component Functions**, **Class Components**, **State**, and **Props** relate to each other in React.
 

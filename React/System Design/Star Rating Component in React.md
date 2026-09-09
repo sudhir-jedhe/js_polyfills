@@ -1,4 +1,4 @@
-*** copy Star Rating Component in React.md ***
+***  Star Rating Component in React.md ***
 
 # Star Rating Component in React
 

@@ -1,4 +1,4 @@
-*** copy Food Delivery Application.md ***
+***  Food Delivery Application.md ***
 
 Here is a complete, modern, production-ready full-stack **Food Delivery Application** built using the MERN stack (**MongoDB, Express, React, Node.js**) with Tailwind CSS, Stripe Payment integration, and Socket.io real-time order tracking.
 

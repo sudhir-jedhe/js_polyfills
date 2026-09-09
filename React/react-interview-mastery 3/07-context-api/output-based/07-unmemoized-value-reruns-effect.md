@@ -1,4 +1,4 @@
-*** copy 07-unmemoized-value-reruns-effect.md ***
+***  07-unmemoized-value-reruns-effect.md ***
 
 # Output-Based: Does an unmemoized context value re-run an effect that depends on it?
 

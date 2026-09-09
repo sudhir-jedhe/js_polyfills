@@ -1,4 +1,4 @@
-*** copy Suspense.md ***
+***  Suspense.md ***
 
 **`<Suspense>`** is a built-in React component that lets you display a fallback UI (like a loading spinner or skeleton) while its child component tree is waiting for something to load.
 

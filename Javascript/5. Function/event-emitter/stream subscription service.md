@@ -1,4 +1,4 @@
-*** copy stream subscription service.md ***
+***  stream subscription service.md ***
 
 Okay, let's build upon the previous explanation with some code examples that address the "Improvements and Considerations" I mentioned earlier. I'll show you how to:
 

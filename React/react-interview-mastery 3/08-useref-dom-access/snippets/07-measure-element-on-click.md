@@ -1,4 +1,4 @@
-*** copy 07-measure-element-on-click.md ***
+***  07-measure-element-on-click.md ***
 
 # Snippet: Reading an element's size after layout, without storing it in re-render-triggering state
 

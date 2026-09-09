@@ -1,4 +1,4 @@
-*** copy output.md ***
+***  output.md ***
 
 ```js
 Input:

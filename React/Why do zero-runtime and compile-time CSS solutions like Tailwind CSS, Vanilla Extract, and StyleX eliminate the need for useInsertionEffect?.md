@@ -1,4 +1,4 @@
-*** copy Why do zero-runtime and compile-time CSS solutions like Tailwind CSS, Vanilla Extract, and StyleX eliminate the need for useInsertionEffect?.md ***
+***  Why do zero-runtime and compile-time CSS solutions like Tailwind CSS, Vanilla Extract, and StyleX eliminate the need for useInsertionEffect?.md ***
 
 Zero-runtime and compile-time CSS solutions eliminate the need for `useInsertionEffect` because **they do not generate or inject CSS dynamically into the DOM during the JavaScript runtime**.
 

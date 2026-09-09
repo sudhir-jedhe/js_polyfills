@@ -1,4 +1,4 @@
-*** copy convert-map-to-object.md ***
+***  convert-map-to-object.md ***
 
 The code you provided is a great demonstration of how to **convert between Maps and Objects** in JavaScript. Let me explain both processes in detail.
 

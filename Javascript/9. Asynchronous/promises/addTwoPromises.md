@@ -1,4 +1,4 @@
-*** copy addTwoPromises.md ***
+***  addTwoPromises.md ***
 
 /*
 2723. Add Two Promises

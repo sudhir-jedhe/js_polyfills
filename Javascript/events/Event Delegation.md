@@ -1,4 +1,4 @@
-*** copy Event Delegation.md ***
+***  Event Delegation.md ***
 
 **Event Delegation** is a JavaScript pattern where a single event listener is attached to a parent element to manage events for all of its current and future child elements.
 

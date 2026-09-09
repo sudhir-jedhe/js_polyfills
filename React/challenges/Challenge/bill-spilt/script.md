@@ -1,4 +1,4 @@
-*** copy script.md ***
+***  script.md ***
 
 const amount = document.getElementById('amount');
 const tipButton = document.querySelectorAll('.btn');

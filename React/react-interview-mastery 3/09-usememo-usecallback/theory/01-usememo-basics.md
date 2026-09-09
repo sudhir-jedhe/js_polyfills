@@ -1,4 +1,4 @@
-*** copy 01-usememo-basics.md ***
+***  01-usememo-basics.md ***
 
 # useMemo: Caching a Computed Value
 

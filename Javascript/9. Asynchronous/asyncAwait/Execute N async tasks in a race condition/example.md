@@ -1,4 +1,4 @@
-*** copy example.md ***
+***  example.md ***
 
 Thank you for providing this detailed explanation of the race condition examples in JavaScript. I'll create a React component that demonstrates these concepts in a practical scenario, allowing users to visualize and interact with different race condition scenarios.
 

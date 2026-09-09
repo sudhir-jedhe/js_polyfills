@@ -1,4 +1,4 @@
-*** copy 03-file-upload-form-with-formdata.md ***
+***  03-file-upload-form-with-formdata.md ***
 
 # Scenario: Building a File Upload Form with Progress and Validation
 

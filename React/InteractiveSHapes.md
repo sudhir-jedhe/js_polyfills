@@ -1,4 +1,4 @@
-*** copy InteractiveSHapes.md ***
+***  InteractiveSHapes.md ***
 
 # Interactive Shape in React (Machine Coding / Frontend Interview)
 

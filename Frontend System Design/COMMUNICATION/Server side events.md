@@ -1,4 +1,4 @@
-*** copy Server side events.md ***
+***  Server side events.md ***
 
 Here is the English translation of the explanation on Server-Sent Events (SSE) in Front-End System Design:
 

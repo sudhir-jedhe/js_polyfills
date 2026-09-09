@@ -1,4 +1,4 @@
-*** copy 06-autocomplete-controlled-vs-uncontrolled.md ***
+***  06-autocomplete-controlled-vs-uncontrolled.md ***
 
 # Autocomplete, and Controlled vs. Uncontrolled Inputs
 

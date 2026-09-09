@@ -1,4 +1,4 @@
-*** copy React Fiber Traversal: Depth-First Search & Reconciliation Rules.md ***
+***  React Fiber Traversal: Depth-First Search & Reconciliation Rules.md ***
 
 Here is a clean, structured technical reference guide explaining React Fiber’s **Depth-First Traversal**, reconciliation rules, and the mechanics of interruptible traversal.
 

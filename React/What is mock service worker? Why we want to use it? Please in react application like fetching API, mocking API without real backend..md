@@ -1,4 +1,4 @@
-*** copy What is mock service worker? Why we want to use it? Please in react application like fetching API, mocking API without real backend..md ***
+***  What is mock service worker? Why we want to use it? Please in react application like fetching API, mocking API without real backend..md ***
 
 **Mock Service Worker (MSW)** is an API mocking library that uses the browser's **Service Worker API** to intercept actual outgoing network requests (`fetch` or `axios`) at the network layer and return mock responses.
 

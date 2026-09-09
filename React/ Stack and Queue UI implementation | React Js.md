@@ -1,4 +1,4 @@
-*** copy  Stack and Queue UI implementation | React Js.md ***
+***   Stack and Queue UI implementation | React Js.md ***
 
 An interactive visualizer comparing **Stack (LIFO — Last In, First Out)** and **Queue (FIFO — First In, First Out)** side-by-side with animated insertion/removal, fixed capacity limits, and operation trackers.
 

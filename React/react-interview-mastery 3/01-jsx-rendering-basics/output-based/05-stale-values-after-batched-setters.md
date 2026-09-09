@@ -1,4 +1,4 @@
-*** copy 05-stale-values-after-batched-setters.md ***
+***  05-stale-values-after-batched-setters.md ***
 
 # What Logs, and How Many Times?
 

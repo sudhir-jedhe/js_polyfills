@@ -1,4 +1,4 @@
-*** copy Telemetry Methodology.md ***
+***  Telemetry Methodology.md ***
 
 In **Front-End System Design**, **Telemetry Methodology** is the end-to-end framework for automatically measuring, capturing, transmitting, and analyzing real-time observational data—**metrics, logs, traces, and events**—from end-user browser sessions.
 

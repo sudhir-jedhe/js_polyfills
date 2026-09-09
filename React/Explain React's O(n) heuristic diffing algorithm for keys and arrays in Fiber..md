@@ -1,4 +1,4 @@
-*** copy Explain React's O(n) heuristic diffing algorithm for keys and arrays in Fiber..md ***
+***  Explain React's O(n) heuristic diffing algorithm for keys and arrays in Fiber..md ***
 
 React achieves an **$O(n)$** reconciliation complexity by employing two primary heuristics rather than computing a mathematically optimal minimum-edit tree distance (which runs in $O(n^3)$):
 

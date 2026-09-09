@@ -1,4 +1,4 @@
-*** copy interview repo.md ***
+***  interview repo.md ***
 
 <https://www.greatfrontend.com/blog/50-must-know-javascript-interview-questions-by-ex-interviewers>
 

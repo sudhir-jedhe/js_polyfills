@@ -1,4 +1,4 @@
-*** copy 06-debounced-search.md ***
+***  06-debounced-search.md ***
 
 # Snippet: Debouncing an input handler via useEffect cleanup
 

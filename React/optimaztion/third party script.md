@@ -1,4 +1,4 @@
-*** copy third party script.md ***
+***  third party script.md ***
 
 In modern web development, handling third-party scripts efficiently is crucial for ensuring the performance of your React app, especially to avoid blocking the main thread and degrading user experience. **Third-party scripts** (like analytics, ad services, widgets, social media embeds, etc.) can negatively impact performance by blocking the main thread, which is responsible for rendering content and responding to user interactions.
 

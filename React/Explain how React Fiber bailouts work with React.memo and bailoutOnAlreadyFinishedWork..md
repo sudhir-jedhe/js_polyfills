@@ -1,4 +1,4 @@
-*** copy Explain how React Fiber bailouts work with React.memo and bailoutOnAlreadyFinishedWork..md ***
+***  Explain how React Fiber bailouts work with React.memo and bailoutOnAlreadyFinishedWork..md ***
 
 React Fiber avoids unnecessary computation during the render phase by **bailing out**—skipping component execution and reusing existing Fiber subtrees.
 

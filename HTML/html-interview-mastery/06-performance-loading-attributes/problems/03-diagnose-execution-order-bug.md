@@ -1,4 +1,4 @@
-*** copy 03-diagnose-execution-order-bug.md ***
+***  03-diagnose-execution-order-bug.md ***
 
 # Problem: Diagnose and Fix a Script Execution-Order Bug
 

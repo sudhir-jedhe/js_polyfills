@@ -1,4 +1,4 @@
-*** copy customFlat.md ***
+***  customFlat.md ***
 
 Here is the complete translation and step-by-step solution to the depth-controlled array flattening challenge.
 

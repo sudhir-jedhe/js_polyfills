@@ -1,4 +1,4 @@
-*** copy find_index-from-a-json-object-with-value.md ***
+***  find_index-from-a-json-object-with-value.md ***
 
 ```js
 let data = [

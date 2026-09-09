@@ -1,4 +1,4 @@
-*** copy 04-new-object-same-value-still-rerenders.md ***
+***  04-new-object-same-value-still-rerenders.md ***
 
 # Output-Based: Does setting state with an equivalent-but-new object re-render an unrelated sibling?
 

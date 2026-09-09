@@ -1,4 +1,4 @@
-*** copy add two binary numbers.md ***
+***  add two binary numbers.md ***
 
 ```js
 let addBinary = (a, b) => {

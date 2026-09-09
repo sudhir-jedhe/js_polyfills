@@ -1,4 +1,4 @@
-*** copy routing.md ***
+***  routing.md ***
 
 ### Common Routing Interview Questions & Answers (React & Node.js)
 

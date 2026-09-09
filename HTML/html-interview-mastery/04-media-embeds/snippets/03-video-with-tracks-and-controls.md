@@ -1,4 +1,4 @@
-*** copy 03-video-with-tracks-and-controls.md ***
+***  03-video-with-tracks-and-controls.md ***
 
 # Snippet: `<video>` with Captions and Fallback Sources
 

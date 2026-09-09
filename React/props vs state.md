@@ -1,4 +1,4 @@
-*** copy props vs state.md ***
+***  props vs state.md ***
 
 In React, **`props`** and **`state`** are both used to manage data, but they serve different purposes and work in distinct ways. Understanding the difference between them is crucial for working with React components effectively.
 

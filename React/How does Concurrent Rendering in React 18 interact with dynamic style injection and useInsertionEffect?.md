@@ -1,4 +1,4 @@
-*** copy How does Concurrent Rendering in React 18 interact with dynamic style injection and useInsertionEffect?.md ***
+***  How does Concurrent Rendering in React 18 interact with dynamic style injection and useInsertionEffect?.md ***
 
 In React 18, **Concurrent Rendering** makes the render phase **asynchronous, interruptible, and repeatable**. React can start rendering a component tree, pause it to handle user input, discard in-flight work, or re-render a subtree multiple times before committing changes to the screen.
 

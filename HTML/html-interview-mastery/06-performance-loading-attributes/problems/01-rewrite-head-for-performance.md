@@ -1,4 +1,4 @@
-*** copy 01-rewrite-head-for-performance.md ***
+***  01-rewrite-head-for-performance.md ***
 
 # Problem: Rewrite a `<head>` for Performance
 

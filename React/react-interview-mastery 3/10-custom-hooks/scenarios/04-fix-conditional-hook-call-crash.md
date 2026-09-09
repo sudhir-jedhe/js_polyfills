@@ -1,4 +1,4 @@
-*** copy 04-fix-conditional-hook-call-crash.md ***
+***  04-fix-conditional-hook-call-crash.md ***
 
 # Scenario: A Custom Hook Crashes the App With "Rendered Fewer Hooks Than Expected"
 

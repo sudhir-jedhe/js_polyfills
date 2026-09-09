@@ -1,4 +1,4 @@
-*** copy what isarray.md ***
+***  what isarray.md ***
 
 # what is array
 1. list-like object

@@ -1,4 +1,4 @@
-*** copy Browser Local Storage Techniques.md ***
+***  Browser Local Storage Techniques.md ***
 
 In Front-End System Design, **Browser Local Storage Techniques** enable applications to persist state, cache API responses, and run offline without relying on a continuous server connection.
 

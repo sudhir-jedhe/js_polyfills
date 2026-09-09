@@ -1,4 +1,4 @@
-*** copy 06-lifting-state-up-for-siblings.md ***
+***  06-lifting-state-up-for-siblings.md ***
 
 # Lifting State Up So Two Siblings Stay in Sync
 

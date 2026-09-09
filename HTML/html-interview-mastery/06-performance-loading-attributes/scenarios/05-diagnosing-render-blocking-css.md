@@ -1,4 +1,4 @@
-*** copy 05-diagnosing-render-blocking-css.md ***
+***  05-diagnosing-render-blocking-css.md ***
 
 # Scenario: Diagnosing an App with a Long First-Paint Delay Caused by CSS
 

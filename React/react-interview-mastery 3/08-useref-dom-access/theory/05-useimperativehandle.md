@@ -1,4 +1,4 @@
-*** copy 05-useimperativehandle.md ***
+***  05-useimperativehandle.md ***
 
 # useImperativeHandle
 

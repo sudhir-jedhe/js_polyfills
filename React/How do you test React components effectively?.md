@@ -1,4 +1,4 @@
-*** copy How do you test React components effectively?.md ***
+***  How do you test React components effectively?.md ***
 
 Testing React components effectively requires a balanced strategy that prioritizes user-centric behavior over implementation details. The goal is to build confidence that your application works for end users while maintaining a resilient test suite that doesn't break when you refactor code.
 

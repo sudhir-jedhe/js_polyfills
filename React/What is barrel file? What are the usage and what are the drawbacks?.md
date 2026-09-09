@@ -1,4 +1,4 @@
-*** copy What is barrel file? What are the usage and what are the drawbacks?.md ***
+***  What is barrel file? What are the usage and what are the drawbacks?.md ***
 
 A **barrel file** is a single file (typically named `index.ts` or `index.js`) used to rollup and re-export exports from multiple distinct modules or components into a single centralized entry point.
 

@@ -1,4 +1,4 @@
-*** copy binarySearch.md ***
+***  binarySearch.md ***
 
 function bsearch(arr, l, r, x) {
     if (r >= l) {

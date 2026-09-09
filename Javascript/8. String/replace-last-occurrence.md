@@ -1,4 +1,4 @@
-*** copy replace-last-occurrence.md ***
+***  replace-last-occurrence.md ***
 
 ```js
 const replaceLast = (str, pattern, replacement) => {

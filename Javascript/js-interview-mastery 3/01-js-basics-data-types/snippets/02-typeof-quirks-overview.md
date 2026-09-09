@@ -1,4 +1,4 @@
-*** copy 02-typeof-quirks-overview.md ***
+***  02-typeof-quirks-overview.md ***
 
 # `typeof` Quirks in One Place
 

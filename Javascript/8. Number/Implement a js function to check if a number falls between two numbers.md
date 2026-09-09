@@ -1,4 +1,4 @@
-*** copy Implement a js function to check if a number falls between two numbers.md ***
+***  Implement a js function to check if a number falls between two numbers.md ***
 
 ### Explanation of the Code Snippets
 

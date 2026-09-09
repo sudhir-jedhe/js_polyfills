@@ -1,4 +1,4 @@
-*** copy sumOfMultiples.md ***
+***  sumOfMultiples.md ***
 
 The code you've written is a function `sumOfMultiples` that calculates the sum of all numbers up to `n` which are divisible by 3, 5, or 7.
 

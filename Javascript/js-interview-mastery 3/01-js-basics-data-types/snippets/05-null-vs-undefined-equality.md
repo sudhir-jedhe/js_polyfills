@@ -1,4 +1,4 @@
-*** copy 05-null-vs-undefined-equality.md ***
+***  05-null-vs-undefined-equality.md ***
 
 # `null` vs `undefined` Equality
 

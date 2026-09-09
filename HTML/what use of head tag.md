@@ -1,4 +1,4 @@
-*** copy what use of head tag.md ***
+***  what use of head tag.md ***
 
 Here is a breakdown of the `<head>` tag in HTML, including its primary role and the key elements that belong inside it.
 

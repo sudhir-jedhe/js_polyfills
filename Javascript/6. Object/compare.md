@@ -1,4 +1,4 @@
-*** copy compare.md ***
+***  compare.md ***
 
 Let's go through the concepts you're working on and refine the functions to handle deep comparison correctly.
 

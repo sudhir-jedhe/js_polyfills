@@ -1,4 +1,4 @@
-*** copy remove-elements-from-a-javascript-array.md ***
+***  remove-elements-from-a-javascript-array.md ***
 
 ```js
 // JavaScript code to illustrate pop() function

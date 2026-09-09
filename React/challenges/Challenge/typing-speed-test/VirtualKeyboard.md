@@ -1,4 +1,4 @@
-*** copy VirtualKeyboard.md ***
+***  VirtualKeyboard.md ***
 
 export class VirtualKeyboard {
   #rowZeroLetters = '1234567890'.split('');

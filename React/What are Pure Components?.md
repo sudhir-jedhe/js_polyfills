@@ -1,4 +1,4 @@
-*** copy What are Pure Components?.md ***
+***  What are Pure Components?.md ***
 
 In React, a **Pure Component** is a component that renders the exact same output given the same props and state.
 

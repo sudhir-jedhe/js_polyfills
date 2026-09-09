@@ -1,4 +1,4 @@
-*** copy Asynchronous Programming.md ***
+***  Asynchronous Programming.md ***
 
 ### 13. Implement `Promise.any` and `Promise.allSettled`
 

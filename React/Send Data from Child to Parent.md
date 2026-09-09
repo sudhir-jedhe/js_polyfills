@@ -1,4 +1,4 @@
-*** copy Send Data from Child to Parent.md ***
+***  Send Data from Child to Parent.md ***
 
 ### 39️⃣ **Practical: Send Data from Child to Parent using Callback Functions**
 

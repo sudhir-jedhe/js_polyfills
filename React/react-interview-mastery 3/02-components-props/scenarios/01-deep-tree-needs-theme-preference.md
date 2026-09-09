@@ -1,4 +1,4 @@
-*** copy 01-deep-tree-needs-theme-preference.md ***
+***  01-deep-tree-needs-theme-preference.md ***
 
 # Five-Level-Deep Component Tree Needs the Current User's Theme Preference
 

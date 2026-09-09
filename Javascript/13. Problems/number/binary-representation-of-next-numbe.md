@@ -1,4 +1,4 @@
-*** copy binary-representation-of-next-numbe.md ***
+***  binary-representation-of-next-numbe.md ***
 
 ```js
 function nextGreater(num) {

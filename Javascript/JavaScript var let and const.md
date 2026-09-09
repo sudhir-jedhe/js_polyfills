@@ -1,4 +1,4 @@
-*** copy JavaScript var let and const.md ***
+***  JavaScript var let and const.md ***
 
 You have summarized the core distinctions, rules, and best practices regarding `var`, `let`, and `const` accurately.
 

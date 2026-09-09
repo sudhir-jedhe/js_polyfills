@@ -1,4 +1,4 @@
-*** copy 05-context-plus-usereducer.md ***
+***  05-context-plus-usereducer.md ***
 
 # Context + useReducer
 

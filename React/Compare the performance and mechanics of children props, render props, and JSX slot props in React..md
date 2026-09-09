@@ -1,4 +1,4 @@
-*** copy Compare the performance and mechanics of children props, render props, and JSX slot props in React..md ***
+***  Compare the performance and mechanics of children props, render props, and JSX slot props in React..md ***
 
 The differences between **Children Props**, **JSX Slot Props**, and **Render Props** stem from **when** and **where** the React Element objects are instantiated in the JavaScript runtime.
 

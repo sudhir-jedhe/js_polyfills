@@ -1,4 +1,4 @@
-*** copy Reconciliation.md ***
+***  Reconciliation.md ***
 
 ### **Reconciliation in React**
 

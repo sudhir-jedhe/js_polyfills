@@ -1,4 +1,4 @@
-*** copy 4-valid-anagram.md ***
+***  4-valid-anagram.md ***
 
 // Ques 4 - Valid Anagram
 // An Anagram is a word or phrase formed by rearranging the letters of

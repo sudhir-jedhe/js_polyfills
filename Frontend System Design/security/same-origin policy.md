@@ -1,4 +1,4 @@
-*** copy same-origin policy.md ***
+***  same-origin policy.md ***
 
 ### What is the Same-Origin Policy?
 

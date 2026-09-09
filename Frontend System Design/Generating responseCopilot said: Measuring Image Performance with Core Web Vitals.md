@@ -1,4 +1,4 @@
-*** copy Generating responseCopilot said: Measuring Image Performance with Core Web Vitals.md ***
+***  Generating responseCopilot said: Measuring Image Performance with Core Web Vitals.md ***
 
 # Measuring Image Performance with Core Web Vitals
 

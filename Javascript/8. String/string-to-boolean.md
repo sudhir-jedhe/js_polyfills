@@ -1,4 +1,4 @@
-*** copy string-to-boolean.md ***
+***  string-to-boolean.md ***
 
 ```js
 const toBoolean = (value, truthyValues = ["true"]) => {

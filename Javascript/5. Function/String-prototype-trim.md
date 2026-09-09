@@ -1,4 +1,4 @@
-*** copy String-prototype-trim.md ***
+***  String-prototype-trim.md ***
 
 The goal of the `trim` function is to remove any leading and trailing whitespace characters from a given string. Here are several different ways to implement this, each with varying levels of complexity and optimization. I'll walk through each one:
 

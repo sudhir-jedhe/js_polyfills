@@ -1,4 +1,4 @@
-*** copy Explain Stack vs Heap memory allocation.md ***
+***  Explain Stack vs Heap memory allocation.md ***
 
 **Stack** and **Heap** are the two primary memory regions allocated by an operating system to a running program.
 

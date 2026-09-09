@@ -1,4 +1,4 @@
-*** copy module.md ***
+***  module.md ***
 
 # Module Pattern in JavaScript
 

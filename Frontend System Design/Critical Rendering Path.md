@@ -1,4 +1,4 @@
-*** copy Critical Rendering Path.md ***
+***  Critical Rendering Path.md ***
 
 Here is a step-by-step breakdown of the **Critical Rendering Path (CRP)**—the sequence of steps the browser goes through to convert HTML, CSS, and JavaScript into actual pixels on the screen—along with code examples for each phase.
 

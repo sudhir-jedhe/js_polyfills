@@ -1,4 +1,4 @@
-*** copy progress.md ***
+***  progress.md ***
 
 <https://react.dev/reference/react-dom/components/progress>
 

@@ -1,4 +1,4 @@
-*** copy 02-usecallback-stable-handler.md ***
+***  02-usecallback-stable-handler.md ***
 
 # Snippet: useCallback Keeping a Handler Reference Stable Across Renders
 

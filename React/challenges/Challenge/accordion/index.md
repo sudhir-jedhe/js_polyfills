@@ -1,4 +1,4 @@
-*** copy index.md ***
+***  index.md ***
 
 // Get all accordion items
 const accordionItems = document.querySelectorAll('.accordion-item');

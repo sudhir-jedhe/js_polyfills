@@ -1,4 +1,4 @@
-*** copy splitArrayIntoChucks.md ***
+***  splitArrayIntoChucks.md ***
 
 ```js
 // Size of chunk

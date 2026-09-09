@@ -1,4 +1,4 @@
-*** copy JavaScript Scope.md ***
+***  JavaScript Scope.md ***
 
 JavaScript Scope
 

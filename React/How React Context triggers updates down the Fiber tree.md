@@ -1,4 +1,4 @@
-*** copy How React Context triggers updates down the Fiber tree.md ***
+***  How React Context triggers updates down the Fiber tree.md ***
 
 React Context updates do not rely on standard top-down prop passing. Instead, React uses a push-based tree traversal algorithm centered around **`propagateContextChange()`** and a linked list of dependencies on each Fiber (`fiber.dependencies`).
 

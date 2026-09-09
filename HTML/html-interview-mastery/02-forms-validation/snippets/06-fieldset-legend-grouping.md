@@ -1,4 +1,4 @@
-*** copy 06-fieldset-legend-grouping.md ***
+***  06-fieldset-legend-grouping.md ***
 
 # Snippet: `<fieldset>` and `<legend>` Grouping
 

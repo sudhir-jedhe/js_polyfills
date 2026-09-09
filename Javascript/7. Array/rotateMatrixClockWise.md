@@ -1,4 +1,4 @@
-*** copy rotateMatrixClockWise.md ***
+***  rotateMatrixClockWise.md ***
 
 Your implementation for rotating matrices both clockwise and anticlockwise is correct. Let's break down each of the functions for clarity and consider optimizations if needed.
 

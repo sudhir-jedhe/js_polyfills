@@ -1,4 +1,4 @@
-*** copy Syntax Error.md ***
+***  Syntax Error.md ***
 
 A **`SyntaxError`** in JavaScript is thrown when the JavaScript engine tries to read your code but encounters something that violates the strict grammar rules of the language.
 

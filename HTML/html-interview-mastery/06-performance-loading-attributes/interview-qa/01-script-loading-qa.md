@@ -1,4 +1,4 @@
-*** copy 01-script-loading-qa.md ***
+***  01-script-loading-qa.md ***
 
 # Interview Q&A — Script Loading
 

@@ -1,4 +1,4 @@
-*** copy import export.md ***
+***  import export.md ***
 
 ES6 (ECMAScript 2016 / ES2015) introduced native JavaScript modules using the `import` and `export` statements. Modules help organize code into reusable, isolated files with their own scope.
 

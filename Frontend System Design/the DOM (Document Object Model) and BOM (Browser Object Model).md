@@ -1,4 +1,4 @@
-*** copy the DOM (Document Object Model) and BOM (Browser Object Model).md ***
+***  the DOM (Document Object Model) and BOM (Browser Object Model).md ***
 
 In web development, the **DOM (Document Object Model)** and **BOM (Browser Object Model)** are two foundational APIs that allow JavaScript to interact with the browser and the web page.
 

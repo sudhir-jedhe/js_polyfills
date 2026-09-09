@@ -1,4 +1,4 @@
-*** copy merge.md ***
+***  merge.md ***
 
 Your code demonstrates a variety of ways to merge JavaScript objects, including both shallow and deep merging. Let's walk through each approach and explain their functionality, starting from simple merges and moving to more advanced merging with deep recursion.
 

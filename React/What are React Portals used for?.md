@@ -1,4 +1,4 @@
-*** copy What are React Portals used for?.md ***
+***  What are React Portals used for?.md ***
 
 **React Portals** are used to render children into a DOM node that exists outside the hierarchy of the parent component. This is useful for scenarios like modals, tooltips, and dropdowns where you need to break out of the parent component's overflow or z-index constraints. You create a portal with createPortal(child, container) from react-dom. Even though the rendered DOM lives elsewhere, the portal still belongs to the React tree, so events bubble up to the React parent and context still flows through normally.
 

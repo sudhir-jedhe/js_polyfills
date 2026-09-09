@@ -1,4 +1,4 @@
-*** copy 05-color-contrast-audit-and-fix.md ***
+***  05-color-contrast-audit-and-fix.md ***
 
 # Scenario: Color Contrast Audit Fails on a Brand-Driven Design
 

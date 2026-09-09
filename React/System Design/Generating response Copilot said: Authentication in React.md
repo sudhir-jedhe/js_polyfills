@@ -1,4 +1,4 @@
-*** copy Generating response Copilot said: Authentication in React.md ***
+***  Generating response Copilot said: Authentication in React.md ***
 
 # Authentication in React
 

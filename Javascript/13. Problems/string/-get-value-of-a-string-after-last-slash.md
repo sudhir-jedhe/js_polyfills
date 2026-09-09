@@ -1,4 +1,4 @@
-*** copy -get-value-of-a-string-after-last-slash.md ***
+***  -get-value-of-a-string-after-last-slash.md ***
 
 ```js
 let str = "folder_1/folder_2/file.html";

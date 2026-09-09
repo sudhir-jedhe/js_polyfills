@@ -1,4 +1,4 @@
-*** copy property-enumerability.md ***
+***  property-enumerability.md ***
 
 ### Explanation of Non-Enumerable Properties
 

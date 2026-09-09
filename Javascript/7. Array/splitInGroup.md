@@ -1,4 +1,4 @@
-*** copy splitInGroup.md ***
+***  splitInGroup.md ***
 
 ```js
 function splitArrayIntoGroups(array, groupSize) {

@@ -1,4 +1,4 @@
-*** copy How do I build a performant, accessible Data Table component with TanStack Table and virtualization?.md ***
+***  How do I build a performant, accessible Data Table component with TanStack Table and virtualization?.md ***
 
 Building a performant, accessible Data Table requires combining headless state and column management (**TanStack Table v8**), DOM node recycling for massive datasets (**TanStack Virtual v3**), and strict adherence to **WAI-ARIA grid/table patterns**.
 

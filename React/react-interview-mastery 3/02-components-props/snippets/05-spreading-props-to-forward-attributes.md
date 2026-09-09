@@ -1,4 +1,4 @@
-*** copy 05-spreading-props-to-forward-attributes.md ***
+***  05-spreading-props-to-forward-attributes.md ***
 
 # Spreading Props to Forward Unrelated Attributes to the Underlying Element
 

@@ -1,4 +1,4 @@
-*** copy Remember Me.md ***
+***  Remember Me.md ***
 
 A production-grade "Remember Me" login implementation in React requires distinct handling across the client and backend:
 

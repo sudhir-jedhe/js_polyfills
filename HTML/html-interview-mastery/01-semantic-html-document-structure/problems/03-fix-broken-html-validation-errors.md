@@ -1,4 +1,4 @@
-*** copy 03-fix-broken-html-validation-errors.md ***
+***  03-fix-broken-html-validation-errors.md ***
 
 # Problem: Fix All HTML Validation Errors
 

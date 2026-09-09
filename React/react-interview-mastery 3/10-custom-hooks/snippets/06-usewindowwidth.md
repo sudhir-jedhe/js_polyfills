@@ -1,4 +1,4 @@
-*** copy 06-usewindowwidth.md ***
+***  06-usewindowwidth.md ***
 
 # Snippet: useWindowWidth — Subscribing to a Browser Event With Proper Cleanup
 

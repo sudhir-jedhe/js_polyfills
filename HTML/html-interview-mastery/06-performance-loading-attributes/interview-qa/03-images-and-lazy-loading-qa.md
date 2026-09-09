@@ -1,4 +1,4 @@
-*** copy 03-images-and-lazy-loading-qa.md ***
+***  03-images-and-lazy-loading-qa.md ***
 
 # Interview Q&A — Images & Lazy Loading
 

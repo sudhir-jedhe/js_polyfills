@@ -1,4 +1,4 @@
-*** copy minimize-cost-to-convert-all-occurrences-of-each-distinct-character-to-lowercase-or-uppercase.md ***
+***  minimize-cost-to-convert-all-occurrences-of-each-distinct-character-to-lowercase-or-uppercase.md ***
 
 ```js
 // Input: S = “aabbAA”, L = 1, U = 1

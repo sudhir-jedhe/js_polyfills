@@ -1,4 +1,4 @@
-*** copy 07-resetting-callback-ref-array-every-render.md ***
+***  07-resetting-callback-ref-array-every-render.md ***
 
 # Output-Based: Why must a callback-ref array be reset every render, not just once?
 

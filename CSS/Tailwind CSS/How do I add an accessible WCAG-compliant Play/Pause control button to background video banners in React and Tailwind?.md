@@ -1,4 +1,4 @@
-*** copy Pause control button to background video banners in React and Tailwind?.md ***
+***  Pause control button to background video banners in React and Tailwind?.md ***
 
 To comply with **WCAG 2.2 Success Criterion 2.2.2 (Pause, Stop, Hide)**, any moving or auto-playing content lasting more than 5 seconds must provide a clear mechanism for users to pause, stop, or hide it.
 

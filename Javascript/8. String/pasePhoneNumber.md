@@ -1,4 +1,4 @@
-*** copy pasePhoneNumber.md ***
+***  pasePhoneNumber.md ***
 
 Your `parsePhoneNumber` function is designed to parse a phone number, remove non-numeric characters, and format it based on the length of the number. Let's break it down step by step:
 

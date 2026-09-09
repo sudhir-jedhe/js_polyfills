@@ -1,4 +1,4 @@
-*** copy PhoneHomeScreen.md ***
+***  PhoneHomeScreen.md ***
 
 # Phone Home Screen (React Machine Coding Interview)
 

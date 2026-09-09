@@ -1,4 +1,4 @@
-*** copy How do I write a parser in TypeScript to convert .vtt and .srt caption files back into JSON cue objects?.md ***
+***  How do I write a parser in TypeScript to convert .vtt and .srt caption files back into JSON cue objects?.md ***
 
 To parse both **WebVTT (`.vtt`)** and **SubRip (`.srt`)** caption files into strongly typed JSON cue objects in TypeScript, you need a robust parser that handles:
 

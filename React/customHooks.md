@@ -1,4 +1,4 @@
-*** copy customHooks.md ***
+***  customHooks.md ***
 
 Here is a complete, production-ready library containing implementations for all **50 custom React hooks** listed.
 

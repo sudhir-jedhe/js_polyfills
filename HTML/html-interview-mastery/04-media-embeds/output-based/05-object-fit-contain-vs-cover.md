@@ -1,4 +1,4 @@
-*** copy 05-object-fit-contain-vs-cover.md ***
+***  05-object-fit-contain-vs-cover.md ***
 
 # Output: `object-fit: contain` vs. `cover` on a Non-Matching Aspect Ratio
 

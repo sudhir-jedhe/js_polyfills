@@ -1,4 +1,4 @@
-*** copy missingNumber.md ***
+***  missingNumber.md ***
 
 To find the missing numbers from an array in JavaScript, we can use the following approach:
 

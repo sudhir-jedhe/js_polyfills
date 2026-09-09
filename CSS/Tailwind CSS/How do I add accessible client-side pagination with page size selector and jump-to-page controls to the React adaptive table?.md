@@ -1,4 +1,4 @@
-*** copy How do I add accessible client-side pagination with page size selector and jump-to-page controls to the React adaptive table?.md ***
+***  How do I add accessible client-side pagination with page size selector and jump-to-page controls to the React adaptive table?.md ***
 
 To add accessible client-side pagination with page size controls and direct jump-to-page navigation to the adaptive table, you need to manage page slice boundaries, clamp boundary conditions on filter/search mutations, and configure ARIA navigation landmarks (`<nav aria-label="Pagination Navigation">`), live regions, and `aria-current="page"` indicators.
 

@@ -1,4 +1,4 @@
-*** copy extract-first-word-from-a-string.md ***
+***  extract-first-word-from-a-string.md ***
 
 ```js
 let str = "Geeks For Geeks"; 

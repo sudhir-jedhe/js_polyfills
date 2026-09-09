@@ -1,4 +1,4 @@
-*** copy suite.md ***
+***  suite.md ***
 
 Here is a comprehensive React implementation showcasing all the requested **Web & UI Carousel** and **Social Media Carousel** variations using standard React hooks, Tailwind CSS, and Lucide React icons.
 

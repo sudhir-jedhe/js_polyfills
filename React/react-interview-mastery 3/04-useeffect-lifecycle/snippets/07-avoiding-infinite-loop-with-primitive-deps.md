@@ -1,4 +1,4 @@
-*** copy 07-avoiding-infinite-loop-with-primitive-deps.md ***
+***  07-avoiding-infinite-loop-with-primitive-deps.md ***
 
 # Avoiding an Infinite Loop by Depending on Primitives, Not a Fresh Object Literal
 

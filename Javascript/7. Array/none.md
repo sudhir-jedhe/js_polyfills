@@ -1,4 +1,4 @@
-*** copy none.md ***
+***  none.md ***
 
 The `myNone` method you've written is a custom implementation of the `none()` function that checks whether **none** of the elements in an array satisfy a provided predicate condition.
 

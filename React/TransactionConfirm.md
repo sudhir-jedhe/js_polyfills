@@ -1,4 +1,4 @@
-*** copy TransactionConfirm.md ***
+***  TransactionConfirm.md ***
 
 ## Transaction Confirmation — Frontend System Design
 

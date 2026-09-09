@@ -1,4 +1,4 @@
-*** copy 03-functional-updates.md ***
+***  03-functional-updates.md ***
 
 # Functional Updates Solve the "Multiple Updates, Same Tick" Problem
 

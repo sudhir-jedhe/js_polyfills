@@ -1,4 +1,4 @@
-*** copy arrayOptionalChainin g.md ***
+***  arrayOptionalChainin g.md ***
 
 Let's break down the two different versions of your `transform` function and understand their behaviors.
 

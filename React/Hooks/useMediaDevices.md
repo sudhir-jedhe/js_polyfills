@@ -1,4 +1,4 @@
-*** copy useMediaDevices.md ***
+***  useMediaDevices.md ***
 
 Here is a production-ready `useMediaDevices` React hook for enumerating audio and video input/output devices (`microphones`, `cameras`, `speakers`) using `navigator.mediaDevices.enumerateDevices()`.
 

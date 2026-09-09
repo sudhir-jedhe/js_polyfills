@@ -1,4 +1,4 @@
-*** copy MiddlewareSystem.md ***
+***  MiddlewareSystem.md ***
 
 To implement the `Middleware` class with the described functionality, we need to handle the middleware in such a way that:
 

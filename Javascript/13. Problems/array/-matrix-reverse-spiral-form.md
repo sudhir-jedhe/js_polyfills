@@ -1,4 +1,4 @@
-*** copy -matrix-reverse-spiral-form.md ***
+***  -matrix-reverse-spiral-form.md ***
 
 ```js
 // Input:

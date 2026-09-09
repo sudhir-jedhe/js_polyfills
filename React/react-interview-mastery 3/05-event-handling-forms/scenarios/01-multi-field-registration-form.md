@@ -1,4 +1,4 @@
-*** copy 01-multi-field-registration-form.md ***
+***  01-multi-field-registration-form.md ***
 
 # Scenario: Multi-field registration form is becoming an unmanageable pile of `useState` calls and handlers
 

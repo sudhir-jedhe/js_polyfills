@@ -1,4 +1,4 @@
-*** copy 03-component-design-patterns-qa.md ***
+***  03-component-design-patterns-qa.md ***
 
 # Interview Q&A — Component Design Patterns
 

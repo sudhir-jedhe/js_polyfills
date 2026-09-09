@@ -1,4 +1,4 @@
-*** copy IdentityForm.md ***
+***  IdentityForm.md ***
 
 Here is a complete, production-grade **Multi-Field Identity Form** component in React using **React Hook Form** and **Yup** for validation.
 

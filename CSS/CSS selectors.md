@@ -1,4 +1,4 @@
-*** copy CSS selectors.md ***
+***  CSS selectors.md ***
 
 CSS selectors are used to select and style HTML elements on a web page. Here is a comprehensive list of various CSS selectors:
 

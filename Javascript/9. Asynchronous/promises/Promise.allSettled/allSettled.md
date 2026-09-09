@@ -1,4 +1,4 @@
-*** copy allSettled.md ***
+***  allSettled.md ***
 
 // Different from Promise.all() which rejects right away once an error occurs,
 // Promise.allSettled() waits for all promises to settle.

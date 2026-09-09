@@ -1,4 +1,4 @@
-*** copy ReactDOM.createPortal.md ***
+***  ReactDOM.createPortal.md ***
 
 **`ReactDOM.createPortal`** is a built-in React DOM method that allows you to render a component's JSX into a **different DOM node** outside the parent component's DOM hierarchy, while still preserving its position in the React component tree.
 

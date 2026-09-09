@@ -1,4 +1,4 @@
-*** copy class_turtule.md ***
+***  class_turtule.md ***
 
 ```js
 class Turtle {

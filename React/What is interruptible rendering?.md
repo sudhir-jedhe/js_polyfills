@@ -1,4 +1,4 @@
-*** copy What is interruptible rendering?.md ***
+***  What is interruptible rendering?.md ***
 
 Interruptible rendering is a UI architecture concept—most notably implemented in React 18's Concurrent Mode—that allows the framework to pause, abort, or restart a rendering task in the middle of executing it.
 

@@ -1,4 +1,4 @@
-*** copy LinkedList.md ***
+***  LinkedList.md ***
 
 JavaScript Data Structures - Linked List
 

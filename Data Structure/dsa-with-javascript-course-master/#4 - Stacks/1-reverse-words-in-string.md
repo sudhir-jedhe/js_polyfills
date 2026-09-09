@@ -1,4 +1,4 @@
-*** copy 1-reverse-words-in-string.md ***
+***  1-reverse-words-in-string.md ***
 
 ### Ques 1 : Given an input string s, reverse the order of the words
 

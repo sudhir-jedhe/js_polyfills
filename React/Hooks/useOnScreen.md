@@ -1,4 +1,4 @@
-*** copy useOnScreen.md ***
+***  useOnScreen.md ***
 
 // Lazy loading can drastically boost the performance as we will be loading things as and when required rather than pulling everything in bulk.
 

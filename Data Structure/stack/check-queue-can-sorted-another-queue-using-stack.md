@@ -1,4 +1,4 @@
-*** copy check-queue-can-sorted-another-queue-using-stack.md ***
+***  check-queue-can-sorted-another-queue-using-stack.md ***
 
 // Input : Queue[] = { 5, 1, 2, 3, 4 }
 // Output : Yes

@@ -1,4 +1,4 @@
-*** copy 01-usestate-mechanics-and-initialization-qa.md ***
+***  01-usestate-mechanics-and-initialization-qa.md ***
 
 # Interview Q&A — `useState` Mechanics and Initialization
 

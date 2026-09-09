@@ -1,4 +1,4 @@
-*** copy useMeasure.md ***
+***  useMeasure.md ***
 
 Here is a production-ready `useMeasure` React hook that tracks element dimensions in real time using `ResizeObserver`.
 

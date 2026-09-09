@@ -1,4 +1,4 @@
-*** copy 03-stale-closure-interval-logs-zero-forever.md ***
+***  03-stale-closure-interval-logs-zero-forever.md ***
 
 # What Does This Log Every Second, and What's the Bug?
 

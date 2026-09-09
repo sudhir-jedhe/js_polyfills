@@ -1,4 +1,4 @@
-*** copy batching.md ***
+***  batching.md ***
 
 In React, updating multiple state values inside a single `onClick` handler can sometimes lead to unexpected behavior, particularly with **state batching**. State batching is an optimization where React groups multiple state updates together and performs them in a single render for better performance.
 

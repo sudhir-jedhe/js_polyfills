@@ -1,4 +1,4 @@
-*** copy How does JavaScript strict mode allow V8 TurboFan to perform aggressive inline caching and register optimizations?.md ***
+***  How does JavaScript strict mode allow V8 TurboFan to perform aggressive inline caching and register optimizations?.md ***
 
 In V8’s optimizing compiler pipeline (**TurboFan**), code optimization relies on making static assumptions about variable bindings, scope boundaries, and object shapes.
 

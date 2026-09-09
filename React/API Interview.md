@@ -1,4 +1,4 @@
-*** copy API Interview.md ***
+***  API Interview.md ***
 
 Preparing for a frontend interview requires a solid understanding of how your React application communicates with backend servers via REST APIs. This curated guide covers the essential REST API interview questions tailored for a frontend fresher, complete with concise, professional answers.
 

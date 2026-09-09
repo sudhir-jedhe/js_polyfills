@@ -1,4 +1,4 @@
-*** copy resolve-promise-after-amount-of-time.md ***
+***  resolve-promise-after-amount-of-time.md ***
 
 // Ever wanted to create an artificial pause in your JavaScript code? Did you incidentally need it to be a Promise instead of a simple setTimeout()? Well, you're in luck, because it's quite easy to create a promise that resolves after a given amount of time.
 

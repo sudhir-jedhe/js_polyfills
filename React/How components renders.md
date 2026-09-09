@@ -1,4 +1,4 @@
-*** copy How components renders.md ***
+***  How components renders.md ***
 
 In React, the rendering process is the core mechanism by which components are created, updated, and re-rendered based on changes in state or props. Understanding how rendering works in depth is key to optimizing performance and managing component lifecycles efficiently. Here’s a detailed breakdown of how components render in React:
 

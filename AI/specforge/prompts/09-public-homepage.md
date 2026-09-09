@@ -1,4 +1,4 @@
-*** copy 09-public-homepage.md ***
+***  09-public-homepage.md ***
 
 Use @specs/09-public-homepage.md as the source of truth.
 

@@ -1,4 +1,4 @@
-*** copy 01-click-badge-doesnt-update.md ***
+***  01-click-badge-doesnt-update.md ***
 
 # Scenario: A "click count" badge doesn't update even though you can see the number is changing in devtools
 

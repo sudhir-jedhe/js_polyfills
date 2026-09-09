@@ -1,4 +1,4 @@
-*** copy omiteWord.md ***
+***  omiteWord.md ***
 
 You only need to implement the two TODOs.
 

@@ -1,4 +1,4 @@
-*** copy Program to find friend of friends.md ***
+***  Program to find friend of friends.md ***
 
 The `friends` function you've implemented is quite good, but it could be improved slightly to ensure that we don't add duplicates to the list. Additionally, you can use a `Set` to keep track of all the unique friends, ensuring that a person isn't added multiple times.
 

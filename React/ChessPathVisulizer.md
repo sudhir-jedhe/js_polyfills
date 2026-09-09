@@ -1,4 +1,4 @@
-*** copy ChessPathVisulizer.md ***
+***  ChessPathVisulizer.md ***
 
 # Chess Path Finder Visualiser (React Machine Coding Interview)
 

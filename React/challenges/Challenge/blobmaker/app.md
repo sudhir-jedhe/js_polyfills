@@ -1,4 +1,4 @@
-*** copy app.md ***
+***  app.md ***
 
 const outputCode = document.getElementById('css-code');
 

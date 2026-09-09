@@ -1,4 +1,4 @@
-*** copy infiniteScrollPagination.md ***
+***  infiniteScrollPagination.md ***
 
 # Infinite Scroll Pagination (React + TypeScript)
 

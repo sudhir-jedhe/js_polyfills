@@ -1,4 +1,4 @@
-*** copy React Portals.md ***
+***  React Portals.md ***
 
 **React Portals** provide a way to render a component's children into a DOM node that exists **outside the DOM hierarchy** of the parent component, while still preserving React's component tree behavior (such as context and event bubbling).
 

@@ -1,4 +1,4 @@
-*** copy customMapUsingFor-In-push.md ***
+***  customMapUsingFor-In-push.md ***
 
 Write a program to polyfill map functionality of the Array
 map iterates over the all values of array and passes value, index and array (itself) as the arguments Function returns a new array which is same as the length of the original array

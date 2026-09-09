@@ -1,4 +1,4 @@
-*** copy infinite scroll.md ***
+***  infinite scroll.md ***
 
 # Below is an **interview-ready system design + complete React JS code** for a **custom hook for infinite scroll with cursor-based pagination**.
 

@@ -1,4 +1,4 @@
-*** copy BinaryTree.md ***
+***  BinaryTree.md ***
 
 JavaScript Data Structures - Binary Tree
 

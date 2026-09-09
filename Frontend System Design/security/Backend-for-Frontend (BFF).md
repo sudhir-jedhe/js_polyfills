@@ -1,4 +1,4 @@
-*** copy Backend-for-Frontend (BFF).md ***
+***  Backend-for-Frontend (BFF).md ***
 
 A **Backend-for-Frontend (BFF)** acts as an intermediate server boundary specifically tailored to the needs of a single front-end client (such as a React Single-Page Application, Next.js SSR app, or Mobile App).
 

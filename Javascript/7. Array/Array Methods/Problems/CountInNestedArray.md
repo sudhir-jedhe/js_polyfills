@@ -1,4 +1,4 @@
-*** copy CountInNestedArray.md ***
+***  CountInNestedArray.md ***
 
 let countInArray = function (inputArr, test) {
     //track the count

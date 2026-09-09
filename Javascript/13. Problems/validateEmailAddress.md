@@ -1,4 +1,4 @@
-*** copy validateEmailAddress.md ***
+***  validateEmailAddress.md ***
 
 ```js
 export const validateEmailAddress = (email) => {

@@ -1,4 +1,4 @@
-*** copy How does the new ref prop mechanism simplify your code compared to React 18?.md ***
+***  How does the new ref prop mechanism simplify your code compared to React 18?.md ***
 
 In **React 18 and earlier**, passing a `ref` from a parent component down to a DOM element inside a functional child component required wrapping the child component in the **`forwardRef`** higher-order component (HOC).
 

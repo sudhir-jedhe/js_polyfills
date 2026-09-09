@@ -1,4 +1,4 @@
-*** copy How do you integrate Google Core Web Vitals (INP, LCP, CLS) tracking into a React application using the web-vitals package?.md ***
+***  How do you integrate Google Core Web Vitals (INP, LCP, CLS) tracking into a React application using the web-vitals package?.md ***
 
 Integrating Google Core Web Vitals into a React application involves measuring the standard metrics (**LCP**, **CLS**, and **INP**, which replaced FID as a Core Web Vital) using Google's official `web-vitals` package, and transmitting those values to an analytics endpoint or Google Analytics.
 

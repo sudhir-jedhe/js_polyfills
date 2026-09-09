@@ -1,4 +1,4 @@
-*** copy 04-context-vs-external-state.md ***
+***  04-context-vs-external-state.md ***
 
 # Context vs external state libraries
 

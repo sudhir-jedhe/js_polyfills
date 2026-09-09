@@ -1,4 +1,4 @@
-*** copy Chrome Dev Tool Tips Find code which trigger api.md ***
+***  Chrome Dev Tool Tips Find code which trigger api.md ***
 
 In Chrome DevTools, if you want to track down which piece of code is triggering an API call (such as a network request), you can use various built-in features to inspect network activity, debug scripts, and identify the sources of those requests. Here’s a step-by-step guide on how to find the code triggering an API call in Chrome DevTools.
 

@@ -1,4 +1,4 @@
-*** copy  How to avoid recreating the initial state in react for optimal performance.md ***
+***   How to avoid recreating the initial state in react for optimal performance.md ***
 
 To avoid recreating expensive initial state on every re-render in React, pass an **initializer function** (also called **lazy initialization**) instead of executing the expensive operation directly inside `useState` or `useReducer`.
 

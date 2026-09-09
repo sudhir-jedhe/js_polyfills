@@ -1,4 +1,4 @@
-*** copy random-password.md ***
+***  random-password.md ***
 
 ```js
 /* Function to generate combination of password */

@@ -1,4 +1,4 @@
-*** copy aggregate parent child relation.md ***
+***  aggregate parent child relation.md ***
 
 ```js
 aggregate parent / child relation

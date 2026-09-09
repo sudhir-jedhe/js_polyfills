@@ -1,4 +1,4 @@
-*** copy 03-svg-canvas-object-fit-qa.md ***
+***  03-svg-canvas-object-fit-qa.md ***
 
 # Interview Q&A — SVG, Canvas, and `object-fit`
 

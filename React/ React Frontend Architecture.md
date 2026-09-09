@@ -1,4 +1,4 @@
-*** copy  React Frontend Architecture.md ***
+***   React Frontend Architecture.md ***
 
 Here's the architecture approach I prefer for scalable React applications.
 

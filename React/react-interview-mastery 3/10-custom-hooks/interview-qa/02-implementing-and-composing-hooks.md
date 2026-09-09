@@ -1,4 +1,4 @@
-*** copy 02-implementing-and-composing-hooks.md ***
+***  02-implementing-and-composing-hooks.md ***
 
 # Interview Q&A: Implementing and Composing Hooks
 

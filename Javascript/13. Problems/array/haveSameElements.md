@@ -1,4 +1,4 @@
-*** copy haveSameElements.md ***
+***  haveSameElements.md ***
 
 ```js
 export const haveSameElements = (array1, array2) => {

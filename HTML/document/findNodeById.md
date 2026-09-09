@@ -1,4 +1,4 @@
-*** copy findNodeById.md ***
+***  findNodeById.md ***
 
 ```js
 function findNodeById(node, id) {

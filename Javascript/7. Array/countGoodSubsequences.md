@@ -1,4 +1,4 @@
-*** copy countGoodSubsequences.md ***
+***  countGoodSubsequences.md ***
 
 To solve the problem of counting **good subsequences**, we need to break down the problem requirements and conditions clearly:
 

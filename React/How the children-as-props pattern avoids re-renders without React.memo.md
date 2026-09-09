@@ -1,4 +1,4 @@
-*** copy How the children-as-props pattern avoids re-renders without React.memo.md ***
+***  How the children-as-props pattern avoids re-renders without React.memo.md ***
 
 The **"children-as-props"** pattern avoids unnecessary re-renders through **reference equality** ($=== comparison$) of React Elements created in a parent scope, triggering React Fiber's default bailout mechanism without requiring `React.memo`.
 

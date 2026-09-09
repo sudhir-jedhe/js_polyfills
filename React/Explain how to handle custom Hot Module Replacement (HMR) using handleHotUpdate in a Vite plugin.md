@@ -1,4 +1,4 @@
-*** copy Explain how to handle custom Hot Module Replacement (HMR) using handleHotUpdate in a Vite plugin.md ***
+***  Explain how to handle custom Hot Module Replacement (HMR) using handleHotUpdate in a Vite plugin.md ***
 
 The `handleHotUpdate` hook gives you fine-grained control over Vite’s HMR execution. When a file is modified on disk, Vite passes an update context to this hook, allowing you to:
 

@@ -1,4 +1,4 @@
-*** copy factorsOfNumber.md ***
+***  factorsOfNumber.md ***
 
 ### Explanation of Each Code Snippet
 

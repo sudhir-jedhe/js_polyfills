@@ -1,4 +1,4 @@
-*** copy 05-lazy-loading-iframe-embed.md ***
+***  05-lazy-loading-iframe-embed.md ***
 
 # Snippet: Lazy-Loaded Third-Party Iframe Embed
 

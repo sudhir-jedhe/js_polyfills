@@ -1,4 +1,4 @@
-*** copy What is web accessibility?.md ***
+***  What is web accessibility?.md ***
 
 **Web Accessibility** (often abbreviated as **a11y**) is the practice of designing and developing websites and web applications so that people with disabilities can perceive, understand, navigate, interact with, and contribute to the digital world.
 

@@ -1,4 +1,4 @@
-*** copy Mobile-First vs Desktop-First in Web Design.md ***
+***  Mobile-First vs Desktop-First in Web Design.md ***
 
 ### Mobile-First vs Desktop-First in Web Design
 

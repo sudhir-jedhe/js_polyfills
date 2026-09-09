@@ -1,4 +1,4 @@
-*** copy 04-tooltip-position-flash-uselayouteffect.md ***
+***  04-tooltip-position-flash-uselayouteffect.md ***
 
 # Tooltip Briefly Appears in the Wrong Position Before Snapping Into Place
 

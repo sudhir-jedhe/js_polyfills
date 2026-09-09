@@ -1,4 +1,4 @@
-*** copy matrix in spiral form using direction tracking method.md ***
+***  matrix in spiral form using direction tracking method.md ***
 
 ```js
 // Input: mat[][] = {

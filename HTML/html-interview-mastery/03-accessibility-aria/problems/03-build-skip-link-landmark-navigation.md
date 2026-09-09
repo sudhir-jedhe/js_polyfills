@@ -1,4 +1,4 @@
-*** copy 03-build-skip-link-landmark-navigation.md ***
+***  03-build-skip-link-landmark-navigation.md ***
 
 # Problem: Build a Skip Link and Full Landmark-Based Page Navigation
 

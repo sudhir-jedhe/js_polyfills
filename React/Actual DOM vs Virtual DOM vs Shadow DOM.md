@@ -1,4 +1,4 @@
-*** copy Actual DOM vs Virtual DOM vs Shadow DOM.md ***
+***  Actual DOM vs Virtual DOM vs Shadow DOM.md ***
 
 ### **Actual DOM vs Virtual DOM vs Shadow DOM: How They Work**
 

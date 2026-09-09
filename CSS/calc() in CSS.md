@@ -1,4 +1,4 @@
-*** copy calc() in CSS.md ***
+***  calc() in CSS.md ***
 
 ### `calc()` in CSS
 

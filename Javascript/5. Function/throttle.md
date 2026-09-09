@@ -1,4 +1,4 @@
-*** copy throttle.md ***
+***  throttle.md ***
 
 Throttling is a technique used to control how often a function is executed in a given period of time. This technique is beneficial in situations where a function is being triggered frequently (such as during scroll events, resize events, or button clicks) and you want to limit the number of times that function is actually executed. The primary goal is to improve performance by reducing the number of function calls.
 

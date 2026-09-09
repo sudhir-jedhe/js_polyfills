@@ -1,4 +1,4 @@
-*** copy Micro Frontends and Monorepos.md ***
+***  Micro Frontends and Monorepos.md ***
 
 **Micro Frontends**
 

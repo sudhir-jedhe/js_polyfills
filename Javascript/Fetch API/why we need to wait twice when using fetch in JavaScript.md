@@ -1,4 +1,4 @@
-*** copy why we need to wait twice when using fetch in JavaScript.md ***
+***  why we need to wait twice when using fetch in JavaScript.md ***
 
 # Do you know why we need to "wait" twice when using fetch in JavaScript?
 

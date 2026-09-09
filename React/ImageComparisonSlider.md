@@ -1,4 +1,4 @@
-*** copy ImageComparisonSlider.md ***
+***  ImageComparisonSlider.md ***
 
 ```js
 import React, { Component } from "react";

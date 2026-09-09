@@ -1,4 +1,4 @@
-*** copy NetworkOptimazation.md ***
+***  NetworkOptimazation.md ***
 
 # Network Performance & Rendering Performance (Senior Frontend Interview)
 

@@ -1,4 +1,4 @@
-*** copy 02-conditional-hook-call-crashes.md ***
+***  02-conditional-hook-call-crashes.md ***
 
 # Output-Based: Conditional Hook Call Crashes
 

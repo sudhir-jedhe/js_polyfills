@@ -1,4 +1,4 @@
-*** copy Tagged Template Literals.md ***
+***  Tagged Template Literals.md ***
 
 **Tagged Template Literals** are the syntactic foundation behind both **`styled-components`** (CSS-in-JS) and **`graphql-tag` / Apollo (`gql`)**.
 

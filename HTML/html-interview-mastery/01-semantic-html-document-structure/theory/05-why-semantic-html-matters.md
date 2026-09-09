@@ -1,4 +1,4 @@
-*** copy 05-why-semantic-html-matters.md ***
+***  05-why-semantic-html-matters.md ***
 
 # Why Semantic HTML Matters: SEO, Accessibility, Maintainability
 

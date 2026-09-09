@@ -1,4 +1,4 @@
-*** copy Intersection.md ***
+***  Intersection.md ***
 
 To solve the problem of finding the **intersection of two arrays** in JavaScript, we have several approaches. Let's review and explain each approach:
 

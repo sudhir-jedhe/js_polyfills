@@ -1,4 +1,4 @@
-*** copy How does Webpack's SplitChunksPlugin interact with ModuleConcatenationPlugin and chunk graph optimization?.md ***
+***  How does Webpack's SplitChunksPlugin interact with ModuleConcatenationPlugin and chunk graph optimization?.md ***
 
 In Webpack's compilation pipeline, **`SplitChunksPlugin`** and **`ModuleConcatenationPlugin`** (Scope Hoisting) operate at distinct optimization phases. Their interaction is governed by how Webpack transitions from the **Module Graph** to the **Chunk Graph**.
 

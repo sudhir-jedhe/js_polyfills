@@ -1,4 +1,4 @@
-*** copy 02-build-custom-validity-password-confirmation.md ***
+***  02-build-custom-validity-password-confirmation.md ***
 
 # Problem: Build Password-Confirmation Validation with `setCustomValidity`
 

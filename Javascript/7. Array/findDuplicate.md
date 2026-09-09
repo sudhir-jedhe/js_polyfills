@@ -1,4 +1,4 @@
-*** copy findDuplicate.md ***
+***  findDuplicate.md ***
 
 Your solution to find duplicates in an array is using three different approaches, each with varying time and space complexity. Let's break each of them down.
 

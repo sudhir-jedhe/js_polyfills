@@ -1,4 +1,4 @@
-*** copy Mentions.md ***
+***  Mentions.md ***
 
 # React Mentions Component (Production-Ready)
 

@@ -1,4 +1,4 @@
-*** copy partition-an-array-of-non-negative-integers-into-two-subsets-such-that-average-of-both-the-subsets-is-equal.md ***
+***  partition-an-array-of-non-negative-integers-into-two-subsets-such-that-average-of-both-the-subsets-is-equal.md ***
 
 ```js
 // Input : vec[] = {1, 7, 15, 29, 11, 9}

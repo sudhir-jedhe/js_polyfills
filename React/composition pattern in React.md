@@ -1,4 +1,4 @@
-*** copy composition pattern in React.md ***
+***  composition pattern in React.md ***
 
 **Composition** is a core design pattern in React where you build complex user interfaces by combining smaller, independent, and specialized components.
 

@@ -1,4 +1,4 @@
-*** copy BST Traversal.md ***
+***  BST Traversal.md ***
 
 // BST Traversal
 // Given a Binary Search Tree, Traverse the tree in Preorder, Postorder, and inorder traversal.

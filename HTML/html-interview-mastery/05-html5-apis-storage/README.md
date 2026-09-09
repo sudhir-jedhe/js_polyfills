@@ -1,4 +1,4 @@
-*** copy README.md ***
+***  README.md ***
 
 # HTML5 APIs & Storage
 

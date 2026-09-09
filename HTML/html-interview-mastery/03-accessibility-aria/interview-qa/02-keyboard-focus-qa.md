@@ -1,4 +1,4 @@
-*** copy 02-keyboard-focus-qa.md ***
+***  02-keyboard-focus-qa.md ***
 
 # Interview Q&A — Keyboard Navigation & Focus
 

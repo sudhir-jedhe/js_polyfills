@@ -1,4 +1,4 @@
-*** copy Memory leaks in React — how to detect & fix?.md ***
+***  Memory leaks in React — how to detect & fix?.md ***
 
 A **memory leak** in React occurs when a component allocates memory—such as subscribing to an event, initiating an interval, or creating an un-cancelled network request—and fails to release that memory when the component unmounts or when dependencies update.
 

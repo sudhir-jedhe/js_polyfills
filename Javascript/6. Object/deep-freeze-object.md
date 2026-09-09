@@ -1,4 +1,4 @@
-*** copy deep-freeze-object.md ***
+***  deep-freeze-object.md ***
 
 Your code snippet outlines a great approach for working with immutability in JavaScript. You're creating an immutability helper like **Immer's `produce()`** function that allows modifications to an otherwise immutable object in a controlled manner. Let's break down how your solution works and clarify each part:
 

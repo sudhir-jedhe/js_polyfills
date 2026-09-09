@@ -1,4 +1,4 @@
-*** copy detect-undefined-object-property.md ***
+***  detect-undefined-object-property.md ***
 
 ### Understanding the Difference Between `undefined` and Non-Existent Properties in JavaScript
 

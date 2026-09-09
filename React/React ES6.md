@@ -1,4 +1,4 @@
-*** copy React ES6.md ***
+***  React ES6.md ***
 
 In modern web development, **React** and **ES6 (ECMAScript 2015)** are deeply intertwined. ES6 introduced fundamental JavaScript features—such as classes, arrow functions, destructuring, modules, and template literals—that made writing React components cleaner, more concise, and more readable.
 

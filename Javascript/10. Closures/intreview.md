@@ -1,4 +1,4 @@
-*** copy intreview.md ***
+***  intreview.md ***
 
 ### 1. What is a closure in JavaScript?
 

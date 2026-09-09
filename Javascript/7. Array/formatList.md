@@ -1,4 +1,4 @@
-*** copy formatList.md ***
+***  formatList.md ***
 
 Your `formatList` function is a great start! It correctly formats a list into a string, separated by a specified separator. Let's go over the code and improve its explanation:
 

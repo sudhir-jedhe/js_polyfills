@@ -1,4 +1,4 @@
-*** copy random-number-in-given-range.md ***
+***  random-number-in-given-range.md ***
 
 ```js
 // Function to generate random number

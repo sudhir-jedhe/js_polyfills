@@ -1,4 +1,4 @@
-*** copy STUDY-PLAN.md ***
+***  STUDY-PLAN.md ***
 
 # Suggested Study Plan
 

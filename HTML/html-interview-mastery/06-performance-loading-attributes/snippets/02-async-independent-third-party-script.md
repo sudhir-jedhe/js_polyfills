@@ -1,4 +1,4 @@
-*** copy 02-async-independent-third-party-script.md ***
+***  02-async-independent-third-party-script.md ***
 
 # Snippet: `async` for an Independent Analytics Script
 

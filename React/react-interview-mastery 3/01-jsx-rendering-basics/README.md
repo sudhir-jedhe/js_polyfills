@@ -1,4 +1,4 @@
-*** copy README.md ***
+***  README.md ***
 
 # JSX & Rendering Basics
 

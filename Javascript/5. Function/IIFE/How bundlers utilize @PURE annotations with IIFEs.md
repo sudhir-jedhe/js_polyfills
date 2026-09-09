@@ -1,4 +1,4 @@
-*** copy How bundlers utilize @PURE annotations with IIFEs.md ***
+***  How bundlers utilize @PURE annotations with IIFEs.md ***
 
 Modern JavaScript bundlers and minifiers (such as **Rollup, esbuild, Terser, Webpack, and Vite**) rely on static analysis to eliminate unused code (**tree-shaking**). However, JavaScript's dynamic nature makes it notoriously difficult for a compiler to prove that invoking a top-level function or IIFE has no side effects.
 

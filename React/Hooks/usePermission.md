@@ -1,4 +1,4 @@
-*** copy usePermission.md ***
+***  usePermission.md ***
 
 Here is a production-ready `usePermission` React hook that queries permission status (`granted`, `denied`, `prompt`) for browser features (such as `geolocation`, `camera`, `notifications`, `clipboard-read`, etc.) using the native `navigator.permissions` API.
 

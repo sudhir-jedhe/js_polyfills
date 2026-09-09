@@ -1,4 +1,4 @@
-*** copy API Design Best Practices.md ***
+***  API Design Best Practices.md ***
 
 ✅ Use versioning (/api/v1/users)
 ✅ Keep resource names clear (/users, /orders)

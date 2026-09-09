@@ -1,4 +1,4 @@
-*** copy index.md ***
+***  index.md ***
 
 const progress = document.getElementById('progress');
 let isInProgress = false;

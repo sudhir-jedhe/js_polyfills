@@ -1,4 +1,4 @@
-*** copy improveFunctionExcludeItems.md ***
+***  improveFunctionExcludeItems.md ***
 
 ```js
 

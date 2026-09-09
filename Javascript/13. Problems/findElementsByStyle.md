@@ -1,4 +1,4 @@
-*** copy findElementsByStyle.md ***
+***  findElementsByStyle.md ***
 
 ```js
 function findElementsByStyle(property, value) {

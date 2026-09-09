@@ -1,4 +1,4 @@
-*** copy 02-props-are-read-only.md ***
+***  02-props-are-read-only.md ***
 
 # Props Are Read-Only
 

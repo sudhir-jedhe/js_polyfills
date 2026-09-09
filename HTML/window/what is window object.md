@@ -1,4 +1,4 @@
-*** copy what is window object.md ***
+***  what is window object.md ***
 
 // ### How do you access history in javascript
 

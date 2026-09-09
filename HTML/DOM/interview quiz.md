@@ -1,4 +1,4 @@
-*** copy interview quiz.md ***
+***  interview quiz.md ***
 
 Here are explanations to the DOM-related questions:
 

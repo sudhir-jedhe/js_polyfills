@@ -1,4 +1,4 @@
-*** copy 03-broken-useprevious-without-effect.md ***
+***  03-broken-useprevious-without-effect.md ***
 
 # Output-Based: What breaks when `usePrevious` updates the ref during render instead of in an effect?
 

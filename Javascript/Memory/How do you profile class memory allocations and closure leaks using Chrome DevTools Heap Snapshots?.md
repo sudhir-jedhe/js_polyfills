@@ -1,4 +1,4 @@
-*** copy How do you profile class memory allocations and closure leaks using Chrome DevTools Heap Snapshots?.md ***
+***  How do you profile class memory allocations and closure leaks using Chrome DevTools Heap Snapshots?.md ***
 
 Profiling memory leaks in Chrome DevTools relies on taking and comparing **V8 Heap Snapshots** across state transitions.
 

@@ -1,4 +1,4 @@
-*** copy How do I add full WCAG grid keyboard navigation with Arrow keys and Shift+Space selection to a React data table?.md ***
+***  How do I add full WCAG grid keyboard navigation with Arrow keys and Shift+Space selection to a React data table?.md ***
 
 To make a data table compliant with the **WAI-ARIA Grid Design Pattern**, you must implement:
 

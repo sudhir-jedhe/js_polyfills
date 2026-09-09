@@ -1,4 +1,4 @@
-*** copy Modular Pattern in js.md ***
+***  Modular Pattern in js.md ***
 
 The **Modular Pattern** in JavaScript is a design pattern that helps organize code into separate, reusable, and maintainable modules. Each module has a specific responsibility and typically has its own scope, which can help avoid polluting the global scope. This pattern is especially helpful in large applications, where managing code as separate modules makes it easier to maintain and extend.
 

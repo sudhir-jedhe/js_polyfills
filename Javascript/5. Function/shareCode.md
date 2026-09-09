@@ -1,4 +1,4 @@
-*** copy shareCode.md ***
+***  shareCode.md ***
 
 The code you've provided shows different ways to define and use functions in JavaScript, with examples of how to:
 

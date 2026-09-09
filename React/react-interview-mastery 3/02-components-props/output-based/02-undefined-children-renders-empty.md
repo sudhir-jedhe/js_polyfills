@@ -1,4 +1,4 @@
-*** copy 02-undefined-children-renders-empty.md ***
+***  02-undefined-children-renders-empty.md ***
 
 # What Renders?
 

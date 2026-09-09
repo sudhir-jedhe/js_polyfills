@@ -1,4 +1,4 @@
-*** copy for await...of.md ***
+***  for await...of.md ***
 
 The **`for await...of`** loop (introduced in ES2018) is designed to iterate over **Async Iterables**.
 

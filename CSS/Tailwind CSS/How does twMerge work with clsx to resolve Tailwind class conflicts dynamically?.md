@@ -1,4 +1,4 @@
-*** copy How does twMerge work with clsx to resolve Tailwind class conflicts dynamically?.md ***
+***  How does twMerge work with clsx to resolve Tailwind class conflicts dynamically?.md ***
 
 Combining `clsx` and `twMerge` solves two distinct problems in component styling: **conditional class toggling** and **Tailwind CSS cascade conflict resolution**.
 

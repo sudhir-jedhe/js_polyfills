@@ -1,4 +1,4 @@
-*** copy index.md ***
+***  index.md ***
 
 const phone = document.getElementById('phone');
 

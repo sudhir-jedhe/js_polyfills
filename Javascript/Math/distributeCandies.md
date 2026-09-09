@@ -1,4 +1,4 @@
-*** copy distributeCandies.md ***
+***  distributeCandies.md ***
 
 The task at hand is to help Alice, who has `n` candies, where `n` is always even, and the candies are of different types (represented in the `candyType` array). Alice can eat a maximum of `n / 2` candies, and she wants to eat the maximum number of different types of candies. Our goal is to determine the maximum number of unique candy types Alice can consume.
 

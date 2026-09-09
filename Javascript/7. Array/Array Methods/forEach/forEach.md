@@ -1,4 +1,4 @@
-*** copy forEach.md ***
+***  forEach.md ***
 
 ## Custom `forEach()` Polyfill (Interview Question)
 

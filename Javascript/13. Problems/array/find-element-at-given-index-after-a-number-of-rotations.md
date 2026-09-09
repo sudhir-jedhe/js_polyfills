@@ -1,4 +1,4 @@
-*** copy find-element-at-given-index-after-a-number-of-rotations.md ***
+***  find-element-at-given-index-after-a-number-of-rotations.md ***
 
 ```js
 // Input : arr[] : {1, 2, 3, 4, 5}

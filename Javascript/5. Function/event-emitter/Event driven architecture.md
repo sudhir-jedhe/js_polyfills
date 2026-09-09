@@ -1,4 +1,4 @@
-*** copy Event driven architecture.md ***
+***  Event driven architecture.md ***
 
 **Event-Driven Architecture (EDA)** in JavaScript is a design pattern where the flow of execution is determined by **events**—actions, state changes, messages, or user interactions—which are emitted by **producers** and reacted to by **consumers (listeners/handlers)** without the components being tightly coupled.
 

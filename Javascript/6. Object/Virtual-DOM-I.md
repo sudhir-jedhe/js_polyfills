@@ -1,4 +1,4 @@
-*** copy Virtual-DOM-I.md ***
+***  Virtual-DOM-I.md ***
 
 Sure! Below is the complete code with both the **`virtualize`** and **`render`** functions, as well as an example of how they work together to convert a DOM element into a virtual object and back to a DOM element.
 

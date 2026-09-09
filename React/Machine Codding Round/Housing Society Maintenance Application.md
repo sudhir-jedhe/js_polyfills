@@ -1,4 +1,4 @@
-*** copy Housing Society Maintenance Application.md ***
+***  Housing Society Maintenance Application.md ***
 
 The Housing Society Maintenance Application skill has been created and saved as society-maintenance-app.
 

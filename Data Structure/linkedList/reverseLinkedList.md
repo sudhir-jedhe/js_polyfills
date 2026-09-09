@@ -1,4 +1,4 @@
-*** copy reverseLinkedList.md ***
+***  reverseLinkedList.md ***
 
 /**
  * Iterative

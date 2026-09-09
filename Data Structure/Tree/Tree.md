@@ -1,4 +1,4 @@
-*** copy Tree.md ***
+***  Tree.md ***
 
 avaScript Data Structures - Tree
 

@@ -1,4 +1,4 @@
-*** copy 02-typeof-operator-and-quirks.md ***
+***  02-typeof-operator-and-quirks.md ***
 
 # The `typeof` Operator and Its Quirks
 

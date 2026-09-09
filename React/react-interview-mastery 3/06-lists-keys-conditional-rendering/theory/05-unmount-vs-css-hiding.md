@@ -1,4 +1,4 @@
-*** copy 05-unmount-vs-css-hiding.md ***
+***  05-unmount-vs-css-hiding.md ***
 
 # Unmount-based conditional rendering vs CSS-based hiding
 

@@ -1,4 +1,4 @@
-*** copy highlight-text-on-selection.md ***
+***  highlight-text-on-selection.md ***
 
 // Implement a hook in React that will return the selected text on the web page and the coordinates of the selection so that a popup can be shown to Tweet the selected text just like Medium.
 

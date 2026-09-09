@@ -1,4 +1,4 @@
-*** copy find sum of prices of product.md ***
+***  find sum of prices of product.md ***
 
 To create an array of products with their name, quantity, and price, and then calculate the sum of the prices, you can write the following JavaScript code:
 

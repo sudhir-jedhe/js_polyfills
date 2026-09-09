@@ -1,4 +1,4 @@
-*** copy 01-localstorage-json-helpers.md ***
+***  01-localstorage-json-helpers.md ***
 
 # Snippet: localStorage JSON Read/Write Helpers
 

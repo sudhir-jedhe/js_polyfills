@@ -1,4 +1,4 @@
-*** copy How do I automatically generate a multi-level sidebar navigation menu from a data-driven route config with permission filtering?.md ***
+***  How do I automatically generate a multi-level sidebar navigation menu from a data-driven route config with permission filtering?.md ***
 
 To generate a multi-level sidebar automatically from your route configuration, you need a recursive rendering component that:
 

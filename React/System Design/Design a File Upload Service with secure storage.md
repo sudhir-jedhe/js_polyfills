@@ -1,4 +1,4 @@
-*** copy Design a File Upload Service with secure storage.md ***
+***  Design a File Upload Service with secure storage.md ***
 
 Here is an end-to-end System Design for a secure, high-throughput **File Upload Service** (handling media, PDFs, profile pictures, and documents) designed to offload bandwidth from application servers, prevent malicious uploads, and enforce zero-trust access controls.
 

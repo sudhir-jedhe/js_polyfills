@@ -1,4 +1,4 @@
-*** copy forOf.md ***
+***  forOf.md ***
 
 ### Explanation of the Code Snippets:
 

@@ -1,4 +1,4 @@
-*** copy API documentation for developers.md ***
+***  API documentation for developers.md ***
 
 Great API documentation is the cornerstone of exceptional **Developer Experience (DX)**. If an API is powerful but poorly documented, adoption plummets because developers waste hours guessing endpoints, payloads, and authentication rules.
 

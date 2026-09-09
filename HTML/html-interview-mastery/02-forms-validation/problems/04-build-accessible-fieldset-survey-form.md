@@ -1,4 +1,4 @@
-*** copy 04-build-accessible-fieldset-survey-form.md ***
+***  04-build-accessible-fieldset-survey-form.md ***
 
 # Problem: Build an Accessible Multi-Section Survey Form
 

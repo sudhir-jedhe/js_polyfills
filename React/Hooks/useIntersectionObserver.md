@@ -1,4 +1,4 @@
-*** copy useIntersectionObserver.md ***
+***  useIntersectionObserver.md ***
 
 Here is a production-ready, highly flexible `useIntersectionObserver` hook. It supports ref targets, element targets, freeze-once-visible behavior (ideal for lazy loading images), and custom observer options (`threshold`, `root`, `rootMargin`).
 

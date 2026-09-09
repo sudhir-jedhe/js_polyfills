@@ -1,4 +1,4 @@
-*** copy Access Token vs Refresh Token.md ***
+***  Access Token vs Refresh Token.md ***
 
 Access Token vs Refresh Token
 If a JWT proves that you're authenticated, why do modern applications use two tokens instead of one?

@@ -1,4 +1,4 @@
-*** copy What is the new use() API and how does it differ from traditional hooks?.md ***
+***  What is the new use() API and how does it differ from traditional hooks?.md ***
 
 The **`use()`** API (introduced in React 19) is a versatile React function that allows you to read the value of a **Promise** or a **Context** directly inside the render phase.
 

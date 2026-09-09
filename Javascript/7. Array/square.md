@@ -1,4 +1,4 @@
-*** copy square.md ***
+***  square.md ***
 
 ```javascript
 Array.prototype.square = function () {

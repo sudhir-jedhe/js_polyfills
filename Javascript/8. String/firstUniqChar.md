@@ -1,4 +1,4 @@
-*** copy firstUniqChar.md ***
+***  firstUniqChar.md ***
 
 ```js
 /**

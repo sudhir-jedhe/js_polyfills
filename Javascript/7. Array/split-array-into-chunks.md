@@ -1,4 +1,4 @@
-*** copy split-array-into-chunks.md ***
+***  split-array-into-chunks.md ***
 
 The code examples provided demonstrate various methods for splitting an array or iterable into chunks, using different approaches based on chunk size or number of chunks. Let's break down each approach in detail:
 

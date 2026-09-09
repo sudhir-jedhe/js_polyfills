@@ -1,4 +1,4 @@
-*** copy 03-lazy-loading-images-iframes.md ***
+***  03-lazy-loading-images-iframes.md ***
 
 # Native Lazy Loading: `loading="lazy"` for Images and Iframes
 

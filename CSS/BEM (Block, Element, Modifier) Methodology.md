@@ -1,4 +1,4 @@
-*** copy BEM (Block, Element, Modifier) Methodology.md ***
+***  BEM (Block, Element, Modifier) Methodology.md ***
 
 ### BEM (Block, Element, Modifier) Methodology
 

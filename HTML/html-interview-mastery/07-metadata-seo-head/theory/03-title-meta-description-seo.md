@@ -1,4 +1,4 @@
-*** copy 03-title-meta-description-seo.md ***
+***  03-title-meta-description-seo.md ***
 
 # `<title>` and Meta Description for SEO
 

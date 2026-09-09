@@ -1,4 +1,4 @@
-*** copy How do I assert ARIA live region announcements and screen reader status changes in Playwright tests?.md ***
+***  How do I assert ARIA live region announcements and screen reader status changes in Playwright tests?.md ***
 
 To test screen reader announcements in Playwright, you cannot directly capture audio output, but you can assert on the two underlying mechanisms screen readers rely on:
 

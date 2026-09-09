@@ -1,4 +1,4 @@
-*** copy 06-web-worker-heavy-computation.md ***
+***  06-web-worker-heavy-computation.md ***
 
 # Snippet: Offloading a Heavy Computation to a Web Worker
 

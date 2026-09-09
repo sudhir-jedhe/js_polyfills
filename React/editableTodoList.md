@@ -1,4 +1,4 @@
-*** copy editableTodoList.md ***
+***  editableTodoList.md ***
 
 ```js
 export default function App() {

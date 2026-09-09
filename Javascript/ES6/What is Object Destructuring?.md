@@ -1,4 +1,4 @@
-*** copy What is Object Destructuring?.md ***
+***  What is Object Destructuring?.md ***
 
 ## What is Object Destructuring?
 

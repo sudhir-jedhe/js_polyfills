@@ -1,4 +1,4 @@
-*** copy Media Query.md ***
+***  Media Query.md ***
 
 ### **What is a Media Query?**
 

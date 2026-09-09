@@ -1,4 +1,4 @@
-*** copy How do I set up Playwright test sharding to run tests across 4 parallel GitHub Actions jobs?.md ***
+***  How do I set up Playwright test sharding to run tests across 4 parallel GitHub Actions jobs?.md ***
 
 Playwright has native support for **test sharding** via the `--shard=x/y` CLI argument.
 

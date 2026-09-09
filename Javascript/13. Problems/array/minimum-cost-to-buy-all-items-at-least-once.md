@@ -1,4 +1,4 @@
-*** copy minimum-cost-to-buy-all-items-at-least-once.md ***
+***  minimum-cost-to-buy-all-items-at-least-once.md ***
 
 ```js
 // Given an array A[] of length N. Consider that purchasing ith item will cost Ai and then

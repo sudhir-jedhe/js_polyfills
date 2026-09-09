@@ -1,4 +1,4 @@
-*** copy iterarors.md ***
+***  iterarors.md ***
 
 In JavaScript, an **Iterator** is an object that provides a standard mechanism for traversing a collection (like an Array, Set, or Map) one element at a time.
 

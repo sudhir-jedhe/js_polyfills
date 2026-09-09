@@ -1,4 +1,4 @@
-*** copy 05-avoiding-stale-closure-with-functional-update.md ***
+***  05-avoiding-stale-closure-with-functional-update.md ***
 
 # Avoiding a Stale Closure With the Functional Update Form Inside `setInterval`
 

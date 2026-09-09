@@ -1,4 +1,4 @@
-*** copy handling document uploads and downloads.md ***
+***  handling document uploads and downloads.md ***
 
 Here is a complete, production-ready React component suite for handling **document uploads and downloads**.
 

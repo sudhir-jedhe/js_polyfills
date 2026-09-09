@@ -1,4 +1,4 @@
-*** copy Architect Blogs.md ***
+***  Architect Blogs.md ***
 
 If you want to become a better frontend engineer, start reading these blogs: ↓
 

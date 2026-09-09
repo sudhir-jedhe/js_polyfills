@@ -1,4 +1,4 @@
-*** copy 06-label-for-vs-wrapping-click-behavior.md ***
+***  06-label-for-vs-wrapping-click-behavior.md ***
 
 # Output: Clicking Label Text — `for`/`id` vs. Wrapping vs. Neither
 

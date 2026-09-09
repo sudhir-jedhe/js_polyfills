@@ -1,4 +1,4 @@
-*** copy isNaN.md ***
+***  isNaN.md ***
 
 Here’s a breakdown of the code and what it outputs:
 

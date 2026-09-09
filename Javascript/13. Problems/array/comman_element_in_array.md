@@ -1,4 +1,4 @@
-*** copy comman_element_in_array.md ***
+***  comman_element_in_array.md ***
 
 ```js
 // Define first array

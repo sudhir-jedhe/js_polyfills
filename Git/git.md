@@ -1,4 +1,4 @@
-*** copy git.md ***
+***  git.md ***
 
 # Top Git Interview Questions (Senior React / Frontend Developer)
 

@@ -1,4 +1,4 @@
-*** copy mergeSort.md ***
+***  mergeSort.md ***
 
 // Merge sort is a stable comparison-based algorithm, with a time complexity of O(nlog(n)) in all cases. It is commonly used in practice as a general-purpose algorithm for sorting arrays of all sizes.
 

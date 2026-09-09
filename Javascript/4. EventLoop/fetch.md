@@ -1,4 +1,4 @@
-*** copy fetch.md ***
+***  fetch.md ***
 
 Certainly! The example you've provided demonstrates how you can use `fetch` with different priorities and utilize the **microtask queue** and **macrotask queue** to control the order in which requests are executed.
 

@@ -1,4 +1,4 @@
-*** copy sumOfResolvedPromised.md ***
+***  sumOfResolvedPromised.md ***
 
 # Sum of All Resolved Promises
 

@@ -1,4 +1,4 @@
-*** copy singleNumber.md ***
+***  singleNumber.md ***
 
 The problem you're trying to solve is finding the **single number** in an array where every other number appears twice, and one number appears only once. You need to find the number that appears once with **linear runtime complexity** (`O(n)`) and **constant extra space** (`O(1)`).
 

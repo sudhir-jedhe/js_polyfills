@@ -1,4 +1,4 @@
-*** copy diamondPattern.md ***
+***  diamondPattern.md ***
 
 Your function `diamondPattern` generates a diamond shape with a given number of rows in the first half (the top pyramid). It works well, but there's a little unnecessary duplication of logic. You can simplify the code a bit by removing some redundant operations. Specifically:
 

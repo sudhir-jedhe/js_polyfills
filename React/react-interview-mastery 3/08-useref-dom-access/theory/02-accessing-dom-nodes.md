@@ -1,4 +1,4 @@
-*** copy 02-accessing-dom-nodes.md ***
+***  02-accessing-dom-nodes.md ***
 
 # Accessing DOM nodes
 

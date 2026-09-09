@@ -1,4 +1,4 @@
-*** copy 05-history-api-spa-routing.md ***
+***  05-history-api-spa-routing.md ***
 
 # The History API: `pushState`, `replaceState`, and `popstate`
 

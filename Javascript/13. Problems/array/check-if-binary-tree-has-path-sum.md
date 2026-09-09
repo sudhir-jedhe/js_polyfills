@@ -1,4 +1,4 @@
-*** copy check-if-binary-tree-has-path-sum.md ***
+***  check-if-binary-tree-has-path-sum.md ***
 
 ```js
 const hasPathSum = (root, sum) => {

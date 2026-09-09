@@ -1,4 +1,4 @@
-*** copy isDateValid.md ***
+***  isDateValid.md ***
 
 Your `isDateValid` function is designed to check if a given value (or set of values) can be converted into a valid `Date` object. It uses the `new Date(...val)` constructor to create a date object and then checks if its `valueOf()` method returns a valid number (i.e., a valid timestamp).
 

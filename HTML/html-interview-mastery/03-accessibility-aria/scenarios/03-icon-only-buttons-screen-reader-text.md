@@ -1,4 +1,4 @@
-*** copy 03-icon-only-buttons-screen-reader-text.md ***
+***  03-icon-only-buttons-screen-reader-text.md ***
 
 # Scenario: A Toolbar of Icon-Only Buttons Announces as "button, button, button"
 

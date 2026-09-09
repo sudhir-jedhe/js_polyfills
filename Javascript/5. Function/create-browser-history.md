@@ -1,4 +1,4 @@
-*** copy create-browser-history.md ***
+***  create-browser-history.md ***
 
 ```
 // BrowserHistory class definition

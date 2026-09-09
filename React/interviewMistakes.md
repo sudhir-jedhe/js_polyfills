@@ -1,4 +1,4 @@
-*** copy interviewMistakes.md ***
+***  interviewMistakes.md ***
 
 ![alt text](image-14.png)
 

@@ -1,4 +1,4 @@
-*** copy count-numbers-up-to-n-that-cannot-be-expressed-as-sum-of-at-least-two-consecutive-positive-integers.md ***
+***  count-numbers-up-to-n-that-cannot-be-expressed-as-sum-of-at-least-two-consecutive-positive-integers.md ***
 
 ```js
 // Input: N = 10

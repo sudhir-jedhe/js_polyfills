@@ -1,4 +1,4 @@
-*** copy useLongPress.md ***
+***  useLongPress.md ***
 
 Here is a production-ready `useLongPress` React hook for press-and-hold actions. It supports both mouse and touch events, configurable thresholds, cancellation on drag/move, and distinct callbacks for when a long press succeeds versus when a short tap/click occurs.
 

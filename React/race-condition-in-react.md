@@ -1,4 +1,4 @@
-*** copy race-condition-in-react.md ***
+***  race-condition-in-react.md ***
 
 A race condition is a phenomenon in which if you are making multiple API calls or performing asynchronous operations, then there are chances that the UI can update/render in glitch as the later call may resolve first and the first API call may resolve later.
 

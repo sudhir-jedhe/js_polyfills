@@ -1,4 +1,4 @@
-*** copy checkout.md ***
+***  checkout.md ***
 
 # Shopping Cart Checkout (React Machine Coding Interview)
 

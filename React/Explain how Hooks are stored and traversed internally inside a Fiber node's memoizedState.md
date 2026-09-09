@@ -1,4 +1,4 @@
-*** copy Explain how Hooks are stored and traversed internally inside a Fiber node's memoizedState.md ***
+***  Explain how Hooks are stored and traversed internally inside a Fiber node's memoizedState.md ***
 
 In React, function components do not have class instances (`this`) to store instance properties across re-renders. Instead, React attaches all hook state directly to the component's **Fiber node**.
 

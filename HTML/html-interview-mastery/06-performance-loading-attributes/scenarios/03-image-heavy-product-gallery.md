@@ -1,4 +1,4 @@
-*** copy 03-image-heavy-product-gallery.md ***
+***  03-image-heavy-product-gallery.md ***
 
 # Scenario: An Image-Heavy Product Gallery Page Loads Slowly and Jumps Around
 

@@ -1,4 +1,4 @@
-*** copy reverse-linked-list-by-reducing-segment-size-from-both-ends.md ***
+***  reverse-linked-list-by-reducing-segment-size-from-both-ends.md ***
 
 // Given a linked list of even length, where each element is an integer, the task is to reverse the list by performing the following steps repeatedly, after completing the below steps, return the new head of the list.
 

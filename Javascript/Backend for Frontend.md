@@ -1,4 +1,4 @@
-*** copy Backend for Frontend.md ***
+***  Backend for Frontend.md ***
 
 ### Why BFF (Backend for Frontend) is a Game-Changer
 

@@ -1,4 +1,4 @@
-*** copy returns-sum-of-the-previous-values.md ***
+***  returns-sum-of-the-previous-values.md ***
 
 Your implementation of the `curry` function works perfectly for a simple summing use case! The idea behind the function is solid: you're using closures to keep track of the `sum` variable and allow for successive additions.
 

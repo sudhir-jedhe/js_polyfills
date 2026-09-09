@@ -1,4 +1,4 @@
-*** copy arrowFunc.md ***
+***  arrowFunc.md ***
 
 // This is a JavaScript Quiz from BFE.dev
 

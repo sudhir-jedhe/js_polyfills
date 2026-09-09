@@ -1,4 +1,4 @@
-*** copy to-be-or-not-to-be.md ***
+***  to-be-or-not-to-be.md ***
 
 Certainly! Here's the solution with your original approach (the `expect` function), but now implementing the function composition using the expected structure.
 

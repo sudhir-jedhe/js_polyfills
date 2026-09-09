@@ -1,4 +1,4 @@
-*** copy 05-default-props-and-component-design.md ***
+***  05-default-props-and-component-design.md ***
 
 # Default Prop Values and Component Design Heuristics
 

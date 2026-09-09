@@ -1,4 +1,4 @@
-*** copy 03-cleanup-functions.md ***
+***  03-cleanup-functions.md ***
 
 # Cleanup Functions
 

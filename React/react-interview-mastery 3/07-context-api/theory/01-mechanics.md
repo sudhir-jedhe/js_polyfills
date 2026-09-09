@@ -1,4 +1,4 @@
-*** copy 01-mechanics.md ***
+***  01-mechanics.md ***
 
 # The mechanics
 

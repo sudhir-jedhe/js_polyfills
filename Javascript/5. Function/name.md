@@ -1,4 +1,4 @@
-*** copy name.md ***
+***  name.md ***
 
 ### 1. **The `foo` and `bar` Function Example**
 

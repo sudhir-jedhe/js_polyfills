@@ -1,4 +1,4 @@
-*** copy MathSqrt.md ***
+***  MathSqrt.md ***
 
 Here’s a breakdown of the two implementations you shared for finding the integer square root of a given number \( x \):
 

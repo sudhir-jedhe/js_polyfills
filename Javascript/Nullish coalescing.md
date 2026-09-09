@@ -1,4 +1,4 @@
-*** copy Nullish coalescing.md ***
+***  Nullish coalescing.md ***
 
 The **nullish coalescing operator** (`??`) is a great addition to JavaScript, helping to handle cases where values are either `null` or `undefined`. This operator only returns the right-hand side operand if the left-hand side is **null** or **undefined**. It is different from the **logical OR operator** (`||`), which returns the right-hand side operand when the left-hand side is any falsy value (e.g., `0`, `false`, `""`, `null`, `undefined`, `NaN`).
 

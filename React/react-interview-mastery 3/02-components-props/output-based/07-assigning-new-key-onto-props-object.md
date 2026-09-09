@@ -1,4 +1,4 @@
-*** copy 07-assigning-new-key-onto-props-object.md ***
+***  07-assigning-new-key-onto-props-object.md ***
 
 # What's Wrong With This Component (and What Does It Do at Runtime)?
 

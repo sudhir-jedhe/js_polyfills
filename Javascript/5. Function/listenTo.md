@@ -1,4 +1,4 @@
-*** copy listenTo.md ***
+***  listenTo.md ***
 
 If by **`listenTo`** you mean the common interview question similar to an **EventEmitter** API:
 

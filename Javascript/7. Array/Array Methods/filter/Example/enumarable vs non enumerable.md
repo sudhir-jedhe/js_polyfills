@@ -1,4 +1,4 @@
-*** copy enumarable vs non enumerable.md ***
+***  enumarable vs non enumerable.md ***
 
 ### **Enumerable vs Non-Enumerable Properties**
 

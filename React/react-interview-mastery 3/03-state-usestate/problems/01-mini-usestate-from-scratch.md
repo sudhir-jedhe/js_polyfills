@@ -1,4 +1,4 @@
-*** copy 01-mini-usestate-from-scratch.md ***
+***  01-mini-usestate-from-scratch.md ***
 
 # Problem: Implement a Simplified `useState` From Scratch
 

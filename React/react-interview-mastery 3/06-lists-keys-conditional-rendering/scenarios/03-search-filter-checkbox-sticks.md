@@ -1,4 +1,4 @@
-*** copy 03-search-filter-checkbox-sticks.md ***
+***  03-search-filter-checkbox-sticks.md ***
 
 # Scenario: Search-filtered list causes checkboxes to "stick" to the wrong row
 

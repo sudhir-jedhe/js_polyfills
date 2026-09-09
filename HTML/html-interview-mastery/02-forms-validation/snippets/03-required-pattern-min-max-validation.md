@@ -1,4 +1,4 @@
-*** copy 03-required-pattern-min-max-validation.md ***
+***  03-required-pattern-min-max-validation.md ***
 
 # Snippet: `required`, `pattern`, `min`/`max` Validation
 

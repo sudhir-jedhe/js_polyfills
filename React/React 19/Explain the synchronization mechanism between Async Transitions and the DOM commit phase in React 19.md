@@ -1,4 +1,4 @@
-*** copy Explain the synchronization mechanism between Async Transitions and the DOM commit phase in React 19.md ***
+***  Explain the synchronization mechanism between Async Transitions and the DOM commit phase in React 19.md ***
 
 In React 19, **Async Transitions** (`useTransition`, `startTransition`, and `useActionState`) fundamentally alter how React handles asynchronous work relative to the DOM commit phase.
 

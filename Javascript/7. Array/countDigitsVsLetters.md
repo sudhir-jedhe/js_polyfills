@@ -1,4 +1,4 @@
-*** copy countDigitsVsLetters.md ***
+***  countDigitsVsLetters.md ***
 
 To count total digits versus total letters (or total non-digits) in a JavaScript string, you can use **regular expressions** or a simple **`for...of` loop**.
 

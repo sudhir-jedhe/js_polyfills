@@ -1,4 +1,4 @@
-*** copy What is the difference between the cluster module and worker threads in Node.js, and when should I use which?.md ***
+***  What is the difference between the cluster module and worker threads in Node.js, and when should I use which?.md ***
 
 The fundamental difference between the **Cluster Module** (`node:cluster`) and **Worker Threads** (`node:worker_threads`) comes down to **Multi-Processing (processes)** versus **Multi-Threading (threads)**.
 

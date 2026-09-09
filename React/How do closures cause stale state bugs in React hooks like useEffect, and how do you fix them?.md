@@ -1,4 +1,4 @@
-*** copy How do closures cause stale state bugs in React hooks like useEffect, and how do you fix them?.md ***
+***  How do closures cause stale state bugs in React hooks like useEffect, and how do you fix them?.md ***
 
 A **stale closure bug** happens in React when a hook callback (like inside `useEffect`, `useCallback`, or `setTimeout`) captures state or prop values from an **earlier render**. Because the callback is not recreated on subsequent renders, it stays closed over those outdated variables.
 

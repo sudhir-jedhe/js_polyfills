@@ -1,4 +1,4 @@
-*** copy promiseRace.md ***
+***  promiseRace.md ***
 
 /*************************User Implement custom promise.race ************************ */
 ```js

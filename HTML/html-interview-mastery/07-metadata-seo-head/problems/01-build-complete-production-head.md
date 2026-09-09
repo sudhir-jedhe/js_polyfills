@@ -1,4 +1,4 @@
-*** copy 01-build-complete-production-head.md ***
+***  01-build-complete-production-head.md ***
 
 # Problem: Build a Complete, Production-Ready `<head>` from a Content Brief
 

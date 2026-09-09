@@ -1,4 +1,4 @@
-*** copy chaining.md ***
+***  chaining.md ***
 
 To implement custom chaining in JavaScript, the key is to ensure that each method returns the same instance of the object (i.e., `this`). This allows you to chain method calls together, as demonstrated in the calculator example you provided. The structure of your `ComputeAmount` function is already well-suited for chaining, but I can explain and refine it further to ensure clarity and correctness.
 

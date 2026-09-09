@@ -1,4 +1,4 @@
-*** copy primary purpose of the container class in Tailwind CSS.md ***
+***  primary purpose of the container class in Tailwind CSS.md ***
 
 The primary purpose of the `container` class in Tailwind CSS is to **set an element’s `max-width` to match the `min-width` of the current breakpoint**, creating a centered, fixed-width content wrapper that adjusts in steps across screen sizes.
 

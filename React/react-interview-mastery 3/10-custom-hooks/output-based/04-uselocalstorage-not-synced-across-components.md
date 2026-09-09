@@ -1,4 +1,4 @@
-*** copy 04-uselocalstorage-not-synced-across-components.md ***
+***  04-uselocalstorage-not-synced-across-components.md ***
 
 # Output-Based: useLocalStorage Instances Are Not Synced Across Components
 

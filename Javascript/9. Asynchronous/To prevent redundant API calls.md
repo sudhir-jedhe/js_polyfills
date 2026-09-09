@@ -1,4 +1,4 @@
-*** copy To prevent redundant API calls.md ***
+***  To prevent redundant API calls.md ***
 
 API call is faced every time the user open the same page. How would you optimize it? Use caching like a memory cache, local storage, react query, browser cache.
 

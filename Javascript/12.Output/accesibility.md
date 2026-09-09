@@ -1,4 +1,4 @@
-*** copy accesibility.md ***
+***  accesibility.md ***
 
 Accessibility Interview Questions
 These questions try to stay away from asking people to recite specifications, or rattle off screen reader hot keys. Those can easily be looked up on the job. Instead these questions try to act as conversation starters, to gain insight into how someone solves problems, and interprets accessible, inclusive user experiences.

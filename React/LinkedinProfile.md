@@ -1,4 +1,4 @@
-*** copy LinkedinProfile.md ***
+***  LinkedinProfile.md ***
 
 1.Make your entire profile public
 2.Enable your Creator Profile

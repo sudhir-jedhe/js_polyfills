@@ -1,4 +1,4 @@
-*** copy 08-undeclared-var-then-null-typeof.md ***
+***  08-undeclared-var-then-null-typeof.md ***
 
 # `typeof` on an Unassigned Variable, Then After Assigning `null`
 

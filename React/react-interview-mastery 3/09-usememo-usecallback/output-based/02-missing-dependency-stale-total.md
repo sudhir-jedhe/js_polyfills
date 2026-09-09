@@ -1,4 +1,4 @@
-*** copy 02-missing-dependency-stale-total.md ***
+***  02-missing-dependency-stale-total.md ***
 
 # Output-Based: Missing Dependency Produces a Stale useMemo Result
 

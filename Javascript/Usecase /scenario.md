@@ -1,4 +1,4 @@
-*** copy scenario.md ***
+***  scenario.md ***
 
 A user searches for “React” and then “Redux”, but the slower React response arrives later and replaces the correct results. How would you prevent it?
 

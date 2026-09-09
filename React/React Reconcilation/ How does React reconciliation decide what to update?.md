@@ -1,4 +1,4 @@
-*** copy  How does React reconciliation decide what to update?.md ***
+***   How does React reconciliation decide what to update?.md ***
 
 React reconciliation uses a heuristic diffing algorithm to compare the newly returned Virtual DOM tree with the previous Virtual DOM tree. Rather than using an $O(n^3)$ tree comparison algorithm, React optimizes this to an $O(n)$ process based on two primary assumptions:
 

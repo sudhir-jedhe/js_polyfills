@@ -1,4 +1,4 @@
-*** copy index.md ***
+***  index.md ***
 
 const generateMemebtn = document.querySelector('.meme-generator .generate-meme-btn');
 const body = document.querySelector('body');

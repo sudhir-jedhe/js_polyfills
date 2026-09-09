@@ -1,4 +1,4 @@
-*** copy 04-multi-field-handler.md ***
+***  04-multi-field-handler.md ***
 
 # Snippet: One handler for multiple named fields via the `name` attribute
 

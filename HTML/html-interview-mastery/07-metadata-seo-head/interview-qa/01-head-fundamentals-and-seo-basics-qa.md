@@ -1,4 +1,4 @@
-*** copy 01-head-fundamentals-and-seo-basics-qa.md ***
+***  01-head-fundamentals-and-seo-basics-qa.md ***
 
 # Interview Q&A — `<head>` Fundamentals & SEO Basics
 

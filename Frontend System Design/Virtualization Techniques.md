@@ -1,4 +1,4 @@
-*** copy Virtualization Techniques.md ***
+***  Virtualization Techniques.md ***
 
 Here is the complete English translation of the explanation on Virtualization Techniques, Loading New Data, Element Recycling, and Pooling:
 

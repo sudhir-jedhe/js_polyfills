@@ -1,4 +1,4 @@
-*** copy  Handling multi-step wizards with React 19 form actions.md ***
+***   Handling multi-step wizards with React 19 form actions.md ***
 
 In React 19, you can build multi-step wizards without external state management libraries by combining **`useActionState`**, **hidden `<input>` fields / progressive `FormData` accumulation**, and server or client validation.
 

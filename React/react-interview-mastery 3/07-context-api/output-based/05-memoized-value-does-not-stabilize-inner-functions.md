@@ -1,4 +1,4 @@
-*** copy 05-memoized-value-does-not-stabilize-inner-functions.md ***
+***  05-memoized-value-does-not-stabilize-inner-functions.md ***
 
 # Output-Based: Does `useMemo`-wrapping the context value also stabilize the functions inside it?
 

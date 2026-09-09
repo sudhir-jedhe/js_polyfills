@@ -1,4 +1,4 @@
-*** copy How React Reconciliation Works.md ***
+***  How React Reconciliation Works.md ***
 
 ### How React Reconciliation Works
 

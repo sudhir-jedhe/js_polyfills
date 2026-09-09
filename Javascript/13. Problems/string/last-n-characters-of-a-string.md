@@ -1,4 +1,4 @@
-*** copy last-n-characters-of-a-string.md ***
+***  last-n-characters-of-a-string.md ***
 
 ```js
 function getCharacter(str, n) {

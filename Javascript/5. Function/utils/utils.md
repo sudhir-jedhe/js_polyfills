@@ -1,4 +1,4 @@
-*** copy utils.md ***
+***  utils.md ***
 
 To implement the requested utility functions (`isArray`, `isFunction`, `isObject`, and `isPlainObject`), here's a complete and efficient solution:
 

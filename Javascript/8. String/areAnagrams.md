@@ -1,4 +1,4 @@
-*** copy areAnagrams.md ***
+***  areAnagrams.md ***
 
 ```js
 areAnagrams("cinema", "iceman"); // Output: true

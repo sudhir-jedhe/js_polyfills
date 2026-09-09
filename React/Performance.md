@@ -1,4 +1,4 @@
-*** copy Performance.md ***
+***  Performance.md ***
 
 React.js Performance Patterns
 

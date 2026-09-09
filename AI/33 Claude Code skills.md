@@ -1,4 +1,4 @@
-*** copy 33 Claude Code skills.md ***
+***  33 Claude Code skills.md ***
 
 This PDF guide, titled **"I tried 33 Claude Code skills. These are the best."** by Ashwini (Senior AI/ML Engineer), highlights the top 6 skills that allow Claude Code to effectively plan, test, and review its own work.
 

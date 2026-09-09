@@ -1,4 +1,4 @@
-*** copy convert-given-strings-into-t-by-replacing-characters-in-between-strings-any-number-of-time.md ***
+***  convert-given-strings-into-t-by-replacing-characters-in-between-strings-any-number-of-time.md ***
 
 ```js
 // Input: arr[] = {“abc”, “abb”, “acc”}, T = “abc”

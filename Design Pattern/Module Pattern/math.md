@@ -1,4 +1,4 @@
-*** copy math.md ***
+***  math.md ***
 
 export function add(x, y) {
   return x + y;

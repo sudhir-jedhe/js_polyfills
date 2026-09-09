@@ -1,4 +1,4 @@
-*** copy design.md ***
+***  design.md ***
 
 implementing a Promise Pool. A Promise Pool is a technique used to limit the number of concurrently executing promises, which can be useful in cases such as API rate-limiting or managing a limited number of resources.
 

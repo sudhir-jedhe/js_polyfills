@@ -1,4 +1,4 @@
-*** copy productReviewPage.md ***
+***  productReviewPage.md ***
 
 # Product Review Page in React
 

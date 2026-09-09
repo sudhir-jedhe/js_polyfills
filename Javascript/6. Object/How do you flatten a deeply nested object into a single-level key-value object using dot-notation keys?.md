@@ -1,4 +1,4 @@
-*** copy How do you flatten a deeply nested object into a single-level key-value object using dot-notation keys?.md ***
+***  How do you flatten a deeply nested object into a single-level key-value object using dot-notation keys?.md ***
 
 To flatten a deeply nested object into a single-level object using dot-notation keys, use recursion to traverse the structure while carrying forward the cumulative key path.
 

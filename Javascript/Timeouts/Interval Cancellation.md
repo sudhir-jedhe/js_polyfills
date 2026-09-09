@@ -1,4 +1,4 @@
-*** copy Interval Cancellation.md ***
+***  Interval Cancellation.md ***
 
 Here is the complete guide and solution for LeetCode #2725: **Interval Cancellation** (executing a function immediately at $t = 0\text{ ms}$ and repeatedly every $t\text{ ms}$ until a returned cancellation function is called).
 

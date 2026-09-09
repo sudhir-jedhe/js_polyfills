@@ -1,4 +1,4 @@
-*** copy digitalClock.md ***
+***  digitalClock.md ***
 
 ```js
 const pad = (inp) => {

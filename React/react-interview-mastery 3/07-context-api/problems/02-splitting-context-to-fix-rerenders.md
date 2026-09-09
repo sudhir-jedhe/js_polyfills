@@ -1,4 +1,4 @@
-*** copy 02-splitting-context-to-fix-rerenders.md ***
+***  02-splitting-context-to-fix-rerenders.md ***
 
 # Problem: Split one large context into two narrower contexts to fix an unnecessary re-render problem
 

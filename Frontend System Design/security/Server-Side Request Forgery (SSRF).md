@@ -1,4 +1,4 @@
-*** copy Server-Side Request Forgery (SSRF).md ***
+***  Server-Side Request Forgery (SSRF).md ***
 
 In Front-End System Design, **Server-Side Request Forgery (SSRF)** is an attack where an attacker tricks a server component in your front-end architecture into making unauthorized network requests to internal systems, cloud metadata services, or third-party APIs.
 

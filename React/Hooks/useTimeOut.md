@@ -1,4 +1,4 @@
-*** copy useTimeOut.md ***
+***  useTimeOut.md ***
 
 ```js
 import React, { useEffect, useRef } from "react";

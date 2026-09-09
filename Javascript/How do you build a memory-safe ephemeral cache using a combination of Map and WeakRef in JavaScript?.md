@@ -1,4 +1,4 @@
-*** copy How do you build a memory-safe ephemeral cache using a combination of Map and WeakRef in JavaScript?.md ***
+***  How do you build a memory-safe ephemeral cache using a combination of Map and WeakRef in JavaScript?.md ***
 
 An ephemeral cache uses a standard `Map` to store string/primitive keys pointing to **`WeakRef`** values, paired with a **`FinalizationRegistry`** to automatically remove the dead key from the `Map` once the garbage collector reclaims the object.
 

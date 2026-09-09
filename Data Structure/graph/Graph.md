@@ -1,4 +1,4 @@
-*** copy Graph.md ***
+***  Graph.md ***
 
 JavaScript Data Structures - Graph
 

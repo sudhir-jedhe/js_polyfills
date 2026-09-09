@@ -1,4 +1,4 @@
-*** copy getLastEment.md ***
+***  getLastEment.md ***
 
 ```js
 let a = [4,5,6,8,9]

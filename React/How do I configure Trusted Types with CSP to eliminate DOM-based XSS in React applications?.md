@@ -1,4 +1,4 @@
-*** copy How do I configure Trusted Types with CSP to eliminate DOM-based XSS in React applications?.md ***
+***  How do I configure Trusted Types with CSP to eliminate DOM-based XSS in React applications?.md ***
 
 **Trusted Types** locks down dangerous DOM injection sinks—such as `element.innerHTML`, `element.outerHTML`, `document.write`, and `iframe.srcdoc`. Once enabled via Content Security Policy (CSP), the browser will reject raw strings passed into these sinks, throwing a runtime `TypeError` unless the value is wrapped in a verified `TrustedHTML`, `TrustedScript`, or `TrustedScriptURL` object.
 

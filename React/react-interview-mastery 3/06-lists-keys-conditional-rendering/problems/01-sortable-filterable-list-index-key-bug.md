@@ -1,4 +1,4 @@
-*** copy 01-sortable-filterable-list-index-key-bug.md ***
+***  01-sortable-filterable-list-index-key-bug.md ***
 
 # Problem: Sortable/filterable list where index-as-key visibly breaks state — demonstrate then fix
 

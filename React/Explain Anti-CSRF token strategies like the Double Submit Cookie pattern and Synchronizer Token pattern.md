@@ -1,4 +1,4 @@
-*** copy Explain Anti-CSRF token strategies like the Double Submit Cookie pattern and Synchronizer Token pattern.md ***
+***  Explain Anti-CSRF token strategies like the Double Submit Cookie pattern and Synchronizer Token pattern.md ***
 
 While `SameSite` cookie attributes provide strong baseline protection against Cross-Site Request Forgery (CSRF), defense-in-depth requires explicit **Anti-CSRF Tokens**.
 

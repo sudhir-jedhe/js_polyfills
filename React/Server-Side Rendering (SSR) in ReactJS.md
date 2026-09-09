@@ -1,4 +1,4 @@
-*** copy Server-Side Rendering (SSR) in ReactJS.md ***
+***  Server-Side Rendering (SSR) in ReactJS.md ***
 
 🌟 Server-Side Rendering (SSR) in ReactJs is a technique where React applications generate HTML on the server instead of in the browser.
 

@@ -1,4 +1,4 @@
-*** copy number-is-prime-or-not.md ***
+***  number-is-prime-or-not.md ***
 
 ```js
 // Function to check prime number

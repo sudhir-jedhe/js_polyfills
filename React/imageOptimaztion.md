@@ -1,4 +1,4 @@
-*** copy imageOptimaztion.md ***
+***  imageOptimaztion.md ***
 
 # Complete Frontend Engineer Roadmap: Image Optimisation & Delivery
 

@@ -1,4 +1,4 @@
-*** copy countDigitOne.md ***
+***  countDigitOne.md ***
 
 Both of the functions you've written aim to count how many times the digit **1** appears in all numbers from **1** to **n**. The logic of both functions is based on processing each digit of **n** and examining how many times **1** can appear at that digit's position.
 

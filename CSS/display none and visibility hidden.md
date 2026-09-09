@@ -1,4 +1,4 @@
-*** copy display none and visibility hidden.md ***
+***  display none and visibility hidden.md ***
 
 The difference between **`display: none`** and **`visibility: hidden`** in CSS is subtle but important when it comes to layout behavior and accessibility. Both properties hide an element, but they do so in different ways. Here's a comparison:
 

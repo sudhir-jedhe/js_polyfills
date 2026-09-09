@@ -1,4 +1,4 @@
-*** copy DSA quiz in js.md ***
+***  DSA quiz in js.md ***
 
 Here are JavaScript implementations for some common data structures and algorithms (DSA) tasks:
 

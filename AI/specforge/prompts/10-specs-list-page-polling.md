@@ -1,4 +1,4 @@
-*** copy 10-specs-list-page-polling.md ***
+***  10-specs-list-page-polling.md ***
 
 Use @specs/10-specs-list-page-polling.md as the source of truth.
 

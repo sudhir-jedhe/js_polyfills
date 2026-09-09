@@ -1,4 +1,4 @@
-*** copy Suspense and Lazy Loading in React.md ***
+***  Suspense and Lazy Loading in React.md ***
 
 ### **Suspense and Lazy Loading in React**
 

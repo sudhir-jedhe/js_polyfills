@@ -1,4 +1,4 @@
-*** copy chainablePromise.md ***
+***  chainablePromise.md ***
 
 # How can you combine method chaining with Promise.all to run steps concurrently in JavaScript?
 

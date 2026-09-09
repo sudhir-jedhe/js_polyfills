@@ -1,4 +1,4 @@
-*** copy find-the-largest-divisor-subset-in-the-array.md ***
+***  find-the-largest-divisor-subset-in-the-array.md ***
 
 ```js
 // Input: arr[] = {1, 2, 3, 4, 5}

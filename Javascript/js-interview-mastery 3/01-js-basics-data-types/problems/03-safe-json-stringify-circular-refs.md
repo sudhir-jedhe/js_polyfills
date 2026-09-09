@@ -1,4 +1,4 @@
-*** copy 03-safe-json-stringify-circular-refs.md ***
+***  03-safe-json-stringify-circular-refs.md ***
 
 # Problem: Safe `JSON.stringify` That Handles Circular References
 

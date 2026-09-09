@@ -1,4 +1,4 @@
-*** copy 1-linked-list.md ***
+***  1-linked-list.md ***
 
 // Linked List in Javascript
 

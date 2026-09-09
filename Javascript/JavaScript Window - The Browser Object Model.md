@@ -1,4 +1,4 @@
-*** copy JavaScript Window - The Browser Object Model.md ***
+***  JavaScript Window - The Browser Object Model.md ***
 
 The **Browser Object Model (BOM)** allows JavaScript to interact with the web browser outside the core HTML DOM.
 

@@ -1,4 +1,4 @@
-*** copy spreadOperator.md ***
+***  spreadOperator.md ***
 
 ### Code Walkthrough:
 

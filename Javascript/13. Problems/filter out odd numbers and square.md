@@ -1,4 +1,4 @@
-*** copy filter out odd numbers and square.md ***
+***  filter out odd numbers and square.md ***
 
 Here are the standard ways to filter out odd numbers and square them in JavaScript:
 

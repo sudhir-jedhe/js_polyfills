@@ -1,4 +1,4 @@
-*** copy Bitmasks.md ***
+***  Bitmasks.md ***
 
 A **Bitmask Permission System** stores multiple boolean flags inside a single integer using binary bit positions. Rather than storing an array of permission strings like `['READ', 'WRITE', 'DELETE']` or separate database columns for every role, bitmasks represent each permission as a single bit flag ($2^0, 2^1, 2^2, 2^3, \dots$).
 

@@ -1,4 +1,4 @@
-*** copy upperize-lowerize-object-keys.md ***
+***  upperize-lowerize-object-keys.md ***
 
 To convert the keys of an object to either uppercase or lowercase, you're correctly using `Object.keys()` to get the keys, and then applying `reduce()` to create a new object with modified keys. Let's break down the examples you provided for better clarity.
 

@@ -1,4 +1,4 @@
-*** copy 03-context-vs-state-libraries.md ***
+***  03-context-vs-state-libraries.md ***
 
 # Interview Q&A: Context vs External State Libraries
 

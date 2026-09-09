@@ -1,4 +1,4 @@
-*** copy recursive.md ***
+***  recursive.md ***
 
 Both versions of the `classNames` function you provided are effectively similar, with one being written in plain JavaScript and the other in TypeScript. Below is a breakdown of the implementation:
 

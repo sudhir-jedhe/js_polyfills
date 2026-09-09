@@ -1,4 +1,4 @@
-*** copy traverseDomByLevels.md ***
+***  traverseDomByLevels.md ***
 
 ### Problem Description
 

@@ -1,4 +1,4 @@
-*** copy How do I animate height: auto using pure CSS interpolate-size and transition without JavaScript in Tailwind CSS?.md ***
+***  How do I animate height: auto using pure CSS interpolate-size and transition without JavaScript in Tailwind CSS?.md ***
 
 The modern CSS property **`interpolate-size: allow-keywords`** allows browsers to smoothly animate intrinsic sizing keywords (like `height: auto`, `min-content`, and `max-content`) using standard CSS transitions without JavaScript calculations.
 

@@ -1,4 +1,4 @@
-*** copy How would you handle long-running tasks or expensive computations in React applications without blocking the UI?.md ***
+***  How would you handle long-running tasks or expensive computations in React applications without blocking the UI?.md ***
 
 **How would you handle long-running tasks or expensive computations in React applications without blocking the UI?**
 

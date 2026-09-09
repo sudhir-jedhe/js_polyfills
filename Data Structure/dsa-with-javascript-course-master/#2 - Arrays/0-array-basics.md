@@ -1,4 +1,4 @@
-*** copy 0-array-basics.md ***
+***  0-array-basics.md ***
 
 // Arrays in Javascript
 

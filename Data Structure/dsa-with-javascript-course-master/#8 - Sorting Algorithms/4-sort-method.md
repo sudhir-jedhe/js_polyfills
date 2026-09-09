@@ -1,4 +1,4 @@
-*** copy 4-sort-method.md ***
+***  4-sort-method.md ***
 
 // Sort() Method in Javascript
 

@@ -1,4 +1,4 @@
-*** copy 06-why-refs-bypass-declarative-model.md ***
+***  06-why-refs-bypass-declarative-model.md ***
 
 # Why refs are an escape hatch, not a substitute for state
 

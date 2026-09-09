@@ -1,4 +1,4 @@
-*** copy 04-callback-prop-instead-of-mutation.md ***
+***  04-callback-prop-instead-of-mutation.md ***
 
 # Passing a Callback Prop Instead of Mutating Props Directly
 

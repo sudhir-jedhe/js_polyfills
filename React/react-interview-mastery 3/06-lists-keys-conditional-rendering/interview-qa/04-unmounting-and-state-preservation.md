@@ -1,4 +1,4 @@
-*** copy 04-unmounting-and-state-preservation.md ***
+***  04-unmounting-and-state-preservation.md ***
 
 # Interview Q&A: Unmounting and State Preservation
 

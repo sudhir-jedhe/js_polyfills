@@ -1,4 +1,4 @@
-*** copy merge.md ***
+***  merge.md ***
 
 ### **Array Merging and Spread/Concat Handling**
 

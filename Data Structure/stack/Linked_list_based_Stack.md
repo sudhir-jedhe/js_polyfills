@@ -1,4 +1,4 @@
-*** copy Linked_list_based_Stack.md ***
+***  Linked_list_based_Stack.md ***
 
 class Node {
   constructor(value) {

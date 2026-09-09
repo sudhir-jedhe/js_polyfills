@@ -1,4 +1,4 @@
-*** copy proxy1.md ***
+***  proxy1.md ***
 
 ### Explanation of the Given Code and Concepts
 

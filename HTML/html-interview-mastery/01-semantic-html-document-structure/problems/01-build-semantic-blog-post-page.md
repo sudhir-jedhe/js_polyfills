@@ -1,4 +1,4 @@
-*** copy 01-build-semantic-blog-post-page.md ***
+***  01-build-semantic-blog-post-page.md ***
 
 # Problem: Build a Semantic Blog Post Page
 

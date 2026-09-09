@@ -1,4 +1,4 @@
-*** copy 06-composition-instead-of-prop-drilling.md ***
+***  06-composition-instead-of-prop-drilling.md ***
 
 # Composition Instead of Prop Drilling — Pass a Built Element Down
 

@@ -1,4 +1,4 @@
-*** copy compareEvents.md ***
+***  compareEvents.md ***
 
 ### Client-Server Real-Time Communication Protocols
 

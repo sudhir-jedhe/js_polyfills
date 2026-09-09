@@ -1,4 +1,4 @@
-*** copy Stepper.md ***
+***  Stepper.md ***
 
 ```js
 // IT will accept a list of components

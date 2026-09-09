@@ -1,4 +1,4 @@
-*** copy 05-forwardref-focus.md ***
+***  05-forwardref-focus.md ***
 
 # Snippet: forwardRef so a parent can focus a custom input component
 

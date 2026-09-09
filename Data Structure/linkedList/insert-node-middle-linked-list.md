@@ -1,4 +1,4 @@
-*** copy insert-node-middle-linked-list.md ***
+***  insert-node-middle-linked-list.md ***
 
 // Input : list: 1->2->4->5, x = 3
 // Output : 1->2->3->4->5

@@ -1,4 +1,4 @@
-*** copy polyfills.md ***
+***  polyfills.md ***
 
 ✅ call()
 ✅ apply()

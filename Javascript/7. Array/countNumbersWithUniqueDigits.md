@@ -1,4 +1,4 @@
-*** copy countNumbersWithUniqueDigits.md ***
+***  countNumbersWithUniqueDigits.md ***
 
 ### Problem Overview:
 You want to count how many numbers up to a given number `n` have **unique digits**. This means no digit is repeated in any given number.

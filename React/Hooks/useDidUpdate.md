@@ -1,4 +1,4 @@
-*** copy useDidUpdate.md ***
+***  useDidUpdate.md ***
 
 `useDidUpdate` is a custom hook that behaves like `useEffect`, **but skips the initial render** and only runs on updates.
 

@@ -1,4 +1,4 @@
-*** copy split-array-into-chuck-size.md ***
+***  split-array-into-chuck-size.md ***
 
 ```js
 export function chunkArray(arr, size) {

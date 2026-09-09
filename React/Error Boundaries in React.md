@@ -1,4 +1,4 @@
-*** copy Error Boundaries in React.md ***
+***  Error Boundaries in React.md ***
 
 ### **Error Boundaries in React**
 

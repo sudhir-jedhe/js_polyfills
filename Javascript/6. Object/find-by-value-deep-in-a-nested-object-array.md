@@ -1,4 +1,4 @@
-*** copy find-by-value-deep-in-a-nested-object-array.md ***
+***  find-by-value-deep-in-a-nested-object-array.md ***
 
 The code you're using aims to search for an object that contains a specific key-value pair, even if it exists deeply nested within the object. However, there are a couple of issues in the original `findNested` function, and I'll go over them to help you get it working correctly.
 

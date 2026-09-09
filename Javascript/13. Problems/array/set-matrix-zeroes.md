@@ -1,4 +1,4 @@
-*** copy set-matrix-zeroes.md ***
+***  set-matrix-zeroes.md ***
 
 ```js
 Given a matrix if there is any value which is zero then set all the values in that column and row as zeroes.

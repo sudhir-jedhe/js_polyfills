@@ -1,4 +1,4 @@
-*** copy Explain advanced code-splitting and manualChunks configurations for production builds in Vite.md ***
+***  Explain advanced code-splitting and manualChunks configurations for production builds in Vite.md ***
 
 Vite delegates its production bundling to **Rollup**, which means code-splitting is controlled via `build.rollupOptions.output.manualChunks`. Proper chunk splitting maximizes browser caching, reduces initial download sizes, and prevents massive single-bundle bottlenecks.
 

@@ -1,4 +1,4 @@
-*** copy Explain how React Fiber's Lane model prioritizes updates like user input over data fetching.md ***
+***  Explain how React Fiber's Lane model prioritizes updates like user input over data fetching.md ***
 
 In React 18 and beyond, the Fiber reconciler manages update priorities using a bitmask-based architecture called the **Lane Model**.
 

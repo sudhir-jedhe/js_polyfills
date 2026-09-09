@@ -1,4 +1,4 @@
-*** copy formatMoney.md ***
+***  formatMoney.md ***
 
 ```js
 formatMoney(123); // Output: $123.00

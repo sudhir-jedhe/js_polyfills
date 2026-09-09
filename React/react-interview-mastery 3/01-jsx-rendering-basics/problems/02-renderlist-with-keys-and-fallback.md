@@ -1,4 +1,4 @@
-*** copy 02-renderlist-with-keys-and-fallback.md ***
+***  02-renderlist-with-keys-and-fallback.md ***
 
 # Problem: Implement `renderList(items, renderItem)`
 
